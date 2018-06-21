@@ -1,0 +1,17 @@
+# See the OWNERS docs: https://git.k8s.io/community/contributors/devel/owners.md
+
+aliases:
+  steering-committee:
+    - bgrant0607
+    - brendanburns
+    - derekwaynecarr
+    - jbeda
+    - michelleN
+    - philips
+    - pwittrock
+    - quinton-hoole
+    - sarahnovotny
+    - smarterclayton
+    - spiffxp
+    - thockin
+    - timothysc

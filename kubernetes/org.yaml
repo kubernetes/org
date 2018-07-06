@@ -88,6 +88,7 @@ members:
 - BaluDontu
 - bboreham
 - bdbauer
+- bencer
 - benjigoldberg
 - BenTheElder
 - bgrant0607-cc
@@ -177,6 +178,7 @@ members:
 - dougm
 - drinktee
 - dshulyak
+- DStorck
 - dubstack
 - duglin
 - ecordell
@@ -209,11 +211,13 @@ members:
 - font
 - foxish
 - fraenkel
+- frapposelli
 - freehan
 - Frostman
 - G-Harmon
 - gabrtv
 - gambol99
+- GaneshSPatil
 - geojaz
 - ghodss
 - gianrubio
@@ -343,13 +347,8 @@ members:
 - k8s-mirror-auth-pr-reviews
 - k8s-mirror-auth-proposals
 - k8s-mirror-auth-test-failures
-- k8s-mirror-azure-api-reviews
-- k8s-mirror-azure-bugs
-- k8s-mirror-azure-feature-requests
 - k8s-mirror-azure-misc
 - k8s-mirror-azure-pr-reviews
-- k8s-mirror-azure-proposals
-- k8s-mirror-azure-test-failures
 - k8s-mirror-cli-api-reviews
 - k8s-mirror-cli-bugs
 - k8s-mirror-cli-feature-requests
@@ -471,10 +470,12 @@ members:
 - maisem
 - marcoceppi
 - markturansky
+- marpaia
 - marun
 - mattf
 - mattfarina
 - matthiasr
+- matthyx
 - mattmoyer
 - mattthias
 - mbohlool
@@ -508,6 +509,7 @@ members:
 - mkumatag
 - mlmhl
 - mml
+- mohammedzee1000
 - monadic
 - monopole
 - mqliang
@@ -524,6 +526,7 @@ members:
 - nckturner
 - nebril
 - neolit123
+- nestorsalceda
 - ngtuna
 - nhlfr
 - nickchase
@@ -533,6 +536,7 @@ members:
 - nikhita
 - OddBloke
 - olekzabl
+- onyiny-ang
 - oomichi
 - p0lyn0mial
 - parispittman
@@ -610,6 +614,7 @@ members:
 - seanknox
 - seans3
 - SebastianM
+- sebastienvas
 - sebgoa
 - sethpollack
 - sgoings

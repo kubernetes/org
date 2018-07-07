@@ -1,0 +1,68 @@
+teams:
+  sig-contributor-experience-bugs:
+    description: Bugs relating to contributor-experience infrastructure, such as the
+      PR bot, mungegithub.
+    maintainers:
+    - cblecker
+    - grodrigues3
+    members:
+    - rmmh
+    privacy: closed
+  sig-contributor-experience-feature-requests:
+    description: Requests for features in contributor-experience infrastructure, such
+      as the PR bot, mungegithub.
+    maintainers:
+    - idvoretskyi
+    - cblecker
+    - grodrigues3
+    members:
+    - rmmh
+    privacy: closed
+  sig-contributor-experience-misc-use-only-as-a-last-resort:
+    description: Improve contributor productivity
+    maintainers:
+    - philips
+    - idvoretskyi
+    - lavalamp
+    - cblecker
+    - grodrigues3
+    - thockin
+    - pwittrock
+    - eparis
+    members:
+    - dims
+    - rmmh
+    - Kashomon
+    - pigmej
+    - foxish
+    - hongchaodeng
+    - jessfraz
+    - monopole
+    - xiang90
+    privacy: closed
+  sig-contributor-experience-pr-reviews:
+    description: PR reviews for contributor-experience infrastructure, such as the
+      PR bot, mungegithub.
+    maintainers:
+    - idvoretskyi
+    - cblecker
+    - grodrigues3
+    members:
+    - rmmh
+    privacy: closed
+  sig-contributor-experience-proposals:
+    description: Design proposals for new contributor-experience infrastructure, such
+      as bots, monitoring dashboards, portals, etc.
+    maintainers:
+    - cblecker
+    - grodrigues3
+    members:
+    - rmmh
+    privacy: closed
+  sig-contributor-experience-test-failures:
+    description: List to triage test failures for contributor-experience infrastructure,
+      such as the PR bot, mungegithub.
+    maintainers:
+    - cblecker
+    - grodrigues3
+    privacy: closed

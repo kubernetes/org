@@ -1,0 +1,15 @@
+name: Kubernetes Retired
+description: Kubernetes projects that are no longer actively maintained
+default_repository_permission: read
+has_organization_projects: true
+has_repository_projects: true
+members_can_create_repositories: false
+admins:
+- calebamiles
+- cblecker
+- fejta
+- grodrigues3
+- idvoretskyi
+- k8s-ci-robot
+- spiffxp
+- thelinuxfoundation

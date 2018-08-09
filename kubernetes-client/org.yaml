@@ -1,0 +1,40 @@
+name: Kubernetes Clients
+description: This organization hosts Kubernetes API client libraries.
+default_repository_permission: read
+has_organization_projects: true
+has_repository_projects: true
+members_can_create_repositories: false
+admins:
+- calebamiles
+- cblecker
+- fejta
+- grodrigues3
+- idvoretskyi
+- k8s-ci-robot
+- spiffxp
+- thelinuxfoundation
+members:
+- arschles
+- avinassh
+- bgrant0607
+- brejoc
+- bsherman
+- caesarxuchao
+- codevulture
+- dims
+- djkonro
+- dmyerscough
+- ebbeelsborg
+- flavio
+- krabhishek8260
+- lavalamp
+- lwander
+- mbohlool
+- mccullya
+- pokoli
+- sebgoa
+- SEJeff
+- skuda
+- strigazi
+- tomplus
+- webwurst

@@ -1,0 +1,29 @@
+sh_binary(
+    name = "update",
+    srcs = ["update.sh"],
+    args = [
+        "$(location //vendor/k8s.io/test-infra/prow/cmd/peribolos)",
+        "--config-path",
+        "$(location //config:config.yaml)",
+        "--fix-org",
+        "--fix-org-members",
+    ],
+    data = [
+        "//config:config.yaml",
+        "//vendor/k8s.io/test-infra/prow/cmd/peribolos",
+    ],
+)
+
+filegroup(
+    name = "package-srcs",
+    srcs = glob(["**"]),
+    tags = ["automanaged"],
+    visibility = ["//visibility:private"],
+)
+
+filegroup(
+    name = "all-srcs",
+    srcs = [":package-srcs"],
+    tags = ["automanaged"],
+    visibility = ["//visibility:public"],
+)

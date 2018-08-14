@@ -23,9 +23,6 @@ e.g. (at)kubernetes
 - (at)sponsor-2
 
 ### List of contributions to the Kubernetes project
-- <PR reviewed / authored>
-- <PR reviewed / authored>
-- <Issue responded to>
-- <Issue responded to>
-- <SIG project I am involved with>
-- <SIG project I am involved with>
+- PRs reviewed / authored
+- Issues responded to
+- SIG projects I am involved with

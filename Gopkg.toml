@@ -1,0 +1,11 @@
+required = [
+  "github.com/golang/dep/cmd/dep",
+  "github.com/golang/lint/golint",
+  "k8s.io/repo-infra/kazel",  
+  "k8s.io/test-infra/prow/cmd/peribolos",
+]
+
+[prune]
+  unused-packages = true
+  go-tests = true
+  non-go = true

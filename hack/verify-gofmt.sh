@@ -17,7 +17,7 @@ set -o errexit
 set -o nounset
 set -o pipefail
 
-diff=$(find . -name "*.go" | grep -v "\/vendor\/" | xargs gofmt -s -d 2>&1)
+diff=$(find . -name "*.go" | grep -v "\/vendor\/" | xargs bazel run //:gofmt -- -s -d)
 if [[ -n "${diff}" ]]; then
   echo "${diff}"
   echo

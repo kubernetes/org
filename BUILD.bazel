@@ -42,6 +42,11 @@ workspace_binary(
     cmd = "//vendor/k8s.io/repo-infra/kazel",
 )
 
+workspace_binary(
+    name = "gofmt",
+    cmd = "@go_sdk//:bin/gofmt",
+)
+
 filegroup(
     name = "package-srcs",
     srcs = glob(

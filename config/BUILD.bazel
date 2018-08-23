@@ -1,0 +1,45 @@
+load("@io_bazel_rules_go//go:def.bzl", "go_test")
+
+genrule(
+    name = "gen-config.yaml",
+    srcs = glob(["*/org.yaml"]),
+    outs = ["config.yaml"],
+    cmd = """
+parts=()
+for val in $(SRCS); do
+  key="$$(basename "$$(dirname "$$val")")"
+  parts+=(--org-part=$$key=$$val)
+done
+./$(location //cmd/merge) $${parts[@]} > $(location config.yaml)""",
+    tools = ["//cmd/merge"],
+    visibility = ["//visibility:public"],
+)
+
+go_test(
+    name = "go_default_test",
+    srcs = ["config_test.go"],
+    data = glob([
+        "*/org.yaml",
+        "*/OWNERS",
+    ]) + ["config.yaml"],
+    deps = [
+        "//vendor/github.com/ghodss/yaml:go_default_library",
+        "//vendor/k8s.io/apimachinery/pkg/util/sets:go_default_library",
+        "//vendor/k8s.io/test-infra/prow/config:go_default_library",
+        "//vendor/k8s.io/test-infra/prow/config/org:go_default_library",
+    ],
+)
+
+filegroup(
+    name = "package-srcs",
+    srcs = glob(["**"]),
+    tags = ["automanaged"],
+    visibility = ["//visibility:private"],
+)
+
+filegroup(
+    name = "all-srcs",
+    srcs = [":package-srcs"],
+    tags = ["automanaged"],
+    visibility = ["//visibility:public"],
+)

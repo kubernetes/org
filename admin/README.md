@@ -3,7 +3,7 @@
 Merge a PR that changes some `config/foo/org.yaml` and then run the following:
 ```shell
 # Displays what it would do without making changes until you add the confirm flag
-bazel run //admin:update -- --github-token ~/path-to-my-token # --confirm
+bazel run //admin:update -- --github-token-path ~/path-to-my-token # --confirm
 ```
 
 This will default to a dry-run mode, displaying what changes it intends to make without actually updating anything on github.

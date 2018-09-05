@@ -13,12 +13,19 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+if [[ $# -lt 6 ]]; then
+  echo "Usage: bazel run //admin:update -- --github-token-path ~/my/github/token # --confirm" >&2
+  exit 1
+fi
+
 set -o errexit
 set -o nounset
 set -o pipefail
 set -o xtrace
 
+pushd "$(dirname "$(realpath "$BASH_SOURCE")")"
 bazel test //config:all
+popd
 peribolos="$1"
 shift
 echo $@

@@ -14,8 +14,10 @@ admins:
 - spiffxp
 - thelinuxfoundation
 members:
+- amwat
 - ant31
 - apelisse
+- BenTheElder
 - bgrant0607
 - Birdrock
 - caesarxuchao
@@ -43,10 +45,12 @@ members:
 - jbeda
 - jberkus
 - jdumars
+- jennybuckley
 - jeremyrickard
 - justinsb
 - kow3ns
 - krmayankk
+- krzyzacy
 - lavalamp
 - lichuqiang
 - Liujingfang1
@@ -59,6 +63,7 @@ members:
 - mrbobbytables
 - mrunalp
 - msau42
+- munnerz
 - onyiny-ang
 - parispittman
 - philips

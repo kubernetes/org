@@ -7,7 +7,12 @@ sh_binary(
         "$(location //config:config.yaml)",
         "--fix-org",
         "--fix-org-members",
-        "--required-admins=calebamiles,cblecker,fejta,grodrigues3,idvoretskyi,spiffxp",
+        "--required-admins=calebamiles",
+        "--required-admins=cblecker",
+        "--required-admins=fejta",
+        "--required-admins=grodrigues3",
+        "--required-admins=idvoretskyi",
+        "--required-admins=spiffxp",
     ],
     data = [
         "//config:config.yaml",

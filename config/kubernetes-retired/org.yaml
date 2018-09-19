@@ -13,3 +13,5 @@ admins:
 - k8s-ci-robot
 - spiffxp
 - thelinuxfoundation
+members:
+- cblecker-sockpuppet

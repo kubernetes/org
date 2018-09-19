@@ -86,6 +86,14 @@ const (
 	acceptNone = ""
 )
 
+// Force the compiler to check if the TokenSource is implementing correctly.
+// Tokensource is needed to dynamically update the token in the GraphQL client.
+var _ oauth2.TokenSource = &reloadingTokenSource{}
+
+type reloadingTokenSource struct {
+	getToken func() []byte
+}
+
 // Interface for how prow interacts with the http client, which we may throttle.
 type httpClient interface {
 	Do(req *http.Request) (*http.Response, error)
@@ -193,10 +201,9 @@ func (c *Client) Throttle(hourlyTokens, burst int) {
 //   this client to bypass the cache if it is temporarily unavailable.
 func NewClient(getToken func() []byte, bases ...string) *Client {
 	return &Client{
-		logger: logrus.WithField("client", "github"),
-		time:   &standardTime{},
-		gqlc: githubql.NewClient(oauth2.NewClient(context.Background(),
-			oauth2.StaticTokenSource(&oauth2.Token{AccessToken: string(getToken())}))),
+		logger:   logrus.WithField("client", "github"),
+		time:     &standardTime{},
+		gqlc:     githubql.NewClient(&http.Client{Transport: &oauth2.Transport{Source: newReloadingTokenSource(getToken)}}),
 		client:   &http.Client{},
 		bases:    bases,
 		getToken: getToken,
@@ -214,10 +221,9 @@ func NewClient(getToken func() []byte, bases ...string) *Client {
 //   this client to bypass the cache if it is temporarily unavailable.
 func NewDryRunClient(getToken func() []byte, bases ...string) *Client {
 	return &Client{
-		logger: logrus.WithField("client", "github"),
-		time:   &standardTime{},
-		gqlc: githubql.NewClient(oauth2.NewClient(context.Background(),
-			oauth2.StaticTokenSource(&oauth2.Token{AccessToken: string(getToken())}))),
+		logger:   logrus.WithField("client", "github"),
+		time:     &standardTime{},
+		gqlc:     githubql.NewClient(&http.Client{Transport: &oauth2.Transport{Source: newReloadingTokenSource(getToken)}}),
 		client:   &http.Client{},
 		bases:    bases,
 		getToken: getToken,
@@ -255,12 +261,28 @@ type request struct {
 }
 
 type requestError struct {
-	ClientError
+	ClientError error
 	ErrorString string
 }
 
 func (r requestError) Error() string {
 	return r.ErrorString
+}
+
+func (r requestError) ErrorMessages() []string {
+	clientErr, isClientError := r.ClientError.(ClientError)
+	if isClientError {
+		errors := []string{}
+		for _, subErr := range clientErr.Errors {
+			errors = append(errors, subErr.Message)
+		}
+		return errors
+	}
+	alternativeClientErr, isAlternativeClientError := r.ClientError.(AlternativeClientError)
+	if isAlternativeClientError {
+		return alternativeClientErr.Errors
+	}
+	return []string{}
 }
 
 // Make a request with retries. If ret is not nil, unmarshal the response body
@@ -301,16 +323,13 @@ func (c *Client) requestRaw(r *request) (int, []byte, error) {
 		}
 	}
 	if !okCode {
-		clientError := ClientError{}
-		if err := json.Unmarshal(b, &clientError); err != nil {
-			return resp.StatusCode, b, err
-		}
-		return resp.StatusCode, b, requestError{
+		clientError := unmarshalClientError(b)
+		err = requestError{
 			ClientError: clientError,
 			ErrorString: fmt.Sprintf("status code %d not one of %v, body: %s", resp.StatusCode, r.exitCodes, string(b)),
 		}
 	}
-	return resp.StatusCode, b, nil
+	return resp.StatusCode, b, err
 }
 
 // Retry on transport failures. Retries on 500s, retries after sleep on
@@ -1546,11 +1565,11 @@ var _ error = (*StateCannotBeChanged)(nil)
 // convert to a StateCannotBeChanged if appropriate or else return the original error
 func stateCannotBeChangedOrOriginalError(err error) error {
 	requestErr, ok := err.(requestError)
-	if ok && len(requestErr.Errors) > 0 {
-		for _, subErr := range requestErr.Errors {
-			if strings.Contains(subErr.Message, stateCannotBeChangedMessagePrefix) {
+	if ok {
+		for _, errorMsg := range requestErr.ErrorMessages() {
+			if strings.Contains(errorMsg, stateCannotBeChangedMessagePrefix) {
 				return StateCannotBeChanged{
-					Message: subErr.Message,
+					Message: errorMsg,
 				}
 			}
 		}
@@ -2147,4 +2166,18 @@ func (c *Client) ListMilestones(org, repo string) ([]Milestone, error) {
 		return nil, err
 	}
 	return milestones, nil
+}
+
+// newReloadingTokenSource creates a reloadingTokenSource.
+func newReloadingTokenSource(getToken func() []byte) *reloadingTokenSource {
+	return &reloadingTokenSource{
+		getToken: getToken,
+	}
+}
+
+// Token is an implementation for oauth2.TokenSource interface.
+func (s *reloadingTokenSource) Token() (*oauth2.Token, error) {
+	return &oauth2.Token{
+		AccessToken: string(s.getToken()),
+	}, nil
 }

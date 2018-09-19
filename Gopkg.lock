@@ -624,7 +624,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:ebad32b2079491effebbbc56b0b4ff60e8ba8e2bb9537e40be2414a7cf16d4c9"
+  digest = "1:07eed97199e2fa919320316ac1fdcb03d02b5a43bd447eb697f3f6c90f177ac2"
   name = "k8s.io/test-infra"
   packages = [
     "prow/apis/prowjobs",
@@ -650,7 +650,7 @@
     "testgrid/util/gcs",
   ]
   pruneopts = "NUT"
-  revision = "d4287988de697c11d0cc05eff3e28a6d44790339"
+  revision = "36f61e588b7f3a9147100c9e2a9df2c3e7498418"
 
 [solve-meta]
   analyzer-name = "dep"

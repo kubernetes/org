@@ -20,6 +20,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"os"
+	"sort"
 	"strings"
 	"testing"
 
@@ -77,6 +78,15 @@ func testDuplicates(list []string) error {
 	return nil
 }
 
+func isSorted(list []string) bool {
+	items := make([]string, len(list))
+	for _, l := range list {
+		items = append(items, strings.ToLower(l))
+	}
+
+	return sort.StringsAreSorted(items)
+}
+
 func testOrg(targetDir string, t *testing.T) {
 	cfg, err := loadOrg(targetDir)
 	if err != nil {
@@ -124,6 +134,12 @@ func testOrg(targetDir string, t *testing.T) {
 	}
 	if err := testDuplicates(own.Approvers); err != nil {
 		t.Errorf("duplicate approvers: %v", err)
+	}
+	if !isSorted(cfg.Admins) {
+		t.Errorf("admins are unsorted")
+	}
+	if !isSorted(cfg.Members) {
+		t.Errorf("members are unsorted")
 	}
 }
 

@@ -26,3 +26,6 @@ e.g. (at)kubernetes
 - PRs reviewed / authored
 - Issues responded to
 - SIG projects I am involved with
+
+<!-- DO NOT EDIT BELOW THIS LINE -->
+/area github-membership

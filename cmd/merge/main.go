@@ -20,6 +20,8 @@ import (
 	"flag"
 	"fmt"
 	"io/ioutil"
+	"os"
+	"path/filepath"
 	"strings"
 
 	"k8s.io/test-infra/prow/config"
@@ -59,17 +61,29 @@ func (fm flagMap) Set(s string) error {
 	return nil
 }
 
+type options struct {
+	orgs        flagMap
+	mergeTeams  bool
+	ignoreTeams bool
+}
+
 func main() {
-	orgs := flagMap{}
-	flag.Var(orgs, "org-part", "Each instance adds an org-name=org.yaml part")
+	o := options{orgs: flagMap{}}
+	flag.Var(o.orgs, "org-part", "Each instance adds an org-name=org.yaml part")
+	flag.BoolVar(&o.mergeTeams, "merge-teams", false, "Merge team-name/team.yaml files in each org.yaml dir")
+	flag.BoolVar(&o.ignoreTeams, "ignore-teams", false, "Never configure teams")
 	flag.Parse()
 
 	for _, a := range flag.Args() {
 		logrus.Print("Extra", a)
-		orgs.Set(a)
+		o.orgs.Set(a)
 	}
 
-	cfg, err := loadOrgs(orgs)
+	if o.mergeTeams && o.ignoreTeams {
+		logrus.Fatal("--merge-teams xor --ignore-teams, not both")
+	}
+
+	cfg, err := loadOrgs(o)
 	if err != nil {
 		logrus.Fatalf("Failed to load orgs: %v", err)
 	}
@@ -80,19 +94,59 @@ func main() {
 	fmt.Println(string(out))
 }
 
-func loadOrgs(parts map[string]string) (map[string]org.Config, error) {
+func unmarshal(path string) (*org.Config, error) {
+	buf, err := ioutil.ReadFile(path)
+	if err != nil {
+		return nil, fmt.Errorf("read: %v", path, err)
+	}
+	var cfg org.Config
+	if err := yaml.Unmarshal(buf, &cfg); err != nil {
+		return nil, fmt.Errorf("unmarshal: %v", path, err)
+	}
+	return &cfg, nil
+}
+
+func loadOrgs(o options) (map[string]org.Config, error) {
 	config := map[string]org.Config{}
-	for name, path := range parts {
-		buf, err := ioutil.ReadFile(path)
+	for name, path := range o.orgs {
+		cfg, err := unmarshal(path)
 		if err != nil {
-			return nil, fmt.Errorf("read %s: %v", path, err)
+			return nil, fmt.Errorf("error in %s: %v", path, err)
 		}
-		var cfg org.Config
-		if err := yaml.Unmarshal(buf, &cfg); err != nil {
-			return nil, fmt.Errorf("unmarshal %s: %v", path, err)
+		switch {
+		case o.ignoreTeams:
+			cfg.Teams = nil
+		case o.mergeTeams:
+			if cfg.Teams == nil {
+				cfg.Teams = map[string]org.Team{}
+			}
+			prefix := filepath.Dir(path)
+			err := filepath.Walk(prefix, func(path string, info os.FileInfo, err error) error {
+				switch {
+				case path == prefix:
+					return nil // Skip base dir
+				case info.IsDir() && filepath.Dir(path) != prefix:
+					logrus.Infof("Skipping %s and its children", path)
+					return filepath.SkipDir // Skip prefix/foo/bar/ dirs
+				case !info.IsDir() && filepath.Dir(path) == prefix:
+					return nil // Ignore prefix/foo files
+				case filepath.Base(path) == "teams.yaml":
+					teamCfg, err := unmarshal(path)
+					if err != nil {
+						return fmt.Errorf("error in %s: %v", path, err)
+					}
+
+					for name, team := range teamCfg.Teams {
+						cfg.Teams[name] = team
+					}
+				}
+				return nil
+			})
+			if err != nil {
+				return nil, fmt.Errorf("merge teams %s: %v", path, err)
+			}
 		}
-		cfg.Teams = nil // TODO(fejta): support reading team parts
-		config[name] = cfg
+		config[name] = *cfg
 	}
 	return config, nil
 }

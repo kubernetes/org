@@ -10,7 +10,7 @@ for val in $(SRCS); do
   key="$$(basename "$$(dirname "$$val")")"
   parts+=(--org-part=$$key=$$val)
 done
-./$(location //cmd/merge) $${parts[@]} > $(location config.yaml)""",
+./$(location //cmd/merge) --ignore-teams $${parts[@]} > $(location config.yaml)""",
     tools = ["//cmd/merge"],
     visibility = ["//visibility:public"],
 )

@@ -30,6 +30,6 @@ load("@bazel_gazelle//:deps.bzl", "gazelle_dependencies")
 
 git_repository(
     name = "io_kubernetes_build",
-    commit = "4ce715fbe67d8fbed05ec2bb47a148e754100a4b",
+    commit = "e8f2f7c3decf03e1fde9f30d249e39b8328aa8b0",
     remote = "https://github.com/kubernetes/repo-infra.git",
 )

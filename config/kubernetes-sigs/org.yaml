@@ -14,12 +14,14 @@ admins:
 - spiffxp
 - thelinuxfoundation
 members:
+- akutz
 - alvaroaleman
 - ameukam
 - amwat
 - andrewsykim
 - ant31
 - apelisse
+- atoms
 - BenTheElder
 - bertinatto
 - bgrant0607
@@ -28,6 +30,7 @@ members:
 - caesarxuchao
 - carolynvs
 - castrojo
+- chadswen
 - chaosaffe
 - childsb
 - christopherhein
@@ -86,9 +89,11 @@ members:
 - marquiz
 - marun
 - mattfarina
+- mattymo
 - mcrute
 - mengqiy
 - michelleN
+- mirwan
 - monopole
 - mrbobbytables
 - mrunalp
@@ -108,6 +113,7 @@ members:
 - Random-Liu
 - randomvariable
 - rhatdan
+- riverzhang
 - roberthbailey
 - robinpercy
 - runcom
@@ -123,6 +129,7 @@ members:
 - verult
 - vincepri
 - wongma7
+- woopstar
 - xmudrii
 - yliaog
 - yujuhong

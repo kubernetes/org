@@ -9,7 +9,7 @@ go_library(
     importmap = "k8s.io/org/vendor/github.com/golang/lint/golint",
     importpath = "github.com/golang/lint/golint",
     visibility = ["//visibility:private"],
-    deps = ["//vendor/golang.org/x/lint:go_default_library"],
+    deps = ["//vendor/github.com/golang/lint:go_default_library"],
 )
 
 go_binary(

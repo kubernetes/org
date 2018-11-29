@@ -18,6 +18,7 @@ package github
 
 import (
 	"encoding/json"
+	"fmt"
 	"strings"
 	"time"
 
@@ -139,6 +140,7 @@ type Status struct {
 
 // CombinedStatus is the latest statuses for a ref.
 type CombinedStatus struct {
+	SHA      string   `json:"sha"`
 	Statuses []Status `json:"statuses"`
 }
 
@@ -271,6 +273,7 @@ type PullRequestChange struct {
 }
 
 // Repo contains general repository information.
+// See also https://developer.github.com/v3/repos/#get
 type Repo struct {
 	Owner         User   `json:"owner"`
 	Name          string `json:"name"`
@@ -278,6 +281,7 @@ type Repo struct {
 	HTMLURL       string `json:"html_url"`
 	Fork          bool   `json:"fork"`
 	DefaultBranch string `json:"default_branch"`
+	Archived      bool   `json:"archived"`
 }
 
 // Branch contains general branch information.
@@ -295,6 +299,14 @@ type BranchProtectionRequest struct {
 	EnforceAdmins              *bool                       `json:"enforce_admins"`
 	RequiredPullRequestReviews *RequiredPullRequestReviews `json:"required_pull_request_reviews"`
 	Restrictions               *Restrictions               `json:"restrictions"`
+}
+
+func (r BranchProtectionRequest) String() string {
+	bytes, err := json.Marshal(&r)
+	if err != nil {
+		return fmt.Sprintf("%#v", r)
+	}
+	return string(bytes)
 }
 
 // RequiredStatusChecks specifies which contexts must pass to merge.
@@ -482,8 +494,10 @@ type PushEvent struct {
 	Ref     string   `json:"ref"`
 	Before  string   `json:"before"`
 	After   string   `json:"after"`
+	Created bool     `json:"created"`
+	Deleted bool     `json:"deleted"`
+	Forced  bool     `json:"forced"`
 	Compare string   `json:"compare"`
-	Size    int      `json:"size"`
 	Commits []Commit `json:"commits"`
 	// Pusher is the user that pushed the commit, valid in a webhook event.
 	Pusher User `json:"pusher"`
@@ -508,6 +522,16 @@ type Commit struct {
 	Added    []string `json:"added"`
 	Removed  []string `json:"removed"`
 	Modified []string `json:"modified"`
+}
+
+// SingleCommit is the commit part received when requesting a single commit
+// https://developer.github.com/v3/repos/commits/#get-a-single-commit
+type SingleCommit struct {
+	Commit struct {
+		Tree struct {
+			SHA string `json:"sha"`
+		} `json:"tree"`
+	} `json:"commit"`
 }
 
 // ReviewEventAction enumerates the triggers for this

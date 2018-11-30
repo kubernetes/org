@@ -33,7 +33,9 @@ go_library(
         "//vendor/k8s.io/apimachinery/pkg/runtime/schema:go_default_library",
         "//vendor/k8s.io/apimachinery/pkg/util/errors:go_default_library",
         "//vendor/k8s.io/apimachinery/pkg/util/json:go_default_library",
+        "//vendor/k8s.io/apimachinery/pkg/util/naming:go_default_library",
         "//vendor/k8s.io/apimachinery/pkg/util/runtime:go_default_library",
+        "//vendor/k8s.io/apimachinery/pkg/util/sets:go_default_library",
     ],
 )
 
@@ -49,6 +51,7 @@ filegroup(
     srcs = [
         ":package-srcs",
         "//vendor/k8s.io/apimachinery/pkg/runtime/schema:all-srcs",
+        "//vendor/k8s.io/apimachinery/pkg/runtime/serializer:all-srcs",
     ],
     tags = ["automanaged"],
     visibility = ["//visibility:public"],

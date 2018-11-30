@@ -20,7 +20,6 @@ import (
 	"encoding/json"
 	"errors"
 	"flag"
-	"fmt"
 
 	"k8s.io/test-infra/prow/kube"
 	"k8s.io/test-infra/testgrid/util/gcs"
@@ -73,15 +72,7 @@ func (o *Options) Validate() error {
 		}
 	}
 
-	if o.PathStrategy != kube.PathStrategyLegacy && o.PathStrategy != kube.PathStrategyExplicit && o.PathStrategy != kube.PathStrategySingle {
-		return fmt.Errorf("GCS path strategy must be one of %q, %q, or %q", kube.PathStrategyLegacy, kube.PathStrategyExplicit, kube.PathStrategySingle)
-	}
-
-	if o.PathStrategy != kube.PathStrategyExplicit && (o.DefaultOrg == "" || o.DefaultRepo == "") {
-		return fmt.Errorf("default org and repo must be provided for GCS strategy %q", o.PathStrategy)
-	}
-
-	return nil
+	return o.GCSConfiguration.Validate()
 }
 
 // ConfigVar exposes the environment variable used
@@ -95,28 +86,23 @@ func (o *Options) LoadConfig(config string) error {
 	return json.Unmarshal([]byte(config), o)
 }
 
-// BindOptions binds flags to options
-func (o *Options) BindOptions(flags *flag.FlagSet) {
-	BindOptions(o, flags)
-}
-
 // Complete internalizes command line arguments
 func (o *Options) Complete(args []string) {
 	o.Items = args
 }
 
-// BindOptions adds flags to the FlagSet that populate
+// AddFlags adds flags to the FlagSet that populate
 // the GCS upload options struct given.
-func BindOptions(options *Options, fs *flag.FlagSet) {
-	fs.StringVar(&options.SubDir, "sub-dir", "", "Optional sub-directory of the job's path to which artifacts are uploaded")
+func (o *Options) AddFlags(fs *flag.FlagSet) {
+	fs.StringVar(&o.SubDir, "sub-dir", "", "Optional sub-directory of the job's path to which artifacts are uploaded")
 
-	fs.StringVar(&options.PathStrategy, "path-strategy", kube.PathStrategyExplicit, "how to encode org and repo into GCS paths")
-	fs.StringVar(&options.DefaultOrg, "default-org", "", "optional default org for GCS path encoding")
-	fs.StringVar(&options.DefaultRepo, "default-repo", "", "optional default repo for GCS path encoding")
+	fs.StringVar(&o.PathStrategy, "path-strategy", kube.PathStrategyExplicit, "how to encode org and repo into GCS paths")
+	fs.StringVar(&o.DefaultOrg, "default-org", "", "optional default org for GCS path encoding")
+	fs.StringVar(&o.DefaultRepo, "default-repo", "", "optional default repo for GCS path encoding")
 
-	fs.Var(&options.gcsPath, "gcs-path", "GCS path to upload into")
-	fs.StringVar(&options.GcsCredentialsFile, "gcs-credentials-file", "", "file where Google Cloud authentication credentials are stored")
-	fs.BoolVar(&options.DryRun, "dry-run", true, "do not interact with GCS")
+	fs.Var(&o.gcsPath, "gcs-path", "GCS path to upload into")
+	fs.StringVar(&o.GcsCredentialsFile, "gcs-credentials-file", "", "file where Google Cloud authentication credentials are stored")
+	fs.BoolVar(&o.DryRun, "dry-run", true, "do not interact with GCS")
 }
 
 const (

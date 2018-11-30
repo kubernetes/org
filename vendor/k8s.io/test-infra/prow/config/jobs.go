@@ -21,8 +21,9 @@ import (
 	"regexp"
 	"time"
 
-	"k8s.io/api/core/v1"
+	buildv1alpha1 "github.com/knative/build/pkg/apis/build/v1alpha1"
 
+	"k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/test-infra/prow/kube"
 )
@@ -76,18 +77,40 @@ func mergePreset(preset Preset, labels map[string]string, pod *v1.PodSpec) error
 	return nil
 }
 
-// Presubmit runs on PRs.
-type Presubmit struct {
-	// The name of the job.
+// JobBase contains attributes common to all job types
+type JobBase struct {
+	// The name of the job. Must match regex [A-Za-z0-9-._]+
 	// e.g. pull-test-infra-bazel-build
 	Name string `json:"name"`
 	// Labels are added to prowjobs and pods created for this job.
 	Labels map[string]string `json:"labels,omitempty"`
+	// MaximumConcurrency of this job, 0 implies no limit.
+	MaxConcurrency int `json:"max_concurrency,omitempty"`
+	// Agent that will take care of running this job.
+	Agent string `json:"agent"`
+	// Cluster is the alias of the cluster to run this job in.
+	// (Default: kube.DefaultClusterAlias)
+	Cluster string `json:"cluster,omitempty"`
+	// Namespace is the namespace in which pods schedule.
+	//   nil: results in config.PodNamespace (aka pod default)
+	//   empty: results in config.ProwJobNamespace (aka same as prowjob)
+	Namespace *string `json:"namespace,omitempty"`
+	// SourcePath contains the path where this job is defined
+	SourcePath string `json:"-"`
+	// Spec is the Kubernetes pod spec used if Agent is kubernetes.
+	Spec *v1.PodSpec `json:"spec,omitempty"`
+	// BuildSpec is the Knative build spec used if Agent is knative-build.
+	BuildSpec *buildv1alpha1.BuildSpec `json:"build_spec,omitempty"`
+
+	UtilityConfig
+}
+
+// Presubmit runs on PRs.
+type Presubmit struct {
+	JobBase
 
 	// AlwaysRun automatically for every PR, or only when a comment triggers it.
 	AlwaysRun bool `json:"always_run"`
-	// RunIfChanged automatically run if the PR modifies a file that matches this regex.
-	RunIfChanged string `json:"run_if_changed,omitempty"`
 
 	// Context is the name of the GitHub status context for the job.
 	Context string `json:"context"`
@@ -106,68 +129,33 @@ type Presubmit struct {
 	// (Default: `/test <job name>`)
 	RerunCommand string `json:"rerun_command"`
 
-	// MaximumConcurrency of this job, 0 implies no limit.
-	MaxConcurrency int `json:"max_concurrency,omitempty"`
-	// Agent that will take care of running this job.
-	Agent string `json:"agent"`
-	// Cluster is the alias of the cluster to run this job in.
-	// (Default: kube.DefaultClusterAlias)
-	Cluster string `json:"cluster,omitempty"`
-
-	// Spec is the Kubernetes pod spec used if Agent is Kubernetes.
-	Spec *v1.PodSpec `json:"spec,omitempty"`
-
 	// RunAfterSuccess is a list of jobs to run after successfully running this one.
 	RunAfterSuccess []Presubmit `json:"run_after_success,omitempty"`
 
 	Brancher
 
-	UtilityConfig
+	RegexpChangeMatcher
 
 	// We'll set these when we load it.
-	re        *regexp.Regexp // from Trigger.
-	reChanges *regexp.Regexp // from RunIfChanged
-
-	// SourcePath contains the path where this job is defined
-	SourcePath string `json:"-"`
+	re *regexp.Regexp // from Trigger.
 }
 
 // Postsubmit runs on push events.
 type Postsubmit struct {
-	Name string `json:"name"`
-	// Labels are added in prowjobs created for this job.
-	Labels map[string]string `json:"labels,omitempty"`
-	// Agent that will take care of running this job.
-	Agent string `json:"agent"`
-	// Cluster is the alias of the cluster to run this job in. (Default: kube.DefaultClusterAlias)
-	Cluster string `json:"cluster,omitempty"`
-	// Kubernetes pod spec.
-	Spec *v1.PodSpec `json:"spec,omitempty"`
-	// Maximum number of this job running concurrently, 0 implies no limit.
-	MaxConcurrency int `json:"max_concurrency,omitempty"`
+	JobBase
+
+	RegexpChangeMatcher
 
 	Brancher
 
-	UtilityConfig
-
 	// Run these jobs after successfully running this one.
 	RunAfterSuccess []Postsubmit `json:"run_after_success,omitempty"`
-
-	// SourcePath contains the path where this job is defined
-	SourcePath string `json:"-"`
 }
 
 // Periodic runs on a timer.
 type Periodic struct {
-	Name string `json:"name"`
-	// Labels are added in prowjobs created for this job.
-	Labels map[string]string `json:"labels,omitempty"`
-	// Agent that will take care of running this job.
-	Agent string `json:"agent"`
-	// Cluster is the alias of the cluster to run this job in. (Default: kube.DefaultClusterAlias)
-	Cluster string `json:"cluster,omitempty"`
-	// Kubernetes pod spec.
-	Spec *v1.PodSpec `json:"spec,omitempty"`
+	JobBase
+
 	// (deprecated)Interval to wait between two runs of the job.
 	Interval string `json:"interval"`
 	// Cron representation of job trigger time
@@ -177,12 +165,7 @@ type Periodic struct {
 	// Run these jobs after successfully running this one.
 	RunAfterSuccess []Periodic `json:"run_after_success,omitempty"`
 
-	UtilityConfig
-
 	interval time.Duration
-
-	// SourcePath contains the path where this job is defined
-	SourcePath string `json:"-"`
 }
 
 // SetInterval updates interval, the frequency duration it runs.
@@ -206,6 +189,14 @@ type Brancher struct {
 	// We'll set these when we load it.
 	re     *regexp.Regexp
 	reSkip *regexp.Regexp
+}
+
+// RegexpChangeMatcher is for code shared between jobs that run only when certain files are changed.
+type RegexpChangeMatcher struct {
+	// RunIfChanged defines a regex used to select which subset of file changes should trigger this job.
+	// If any file in the changeset matches this regex, the job will be triggered
+	RunIfChanged string         `json:"run_if_changed,omitempty"`
+	reChanges    *regexp.Regexp // from RunIfChanged
 }
 
 // RunsAgainstAllBranch returns true if there are both branches and skip_branches are unset
@@ -256,9 +247,12 @@ func (br Brancher) Intersects(other Brancher) bool {
 }
 
 // RunsAgainstChanges returns true if any of the changed input paths match the run_if_changed regex.
-func (ps Presubmit) RunsAgainstChanges(changes []string) bool {
+func (cm RegexpChangeMatcher) RunsAgainstChanges(changes []string) bool {
+	if cm.RunIfChanged == "" {
+		return true
+	}
 	for _, change := range changes {
-		if ps.reChanges.MatchString(change) {
+		if cm.reChanges.MatchString(change) {
 			return true
 		}
 	}
@@ -322,10 +316,13 @@ type UtilityConfig struct {
 	// repository. If unset, will default to
 	// `https://github.com/org/repo.git`.
 	CloneURI string `json:"clone_uri,omitempty"`
+	// SkipSubmodules determines if submodules should be
+	// cloned when the job is run. Defaults to true.
+	SkipSubmodules bool `json:"skip_submodules,omitempty"`
 
 	// ExtraRefs are auxiliary repositories that
 	// need to be cloned, determined from config
-	ExtraRefs []*kube.Refs `json:"extra_refs,omitempty"`
+	ExtraRefs []kube.Refs `json:"extra_refs,omitempty"`
 
 	// DecorationConfig holds configuration options for
 	// decorating PodSpecs that users provide
@@ -361,7 +358,7 @@ func (c *JobConfig) GetPresubmit(repo, jobName string) *Presubmit {
 	return nil
 }
 
-// SetPresubmits updates c.Presubmits to jobs, after compiling and validing their regexes.
+// SetPresubmits updates c.Presubmits to jobs, after compiling and validating their regexes.
 func (c *JobConfig) SetPresubmits(jobs map[string][]Presubmit) error {
 	nj := map[string][]Presubmit{}
 	for k, v := range jobs {
@@ -372,6 +369,20 @@ func (c *JobConfig) SetPresubmits(jobs map[string][]Presubmit) error {
 		}
 	}
 	c.Presubmits = nj
+	return nil
+}
+
+// SetPostsubmits updates c.Postsubmits to jobs, after compiling and validating their regexes.
+func (c *JobConfig) SetPostsubmits(jobs map[string][]Postsubmit) error {
+	nj := map[string][]Postsubmit{}
+	for k, v := range jobs {
+		nj[k] = make([]Postsubmit, len(v))
+		copy(nj[k], v)
+		if err := SetPostsubmitRegexes(nj[k]); err != nil {
+			return err
+		}
+	}
+	c.Postsubmits = nj
 	return nil
 }
 

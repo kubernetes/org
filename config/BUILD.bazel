@@ -2,13 +2,15 @@ load("@io_bazel_rules_go//go:def.bzl", "go_test")
 
 genrule(
     name = "gen-config.yaml",
-    srcs = glob(["*/org.yaml"]),
+    srcs = glob(["**/*.yaml"]),
     outs = ["config.yaml"],
     cmd = """
 parts=()
 for val in $(SRCS); do
-  key="$$(basename "$$(dirname "$$val")")"
-  parts+=(--org-part=$$key=$$val)
+  if [[ "$$val" == *"/org.yaml" ]]; then
+    key="$$(basename "$$(dirname "$$val")")"
+    parts+=(--org-part=$$key=$$val)
+  fi
 done
 ./$(location //cmd/merge) --ignore-teams $${parts[@]} > $(location config.yaml)""",
     tools = ["//cmd/merge"],

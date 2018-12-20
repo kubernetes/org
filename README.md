@@ -1,14 +1,12 @@
 # Kubernetes Github Organization
 
-This repository contains the metadata configuration for the Kubernetes Github
+This repository contains the metadata [configuration](/config) for the Kubernetes Github
 Organizations. The data here is consumed by the
 [peribolos](https://git.k8s.io/test-infra/prow/cmd/peribolos)
 tool to organization and team membership, as well as team creation and deletion.
 
 Membership in the Kubernetes project is governed by our
 [community guidelines](https://git.k8s.io/community/community-membership.md).
-
-**Note:** This is currently a work in progress.
 
 ## Community, discussion, contribution, and support
 

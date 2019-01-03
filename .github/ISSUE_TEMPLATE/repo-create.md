@@ -1,6 +1,9 @@
 ---
 name: Repository creation/migration
 about: Create or migrate a repository into a Kubernetes Org
+title: ''
+labels: area/github-repo
+assignees: ''
 
 ---
 
@@ -46,6 +49,3 @@ tl;dr (but really you should read the linked doc, this may be stale)
 
 ### Additional context for request
 Any additional information or context to describe the request.
-
-<!-- DO NOT EDIT BELOW THIS LINE -->
-/area github-repo

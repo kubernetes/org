@@ -1,6 +1,9 @@
 ---
 name: General Support
 about: Permissions issues, repository issues, etc
+title: ''
+labels: ''
+assignees: ''
 
 ---
 

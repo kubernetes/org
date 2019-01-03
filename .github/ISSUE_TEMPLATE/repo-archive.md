@@ -1,6 +1,9 @@
 ---
 name: Repository archival
 about: Retire and archive a Kubernetes repository
+title: ''
+labels: area/github-repo
+assignees: ''
 
 ---
 
@@ -15,6 +18,3 @@ e.g. Anytime.
 
 ### Additional context for request
 Any additional information or context to describe the request.
-
-<!-- DO NOT EDIT BELOW THIS LINE -->
-/area github-repo

@@ -1,6 +1,9 @@
 ---
 name: Organization Membership Request
 about: Request membership in a Kubernetes Org
+title: 'REQUEST: New membership for <your-GH-handle>'
+labels: area/github-membership
+assignees: ''
 
 ---
 
@@ -26,6 +29,3 @@ e.g. (at)kubernetes
 - PRs reviewed / authored
 - Issues responded to
 - SIG projects I am involved with
-
-<!-- DO NOT EDIT BELOW THIS LINE -->
-/area github-membership

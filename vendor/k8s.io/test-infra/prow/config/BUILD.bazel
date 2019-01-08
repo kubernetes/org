@@ -8,7 +8,6 @@ go_library(
         "config.go",
         "githuboauth.go",
         "jobs.go",
-        "secrets_agent.go",
         "tide.go",
     ],
     importmap = "k8s.io/org/vendor/k8s.io/test-infra/prow/config",
@@ -46,6 +45,7 @@ filegroup(
     srcs = [
         ":package-srcs",
         "//vendor/k8s.io/test-infra/prow/config/org:all-srcs",
+        "//vendor/k8s.io/test-infra/prow/config/secret:all-srcs",
     ],
     tags = ["automanaged"],
     visibility = ["//visibility:public"],

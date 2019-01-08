@@ -27,7 +27,11 @@ filegroup(
 
 filegroup(
     name = "all-srcs",
-    srcs = [":package-srcs"],
+    srcs = [
+        ":package-srcs",
+        "//vendor/k8s.io/client-go/tools/clientcmd/api/latest:all-srcs",
+        "//vendor/k8s.io/client-go/tools/clientcmd/api/v1:all-srcs",
+    ],
     tags = ["automanaged"],
     visibility = ["//visibility:public"],
 )

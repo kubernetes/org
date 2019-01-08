@@ -15,11 +15,9 @@ limitations under the License.
 */
 
 // Package config knows how to read and parse config.yaml.
-// It also implements an agent to read the secrets.
 package config
 
 import (
-	"bytes"
 	"errors"
 	"fmt"
 	"io/ioutil"
@@ -105,6 +103,9 @@ type ProwConfig struct {
 	// OwnersDirBlacklist is used to configure which directories to ignore when
 	// searching for OWNERS{,_ALIAS} files in a repo.
 	OwnersDirBlacklist OwnersDirBlacklist `json:"owners_dir_blacklist,omitempty"`
+
+	// Pub/Sub Subscriptions that we want to listen to
+	PubSubSubscriptions PubsubSubscriptions `json:"pubsub_subscriptions,omitempty"`
 }
 
 // OwnersDirBlacklist is used to configure which directories to ignore when
@@ -286,6 +287,9 @@ type Branding struct {
 	HeaderColor string `json:"header_color,omitempty"`
 }
 
+// PubSubSubscriptions maps GCP projects to a list of Topics.
+type PubsubSubscriptions map[string][]string
+
 // Load loads and parses the config at path.
 func Load(prowConfig, jobConfig string) (c *Config, err error) {
 	// we never want config loading to take down the prow components
@@ -398,29 +402,6 @@ func loadConfig(prowConfig, jobConfig string) (*Config, error) {
 	}
 
 	return &nc, nil
-}
-
-// LoadSecrets loads multiple paths of secrets and add them in a map.
-func LoadSecrets(paths []string) (map[string][]byte, error) {
-	secretsMap := make(map[string][]byte, len(paths))
-
-	for _, path := range paths {
-		secretValue, err := LoadSingleSecret(path)
-		if err != nil {
-			return nil, err
-		}
-		secretsMap[path] = secretValue
-	}
-	return secretsMap, nil
-}
-
-// LoadSingleSecret reads and returns the value of a single file.
-func LoadSingleSecret(path string) ([]byte, error) {
-	b, err := ioutil.ReadFile(path)
-	if err != nil {
-		return nil, fmt.Errorf("error reading %s: %v", path, err)
-	}
-	return bytes.TrimSpace(b), nil
 }
 
 // yamlToConfig converts a yaml file into a Config object
@@ -1003,9 +984,11 @@ func validateAgent(v JobBase, podNamespace string) error {
 		return fmt.Errorf("job build_specs require agent: %s (found %q)", b, agent)
 	case agent == b && v.BuildSpec == nil:
 		return errors.New("knative-build jobs require a build_spec")
-	case v.DecorationConfig != nil && agent != k:
-		// TODO(fejta): support decoration
-		return fmt.Errorf("decoration requires agent: %s (found %q)", k, agent)
+	case v.DecorationConfig != nil && agent != k && agent != b:
+		// TODO(fejta): only source decoration supported...
+		return fmt.Errorf("decoration requires agent: %s or %s (found %q)", k, b, agent)
+	case v.ErrorOnEviction && agent != k:
+		return fmt.Errorf("error_on_eviction only applies to agent: %s (found %q)", k, agent)
 	case v.Namespace == nil || *v.Namespace == "":
 		return fmt.Errorf("failed to default namespace")
 	case *v.Namespace != podNamespace && agent != b:
@@ -1144,6 +1127,9 @@ func (c *ProwConfig) defaultJobBase(base *JobBase) {
 	if base.Namespace == nil || *base.Namespace == "" {
 		s := c.PodNamespace
 		base.Namespace = &s
+	}
+	if base.Cluster == "" {
+		base.Cluster = kube.DefaultClusterAlias
 	}
 }
 

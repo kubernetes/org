@@ -26,6 +26,11 @@ required = [
   name = "k8s.io/client-go"
   version = "v9.0.0"
 
+# Need to override this to be compatible with k8s.io/client-go@v9.0.0
+[[override]]
+  name = "github.com/Azure/go-autorest"
+  version = "v10.15.5"
+
 [prune]
   unused-packages = true
   go-tests = true

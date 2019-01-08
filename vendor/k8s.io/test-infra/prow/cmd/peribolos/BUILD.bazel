@@ -11,6 +11,7 @@ go_library(
         "//vendor/k8s.io/apimachinery/pkg/util/sets:go_default_library",
         "//vendor/k8s.io/test-infra/prow/config:go_default_library",
         "//vendor/k8s.io/test-infra/prow/config/org:go_default_library",
+        "//vendor/k8s.io/test-infra/prow/config/secret:go_default_library",
         "//vendor/k8s.io/test-infra/prow/flagutil:go_default_library",
         "//vendor/k8s.io/test-infra/prow/github:go_default_library",
         "//vendor/k8s.io/test-infra/prow/logrusutil:go_default_library",

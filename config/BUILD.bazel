@@ -12,7 +12,7 @@ for val in $(SRCS); do
     parts+=(--org-part=$$key=$$val)
   fi
 done
-./$(location //cmd/merge) --merge-teams $${parts[@]} > $(location config.yaml)""",
+./$(location //cmd/merge) --ignore-teams $${parts[@]} > $(location config.yaml)""",
     tools = ["//cmd/merge"],
     visibility = ["//visibility:public"],
 )

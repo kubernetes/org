@@ -166,3 +166,582 @@ members:
 - yujuhong
 - zacharysarah
 - zouyee
+teams:
+  application-admins:
+    description: admin access to application
+    maintainers:
+    - kow3ns
+    members:
+    - mattfarina
+    - prydonius
+    privacy: closed
+  architecture-tracking-admins:
+    description: admin permission for architecture-tracking
+    maintainers:
+    - jdumars
+    - bgrant0607
+    privacy: closed
+  architecture-tracking-maintainers:
+    description: write permission for architecture-tracking
+    maintainers:
+    - spiffxp
+    - jdumars
+    - bgrant0607
+    members:
+    - dims
+    - mattfarina
+    - timothysc
+    - liggitt
+    privacy: closed
+  aws-ebs-csi-driver-admins:
+    description: ""
+    maintainers:
+    - d-nishi
+    members:
+    - leakingtapan
+    privacy: closed
+  aws-ebs-csi-driver-maintainers:
+    description: ""
+    maintainers:
+    - d-nishi
+    members:
+    - bertinatto
+    - jsafrane
+    - leakingtapan
+    privacy: closed
+  aws-encryption-provider-admins:
+    description: admin access to aws_encryption-provider repo
+    maintainers:
+    - justinsb
+    - robinpercy
+    privacy: closed
+  aws-encryption-provider-maintainers:
+    description: write access to aws_encryption-provider
+    maintainers:
+    - justinsb
+    - robinpercy
+    privacy: closed
+  bots:
+    description: Bot Service Accounts in the Kubernetes-SIGs org
+    maintainers:
+    - thelinuxfoundation
+    - k8s-ci-robot
+    privacy: closed
+  cluster-api-admins:
+    description: ""
+    maintainers:
+    - timothysc
+    members:
+    - kris-nova
+    - krousey
+    - roberthbailey
+    privacy: closed
+  cluster-api-maintainers:
+    description: ""
+    maintainers:
+    - timothysc
+    members:
+    - detiber
+    - davidewatson
+    privacy: closed
+  cluster-api-provider-aws-admins:
+    description: admin access to cluster-api-provider-aws
+    maintainers:
+    - detiber
+    privacy: closed
+  cluster-api-provider-aws-maintainers:
+    description: write access to cluster-api-provider-aws
+    maintainers:
+    - detiber
+    members:
+    - chuckha
+    - timothysc
+    - ingvagabund
+    - davidewatson
+    privacy: closed
+  cluster-api-provider-azure-admins:
+    description: ""
+    maintainers:
+    - justaugustus
+    privacy: closed
+  cluster-api-provider-azure-maintainers:
+    description: ""
+    maintainers:
+    - justaugustus
+    privacy: closed
+  cluster-api-provider-digitalocean-admins:
+    description: ""
+    maintainers:
+    - timothysc
+    - roberthbailey
+    - xmudrii
+    privacy: closed
+  cluster-api-provider-digitalocean-maintainers:
+    description: ""
+    maintainers:
+    - timothysc
+    - alvaroaleman
+    - roberthbailey
+    - nikhita
+    - xmudrii
+    privacy: closed
+  cluster-api-provider-gcp-admins:
+    description: admin access to cluster-api-provider-gcp
+    maintainers:
+    - roberthbailey
+    privacy: closed
+  cluster-api-provider-gcp-maintainers:
+    description: write access to cluster-api-provider-gcp-maintainers
+    maintainers:
+    - roberthbailey
+    members:
+    - justinsb
+    privacy: closed
+  cluster-api-provider-openstack-admins:
+    description: admin access to cluster-api-provider-openstack
+    maintainers:
+    - dims
+    members:
+    - chaosaffe
+    privacy: closed
+  cluster-api-provider-openstack-maintainers:
+    description: write access to cluster-api-provider-openstack
+    maintainers:
+    - dims
+    members:
+    - chaosaffe
+    privacy: closed
+  cluster-api-provider-vsphere-admins:
+    description: admin access to cluster-api-provider-vsphere-admins
+    maintainers:
+    - spiffxp
+    members:
+    - frapposelli
+    privacy: closed
+  cluster-api-provider-vsphere-maintainers:
+    description: write access to cluster-api-provider-vsphere
+    maintainers:
+    - spiffxp
+    members:
+    - frapposelli
+    privacy: closed
+  contributor-site-admins:
+    description: admin access to contributor-site
+    maintainers:
+    - castrojo
+    members:
+    - mrbobbytables
+    privacy: closed
+  contributor-site-maintainers:
+    description: write access to contributor-site
+    maintainers:
+    - castrojo
+    members:
+    - mrbobbytables
+    privacy: closed
+  controller-runtime-admins:
+    description: ""
+    members:
+    - DirectXMan12
+    - droot
+    - pwittrock
+    privacy: closed
+  controller-runtime-contributors:
+    description: ""
+    members:
+    - pwittrock
+    - lichuqiang
+    - fanzhangio
+    privacy: closed
+  controller-runtime-maintainers:
+    description: ""
+    members:
+    - mengqiy
+    - seans3
+    - pwittrock
+    - Liujingfang1
+    privacy: closed
+  controller-tools-admins:
+    description: ""
+    members:
+    - DirectXMan12
+    - droot
+    - seans3
+    - pwittrock
+    privacy: closed
+  controller-tools-contributors:
+    description: ""
+    members:
+    - Birdrock
+    - pwittrock
+    privacy: closed
+  controller-tools-maintainers:
+    description: ""
+    members:
+    - droot
+    - mengqiy
+    - seans3
+    - pwittrock
+    privacy: closed
+  cri-o-admins:
+    description: admin access to cri-o
+    maintainers:
+    - mrunalp
+    members:
+    - runcom
+    privacy: closed
+  cri-o-maintainers:
+    description: write access to cri-o
+    maintainers:
+    - mrunalp
+    members:
+    - giuseppe
+    - runcom
+    privacy: closed
+  cri-tools-admins:
+    description: admin access to cri-tools
+    maintainers:
+    - mrunalp
+    - feiskyer
+    members:
+    - Random-Liu
+    - yujuhong
+    privacy: closed
+  cri-tools-maintainers:
+    description: write access to cri-tools
+    maintainers:
+    - mrunalp
+    - feiskyer
+    members:
+    - Random-Liu
+    - yujuhong
+    privacy: closed
+  federation-v2-admins:
+    description: admin access for the federation-v2 repo
+    maintainers:
+    - spiffxp
+    members:
+    - pmorie
+    - marun
+    - font
+    - shashidharatd
+    - irfanurrehman
+    privacy: closed
+  federation-v2-maintainers:
+    description: write access to the fededation-v2 repo
+    maintainers:
+    - marun
+    members:
+    - font
+    - shashidharatd
+    - irfanurrehman
+    privacy: closed
+  federation-wg:
+    description: Individuals who are part of sig-multicluster and working as federation
+      workgroup.
+    maintainers:
+    - irfanurrehman
+    members:
+    - pmorie
+    - marun
+    - font
+    - gyliu513
+    - shashidharatd
+    - onyiny-ang
+    - quinton-hoole
+    - quinton-hoole-2
+    privacy: closed
+  gcp-filestore-csi-driver-admins:
+    description: ""
+    maintainers:
+    - saad-ali
+    - msau42
+    privacy: closed
+  gcp-filestore-csi-driver-maintainers:
+    description: ""
+    maintainers:
+    - saad-ali
+    - msau42
+    privacy: closed
+  kind-admins:
+    description: ""
+    maintainers:
+    - BenTheElder
+    members:
+    - munnerz
+    privacy: closed
+  kind-maintainers:
+    description: ""
+    maintainers:
+    - BenTheElder
+    members:
+    - munnerz
+    privacy: closed
+  kube-batch-admins:
+    description: admin access to kube-batch
+    maintainers:
+    - spiffxp
+    - calebamiles
+    members:
+    - timothysc
+    - k82cn
+    privacy: closed
+  kube-batch-maintainers:
+    description: write access to kube-batch
+    maintainers:
+    - spiffxp
+    - calebamiles
+    members:
+    - timothysc
+    - k82cn
+    privacy: closed
+  kubebuilder-admins:
+    description: Administrators of the repo
+    maintainers:
+    - grodrigues3
+    members:
+    - DirectXMan12
+    - droot
+    - pmorie
+    - mengqiy
+    - monopole
+    - pwittrock
+    - Liujingfang1
+    privacy: closed
+  kubebuilder-contributors:
+    description: ""
+    members:
+    - DirectXMan12
+    - pwittrock
+    - lichuqiang
+    - fanzhangio
+    privacy: closed
+  kubebuilder-maintainers:
+    description: Maintainers of the project
+    members:
+    - DirectXMan12
+    - droot
+    - pmorie
+    - apelisse
+    - mengqiy
+    - monopole
+    - seans3
+    - pwittrock
+    privacy: closed
+  kubernetes/sig-api-machinery:
+    description: Parent team for all SIG API Machinery subteams (approvers, reviewers,
+      admins)
+    members:
+    - lavalamp
+    - deads2k
+    privacy: closed
+    teams:
+      kubernetes/sig-api-machinery-admins:
+        description: Admin rights over all SIG API Machinery managed repositories
+        members:
+        - lavalamp
+        - deads2k
+        privacy: closed
+      kubernetes/sig-api-machinery-approvers:
+        description: write access to all SIG API Machinery managed repositories
+        members:
+        - lavalamp
+        - deads2k
+        privacy: closed
+      kubernetes/sig-api-machinery-reviewers:
+        description: read access to all repositories owned by SIG API Machinery
+        members:
+        - lavalamp
+        - deads2k
+        privacy: closed
+  kubernetes/sig-apps:
+    description: Parent team for all SIG Apps subteams (approvers, reviewers, admins)
+    members:
+    - prydonius
+    - kow3ns
+    privacy: closed
+    teams:
+      kubernetes/sig-apps-admins:
+        description: Admin access to all repositories managed by SIG Apps
+        privacy: closed
+      kubernetes/sig-apps-approvers:
+        description: Write access to all repositories managed by SIG Apps
+        privacy: closed
+      kubernetes/sig-apps-reviewers:
+        description: 'Read access to all repositories managed by SIG Apps '
+        privacy: closed
+  kubernetes/sig-scheduling:
+    description: Team responsible for sig-scheduling related projects
+    members:
+    - timothysc
+    privacy: closed
+  kubespray-admins:
+    description: ""
+    maintainers:
+    - ant31
+    members:
+    - chadswen
+    - mattymo
+    privacy: closed
+  kubespray-maintainers:
+    description: ""
+    maintainers:
+    - ant31
+    members:
+    - Atoms
+    - chadswen
+    - mattymo
+    - woopstar
+    - mirwan
+    - riverzhang
+    privacy: closed
+  kustomize-admins:
+    description: ""
+    members:
+    - droot
+    - monopole
+    - pwittrock
+    privacy: closed
+  kustomize-contributors:
+    description: ""
+    members:
+    - pwittrock
+    privacy: closed
+  kustomize-maintainers:
+    description: ""
+    members:
+    - pwittrock
+    privacy: closed
+  mutating-trace-admission-controller:
+    description: ""
+    maintainers:
+    - calebamiles
+    privacy: closed
+    teams:
+      mutating-trace-admission-controller-admins:
+        description: admin access to mutating-trace-admission-controller
+        maintainers:
+        - calebamiles
+        privacy: closed
+      mutating-trace-admission-controller-maintainers:
+        description: write access to mutating-trace-admission-controller
+        maintainers:
+        - calebamiles
+        privacy: closed
+  node-feature-discovery-admins:
+    description: ""
+    members:
+    - balajismaniam
+    privacy: closed
+  node-feature-discovery-maintainers:
+    description: ""
+    members:
+    - marquiz
+    - balajismaniam
+    privacy: closed
+  sig-storage-lib-external-provisioner-admins:
+    description: admin access to sig-storage-lib-external-provisioner
+    maintainers:
+    - wongma7
+    members:
+    - childsb
+    - jsafrane
+    privacy: closed
+  sig-storage-lib-external-provisioner-maintainers:
+    description: write access to sig-storage-lib-external-provisioner
+    maintainers:
+    - wongma7
+    members:
+    - childsb
+    - jsafrane
+    privacy: closed
+  sig-storage-local-static-provisioner-admins:
+    description: ""
+    maintainers:
+    - jsafrane
+    - saad-ali
+    - msau42
+    privacy: closed
+  sig-storage-local-static-provisioner-maintainers:
+    description: ""
+    maintainers:
+    - jsafrane
+    - saad-ali
+    - msau42
+    privacy: closed
+  structured-merge-diff-admins:
+    description: admin access to structured-merge-diff
+    maintainers:
+    - lavalamp
+    - apelisse
+    privacy: closed
+  structured-merge-diff-maintainers:
+    description: write access to structured-merge-diff
+    maintainers:
+    - lavalamp
+    - apelisse
+    members:
+    - jennybuckley
+    privacy: closed
+  testing_frameworks-admins:
+    description: admin access for testing_frameworks
+    maintainers:
+    - hoegaarden
+    members:
+    - totherme
+    privacy: closed
+  testing_frameworks-maintainers:
+    description: write access to testing_frameworks
+    maintainers:
+    - liztio
+    members:
+    - marun
+    privacy: closed
+  website-metadata-admins:
+    description: ""
+    maintainers:
+    - zacharysarah
+    - Bradamant3
+    members:
+    - chenopis
+    privacy: closed
+  website-metadata-maintainers:
+    description: ""
+    maintainers:
+    - zacharysarah
+    - Bradamant3
+    members:
+    - chenopis
+    privacy: closed
+  windows-testing-admins:
+    description: ""
+    maintainers:
+    - michmike
+    - PatrickLang
+    members:
+    - adelina-t
+    privacy: closed
+  windows-testing-maintainers:
+    description: ""
+    maintainers:
+    - michmike
+    - PatrickLang
+    members:
+    - adelina-t
+    privacy: closed
+  yaml-admins:
+    description: ""
+    maintainers:
+    - dims
+    - lavalamp
+    - liggitt
+    - deads2k
+    privacy: closed
+  yaml-maintainers:
+    description: ""
+    maintainers:
+    - dims
+    - lavalamp
+    - liggitt
+    - deads2k
+    privacy: closed

@@ -739,3 +739,3293 @@ members:
 - zmerlynn
 - zouyee
 - zparnold
+teams:
+  api-approvers:
+    description: Approve changes to stable Kubernetes APIs and addition of new beta/stable
+      APIs
+    maintainers:
+    - liggitt
+    members:
+    - lavalamp
+    - smarterclayton
+    - thockin
+    - bgrant0607
+    - erictune
+    privacy: closed
+  api-reviewers:
+    description: See also api-approvers.
+    maintainers:
+    - pwittrock
+    members:
+    - lavalamp
+    - liggitt
+    - smarterclayton
+    - mikedanese
+    - thockin
+    - derekwaynecarr
+    - vishh
+    - erictune
+    - deads2k
+    - davidopp
+    privacy: closed
+  autoscaler-admins:
+    description: ""
+    maintainers:
+    - mwielgus
+    members:
+    - MaciekPytel
+    privacy: closed
+  autoscaler-maintainers:
+    description: ""
+    maintainers:
+    - mwielgus
+    members:
+    - DirectXMan12
+    - losipiuk
+    - bskiba
+    - aleksandra-malinowska
+    - MaciekPytel
+    - piosz
+    privacy: closed
+  autoscaler-reviewers:
+    description: ""
+    maintainers:
+    - mwielgus
+    members:
+    - DirectXMan12
+    - feiskyer
+    - bskiba
+    - aleksandra-malinowska
+    - MaciekPytel
+    - piosz
+    - jszczepkowski
+    privacy: closed
+  bots:
+    description: Bot Service Accounts in the Kubernetes org
+    maintainers:
+    - thelinuxfoundation
+    - k8s-merge-robot
+    - k8s-ci-robot
+    members:
+    - k8s-release-robot
+    - k8s-publishing-bot
+    privacy: closed
+  client-go-admins:
+    description: ""
+    members:
+    - lavalamp
+    - caesarxuchao
+    privacy: closed
+  client-go-maintainers:
+    description: ""
+    members:
+    - lavalamp
+    - sttts
+    - caesarxuchao
+    privacy: closed
+  cloud-provider-gcp-admins:
+    description: admin access to cloud-provider-gcp
+    maintainers:
+    - calebamiles
+    - awly
+    members:
+    - mikedanese
+    privacy: closed
+  cloud-provider-gcp-maintainers:
+    description: write access to cloud-provider-gcp
+    maintainers:
+    - calebamiles
+    - awly
+    members:
+    - mikedanese
+    privacy: closed
+  cloud-provider-openstack-admins:
+    description: Admin access to cloud-provider-openstack repo
+    maintainers:
+    - hogepodge
+    - dklyle
+    members:
+    - dims
+    privacy: closed
+  cloud-provider-openstack-maintainers:
+    description: Write access to the cloud-provider-openstack repo
+    maintainers:
+    - hogepodge
+    - dklyle
+    members:
+    - dims
+    privacy: closed
+  cloud-provider-openstack-members:
+    description: ""
+    maintainers:
+    - dims
+    privacy: closed
+  cloud-provider-vsphere-admins:
+    description: admin access to cloud-provider-vsphere repository
+    maintainers:
+    - dougm
+    - frapposelli
+    - abrarshivani
+    - imkin
+    - SandeepPissay
+    - BaluDontu
+    - divyenpatel
+    privacy: closed
+  cloud-provider-vsphere-maintainers:
+    description: write access to the cloud-provider-vsphere repo
+    maintainers:
+    - dougm
+    - frapposelli
+    - abrarshivani
+    - imkin
+    - SandeepPissay
+    - BaluDontu
+    - divyenpatel
+    privacy: closed
+  cluster-registry-admins:
+    description: Admin access to cluster-registry repo
+    maintainers:
+    - madhusudancs
+    - pmorie
+    - perotinus
+    members:
+    - font
+    privacy: closed
+  cluster-registry-maintainers:
+    description: Write access to the cluster-registry repo.
+    maintainers:
+    - pmorie
+    - perotinus
+    members:
+    - madhusudancs
+    - font
+    privacy: closed
+  cluster-registry-reviewers:
+    description: cluster-registry reviewers. Read access to the cluster-registry repository.
+    maintainers:
+    - madhusudancs
+    - pmorie
+    - perotinus
+    members:
+    - font
+    privacy: closed
+  cncf-conformance-wg:
+    description: ""
+    maintainers:
+    - spiffxp
+    - timothysc
+    members:
+    - dims
+    - hh
+    - WilliamDenniss
+    - smarterclayton
+    - duglin
+    - dankohn
+    - brahmaroutu
+    - bradtopol
+    - mgdevstack
+    - deepak-vij
+    privacy: closed
+  cncf-wg:
+    description: The cncf working group
+    maintainers:
+    - thelinuxfoundation
+    members:
+    - caniszczyk
+    - foxish
+    - emsearcy
+    privacy: closed
+  code-generator-admins:
+    description: ""
+    maintainers:
+    - sttts
+    - deads2k
+    members:
+    - eparis
+    privacy: closed
+  code-generator-maintainers:
+    description: ""
+    maintainers:
+    - deads2k
+    members:
+    - sttts
+    - eparis
+    privacy: closed
+  community-admins:
+    description: ""
+    maintainers:
+    - idvoretskyi
+    - calebamiles
+    - cblecker
+    - grodrigues3
+    members:
+    - sarahnovotny
+    - jdumars
+    - castrojo
+    - thockin
+    - parispittman
+    - bgrant0607
+    - Phillels
+    privacy: closed
+  community-maintainers:
+    description: ""
+    members:
+    - thockin
+    - Phillels
+    privacy: closed
+  contrib-maintainers:
+    description: Those who maintain (have write access to) contrib.
+    maintainers:
+    - thelinuxfoundation
+    members:
+    - lavalamp
+    - foxish
+    privacy: closed
+  csi-api-admins:
+    description: admin access to csi-api
+    maintainers:
+    - saad-ali
+    privacy: closed
+  csi-api-maintainers:
+    description: write access to csi-api
+    maintainers:
+    - saad-ali
+    privacy: closed
+  dashboard-admins:
+    description: ""
+    members:
+    - konryd
+    - bryk
+    - floreks
+    privacy: closed
+  dashboard-maintainers:
+    description: The Dashboard UI team
+    maintainers:
+    - bryk
+    members:
+    - konryd
+    - ianlewis
+    - cupofcat
+    - floreks
+    - maciaszczykm
+    - rf232
+    - danielromlein
+    - cheld
+    - mhenc
+    privacy: closed
+  dashboard-reviewers:
+    description: ""
+    members:
+    - danielromlein
+    privacy: closed
+  dns-admins:
+    description: Admins of the DNS repository (can admin the repo)
+    members:
+    - bowei
+    - thockin
+    - MrHohn
+    privacy: closed
+  dns-maintainers:
+    description: Maintainers of the DNS repository (can write to the repo)
+    maintainers:
+    - bowei
+    - MrHohn
+    members:
+    - thockin
+    privacy: closed
+  dns-reviewers:
+    description: ""
+    members:
+    - thockin
+    privacy: closed
+  enhancement-maintainers:
+    description: KEP Process Owners
+    maintainers:
+    - justaugustus
+    - calebamiles
+    - jdumars
+    privacy: closed
+  examples:
+    description: Creation and curation of example applications that run on Kubernetes
+    maintainers:
+    - idvoretskyi
+    members:
+    - ahmetb
+    - chrislovecnm
+    - viglesiasce
+    - jayunit100
+    - foxish
+    - janetkuo
+    - jaredbhatti
+    - pwittrock
+    - erictune
+    - steveperry-53
+    privacy: closed
+  examples-admins:
+    description: Admin privileges for the examples repo
+    maintainers:
+    - idvoretskyi
+    - sebgoa
+    privacy: closed
+  examples-maintainers:
+    description: Write access to the examples repository
+    maintainers:
+    - idvoretskyi
+    - sebgoa
+    members:
+    - ahmetb
+    privacy: closed
+  examples-reviewers:
+    description: Read access to the examples repository
+    maintainers:
+    - sebgoa
+    privacy: closed
+  features-maintainers:
+    description: People who can be assigned to drive features and approve docs in
+      features repo.
+    maintainers:
+    - spiffxp
+    - idvoretskyi
+    - justaugustus
+    - grodrigues3
+    members:
+    - madhusudancs
+    - philips
+    - jbeda
+    - aronchick
+    - ecordell
+    - sarahnovotny
+    - errordeveloper
+    - lukemarsden
+    - soltysh
+    - sttts
+    - hongchaodeng
+    - smarterclayton
+    - mike-saparov
+    - mdelio
+    - caseydavenport
+    - euank
+    - timstclair
+    - yifan-gu
+    - kacole2
+    - pweil-
+    - bgrant0607
+    - dchen1107
+    - pwittrock
+    - erictune
+    - deads2k
+    - davidopp
+    - saad-ali
+    - nikhiljindal
+    - quinton-hoole
+    - yujuhong
+    - jszczepkowski
+    - bprashanth
+    - matchstick
+    - tallclair
+    - quinton-hoole-2
+    privacy: closed
+  federation-admins:
+    description: Admin permission to federation repo
+    maintainers:
+    - madhusudancs
+    members:
+    - irfanurrehman
+    - csbell
+    privacy: closed
+  federation-maintainers:
+    description: Contributors with write access to kubernetes/federation repo
+    maintainers:
+    - madhusudancs
+    members:
+    - irfanurrehman
+    - csbell
+    privacy: closed
+  federation-reviewers:
+    description: Contributors with read access to kubernetes/federation repo
+    maintainers:
+    - madhusudancs
+    members:
+    - irfanurrehman
+    - csbell
+    privacy: closed
+  frakti-admins:
+    description: ""
+    maintainers:
+    - feiskyer
+    - resouer
+    members:
+    - dchen1107
+    privacy: closed
+  frakti-maintainers:
+    description: ""
+    maintainers:
+    - feiskyer
+    privacy: closed
+  gengo-admins:
+    description: admins of gengo
+    members:
+    - lavalamp
+    - smarterclayton
+    - thockin
+    - wojtek-t
+    privacy: closed
+  gengo-maintainers:
+    description: ""
+    members:
+    - thockin
+    privacy: closed
+  gengo-reviewers:
+    description: ""
+    members:
+    - mbohlool
+    - caesarxuchao
+    - thockin
+    privacy: closed
+  git-sync-admins:
+    description: ""
+    members:
+    - mikedanese
+    - thockin
+    privacy: closed
+  git-sync-maintainers:
+    description: People who maintain the git-sync repo
+    members:
+    - mikedanese
+    - stp-ip
+    - thockin
+    privacy: closed
+  git-sync-reviewers:
+    description: ""
+    members:
+    - thockin
+    privacy: closed
+  goog-gke:
+    description: Google Kubernetes Engine
+    maintainers:
+    - fabioy
+    - roberthbailey
+    members:
+    - ihmccreery
+    - destijl
+    - ajitak
+    - jlowdermilk
+    - maisem
+    - zmerlynn
+    - bdbauer
+    - cjcullen
+    - alex-mohr
+    - Q-Lee
+    - jcbsmpsn
+    - shiliangxue
+    - jessicaochen
+    - medinatiger
+    privacy: closed
+  goog-image:
+    description: ""
+    maintainers:
+    - yinghan
+    members:
+    - wonderfly
+    - dchen1107
+    - adityakali
+    - Amey-D
+    privacy: closed
+  ingress-gce-admins:
+    description: ""
+    members:
+    - nicksardo
+    - bowei
+    - thockin
+    privacy: closed
+  ingress-gce-maintainers:
+    description: ""
+    members:
+    - nicksardo
+    - bowei
+    - freehan
+    - thockin
+    - MrHohn
+    - dnardo
+    - rramkumar1
+    privacy: closed
+  ingress-gce-reviewers:
+    description: ""
+    members:
+    - nicksardo
+    - bowei
+    - freehan
+    - thockin
+    - MrHohn
+    - dnardo
+    privacy: closed
+  ingress-nginx-admins:
+    description: ""
+    maintainers:
+    - aledbf
+    members:
+    - bowei
+    - bprashanth
+    privacy: closed
+  ingress-nginx-maintainers:
+    description: Maintainers of the ingress repo
+    maintainers:
+    - bprashanth
+    members:
+    - justinsb
+    - aledbf
+    - nicksardo
+    privacy: closed
+  ingress-nginx-reviewers:
+    description: ""
+    members:
+    - aledbf
+    - nicksardo
+    privacy: closed
+  intel:
+    description: ""
+    maintainers:
+    - ConnorDoyle
+    members:
+    - kad
+    - balajismaniam
+    - davidopp
+    - bart0sh
+    privacy: closed
+  k8s-infra-team:
+    description: ""
+    maintainers:
+    - dims
+    - spiffxp
+    - idvoretskyi
+    - cblecker
+    - thockin
+    members:
+    - BenTheElder
+    - shyamjvs
+    - brendandburns
+    - ixdy
+    - amwat
+    privacy: closed
+  k8s.io-maintainers:
+    description: People who run k8s.io
+    members:
+    - rmmh
+    - lavalamp
+    - thockin
+    - ixdy
+    privacy: closed
+  klog-admins:
+    description: ""
+    maintainers:
+    - dims
+    - thockin
+    privacy: closed
+  klog-maintainers:
+    description: ""
+    maintainers:
+    - dims
+    - thockin
+    members:
+    - justinsb
+    - lavalamp
+    - erictune
+    - tallclair
+    privacy: closed
+  kompose-admins:
+    description: administrators for kompose repo
+    maintainers:
+    - sebgoa
+    members:
+    - kadel
+    - sarahnovotny
+    - ngtuna
+    - janetkuo
+    - cdrage
+    privacy: closed
+  kompose-contributors:
+    description: contributors to the kompose repo
+    maintainers:
+    - sebgoa
+    members:
+    - sarahnovotny
+    - ngtuna
+    - cdrage
+    - procrypt
+    privacy: closed
+  kompose-maintainers:
+    description: maintainers for kompose
+    maintainers:
+    - sebgoa
+    - cdrage
+    members:
+    - kadel
+    - sarahnovotny
+    - cab105
+    - janetkuo
+    - surajssd
+    privacy: closed
+  kops-admins:
+    description: Admin group for kops repo
+    members:
+    - justinsb
+    - mikedanese
+    - zmerlynn
+    privacy: closed
+  kops-maintainers:
+    description: ""
+    maintainers:
+    - justinsb
+    members:
+    - chrislovecnm
+    - mikedanese
+    - yissachar
+    - geojaz
+    - kris-nova
+    privacy: closed
+  kops-reviewers:
+    description: ""
+    members:
+    - thockin
+    privacy: closed
+  kube-deploy-admins:
+    description: ""
+    maintainers:
+    - justinsb
+    members:
+    - roberthbailey
+    - kris-nova
+    privacy: closed
+  kube-deploy-maintainers:
+    description: ""
+    maintainers:
+    - justinsb
+    members:
+    - roberthbailey
+    - kris-nova
+    privacy: closed
+  kube-state-metrics-admins:
+    description: Admin for kube-state-metrics
+    maintainers:
+    - ghodss
+    members:
+    - fabxc
+    privacy: closed
+  kube-state-metrics-maintainers:
+    description: ""
+    privacy: closed
+  kube-ui-maintainers:
+    description: ""
+    members:
+    - SebastianM
+    - rrmckinley
+    - timstclair
+    privacy: closed
+  kubeadm-admins:
+    description: ""
+    members:
+    - timothysc
+    - luxas
+    - roberthbailey
+    privacy: closed
+  kubeadm-maintainers:
+    description: Maintainers of kubeadm
+    maintainers:
+    - mikedanese
+    members:
+    - jbeda
+    - chuckha
+    - timothysc
+    - errordeveloper
+    - lukemarsden
+    - neolit123
+    - detiber
+    - pipejakob
+    - jamiehannaford
+    - stealthybox
+    - fabriziopandini
+    - luxas
+    - roberthbailey
+    - medinatiger
+    - liztio
+    privacy: closed
+  kubeadm-reviewers:
+    description: Collaborators for kubeadm
+    maintainers:
+    - jbeda
+    - errordeveloper
+    - lukemarsden
+    - luxas
+    members:
+    - chuckha
+    - detiber
+    - jamiehannaford
+    - stealthybox
+    - fabriziopandini
+    - dixudx
+    - roberthbailey
+    - medinatiger
+    - liztio
+    privacy: closed
+  kubectl-admins:
+    description: Administrators of the kubectl repo
+    maintainers:
+    - fabianofranz
+    - adohe
+    - monopole
+    - pwittrock
+    members:
+    - soltysh
+    - juanvallejo
+    privacy: closed
+  kubectl-maintainers:
+    description: Maintainers of the kubectl repo
+    maintainers:
+    - fabianofranz
+    - adohe
+    - pwittrock
+    members:
+    - soltysh
+    - apelisse
+    - mengqiy
+    - monopole
+    - juanvallejo
+    - shiywang
+    - yue9944882
+    privacy: closed
+  kubectl-reviewers:
+    description: Code reviewers for the kubectl repo
+    maintainers:
+    - fabianofranz
+    - adohe
+    members:
+    - mengqiy
+    - monopole
+    - juanvallejo
+    - shiywang
+    - pwittrock
+    privacy: closed
+  kubernetes-admins:
+    description: 'Do not add new people to this group.  Add build-cops to kubernetes-build-cops  and
+      release managers to kubernetes-release-managers.  '
+    members:
+    - lavalamp
+    - smarterclayton
+    - thockin
+    - bgrant0607
+    - eparis
+    - david-mcmahon
+    privacy: closed
+  kubernetes-anywhere-admins:
+    description: ""
+    maintainers:
+    - timothysc
+    - luxas
+    - roberthbailey
+    privacy: closed
+  kubernetes-anywhere-maintainers:
+    description: Maintainers of the kubernetes-anywhere repository
+    maintainers:
+    - timothysc
+    - luxas
+    - roberthbailey
+    members:
+    - monadic
+    - errordeveloper
+    - neolit123
+    - kerneltime
+    - fabriziopandini
+    privacy: closed
+  kubernetes-blog-maintainers:
+    description: Maintaining the Kubernetes blog on kubernetes.io
+    maintainers:
+    - zacharysarah
+    members:
+    - bobsky
+    - SarahKConway
+    - kbarnard10
+    - natekartchner
+    privacy: closed
+  kubernetes-maintainers:
+    description: Write access to kubernetes repo. Follow the process in https://github.com/kubernetes/community/blob/master/community-membership.md
+    maintainers:
+    - fejta
+    - cblecker
+    - thelinuxfoundation
+    - grodrigues3
+    members:
+    - ncdc
+    - mml
+    - madhusudancs
+    - jbeda
+    - justinsb
+    - krousey
+    - timothysc
+    - rmmh
+    - pmorie
+    - Kashomon
+    - soltysh
+    - lavalamp
+    - feiskyer
+    - childsb
+    - sttts
+    - mtaufen
+    - liggitt
+    - smarterclayton
+    - freehan
+    - jessfraz
+    - mbohlool
+    - gmarek
+    - jsafrane
+    - mikedanese
+    - apelisse
+    - jlowdermilk
+    - caesarxuchao
+    - timstclair
+    - yifan-gu
+    - kargakis
+    - maisem
+    - xiang90
+    - janetkuo
+    - zmerlynn
+    - luxas
+    - thockin
+    - brendandburns
+    - Random-Liu
+    - derekwaynecarr
+    - fabioy
+    - kevin-wangzefeng
+    - vishh
+    - cjcullen
+    - bgrant0607
+    - dchen1107
+    - roberthbailey
+    - pwittrock
+    - ingvagabund
+    - ixdy
+    - eparis
+    - erictune
+    - deads2k
+    - davidopp
+    - alex-mohr
+    - saad-ali
+    - nikhiljindal
+    - quinton-hoole
+    - yujuhong
+    - wojtek-t
+    - piosz
+    - fgrzadkowski
+    - jszczepkowski
+    - bprashanth
+    - mwielgus
+    - Q-Lee
+    - bgrant0607-nocc
+    - bsalamat
+    - david-mcmahon
+    - k82cn
+    - jingxu97
+    - matchstick
+    - tallclair
+    - quinton-hoole-2
+    privacy: closed
+  kubernetes-milestone-maintainers:
+    description: Team members can use `/milestone` or `/status` commands on issues/PRs
+    maintainers:
+    - spiffxp
+    - idvoretskyi
+    - justaugustus
+    - calebamiles
+    - fejta
+    - cblecker
+    - tpepper
+    - grodrigues3
+    - AishSundar
+    members:
+    - dims
+    - zen
+    - jbeda
+    - mattfarina
+    - marcoceppi
+    - justinsb
+    - jberkus
+    - DirectXMan12
+    - fabianofranz
+    - timothysc
+    - lukemarsden
+    - chrislovecnm
+    - pmorie
+    - ConnorDoyle
+    - marun
+    - soltysh
+    - lavalamp
+    - feiskyer
+    - xsgordon
+    - childsb
+    - bowei
+    - mtaufen
+    - foxish
+    - liggitt
+    - jdumars
+    - krzyzacy
+    - michelleN
+    - prydonius
+    - adohe
+    - caseydavenport
+    - floreks
+    - radhikapc
+    - aveshagarwal
+    - shyamjvs
+    - kacole2
+    - cmluciano
+    - aleksandra-malinowska
+    - countspongebob
+    - fabxc
+    - m1093782566
+    - fabriziopandini
+    - danielromlein
+    - zparnold
+    - luxas
+    - thockin
+    - Random-Liu
+    - jaredbhatti
+    - derekwaynecarr
+    - michmike
+    - dchen1107
+    - roberthbailey
+    - pwittrock
+    - Phillels
+    - deads2k
+    - davidopp
+    - mohammedzee1000
+    - saad-ali
+    - quinton-hoole
+    - abgworrall
+    - wojtek-t
+    - piosz
+    - dcbw
+    - vaikas-google
+    - kow3ns
+    - tnozicka
+    - mwielgus
+    - andrewsykim
+    - guineveresaenger
+    - kris-nova
+    - steveperry-53
+    - bsalamat
+    - k82cn
+    - csbell
+    - tallclair
+    - nikopen
+    - quinton-hoole-2
+    privacy: closed
+  kubernetes-release-managers:
+    description: People actively working on next k8s minor release, or who are patch
+      managers for any still-supported minor release.   Gives admin access to repos
+      where branches must be created, etc., and write access to ones where label/PR
+      management is needed.  Remove users who are not actively doing this job.
+    maintainers:
+    - idvoretskyi
+    - justaugustus
+    - calebamiles
+    - jdumars
+    - tpepper
+    - AishSundar
+    members:
+    - dougm
+    - jberkus
+    - idealhack
+    - jpbetz
+    - foxish
+    - krzyzacy
+    - hoegaarden
+    - mbohlool
+    - caesarxuchao
+    - aleksandra-malinowska
+    - enisoc
+    - MaciekPytel
+    - wojtek-t
+    - k8s-release-robot
+    privacy: closed
+  kubernetes-reviewers:
+    description: Kubernetes reviewers.
+    maintainers:
+    - spiffxp
+    - idvoretskyi
+    - calebamiles
+    - cblecker
+    - grodrigues3
+    members:
+    - ncdc
+    - mml
+    - ashcrow
+    - philips
+    - rutsky
+    - aronchick
+    - rrati
+    - thkoch2001
+    - mattf
+    - arun-gupta
+    - amygdala
+    - DirectXMan12
+    - jimmycuadra
+    - sarahnovotny
+    - fabianofranz
+    - aledbf
+    - timothysc
+    - simonswine
+    - errordeveloper
+    - ironcladlou
+    - colemickens
+    - chrislovecnm
+    - aaronlevy
+    - sjenning
+    - danpaik
+    - soltysh
+    - lavalamp
+    - feiskyer
+    - mwringe
+    - childsb
+    - jayunit100
+    - mtaufen
+    - foxish
+    - detiber
+    - mattthias
+    - krzyzacy
+    - ajitak
+    - nhlfr
+    - adohe
+    - mbohlool
+    - resouer
+    - jsafrane
+    - pires
+    - mikedanese
+    - danehans
+    - jeremyeder
+    - emaildanwilson
+    - wattsteve
+    - johnwilkes
+    - timstclair
+    - aveshagarwal
+    - itayariel
+    - maisem
+    - bparees
+    - ghodss
+    - pweil-
+    - luxas
+    - brendandburns
+    - dubstack
+    - bdbauer
+    - enisoc
+    - kevin-wangzefeng
+    - rootfs
+    - a-robinson
+    - dchen1107
+    - markturansky
+    - ingvagabund
+    - deads2k
+    - alex-mohr
+    - mgr01
+    - saad-ali
+    - yujuhong
+    - kow3ns
+    - Hui-Zhi
+    - jdavis7257
+    - mqliang
+    - cameronbrunner
+    - Q-Lee
+    - therc
+    - Dingshujie
+    - david-mcmahon
+    - k82cn
+    - ronnielai
+    - matchstick
+    - jcbsmpsn
+    - msau42
+    privacy: closed
+  kubernetes-staging-publish-cops:
+    description: will be notified if the robot fails to publish the staging folder
+      to repos
+    maintainers:
+    - caesarxuchao
+    members:
+    - lavalamp
+    - sttts
+    - deads2k
+    privacy: closed
+  kubernetes-website-admins:
+    description: Admins of kubernetes/website repo
+    maintainers:
+    - sebgoa
+    - zacharysarah
+    - jaredbhatti
+    - pwittrock
+    - steveperry-53
+    - chenopis
+    members:
+    - Kashomon
+    - lavalamp
+    - tfogo
+    - zparnold
+    - thockin
+    - Bradamant3
+    - mistyhacks
+    privacy: closed
+  maintainer-test-exemptions:
+    description: Maintainers who for whatever random reason should not own tests.
+    maintainers:
+    - fejta
+    members:
+    - aronchick
+    - amygdala
+    - vmarmol
+    - kelseyhightower
+    - satnam6502
+    - MikeJeffrey
+    - bgrant0607-nocc
+    - bgrant0607-cc
+    privacy: closed
+  metrics-admins:
+    description: metrics repository admins
+    members:
+    - DirectXMan12
+    - sarahnovotny
+    - piosz
+    privacy: closed
+  metrics-maintainers:
+    description: metrics repository maintainers
+    members:
+    - DirectXMan12
+    - sarahnovotny
+    - piosz
+    privacy: closed
+  minikube-admins:
+    description: Admin access to kubernetes/minikube
+    members:
+    - dlorenc
+    - vishh
+    - pwittrock
+    privacy: closed
+  minikube-maintainers:
+    description: Write access to kubernetes/minikube
+    maintainers:
+    - spiffxp
+    members:
+    - tstromberg
+    - jimmidyson
+    - balopat
+    - ethernetdan
+    privacy: closed
+  node-problem-detector-admins:
+    description: Maintainers of node problem detector
+    maintainers:
+    - Random-Liu
+    members:
+    - dchen1107
+    privacy: closed
+  node-problem-detector-maintainers:
+    description: ""
+    maintainers:
+    - Random-Liu
+    members:
+    - wangzhen127
+    - andyxning
+    - dchen1107
+    privacy: closed
+  node-problem-detector-reviewers:
+    description: ""
+    maintainers:
+    - Random-Liu
+    members:
+    - wangzhen127
+    - andyxning
+    privacy: closed
+  owners:
+    description: Kubernetes GitHub Owners
+    maintainers:
+    - spiffxp
+    - idvoretskyi
+    - calebamiles
+    - fejta
+    - cblecker
+    - grodrigues3
+    privacy: closed
+  perf-tests-admins:
+    description: ""
+    maintainers:
+    - gmarek
+    - wojtek-t
+    members:
+    - bowei
+    privacy: closed
+  perf-tests-maintainers:
+    description: ""
+    maintainers:
+    - gmarek
+    - wojtek-t
+    members:
+    - timothysc
+    - bowei
+    - shyamjvs
+    privacy: closed
+  perf-tests-reviewers:
+    description: ""
+    maintainers:
+    - gmarek
+    - wojtek-t
+    privacy: closed
+  product-security-team:
+    description: Please report security issues to https://kubernetes.io/security
+    members:
+    - philips
+    - liggitt
+    - jessfraz
+    - cjcullen
+    - tallclair
+    privacy: closed
+  repo-infra-maintainers:
+    description: ""
+    members:
+    - mikedanese
+    - ixdy
+    privacy: closed
+  sample-apiserver-admins:
+    description: Admin permissions for sample-apiserver repo
+    members:
+    - bgrant0607
+    privacy: closed
+  sample-controller-admins:
+    description: Admin permission for sample-controller
+    members:
+    - bgrant0607
+    privacy: closed
+  sig-apps-api-reviews:
+    description: ""
+    maintainers:
+    - mattfarina
+    - soltysh
+    - foxish
+    - janetkuo
+    - enisoc
+    members:
+    - mfojtik
+    - lukaszo
+    - smarterclayton
+    - dixudx
+    - zouyee
+    - davidopp
+    - dhilipkumars
+    - kow3ns
+    - tnozicka
+    privacy: closed
+  sig-apps-bugs:
+    description: ""
+    maintainers:
+    - mattfarina
+    - soltysh
+    - foxish
+    - janetkuo
+    - enisoc
+    members:
+    - mfojtik
+    - lukaszo
+    - smarterclayton
+    - resouer
+    - davidopp
+    - kow3ns
+    - tnozicka
+    - wanghaoran1988
+    privacy: closed
+  sig-apps-feature-requests:
+    description: ""
+    maintainers:
+    - mattfarina
+    - soltysh
+    - foxish
+    - janetkuo
+    - enisoc
+    - kow3ns
+    members:
+    - mfojtik
+    - lukaszo
+    - ant31
+    - smarterclayton
+    - prydonius
+    - resouer
+    - davidopp
+    - tnozicka
+    privacy: closed
+  sig-apps-misc:
+    description: Use only if you can't figure out a better category
+    maintainers:
+    - mattfarina
+    - soltysh
+    - foxish
+    - janetkuo
+    - enisoc
+    members:
+    - mfojtik
+    - lukaszo
+    - smarterclayton
+    - prydonius
+    - resouer
+    - davidopp
+    - kow3ns
+    - tnozicka
+    privacy: closed
+  sig-apps-pr-reviews:
+    description: ""
+    maintainers:
+    - mattfarina
+    - soltysh
+    - foxish
+    - janetkuo
+    - enisoc
+    members:
+    - mfojtik
+    - lukaszo
+    - smarterclayton
+    - resouer
+    - davidopp
+    - dhilipkumars
+    - kow3ns
+    - tnozicka
+    privacy: closed
+  sig-apps-proposals:
+    description: ""
+    maintainers:
+    - mattfarina
+    - soltysh
+    - foxish
+    - janetkuo
+    - enisoc
+    members:
+    - mfojtik
+    - lukaszo
+    - smarterclayton
+    - prydonius
+    - davidopp
+    - kow3ns
+    - tnozicka
+    privacy: closed
+  sig-apps-test-failures:
+    description: ""
+    maintainers:
+    - mattfarina
+    - soltysh
+    - foxish
+    - janetkuo
+    - enisoc
+    members:
+    - mfojtik
+    - lukaszo
+    - smarterclayton
+    - prydonius
+    - davidopp
+    - kow3ns
+    - tnozicka
+    privacy: closed
+  sig-architecture-api-reviews:
+    description: SIG Architecture API review notifications
+    maintainers:
+    - liggitt
+    members:
+    - smarterclayton
+    - bgrant0607
+    privacy: closed
+  sig-architecture-bugs:
+    description: SIG Architecture bug notifications
+    members:
+    - bgrant0607
+    privacy: closed
+  sig-architecture-feature-requests:
+    description: SIG Architecture feature request notifications
+    maintainers:
+    - idvoretskyi
+    - liggitt
+    members:
+    - smarterclayton
+    - bgrant0607
+    privacy: closed
+  sig-architecture-misc-use-only-as-a-last-resort:
+    description: SIG Architecture misc. notifications (consider notifying a more-specific
+      team first!)
+    members:
+    - smarterclayton
+    - bgrant0607
+    privacy: closed
+  sig-architecture-pr-reviews:
+    description: SIG Architecture PR review notifications
+    maintainers:
+    - liggitt
+    members:
+    - jbeda
+    - timothysc
+    - smarterclayton
+    - bgrant0607
+    privacy: closed
+  sig-architecture-proposals:
+    description: SIG Architecture proposal notifications
+    members:
+    - smarterclayton
+    - bgrant0607
+    privacy: closed
+  sig-architecture-test-failures:
+    description: SIG Architecture test failure notifications
+    members:
+    - bgrant0607
+    privacy: closed
+  sig-auth-api-reviews:
+    description: ""
+    maintainers:
+    - liggitt
+    - tallclair
+    members:
+    - mikedanese
+    - mattmoyer
+    - enj
+    - deads2k
+    - davidopp
+    privacy: closed
+  sig-auth-bugs:
+    description: ""
+    maintainers:
+    - liggitt
+    - tallclair
+    members:
+    - mikedanese
+    - mattmoyer
+    - enj
+    - deads2k
+    - davidopp
+    privacy: closed
+  sig-auth-feature-requests:
+    description: ""
+    maintainers:
+    - liggitt
+    - deads2k
+    - tallclair
+    members:
+    - smarterclayton
+    - destijl
+    - mikedanese
+    - mattmoyer
+    - enj
+    - davidopp
+    privacy: closed
+  sig-auth-misc:
+    description: ""
+    maintainers:
+    - liggitt
+    - erictune
+    - tallclair
+    members:
+    - pmorie
+    - gtank
+    - smarterclayton
+    - destijl
+    - mikedanese
+    - mattmoyer
+    - timstclair
+    - enj
+    - cjcullen
+    - deads2k
+    - davidopp
+    - alex-mohr
+    privacy: closed
+  sig-auth-pr-reviews:
+    description: ""
+    maintainers:
+    - liggitt
+    - tallclair
+    members:
+    - mikedanese
+    - mattmoyer
+    - enj
+    - deads2k
+    - davidopp
+    privacy: closed
+  sig-auth-proposals:
+    description: ""
+    maintainers:
+    - liggitt
+    - tallclair
+    members:
+    - smarterclayton
+    - destijl
+    - mikedanese
+    - mattmoyer
+    - enj
+    - deads2k
+    - davidopp
+    privacy: closed
+  sig-auth-test-failures:
+    description: ""
+    maintainers:
+    - liggitt
+    - tallclair
+    members:
+    - mikedanese
+    - mattmoyer
+    - enj
+    - deads2k
+    - davidopp
+    privacy: closed
+  sig-autoscaling-api-reviews:
+    description: ""
+    maintainers:
+    - DirectXMan12
+    - mwielgus
+    members:
+    - bskiba
+    - aleksandra-malinowska
+    - MaciekPytel
+    - davidopp
+    privacy: closed
+  sig-autoscaling-bugs:
+    description: ""
+    maintainers:
+    - DirectXMan12
+    - mwielgus
+    members:
+    - bskiba
+    - aleksandra-malinowska
+    - MaciekPytel
+    - davidopp
+    privacy: closed
+  sig-autoscaling-feature-requests:
+    description: ""
+    maintainers:
+    - DirectXMan12
+    - mwielgus
+    members:
+    - bskiba
+    - aleksandra-malinowska
+    - MaciekPytel
+    - davidopp
+    privacy: closed
+  sig-autoscaling-misc:
+    description: ""
+    maintainers:
+    - DirectXMan12
+    - mwielgus
+    members:
+    - bskiba
+    - aleksandra-malinowska
+    - MaciekPytel
+    - davidopp
+    privacy: closed
+  sig-autoscaling-pr-reviews:
+    description: ""
+    maintainers:
+    - DirectXMan12
+    - mwielgus
+    members:
+    - bskiba
+    - aleksandra-malinowska
+    - MaciekPytel
+    - davidopp
+    privacy: closed
+  sig-autoscaling-proposals:
+    description: ""
+    maintainers:
+    - mwielgus
+    members:
+    - DirectXMan12
+    - bskiba
+    - aleksandra-malinowska
+    - MaciekPytel
+    - davidopp
+    privacy: closed
+  sig-autoscaling-test-failures:
+    description: ""
+    maintainers:
+    - DirectXMan12
+    - mwielgus
+    members:
+    - bskiba
+    - aleksandra-malinowska
+    - MaciekPytel
+    - davidopp
+    privacy: closed
+  sig-aws-misc:
+    description: ""
+    maintainers:
+    - kris-nova
+    members:
+    - mcrute
+    - micahhausler
+    - nckturner
+    - jsafrane
+    - sethpollack
+    - leakingtapan
+    - d-nishi
+    privacy: closed
+  sig-azure:
+    description: General discussion for SIG Azure
+    maintainers:
+    - justaugustus
+    - shubheksha
+    - khenidak
+    members:
+    - feiskyer
+    - andyzhangx
+    - karataliu
+    privacy: closed
+  sig-big-data-api-reviews:
+    description: ""
+    maintainers:
+    - foxish
+    privacy: closed
+  sig-big-data-bugs:
+    description: ""
+    maintainers:
+    - foxish
+    privacy: closed
+  sig-big-data-feature-requests:
+    description: ""
+    maintainers:
+    - foxish
+    privacy: closed
+  sig-big-data-misc:
+    description: ""
+    maintainers:
+    - foxish
+    privacy: closed
+  sig-big-data-pr-reviews:
+    description: ""
+    maintainers:
+    - foxish
+    privacy: closed
+  sig-big-data-proposals:
+    description: ""
+    maintainers:
+    - foxish
+    privacy: closed
+  sig-big-data-test-failures:
+    description: ""
+    maintainers:
+    - foxish
+    privacy: closed
+  sig-cli-api-reviews:
+    description: ""
+    maintainers:
+    - fabianofranz
+    - adohe
+    - pwittrock
+    members:
+    - soltysh
+    - janetkuo
+    privacy: closed
+  sig-cli-bugs:
+    description: ""
+    maintainers:
+    - fabianofranz
+    - adohe
+    - pwittrock
+    members:
+    - soltysh
+    - mengqiy
+    - janetkuo
+    - dixudx
+    - shiywang
+    - wanghaoran1988
+    privacy: closed
+  sig-cli-feature-requests:
+    description: ""
+    maintainers:
+    - fabianofranz
+    - adohe
+    - pwittrock
+    members:
+    - soltysh
+    - smarterclayton
+    - mengqiy
+    - janetkuo
+    - shiywang
+    - davidopp
+    - wanghaoran1988
+    privacy: closed
+  sig-cli-maintainers:
+    description: ""
+    maintainers:
+    - soltysh
+    - liggitt
+    - adohe
+    - pwittrock
+    members:
+    - fabianofranz
+    - mengqiy
+    - monopole
+    - janetkuo
+    privacy: closed
+  sig-cli-misc:
+    description: Use only if you can't figure out a better category
+    maintainers:
+    - fabianofranz
+    - adohe
+    - pwittrock
+    members:
+    - dims
+    - soltysh
+    - sttts
+    - smarterclayton
+    - mengqiy
+    - janetkuo
+    - brendandburns
+    - shiywang
+    - eparis
+    - deads2k
+    - wanghaoran1988
+    privacy: closed
+  sig-cli-pr-reviews:
+    description: ""
+    maintainers:
+    - fabianofranz
+    - adohe
+    - pwittrock
+    members:
+    - dims
+    - soltysh
+    - sttts
+    - liggitt
+    - smarterclayton
+    - dshulyak
+    - mengqiy
+    - janetkuo
+    - ghodss
+    - dixudx
+    - derekwaynecarr
+    - shiywang
+    - rootfs
+    - eparis
+    - deads2k
+    - yue9944882
+    - wanghaoran1988
+    privacy: closed
+  sig-cli-proposals:
+    description: ""
+    maintainers:
+    - fabianofranz
+    - adohe
+    - pwittrock
+    members:
+    - soltysh
+    - liggitt
+    - smarterclayton
+    - mengqiy
+    - janetkuo
+    - brendandburns
+    - shiywang
+    - deads2k
+    - davidopp
+    privacy: closed
+  sig-cli-test-failures:
+    description: ""
+    maintainers:
+    - fabianofranz
+    - adohe
+    - pwittrock
+    members:
+    - soltysh
+    privacy: closed
+  sig-cloud-provider:
+    description: Parent Team for SIG Cloud Provider
+    maintainers:
+    - jagosan
+    - hogepodge
+    - calebamiles
+    - andrewsykim
+    members:
+    - mcrute
+    - justaugustus
+    - cheftako
+    - nckturner
+    - jhorwit2
+    - yastij
+    - Rajakavitha1
+    privacy: closed
+    teams:
+      cloud-provider-sample-admins:
+        description: ""
+        maintainers:
+        - mcrute
+        - calebamiles
+        - cheftako
+        - andrewsykim
+        privacy: closed
+      cloud-provider-sample-maintainers:
+        description: ""
+        maintainers:
+        - mcrute
+        - calebamiles
+        - cheftako
+        - andrewsykim
+        privacy: closed
+      sig-cloud-provider-api-reviews:
+        description: ""
+        maintainers:
+        - jagosan
+        - hogepodge
+        - calebamiles
+        - andrewsykim
+        privacy: closed
+      sig-cloud-provider-bugs:
+        description: ""
+        maintainers:
+        - jagosan
+        - hogepodge
+        - calebamiles
+        - andrewsykim
+        privacy: closed
+      sig-cloud-provider-feature-requests:
+        description: ""
+        maintainers:
+        - jagosan
+        - hogepodge
+        - calebamiles
+        - andrewsykim
+        privacy: closed
+      sig-cloud-provider-misc:
+        description: ""
+        maintainers:
+        - jagosan
+        - hogepodge
+        - calebamiles
+        - andrewsykim
+        privacy: closed
+      sig-cloud-provider-pr-reviews:
+        description: ""
+        maintainers:
+        - jagosan
+        - hogepodge
+        - calebamiles
+        - andrewsykim
+        members:
+        - nckturner
+        - Rajakavitha1
+        privacy: closed
+      sig-cloud-provider-proposals:
+        description: ""
+        maintainers:
+        - jagosan
+        - hogepodge
+        - calebamiles
+        - andrewsykim
+        privacy: closed
+      sig-cloud-provider-test-failures:
+        description: ""
+        maintainers:
+        - jagosan
+        - hogepodge
+        - calebamiles
+        - andrewsykim
+        privacy: closed
+  sig-cloud-provider-admins:
+    description: ""
+    maintainers:
+    - calebamiles
+    - andrewsykim
+    privacy: closed
+  sig-cluster-lifecycle:
+    description: Use only if you can't figure out a better category
+    maintainers:
+    - timothysc
+    - luxas
+    - roberthbailey
+    members:
+    - jbeda
+    - kad
+    - chuckha
+    - krousey
+    - neolit123
+    - detiber
+    - rosti
+    - pipejakob
+    - stealthybox
+    - karan
+    - fabriziopandini
+    - dixudx
+    - yagonobre
+    - xiangpengzhao
+    - medinatiger
+    - liztio
+    privacy: closed
+  sig-cluster-lifecycle-pr-reviews:
+    description: ""
+    maintainers:
+    - timothysc
+    - luxas
+    - roberthbailey
+    members:
+    - jbeda
+    - kad
+    - chuckha
+    - krousey
+    - neolit123
+    - detiber
+    - rosti
+    - pipejakob
+    - stealthybox
+    - karan
+    - fabriziopandini
+    - dixudx
+    - zouyee
+    - yagonobre
+    - xiangpengzhao
+    - medinatiger
+    - liztio
+    privacy: closed
+  sig-docs-en-owners:
+    description: ""
+    maintainers:
+    - zacharysarah
+    - Bradamant3
+    - chenopis
+    members:
+    - tfogo
+    - tengqm
+    - zparnold
+    - jaredbhatti
+    - bradtopol
+    - mistyhacks
+    - kbarnard10
+    - ryanmcginnis
+    - steveperry-53
+    - cody-clark
+    - stewart-yu
+    privacy: closed
+  sig-docs-en-reviews:
+    description: Review PRs for English content
+    maintainers:
+    - zacharysarah
+    members:
+    - jimangel
+    - zhangxiaoyu-zidif
+    - xiangpengzhao
+    - stewart-yu
+    - Rajakavitha1
+    privacy: closed
+  sig-docs-ja-owners:
+    description: sig-docs-ja-owners
+    maintainers:
+    - cstoku
+    members:
+    - makocchi-git
+    - MasayaAoyama
+    - tnir
+    - nasa9084
+    - chenopis
+    privacy: closed
+  sig-docs-ja-reviews:
+    description: ""
+    maintainers:
+    - cstoku
+    - tnir
+    - nasa9084
+    members:
+    - makocchi-git
+    - MasayaAoyama
+    privacy: closed
+  sig-docs-ko-owners:
+    description: sig-docs-ko-owners
+    maintainers:
+    - gochist
+    members:
+    - ianychoi
+    - ClaudiaJKang
+    privacy: closed
+    teams:
+      sig-docs-ko-reviews:
+        description: Reviews for Korean docs PRs
+        maintainers:
+        - gochist
+        - ClaudiaJKang
+        members:
+        - ianychoi
+        privacy: closed
+  sig-docs-l10n-admins:
+    description: Admins for l10n projects
+    maintainers:
+    - zacharysarah
+    - Bradamant3
+    - chenopis
+    members:
+    - gochist
+    - markthink
+    - hanjiayao
+    - zhangxiaoyu-zidif
+    - cstoku
+    - tnir
+    - ClaudiaJKang
+    privacy: closed
+  sig-docs-maintainers:
+    description: Docs maintainers team.
+    maintainers:
+    - zacharysarah
+    - jaredbhatti
+    - pwittrock
+    - steveperry-53
+    - chenopis
+    members:
+    - tfogo
+    - jimangel
+    - tengqm
+    - zhangxiaoyu-zidif
+    - zparnold
+    - bradtopol
+    - Bradamant3
+    - mistyhacks
+    - kbarnard10
+    - ryanmcginnis
+    - xiangpengzhao
+    privacy: closed
+  sig-docs-pr-reviews:
+    description: Users authorized to review docs PRs
+    maintainers:
+    - zacharysarah
+    - Bradamant3
+    - chenopis
+    members:
+    - tfogo
+    - jimangel
+    - tengqm
+    - zhangxiaoyu-zidif
+    - zparnold
+    - jaredbhatti
+    - bradtopol
+    - mistyhacks
+    - kbarnard10
+    - ryanmcginnis
+    - steveperry-53
+    - xiangpengzhao
+    - cody-clark
+    - stewart-yu
+    - Rajakavitha1
+    privacy: closed
+  sig-docs-zh-owners:
+    description: ""
+    maintainers:
+    - hanjiayao
+    - tengqm
+    members:
+    - zhangxiaoyu-zidif
+    - xiangpengzhao
+    privacy: closed
+  sig-docs-zh-reviews:
+    description: Reviews for Chinese docs PRs
+    maintainers:
+    - tengqm
+    - zhangxiaoyu-zidif
+    - xiangpengzhao
+    members:
+    - idealhack
+    - pigletfly
+    - chenrui333
+    privacy: closed
+  sig-gcp-api-reviews:
+    description: ""
+    maintainers:
+    - abgworrall
+    privacy: closed
+  sig-gcp-bugs:
+    description: ""
+    maintainers:
+    - abgworrall
+    privacy: closed
+  sig-gcp-feature-requests:
+    description: ""
+    maintainers:
+    - abgworrall
+    privacy: closed
+  sig-gcp-misc:
+    description: ""
+    maintainers:
+    - abgworrall
+    privacy: closed
+  sig-gcp-pr-reviews:
+    description: ""
+    maintainers:
+    - abgworrall
+    privacy: closed
+  sig-gcp-proposals:
+    description: ""
+    maintainers:
+    - abgworrall
+    privacy: closed
+  sig-gcp-test-failures:
+    description: ""
+    maintainers:
+    - abgworrall
+    privacy: closed
+  sig-ibmcloud-misc:
+    description: This is a team for sig ibmcloud. The related google group is kubernetes-sig-ibmcloud-misc
+      for emails.  The k8s-mirror-ibmcloud-misc github user is the main stake holder/member
+      of the team.
+    members:
+    - spzala
+    - k82cn
+    privacy: closed
+  sig-instrumentation-api-reviews:
+    description: ""
+    maintainers:
+    - fabxc
+    - piosz
+    members:
+    - DirectXMan12
+    - x13n
+    - kawych
+    - brancz
+    - zouyee
+    - loburm
+    - fgrzadkowski
+    privacy: closed
+  sig-instrumentation-bugs:
+    description: ""
+    maintainers:
+    - fabxc
+    - piosz
+    members:
+    - DirectXMan12
+    - x13n
+    - kawych
+    - brancz
+    - zouyee
+    - loburm
+    - fgrzadkowski
+    privacy: closed
+  sig-instrumentation-feature-requests:
+    description: ""
+    maintainers:
+    - fabxc
+    - piosz
+    members:
+    - DirectXMan12
+    - x13n
+    - kawych
+    - brancz
+    - loburm
+    - fgrzadkowski
+    privacy: closed
+  sig-instrumentation-misc:
+    description: ""
+    maintainers:
+    - fabxc
+    - piosz
+    members:
+    - DirectXMan12
+    - x13n
+    - kawych
+    - brancz
+    - loburm
+    - fgrzadkowski
+    privacy: closed
+  sig-instrumentation-pr-reviews:
+    description: ""
+    maintainers:
+    - fabxc
+    - piosz
+    members:
+    - DirectXMan12
+    - x13n
+    - kawych
+    - brancz
+    - zouyee
+    - loburm
+    - fgrzadkowski
+    privacy: closed
+  sig-instrumentation-proposals:
+    description: ""
+    maintainers:
+    - fabxc
+    - piosz
+    members:
+    - DirectXMan12
+    - x13n
+    - kawych
+    - brancz
+    - loburm
+    - fgrzadkowski
+    privacy: closed
+  sig-instrumentation-test-failures:
+    description: ""
+    maintainers:
+    - fabxc
+    - piosz
+    members:
+    - DirectXMan12
+    - x13n
+    - kawych
+    - brancz
+    - loburm
+    - fgrzadkowski
+    privacy: closed
+  sig-multicluster-api-reviews:
+    description: ""
+    maintainers:
+    - csbell
+    members:
+    - madhusudancs
+    - jianhuiz
+    - davidopp
+    - shashidharatd
+    - nikhiljindal
+    - quinton-hoole
+    - mwielgus
+    - quinton-hoole-2
+    privacy: closed
+  sig-multicluster-bugs:
+    description: ""
+    maintainers:
+    - nikhiljindal
+    - quinton-hoole
+    - csbell
+    members:
+    - madhusudancs
+    - marun
+    - jianhuiz
+    - shashidharatd
+    - irfanurrehman
+    - mwielgus
+    - quinton-hoole-2
+    privacy: closed
+  sig-multicluster-feature-requests:
+    description: ""
+    maintainers:
+    - csbell
+    members:
+    - madhusudancs
+    - smarterclayton
+    - jianhuiz
+    - derekwaynecarr
+    - davidopp
+    - shashidharatd
+    - nikhiljindal
+    - quinton-hoole
+    - mwielgus
+    - quinton-hoole-2
+    privacy: closed
+  sig-multicluster-misc:
+    description: 'SIG for multi cluster: https://groups.google.com/forum/#!forum/kubernetes-sig-multicluster'
+    maintainers:
+    - madhusudancs
+    - nikhiljindal
+    - quinton-hoole
+    - csbell
+    members:
+    - marun
+    - liggitt
+    - smarterclayton
+    - jianhuiz
+    - derekwaynecarr
+    - alfred-huangjian
+    - davidopp
+    - shashidharatd
+    - irfanurrehman
+    - mwielgus
+    - huangyuqi
+    - quinton-hoole-2
+    privacy: closed
+  sig-multicluster-pr-reviews:
+    description: ""
+    maintainers:
+    - csbell
+    members:
+    - madhusudancs
+    - marun
+    - jianhuiz
+    - shashidharatd
+    - nikhiljindal
+    - quinton-hoole
+    - mwielgus
+    - quinton-hoole-2
+    privacy: closed
+  sig-multicluster-test-failures:
+    description: ""
+    maintainers:
+    - csbell
+    members:
+    - madhusudancs
+    - jianhuiz
+    - shashidharatd
+    - irfanurrehman
+    - nikhiljindal
+    - quinton-hoole
+    - quinton-hoole-2
+    privacy: closed
+  sig-mutlicluster-proposals:
+    description: ""
+    maintainers:
+    - quinton-hoole
+    - csbell
+    - quinton-hoole-2
+    members:
+    - madhusudancs
+    - marun
+    - liggitt
+    - smarterclayton
+    - jianhuiz
+    - derekwaynecarr
+    - davidopp
+    - shashidharatd
+    - nikhiljindal
+    - mwielgus
+    privacy: closed
+  sig-network-api-reviews:
+    description: ""
+    members:
+    - caseydavenport
+    - thockin
+    - davidopp
+    privacy: closed
+  sig-network-bugs:
+    description: ""
+    members:
+    - caseydavenport
+    - cmluciano
+    - thockin
+    privacy: closed
+  sig-network-feature-requests:
+    description: ""
+    members:
+    - smarterclayton
+    - caseydavenport
+    - cmluciano
+    - thockin
+    - davidopp
+    privacy: closed
+  sig-network-misc:
+    description: Network SIG
+    maintainers:
+    - dcbw
+    members:
+    - gsasha
+    - danwinship
+    - feiskyer
+    - bowei
+    - smarterclayton
+    - eghobo
+    - freehan
+    - jeremyeder
+    - caseydavenport
+    - thockin
+    - aanm
+    - eparis
+    - davidopp
+    - MrHohn
+    - bprashanth
+    - dnardo
+    privacy: closed
+  sig-network-pr-reviews:
+    description: ""
+    members:
+    - feiskyer
+    - bowei
+    - caseydavenport
+    - cmluciano
+    - m1093782566
+    - thockin
+    - dcbw
+    privacy: closed
+  sig-network-proposals:
+    description: ""
+    members:
+    - feiskyer
+    - smarterclayton
+    - caseydavenport
+    - cmluciano
+    - thockin
+    - davidopp
+    - dcbw
+    privacy: closed
+  sig-network-test-failures:
+    description: ""
+    members:
+    - caseydavenport
+    - cmluciano
+    - thockin
+    privacy: closed
+  sig-node-api-reviews:
+    description: API Reviews for Kubernetes Node Special-Interest-Group
+    members:
+    - ConnorDoyle
+    - feiskyer
+    - resouer
+    - derekwaynecarr
+    - vishh
+    - dchen1107
+    - davidopp
+    - yujuhong
+    - vikaschoudhary16
+    - tallclair
+    privacy: closed
+  sig-node-bugs:
+    description: Bugs for Kubernetes Node Special-Interest-Group
+    members:
+    - ConnorDoyle
+    - feiskyer
+    - resouer
+    - derekwaynecarr
+    - vishh
+    - dchen1107
+    - yujuhong
+    - vikaschoudhary16
+    - yguo0905
+    - tallclair
+    privacy: closed
+  sig-node-feature-requests:
+    description: Feature Requests for Kubernetes Node Special-Interest-Group
+    members:
+    - ConnorDoyle
+    - feiskyer
+    - smarterclayton
+    - resouer
+    - Random-Liu
+    - derekwaynecarr
+    - vishh
+    - dchen1107
+    - davidopp
+    - yujuhong
+    - vikaschoudhary16
+    - yguo0905
+    - tallclair
+    privacy: closed
+  sig-node-pr-reviews:
+    description: PR Reviews for Kubernetes Node Special-Interest-Group
+    members:
+    - ConnorDoyle
+    - feiskyer
+    - resouer
+    - tmrts
+    - derekwaynecarr
+    - vishh
+    - dchen1107
+    - yujuhong
+    - vikaschoudhary16
+    - tallclair
+    privacy: closed
+  sig-node-proposals:
+    description: Proposals for Kubernetes Node Special-Interest-Group
+    members:
+    - ConnorDoyle
+    - feiskyer
+    - mtaufen
+    - smarterclayton
+    - resouer
+    - dashpole
+    - timstclair
+    - Random-Liu
+    - derekwaynecarr
+    - vishh
+    - dchen1107
+    - davidopp
+    - yujuhong
+    - vikaschoudhary16
+    - tallclair
+    privacy: closed
+  sig-node-test-failures:
+    description: Test Failures for Kubernetes Node Special-Interest-Group
+    members:
+    - ConnorDoyle
+    - sjenning
+    - feiskyer
+    - mtaufen
+    - resouer
+    - euank
+    - dashpole
+    - timstclair
+    - Random-Liu
+    - derekwaynecarr
+    - vishh
+    - dchen1107
+    - yujuhong
+    - vikaschoudhary16
+    - yguo0905
+    - tallclair
+    privacy: closed
+  sig-openstack-api-reviews:
+    description: ""
+    maintainers:
+    - idvoretskyi
+    - xsgordon
+    privacy: closed
+  sig-openstack-bugs:
+    description: ""
+    maintainers:
+    - idvoretskyi
+    - xsgordon
+    members:
+    - NickrenREN
+    privacy: closed
+  sig-openstack-feature-requests:
+    description: ""
+    maintainers:
+    - idvoretskyi
+    members:
+    - xsgordon
+    privacy: closed
+  sig-openstack-misc:
+    description: OpenStack Special Interest Group
+    maintainers:
+    - idvoretskyi
+    - xsgordon
+    members:
+    - flaper87
+    - dims
+    - grahamhayes
+    - anguslees
+    - russellb
+    - hogepodge
+    - hongbin
+    - pigmej
+    - feiskyer
+    - kragniz
+    - harlowja
+    - stevemcquaid
+    - eghobo
+    - codevulture
+    - NickrenREN
+    - rootfs
+    privacy: closed
+  sig-openstack-pr-reviews:
+    description: ""
+    maintainers:
+    - idvoretskyi
+    - xsgordon
+    members:
+    - NickrenREN
+    privacy: closed
+  sig-openstack-proposals:
+    description: ""
+    maintainers:
+    - idvoretskyi
+    - xsgordon
+    privacy: closed
+  sig-openstack-test-failures:
+    description: ""
+    maintainers:
+    - idvoretskyi
+    - xsgordon
+    privacy: closed
+  sig-release:
+    description: SIG Release Members
+    maintainers:
+    - spiffxp
+    - idvoretskyi
+    - justaugustus
+    - calebamiles
+    - cblecker
+    - tpepper
+    members:
+    - dims
+    - dougm
+    - jberkus
+    - marun
+    - jpbetz
+    - feiskyer
+    - foxish
+    - BenTheElder
+    - marpaia
+    - liggitt
+    - jdumars
+    - krzyzacy
+    - mbohlool
+    - caesarxuchao
+    - monopole
+    - tfogo
+    - zacharysarah
+    - dashpole
+    - radhikapc
+    - nickchase
+    - ethernetdan
+    - shyamjvs
+    - kacole2
+    - aleksandra-malinowska
+    - zparnold
+    - cjwagner
+    - enisoc
+    - Bradamant3
+    - mistyhacks
+    - dchen1107
+    - pwittrock
+    - MaciekPytel
+    - ixdy
+    - mohammedzee1000
+    - saad-ali
+    - abgworrall
+    - wojtek-t
+    - kbarnard10
+    - guineveresaenger
+    - steveperry-53
+    - AishSundar
+    - chenopis
+    - nikopen
+    privacy: closed
+    teams:
+      sig-release-admins:
+        description: Admins for SIG Release repositories
+        maintainers:
+        - justaugustus
+        - calebamiles
+        - jdumars
+        - tpepper
+        privacy: closed
+  sig-scalability-api-reviews:
+    description: ""
+    maintainers:
+    - jbeda
+    - spiffxp
+    - countspongebob
+    members:
+    - lavalamp
+    - shyamjvs
+    privacy: closed
+  sig-scalability-bugs:
+    description: ""
+    maintainers:
+    - jbeda
+    - spiffxp
+    - timothysc
+    - countspongebob
+    members:
+    - lavalamp
+    - shyamjvs
+    privacy: closed
+  sig-scalability-feature-requests:
+    description: ""
+    maintainers:
+    - jbeda
+    - spiffxp
+    - timothysc
+    - countspongebob
+    members:
+    - lavalamp
+    - smarterclayton
+    - shyamjvs
+    privacy: closed
+  sig-scalability-misc:
+    description: ""
+    maintainers:
+    - jbeda
+    - spiffxp
+    - countspongebob
+    members:
+    - rrati
+    - lavalamp
+    - feiskyer
+    - smarterclayton
+    - jeremyeder
+    - shyamjvs
+    privacy: closed
+  sig-scalability-pr-reviews:
+    description: ""
+    maintainers:
+    - jbeda
+    - spiffxp
+    - countspongebob
+    members:
+    - lavalamp
+    - shyamjvs
+    privacy: closed
+  sig-scalability-proprosals:
+    description: ""
+    maintainers:
+    - jbeda
+    - spiffxp
+    - countspongebob
+    members:
+    - lavalamp
+    - smarterclayton
+    - shyamjvs
+    privacy: closed
+  sig-scalability-test-failures:
+    description: ""
+    maintainers:
+    - jbeda
+    - spiffxp
+    - countspongebob
+    members:
+    - lavalamp
+    privacy: closed
+  sig-scheduling-api-reviews:
+    description: ""
+    maintainers:
+    - timothysc
+    members:
+    - rrati
+    - ConnorDoyle
+    - pigmej
+    - jayunit100
+    - hongchaodeng
+    - resouer
+    - aveshagarwal
+    - xiang90
+    - balajismaniam
+    - derekwaynecarr
+    - jiangyaoguo
+    - kevin-wangzefeng
+    - vishh
+    - ingvagabund
+    - davidopp
+    - SrinivasChilveri
+    - quinton-hoole
+    - mqliang
+    - bsalamat
+    - k82cn
+    - quinton-hoole-2
+    privacy: closed
+  sig-scheduling-bugs:
+    description: ""
+    maintainers:
+    - timothysc
+    members:
+    - rrati
+    - ConnorDoyle
+    - pigmej
+    - jayunit100
+    - hongchaodeng
+    - resouer
+    - aveshagarwal
+    - gyliu513
+    - xiang90
+    - balajismaniam
+    - derekwaynecarr
+    - jiangyaoguo
+    - kevin-wangzefeng
+    - vishh
+    - ingvagabund
+    - davidopp
+    - SrinivasChilveri
+    - quinton-hoole
+    - ravisantoshgudimetla
+    - vikaschoudhary16
+    - mqliang
+    - wanghaoran1988
+    - bsalamat
+    - k82cn
+    - quinton-hoole-2
+    privacy: closed
+  sig-scheduling-feature-requests:
+    description: ""
+    maintainers:
+    - timothysc
+    members:
+    - rrati
+    - ConnorDoyle
+    - pigmej
+    - jayunit100
+    - hongchaodeng
+    - smarterclayton
+    - resouer
+    - aveshagarwal
+    - gyliu513
+    - xiang90
+    - balajismaniam
+    - derekwaynecarr
+    - jiangyaoguo
+    - kevin-wangzefeng
+    - vishh
+    - yastij
+    - ingvagabund
+    - davidopp
+    - SrinivasChilveri
+    - quinton-hoole
+    - ravisantoshgudimetla
+    - vikaschoudhary16
+    - mqliang
+    - bsalamat
+    - k82cn
+    - quinton-hoole-2
+    privacy: closed
+  sig-scheduling-misc:
+    description: Scheduling algorithms, scheduling/scheduler architecture and extensibility,
+      rescheduling/continuous re-optimization, cluster-level resource allocation and
+      resource management
+    maintainers:
+    - timothysc
+    members:
+    - rrati
+    - ConnorDoyle
+    - pigmej
+    - jayunit100
+    - hongchaodeng
+    - smarterclayton
+    - resouer
+    - aveshagarwal
+    - gyliu513
+    - xiang90
+    - balajismaniam
+    - derekwaynecarr
+    - jiangyaoguo
+    - kevin-wangzefeng
+    - ingvagabund
+    - davidopp
+    - SrinivasChilveri
+    - quinton-hoole
+    - ravisantoshgudimetla
+    - mqliang
+    - wanghaoran1988
+    - bsalamat
+    - k82cn
+    - quinton-hoole-2
+    privacy: closed
+  sig-scheduling-pr-reviews:
+    description: ""
+    maintainers:
+    - timothysc
+    members:
+    - rrati
+    - ConnorDoyle
+    - pigmej
+    - jayunit100
+    - hongchaodeng
+    - resouer
+    - aveshagarwal
+    - gyliu513
+    - xiang90
+    - balajismaniam
+    - derekwaynecarr
+    - jiangyaoguo
+    - kevin-wangzefeng
+    - vishh
+    - yastij
+    - ingvagabund
+    - davidopp
+    - SrinivasChilveri
+    - quinton-hoole
+    - ravisantoshgudimetla
+    - vikaschoudhary16
+    - mqliang
+    - wanghaoran1988
+    - bsalamat
+    - k82cn
+    - quinton-hoole-2
+    privacy: closed
+  sig-scheduling-proposals:
+    description: ""
+    maintainers:
+    - timothysc
+    members:
+    - rrati
+    - ConnorDoyle
+    - pigmej
+    - jayunit100
+    - hongchaodeng
+    - smarterclayton
+    - resouer
+    - aveshagarwal
+    - gyliu513
+    - xiang90
+    - balajismaniam
+    - derekwaynecarr
+    - jiangyaoguo
+    - kevin-wangzefeng
+    - vishh
+    - ingvagabund
+    - davidopp
+    - SrinivasChilveri
+    - quinton-hoole
+    - vikaschoudhary16
+    - mqliang
+    - bsalamat
+    - k82cn
+    - quinton-hoole-2
+    privacy: closed
+  sig-scheduling-test-failures:
+    description: ""
+    maintainers:
+    - timothysc
+    members:
+    - rrati
+    - ConnorDoyle
+    - pigmej
+    - jayunit100
+    - hongchaodeng
+    - resouer
+    - aveshagarwal
+    - gyliu513
+    - xiang90
+    - balajismaniam
+    - derekwaynecarr
+    - jiangyaoguo
+    - kevin-wangzefeng
+    - ingvagabund
+    - davidopp
+    - SrinivasChilveri
+    - quinton-hoole
+    - ravisantoshgudimetla
+    - mqliang
+    - bsalamat
+    - k82cn
+    - quinton-hoole-2
+    privacy: closed
+  sig-service-catalog-api-reviews:
+    description: API review notifications for SIG service catalog
+    maintainers:
+    - pmorie
+    members:
+    - jessfraz
+    - pwittrock
+    privacy: closed
+  sig-service-catalog-bugs:
+    description: Bug notifications for SIG service-catalog
+    maintainers:
+    - pmorie
+    members:
+    - jessfraz
+    - pwittrock
+    privacy: closed
+  sig-service-catalog-feature-requests:
+    description: Feature request notifications for SIG service-catalog
+    maintainers:
+    - pmorie
+    members:
+    - smarterclayton
+    - jessfraz
+    - pwittrock
+    privacy: closed
+  sig-service-catalog-misc:
+    description: Miscellaneous notifications for SIG service-catalog
+    maintainers:
+    - pmorie
+    members:
+    - smarterclayton
+    - jessfraz
+    - pwittrock
+    - bmelville
+    privacy: closed
+  sig-service-catalog-pr-reviews:
+    description: PR review notifications for SIG service-catalog
+    maintainers:
+    - pmorie
+    members:
+    - jessfraz
+    - pwittrock
+    privacy: closed
+  sig-service-catalog-proposals:
+    description: Proposal notifications for SIG service-catalog
+    maintainers:
+    - pmorie
+    members:
+    - smarterclayton
+    - jessfraz
+    - pwittrock
+    privacy: closed
+  sig-service-catalog-test-failures:
+    description: For reporting test failures to SIG service-catalog
+    maintainers:
+    - pmorie
+    members:
+    - jessfraz
+    - pwittrock
+    privacy: closed
+  sig-storage-api-reviews:
+    description: API Reviews for Kubernetes Storage Special-Interest-Group
+    maintainers:
+    - saad-ali
+    members:
+    - childsb
+    - jsafrane
+    - wattsteve
+    - thockin
+    - rootfs
+    - davidopp
+    - matchstick
+    - msau42
+    privacy: closed
+  sig-storage-bugs:
+    description: Bugs for Kubernetes Storage Special-Interest-Group
+    maintainers:
+    - saad-ali
+    members:
+    - gnufied
+    - childsb
+    - jsafrane
+    - jeffvance
+    - wattsteve
+    - ianchakeres
+    - NickrenREN
+    - rootfs
+    - jingxu97
+    - matchstick
+    - msau42
+    privacy: closed
+  sig-storage-feature-requests:
+    description: Feature Requests for Kubernetes Storage Special-Interest-Group
+    maintainers:
+    - saad-ali
+    members:
+    - childsb
+    - smarterclayton
+    - jsafrane
+    - mdelio
+    - wattsteve
+    - ianchakeres
+    - thockin
+    - NickrenREN
+    - rootfs
+    - davidopp
+    - jingxu97
+    - matchstick
+    - msau42
+    privacy: closed
+  sig-storage-misc:
+    description: Miscellaneous Discussions for Kubernetes Storage Special-Interest-Group.
+      Ideally @kubernetes/sig-storage-misc should be seldom used, in lieu of more
+      appropriate channels (sig-storage-bugs, sig-storage-proposals, sig-storage-pr-reviews,
+      etc.)
+    maintainers:
+    - saad-ali
+    members:
+    - gnufied
+    - childsb
+    - smarterclayton
+    - jsafrane
+    - mdelio
+    - jeffvance
+    - wattsteve
+    - ianchakeres
+    - thockin
+    - NickrenREN
+    - rootfs
+    - davidopp
+    - jingxu97
+    - matchstick
+    - msau42
+    privacy: closed
+  sig-storage-pr-reviews:
+    description: PR Reviews for Kubernetes Storage Special-Interest-Group
+    maintainers:
+    - saad-ali
+    members:
+    - childsb
+    - jsafrane
+    - rootfs
+    - matchstick
+    - msau42
+    privacy: closed
+  sig-storage-proposals:
+    description: Proposals for Kubernetes Storage Special-Interest-Group
+    maintainers:
+    - saad-ali
+    members:
+    - childsb
+    - smarterclayton
+    - jsafrane
+    - mdelio
+    - wattsteve
+    - thockin
+    - rootfs
+    - vishh
+    - davidopp
+    - jingxu97
+    - matchstick
+    - msau42
+    privacy: closed
+  sig-storage-test-failures:
+    description: Test Failures for Kubernetes Storage Special-Interest-Group
+    maintainers:
+    - saad-ali
+    members:
+    - childsb
+    - jsafrane
+    - jeffvance
+    - ianchakeres
+    - rootfs
+    - jingxu97
+    - matchstick
+    - msau42
+    privacy: closed
+  sig-testing:
+    description: sig-testing
+    maintainers:
+    - spiffxp
+    - timothysc
+    - rmmh
+    - fejta
+    - cblecker
+    members:
+    - justinsb
+    - marun
+    - pigmej
+    - justaugustus
+    - jayunit100
+    - bowei
+    - BenTheElder
+    - jdef
+    - cjwagner
+    - stevekuznetsov
+    - ixdy
+    - mkumatag
+    - xiangpengzhao
+    - pskrzyns
+    - alejandroEsc
+    - qhuynh96
+    privacy: closed
+  sig-testing-pr-reviews:
+    description: ""
+    maintainers:
+    - spiffxp
+    - rmmh
+    - fejta
+    - ixdy
+    members:
+    - BenTheElder
+    - cjwagner
+    - mkumatag
+    privacy: closed
+  sig-windows-bugs:
+    description: For reporting and investigating bugs for sig-windows
+    maintainers:
+    - michmike
+    members:
+    - alexbrand
+    - feiskyer
+    - asultan001
+    - jbhurat
+    privacy: closed
+  sig-windows-feature-requests:
+    description: Feature requests for sig-windows
+    maintainers:
+    - michmike
+    members:
+    - alexbrand
+    - feiskyer
+    - asultan001
+    - jbhurat
+    privacy: closed
+  sig-windows-misc:
+    description: Special Interest Group Windows
+    maintainers:
+    - michmike
+    members:
+    - sarahnovotny
+    - ikester
+    - alexbrand
+    - feiskyer
+    - pires
+    - andyzhangx
+    - csrwng
+    - asultan001
+    - jbhurat
+    privacy: closed
+  stage-bots:
+    description: Bots that only have write access to staged repositories. Giving write
+      access to other repositories may allow the bot to automatically unintentionally
+      close issues in those repositories.
+    members:
+    - k8s-publishing-bot
+    privacy: closed
+  steering-committee:
+    description: Kubernetes Steering Committee
+    maintainers:
+    - philips
+    - jbeda
+    - spiffxp
+    - brendandburns
+    members:
+    - dims
+    - sarahnovotny
+    - timothysc
+    - smarterclayton
+    - michelleN
+    - derekwaynecarr
+    - bgrant0607
+    - pwittrock
+    privacy: closed
+  test-infra-admins:
+    description: Administrators to test-infra repo
+    maintainers:
+    - spiffxp
+    - fejta
+    - krzyzacy
+    - ixdy
+    - Q-Lee
+    members:
+    - BenTheElder
+    - zmerlynn
+    - cjwagner
+    privacy: closed
+  test-infra-maintainers:
+    description: Test infrastructure write access
+    maintainers:
+    - fejta
+    - krzyzacy
+    - ixdy
+    members:
+    - madhusudancs
+    - krousey
+    - rmmh
+    - marun
+    - sttts
+    - mtaufen
+    - BenTheElder
+    - jessfraz
+    - pipejakob
+    - gmarek
+    - jlowdermilk
+    - caesarxuchao
+    - maisem
+    - ethernetdan
+    - shyamjvs
+    - zmerlynn
+    - cjwagner
+    - Random-Liu
+    - fabioy
+    - wonderfly
+    - cjcullen
+    - stevekuznetsov
+    - pwittrock
+    - quinton-hoole
+    - wojtek-t
+    - bprashanth
+    - jingxu97
+    - quinton-hoole-2
+    privacy: closed
+  test-infra-reviewers:
+    description: ""
+    maintainers:
+    - cblecker
+    members:
+    - cjwagner
+    - thockin
+    privacy: closed
+  ubuntu-image:
+    description: ""
+    members:
+    - chrisglass
+    - OddBloke
+    - philroche
+    - josvazg
+    - rcj4747
+    - dchen1107
+    privacy: closed
+  utils-admins:
+    description: ""
+    maintainers:
+    - apelisse
+    members:
+    - mengqiy
+    - monopole
+    - thockin
+    - pwittrock
+    privacy: closed
+  utils-maintainers:
+    description: ""
+    maintainers:
+    - apelisse
+    members:
+    - mengqiy
+    - monopole
+    - thockin
+    - pwittrock
+    privacy: closed
+  utils-reviewers:
+    description: ""
+    maintainers:
+    - apelisse
+    members:
+    - mengqiy
+    - monopole
+    - thockin
+    - pwittrock
+    privacy: closed

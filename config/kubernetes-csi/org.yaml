@@ -28,3 +28,290 @@ members:
 - saad-ali
 - sbezverk
 - vladimirvivien
+teams:
+  cluster-driver-registrar-admins:
+    description: ""
+    maintainers:
+    - lpabon
+    - saad-ali
+    privacy: closed
+  cluster-driver-registrar-maintainers:
+    description: ""
+    maintainers:
+    - lpabon
+    - saad-ali
+    privacy: closed
+  csi-driver-fibre-channel-admins:
+    description: ""
+    maintainers:
+    - childsb
+    - saad-ali
+    privacy: closed
+  csi-driver-fibre-channel-maintainers:
+    description: ""
+    maintainers:
+    - childsb
+    - saad-ali
+    privacy: closed
+  csi-driver-flex-admins:
+    description: admin access to csi-driver-flex
+    maintainers:
+    - childsb
+    - saad-ali
+    privacy: closed
+  csi-driver-flex-maintainers:
+    description: write access to csi-driver-flex
+    maintainers:
+    - childsb
+    - saad-ali
+    privacy: closed
+  csi-driver-host-path-admins:
+    description: admin access to csi-driver-host-path
+    maintainers:
+    - childsb
+    - saad-ali
+    privacy: closed
+  csi-driver-host-path-maintainers:
+    description: write access to csi-driver-host-path
+    maintainers:
+    - childsb
+    - saad-ali
+    privacy: closed
+  csi-driver-iscsi-admins:
+    description: admin access to csi-driver-iscsi
+    maintainers:
+    - childsb
+    - saad-ali
+    privacy: closed
+  csi-driver-iscsi-maintainers:
+    description: write access to csi-driver-iscsi
+    maintainers:
+    - childsb
+    - saad-ali
+    privacy: closed
+  csi-driver-nfs-admins:
+    description: admin access to csi-driver-nfs
+    maintainers:
+    - childsb
+    - saad-ali
+    privacy: closed
+  csi-driver-nfs-maintainers:
+    description: write access to csi-driver-nfs
+    maintainers:
+    - childsb
+    - saad-ali
+    privacy: closed
+  csi-lib-common-admins:
+    description: admin access to csi-lib-common
+    maintainers:
+    - childsb
+    - saad-ali
+    privacy: closed
+  csi-lib-common-maintainers:
+    description: write access to csi-lib-common
+    maintainers:
+    - childsb
+    - saad-ali
+    privacy: closed
+  csi-lib-fc-admins:
+    description: admin access to csi-lib-fc
+    maintainers:
+    - childsb
+    - saad-ali
+    privacy: closed
+  csi-lib-fc-maintainers:
+    description: write access to csi-lib-fc
+    maintainers:
+    - childsb
+    - saad-ali
+    privacy: closed
+  csi-lib-iscsi-admins:
+    description: admin access to csi-lib-iscsi
+    maintainers:
+    - childsb
+    - saad-ali
+    privacy: closed
+  csi-lib-iscsi-maintainers:
+    description: write access to csi-lib-iscsi
+    maintainers:
+    - childsb
+    - saad-ali
+    privacy: closed
+  csi-lib-utils-admins:
+    description: ""
+    maintainers:
+    - saad-ali
+    privacy: closed
+  csi-lib-utils-maintainers:
+    description: ""
+    maintainers:
+    - saad-ali
+    privacy: closed
+  csi-test-admins:
+    description: admin access to csi-test
+    maintainers:
+    - childsb
+    - saad-ali
+    members:
+    - lpabon
+    - davidz627
+    privacy: closed
+  csi-test-maintainers:
+    description: write access to csi-test
+    maintainers:
+    - childsb
+    - saad-ali
+    members:
+    - sbezverk
+    privacy: closed
+  developers:
+    description: ""
+    maintainers:
+    - lpabon
+    members:
+    - vladimirvivien
+    - childsb
+    - jsafrane
+    - davidz627
+    - rootfs
+    - chakri-nelluri
+    - saad-ali
+    - sbezverk
+    privacy: closed
+  docs-admins:
+    description: admin access to docs
+    maintainers:
+    - childsb
+    - saad-ali
+    members:
+    - lpabon
+    privacy: closed
+  docs-maintainers:
+    description: write access to docs
+    maintainers:
+    - childsb
+    - saad-ali
+    privacy: closed
+  driver-registrar-admins:
+    description: admin access to driver-registrar
+    maintainers:
+    - childsb
+    - saad-ali
+    members:
+    - lpabon
+    - davidz627
+    privacy: closed
+  driver-registrar-maintainers:
+    description: write access to driver-registrar
+    maintainers:
+    - childsb
+    - saad-ali
+    privacy: closed
+  drivers-admins:
+    description: admin access to drivers
+    maintainers:
+    - childsb
+    - saad-ali
+    members:
+    - lpabon
+    - chakri-nelluri
+    privacy: closed
+  drivers-maintainers:
+    description: write access to drivers
+    maintainers:
+    - childsb
+    - saad-ali
+    members:
+    - sbezverk
+    privacy: closed
+  external-attacher-admins:
+    description: admin access to external-attacher
+    maintainers:
+    - childsb
+    - saad-ali
+    privacy: closed
+  external-attacher-maintainers:
+    description: write access to external-attacher
+    maintainers:
+    - childsb
+    - saad-ali
+    privacy: closed
+  external-provisioner-admins:
+    description: admin access to external-provisioner
+    maintainers:
+    - childsb
+    - saad-ali
+    members:
+    - lpabon
+    - davidz627
+    privacy: closed
+  external-provisioner-maintainers:
+    description: write access to external-provisioner
+    maintainers:
+    - childsb
+    - saad-ali
+    privacy: closed
+  external-resizer-admins:
+    description: ""
+    maintainers:
+    - saad-ali
+    privacy: closed
+  external-resizer-maintainers:
+    description: ""
+    maintainers:
+    - saad-ali
+    privacy: closed
+  external-snapshotter-admins:
+    description: admin access to external-snapshotter
+    maintainers:
+    - childsb
+    - saad-ali
+    members:
+    - lpabon
+    privacy: closed
+  external-snapshotter-maintainers:
+    description: write access to external-snapshotter
+    maintainers:
+    - childsb
+    - saad-ali
+    privacy: closed
+  kubernetes-csi-migration-library-admins:
+    description: admin access to kubernetes-csi-migration-library
+    maintainers:
+    - davidz627
+    - saad-ali
+    privacy: closed
+  kubernetes-csi-migration-library-maintainers:
+    description: write access to kubernetes-csi-migration-library
+    maintainers:
+    - davidz627
+    - saad-ali
+    privacy: closed
+  livenessprobe-admins:
+    description: admin access to livenessprobe
+    maintainers:
+    - childsb
+    - saad-ali
+    members:
+    - lpabon
+    privacy: closed
+  livenessprobe-maintainers:
+    description: write access to livenessprobe
+    maintainers:
+    - childsb
+    - saad-ali
+    members:
+    - sbezverk
+    privacy: closed
+  node-driver-registrar-admins:
+    description: ""
+    maintainers:
+    - lpabon
+    - saad-ali
+    privacy: closed
+  node-driver-registrar-maintainers:
+    description: ""
+    maintainers:
+    - lpabon
+    - saad-ali
+    privacy: closed

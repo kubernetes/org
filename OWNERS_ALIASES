@@ -9,9 +9,10 @@ aliases:
   sig-architecture-leads:
     - bgrant0607
     - jdumars
+    - mattfarina
   sig-auth-leads:
-    - liggitt
     - mikedanese
+    - enj
     - tallclair
   sig-autoscaling-leads:
     - mwielgus
@@ -19,19 +20,21 @@ aliases:
   sig-aws-leads:
     - justinsb
     - kris-nova
-    - countspongebob
+    - d-nishi
   sig-azure-leads:
     - justaugustus
-    - shubheksha
+    - dstrebel
     - khenidak
+    - feiskyer
   sig-big-data-leads:
     - foxish
     - erikerlandson
     - liyinan926
   sig-cli-leads:
     - soltysh
+    - seans3
+    - soltysh
     - pwittrock
-    - AdoHe
   sig-cloud-provider-leads:
     - andrewsykim
     - hogepodge
@@ -49,9 +52,9 @@ aliases:
     - grodrigues3
     - cblecker
   sig-docs-leads:
-    - zacharysarah
     - chenopis
-    - jaredbhatti
+    - zacharysarah
+    - bradamant3
   sig-gcp-leads:
     - abgworrall
   sig-ibmcloud-leads:
@@ -64,7 +67,6 @@ aliases:
   sig-multicluster-leads:
     - csbell
     - quinton-hoole
-    - quinton-hoole-2
   sig-network-leads:
     - thockin
     - dcbw
@@ -81,19 +83,20 @@ aliases:
     - idvoretskyi
     - calebamiles
   sig-release-leads:
-    - jdumars
     - calebamiles
+    - justaugustus
+    - tpepper
   sig-scalability-leads:
     - wojtek-t
-    - countspongebob
+    - shyamjvs
   sig-scheduling-leads:
     - bsalamat
     - k82cn
   sig-service-catalog-leads:
-    - pmorie
     - carolynvs
     - kibbles-n-bytes
     - duglin
+    - jboyd01
   sig-storage-leads:
     - saad-ali
     - childsb
@@ -117,14 +120,14 @@ aliases:
     - garethr
   wg-apply-leads:
     - lavalamp
-  wg-cluster-api-leads:
-    - kris-nova
-    - roberthbailey
   wg-container-identity-leads:
     - smarterclayton
     - destijl
   wg-iot-edge-leads:
+    - cindyxing
     - dejanb
+    - ptone
+    - cantbewong
   wg-kubeadm-adoption-leads:
     - luxas
     - justinsb
@@ -139,26 +142,34 @@ aliases:
   wg-policy-leads:
     - hannibalhuang
     - tsandall
-    - davidopp
-    - smarterclayton
-    - xuanjia
+    - easeway
+    - ericavonb
+    - mdelder
   wg-resource-management-leads:
     - vishh
     - derekwaynecarr
+  wg-security-audit-leads:
+    - aasmall
+    - joelsmith
+    - cji
 ## BEGIN CUSTOM CONTENT
   steering-committee:
     - bgrant0607
     - brendanburns
     - derekwaynecarr
+    - dims
     - jbeda
     - michelleN
     - philips
     - pwittrock
-    - quinton-hoole
-    - quinton-hoole-2
     - sarahnovotny
     - smarterclayton
     - spiffxp
-    - thockin
     - timothysc
+  code-of-conduct-committee:
+    - jdumars
+    - parispittman
+    - eparis
+    - carolynvs
+    - bradamant3
 ## END CUSTOM CONTENT

@@ -23,22 +23,22 @@ teams:
     maintainers:
     - philips
     - idvoretskyi
-    - lavalamp
     - cblecker
     - grodrigues3
-    - thockin
     - pwittrock
-    - eparis
     members:
     - dims
     - rmmh
     - Kashomon
     - pigmej
+    - lavalamp
     - foxish
     - hongchaodeng
     - jessfraz
     - monopole
     - xiang90
+    - thockin
+    - eparis
     privacy: closed
   sig-contributor-experience-pr-reviews:
     description: PR reviews for contributor-experience infrastructure, such as the

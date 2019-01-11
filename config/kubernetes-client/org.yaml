@@ -44,3 +44,68 @@ members:
 - webwurst
 - yliaog
 - yue9944882
+teams:
+  Reviewers:
+    description: ""
+    members:
+    - arschles
+    - mbohlool
+    - krabhishek8260
+    - lwander
+    privacy: secret
+  csharp-admins:
+    description: admin access to csharp
+    maintainers:
+    - krabhishek8260
+    members:
+    - brendandburns
+    privacy: closed
+  gen-admins:
+    description: admin access to gen
+    maintainers:
+    - mbohlool
+    members:
+    - brendandburns
+    privacy: closed
+  haskell-admins:
+    description: admin access to haskell
+    maintainers:
+    - mbohlool
+    members:
+    - brendandburns
+    privacy: closed
+  java-admins:
+    description: admin access to java
+    maintainers:
+    - mbohlool
+    members:
+    - brendandburns
+    privacy: closed
+  javascript-admins:
+    description: admin access to javascript
+    maintainers:
+    - mbohlool
+    members:
+    - brendandburns
+    privacy: closed
+  python-admins:
+    description: admin access to python
+    maintainers:
+    - mbohlool
+    members:
+    - yliaog
+    privacy: closed
+  python-base-admins:
+    description: ""
+    maintainers:
+    - mbohlool
+    members:
+    - yliaog
+    privacy: closed
+  ruby-admins:
+    description: admin access to ruby
+    maintainers:
+    - mbohlool
+    members:
+    - brendandburns
+    privacy: closed

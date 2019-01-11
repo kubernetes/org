@@ -173,3 +173,500 @@ members:
 - zhangxiaoyu-zidif
 - zmerlynn
 - zparnold
+teams:
+  admin-bootkube:
+    description: ""
+    maintainers:
+    - aaronlevy
+    members:
+    - philips
+    privacy: closed
+  admin-cluster-capacity:
+    description: ""
+    members:
+    - sarahnovotny
+    - aveshagarwal
+    - ingvagabund
+    - hodovska
+    privacy: closed
+  admin-cri-containerd:
+    description: administration of cri-containerd repo
+    members:
+    - sarahnovotny
+    - Random-Liu
+    - dchen1107
+    privacy: closed
+  admin-custom-metrics-apiserver:
+    description: Admins for the custom-metrics-apiserver repo
+    maintainers:
+    - DirectXMan12
+    members:
+    - luxas
+    - piosz
+    privacy: closed
+  admin-external-storage:
+    description: administering the external-storage project
+    members:
+    - sarahnovotny
+    - childsb
+    privacy: closed
+  admin-reference-docs:
+    description: adminstration of reference-docs repo
+    maintainers:
+    - pwittrock
+    members:
+    - sarahnovotny
+    privacy: closed
+  admins-apiserver-builder:
+    description: maintainers of the apiserver-builder repository with admin access
+    maintainers:
+    - calebamiles
+    - pwittrock
+    members:
+    - DirectXMan12
+    - jimmidyson
+    - hongchaodeng
+    - xiang90
+    - brancz
+    - MHBauer
+    privacy: closed
+  admins-application-images:
+    description: administrators of the application-images repository
+    maintainers:
+    - calebamiles
+    - zmerlynn
+    members:
+    - mattf
+    privacy: closed
+  admins-client-python:
+    description: admins of the client-python project
+    maintainers:
+    - mbohlool
+    members:
+    - sarahnovotny
+    - smarterclayton
+    - yliaog
+    privacy: closed
+  admins-cluster-proportional-autoscaler:
+    description: administers of  the cluster-proportional-autoscaler repository
+    maintainers:
+    - bowei
+    - calebamiles
+    - MrHohn
+    members:
+    - philips
+    privacy: closed
+  admins-external-dns:
+    description: ""
+    maintainers:
+    - justinsb
+    - calebamiles
+    members:
+    - sarahnovotny
+    privacy: closed
+  admins-ip-masq-agent:
+    description: ""
+    maintainers:
+    - mtaufen
+    - thockin
+    - dnardo
+    members:
+    - MrHohn
+    privacy: closed
+  admins-kargo:
+    description: ""
+    maintainers:
+    - calebamiles
+    - ant31
+    members:
+    - sarahnovotny
+    - mattymo
+    - bogdando
+    - Smana
+    privacy: closed
+  admins-kompose:
+    description: Admins for kompose
+    maintainers:
+    - sebgoa
+    members:
+    - kadel
+    - ngtuna
+    - janetkuo
+    - cdrage
+    - bgrant0607
+    privacy: closed
+  admins-kops:
+    description: administrators of the kops repository
+    maintainers:
+    - calebamiles
+    privacy: closed
+  admins-kube-aws:
+    description: kube-aws repository administrators
+    maintainers:
+    - calebamiles
+    - colhom
+    members:
+    - mumoshu
+    - philips
+    privacy: closed
+  admins-kube2consul:
+    description: administrators of the kube2consul repository
+    maintainers:
+    - elg0nz
+    - calebamiles
+    members:
+    - bgrant0607
+    privacy: closed
+  admins-metrics-server:
+    description: ""
+    members:
+    - thockin
+    - piosz
+    privacy: closed
+  admins-node-feature-discovery:
+    description: Administrators of node-feature-discovery
+    maintainers:
+    - balajismaniam
+    members:
+    - philips
+    - ConnorDoyle
+    - davidopp
+    privacy: closed
+  admins-rktlet:
+    description: administrators of the rktlet repository
+    maintainers:
+    - calebamiles
+    - euank
+    - yifan-gu
+    members:
+    - dchen1107
+    privacy: closed
+  admins-service-catalog:
+    description: administrators for the service catalog project
+    maintainers:
+    - pmorie
+    - carolynvs
+    - duglin
+    members:
+    - sarahnovotny
+    - kibbles-n-bytes
+    privacy: closed
+  descheduler-admins:
+    description: Admin permission for descheduler repo
+    maintainers:
+    - aveshagarwal
+    privacy: closed
+  descheduler-maintainers:
+    description: Write permission for descheduler repo
+    maintainers:
+    - aveshagarwal
+    privacy: closed
+  descheduler-reviewers:
+    description: Read permission for descheduler repo
+    maintainers:
+    - aveshagarwal
+    privacy: closed
+  design-reviewer-kube-arbitrator:
+    description: The design reviewer of kube-arbitrator
+    maintainers:
+    - k82cn
+    members:
+    - timothysc
+    - foxish
+    - davidopp
+    - bsalamat
+    privacy: closed
+  external-storage-community:
+    description: the extended external storage community
+    maintainers:
+    - childsb
+    members:
+    - jsafrane
+    - ianchakeres
+    - wongma7
+    - msau42
+    privacy: closed
+  incubator-admin:
+    description: ""
+    members:
+    - philips
+    privacy: closed
+  incubator-admins:
+    description: ""
+    privacy: closed
+  kompose-contributors:
+    description: Contributors to kompose repo (read access)
+    maintainers:
+    - sebgoa
+    members:
+    - ngtuna
+    - cdrage
+    - bgrant0607
+    - procrypt
+    privacy: closed
+  maintainers-apiserver-builder:
+    description: maintainers of apiserver-builder with write access on the repository
+    maintainers:
+    - calebamiles
+    - pwittrock
+    - vaikas-google
+    - MHBauer
+    members:
+    - DirectXMan12
+    - jimmidyson
+    - hongchaodeng
+    - xiang90
+    - brancz
+    - yue9944882
+    privacy: closed
+  maintainers-application-images:
+    description: contributors to the application-images repository
+    maintainers:
+    - calebamiles
+    - zmerlynn
+    members:
+    - mattf
+    privacy: closed
+  maintainers-bootkube:
+    description: ""
+    members:
+    - philips
+    - aaronlevy
+    - derekparker
+    - pbx0
+    privacy: closed
+  maintainers-client-python:
+    description: maintainers of the client-python project
+    maintainers:
+    - mbohlool
+    members:
+    - dims
+    - sarahnovotny
+    - lavalamp
+    - caesarxuchao
+    - yliaog
+    privacy: closed
+  maintainers-cluster-capacity:
+    description: ""
+    members:
+    - sarahnovotny
+    - aveshagarwal
+    - ingvagabund
+    - hodovska
+    privacy: closed
+  maintainers-cluster-proportional-autoscaler:
+    description: contributors to the cluster-proportional-autoscaler repository
+    maintainers:
+    - calebamiles
+    - MrHohn
+    members:
+    - philips
+    privacy: closed
+  maintainers-cluster-proportional-vertical-autoscaler:
+    description: ""
+    members:
+    - thockin
+    - dnardo
+    privacy: closed
+  maintainers-cri-containerd:
+    description: maintainers of cri-containerd repo
+    maintainers:
+    - Random-Liu
+    members:
+    - sarahnovotny
+    - abhi
+    - dchen1107
+    - yujuhong
+    - mikebrow
+    privacy: closed
+  maintainers-external-dns:
+    description: ""
+    maintainers:
+    - justinsb
+    members:
+    - linki
+    - sarahnovotny
+    - iterion
+    - chrislovecnm
+    - hjacobs
+    - Raffo
+    - njuettner
+    - kris-nova
+    - ideahitme
+    privacy: closed
+  maintainers-external-storage:
+    description: maintainers of the external-storage project
+    members:
+    - sarahnovotny
+    - childsb
+    - jsafrane
+    - ianchakeres
+    - tsmetana
+    - humblec
+    - rootfs
+    - wongma7
+    - sbezverk
+    privacy: closed
+  maintainers-ip-masq-agent:
+    description: ""
+    members:
+    - mtaufen
+    - thockin
+    - dnardo
+    privacy: closed
+  maintainers-kargo:
+    description: ""
+    maintainers:
+    - calebamiles
+    - ant31
+    members:
+    - mattymo
+    - rsmitty
+    - bogdando
+    privacy: closed
+  maintainers-kompose:
+    description: Write access for kompose
+    maintainers:
+    - sebgoa
+    members:
+    - kadel
+    - cab105
+    - janetkuo
+    - surajssd
+    - cdrage
+    - bgrant0607
+    privacy: closed
+  maintainers-kops:
+    description: contributors to the kops repository
+    maintainers:
+    - calebamiles
+    privacy: closed
+  maintainers-kube-aws:
+    description: maintainers for kube-aws
+    maintainers:
+    - calebamiles
+    - colhom
+    members:
+    - redbaron
+    - mumoshu
+    - philips
+    - pbx0
+    privacy: closed
+  maintainers-kube2consul:
+    description: contributors to the kube2consul repository
+    maintainers:
+    - elg0nz
+    - calebamiles
+    members:
+    - bgrant0607
+    privacy: closed
+  maintainers-metrics-server:
+    description: ""
+    members:
+    - ncdc
+    - DirectXMan12
+    - x13n
+    - sttts
+    - kawych
+    - crassirostris
+    - thockin
+    - loburm
+    - piosz
+    - fgrzadkowski
+    privacy: closed
+  maintainers-node-feature-discovery:
+    description: Maintainers of the node-feature-discovery repo.
+    maintainers:
+    - balajismaniam
+    members:
+    - philips
+    - ConnorDoyle
+    - marquiz
+    - davidopp
+    - flyingcougar
+    privacy: closed
+  maintainers-reference-docs:
+    description: maintainers of the reference-docs repo
+    maintainers:
+    - pwittrock
+    members:
+    - sarahnovotny
+    privacy: closed
+  maintainers-rktlet:
+    description: contributors to the rktlet repository
+    maintainers:
+    - calebamiles
+    - euank
+    - yifan-gu
+    members:
+    - dchen1107
+    privacy: closed
+  maintainers-service-catalog:
+    description: maintainers of the service catalog project
+    maintainers:
+    - pmorie
+    - carolynvs
+    - duglin
+    members:
+    - slack
+    - arschles
+    - eriknelson
+    - luksa
+    - jpeeler
+    - kibbles-n-bytes
+    - jboyd01
+    - martinmaly
+    - jberkhahn
+    - nilebox
+    - bgrant0607
+    - vaikas-google
+    - MHBauer
+    - service-catalog-jenkins
+    - staebler
+    - n3wscott
+    - jeremyrickard
+    privacy: closed
+  maintainers-spartakus:
+    description: People who maintain spartakus
+    maintainers:
+    - grodrigues3
+    members:
+    - aronchick
+    - thockin
+    - squat
+    privacy: closed
+  owners:
+    description: owners of the kubernetes-incubator org
+    maintainers:
+    - spiffxp
+    - calebamiles
+    members:
+    - philips
+    - sarahnovotny
+    - ConnorDoyle
+    - lavalamp
+    - smarterclayton
+    - thockin
+    - spxtr
+    - bgrant0607
+    - roberthbailey
+    - eparis
+    - alex-mohr
+    - piosz
+    privacy: closed
+  reviewers-cri-containerd:
+    description: reviewers of cri-containerd repo
+    maintainers:
+    - Random-Liu
+    members:
+    - abhi
+    - mikebrow
+    - miaoyq
+    - yanxuean
+    privacy: closed
+  temporary-admin-transfers:
+    description: For transferring repos into incubator.
+    members:
+    - philips
+    - mbohlool
+    privacy: closed

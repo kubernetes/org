@@ -3,19 +3,22 @@ teams:
     description: Team members can use `/milestone` or `/status` commands on issues/PRs
     maintainers:
     - calebamiles # Release / PM
+    - cblecker # ContribEx
+    - fejta # Testing
+    - idvoretskyi # PM
     - justaugustus # Azure / PM / Release
     - tpepper # Release
     - spiffxp # 1.14 RT Lead / Testing
     members:
     - abgworrall # GCP
     - andrewsykim # Cloud Provider
+    - BenTheElder # 1.14 RT Lead Shadow
     - bgrant0607 # Architecture
     - bradamant3 # Docs
     - brancz # Instrumentation
     - bsalamat # Scheduling
     - carolynvs # Service Catalog
     - caseydavenport # Network
-    - cblecker # ContribEx
     - chenopis # Docs
     - childsb # Storage
     - csbell # Multicluster
@@ -26,17 +29,16 @@ teams:
     - deads2k # API Machinery
     - derekwaynecarr # Node
     - directxman12 # Autoscaling
+    - dims # Release
     - dklyle # OpenStack
     - dstrebel # Azure
     - duglin # Service Catalog
     - enj # Auth
     - feiskyer # Azure
-    - fejta # Testing
     - floreks # UI
     - foxish # Big Data
     - frapposelli # VMware
     - hogepodge # Cloud Provider / OpenStack
-    - idvoretskyi # PM
     - jagosan # Cloud Provider
     - jdumars # Architecture
     - justinsb # AWS
@@ -45,8 +47,10 @@ teams:
     - kow3ns # Apps
     - kris-nova # AWS
     - lavalamp # API Machinery
+    - liggitt # Release
     - liyinan926 # Big Data
     - luxas # Cluster Lifecycle
+    - marpaia # 1.14 RT Lead Shadow
     - mattfarina # Apps / Architecture
     - michmike # Windows
     - mikedanese # Auth
@@ -74,92 +78,84 @@ teams:
     privacy: closed
   kubernetes-release-managers:
     description: People actively working on next k8s minor release, or who are patch
-      managers for any still-supported minor release.   Gives admin access to repos
+      managers for any still-supported minor release. Gives admin access to repos
       where branches must be created, etc., and write access to ones where label/PR
-      management is needed.  Remove users who are not actively doing this job.
+      management is needed. Remove users who are not actively doing this job.
     maintainers:
-    - idvoretskyi
-    - justaugustus
     - calebamiles
-    - jdumars
-    - tpepper
-    - AishSundar
+    - justaugustus
+    - tpepper # 1.13 PRM
     members:
-    - dougm
-    - jberkus
-    - idealhack
-    - jpbetz
-    - foxish
-    - krzyzacy
-    - hoegaarden
-    - mbohlool
-    - caesarxuchao
-    - aleksandra-malinowska
-    - enisoc
-    - MaciekPytel
-    - wojtek-t
+    - aleksandra-malinowska # 1.13 PRM
+    - feiskyer # 1.12 PRM
+    - foxish # 1.11 PRM
+    - hoegaarden # 1.14 Branch Manager
     - k8s-release-robot
     privacy: closed
   sig-release:
     description: SIG Release Members
     maintainers:
-    - spiffxp
-    - idvoretskyi
-    - justaugustus
     - calebamiles
-    - cblecker
+    - justaugustus
+    - spiffxp
     - tpepper
     members:
+    - abgworrall
+    - AishSundar
+    - aleksandra-malinowska
+    - amwat
+    - BenTheElder
+    - Bradamant3
+    - caesarxuchao
+    - chenopis
+    - cjwagner
+    - claurence
+    - dashpole
+    - dchen1107
     - dims
     - dougm
-    - jberkus
-    - marun
-    - jpbetz
+    - dstrebel
+    - enisoc
+    - ethernetdan
     - feiskyer
     - foxish
-    - BenTheElder
-    - marpaia
-    - liggitt
-    - jdumars
-    - krzyzacy
-    - mbohlool
-    - caesarxuchao
-    - monopole
-    - tfogo
-    - zacharysarah
-    - dashpole
-    - radhikapc
-    - nickchase
-    - ethernetdan
-    - shyamjvs
-    - kacole2
-    - aleksandra-malinowska
-    - zparnold
-    - cjwagner
-    - enisoc
-    - Bradamant3
-    - mistyhacks
-    - dchen1107
-    - pwittrock
-    - MaciekPytel
-    - ixdy
-    - mohammedzee1000
-    - saad-ali
-    - abgworrall
-    - wojtek-t
-    - kbarnard10
     - guineveresaenger
-    - steveperry-53
-    - AishSundar
-    - chenopis
+    - hoegaarden
+    - ixdy
+    - jberkus
+    - jdumars
+    - jimangel
+    - jpbetz
+    - kacole2
+    - kbarnard10
+    - krzyzacy
+    - liggitt
+    - MaciekPytel
+    - mariantalla
+    - marpaia
+    - marun
+    - mbohlool
+    - mistyhacks
+    - mohammedzee1000
+    - monopole
+    - nickchase
     - nikopen
+    - nwoods3
+    - pwittrock
+    - radhikapc
+    - saad-ali
+    - shyamjvs
+    - steveperry-53
+    - tfogo
+    - wojtek-t
+    - zacharysarah
+    - zparnold
     privacy: closed
     teams:
       sig-release-admins:
         description: Admins for SIG Release repositories
         maintainers:
-        - justaugustus
         - calebamiles
-        - jdumars
+        - justaugustus
         - tpepper
         privacy: closed

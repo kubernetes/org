@@ -1,7 +1,7 @@
 teams:
   sig-contributor-experience-bugs:
     description: Bugs relating to contributor-experience infrastructure, such as the
-      PR bot, mungegithub.
+      PR bot, etc.
     maintainers:
     - cblecker
     - grodrigues3
@@ -11,7 +11,7 @@ teams:
     privacy: closed
   sig-contributor-experience-feature-requests:
     description: Requests for features in contributor-experience infrastructure, such
-      as the PR bot, mungegithub.
+      as the PR bot, etc.
     maintainers:
     - idvoretskyi
     - cblecker
@@ -45,7 +45,7 @@ teams:
     privacy: closed
   sig-contributor-experience-pr-reviews:
     description: PR reviews for contributor-experience infrastructure, such as the
-      PR bot, mungegithub.
+      PR bot, etc.
     maintainers:
     - idvoretskyi
     - cblecker
@@ -66,7 +66,7 @@ teams:
     privacy: closed
   sig-contributor-experience-test-failures:
     description: List to triage test failures for contributor-experience infrastructure,
-      such as the PR bot, mungegithub.
+      such as the PR bot, etc.
     maintainers:
     - cblecker
     - grodrigues3

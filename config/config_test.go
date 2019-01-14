@@ -148,64 +148,28 @@ func testOrg(targetDir string, t *testing.T) {
 		t.Fatalf("failed to load OWNERS: %v", err)
 	}
 
-	members := sets.NewString(cfg.Members...)
-	admins := sets.NewString(cfg.Admins...)
-	admins = normalize(admins)
+	members := normalize(sets.NewString(cfg.Members...))
+	admins := normalize(sets.NewString(cfg.Admins...))
+	allOrgMembers := members.Union(admins)
 
-	if both := admins.Intersection(members); len(both) > 0 {
-		t.Errorf("users in both org admin and member roles: %s", strings.Join(both.List(), ", "))
-	}
-
-	reviewers := sets.NewString(own.Reviewers...)
-	approvers := sets.NewString(own.Approvers...)
-
-	members = members.Union(admins)
-	members = normalize(members)
-	reviewers = normalize(reviewers)
-	approvers = normalize(approvers)
+	reviewers := normalize(sets.NewString(own.Reviewers...))
+	approvers := normalize(sets.NewString(own.Approvers...))
 
 	if n := len(approvers); n < 5 {
 		t.Errorf("Require at least 5 approvers, found %d: %s", n, strings.Join(approvers.List(), ", "))
 	}
 
-	if missing := reviewers.Difference(members); len(missing) > 0 {
+	if missing := reviewers.Difference(allOrgMembers); len(missing) > 0 {
 		t.Errorf("The following reviewers must be members: %s", strings.Join(missing.List(), ", "))
 	}
-	if missing := approvers.Difference(members); len(missing) > 0 {
+	if missing := approvers.Difference(allOrgMembers); len(missing) > 0 {
 		t.Errorf("The following approvers must be members: %s", strings.Join(missing.List(), ", "))
-	}
-
-	if !admins.Has("k8s-ci-robot") {
-		t.Errorf("k8s-ci-robot must be an admin")
-	}
-
-	if cfg.BillingEmail != nil {
-		t.Errorf("billing_email must be unset")
-	}
-
-	if err := testDuplicates(admins); err != nil {
-		t.Errorf("duplicate admins: %v", err)
-	}
-	if err := testDuplicates(members); err != nil {
-		t.Errorf("duplicate members: %v", err)
 	}
 	if err := testDuplicates(reviewers); err != nil {
 		t.Errorf("duplicate reviewers: %v", err)
 	}
 	if err := testDuplicates(approvers); err != nil {
 		t.Errorf("duplicate approvers: %v", err)
-	}
-	if !isSorted(admins) {
-		t.Errorf("admins are unsorted")
-	}
-	if !isSorted(members) {
-		t.Errorf("members are unsorted")
-	}
-
-	if errs := testTeamMembers(cfg.Teams, members); errs != nil {
-		for _, err := range errs {
-			t.Error(err)
-		}
 	}
 }
 
@@ -236,5 +200,43 @@ func TestAllOrgs(t *testing.T) {
 			}
 			testOrg(n, t)
 		})
+	}
+
+	for _, org := range cfg.Orgs {
+		members := normalize(sets.NewString(org.Members...))
+		admins := normalize(sets.NewString(org.Admins...))
+		allOrgMembers := members.Union(admins)
+
+		if both := admins.Intersection(members); len(both) > 0 {
+			t.Errorf("users in both org admin and member roles: %s", strings.Join(both.List(), ", "))
+		}
+
+		if !admins.Has("k8s-ci-robot") {
+			t.Errorf("k8s-ci-robot must be an admin")
+		}
+
+		if org.BillingEmail != nil {
+			t.Errorf("billing_email must be unset")
+		}
+
+		if err := testDuplicates(admins); err != nil {
+			t.Errorf("duplicate admins: %v", err)
+		}
+		if err := testDuplicates(allOrgMembers); err != nil {
+			t.Errorf("duplicate members: %v", err)
+		}
+		if !isSorted(admins) {
+			t.Errorf("admins are unsorted")
+		}
+		if !isSorted(allOrgMembers) {
+			t.Errorf("members are unsorted")
+		}
+
+		if errs := testTeamMembers(org.Teams, allOrgMembers); errs != nil {
+			for _, err := range errs {
+				t.Error(err)
+			}
+		}
+
 	}
 }

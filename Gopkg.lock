@@ -989,6 +989,7 @@
     "k8s.io/test-infra/prow/cmd/peribolos",
     "k8s.io/test-infra/prow/config",
     "k8s.io/test-infra/prow/config/org",
+    "k8s.io/test-infra/prow/github",
   ]
   solver-name = "gps-cdcl"
   solver-version = 1

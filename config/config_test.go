@@ -27,6 +27,7 @@ import (
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/test-infra/prow/config"
 	"k8s.io/test-infra/prow/config/org"
+	"k8s.io/test-infra/prow/github"
 
 	"github.com/ghodss/yaml"
 )
@@ -63,10 +64,11 @@ func loadOrg(dir string) (*org.Config, error) {
 	return &cfg, nil
 }
 
-func testDuplicates(list []string) error {
+func testDuplicates(list sets.String) error {
 	found := sets.String{}
 	dups := sets.String{}
-	for _, i := range list {
+	all := list.List()
+	for _, i := range all {
 		if found.Has(i) {
 			dups.Insert(i)
 		}
@@ -78,13 +80,62 @@ func testDuplicates(list []string) error {
 	return nil
 }
 
-func isSorted(list []string) bool {
-	items := make([]string, len(list))
-	for _, l := range list {
+func isSorted(list sets.String) bool {
+	items := make([]string, list.Len())
+	all := list.List()
+	for _, l := range all {
 		items = append(items, strings.ToLower(l))
 	}
 
 	return sort.StringsAreSorted(items)
+}
+
+func normalize(s sets.String) sets.String {
+	out := sets.String{}
+	for i := range s {
+		out.Insert(github.NormLogin(i))
+	}
+	return out
+}
+
+// testTeamMembers ensures that a user is not a maintainer and member at the same time,
+// there are no duplicate names in the list and all users are org members.
+// TODO: also ensure that the list is sorted.
+func testTeamMembers(teams map[string]org.Team, orgMembers sets.String) []error {
+	var errs []error
+	for teamName, team := range teams {
+		teamMaintainers := sets.NewString(team.Maintainers...)
+		teamMembers := sets.NewString(team.Members...)
+
+		teamMaintainers = normalize(teamMaintainers)
+		teamMembers = normalize(teamMembers)
+
+		// check for users in both maintainers and members
+		if both := teamMaintainers.Intersection(teamMembers); len(both) > 0 {
+			errs = append(errs, fmt.Errorf("The team %s has users in both maintainer admin and member roles: %s", teamName, strings.Join(both.List(), ", ")))
+		}
+
+		// check for duplicates
+		if err := testDuplicates(teamMaintainers); err != nil {
+			errs = append(errs, fmt.Errorf("The team %s has duplicate maintainers: %v", teamName, err))
+		}
+		if err := testDuplicates(teamMembers); err != nil {
+			errs = append(errs, fmt.Errorf("The team %s has duplicate members: %v", teamMembers, err))
+		}
+
+		// check if all are org members
+		if missing := teamMaintainers.Difference(orgMembers); len(missing) > 0 {
+			errs = append(errs, fmt.Errorf("The following maintainers of team %s are not org members: %s", teamName, strings.Join(missing.List(), ", ")))
+		}
+		if missing := teamMembers.Difference(orgMembers); len(missing) > 0 {
+			errs = append(errs, fmt.Errorf("The following members of team %s are not org members: %s", teamName, strings.Join(missing.List(), ", ")))
+		}
+
+		if team.Children != nil {
+			errs = append(errs, testTeamMembers(team.Children, orgMembers)...)
+		}
+	}
+	return errs
 }
 
 func testOrg(targetDir string, t *testing.T) {
@@ -98,10 +149,20 @@ func testOrg(targetDir string, t *testing.T) {
 	}
 
 	members := sets.NewString(cfg.Members...)
-	members.Insert(cfg.Admins...)
+	admins := sets.NewString(cfg.Admins...)
+	admins = normalize(admins)
+
+	if both := admins.Intersection(members); len(both) > 0 {
+		t.Errorf("users in both org admin and member roles: %s", strings.Join(both.List(), ", "))
+	}
 
 	reviewers := sets.NewString(own.Reviewers...)
 	approvers := sets.NewString(own.Approvers...)
+
+	members = members.Union(admins)
+	members = normalize(members)
+	reviewers = normalize(reviewers)
+	approvers = normalize(approvers)
 
 	if n := len(approvers); n < 5 {
 		t.Errorf("Require at least 5 approvers, found %d: %s", n, strings.Join(approvers.List(), ", "))
@@ -114,7 +175,6 @@ func testOrg(targetDir string, t *testing.T) {
 		t.Errorf("The following approvers must be members: %s", strings.Join(missing.List(), ", "))
 	}
 
-	admins := sets.NewString(cfg.Admins...)
 	if !admins.Has("k8s-ci-robot") {
 		t.Errorf("k8s-ci-robot must be an admin")
 	}
@@ -123,23 +183,29 @@ func testOrg(targetDir string, t *testing.T) {
 		t.Errorf("billing_email must be unset")
 	}
 
-	if err := testDuplicates(cfg.Admins); err != nil {
+	if err := testDuplicates(admins); err != nil {
 		t.Errorf("duplicate admins: %v", err)
 	}
-	if err := testDuplicates(cfg.Members); err != nil {
+	if err := testDuplicates(members); err != nil {
 		t.Errorf("duplicate members: %v", err)
 	}
-	if err := testDuplicates(own.Reviewers); err != nil {
+	if err := testDuplicates(reviewers); err != nil {
 		t.Errorf("duplicate reviewers: %v", err)
 	}
-	if err := testDuplicates(own.Approvers); err != nil {
+	if err := testDuplicates(approvers); err != nil {
 		t.Errorf("duplicate approvers: %v", err)
 	}
-	if !isSorted(cfg.Admins) {
+	if !isSorted(admins) {
 		t.Errorf("admins are unsorted")
 	}
-	if !isSorted(cfg.Members) {
+	if !isSorted(members) {
 		t.Errorf("members are unsorted")
+	}
+
+	if errs := testTeamMembers(cfg.Teams, members); errs != nil {
+		for _, err := range errs {
+			t.Error(err)
+		}
 	}
 }
 

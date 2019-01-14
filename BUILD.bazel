@@ -30,7 +30,7 @@ gazelle(
 
 workspace_binary(
     name = "kazel",
-    cmd = "//vendor/k8s.io/repo-infra/kazel",
+    cmd = "@io_kubernetes_build//kazel",
 )
 
 workspace_binary(
@@ -39,7 +39,7 @@ workspace_binary(
         "--dry-run",
         "--print-diff",
     ],
-    cmd = "//vendor/k8s.io/repo-infra/kazel",
+    cmd = "@io_kubernetes_build//kazel",
 )
 
 workspace_binary(

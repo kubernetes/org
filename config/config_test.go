@@ -101,7 +101,7 @@ func normalize(s sets.String) sets.String {
 // testTeamMembers ensures that a user is not a maintainer and member at the same time,
 // there are no duplicate names in the list and all users are org members.
 // TODO: also ensure that the list is sorted.
-func testTeamMembers(teams map[string]org.Team, orgMembers sets.String) []error {
+func testTeamMembers(teams map[string]org.Team, admins sets.String, orgMembers sets.String) []error {
 	var errs []error
 	for teamName, team := range teams {
 		teamMaintainers := sets.NewString(team.Maintainers...)
@@ -131,8 +131,13 @@ func testTeamMembers(teams map[string]org.Team, orgMembers sets.String) []error 
 			errs = append(errs, fmt.Errorf("The following members of team %s are not org members: %s", teamName, strings.Join(missing.List(), ", ")))
 		}
 
+		// check if admins are a regular member of team
+		if adminTeamMembers := teamMembers.Intersection(admins); len(adminTeamMembers) > 0 {
+			errs = append(errs, fmt.Errorf("The team %s has org admins listed as members; these users should be in the maintainers list instead, and cannot be on the members list: %s", teamName, strings.Join(adminTeamMembers.List(), ", ")))
+		}
+
 		if team.Children != nil {
-			errs = append(errs, testTeamMembers(team.Children, orgMembers)...)
+			errs = append(errs, testTeamMembers(team.Children, admins, orgMembers)...)
 		}
 	}
 	return errs
@@ -232,7 +237,7 @@ func TestAllOrgs(t *testing.T) {
 			t.Errorf("members are unsorted")
 		}
 
-		if errs := testTeamMembers(org.Teams, allOrgMembers); errs != nil {
+		if errs := testTeamMembers(org.Teams, admins, allOrgMembers); errs != nil {
 			for _, err := range errs {
 				t.Error(err)
 			}

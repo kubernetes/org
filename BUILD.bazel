@@ -1,8 +1,26 @@
 load("@io_kubernetes_build//defs:run_in_workspace.bzl", "workspace_binary")
 
 workspace_binary(
-    name = "dep",
-    cmd = "//vendor/github.com/golang/dep/cmd/dep",
+    name = "go",
+    cmd = "@go_sdk//:bin/go",
+)
+
+workspace_binary(
+    name = "update-minor",
+    args = [
+        "get",
+        "-u",
+    ],
+    cmd = "@go_sdk//:bin/go",
+)
+
+workspace_binary(
+    name = "update-patch",
+    args = [
+        "get",
+        "-u=patch",
+    ],
+    cmd = "@go_sdk//:bin/go",
 )
 
 workspace_binary(

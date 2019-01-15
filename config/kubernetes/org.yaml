@@ -3774,11 +3774,12 @@ teams:
     - fejta
     - krzyzacy
     - ixdy
-    - Q-Lee
     members:
     - BenTheElder
     - zmerlynn
     - cjwagner
+    - katharine
+    - amwat
     privacy: closed
   test-infra-maintainers:
     description: Test infrastructure write access

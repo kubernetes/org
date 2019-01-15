@@ -133,7 +133,7 @@ func testTeamMembers(teams map[string]org.Team, admins sets.String, orgMembers s
 
 		// check if admins are a regular member of team
 		if adminTeamMembers := teamMembers.Intersection(admins); len(adminTeamMembers) > 0 {
-			errs = append(errs, fmt.Errorf("The team %s has org admins listed as members; these users should be in the maintainers list instead: %s", teamName, strings.Join(adminTeamMembers.List(), ", ")))
+			errs = append(errs, fmt.Errorf("The team %s has org admins listed as members; these users should be in the maintainers list instead, and cannot be on the members list: %s", teamName, strings.Join(adminTeamMembers.List(), ", ")))
 		}
 
 		if team.Children != nil {

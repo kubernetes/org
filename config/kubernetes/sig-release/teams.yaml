@@ -3,6 +3,9 @@ teams:
     description: Team members can use `/milestone` or `/status` commands on issues/PRs
     maintainers:
     - calebamiles # Release / PM
+    - cblecker # ContribEx
+    - fejta # Testing
+    - idvoretskyi # PM
     - justaugustus # Azure / PM / Release
     - tpepper # Release
     - spiffxp # 1.14 RT Lead / Testing
@@ -15,7 +18,6 @@ teams:
     - bsalamat # Scheduling
     - carolynvs # Service Catalog
     - caseydavenport # Network
-    - cblecker # ContribEx
     - chenopis # Docs
     - childsb # Storage
     - csbell # Multicluster
@@ -31,12 +33,10 @@ teams:
     - duglin # Service Catalog
     - enj # Auth
     - feiskyer # Azure
-    - fejta # Testing
     - floreks # UI
     - foxish # Big Data
     - frapposelli # VMware
     - hogepodge # Cloud Provider / OpenStack
-    - idvoretskyi # PM
     - jagosan # Cloud Provider
     - jdumars # Architecture
     - justinsb # AWS

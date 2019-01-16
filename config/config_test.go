@@ -80,10 +80,9 @@ func testDuplicates(list sets.String) error {
 	return nil
 }
 
-func isSorted(list sets.String) bool {
-	items := make([]string, list.Len())
-	all := list.List()
-	for _, l := range all {
+func isSorted(list []string) bool {
+	items := make([]string, len(list))
+	for _, l := range list {
 		items = append(items, strings.ToLower(l))
 	}
 
@@ -230,11 +229,11 @@ func TestAllOrgs(t *testing.T) {
 		if err := testDuplicates(allOrgMembers); err != nil {
 			t.Errorf("duplicate members: %v", err)
 		}
-		if !isSorted(admins) {
-			t.Errorf("admins are unsorted")
+		if !isSorted(org.Admins) {
+			t.Errorf("admins for %s org are unsorted", *org.Name)
 		}
-		if !isSorted(allOrgMembers) {
-			t.Errorf("members are unsorted")
+		if !isSorted(org.Members) {
+			t.Errorf("members for %s org are unsorted", *org.Name)
 		}
 
 		if errs := testTeamMembers(org.Teams, admins, allOrgMembers); errs != nil {

@@ -34,6 +34,7 @@ teams:
     - dstrebel # Azure
     - duglin # Service Catalog
     - enj # Auth
+    - fabriziopandini # Cluster Lifecycle
     - feiskyer # Azure
     - floreks # UI
     - foxish # Big Data

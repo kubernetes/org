@@ -1,8 +1,10 @@
+PERIBOLOS = "@io_k8s_test_infra//prow/cmd/peribolos"
+
 sh_binary(
     name = "update",
     srcs = ["update.sh"],
     args = [
-        "$(location //vendor/k8s.io/test-infra/prow/cmd/peribolos)",
+        "$(location %s)" % PERIBOLOS,
         "--config-path",
         "$(location //config:config.yaml)",
         "--fix-org",
@@ -18,7 +20,7 @@ sh_binary(
     ],
     data = [
         "//config:config.yaml",
-        "//vendor/k8s.io/test-infra/prow/cmd/peribolos",
+        PERIBOLOS,
     ],
 )
 

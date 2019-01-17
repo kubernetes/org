@@ -1,13 +1,31 @@
 load("@io_kubernetes_build//defs:run_in_workspace.bzl", "workspace_binary")
 
 workspace_binary(
-    name = "dep",
-    cmd = "//vendor/github.com/golang/dep/cmd/dep",
+    name = "go",
+    cmd = "@go_sdk//:bin/go",
+)
+
+workspace_binary(
+    name = "update-minor",
+    args = [
+        "get",
+        "-u",
+    ],
+    cmd = "@go_sdk//:bin/go",
+)
+
+workspace_binary(
+    name = "update-patch",
+    args = [
+        "get",
+        "-u=patch",
+    ],
+    cmd = "@go_sdk//:bin/go",
 )
 
 workspace_binary(
     name = "golint",
-    cmd = "//vendor/github.com/golang/lint/golint",
+    cmd = "@com_github_golang_lint//golint",
 )
 
 load("@bazel_gazelle//:def.bzl", "gazelle")
@@ -30,7 +48,7 @@ gazelle(
 
 workspace_binary(
     name = "kazel",
-    cmd = "//vendor/k8s.io/repo-infra/kazel",
+    cmd = "@io_kubernetes_build//kazel",
 )
 
 workspace_binary(
@@ -39,7 +57,7 @@ workspace_binary(
         "--dry-run",
         "--print-diff",
     ],
-    cmd = "//vendor/k8s.io/repo-infra/kazel",
+    cmd = "@io_kubernetes_build//kazel",
 )
 
 workspace_binary(

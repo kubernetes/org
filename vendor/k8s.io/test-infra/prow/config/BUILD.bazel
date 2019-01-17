@@ -45,7 +45,6 @@ filegroup(
     srcs = [
         ":package-srcs",
         "//vendor/k8s.io/test-infra/prow/config/org:all-srcs",
-        "//vendor/k8s.io/test-infra/prow/config/secret:all-srcs",
     ],
     tags = ["automanaged"],
     visibility = ["//visibility:public"],

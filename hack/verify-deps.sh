@@ -34,9 +34,7 @@ mkdir -p "${_tmp_repo_root}/.."
 cp -a "${repo_root}" "${_tmp_repo_root}/.."
 
 cd "${_tmp_repo_root}"
-export GOPATH="${_tmp_gopath}"
 export PATH="${_tmp_gopath}/bin:${PATH}"
-echo $GOPATH
 ./hack/update-deps.sh
 
 diff=$(diff -Nupr \

@@ -1,0 +1,9 @@
+teams:
+  sig-ibmcloud-misc:
+    description: This is a team for sig ibmcloud. The related google group is kubernetes-sig-ibmcloud-misc
+      for emails.  The k8s-mirror-ibmcloud-misc github user is the main stake holder/member
+      of the team.
+    members:
+    - spzala
+    - k82cn
+    privacy: closed

@@ -1,0 +1,12 @@
+teams:
+  sig-azure:
+    description: General discussion for SIG Azure
+    maintainers:
+    - justaugustus
+    - shubheksha
+    - khenidak
+    members:
+    - feiskyer
+    - andyzhangx
+    - karataliu
+    privacy: closed

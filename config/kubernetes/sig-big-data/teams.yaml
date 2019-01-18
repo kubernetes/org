@@ -1,0 +1,36 @@
+teams:
+  sig-big-data-api-reviews:
+    description: ""
+    maintainers:
+    - foxish
+    privacy: closed
+  sig-big-data-bugs:
+    description: ""
+    maintainers:
+    - foxish
+    privacy: closed
+  sig-big-data-feature-requests:
+    description: ""
+    maintainers:
+    - foxish
+    privacy: closed
+  sig-big-data-misc:
+    description: ""
+    maintainers:
+    - foxish
+    privacy: closed
+  sig-big-data-pr-reviews:
+    description: ""
+    maintainers:
+    - foxish
+    privacy: closed
+  sig-big-data-proposals:
+    description: ""
+    maintainers:
+    - foxish
+    privacy: closed
+  sig-big-data-test-failures:
+    description: ""
+    maintainers:
+    - foxish
+    privacy: closed

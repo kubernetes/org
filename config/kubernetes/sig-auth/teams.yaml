@@ -1,0 +1,97 @@
+teams:
+  sig-auth-api-reviews:
+    description: ""
+    maintainers:
+    - liggitt
+    - tallclair
+    members:
+    - mikedanese
+    - mattmoyer
+    - enj
+    - deads2k
+    - davidopp
+    privacy: closed
+  sig-auth-bugs:
+    description: ""
+    maintainers:
+    - liggitt
+    - tallclair
+    members:
+    - mikedanese
+    - mattmoyer
+    - enj
+    - deads2k
+    - davidopp
+    privacy: closed
+  sig-auth-feature-requests:
+    description: ""
+    maintainers:
+    - liggitt
+    - deads2k
+    - tallclair
+    members:
+    - smarterclayton
+    - destijl
+    - mikedanese
+    - mattmoyer
+    - enj
+    - davidopp
+    privacy: closed
+  sig-auth-misc:
+    description: ""
+    maintainers:
+    - liggitt
+    - erictune
+    - tallclair
+    members:
+    - pmorie
+    - gtank
+    - smarterclayton
+    - destijl
+    - mikedanese
+    - mattmoyer
+    - timstclair
+    - enj
+    - cjcullen
+    - deads2k
+    - davidopp
+    - alex-mohr
+    privacy: closed
+  sig-auth-pr-reviews:
+    description: ""
+    maintainers:
+    - liggitt
+    - tallclair
+    members:
+    - mikedanese
+    - mattmoyer
+    - enj
+    - deads2k
+    - davidopp
+    privacy: closed
+  sig-auth-proposals:
+    description: ""
+    maintainers:
+    - liggitt
+    - tallclair
+    members:
+    - smarterclayton
+    - destijl
+    - mikedanese
+    - mattmoyer
+    - enj
+    - deads2k
+    - davidopp
+    privacy: closed
+  sig-auth-test-failures:
+    description: ""
+    maintainers:
+    - liggitt
+    - tallclair
+    members:
+    - mikedanese
+    - mattmoyer
+    - enj
+    - deads2k
+    - davidopp
+    privacy: closed

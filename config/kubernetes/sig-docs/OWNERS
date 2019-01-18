@@ -1,0 +1,6 @@
+reviewers:
+  - sig-docs-leads
+approvers:
+  - sig-docs-leads
+labels:
+  - sig/docs

@@ -1,0 +1,99 @@
+teams:
+  sig-node-api-reviews:
+    description: API Reviews for Kubernetes Node Special-Interest-Group
+    members:
+    - ConnorDoyle
+    - feiskyer
+    - resouer
+    - derekwaynecarr
+    - vishh
+    - dchen1107
+    - davidopp
+    - yujuhong
+    - vikaschoudhary16
+    - tallclair
+    privacy: closed
+  sig-node-bugs:
+    description: Bugs for Kubernetes Node Special-Interest-Group
+    members:
+    - ConnorDoyle
+    - feiskyer
+    - resouer
+    - derekwaynecarr
+    - vishh
+    - dchen1107
+    - yujuhong
+    - vikaschoudhary16
+    - yguo0905
+    - tallclair
+    privacy: closed
+  sig-node-feature-requests:
+    description: Feature Requests for Kubernetes Node Special-Interest-Group
+    members:
+    - ConnorDoyle
+    - feiskyer
+    - smarterclayton
+    - resouer
+    - Random-Liu
+    - derekwaynecarr
+    - vishh
+    - dchen1107
+    - davidopp
+    - yujuhong
+    - vikaschoudhary16
+    - yguo0905
+    - tallclair
+    privacy: closed
+  sig-node-pr-reviews:
+    description: PR Reviews for Kubernetes Node Special-Interest-Group
+    members:
+    - ConnorDoyle
+    - feiskyer
+    - resouer
+    - tmrts
+    - derekwaynecarr
+    - vishh
+    - dchen1107
+    - yujuhong
+    - vikaschoudhary16
+    - tallclair
+    privacy: closed
+  sig-node-proposals:
+    description: Proposals for Kubernetes Node Special-Interest-Group
+    members:
+    - ConnorDoyle
+    - feiskyer
+    - mtaufen
+    - smarterclayton
+    - resouer
+    - dashpole
+    - timstclair
+    - Random-Liu
+    - derekwaynecarr
+    - vishh
+    - dchen1107
+    - davidopp
+    - yujuhong
+    - vikaschoudhary16
+    - tallclair
+    privacy: closed
+  sig-node-test-failures:
+    description: Test Failures for Kubernetes Node Special-Interest-Group
+    members:
+    - ConnorDoyle
+    - sjenning
+    - feiskyer
+    - mtaufen
+    - resouer
+    - euank
+    - dashpole
+    - timstclair
+    - Random-Liu
+    - derekwaynecarr
+    - vishh
+    - dchen1107
+    - yujuhong
+    - vikaschoudhary16
+    - yguo0905
+    - tallclair
+    privacy: closed

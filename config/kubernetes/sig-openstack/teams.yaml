@@ -1,0 +1,65 @@
+teams:
+  sig-openstack-api-reviews:
+    description: ""
+    maintainers:
+    - idvoretskyi
+    - xsgordon
+    privacy: closed
+  sig-openstack-bugs:
+    description: ""
+    maintainers:
+    - idvoretskyi
+    - xsgordon
+    members:
+    - NickrenREN
+    privacy: closed
+  sig-openstack-feature-requests:
+    description: ""
+    maintainers:
+    - idvoretskyi
+    members:
+    - xsgordon
+    privacy: closed
+  sig-openstack-misc:
+    description: OpenStack Special Interest Group
+    maintainers:
+    - idvoretskyi
+    - xsgordon
+    members:
+    - flaper87
+    - dims
+    - grahamhayes
+    - anguslees
+    - russellb
+    - hogepodge
+    - hongbin
+    - pigmej
+    - feiskyer
+    - kragniz
+    - harlowja
+    - stevemcquaid
+    - eghobo
+    - codevulture
+    - NickrenREN
+    - rootfs
+    privacy: closed
+  sig-openstack-pr-reviews:
+    description: ""
+    maintainers:
+    - idvoretskyi
+    - xsgordon
+    members:
+    - NickrenREN
+    privacy: closed
+  sig-openstack-proposals:
+    description: ""
+    maintainers:
+    - idvoretskyi
+    - xsgordon
+    privacy: closed
+  sig-openstack-test-failures:
+    description: ""
+    maintainers:
+    - idvoretskyi
+    - xsgordon
+    privacy: closed

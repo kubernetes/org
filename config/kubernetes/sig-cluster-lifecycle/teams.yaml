@@ -1,0 +1,50 @@
+teams:
+  sig-cluster-lifecycle:
+    description: Use only if you can't figure out a better category
+    maintainers:
+    - timothysc
+    - luxas
+    - roberthbailey
+    members:
+    - jbeda
+    - kad
+    - chuckha
+    - krousey
+    - neolit123
+    - detiber
+    - rosti
+    - pipejakob
+    - stealthybox
+    - karan
+    - fabriziopandini
+    - dixudx
+    - yagonobre
+    - xiangpengzhao
+    - medinatiger
+    - liztio
+    privacy: closed
+  sig-cluster-lifecycle-pr-reviews:
+    description: ""
+    maintainers:
+    - timothysc
+    - luxas
+    - roberthbailey
+    members:
+    - jbeda
+    - kad
+    - chuckha
+    - krousey
+    - neolit123
+    - detiber
+    - rosti
+    - pipejakob
+    - stealthybox
+    - karan
+    - fabriziopandini
+    - dixudx
+    - zouyee
+    - yagonobre
+    - xiangpengzhao
+    - medinatiger
+    - liztio
+    privacy: closed

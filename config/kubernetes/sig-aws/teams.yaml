@@ -1,0 +1,14 @@
+teams:
+  sig-aws-misc:
+    description: ""
+    maintainers:
+    - kris-nova
+    members:
+    - mcrute
+    - micahhausler
+    - nckturner
+    - jsafrane
+    - sethpollack
+    - leakingtapan
+    - d-nishi
+    privacy: closed

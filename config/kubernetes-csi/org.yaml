@@ -147,6 +147,18 @@ teams:
     maintainers:
     - saad-ali
     privacy: closed
+  csi-release-tools-admins:
+    description: admin access to csi-release-tools
+    maintainers:
+    - msau42
+    - saad-ali
+    privacy: closed
+  csi-release-tools-maintainers:
+    description: write access to csi-release-tools
+    maintainers:
+    - msau42
+    - saad-ali
+    privacy: closed
   csi-test-admins:
     description: admin access to csi-test
     maintainers:

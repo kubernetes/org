@@ -30,25 +30,25 @@ members:
 - vladimirvivien
 teams:
   cluster-driver-registrar-admins:
-    description: ""
+    description: admin access to cluster-driver-registrar
     maintainers:
     - lpabon
     - saad-ali
     privacy: closed
   cluster-driver-registrar-maintainers:
-    description: ""
+    description: write access to cluster-driver-registrar
     maintainers:
     - lpabon
     - saad-ali
     privacy: closed
   csi-driver-fibre-channel-admins:
-    description: ""
+    description: admin access to csi-driver-fibre-channel
     maintainers:
     - childsb
     - saad-ali
     privacy: closed
   csi-driver-fibre-channel-maintainers:
-    description: ""
+    description: write access to csi-driver-fibre-channel
     maintainers:
     - childsb
     - saad-ali
@@ -138,13 +138,25 @@ teams:
     - saad-ali
     privacy: closed
   csi-lib-utils-admins:
-    description: ""
+    description: admin access to csi-lib-utils
     maintainers:
     - saad-ali
     privacy: closed
   csi-lib-utils-maintainers:
-    description: ""
+    description: write access to csi-lib-utils
     maintainers:
+    - saad-ali
+    privacy: closed
+  csi-release-tools-admins:
+    description: admin access to csi-release-tools
+    maintainers:
+    - msau42
+    - saad-ali
+    privacy: closed
+  csi-release-tools-maintainers:
+    description: write access to csi-release-tools
+    maintainers:
+    - msau42
     - saad-ali
     privacy: closed
   csi-test-admins:
@@ -252,12 +264,12 @@ teams:
     - saad-ali
     privacy: closed
   external-resizer-admins:
-    description: ""
+    description: admin access to external-resizer
     maintainers:
     - saad-ali
     privacy: closed
   external-resizer-maintainers:
-    description: ""
+    description: write access to external-resizer
     maintainers:
     - saad-ali
     privacy: closed
@@ -304,13 +316,13 @@ teams:
     - sbezverk
     privacy: closed
   node-driver-registrar-admins:
-    description: ""
+    description: admnin access to node-driver-registrar
     maintainers:
     - lpabon
     - saad-ali
     privacy: closed
   node-driver-registrar-maintainers:
-    description: ""
+    description: write access to node-driver-registrar
     maintainers:
     - lpabon
     - saad-ali

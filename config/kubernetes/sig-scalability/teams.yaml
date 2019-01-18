@@ -2,9 +2,9 @@ teams:
   sig-scalability-api-reviews:
     description: ""
     maintainers:
+    - countspongebob
     - jbeda
     - spiffxp
-    - countspongebob
     members:
     - lavalamp
     - shyamjvs
@@ -12,10 +12,10 @@ teams:
   sig-scalability-bugs:
     description: ""
     maintainers:
+    - countspongebob
     - jbeda
     - spiffxp
     - timothysc
-    - countspongebob
     members:
     - lavalamp
     - shyamjvs
@@ -23,35 +23,35 @@ teams:
   sig-scalability-feature-requests:
     description: ""
     maintainers:
+    - countspongebob
     - jbeda
     - spiffxp
     - timothysc
-    - countspongebob
     members:
     - lavalamp
-    - smarterclayton
     - shyamjvs
+    - smarterclayton
     privacy: closed
   sig-scalability-misc:
     description: ""
     maintainers:
+    - countspongebob
     - jbeda
     - spiffxp
-    - countspongebob
     members:
-    - rrati
-    - lavalamp
     - feiskyer
-    - smarterclayton
     - jeremyeder
+    - lavalamp
+    - rrati
     - shyamjvs
+    - smarterclayton
     privacy: closed
   sig-scalability-pr-reviews:
     description: ""
     maintainers:
+    - countspongebob
     - jbeda
     - spiffxp
-    - countspongebob
     members:
     - lavalamp
     - shyamjvs
@@ -59,20 +59,20 @@ teams:
   sig-scalability-proprosals:
     description: ""
     maintainers:
+    - countspongebob
     - jbeda
     - spiffxp
-    - countspongebob
     members:
     - lavalamp
-    - smarterclayton
     - shyamjvs
+    - smarterclayton
     privacy: closed
   sig-scalability-test-failures:
     description: ""
     maintainers:
+    - countspongebob
     - jbeda
     - spiffxp
-    - countspongebob
     members:
     - lavalamp
     privacy: closed

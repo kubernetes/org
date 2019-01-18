@@ -26,22 +26,22 @@ teams:
     - idvoretskyi
     - xsgordon
     members:
-    - flaper87
-    - dims
-    - grahamhayes
     - anguslees
-    - russellb
+    - codevulture
+    - dims
+    - eghobo
+    - feiskyer
+    - flaper87
+    - grahamhayes
+    - harlowja
     - hogepodge
     - hongbin
-    - pigmej
-    - feiskyer
     - kragniz
-    - harlowja
-    - stevemcquaid
-    - eghobo
-    - codevulture
     - NickrenREN
+    - pigmej
     - rootfs
+    - russellb
+    - stevemcquaid
     privacy: closed
   sig-openstack-pr-reviews:
     description: ""

@@ -21,15 +21,15 @@ teams:
     maintainers:
     - deads2k
     members:
-    - ironcladlou
-    - soltysh
-    - lavalamp
-    - sttts
-    - liggitt
-    - smarterclayton
-    - mbohlool
     - derekwaynecarr
     - enj
+    - ironcladlou
+    - lavalamp
+    - liggitt
+    - mbohlool
+    - smarterclayton
+    - soltysh
+    - sttts
     - yue9944882
     privacy: closed
   sig-api-machinery-pr-reviews:
@@ -38,9 +38,9 @@ teams:
     - deads2k
     members:
     - lavalamp
-    - sttts
     - liggitt
     - smarterclayton
+    - sttts
     privacy: closed
   sig-api-machinery-proposals:
     description: ""

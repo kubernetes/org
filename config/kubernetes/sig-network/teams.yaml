@@ -3,8 +3,8 @@ teams:
     description: ""
     members:
     - caseydavenport
-    - thockin
     - davidopp
+    - thockin
     privacy: closed
   sig-network-bugs:
     description: ""
@@ -16,55 +16,55 @@ teams:
   sig-network-feature-requests:
     description: ""
     members:
-    - smarterclayton
     - caseydavenport
     - cmluciano
-    - thockin
     - davidopp
+    - smarterclayton
+    - thockin
     privacy: closed
   sig-network-misc:
     description: Network SIG
     maintainers:
     - dcbw
     members:
-    - gsasha
-    - danwinship
-    - feiskyer
-    - bowei
-    - smarterclayton
-    - eghobo
-    - freehan
-    - jeremyeder
-    - caseydavenport
-    - thockin
     - aanm
-    - eparis
-    - davidopp
-    - MrHohn
+    - bowei
     - bprashanth
+    - caseydavenport
+    - danwinship
+    - davidopp
     - dnardo
+    - eghobo
+    - eparis
+    - feiskyer
+    - freehan
+    - gsasha
+    - jeremyeder
+    - MrHohn
+    - smarterclayton
+    - thockin
     privacy: closed
   sig-network-pr-reviews:
     description: ""
     members:
-    - feiskyer
     - bowei
     - caseydavenport
     - cmluciano
+    - dcbw
+    - feiskyer
     - m1093782566
     - thockin
-    - dcbw
     privacy: closed
   sig-network-proposals:
     description: ""
     members:
-    - feiskyer
-    - smarterclayton
     - caseydavenport
     - cmluciano
-    - thockin
     - davidopp
     - dcbw
+    - feiskyer
+    - smarterclayton
+    - thockin
     privacy: closed
   sig-network-test-failures:
     description: ""

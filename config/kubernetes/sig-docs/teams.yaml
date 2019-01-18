@@ -2,21 +2,21 @@ teams:
   sig-docs-en-owners:
     description: ""
     maintainers:
-    - zacharysarah
     - Bradamant3
     - chenopis
+    - zacharysarah
     members:
-    - tfogo
-    - tengqm
-    - zparnold
-    - jaredbhatti
     - bradtopol
-    - mistyhacks
+    - cody-clark
+    - jaredbhatti
     - kbarnard10
+    - mistyhacks
     - ryanmcginnis
     - steveperry-53
-    - cody-clark
     - stewart-yu
+    - tengqm
+    - tfogo
+    - zparnold
     privacy: closed
   sig-docs-en-reviews:
     description: Review PRs for English content
@@ -24,28 +24,28 @@ teams:
     - zacharysarah
     members:
     - jimangel
-    - zhangxiaoyu-zidif
-    - xiangpengzhao
-    - stewart-yu
     - Rajakavitha1
+    - stewart-yu
+    - xiangpengzhao
+    - zhangxiaoyu-zidif
     privacy: closed
   sig-docs-ja-owners:
     description: sig-docs-ja-owners
     maintainers:
     - cstoku
     members:
+    - chenopis
     - makocchi-git
     - MasayaAoyama
-    - tnir
     - nasa9084
-    - chenopis
+    - tnir
     privacy: closed
   sig-docs-ja-reviews:
     description: ""
     maintainers:
     - cstoku
-    - tnir
     - nasa9084
+    - tnir
     members:
     - makocchi-git
     - MasayaAoyama
@@ -55,76 +55,76 @@ teams:
     maintainers:
     - gochist
     members:
-    - ianychoi
     - ClaudiaJKang
+    - ianychoi
     privacy: closed
     teams:
       sig-docs-ko-reviews:
         description: Reviews for Korean docs PRs
         maintainers:
-        - gochist
         - ClaudiaJKang
+        - gochist
         members:
         - ianychoi
         privacy: closed
   sig-docs-l10n-admins:
     description: Admins for l10n projects
     maintainers:
-    - zacharysarah
     - Bradamant3
     - chenopis
+    - zacharysarah
     members:
-    - gochist
-    - markthink
-    - hanjiayao
-    - zhangxiaoyu-zidif
-    - cstoku
-    - tnir
     - ClaudiaJKang
+    - cstoku
+    - gochist
+    - hanjiayao
+    - markthink
+    - tnir
+    - zhangxiaoyu-zidif
     privacy: closed
   sig-docs-maintainers:
     description: Docs maintainers team.
     maintainers:
-    - zacharysarah
+    - chenopis
     - jaredbhatti
     - pwittrock
     - steveperry-53
-    - chenopis
+    - zacharysarah
     members:
-    - tfogo
+    - Bradamant3
+    - bradtopol
     - jimangel
+    - kbarnard10
+    - mistyhacks
+    - ryanmcginnis
     - tengqm
+    - tfogo
+    - xiangpengzhao
     - zhangxiaoyu-zidif
     - zparnold
-    - bradtopol
-    - Bradamant3
-    - mistyhacks
-    - kbarnard10
-    - ryanmcginnis
-    - xiangpengzhao
     privacy: closed
   sig-docs-pr-reviews:
     description: Users authorized to review docs PRs
     maintainers:
-    - zacharysarah
     - Bradamant3
     - chenopis
+    - zacharysarah
     members:
-    - tfogo
-    - jimangel
-    - tengqm
-    - zhangxiaoyu-zidif
-    - zparnold
-    - jaredbhatti
     - bradtopol
-    - mistyhacks
+    - cody-clark
+    - jaredbhatti
+    - jimangel
     - kbarnard10
+    - mistyhacks
+    - Rajakavitha1
     - ryanmcginnis
     - steveperry-53
-    - xiangpengzhao
-    - cody-clark
     - stewart-yu
-    - Rajakavitha1
+    - tengqm
+    - tfogo
+    - xiangpengzhao
+    - zhangxiaoyu-zidif
+    - zparnold
     privacy: closed
   sig-docs-zh-owners:
     description: ""
@@ -132,17 +132,17 @@ teams:
     - hanjiayao
     - tengqm
     members:
-    - zhangxiaoyu-zidif
     - xiangpengzhao
+    - zhangxiaoyu-zidif
     privacy: closed
   sig-docs-zh-reviews:
     description: Reviews for Chinese docs PRs
     maintainers:
     - tengqm
-    - zhangxiaoyu-zidif
     - xiangpengzhao
+    - zhangxiaoyu-zidif
     members:
+    - chenrui333
     - idealhack
     - pigletfly
-    - chenrui333
     privacy: closed

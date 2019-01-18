@@ -49,9 +49,9 @@ teams:
     description: ""
     members:
     - arschles
-    - mbohlool
     - krabhishek8260
     - lwander
+    - mbohlool
     privacy: secret
   csharp-admins:
     description: admin access to csharp

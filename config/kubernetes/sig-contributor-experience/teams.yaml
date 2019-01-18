@@ -6,57 +6,57 @@ teams:
     - cblecker
     - grodrigues3
     members:
-    - rmmh
-    - nikhita
     - idealhack
+    - nikhita
+    - rmmh
     privacy: closed
   sig-contributor-experience-feature-requests:
     description: Requests for features in contributor-experience infrastructure, such
       as the PR bot, etc.
     maintainers:
-    - idvoretskyi
     - cblecker
     - grodrigues3
+    - idvoretskyi
     members:
-    - rmmh
-    - nikhita
     - idealhack
+    - nikhita
+    - rmmh
     privacy: closed
   sig-contributor-experience-misc-use-only-as-a-last-resort:
     description: Improve contributor productivity
     maintainers:
-    - philips
-    - idvoretskyi
     - cblecker
     - grodrigues3
+    - idvoretskyi
+    - philips
     - pwittrock
     members:
     - dims
-    - rmmh
-    - Kashomon
-    - pigmej
-    - lavalamp
+    - eparis
     - foxish
     - hongchaodeng
-    - jessfraz
-    - monopole
-    - xiang90
-    - thockin
-    - eparis
-    - nikhita
     - idealhack
+    - jessfraz
+    - Kashomon
+    - lavalamp
+    - monopole
+    - nikhita
+    - pigmej
+    - rmmh
+    - thockin
+    - xiang90
     privacy: closed
   sig-contributor-experience-pr-reviews:
-    description: PR reviews for contributor-experience infrastructure, such as the
-      PR bot, etc.
+    description: PR reviews for contributor-experience infrastructure, such 
+      as the PR bot, etc.
     maintainers:
-    - idvoretskyi
     - cblecker
     - grodrigues3
+    - idvoretskyi
     members:
-    - rmmh
-    - nikhita
     - idealhack
+    - nikhita
+    - rmmh
     privacy: closed
   sig-contributor-experience-proposals:
     description: Design proposals for new contributor-experience infrastructure, such
@@ -65,9 +65,9 @@ teams:
     - cblecker
     - grodrigues3
     members:
-    - rmmh
-    - nikhita
     - idealhack
+    - nikhita
+    - rmmh
     privacy: closed
   sig-contributor-experience-test-failures:
     description: List to triage test failures for contributor-experience infrastructure,
@@ -76,6 +76,6 @@ teams:
     - cblecker
     - grodrigues3
     members:
-    - nikhita
     - idealhack
+    - nikhita
     privacy: closed

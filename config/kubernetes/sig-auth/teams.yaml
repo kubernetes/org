@@ -5,11 +5,11 @@ teams:
     - liggitt
     - tallclair
     members:
-    - mikedanese
-    - mattmoyer
-    - enj
-    - deads2k
     - davidopp
+    - deads2k
+    - enj
+    - mattmoyer
+    - mikedanese
     privacy: closed
   sig-auth-bugs:
     description: ""
@@ -17,45 +17,45 @@ teams:
     - liggitt
     - tallclair
     members:
-    - mikedanese
-    - mattmoyer
-    - enj
-    - deads2k
     - davidopp
+    - deads2k
+    - enj
+    - mattmoyer
+    - mikedanese
     privacy: closed
   sig-auth-feature-requests:
     description: ""
     maintainers:
-    - liggitt
     - deads2k
+    - liggitt
     - tallclair
     members:
-    - smarterclayton
-    - destijl
-    - mikedanese
-    - mattmoyer
-    - enj
     - davidopp
+    - destijl
+    - enj
+    - mattmoyer
+    - mikedanese
+    - smarterclayton
     privacy: closed
   sig-auth-misc:
     description: ""
     maintainers:
-    - liggitt
     - erictune
+    - liggitt
     - tallclair
     members:
-    - pmorie
-    - gtank
-    - smarterclayton
-    - destijl
-    - mikedanese
-    - mattmoyer
-    - timstclair
-    - enj
-    - cjcullen
-    - deads2k
-    - davidopp
     - alex-mohr
+    - cjcullen
+    - davidopp
+    - deads2k
+    - destijl
+    - enj
+    - gtank
+    - mattmoyer
+    - mikedanese
+    - pmorie
+    - smarterclayton
+    - timstclair
     privacy: closed
   sig-auth-pr-reviews:
     description: ""
@@ -63,11 +63,11 @@ teams:
     - liggitt
     - tallclair
     members:
-    - mikedanese
-    - mattmoyer
-    - enj
-    - deads2k
     - davidopp
+    - deads2k
+    - enj
+    - mattmoyer
+    - mikedanese
     privacy: closed
   sig-auth-proposals:
     description: ""
@@ -75,13 +75,13 @@ teams:
     - liggitt
     - tallclair
     members:
-    - smarterclayton
-    - destijl
-    - mikedanese
-    - mattmoyer
-    - enj
-    - deads2k
     - davidopp
+    - deads2k
+    - destijl
+    - enj
+    - mattmoyer
+    - mikedanese
+    - smarterclayton
     privacy: closed
   sig-auth-test-failures:
     description: ""
@@ -89,9 +89,9 @@ teams:
     - liggitt
     - tallclair
     members:
-    - mikedanese
-    - mattmoyer
-    - enj
-    - deads2k
     - davidopp
+    - deads2k
+    - enj
+    - mattmoyer
+    - mikedanese
     privacy: closed

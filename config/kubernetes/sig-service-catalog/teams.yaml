@@ -20,19 +20,19 @@ teams:
     maintainers:
     - pmorie
     members:
-    - smarterclayton
     - jessfraz
     - pwittrock
+    - smarterclayton
     privacy: closed
   sig-service-catalog-misc:
     description: Miscellaneous notifications for SIG service-catalog
     maintainers:
     - pmorie
     members:
-    - smarterclayton
+    - bmelville
     - jessfraz
     - pwittrock
-    - bmelville
+    - smarterclayton
     privacy: closed
   sig-service-catalog-pr-reviews:
     description: PR review notifications for SIG service-catalog
@@ -47,9 +47,9 @@ teams:
     maintainers:
     - pmorie
     members:
-    - smarterclayton
     - jessfraz
     - pwittrock
+    - smarterclayton
     privacy: closed
   sig-service-catalog-test-failures:
     description: For reporting test failures to SIG service-catalog

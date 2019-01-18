@@ -4,6 +4,6 @@ teams:
       for emails.  The k8s-mirror-ibmcloud-misc github user is the main stake holder/member
       of the team.
     members:
-    - spzala
     - k82cn
+    - spzala
     privacy: closed

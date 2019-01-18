@@ -5,15 +5,15 @@ teams:
     - fabxc
     - piosz
     members:
-    - DirectXMan12
-    - x13n
-    - kawych
     - brancz
-    - zouyee
-    - loburm
-    - fgrzadkowski
     - danielqsj
+    - DirectXMan12
+    - fgrzadkowski
+    - kawych
+    - loburm
     - mxinden
+    - x13n
+    - zouyee
     privacy: closed
   sig-instrumentation-bugs:
     description: ""
@@ -21,15 +21,15 @@ teams:
     - fabxc
     - piosz
     members:
-    - DirectXMan12
-    - x13n
-    - kawych
     - brancz
-    - zouyee
-    - loburm
-    - fgrzadkowski
     - danielqsj
+    - DirectXMan12
+    - fgrzadkowski
+    - kawych
+    - loburm
     - mxinden
+    - x13n
+    - zouyee
     privacy: closed
   sig-instrumentation-feature-requests:
     description: ""
@@ -37,14 +37,14 @@ teams:
     - fabxc
     - piosz
     members:
-    - DirectXMan12
-    - x13n
-    - kawych
     - brancz
-    - loburm
-    - fgrzadkowski
     - danielqsj
+    - DirectXMan12
+    - fgrzadkowski
+    - kawych
+    - loburm
     - mxinden
+    - x13n
     privacy: closed
   sig-instrumentation-misc:
     description: ""
@@ -52,14 +52,14 @@ teams:
     - fabxc
     - piosz
     members:
-    - DirectXMan12
-    - x13n
-    - kawych
     - brancz
-    - loburm
-    - fgrzadkowski
     - danielqsj
+    - DirectXMan12
+    - fgrzadkowski
+    - kawych
+    - loburm
     - mxinden
+    - x13n
     privacy: closed
   sig-instrumentation-pr-reviews:
     description: ""
@@ -67,15 +67,15 @@ teams:
     - fabxc
     - piosz
     members:
-    - DirectXMan12
-    - x13n
-    - kawych
     - brancz
-    - zouyee
-    - loburm
-    - fgrzadkowski
     - danielqsj
+    - DirectXMan12
+    - fgrzadkowski
+    - kawych
+    - loburm
     - mxinden
+    - x13n
+    - zouyee
     privacy: closed
   sig-instrumentation-proposals:
     description: ""
@@ -83,14 +83,14 @@ teams:
     - fabxc
     - piosz
     members:
-    - DirectXMan12
-    - x13n
-    - kawych
     - brancz
-    - loburm
-    - fgrzadkowski
     - danielqsj
+    - DirectXMan12
+    - fgrzadkowski
+    - kawych
+    - loburm
     - mxinden
+    - x13n
     privacy: closed
   sig-instrumentation-test-failures:
     description: ""
@@ -98,12 +98,12 @@ teams:
     - fabxc
     - piosz
     members:
-    - DirectXMan12
-    - x13n
-    - kawych
     - brancz
-    - loburm
-    - fgrzadkowski
     - danielqsj
+    - DirectXMan12
+    - fgrzadkowski
+    - kawych
+    - loburm
     - mxinden
+    - x13n
     privacy: closed

@@ -1,0 +1,51 @@
+teams:
+  sig-architecture-api-reviews:
+    description: SIG Architecture API review notifications
+    maintainers:
+    - liggitt
+    members:
+    - smarterclayton
+    - bgrant0607
+    privacy: closed
+  sig-architecture-bugs:
+    description: SIG Architecture bug notifications
+    members:
+    - bgrant0607
+    privacy: closed
+  sig-architecture-feature-requests:
+    description: SIG Architecture feature request notifications
+    maintainers:
+    - idvoretskyi
+    - liggitt
+    members:
+    - smarterclayton
+    - bgrant0607
+    privacy: closed
+  sig-architecture-misc-use-only-as-a-last-resort:
+    description: SIG Architecture misc. notifications (consider notifying a more-specific
+      team first!)
+    members:
+    - smarterclayton
+    - bgrant0607
+    privacy: closed
+  sig-architecture-pr-reviews:
+    description: SIG Architecture PR review notifications
+    maintainers:
+    - liggitt
+    members:
+    - jbeda
+    - timothysc
+    - smarterclayton
+    - bgrant0607
+    privacy: closed
+  sig-architecture-proposals:
+    description: SIG Architecture proposal notifications
+    members:
+    - smarterclayton
+    - bgrant0607
+    privacy: closed
+  sig-architecture-test-failures:
+    description: SIG Architecture test failure notifications
+    members:
+    - bgrant0607
+    privacy: closed

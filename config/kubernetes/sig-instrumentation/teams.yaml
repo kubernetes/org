@@ -1,0 +1,109 @@
+teams:
+  sig-instrumentation-api-reviews:
+    description: ""
+    maintainers:
+    - fabxc
+    - piosz
+    members:
+    - DirectXMan12
+    - x13n
+    - kawych
+    - brancz
+    - zouyee
+    - loburm
+    - fgrzadkowski
+    - danielqsj
+    - mxinden
+    privacy: closed
+  sig-instrumentation-bugs:
+    description: ""
+    maintainers:
+    - fabxc
+    - piosz
+    members:
+    - DirectXMan12
+    - x13n
+    - kawych
+    - brancz
+    - zouyee
+    - loburm
+    - fgrzadkowski
+    - danielqsj
+    - mxinden
+    privacy: closed
+  sig-instrumentation-feature-requests:
+    description: ""
+    maintainers:
+    - fabxc
+    - piosz
+    members:
+    - DirectXMan12
+    - x13n
+    - kawych
+    - brancz
+    - loburm
+    - fgrzadkowski
+    - danielqsj
+    - mxinden
+    privacy: closed
+  sig-instrumentation-misc:
+    description: ""
+    maintainers:
+    - fabxc
+    - piosz
+    members:
+    - DirectXMan12
+    - x13n
+    - kawych
+    - brancz
+    - loburm
+    - fgrzadkowski
+    - danielqsj
+    - mxinden
+    privacy: closed
+  sig-instrumentation-pr-reviews:
+    description: ""
+    maintainers:
+    - fabxc
+    - piosz
+    members:
+    - DirectXMan12
+    - x13n
+    - kawych
+    - brancz
+    - zouyee
+    - loburm
+    - fgrzadkowski
+    - danielqsj
+    - mxinden
+    privacy: closed
+  sig-instrumentation-proposals:
+    description: ""
+    maintainers:
+    - fabxc
+    - piosz
+    members:
+    - DirectXMan12
+    - x13n
+    - kawych
+    - brancz
+    - loburm
+    - fgrzadkowski
+    - danielqsj
+    - mxinden
+    privacy: closed
+  sig-instrumentation-test-failures:
+    description: ""
+    maintainers:
+    - fabxc
+    - piosz
+    members:
+    - DirectXMan12
+    - x13n
+    - kawych
+    - brancz
+    - loburm
+    - fgrzadkowski
+    - danielqsj
+    - mxinden
+    privacy: closed

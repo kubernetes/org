@@ -1,0 +1,75 @@
+teams:
+  sig-network-api-reviews:
+    description: ""
+    members:
+    - caseydavenport
+    - thockin
+    - davidopp
+    privacy: closed
+  sig-network-bugs:
+    description: ""
+    members:
+    - caseydavenport
+    - cmluciano
+    - thockin
+    privacy: closed
+  sig-network-feature-requests:
+    description: ""
+    members:
+    - smarterclayton
+    - caseydavenport
+    - cmluciano
+    - thockin
+    - davidopp
+    privacy: closed
+  sig-network-misc:
+    description: Network SIG
+    maintainers:
+    - dcbw
+    members:
+    - gsasha
+    - danwinship
+    - feiskyer
+    - bowei
+    - smarterclayton
+    - eghobo
+    - freehan
+    - jeremyeder
+    - caseydavenport
+    - thockin
+    - aanm
+    - eparis
+    - davidopp
+    - MrHohn
+    - bprashanth
+    - dnardo
+    privacy: closed
+  sig-network-pr-reviews:
+    description: ""
+    members:
+    - feiskyer
+    - bowei
+    - caseydavenport
+    - cmluciano
+    - m1093782566
+    - thockin
+    - dcbw
+    privacy: closed
+  sig-network-proposals:
+    description: ""
+    members:
+    - feiskyer
+    - smarterclayton
+    - caseydavenport
+    - cmluciano
+    - thockin
+    - davidopp
+    - dcbw
+    privacy: closed
+  sig-network-test-failures:
+    description: ""
+    members:
+    - caseydavenport
+    - cmluciano
+    - thockin
+    privacy: closed

@@ -1,0 +1,61 @@
+teams:
+  sig-service-catalog-api-reviews:
+    description: API review notifications for SIG service catalog
+    maintainers:
+    - pmorie
+    members:
+    - jessfraz
+    - pwittrock
+    privacy: closed
+  sig-service-catalog-bugs:
+    description: Bug notifications for SIG service-catalog
+    maintainers:
+    - pmorie
+    members:
+    - jessfraz
+    - pwittrock
+    privacy: closed
+  sig-service-catalog-feature-requests:
+    description: Feature request notifications for SIG service-catalog
+    maintainers:
+    - pmorie
+    members:
+    - smarterclayton
+    - jessfraz
+    - pwittrock
+    privacy: closed
+  sig-service-catalog-misc:
+    description: Miscellaneous notifications for SIG service-catalog
+    maintainers:
+    - pmorie
+    members:
+    - smarterclayton
+    - jessfraz
+    - pwittrock
+    - bmelville
+    privacy: closed
+  sig-service-catalog-pr-reviews:
+    description: PR review notifications for SIG service-catalog
+    maintainers:
+    - pmorie
+    members:
+    - jessfraz
+    - pwittrock
+    privacy: closed
+  sig-service-catalog-proposals:
+    description: Proposal notifications for SIG service-catalog
+    maintainers:
+    - pmorie
+    members:
+    - smarterclayton
+    - jessfraz
+    - pwittrock
+    privacy: closed
+  sig-service-catalog-test-failures:
+    description: For reporting test failures to SIG service-catalog
+    maintainers:
+    - pmorie
+    members:
+    - jessfraz
+    - pwittrock
+    privacy: closed

@@ -1,0 +1,213 @@
+teams:
+  sig-scheduling-api-reviews:
+    description: ""
+    maintainers:
+    - timothysc
+    members:
+    - rrati
+    - ConnorDoyle
+    - pigmej
+    - jayunit100
+    - hongchaodeng
+    - resouer
+    - aveshagarwal
+    - xiang90
+    - balajismaniam
+    - derekwaynecarr
+    - jiangyaoguo
+    - kevin-wangzefeng
+    - vishh
+    - ingvagabund
+    - davidopp
+    - SrinivasChilveri
+    - quinton-hoole
+    - mqliang
+    - bsalamat
+    - k82cn
+    - quinton-hoole-2
+    privacy: closed
+  sig-scheduling-bugs:
+    description: ""
+    maintainers:
+    - timothysc
+    members:
+    - rrati
+    - ConnorDoyle
+    - pigmej
+    - jayunit100
+    - hongchaodeng
+    - resouer
+    - aveshagarwal
+    - gyliu513
+    - xiang90
+    - balajismaniam
+    - derekwaynecarr
+    - jiangyaoguo
+    - kevin-wangzefeng
+    - vishh
+    - ingvagabund
+    - davidopp
+    - SrinivasChilveri
+    - quinton-hoole
+    - ravisantoshgudimetla
+    - vikaschoudhary16
+    - mqliang
+    - wanghaoran1988
+    - bsalamat
+    - k82cn
+    - quinton-hoole-2
+    privacy: closed
+  sig-scheduling-feature-requests:
+    description: ""
+    maintainers:
+    - timothysc
+    members:
+    - rrati
+    - ConnorDoyle
+    - pigmej
+    - jayunit100
+    - hongchaodeng
+    - smarterclayton
+    - resouer
+    - aveshagarwal
+    - gyliu513
+    - xiang90
+    - balajismaniam
+    - derekwaynecarr
+    - jiangyaoguo
+    - kevin-wangzefeng
+    - vishh
+    - yastij
+    - ingvagabund
+    - davidopp
+    - SrinivasChilveri
+    - quinton-hoole
+    - ravisantoshgudimetla
+    - vikaschoudhary16
+    - mqliang
+    - bsalamat
+    - k82cn
+    - quinton-hoole-2
+    privacy: closed
+  sig-scheduling-misc:
+    description: Scheduling algorithms, scheduling/scheduler architecture and extensibility,
+      rescheduling/continuous re-optimization, cluster-level resource allocation and
+      resource management
+    maintainers:
+    - timothysc
+    members:
+    - rrati
+    - ConnorDoyle
+    - pigmej
+    - jayunit100
+    - hongchaodeng
+    - smarterclayton
+    - resouer
+    - aveshagarwal
+    - gyliu513
+    - xiang90
+    - balajismaniam
+    - derekwaynecarr
+    - jiangyaoguo
+    - kevin-wangzefeng
+    - ingvagabund
+    - davidopp
+    - SrinivasChilveri
+    - quinton-hoole
+    - ravisantoshgudimetla
+    - mqliang
+    - wanghaoran1988
+    - bsalamat
+    - k82cn
+    - quinton-hoole-2
+    privacy: closed
+  sig-scheduling-pr-reviews:
+    description: ""
+    maintainers:
+    - timothysc
+    members:
+    - rrati
+    - ConnorDoyle
+    - pigmej
+    - jayunit100
+    - hongchaodeng
+    - resouer
+    - aveshagarwal
+    - gyliu513
+    - xiang90
+    - balajismaniam
+    - derekwaynecarr
+    - jiangyaoguo
+    - kevin-wangzefeng
+    - vishh
+    - yastij
+    - ingvagabund
+    - davidopp
+    - SrinivasChilveri
+    - quinton-hoole
+    - ravisantoshgudimetla
+    - vikaschoudhary16
+    - mqliang
+    - wanghaoran1988
+    - bsalamat
+    - k82cn
+    - quinton-hoole-2
+    privacy: closed
+  sig-scheduling-proposals:
+    description: ""
+    maintainers:
+    - timothysc
+    members:
+    - rrati
+    - ConnorDoyle
+    - pigmej
+    - jayunit100
+    - hongchaodeng
+    - smarterclayton
+    - resouer
+    - aveshagarwal
+    - gyliu513
+    - xiang90
+    - balajismaniam
+    - derekwaynecarr
+    - jiangyaoguo
+    - kevin-wangzefeng
+    - vishh
+    - ingvagabund
+    - davidopp
+    - SrinivasChilveri
+    - quinton-hoole
+    - vikaschoudhary16
+    - mqliang
+    - bsalamat
+    - k82cn
+    - quinton-hoole-2
+    privacy: closed
+  sig-scheduling-test-failures:
+    description: ""
+    maintainers:
+    - timothysc
+    members:
+    - rrati
+    - ConnorDoyle
+    - pigmej
+    - jayunit100
+    - hongchaodeng
+    - resouer
+    - aveshagarwal
+    - gyliu513
+    - xiang90
+    - balajismaniam
+    - derekwaynecarr
+    - jiangyaoguo
+    - kevin-wangzefeng
+    - ingvagabund
+    - davidopp
+    - SrinivasChilveri
+    - quinton-hoole
+    - ravisantoshgudimetla
+    - mqliang
+    - bsalamat
+    - k82cn
+    - quinton-hoole-2
+    privacy: closed

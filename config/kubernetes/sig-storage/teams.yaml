@@ -1,0 +1,118 @@
+teams:
+  sig-storage-api-reviews:
+    description: API Reviews for Kubernetes Storage Special-Interest-Group
+    maintainers:
+    - saad-ali
+    members:
+    - childsb
+    - jsafrane
+    - wattsteve
+    - thockin
+    - rootfs
+    - davidopp
+    - matchstick
+    - msau42
+    privacy: closed
+  sig-storage-bugs:
+    description: Bugs for Kubernetes Storage Special-Interest-Group
+    maintainers:
+    - saad-ali
+    members:
+    - gnufied
+    - childsb
+    - jsafrane
+    - jeffvance
+    - wattsteve
+    - ianchakeres
+    - NickrenREN
+    - rootfs
+    - jingxu97
+    - matchstick
+    - msau42
+    privacy: closed
+  sig-storage-feature-requests:
+    description: Feature Requests for Kubernetes Storage Special-Interest-Group
+    maintainers:
+    - saad-ali
+    members:
+    - childsb
+    - smarterclayton
+    - jsafrane
+    - mdelio
+    - wattsteve
+    - ianchakeres
+    - thockin
+    - NickrenREN
+    - rootfs
+    - davidopp
+    - jingxu97
+    - matchstick
+    - msau42
+    privacy: closed
+  sig-storage-misc:
+    description: Miscellaneous Discussions for Kubernetes Storage Special-Interest-Group.
+      Ideally @kubernetes/sig-storage-misc should be seldom used, in lieu of more
+      appropriate channels (sig-storage-bugs, sig-storage-proposals, sig-storage-pr-reviews,
+      etc.)
+    maintainers:
+    - saad-ali
+    members:
+    - gnufied
+    - childsb
+    - smarterclayton
+    - jsafrane
+    - mdelio
+    - jeffvance
+    - wattsteve
+    - ianchakeres
+    - thockin
+    - NickrenREN
+    - rootfs
+    - davidopp
+    - jingxu97
+    - matchstick
+    - msau42
+    privacy: closed
+  sig-storage-pr-reviews:
+    description: PR Reviews for Kubernetes Storage Special-Interest-Group
+    maintainers:
+    - saad-ali
+    members:
+    - childsb
+    - jsafrane
+    - rootfs
+    - matchstick
+    - msau42
+    privacy: closed
+  sig-storage-proposals:
+    description: Proposals for Kubernetes Storage Special-Interest-Group
+    maintainers:
+    - saad-ali
+    members:
+    - childsb
+    - smarterclayton
+    - jsafrane
+    - mdelio
+    - wattsteve
+    - thockin
+    - rootfs
+    - vishh
+    - davidopp
+    - jingxu97
+    - matchstick
+    - msau42
+    privacy: closed
+  sig-storage-test-failures:
+    description: Test Failures for Kubernetes Storage Special-Interest-Group
+    maintainers:
+    - saad-ali
+    members:
+    - childsb
+    - jsafrane
+    - jeffvance
+    - ianchakeres
+    - rootfs
+    - jingxu97
+    - matchstick
+    - msau42
+    privacy: closed

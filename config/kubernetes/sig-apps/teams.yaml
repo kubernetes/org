@@ -1,0 +1,127 @@
+teams:
+  sig-apps-api-reviews:
+    description: ""
+    maintainers:
+    - mattfarina
+    - soltysh
+    - foxish
+    - janetkuo
+    - enisoc
+    members:
+    - mfojtik
+    - lukaszo
+    - smarterclayton
+    - dixudx
+    - zouyee
+    - davidopp
+    - dhilipkumars
+    - kow3ns
+    - tnozicka
+    privacy: closed
+  sig-apps-bugs:
+    description: ""
+    maintainers:
+    - mattfarina
+    - soltysh
+    - foxish
+    - janetkuo
+    - enisoc
+    members:
+    - mfojtik
+    - lukaszo
+    - smarterclayton
+    - resouer
+    - davidopp
+    - kow3ns
+    - tnozicka
+    - wanghaoran1988
+    privacy: closed
+  sig-apps-feature-requests:
+    description: ""
+    maintainers:
+    - mattfarina
+    - soltysh
+    - foxish
+    - janetkuo
+    - enisoc
+    - kow3ns
+    members:
+    - mfojtik
+    - lukaszo
+    - ant31
+    - smarterclayton
+    - prydonius
+    - resouer
+    - davidopp
+    - tnozicka
+    privacy: closed
+  sig-apps-misc:
+    description: Use only if you can't figure out a better category
+    maintainers:
+    - mattfarina
+    - soltysh
+    - foxish
+    - janetkuo
+    - enisoc
+    members:
+    - mfojtik
+    - lukaszo
+    - smarterclayton
+    - prydonius
+    - resouer
+    - davidopp
+    - kow3ns
+    - tnozicka
+    privacy: closed
+  sig-apps-pr-reviews:
+    description: ""
+    maintainers:
+    - mattfarina
+    - soltysh
+    - foxish
+    - janetkuo
+    - enisoc
+    members:
+    - mfojtik
+    - lukaszo
+    - smarterclayton
+    - resouer
+    - davidopp
+    - dhilipkumars
+    - kow3ns
+    - tnozicka
+    privacy: closed
+  sig-apps-proposals:
+    description: ""
+    maintainers:
+    - mattfarina
+    - soltysh
+    - foxish
+    - janetkuo
+    - enisoc
+    members:
+    - mfojtik
+    - lukaszo
+    - smarterclayton
+    - prydonius
+    - davidopp
+    - kow3ns
+    - tnozicka
+    privacy: closed
+  sig-apps-test-failures:
+    description: ""
+    maintainers:
+    - mattfarina
+    - soltysh
+    - foxish
+    - janetkuo
+    - enisoc
+    members:
+    - mfojtik
+    - lukaszo
+    - smarterclayton
+    - prydonius
+    - davidopp
+    - kow3ns
+    - tnozicka
+    privacy: closed

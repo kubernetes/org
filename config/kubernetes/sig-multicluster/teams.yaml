@@ -1,0 +1,114 @@
+teams:
+  sig-multicluster-api-reviews:
+    description: ""
+    maintainers:
+    - csbell
+    members:
+    - madhusudancs
+    - jianhuiz
+    - davidopp
+    - shashidharatd
+    - nikhiljindal
+    - quinton-hoole
+    - mwielgus
+    - quinton-hoole-2
+    privacy: closed
+  sig-multicluster-bugs:
+    description: ""
+    maintainers:
+    - nikhiljindal
+    - quinton-hoole
+    - csbell
+    members:
+    - madhusudancs
+    - marun
+    - jianhuiz
+    - shashidharatd
+    - irfanurrehman
+    - mwielgus
+    - quinton-hoole-2
+    privacy: closed
+  sig-multicluster-feature-requests:
+    description: ""
+    maintainers:
+    - csbell
+    members:
+    - madhusudancs
+    - smarterclayton
+    - jianhuiz
+    - derekwaynecarr
+    - davidopp
+    - shashidharatd
+    - nikhiljindal
+    - quinton-hoole
+    - mwielgus
+    - quinton-hoole-2
+    privacy: closed
+  sig-multicluster-misc:
+    description: 'SIG for multi cluster: https://groups.google.com/forum/#!forum/kubernetes-sig-multicluster'
+    maintainers:
+    - madhusudancs
+    - nikhiljindal
+    - quinton-hoole
+    - csbell
+    members:
+    - marun
+    - liggitt
+    - smarterclayton
+    - jianhuiz
+    - derekwaynecarr
+    - alfred-huangjian
+    - davidopp
+    - shashidharatd
+    - irfanurrehman
+    - mwielgus
+    - huangyuqi
+    - quinton-hoole-2
+    privacy: closed
+  sig-multicluster-pr-reviews:
+    description: ""
+    maintainers:
+    - csbell
+    members:
+    - madhusudancs
+    - marun
+    - jianhuiz
+    - shashidharatd
+    - nikhiljindal
+    - quinton-hoole
+    - mwielgus
+    - quinton-hoole-2
+    privacy: closed
+  sig-multicluster-test-failures:
+    description: ""
+    maintainers:
+    - csbell
+    members:
+    - madhusudancs
+    - jianhuiz
+    - shashidharatd
+    - irfanurrehman
+    - nikhiljindal
+    - quinton-hoole
+    - quinton-hoole-2
+    privacy: closed
+  sig-multicluster-proposals:
+    description: ""
+    maintainers:
+    - quinton-hoole
+    - csbell
+    - quinton-hoole-2
+    members:
+    - madhusudancs
+    - marun
+    - liggitt
+    - smarterclayton
+    - jianhuiz
+    - derekwaynecarr
+    - davidopp
+    - shashidharatd
+    - nikhiljindal
+    - mwielgus
+    privacy: closed
+    previously:
+      - sig-mutlicluster-proposals

@@ -1,0 +1,78 @@
+teams:
+  sig-autoscaling-api-reviews:
+    description: ""
+    maintainers:
+    - DirectXMan12
+    - mwielgus
+    members:
+    - bskiba
+    - aleksandra-malinowska
+    - MaciekPytel
+    - davidopp
+    privacy: closed
+  sig-autoscaling-bugs:
+    description: ""
+    maintainers:
+    - DirectXMan12
+    - mwielgus
+    members:
+    - bskiba
+    - aleksandra-malinowska
+    - MaciekPytel
+    - davidopp
+    privacy: closed
+  sig-autoscaling-feature-requests:
+    description: ""
+    maintainers:
+    - DirectXMan12
+    - mwielgus
+    members:
+    - bskiba
+    - aleksandra-malinowska
+    - MaciekPytel
+    - davidopp
+    privacy: closed
+  sig-autoscaling-misc:
+    description: ""
+    maintainers:
+    - DirectXMan12
+    - mwielgus
+    members:
+    - bskiba
+    - aleksandra-malinowska
+    - MaciekPytel
+    - davidopp
+    privacy: closed
+  sig-autoscaling-pr-reviews:
+    description: ""
+    maintainers:
+    - DirectXMan12
+    - mwielgus
+    members:
+    - bskiba
+    - aleksandra-malinowska
+    - MaciekPytel
+    - davidopp
+    privacy: closed
+  sig-autoscaling-proposals:
+    description: ""
+    maintainers:
+    - mwielgus
+    members:
+    - DirectXMan12
+    - bskiba
+    - aleksandra-malinowska
+    - MaciekPytel
+    - davidopp
+    privacy: closed
+  sig-autoscaling-test-failures:
+    description: ""
+    maintainers:
+    - DirectXMan12
+    - mwielgus
+    members:
+    - bskiba
+    - aleksandra-malinowska
+    - MaciekPytel
+    - davidopp
+    privacy: closed

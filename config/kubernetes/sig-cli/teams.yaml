@@ -1,0 +1,123 @@
+teams:
+  sig-cli-api-reviews:
+    description: ""
+    maintainers:
+    - fabianofranz
+    - adohe
+    - pwittrock
+    members:
+    - soltysh
+    - janetkuo
+    privacy: closed
+  sig-cli-bugs:
+    description: ""
+    maintainers:
+    - fabianofranz
+    - adohe
+    - pwittrock
+    members:
+    - soltysh
+    - mengqiy
+    - janetkuo
+    - dixudx
+    - shiywang
+    - wanghaoran1988
+    privacy: closed
+  sig-cli-feature-requests:
+    description: ""
+    maintainers:
+    - fabianofranz
+    - adohe
+    - pwittrock
+    members:
+    - soltysh
+    - smarterclayton
+    - mengqiy
+    - janetkuo
+    - shiywang
+    - davidopp
+    - wanghaoran1988
+    privacy: closed
+  sig-cli-maintainers:
+    description: ""
+    maintainers:
+    - soltysh
+    - liggitt
+    - adohe
+    - pwittrock
+    members:
+    - fabianofranz
+    - mengqiy
+    - monopole
+    - janetkuo
+    privacy: closed
+  sig-cli-misc:
+    description: Use only if you can't figure out a better category
+    maintainers:
+    - fabianofranz
+    - adohe
+    - pwittrock
+    members:
+    - dims
+    - soltysh
+    - sttts
+    - smarterclayton
+    - mengqiy
+    - janetkuo
+    - brendandburns
+    - shiywang
+    - eparis
+    - deads2k
+    - wanghaoran1988
+    privacy: closed
+  sig-cli-pr-reviews:
+    description: ""
+    maintainers:
+    - fabianofranz
+    - adohe
+    - pwittrock
+    members:
+    - dims
+    - soltysh
+    - sttts
+    - liggitt
+    - smarterclayton
+    - dshulyak
+    - mengqiy
+    - janetkuo
+    - ghodss
+    - dixudx
+    - derekwaynecarr
+    - shiywang
+    - rootfs
+    - eparis
+    - deads2k
+    - yue9944882
+    - wanghaoran1988
+    privacy: closed
+  sig-cli-proposals:
+    description: ""
+    maintainers:
+    - fabianofranz
+    - adohe
+    - pwittrock
+    members:
+    - soltysh
+    - liggitt
+    - smarterclayton
+    - mengqiy
+    - janetkuo
+    - brendandburns
+    - shiywang
+    - deads2k
+    - davidopp
+    privacy: closed
+  sig-cli-test-failures:
+    description: ""
+    maintainers:
+    - fabianofranz
+    - adohe
+    - pwittrock
+    members:
+    - soltysh
+    privacy: closed

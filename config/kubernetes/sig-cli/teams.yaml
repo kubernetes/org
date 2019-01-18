@@ -2,121 +2,121 @@ teams:
   sig-cli-api-reviews:
     description: ""
     maintainers:
-    - fabianofranz
     - adohe
+    - fabianofranz
     - pwittrock
     members:
-    - soltysh
     - janetkuo
+    - soltysh
     privacy: closed
   sig-cli-bugs:
     description: ""
     maintainers:
-    - fabianofranz
     - adohe
+    - fabianofranz
     - pwittrock
     members:
-    - soltysh
-    - mengqiy
-    - janetkuo
     - dixudx
+    - janetkuo
+    - mengqiy
     - shiywang
+    - soltysh
     - wanghaoran1988
     privacy: closed
   sig-cli-feature-requests:
     description: ""
     maintainers:
-    - fabianofranz
     - adohe
+    - fabianofranz
     - pwittrock
     members:
-    - soltysh
-    - smarterclayton
-    - mengqiy
-    - janetkuo
-    - shiywang
     - davidopp
+    - janetkuo
+    - mengqiy
+    - shiywang
+    - smarterclayton
+    - soltysh
     - wanghaoran1988
     privacy: closed
   sig-cli-maintainers:
     description: ""
     maintainers:
-    - soltysh
-    - liggitt
     - adohe
+    - liggitt
     - pwittrock
+    - soltysh
     members:
     - fabianofranz
+    - janetkuo
     - mengqiy
     - monopole
-    - janetkuo
     privacy: closed
   sig-cli-misc:
     description: Use only if you can't figure out a better category
     maintainers:
-    - fabianofranz
     - adohe
+    - fabianofranz
     - pwittrock
     members:
+    - brendandburns
+    - deads2k
     - dims
+    - eparis
+    - janetkuo
+    - mengqiy
+    - shiywang
+    - smarterclayton
     - soltysh
     - sttts
-    - smarterclayton
-    - mengqiy
-    - janetkuo
-    - brendandburns
-    - shiywang
-    - eparis
-    - deads2k
     - wanghaoran1988
     privacy: closed
   sig-cli-pr-reviews:
     description: ""
     maintainers:
-    - fabianofranz
     - adohe
+    - fabianofranz
     - pwittrock
     members:
+    - deads2k
+    - derekwaynecarr
     - dims
+    - dixudx
+    - dshulyak
+    - eparis
+    - ghodss
+    - janetkuo
+    - liggitt
+    - mengqiy
+    - rootfs
+    - shiywang
+    - smarterclayton
     - soltysh
     - sttts
-    - liggitt
-    - smarterclayton
-    - dshulyak
-    - mengqiy
-    - janetkuo
-    - ghodss
-    - dixudx
-    - derekwaynecarr
-    - shiywang
-    - rootfs
-    - eparis
-    - deads2k
-    - yue9944882
     - wanghaoran1988
+    - yue9944882
     privacy: closed
   sig-cli-proposals:
     description: ""
     maintainers:
-    - fabianofranz
     - adohe
+    - fabianofranz
     - pwittrock
     members:
-    - soltysh
-    - liggitt
-    - smarterclayton
-    - mengqiy
-    - janetkuo
     - brendandburns
-    - shiywang
-    - deads2k
     - davidopp
+    - deads2k
+    - janetkuo
+    - liggitt
+    - mengqiy
+    - shiywang
+    - smarterclayton
+    - soltysh
     privacy: closed
   sig-cli-test-failures:
     description: ""
     maintainers:
-    - fabianofranz
     - adohe
+    - fabianofranz
     - pwittrock
     members:
     - soltysh

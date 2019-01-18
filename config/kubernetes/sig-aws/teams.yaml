@@ -4,11 +4,11 @@ teams:
     maintainers:
     - kris-nova
     members:
+    - d-nishi
+    - jsafrane
+    - leakingtapan
     - mcrute
     - micahhausler
     - nckturner
-    - jsafrane
     - sethpollack
-    - leakingtapan
-    - d-nishi
     privacy: closed

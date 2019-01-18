@@ -3,10 +3,10 @@ teams:
     description: General discussion for SIG Azure
     maintainers:
     - justaugustus
-    - shubheksha
     - khenidak
+    - shubheksha
     members:
-    - feiskyer
     - andyzhangx
+    - feiskyer
     - karataliu
     privacy: closed

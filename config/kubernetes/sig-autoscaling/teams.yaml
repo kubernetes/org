@@ -5,10 +5,10 @@ teams:
     - DirectXMan12
     - mwielgus
     members:
-    - bskiba
     - aleksandra-malinowska
-    - MaciekPytel
+    - bskiba
     - davidopp
+    - MaciekPytel
     privacy: closed
   sig-autoscaling-bugs:
     description: ""
@@ -16,10 +16,10 @@ teams:
     - DirectXMan12
     - mwielgus
     members:
-    - bskiba
     - aleksandra-malinowska
-    - MaciekPytel
+    - bskiba
     - davidopp
+    - MaciekPytel
     privacy: closed
   sig-autoscaling-feature-requests:
     description: ""
@@ -27,10 +27,10 @@ teams:
     - DirectXMan12
     - mwielgus
     members:
-    - bskiba
     - aleksandra-malinowska
-    - MaciekPytel
+    - bskiba
     - davidopp
+    - MaciekPytel
     privacy: closed
   sig-autoscaling-misc:
     description: ""
@@ -38,10 +38,10 @@ teams:
     - DirectXMan12
     - mwielgus
     members:
-    - bskiba
     - aleksandra-malinowska
-    - MaciekPytel
+    - bskiba
     - davidopp
+    - MaciekPytel
     privacy: closed
   sig-autoscaling-pr-reviews:
     description: ""
@@ -49,21 +49,21 @@ teams:
     - DirectXMan12
     - mwielgus
     members:
-    - bskiba
     - aleksandra-malinowska
-    - MaciekPytel
+    - bskiba
     - davidopp
+    - MaciekPytel
     privacy: closed
   sig-autoscaling-proposals:
     description: ""
     maintainers:
     - mwielgus
     members:
-    - DirectXMan12
-    - bskiba
     - aleksandra-malinowska
-    - MaciekPytel
+    - bskiba
     - davidopp
+    - DirectXMan12
+    - MaciekPytel
     privacy: closed
   sig-autoscaling-test-failures:
     description: ""
@@ -71,8 +71,8 @@ teams:
     - DirectXMan12
     - mwielgus
     members:
-    - bskiba
     - aleksandra-malinowska
-    - MaciekPytel
+    - bskiba
     - davidopp
+    - MaciekPytel
     privacy: closed

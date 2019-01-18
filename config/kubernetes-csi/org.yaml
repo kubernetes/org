@@ -153,8 +153,8 @@ teams:
     - childsb
     - saad-ali
     members:
-    - lpabon
     - davidz627
+    - lpabon
     privacy: closed
   csi-test-maintainers:
     description: write access to csi-test
@@ -169,14 +169,14 @@ teams:
     maintainers:
     - lpabon
     members:
-    - vladimirvivien
-    - childsb
-    - jsafrane
-    - davidz627
-    - rootfs
     - chakri-nelluri
+    - childsb
+    - davidz627
+    - jsafrane
+    - rootfs
     - saad-ali
     - sbezverk
+    - vladimirvivien
     privacy: closed
   docs-admins:
     description: admin access to docs
@@ -198,8 +198,8 @@ teams:
     - childsb
     - saad-ali
     members:
-    - lpabon
     - davidz627
+    - lpabon
     privacy: closed
   driver-registrar-maintainers:
     description: write access to driver-registrar
@@ -213,8 +213,8 @@ teams:
     - childsb
     - saad-ali
     members:
-    - lpabon
     - chakri-nelluri
+    - lpabon
     privacy: closed
   drivers-maintainers:
     description: write access to drivers
@@ -242,8 +242,8 @@ teams:
     - childsb
     - saad-ali
     members:
-    - lpabon
     - davidz627
+    - lpabon
     privacy: closed
   external-provisioner-maintainers:
     description: write access to external-provisioner

@@ -5,8 +5,8 @@ teams:
     - michmike
     members:
     - alexbrand
-    - feiskyer
     - asultan001
+    - feiskyer
     - jbhurat
     privacy: closed
   sig-windows-feature-requests:
@@ -15,8 +15,8 @@ teams:
     - michmike
     members:
     - alexbrand
-    - feiskyer
     - asultan001
+    - feiskyer
     - jbhurat
     privacy: closed
   sig-windows-misc:
@@ -24,13 +24,13 @@ teams:
     maintainers:
     - michmike
     members:
-    - sarahnovotny
-    - ikester
     - alexbrand
-    - feiskyer
-    - pires
     - andyzhangx
-    - csrwng
     - asultan001
+    - csrwng
+    - feiskyer
+    - ikester
     - jbhurat
+    - pires
+    - sarahnovotny
     privacy: closed

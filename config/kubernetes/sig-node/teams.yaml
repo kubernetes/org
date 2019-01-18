@@ -3,97 +3,97 @@ teams:
     description: API Reviews for Kubernetes Node Special-Interest-Group
     members:
     - ConnorDoyle
+    - davidopp
+    - dchen1107
+    - derekwaynecarr
     - feiskyer
     - resouer
-    - derekwaynecarr
-    - vishh
-    - dchen1107
-    - davidopp
-    - yujuhong
-    - vikaschoudhary16
     - tallclair
+    - vikaschoudhary16
+    - vishh
+    - yujuhong
     privacy: closed
   sig-node-bugs:
     description: Bugs for Kubernetes Node Special-Interest-Group
     members:
     - ConnorDoyle
+    - dchen1107
+    - derekwaynecarr
     - feiskyer
     - resouer
-    - derekwaynecarr
-    - vishh
-    - dchen1107
-    - yujuhong
-    - vikaschoudhary16
-    - yguo0905
     - tallclair
+    - vikaschoudhary16
+    - vishh
+    - yguo0905
+    - yujuhong
     privacy: closed
   sig-node-feature-requests:
     description: Feature Requests for Kubernetes Node Special-Interest-Group
     members:
     - ConnorDoyle
-    - feiskyer
-    - smarterclayton
-    - resouer
-    - Random-Liu
-    - derekwaynecarr
-    - vishh
-    - dchen1107
     - davidopp
-    - yujuhong
-    - vikaschoudhary16
-    - yguo0905
+    - dchen1107
+    - derekwaynecarr
+    - feiskyer
+    - Random-Liu
+    - resouer
+    - smarterclayton
     - tallclair
+    - vikaschoudhary16
+    - vishh
+    - yguo0905
+    - yujuhong
     privacy: closed
   sig-node-pr-reviews:
     description: PR Reviews for Kubernetes Node Special-Interest-Group
     members:
     - ConnorDoyle
+    - dchen1107
+    - derekwaynecarr
     - feiskyer
     - resouer
-    - tmrts
-    - derekwaynecarr
-    - vishh
-    - dchen1107
-    - yujuhong
-    - vikaschoudhary16
     - tallclair
+    - tmrts
+    - vikaschoudhary16
+    - vishh
+    - yujuhong
     privacy: closed
   sig-node-proposals:
     description: Proposals for Kubernetes Node Special-Interest-Group
     members:
     - ConnorDoyle
+    - dashpole
+    - davidopp
+    - dchen1107
+    - derekwaynecarr
     - feiskyer
     - mtaufen
-    - smarterclayton
-    - resouer
-    - dashpole
-    - timstclair
     - Random-Liu
-    - derekwaynecarr
-    - vishh
-    - dchen1107
-    - davidopp
-    - yujuhong
-    - vikaschoudhary16
+    - resouer
+    - smarterclayton
     - tallclair
+    - timstclair
+    - vikaschoudhary16
+    - vishh
+    - yujuhong
     privacy: closed
   sig-node-test-failures:
     description: Test Failures for Kubernetes Node Special-Interest-Group
     members:
     - ConnorDoyle
-    - sjenning
+    - dashpole
+    - dchen1107
+    - derekwaynecarr
+    - euank
     - feiskyer
     - mtaufen
-    - resouer
-    - euank
-    - dashpole
-    - timstclair
     - Random-Liu
-    - derekwaynecarr
-    - vishh
-    - dchen1107
-    - yujuhong
-    - vikaschoudhary16
-    - yguo0905
+    - resouer
+    - sjenning
     - tallclair
+    - timstclair
+    - vikaschoudhary16
+    - vishh
+    - yguo0905
+    - yujuhong
     privacy: closed

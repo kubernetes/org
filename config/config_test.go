@@ -99,8 +99,7 @@ func normalize(s sets.String) sets.String {
 
 // testTeamMembers ensures that a user is not a maintainer and member at the same time,
 // there are no duplicate names in the list and all users are org members.
-// TODO: also ensure that the list is sorted.
-func testTeamMembers(teams map[string]org.Team, admins sets.String, orgMembers sets.String) []error {
+func testTeamMembers(teams map[string]org.Team, admins sets.String, orgMembers sets.String, orgName string) []error {
 	var errs []error
 	for teamName, team := range teams {
 		teamMaintainers := sets.NewString(team.Maintainers...)
@@ -111,32 +110,40 @@ func testTeamMembers(teams map[string]org.Team, admins sets.String, orgMembers s
 
 		// check for users in both maintainers and members
 		if both := teamMaintainers.Intersection(teamMembers); len(both) > 0 {
-			errs = append(errs, fmt.Errorf("The team %s has users in both maintainer admin and member roles: %s", teamName, strings.Join(both.List(), ", ")))
+			errs = append(errs, fmt.Errorf("The team %s in org %s has users in both maintainer admin and member roles: %s", teamName, orgName, strings.Join(both.List(), ", ")))
 		}
 
 		// check for duplicates
 		if err := testDuplicates(teamMaintainers); err != nil {
-			errs = append(errs, fmt.Errorf("The team %s has duplicate maintainers: %v", teamName, err))
+			errs = append(errs, fmt.Errorf("The team %s in org %s has duplicate maintainers: %v", teamName, orgName, err))
 		}
 		if err := testDuplicates(teamMembers); err != nil {
-			errs = append(errs, fmt.Errorf("The team %s has duplicate members: %v", teamMembers, err))
+			errs = append(errs, fmt.Errorf("The team %s in org %s has duplicate members: %v", teamMembers, orgName, err))
 		}
 
 		// check if all are org members
 		if missing := teamMaintainers.Difference(orgMembers); len(missing) > 0 {
-			errs = append(errs, fmt.Errorf("The following maintainers of team %s are not org members: %s", teamName, strings.Join(missing.List(), ", ")))
+			errs = append(errs, fmt.Errorf("The following maintainers of team %s are not %s org members: %s", teamName, orgName, strings.Join(missing.List(), ", ")))
 		}
 		if missing := teamMembers.Difference(orgMembers); len(missing) > 0 {
-			errs = append(errs, fmt.Errorf("The following members of team %s are not org members: %s", teamName, strings.Join(missing.List(), ", ")))
+			errs = append(errs, fmt.Errorf("The following members of team %s are not %s org members: %s", teamName, orgName, strings.Join(missing.List(), ", ")))
 		}
 
 		// check if admins are a regular member of team
 		if adminTeamMembers := teamMembers.Intersection(admins); len(adminTeamMembers) > 0 {
-			errs = append(errs, fmt.Errorf("The team %s has org admins listed as members; these users should be in the maintainers list instead, and cannot be on the members list: %s", teamName, strings.Join(adminTeamMembers.List(), ", ")))
+			errs = append(errs, fmt.Errorf("The team %s in org %s has org admins listed as members; these users should be in the maintainers list instead, and cannot be on the members list: %s", teamName, orgName, strings.Join(adminTeamMembers.List(), ", ")))
+		}
+
+		// check if lists are sorted
+		if !isSorted(team.Maintainers) {
+			errs = append(errs, fmt.Errorf("The team %s in org %s has an unsorted list of maintainers", teamName, orgName))
+		}
+		if !isSorted(team.Members) {
+			errs = append(errs, fmt.Errorf("The team %s in org %s has an unsorted list of members", teamName, orgName))
 		}
 
 		if team.Children != nil {
-			errs = append(errs, testTeamMembers(team.Children, admins, orgMembers)...)
+			errs = append(errs, testTeamMembers(team.Children, admins, orgMembers, orgName)...)
 		}
 	}
 	return errs
@@ -236,7 +243,7 @@ func TestAllOrgs(t *testing.T) {
 			t.Errorf("members for %s org are unsorted", *org.Name)
 		}
 
-		if errs := testTeamMembers(org.Teams, admins, allOrgMembers); errs != nil {
+		if errs := testTeamMembers(org.Teams, admins, allOrgMembers, *org.Name); errs != nil {
 			for _, err := range errs {
 				t.Error(err)
 			}

@@ -2,75 +2,75 @@ teams:
   sig-cloud-provider:
     description: Parent Team for SIG Cloud Provider
     maintainers:
-    - jagosan
-    - hogepodge
-    - calebamiles
     - andrewsykim
+    - calebamiles
+    - hogepodge
+    - jagosan
     members:
-    - mcrute
-    - justaugustus
     - cheftako
-    - nckturner
     - jhorwit2
-    - yastij
+    - justaugustus
+    - mcrute
+    - nckturner
     - Rajakavitha1
+    - yastij
     privacy: closed
     teams:
       cloud-provider-sample-admins:
         description: ""
         maintainers:
-        - mcrute
+        - andrewsykim
         - calebamiles
         - cheftako
-        - andrewsykim
+        - mcrute
         privacy: closed
       cloud-provider-sample-maintainers:
         description: ""
         maintainers:
-        - mcrute
+        - andrewsykim
         - calebamiles
         - cheftako
-        - andrewsykim
+        - mcrute
         privacy: closed
       sig-cloud-provider-api-reviews:
         description: ""
         maintainers:
-        - jagosan
-        - hogepodge
-        - calebamiles
         - andrewsykim
+        - calebamiles
+        - hogepodge
+        - jagosan
         privacy: closed
       sig-cloud-provider-bugs:
         description: ""
         maintainers:
-        - jagosan
-        - hogepodge
-        - calebamiles
         - andrewsykim
+        - calebamiles
+        - hogepodge
+        - jagosan
         privacy: closed
       sig-cloud-provider-feature-requests:
         description: ""
         maintainers:
-        - jagosan
-        - hogepodge
-        - calebamiles
         - andrewsykim
+        - calebamiles
+        - hogepodge
+        - jagosan
         privacy: closed
       sig-cloud-provider-misc:
         description: ""
         maintainers:
-        - jagosan
-        - hogepodge
-        - calebamiles
         - andrewsykim
+        - calebamiles
+        - hogepodge
+        - jagosan
         privacy: closed
       sig-cloud-provider-pr-reviews:
         description: ""
         maintainers:
-        - jagosan
-        - hogepodge
-        - calebamiles
         - andrewsykim
+        - calebamiles
+        - hogepodge
+        - jagosan
         members:
         - nckturner
         - Rajakavitha1
@@ -78,22 +78,22 @@ teams:
       sig-cloud-provider-proposals:
         description: ""
         maintainers:
-        - jagosan
-        - hogepodge
-        - calebamiles
         - andrewsykim
+        - calebamiles
+        - hogepodge
+        - jagosan
         privacy: closed
       sig-cloud-provider-test-failures:
         description: ""
         maintainers:
-        - jagosan
-        - hogepodge
-        - calebamiles
         - andrewsykim
+        - calebamiles
+        - hogepodge
+        - jagosan
         privacy: closed
   sig-cloud-provider-admins:
     description: ""
     maintainers:
-    - calebamiles
     - andrewsykim
+    - calebamiles
     privacy: closed

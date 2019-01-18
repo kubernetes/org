@@ -2,36 +2,36 @@ teams:
   sig-testing:
     description: sig-testing
     maintainers:
+    - cblecker
+    - fejta
+    - rmmh
     - spiffxp
     - timothysc
-    - rmmh
-    - fejta
-    - cblecker
     members:
+    - alejandroEsc
+    - BenTheElder
+    - bowei
+    - cjwagner
+    - ixdy
+    - jayunit100
+    - jdef
+    - justaugustus
     - justinsb
     - marun
-    - pigmej
-    - justaugustus
-    - jayunit100
-    - bowei
-    - BenTheElder
-    - jdef
-    - cjwagner
-    - stevekuznetsov
-    - ixdy
     - mkumatag
-    - xiangpengzhao
+    - pigmej
     - pskrzyns
-    - alejandroEsc
     - qhuynh96
+    - stevekuznetsov
+    - xiangpengzhao
     privacy: closed
   sig-testing-pr-reviews:
     description: ""
     maintainers:
-    - spiffxp
-    - rmmh
     - fejta
     - ixdy
+    - rmmh
+    - spiffxp
     members:
     - BenTheElder
     - cjwagner

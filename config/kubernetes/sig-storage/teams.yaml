@@ -5,30 +5,30 @@ teams:
     - saad-ali
     members:
     - childsb
-    - jsafrane
-    - wattsteve
-    - thockin
-    - rootfs
     - davidopp
+    - jsafrane
     - matchstick
     - msau42
+    - rootfs
+    - thockin
+    - wattsteve
     privacy: closed
   sig-storage-bugs:
     description: Bugs for Kubernetes Storage Special-Interest-Group
     maintainers:
     - saad-ali
     members:
-    - gnufied
     - childsb
-    - jsafrane
-    - jeffvance
-    - wattsteve
+    - gnufied
     - ianchakeres
-    - NickrenREN
-    - rootfs
+    - jeffvance
     - jingxu97
+    - jsafrane
     - matchstick
     - msau42
+    - NickrenREN
+    - rootfs
+    - wattsteve
     privacy: closed
   sig-storage-feature-requests:
     description: Feature Requests for Kubernetes Storage Special-Interest-Group
@@ -36,18 +36,18 @@ teams:
     - saad-ali
     members:
     - childsb
-    - smarterclayton
-    - jsafrane
-    - mdelio
-    - wattsteve
+    - davidopp
     - ianchakeres
-    - thockin
+    - jingxu97
+    - jsafrane
+    - matchstick
+    - mdelio
+    - msau42
     - NickrenREN
     - rootfs
-    - davidopp
-    - jingxu97
-    - matchstick
-    - msau42
+    - smarterclayton
+    - thockin
+    - wattsteve
     privacy: closed
   sig-storage-misc:
     description: Miscellaneous Discussions for Kubernetes Storage Special-Interest-Group.
@@ -57,21 +57,21 @@ teams:
     maintainers:
     - saad-ali
     members:
-    - gnufied
     - childsb
-    - smarterclayton
-    - jsafrane
-    - mdelio
-    - jeffvance
-    - wattsteve
+    - davidopp
+    - gnufied
     - ianchakeres
-    - thockin
+    - jeffvance
+    - jingxu97
+    - jsafrane
+    - matchstick
+    - mdelio
+    - msau42
     - NickrenREN
     - rootfs
-    - davidopp
-    - jingxu97
-    - matchstick
-    - msau42
+    - smarterclayton
+    - thockin
+    - wattsteve
     privacy: closed
   sig-storage-pr-reviews:
     description: PR Reviews for Kubernetes Storage Special-Interest-Group
@@ -80,9 +80,9 @@ teams:
     members:
     - childsb
     - jsafrane
-    - rootfs
     - matchstick
     - msau42
+    - rootfs
     privacy: closed
   sig-storage-proposals:
     description: Proposals for Kubernetes Storage Special-Interest-Group
@@ -90,17 +90,17 @@ teams:
     - saad-ali
     members:
     - childsb
-    - smarterclayton
-    - jsafrane
-    - mdelio
-    - wattsteve
-    - thockin
-    - rootfs
-    - vishh
     - davidopp
     - jingxu97
+    - jsafrane
     - matchstick
+    - mdelio
     - msau42
+    - rootfs
+    - smarterclayton
+    - thockin
+    - vishh
+    - wattsteve
     privacy: closed
   sig-storage-test-failures:
     description: Test Failures for Kubernetes Storage Special-Interest-Group
@@ -108,11 +108,11 @@ teams:
     - saad-ali
     members:
     - childsb
-    - jsafrane
-    - jeffvance
     - ianchakeres
-    - rootfs
+    - jeffvance
     - jingxu97
+    - jsafrane
     - matchstick
     - msau42
+    - rootfs
     privacy: closed

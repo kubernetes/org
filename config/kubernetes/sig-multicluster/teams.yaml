@@ -4,111 +4,111 @@ teams:
     maintainers:
     - csbell
     members:
-    - madhusudancs
-    - jianhuiz
     - davidopp
-    - shashidharatd
+    - jianhuiz
+    - madhusudancs
+    - mwielgus
     - nikhiljindal
     - quinton-hoole
-    - mwielgus
     - quinton-hoole-2
+    - shashidharatd
     privacy: closed
   sig-multicluster-bugs:
     description: ""
     maintainers:
+    - csbell
     - nikhiljindal
     - quinton-hoole
-    - csbell
     members:
+    - irfanurrehman
+    - jianhuiz
     - madhusudancs
     - marun
-    - jianhuiz
-    - shashidharatd
-    - irfanurrehman
     - mwielgus
     - quinton-hoole-2
+    - shashidharatd
     privacy: closed
   sig-multicluster-feature-requests:
     description: ""
     maintainers:
     - csbell
     members:
-    - madhusudancs
-    - smarterclayton
-    - jianhuiz
-    - derekwaynecarr
     - davidopp
-    - shashidharatd
+    - derekwaynecarr
+    - jianhuiz
+    - madhusudancs
+    - mwielgus
     - nikhiljindal
     - quinton-hoole
-    - mwielgus
     - quinton-hoole-2
+    - shashidharatd
+    - smarterclayton
     privacy: closed
   sig-multicluster-misc:
     description: 'SIG for multi cluster: https://groups.google.com/forum/#!forum/kubernetes-sig-multicluster'
     maintainers:
+    - csbell
     - madhusudancs
     - nikhiljindal
     - quinton-hoole
-    - csbell
     members:
-    - marun
-    - liggitt
-    - smarterclayton
-    - jianhuiz
-    - derekwaynecarr
     - alfred-huangjian
     - davidopp
-    - shashidharatd
-    - irfanurrehman
-    - mwielgus
+    - derekwaynecarr
     - huangyuqi
+    - irfanurrehman
+    - jianhuiz
+    - liggitt
+    - marun
+    - mwielgus
     - quinton-hoole-2
+    - shashidharatd
+    - smarterclayton
     privacy: closed
   sig-multicluster-pr-reviews:
     description: ""
     maintainers:
     - csbell
     members:
+    - jianhuiz
     - madhusudancs
     - marun
-    - jianhuiz
-    - shashidharatd
+    - mwielgus
     - nikhiljindal
     - quinton-hoole
-    - mwielgus
     - quinton-hoole-2
+    - shashidharatd
+    privacy: closed
+  sig-multicluster-proposals:
+    description: ""
+    maintainers:
+    - csbell
+    - quinton-hoole
+    - quinton-hoole-2
+    members:
+    - davidopp
+    - derekwaynecarr
+    - jianhuiz
+    - liggitt
+    - madhusudancs
+    - marun
+    - mwielgus
+    - nikhiljindal
+    - shashidharatd
+    - smarterclayton
+    previously:
+    - sig-mutlicluster-proposals
     privacy: closed
   sig-multicluster-test-failures:
     description: ""
     maintainers:
     - csbell
     members:
-    - madhusudancs
-    - jianhuiz
-    - shashidharatd
     - irfanurrehman
-    - nikhiljindal
-    - quinton-hoole
-    - quinton-hoole-2
-    privacy: closed
-  sig-multicluster-proposals:
-    description: ""
-    maintainers:
-    - quinton-hoole
-    - csbell
-    - quinton-hoole-2
-    members:
-    - madhusudancs
-    - marun
-    - liggitt
-    - smarterclayton
     - jianhuiz
-    - derekwaynecarr
-    - davidopp
-    - shashidharatd
+    - madhusudancs
     - nikhiljindal
-    - mwielgus
+    - quinton-hoole
+    - quinton-hoole-2
+    - shashidharatd
     privacy: closed
-    previously:
-      - sig-mutlicluster-proposals

@@ -182,20 +182,20 @@ teams:
   architecture-tracking-admins:
     description: admin permission for architecture-tracking
     maintainers:
-    - jdumars
     - bgrant0607
+    - jdumars
     privacy: closed
   architecture-tracking-maintainers:
     description: write permission for architecture-tracking
     maintainers:
-    - spiffxp
-    - jdumars
     - bgrant0607
+    - jdumars
+    - spiffxp
     members:
     - dims
+    - liggitt
     - mattfarina
     - timothysc
-    - liggitt
     privacy: closed
   aws-ebs-csi-driver-admins:
     description: ""
@@ -228,8 +228,8 @@ teams:
   bots:
     description: Bot Service Accounts in the Kubernetes-SIGs org
     maintainers:
-    - thelinuxfoundation
     - k8s-ci-robot
+    - thelinuxfoundation
     privacy: closed
   cluster-api-admins:
     description: ""
@@ -245,8 +245,8 @@ teams:
     maintainers:
     - timothysc
     members:
-    - detiber
     - davidewatson
+    - detiber
     privacy: closed
   cluster-api-provider-aws-admins:
     description: admin access to cluster-api-provider-aws
@@ -259,9 +259,9 @@ teams:
     - detiber
     members:
     - chuckha
-    - timothysc
-    - ingvagabund
     - davidewatson
+    - ingvagabund
+    - timothysc
     privacy: closed
   cluster-api-provider-azure-admins:
     description: ""
@@ -276,17 +276,17 @@ teams:
   cluster-api-provider-digitalocean-admins:
     description: ""
     maintainers:
-    - timothysc
     - roberthbailey
+    - timothysc
     - xmudrii
     privacy: closed
   cluster-api-provider-digitalocean-maintainers:
     description: ""
     maintainers:
-    - timothysc
     - alvaroaleman
-    - roberthbailey
     - nikhita
+    - roberthbailey
+    - timothysc
     - xmudrii
     privacy: closed
   cluster-api-provider-gcp-admins:
@@ -353,25 +353,25 @@ teams:
   controller-runtime-contributors:
     description: ""
     members:
-    - pwittrock
-    - lichuqiang
     - fanzhangio
+    - lichuqiang
+    - pwittrock
     privacy: closed
   controller-runtime-maintainers:
     description: ""
     members:
-    - mengqiy
-    - seans3
-    - pwittrock
     - Liujingfang1
+    - mengqiy
+    - pwittrock
+    - seans3
     privacy: closed
   controller-tools-admins:
     description: ""
     members:
     - DirectXMan12
     - droot
-    - seans3
     - pwittrock
+    - seans3
     privacy: closed
   controller-tools-contributors:
     description: ""
@@ -384,8 +384,8 @@ teams:
     members:
     - droot
     - mengqiy
-    - seans3
     - pwittrock
+    - seans3
     privacy: closed
   cri-o-admins:
     description: admin access to cri-o
@@ -405,8 +405,8 @@ teams:
   cri-tools-admins:
     description: admin access to cri-tools
     maintainers:
-    - mrunalp
     - feiskyer
+    - mrunalp
     members:
     - Random-Liu
     - yujuhong
@@ -414,8 +414,8 @@ teams:
   cri-tools-maintainers:
     description: write access to cri-tools
     maintainers:
-    - mrunalp
     - feiskyer
+    - mrunalp
     members:
     - Random-Liu
     - yujuhong
@@ -425,11 +425,11 @@ teams:
     maintainers:
     - spiffxp
     members:
-    - pmorie
-    - marun
     - font
-    - shashidharatd
     - irfanurrehman
+    - marun
+    - pmorie
+    - shashidharatd
     privacy: closed
   federation-v2-maintainers:
     description: write access to the fededation-v2 repo
@@ -437,8 +437,8 @@ teams:
     - marun
     members:
     - font
-    - shashidharatd
     - irfanurrehman
+    - shashidharatd
     privacy: closed
   federation-wg:
     description: Individuals who are part of sig-multicluster and working as federation
@@ -446,26 +446,26 @@ teams:
     maintainers:
     - irfanurrehman
     members:
-    - pmorie
-    - marun
     - font
     - gyliu513
-    - shashidharatd
+    - marun
     - onyiny-ang
+    - pmorie
     - quinton-hoole
     - quinton-hoole-2
+    - shashidharatd
     privacy: closed
   gcp-filestore-csi-driver-admins:
     description: ""
     maintainers:
-    - saad-ali
     - msau42
+    - saad-ali
     privacy: closed
   gcp-filestore-csi-driver-maintainers:
     description: ""
     maintainers:
-    - saad-ali
     - msau42
+    - saad-ali
     privacy: closed
   kind-admins:
     description: ""
@@ -484,20 +484,20 @@ teams:
   kube-batch-admins:
     description: admin access to kube-batch
     maintainers:
-    - spiffxp
     - calebamiles
+    - spiffxp
     members:
-    - timothysc
     - k82cn
+    - timothysc
     privacy: closed
   kube-batch-maintainers:
     description: write access to kube-batch
     maintainers:
-    - spiffxp
     - calebamiles
+    - spiffxp
     members:
-    - timothysc
     - k82cn
+    - timothysc
     privacy: closed
   kubebuilder-admins:
     description: Administrators of the repo
@@ -506,63 +506,63 @@ teams:
     members:
     - DirectXMan12
     - droot
-    - pmorie
+    - Liujingfang1
     - mengqiy
     - monopole
+    - pmorie
     - pwittrock
-    - Liujingfang1
     privacy: closed
   kubebuilder-contributors:
     description: ""
     members:
     - DirectXMan12
-    - pwittrock
-    - lichuqiang
     - fanzhangio
+    - lichuqiang
+    - pwittrock
     privacy: closed
   kubebuilder-maintainers:
     description: Maintainers of the project
     members:
+    - apelisse
     - DirectXMan12
     - droot
-    - pmorie
-    - apelisse
     - mengqiy
     - monopole
-    - seans3
+    - pmorie
     - pwittrock
+    - seans3
     privacy: closed
   kubernetes/sig-api-machinery:
     description: Parent team for all SIG API Machinery subteams (approvers, reviewers,
       admins)
     members:
-    - lavalamp
     - deads2k
+    - lavalamp
     privacy: closed
     teams:
       kubernetes/sig-api-machinery-admins:
         description: Admin rights over all SIG API Machinery managed repositories
         members:
-        - lavalamp
         - deads2k
+        - lavalamp
         privacy: closed
       kubernetes/sig-api-machinery-approvers:
         description: write access to all SIG API Machinery managed repositories
         members:
-        - lavalamp
         - deads2k
+        - lavalamp
         privacy: closed
       kubernetes/sig-api-machinery-reviewers:
         description: read access to all repositories owned by SIG API Machinery
         members:
-        - lavalamp
         - deads2k
+        - lavalamp
         privacy: closed
   kubernetes/sig-apps:
     description: Parent team for all SIG Apps subteams (approvers, reviewers, admins)
     members:
-    - prydonius
     - kow3ns
+    - prydonius
     privacy: closed
     teams:
       kubernetes/sig-apps-admins:
@@ -595,9 +595,9 @@ teams:
     - Atoms
     - chadswen
     - mattymo
-    - woopstar
     - mirwan
     - riverzhang
+    - woopstar
     privacy: closed
   kustomize-admins:
     description: ""
@@ -640,8 +640,8 @@ teams:
   node-feature-discovery-maintainers:
     description: ""
     members:
-    - marquiz
     - balajismaniam
+    - marquiz
     privacy: closed
   sig-storage-lib-external-provisioner-admins:
     description: admin access to sig-storage-lib-external-provisioner
@@ -663,27 +663,27 @@ teams:
     description: ""
     maintainers:
     - jsafrane
-    - saad-ali
     - msau42
+    - saad-ali
     privacy: closed
   sig-storage-local-static-provisioner-maintainers:
     description: ""
     maintainers:
     - jsafrane
-    - saad-ali
     - msau42
+    - saad-ali
     privacy: closed
   structured-merge-diff-admins:
     description: admin access to structured-merge-diff
     maintainers:
-    - lavalamp
     - apelisse
+    - lavalamp
     privacy: closed
   structured-merge-diff-maintainers:
     description: write access to structured-merge-diff
     maintainers:
-    - lavalamp
     - apelisse
+    - lavalamp
     members:
     - jennybuckley
     privacy: closed
@@ -704,16 +704,16 @@ teams:
   website-metadata-admins:
     description: ""
     maintainers:
-    - zacharysarah
     - Bradamant3
+    - zacharysarah
     members:
     - chenopis
     privacy: closed
   website-metadata-maintainers:
     description: ""
     maintainers:
-    - zacharysarah
     - Bradamant3
+    - zacharysarah
     members:
     - chenopis
     privacy: closed
@@ -736,16 +736,16 @@ teams:
   yaml-admins:
     description: ""
     maintainers:
+    - deads2k
     - dims
     - lavalamp
     - liggitt
-    - deads2k
     privacy: closed
   yaml-maintainers:
     description: ""
     maintainers:
+    - deads2k
     - dims
     - lavalamp
     - liggitt
-    - deads2k
     privacy: closed

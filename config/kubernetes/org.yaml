@@ -2771,6 +2771,7 @@ teams:
     - loburm
     - fgrzadkowski
     - danielqsj
+    - mxinden
     privacy: closed
   sig-instrumentation-bugs:
     description: ""
@@ -2786,6 +2787,7 @@ teams:
     - loburm
     - fgrzadkowski
     - danielqsj
+    - mxinden
     privacy: closed
   sig-instrumentation-feature-requests:
     description: ""
@@ -2800,6 +2802,7 @@ teams:
     - loburm
     - fgrzadkowski
     - danielqsj
+    - mxinden
     privacy: closed
   sig-instrumentation-misc:
     description: ""
@@ -2814,6 +2817,7 @@ teams:
     - loburm
     - fgrzadkowski
     - danielqsj
+    - mxinden
     privacy: closed
   sig-instrumentation-pr-reviews:
     description: ""
@@ -2829,6 +2833,7 @@ teams:
     - loburm
     - fgrzadkowski
     - danielqsj
+    - mxinden
     privacy: closed
   sig-instrumentation-proposals:
     description: ""
@@ -2843,6 +2848,7 @@ teams:
     - loburm
     - fgrzadkowski
     - danielqsj
+    - mxinden
     privacy: closed
   sig-instrumentation-test-failures:
     description: ""
@@ -2857,6 +2863,7 @@ teams:
     - loburm
     - fgrzadkowski
     - danielqsj
+    - mxinden
     privacy: closed
   sig-multicluster-api-reviews:
     description: ""

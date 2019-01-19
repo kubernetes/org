@@ -33,7 +33,7 @@ teams:
     - dims # Release
     - directxman12 # Autoscaling
     - dklyle # OpenStack
-    - dstrebel # Azure
+    - dstrebel # Azure / 1.14 Release Notes
     - duglin # Service Catalog
     - enj # Auth
     - fabriziopandini # Cluster Lifecycle

@@ -11,6 +11,7 @@ teams:
     - tpepper # Release
     members:
     - abgworrall # GCP
+    - amwat # 1.14 Test Infra
     - andrewsykim # Cloud Provider
     - BenTheElder # 1.14 RT Lead Shadow
     - bgrant0607 # Architecture
@@ -32,7 +33,7 @@ teams:
     - dims # Release
     - directxman12 # Autoscaling
     - dklyle # OpenStack
-    - dstrebel # Azure
+    - dstrebel # Azure / 1.14 Release Notes
     - duglin # Service Catalog
     - enj # Auth
     - fabriziopandini # Cluster Lifecycle
@@ -40,9 +41,11 @@ teams:
     - floreks # UI
     - foxish # Big Data
     - frapposelli # VMware
+    - hoegaarden # 1.14 Branch Manager
     - hogepodge # Cloud Provider / OpenStack
     - jagosan # Cloud Provider
     - jdumars # Architecture
+    - jimangel # 1.14 Docs
     - justinsb # AWS
     - k82cn # Scheduling
     - khenidak # Azure
@@ -52,12 +55,15 @@ teams:
     - liggitt # Release
     - liyinan926 # Big Data
     - luxas # Cluster Lifecycle
+    - mariantalla # 1.14 CI Signal
     - marpaia # 1.14 RT Lead Shadow
     - mattfarina # Apps / Architecture
     - michmike # Windows
     - mikedanese # Auth
     - mwielgus # Autoscaling
     - nikhita # ContribEx
+    - nikopen # 1.14 Bug Triage
+    - nwoods3 # 1.14 Communications
     - parispittman # ContribEx
     - patricklang # Windows
     - phillels # ContribEx
@@ -86,14 +92,17 @@ teams:
     maintainers:
     - calebamiles
     - justaugustus
+    - spiffxp # 1.14 RT Lead
     - tpepper # 1.13 PRM
     members:
     - aleksandra-malinowska # 1.13 PRM
+    - BenTheElder # 1.14 RT Lead Shadow
     - feiskyer # 1.12 PRM
     - foxish # 1.11 PRM
     - hoegaarden # 1.14 Branch Manager
     - k8s-release-robot
     - maciekpytel # 1.10 PRM
+    - marpaia # 1.14 RT Lead Shadow
     privacy: closed
   sig-release:
     description: SIG Release Members

@@ -45,6 +45,7 @@ teams:
     - hogepodge # Cloud Provider / OpenStack
     - jagosan # Cloud Provider
     - jdumars # Architecture
+    - jimangel # 1.14 Docs
     - justinsb # AWS
     - k82cn # Scheduling
     - khenidak # Azure

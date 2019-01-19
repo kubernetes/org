@@ -11,8 +11,8 @@ teams:
     - tpepper # Release
     members:
     - abgworrall # GCP
-    - andrewsykim # Cloud Provider
     - amwat # 1.14 Test Infra
+    - andrewsykim # Cloud Provider
     - BenTheElder # 1.14 RT Lead Shadow
     - bgrant0607 # Architecture
     - bradamant3 # Docs
@@ -55,8 +55,8 @@ teams:
     - liggitt # Release
     - liyinan926 # Big Data
     - luxas # Cluster Lifecycle
-    - marpaia # 1.14 RT Lead Shadow
     - mariantalla # 1.14 CI Signal
+    - marpaia # 1.14 RT Lead Shadow
     - mattfarina # Apps / Architecture
     - michmike # Windows
     - mikedanese # Auth
@@ -92,8 +92,8 @@ teams:
     maintainers:
     - calebamiles
     - justaugustus
-    - tpepper # 1.13 PRM
     - spiffxp # 1.14 RT Lead
+    - tpepper # 1.13 PRM
     members:
     - aleksandra-malinowska # 1.13 PRM
     - feiskyer # 1.12 PRM

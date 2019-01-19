@@ -41,6 +41,7 @@ teams:
     - floreks # UI
     - foxish # Big Data
     - frapposelli # VMware
+    - hoegaarden # 1.14 Branch Manager
     - hogepodge # Cloud Provider / OpenStack
     - jagosan # Cloud Provider
     - jdumars # Architecture

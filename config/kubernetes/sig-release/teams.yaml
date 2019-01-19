@@ -96,11 +96,13 @@ teams:
     - tpepper # 1.13 PRM
     members:
     - aleksandra-malinowska # 1.13 PRM
+    - BenTheElder # 1.14 RT Lead Shadow
     - feiskyer # 1.12 PRM
     - foxish # 1.11 PRM
     - hoegaarden # 1.14 Branch Manager
     - k8s-release-robot
     - maciekpytel # 1.10 PRM
+    - marpaia # 1.14 RT Lead Shadow
     privacy: closed
   sig-release:
     description: SIG Release Members

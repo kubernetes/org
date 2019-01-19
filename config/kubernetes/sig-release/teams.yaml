@@ -12,6 +12,7 @@ teams:
     members:
     - abgworrall # GCP
     - andrewsykim # Cloud Provider
+    - amwat # 1.14 Test Infra
     - BenTheElder # 1.14 RT Lead Shadow
     - bgrant0607 # Architecture
     - bradamant3 # Docs

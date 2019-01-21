@@ -264,16 +264,6 @@ teams:
     - ingvagabund
     - timothysc
     privacy: closed
-  cluster-api-provider-azure-admins:
-    description: ""
-    maintainers:
-    - justaugustus
-    privacy: closed
-  cluster-api-provider-azure-maintainers:
-    description: ""
-    maintainers:
-    - justaugustus
-    privacy: closed
   cluster-api-provider-digitalocean-admins:
     description: ""
     maintainers:

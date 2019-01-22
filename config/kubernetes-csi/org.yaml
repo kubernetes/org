@@ -28,6 +28,7 @@ members:
 - saad-ali
 - sbezverk
 - vladimirvivien
+- xing-yang
 teams:
   cluster-driver-registrar-admins:
     description: admin access to cluster-driver-registrar

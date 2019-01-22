@@ -1,0 +1,55 @@
+teams:
+  enhancements-maintainers:
+    description: People who can be assigned to drive issues and approve docs in k/enhancements
+    maintainers:
+    - grodrigues3
+    - idvoretskyi
+    - justaugustus
+    - spiffxp
+    members:
+    - aronchick
+    - bgrant0607
+    - bprashanth
+    - caseydavenport
+    - davidopp
+    - dchen1107
+    - deads2k
+    - ecordell
+    - erictune
+    - errordeveloper
+    - euank
+    - hongchaodeng
+    - jbeda
+    - jszczepkowski
+    - lukemarsden
+    - madhusudancs
+    - matchstick
+    - mdelio
+    - mike-saparov
+    - nikhiljindal
+    - philips
+    - pweil-
+    - pwittrock
+    - quinton-hoole
+    - quinton-hoole-2
+    - saad-ali
+    - sarahnovotny
+    - smarterclayton
+    - soltysh
+    - sttts
+    - tallclair
+    - timstclair
+    - yifan-gu
+    - yujuhong
+    privacy: closed
+    previously:
+    - features-maintainers
+  kep-maintainers:
+    description: KEP Process Owners
+    maintainers:
+    - calebamiles
+    - jdumars
+    - justaugustus
+    privacy: closed
+    previously:
+    - enhancement-maintainers

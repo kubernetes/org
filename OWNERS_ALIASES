@@ -16,7 +16,6 @@ aliases:
     - tallclair
   sig-autoscaling-leads:
     - mwielgus
-    - directxman12
   sig-aws-leads:
     - justinsb
     - kris-nova
@@ -95,7 +94,7 @@ aliases:
   sig-service-catalog-leads:
     - carolynvs
     - kibbles-n-bytes
-    - duglin
+    - jberkhahn
     - jboyd01
   sig-storage-leads:
     - saad-ali
@@ -120,6 +119,10 @@ aliases:
     - garethr
   wg-apply-leads:
     - lavalamp
+  wg-component-standard-leads:
+    - luxas
+    - sttts
+    - mtaufen
   wg-container-identity-leads:
     - smarterclayton
     - destijl
@@ -128,6 +131,9 @@ aliases:
     - dejanb
     - ptone
     - cantbewong
+  wg-k8s-infra-leads:
+    - dims
+    - spiffxp
   wg-kubeadm-adoption-leads:
     - luxas
     - justinsb

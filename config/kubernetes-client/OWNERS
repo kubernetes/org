@@ -1,3 +1,5 @@
+# See the OWNERS docs at https://go.k8s.io/owners
+
 reviewers:
   - justaugustus
   - mrbobbytables
@@ -5,6 +7,6 @@ approvers:
   - calebamiles
   - cblecker
   - fejta
-  - grodrigues3
   - idvoretskyi
+  - nikhita
   - spiffxp

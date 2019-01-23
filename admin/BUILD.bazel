@@ -14,8 +14,8 @@ sh_binary(
         "--required-admins=calebamiles",
         "--required-admins=cblecker",
         "--required-admins=fejta",
-        "--required-admins=grodrigues3",
         "--required-admins=idvoretskyi",
+        "--required-admins=nikhita",
         "--required-admins=spiffxp",
     ],
     data = [

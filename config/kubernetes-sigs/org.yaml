@@ -34,6 +34,7 @@ members:
 - Birdrock
 - Bradamant3
 - brancz
+- bryk
 - caesarxuchao
 - carolynvs
 - castrojo
@@ -64,6 +65,7 @@ members:
 - fanzhangio
 - feiskyer
 - flaper87
+- floreks
 - font
 - frapposelli
 - giuseppe
@@ -81,6 +83,7 @@ members:
 - jbeda
 - jberkus
 - jdumars
+- jeefy
 - jeffwan
 - jennybuckley
 - jeremyrickard
@@ -106,6 +109,7 @@ members:
 - liztio
 - m00nf1sh
 - m1093782566
+- maciaszczykm
 - mariantalla
 - marquiz
 - marun
@@ -412,6 +416,22 @@ teams:
     members:
     - Random-Liu
     - yujuhong
+    privacy: closed
+  dashboard-metrics-scraper-admins:
+    description: admin access to dashboard-metrics-scraper
+    maintainers:
+    - bryk
+    - floreks
+    - jeefy
+    - maciaszczykm
+    privacy: closed
+  dashboard-metrics-scraper-maintainers:
+    description: write access to dashboard-metrics-scraper
+    maintainers:
+    - bryk
+    - floreks
+    - jeefy
+    - maciaszczykm
     privacy: closed
   federation-v2-admins:
     description: admin access for the federation-v2 repo

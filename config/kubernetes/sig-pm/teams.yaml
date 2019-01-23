@@ -2,7 +2,6 @@ teams:
   enhancements-maintainers:
     description: People who can be assigned to drive issues and approve docs in k/enhancements
     maintainers:
-    - grodrigues3
     - idvoretskyi
     - justaugustus
     - spiffxp
@@ -19,6 +18,7 @@ teams:
     - erictune
     - errordeveloper
     - euank
+    - grodrigues3
     - hongchaodeng
     - jbeda
     - jszczepkowski

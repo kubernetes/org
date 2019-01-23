@@ -8,9 +8,9 @@ admins:
 - calebamiles
 - cblecker
 - fejta
-- grodrigues3
 - idvoretskyi
 - k8s-ci-robot
+- nikhita
 - spiffxp
 - thelinuxfoundation
 members:
@@ -69,6 +69,7 @@ members:
 - font
 - frapposelli
 - giuseppe
+- grodrigues3
 - guineveresaenger
 - gyliu513
 - gyuho
@@ -128,7 +129,6 @@ members:
 - msau42
 - munnerz
 - neolit123
-- nikhita
 - nikopen
 - onyiny-ang
 - parispittman

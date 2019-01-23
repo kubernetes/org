@@ -964,28 +964,6 @@ teams:
     - eparis
     - sttts
     privacy: closed
-  community-admins:
-    description: ""
-    maintainers:
-    - calebamiles
-    - cblecker
-    - grodrigues3
-    - idvoretskyi
-    members:
-    - bgrant0607
-    - castrojo
-    - jdumars
-    - parispittman
-    - Phillels
-    - sarahnovotny
-    - thockin
-    privacy: closed
-  community-maintainers:
-    description: ""
-    members:
-    - Phillels
-    - thockin
-    privacy: closed
   contrib-maintainers:
     description: Those who maintain (have write access to) contrib.
     maintainers:

@@ -79,3 +79,26 @@ teams:
     - idealhack
     - nikhita
     privacy: closed
+  community-admins:
+    description: ""
+    maintainers:
+    - calebamiles
+    - cblecker
+    - grodrigues3
+    - idvoretskyi
+    members:
+    - bgrant0607
+    - castrojo
+    - jdumars
+    - parispittman
+    - Phillels
+    - sarahnovotny
+    - thockin
+    privacy: closed
+  community-maintainers:
+    description: ""
+    members:
+    - nikhita
+    - Phillels
+    - thockin
+    privacy: closed

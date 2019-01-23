@@ -1915,6 +1915,7 @@ teams:
     description: ""
     maintainers:
     - apelisse
+    - dims
     members:
     - mengqiy
     - monopole
@@ -1925,6 +1926,7 @@ teams:
     description: ""
     maintainers:
     - apelisse
+    - dims
     members:
     - mengqiy
     - monopole
@@ -1935,6 +1937,7 @@ teams:
     description: ""
     maintainers:
     - apelisse
+    - dims
     members:
     - mengqiy
     - monopole

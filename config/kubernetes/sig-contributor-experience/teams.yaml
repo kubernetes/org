@@ -98,6 +98,7 @@ teams:
   community-maintainers:
     description: ""
     members:
+    - nikhita
     - Phillels
     - thockin
     privacy: closed

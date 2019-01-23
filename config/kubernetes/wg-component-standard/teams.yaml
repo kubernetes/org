@@ -1,0 +1,17 @@
+teams:
+  wg-component-standard:
+    description: Team for the Component Standard working group.
+    maintainers:
+    - luxas
+    - mtaufen
+    - sttts
+    members:
+    - dims
+    - DirectXMan12
+    - dixudx
+    - neolit123
+    - rosti
+    - stealthybox
+    - stewart-yu
+    - thockin
+    privacy: closed

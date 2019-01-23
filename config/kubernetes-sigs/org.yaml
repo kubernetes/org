@@ -417,6 +417,22 @@ teams:
     - Random-Liu
     - yujuhong
     privacy: closed
+  dashboard-metrics-scraper-admins:
+    description: admin access to dashboard-metrics-scraper
+    maintainers:
+    - bryk
+    - floreks
+    - jeefy
+    - maciaszczykm
+    privacy: closed
+  dashboard-metrics-scraper-maintainers:
+    description: write access to dashboard-metrics-scraper
+    maintainers:
+    - bryk
+    - floreks
+    - jeefy
+    - maciaszczykm
+    privacy: closed
   federation-v2-admins:
     description: admin access for the federation-v2 repo
     maintainers:

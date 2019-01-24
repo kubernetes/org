@@ -2,50 +2,54 @@ teams:
   sig-cli-api-reviews:
     description: ""
     maintainers:
+    - pwittrock
+    - seans3
+    - soltysh
+    members:
     - adohe
     - fabianofranz
-    - pwittrock
-    members:
     - janetkuo
-    - soltysh
     privacy: closed
   sig-cli-bugs:
     description: ""
     maintainers:
-    - adohe
-    - fabianofranz
     - pwittrock
+    - seans3
+    - soltysh
     members:
+    - adohe
     - dixudx
+    - fabianofranz
     - janetkuo
     - mengqiy
     - shiywang
-    - soltysh
     - wanghaoran1988
     privacy: closed
   sig-cli-feature-requests:
     description: ""
     maintainers:
-    - adohe
-    - fabianofranz
     - pwittrock
+    - seans3
+    - soltysh
     members:
+    - adohe
     - davidopp
+    - fabianofranz
     - janetkuo
     - mengqiy
     - shiywang
     - smarterclayton
-    - soltysh
     - wanghaoran1988
     privacy: closed
   sig-cli-maintainers:
     description: ""
     maintainers:
-    - adohe
     - liggitt
     - pwittrock
+    - seans3
     - soltysh
     members:
+    - adohe
     - fabianofranz
     - janetkuo
     - mengqiy
@@ -54,35 +58,38 @@ teams:
   sig-cli-misc:
     description: Use only if you can't figure out a better category
     maintainers:
-    - adohe
-    - fabianofranz
     - pwittrock
+    - seans3
+    - soltysh
     members:
+    - adohe
     - brendandburns
     - deads2k
     - dims
     - eparis
+    - fabianofranz
     - janetkuo
     - mengqiy
     - shiywang
     - smarterclayton
-    - soltysh
     - sttts
     - wanghaoran1988
     privacy: closed
   sig-cli-pr-reviews:
     description: ""
     maintainers:
-    - adohe
-    - fabianofranz
     - pwittrock
+    - seans3
+    - soltysh
     members:
+    - adohe
     - deads2k
     - derekwaynecarr
     - dims
     - dixudx
     - dshulyak
     - eparis
+    - fabianofranz
     - ghodss
     - janetkuo
     - liggitt
@@ -90,7 +97,6 @@ teams:
     - rootfs
     - shiywang
     - smarterclayton
-    - soltysh
     - sttts
     - wanghaoran1988
     - yue9944882
@@ -98,26 +104,28 @@ teams:
   sig-cli-proposals:
     description: ""
     maintainers:
-    - adohe
-    - fabianofranz
     - pwittrock
+    - seans3
+    - soltysh
     members:
+    - adohe
     - brendandburns
     - davidopp
     - deads2k
+    - fabianofranz
     - janetkuo
     - liggitt
     - mengqiy
     - shiywang
     - smarterclayton
-    - soltysh
     privacy: closed
   sig-cli-test-failures:
     description: ""
     maintainers:
+    - pwittrock
+    - seans3
+    - soltysh
+    members:
     - adohe
     - fabianofranz
-    - pwittrock
-    members:
-    - soltysh
     privacy: closed

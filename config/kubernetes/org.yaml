@@ -1739,8 +1739,9 @@ teams:
   minikube-admins:
     description: Admin access to kubernetes/minikube
     members:
+    - balopat
     - dlorenc
-    - pwittrock
+    - tstromberg
     - vishh
     privacy: closed
   minikube-maintainers:
@@ -1748,6 +1749,7 @@ teams:
     maintainers:
     - spiffxp
     members:
+    - afbjorklund
     - balopat
     - ethernetdan
     - jimmidyson

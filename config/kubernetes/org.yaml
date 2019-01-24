@@ -811,6 +811,19 @@ teams:
     - MaciekPytel
     - piosz
     privacy: closed
+  bash-firefighters:
+    description: Folks with expertise in bash reviews
+    maintainers:
+    - cblecker
+    - fejta
+    - spiffxp
+    members:
+    - BenTheElder
+    - cjwagner
+    - ixdy
+    - stevekuznetsov
+    - sttts
+    privacy: closed
   bots:
     description: Bot Service Accounts in the Kubernetes org
     maintainers:

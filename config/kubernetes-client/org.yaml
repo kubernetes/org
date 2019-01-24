@@ -8,9 +8,9 @@ admins:
 - calebamiles
 - cblecker
 - fejta
-- grodrigues3
 - idvoretskyi
 - k8s-ci-robot
+- nikhita
 - spiffxp
 - thelinuxfoundation
 members:
@@ -27,6 +27,7 @@ members:
 - dmyerscough
 - ebbeelsborg
 - flavio
+- grodrigues3
 - justaugustus
 - krabhishek8260
 - lavalamp

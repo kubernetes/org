@@ -8,10 +8,10 @@ admins:
 - calebamiles
 - cblecker
 - fejta
-- grodrigues3
 - idvoretskyi
 - k8s-ci-robot
 - k8s-merge-robot
+- nikhita
 - spiffxp
 - thelinuxfoundation
 members:
@@ -255,6 +255,7 @@ members:
 - grahamawelch-zz
 - grahamhayes
 - grobie
+- grodrigues3
 - gsasha
 - gtank
 - guangxuli
@@ -517,7 +518,6 @@ members:
 - NickrenREN
 - nicksardo
 - nikhiljindal
-- nikhita
 - nikopen
 - nilebox
 - nwoods3
@@ -1503,7 +1503,6 @@ teams:
     maintainers:
     - cblecker
     - fejta
-    - grodrigues3
     - thelinuxfoundation
     members:
     - alex-mohr
@@ -1528,6 +1527,7 @@ teams:
     - fgrzadkowski
     - freehan
     - gmarek
+    - grodrigues3
     - ingvagabund
     - ixdy
     - janetkuo
@@ -1585,7 +1585,6 @@ teams:
     maintainers:
     - calebamiles
     - cblecker
-    - grodrigues3
     - idvoretskyi
     - spiffxp
     members:
@@ -1623,6 +1622,7 @@ teams:
     - feiskyer
     - foxish
     - ghodss
+    - grodrigues3
     - Hui-Zhi
     - ingvagabund
     - ironcladlou
@@ -1779,8 +1779,8 @@ teams:
     - calebamiles
     - cblecker
     - fejta
-    - grodrigues3
     - idvoretskyi
+    - nikhita
     - spiffxp
     privacy: closed
   perf-tests-admins:

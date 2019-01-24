@@ -8,9 +8,9 @@ admins:
 - calebamiles
 - cblecker
 - fejta
-- grodrigues3
 - idvoretskyi
 - k8s-ci-robot
+- nikhita
 - spiffxp
 - thelinuxfoundation
 members:
@@ -62,6 +62,7 @@ members:
 - fgrzadkowski
 - flyingcougar
 - foxish
+- grodrigues3
 - hjacobs
 - hodovska
 - hongchaodeng

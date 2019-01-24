@@ -7,6 +7,7 @@ teams:
     - fejta # Testing
     - idvoretskyi # PM
     - justaugustus # Azure / PM / Release
+    - nikhita # ContribEx
     - spiffxp # 1.14 RT Lead / Testing
     - tpepper # Release
     members:
@@ -22,7 +23,7 @@ teams:
     - caseydavenport # Network
     - chenopis # Docs
     - childsb # Storage
-    - claurence # 1.14 Enhancements Lead 
+    - claurence # 1.14 Enhancements Lead
     - csbell # Multicluster
     - d-nishi # AWS
     - danielromlein # UI
@@ -61,7 +62,6 @@ teams:
     - michmike # Windows
     - mikedanese # Auth
     - mwielgus # Autoscaling
-    - nikhita # ContribEx
     - nikopen # 1.14 Bug Triage
     - nwoods3 # 1.14 Communications
     - parispittman # ContribEx

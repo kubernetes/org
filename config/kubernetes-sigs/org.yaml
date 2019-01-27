@@ -439,6 +439,16 @@ teams:
     - jeefy
     - maciaszczykm
     privacy: closed
+  etcdadm-admins:
+    description: admin access to etcdadm
+    maintainers:
+    - justinsb
+    privacy: closed
+  etcdadm-maintainers:
+    description: write access to etcdadm
+    maintainers:
+    - justinsb
+    privacy: closed
   federation-v2-admins:
     description: admin access for the federation-v2 repo
     maintainers:

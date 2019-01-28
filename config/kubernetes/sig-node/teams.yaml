@@ -12,6 +12,7 @@ teams:
     - vikaschoudhary16
     - vishh
     - yujuhong
+    - zouyee
     privacy: closed
   sig-node-bugs:
     description: Bugs for Kubernetes Node Special-Interest-Group
@@ -26,6 +27,7 @@ teams:
     - vishh
     - yguo0905
     - yujuhong
+    - zouyee
     privacy: closed
   sig-node-feature-requests:
     description: Feature Requests for Kubernetes Node Special-Interest-Group

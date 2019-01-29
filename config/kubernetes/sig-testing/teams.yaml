@@ -37,3 +37,61 @@ teams:
     - cjwagner
     - mkumatag
     privacy: closed
+  test-infra-admins:
+    description: Administrators to test-infra repo
+    maintainers:
+    - fejta
+    - ixdy
+    - krzyzacy
+    - spiffxp
+    members:
+    - amwat
+    - BenTheElder
+    - cjwagner
+    - katharine
+    - zmerlynn
+    privacy: closed
+  test-infra-maintainers:
+    description: Test infrastructure write access
+    maintainers:
+    - fejta
+    - ixdy
+    - krzyzacy
+    members:
+    - BenTheElder
+    - bprashanth
+    - caesarxuchao
+    - cjcullen
+    - cjwagner
+    - ethernetdan
+    - fabioy
+    - gmarek
+    - jessfraz
+    - jingxu97
+    - jlowdermilk
+    - krousey
+    - madhusudancs
+    - maisem
+    - marun
+    - mtaufen
+    - pipejakob
+    - pwittrock
+    - quinton-hoole
+    - quinton-hoole-2
+    - Random-Liu
+    - rmmh
+    - shyamjvs
+    - stevekuznetsov
+    - sttts
+    - wojtek-t
+    - wonderfly
+    - zmerlynn
+    privacy: closed
+  test-infra-reviewers:
+    description: ""
+    maintainers:
+    - cblecker
+    members:
+    - cjwagner
+    - thockin
+    privacy: closed

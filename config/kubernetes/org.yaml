@@ -1007,25 +1007,29 @@ teams:
     - saad-ali
     privacy: closed
   dashboard-admins:
-    description: ""
+    description: Admins of the Dashboard repository
     members:
     - bryk
     - floreks
+    - jeefy
     - konryd
+    - maciaszczykm
     privacy: closed
   dashboard-maintainers:
     description: The Dashboard UI team
-    maintainers:
-    - bryk
     members:
+    - bryk
     - cheld
     - cupofcat
     - danielromlein
     - floreks
     - ianlewis
+    - jeefy
     - konryd
     - maciaszczykm
     - mhenc
+    - olekzabl
+    - pewu
     - rf232
     privacy: closed
   dashboard-reviewers:

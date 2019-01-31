@@ -1437,39 +1437,43 @@ teams:
   kubectl-admins:
     description: Administrators of the kubectl repo
     maintainers:
+    - pwittrock
+    - seans3
+    - soltysh
+    members:
     - adohe
     - fabianofranz
-    - monopole
-    - pwittrock
-    members:
     - juanvallejo
-    - soltysh
+    - monopole
     privacy: closed
   kubectl-maintainers:
     description: Maintainers of the kubectl repo
     maintainers:
-    - adohe
-    - fabianofranz
     - pwittrock
+    - seans3
+    - soltysh
     members:
+    - adohe
     - apelisse
+    - fabianofranz
     - juanvallejo
     - mengqiy
     - monopole
     - shiywang
-    - soltysh
     - yue9944882
     privacy: closed
   kubectl-reviewers:
     description: Code reviewers for the kubectl repo
     maintainers:
+    - pwittrock
+    - seans3
+    - soltysh
+    members:
     - adohe
     - fabianofranz
-    members:
     - juanvallejo
     - mengqiy
     - monopole
-    - pwittrock
     - shiywang
     privacy: closed
   kubernetes-admins:

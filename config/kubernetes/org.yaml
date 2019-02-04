@@ -988,6 +988,15 @@ teams:
     - eparis
     - sttts
     privacy: closed
+  code-of-conduct-committee:
+    description: Kubernetes Code of Conduct Committee
+    members:
+    - Bradamant3
+    - carolynvs
+    - eparis
+    - jdumars
+    - parispittman
+    privacy: closed
   contrib-maintainers:
     description: Those who maintain (have write access to) contrib.
     maintainers:

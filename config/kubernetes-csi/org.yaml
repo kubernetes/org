@@ -150,6 +150,24 @@ teams:
     maintainers:
     - saad-ali
     privacy: closed
+  csi-misc:
+    description: Miscellaneous Discussions for Kubernetes CSI Working Group
+    maintainers:
+    - childsb
+    - msau42
+    - saad-ali
+    members:
+    - chakri-nelluri
+    - davidz627
+    - gnufied
+    - jsafrane
+    - lpabon
+    - pohly
+    - rootfs
+    - sbezverk
+    - vladimirvivien
+    - xing-yang
+    privacy: closed
   csi-release-tools-admins:
     description: admin access to csi-release-tools
     maintainers:

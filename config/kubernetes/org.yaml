@@ -1173,11 +1173,10 @@ teams:
   goog-gke:
     description: Google Kubernetes Engine
     maintainers:
+    - alex-mohr
     - fabioy
-    - roberthbailey
     members:
     - ajitak
-    - alex-mohr
     - bdbauer
     - cjcullen
     - destijl
@@ -1364,7 +1363,6 @@ teams:
     - justinsb
     members:
     - kris-nova
-    - roberthbailey
     privacy: closed
   kube-deploy-maintainers:
     description: ""
@@ -1372,7 +1370,6 @@ teams:
     - justinsb
     members:
     - kris-nova
-    - roberthbailey
     privacy: closed
   kube-state-metrics-admins:
     description: Admin for kube-state-metrics
@@ -1401,7 +1398,9 @@ teams:
   kubeadm-maintainers:
     description: Maintainers of kubeadm
     maintainers:
-    - mikedanese
+    - luxas
+    - roberthbailey
+    - timothysc
     members:
     - chuckha
     - detiber
@@ -1411,13 +1410,10 @@ teams:
     - jbeda
     - liztio
     - lukemarsden
-    - luxas
     - medinatiger
     - neolit123
     - pipejakob
-    - roberthbailey
     - stealthybox
-    - timothysc
     privacy: closed
   kubeadm-reviewers:
     description: Collaborators for kubeadm
@@ -1434,7 +1430,6 @@ teams:
     - jamiehannaford
     - liztio
     - medinatiger
-    - roberthbailey
     - stealthybox
     privacy: closed
   kubectl-admins:
@@ -1494,21 +1489,20 @@ teams:
     description: ""
     maintainers:
     - luxas
-    - roberthbailey
+    - neolit123
     - timothysc
     privacy: closed
   kubernetes-anywhere-maintainers:
     description: Maintainers of the kubernetes-anywhere repository
     maintainers:
     - luxas
-    - roberthbailey
+    - neolit123
     - timothysc
     members:
     - errordeveloper
     - fabriziopandini
     - kerneltime
     - monadic
-    - neolit123
     privacy: closed
   kubernetes-blog-maintainers:
     description: Maintaining the Kubernetes blog on kubernetes.io

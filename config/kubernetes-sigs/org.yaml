@@ -267,6 +267,7 @@ teams:
     members:
     - davidewatson
     - detiber
+    - vincepri
     privacy: closed
   cluster-api-provider-aws-admins:
     description: admin access to cluster-api-provider-aws

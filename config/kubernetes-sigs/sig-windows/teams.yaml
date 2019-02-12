@@ -1,0 +1,15 @@
+teams:
+  windows-gmsa-admins:
+    description: "admin access to windows-gmsa"
+    members:
+    - ddebroy
+    - michmike
+    - PatrickLang
+    privacy: closed
+  windows-gmsa-maintainers:
+    description: "write access to windows-gmsa"
+    members:
+    - ddebroy
+    - michmike
+    - PatrickLang
+    privacy: closed

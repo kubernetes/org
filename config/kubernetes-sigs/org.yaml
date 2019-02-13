@@ -288,6 +288,7 @@ teams:
     - davidewatson
     - ingvagabund
     - timothysc
+    - vincepri
     privacy: closed
   cluster-api-provider-digitalocean-admins:
     description: ""

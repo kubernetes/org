@@ -1303,6 +1303,7 @@ teams:
   k8s.io-maintainers:
     description: People who run k8s.io
     members:
+    - dims
     - ixdy
     - lavalamp
     - rmmh

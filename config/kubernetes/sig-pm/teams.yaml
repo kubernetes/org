@@ -54,3 +54,11 @@ teams:
     privacy: closed
     previously:
     - enhancement-maintainers
+  project-board-maintainers:
+    description: Contributors with access to groom issues on org-level project boards.
+      Groups can opt-in to assistance with grooming by adding this team to their
+       project board with admin permissions.
+    maintainers:
+    - jdumars
+    - justaugustus
+    privacy: closed

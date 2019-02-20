@@ -10,7 +10,7 @@ admins:
 - fejta
 - idvoretskyi
 - k8s-ci-robot
-- k8s-merge-robot
+- k8s-github-robot
 - nikhita
 - spiffxp
 - thelinuxfoundation
@@ -864,7 +864,7 @@ teams:
     description: Bot Service Accounts in the Kubernetes org
     maintainers:
     - k8s-ci-robot
-    - k8s-merge-robot
+    - k8s-github-robot
     - thelinuxfoundation
     members:
     - k8s-publishing-bot

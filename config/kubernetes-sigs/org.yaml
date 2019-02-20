@@ -616,20 +616,6 @@ teams:
     - msau42
     - saad-ali
     privacy: closed
-  structured-merge-diff-admins:
-    description: admin access to structured-merge-diff
-    maintainers:
-    - apelisse
-    - lavalamp
-    privacy: closed
-  structured-merge-diff-maintainers:
-    description: write access to structured-merge-diff
-    maintainers:
-    - apelisse
-    - lavalamp
-    members:
-    - jennybuckley
-    privacy: closed
   testing_frameworks-admins:
     description: admin access for testing_frameworks
     maintainers:
@@ -675,20 +661,4 @@ teams:
     - PatrickLang
     members:
     - adelina-t
-    privacy: closed
-  yaml-admins:
-    description: ""
-    maintainers:
-    - deads2k
-    - dims
-    - lavalamp
-    - liggitt
-    privacy: closed
-  yaml-maintainers:
-    description: ""
-    maintainers:
-    - deads2k
-    - dims
-    - lavalamp
-    - liggitt
     privacy: closed

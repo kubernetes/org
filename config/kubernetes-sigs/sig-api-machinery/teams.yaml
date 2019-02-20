@@ -1,0 +1,116 @@
+teams:
+  controller-runtime-admins:
+    description: "admin access to controller-runtime"
+    members:
+    - DirectXMan12
+    - droot
+    - pwittrock
+    privacy: closed
+  controller-runtime-contributors:
+    description: "read access to controller-runtime"
+    members:
+    - fanzhangio
+    - lichuqiang
+    - pwittrock
+    privacy: closed
+  controller-runtime-maintainers:
+    description: "write access to controller-runtime"
+    members:
+    - Liujingfang1
+    - mengqiy
+    - pwittrock
+    - seans3
+    privacy: closed
+  controller-tools-admins:
+    description: "admin access to controller-tools"
+    members:
+    - DirectXMan12
+    - droot
+    - pwittrock
+    - seans3
+    privacy: closed
+  controller-tools-contributors:
+    description: "read access to controller-tools"
+    members:
+    - Birdrock
+    - pwittrock
+    privacy: closed
+  controller-tools-maintainers:
+    description: "write access to controller-tools"
+    members:
+    - droot
+    - mengqiy
+    - pwittrock
+    - seans3
+    privacy: closed
+  kubebuilder-admins:
+    description: "admin access to kubebuilder"
+    maintainers:
+    - grodrigues3
+    members:
+    - DirectXMan12
+    - droot
+    - Liujingfang1
+    - mengqiy
+    - monopole
+    - pmorie
+    - pwittrock
+    privacy: closed
+  kubebuilder-contributors:
+    description: "read access to kubebuilder"
+    members:
+    - DirectXMan12
+    - fanzhangio
+    - lichuqiang
+    - pwittrock
+    privacy: closed
+  kubebuilder-maintainers:
+    description: "write access to kubebuilder"
+    members:
+    - apelisse
+    - DirectXMan12
+    - droot
+    - mengqiy
+    - monopole
+    - pmorie
+    - pwittrock
+    - seans3
+    privacy: closed
+  kubebuilder-declarative-pattern-admins:
+    description: "admin access to kubebuilder-declarative-pattern"
+    members:
+    # - johnsonj # TODO: uncomment once johnsonj is a member, ref: https://github.com/kubernetes/org/issues/418#issuecomment-465357261
+    - justinsb
+    privacy: closed
+  kubebuilder-declarative-pattern-maintainers:
+    description: "write access to kubebuilder-declarative-pattern"
+    members:
+    # - johnsonj # TODO: uncomment once johnsonj is a member, ref: https://github.com/kubernetes/org/issues/418#issuecomment-465357261
+    - justinsb
+    privacy: closed
+  kubernetes/sig-api-machinery:
+    description: Parent team for all SIG API Machinery subteams (approvers, reviewers,
+      admins)
+    members:
+    - deads2k
+    - lavalamp
+    privacy: closed
+    teams:
+      kubernetes/sig-api-machinery-admins:
+        description: Admin rights over all SIG API Machinery managed repositories
+        members:
+        - deads2k
+        - lavalamp
+        privacy: closed
+      kubernetes/sig-api-machinery-approvers:
+        description: write access to all SIG API Machinery managed repositories
+        members:
+        - deads2k
+        - lavalamp
+        privacy: closed
+      kubernetes/sig-api-machinery-reviewers:
+        description: read access to all repositories owned by SIG API Machinery
+        members:
+        - deads2k
+        - lavalamp
+        privacy: closed

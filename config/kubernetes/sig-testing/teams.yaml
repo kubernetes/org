@@ -4,10 +4,9 @@ teams:
     maintainers:
     - cblecker
     - fejta
-    - rmmh
     - spiffxp
-    - timothysc
     members:
+    - akutz
     - alejandroEsc
     - BenTheElder
     - bowei
@@ -18,80 +17,58 @@ teams:
     - justaugustus
     - justinsb
     - marun
+    - mithrav
     - mkumatag
     - pigmej
     - pskrzyns
     - qhuynh96
+    - rmmh
     - stevekuznetsov
+    - timothysc
     - xiangpengzhao
     privacy: closed
   sig-testing-pr-reviews:
-    description: ""
+    description: sig-testing PR reviews
     maintainers:
     - fejta
-    - ixdy
-    - rmmh
     - spiffxp
     members:
+    - akutz
+    - amwat
     - BenTheElder
     - cjwagner
+    - ixdy
+    - Katharine
+    - krzyzacy
+    - mithrav
     - mkumatag
+    - stevekuznetsov
     privacy: closed
   test-infra-admins:
-    description: Administrators to test-infra repo
+    description: admin access to test-infra
     maintainers:
     - fejta
-    - ixdy
-    - krzyzacy
     - spiffxp
     members:
     - amwat
     - BenTheElder
     - cjwagner
-    - katharine
-    - zmerlynn
+    - ixdy
+    - Katharine
+    - krzyzacy
+    - stevekuznetsov
     privacy: closed
   test-infra-maintainers:
-    description: Test infrastructure write access
+    description: write access to test-infra
     maintainers:
     - fejta
-    - ixdy
-    - krzyzacy
+    - spiffxp
     members:
+    - amwat
     - BenTheElder
-    - bprashanth
-    - caesarxuchao
-    - cjcullen
     - cjwagner
-    - ethernetdan
-    - fabioy
-    - gmarek
-    - jessfraz
-    - jingxu97
-    - jlowdermilk
-    - krousey
-    - madhusudancs
-    - maisem
-    - marun
-    - mtaufen
-    - pipejakob
-    - pwittrock
-    - quinton-hoole
-    - quinton-hoole-2
-    - Random-Liu
-    - rmmh
-    - shyamjvs
+    - ixdy
+    - Katharine
+    - krzyzacy
     - stevekuznetsov
-    - sttts
-    - wojtek-t
-    - wonderfly
-    - zmerlynn
-    privacy: closed
-  test-infra-reviewers:
-    description: ""
-    maintainers:
-    - cblecker
-    members:
-    - cjwagner
-    - thockin
     privacy: closed

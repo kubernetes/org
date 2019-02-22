@@ -87,6 +87,18 @@ teams:
     - childsb
     - saad-ali
     privacy: closed
+  csi-driver-image-populator-admins:
+    description: admin access to csi-driver-image-populator
+    maintainers:
+      - msau42
+      - saad-ali
+    privacy: closed
+  csi-driver-image-populator-maintainers:
+    description: write access to csi-driver-image-populator
+    maintainers:
+      - msau42
+      - saad-ali
+    privacy: closed
   csi-driver-iscsi-admins:
     description: admin access to csi-driver-iscsi
     maintainers:

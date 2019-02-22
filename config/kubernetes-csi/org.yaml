@@ -327,6 +327,12 @@ teams:
     - childsb
     - saad-ali
     privacy: closed
+  kubernetes-csi-github-io-admins:
+    description: admin access to kubernetes-csi.github.io
+    maintainers:
+    - lpabon
+    - saad-ali
+    privacy: closed
   kubernetes-csi-migration-library-admins:
     description: admin access to kubernetes-csi-migration-library
     maintainers:

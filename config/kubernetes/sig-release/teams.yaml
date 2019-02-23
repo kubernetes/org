@@ -1,6 +1,8 @@
 teams:
   kubernetes-milestone-maintainers:
-    description: Team members can use `/milestone` or `/status` commands on issues/PRs
+    description: Contributors who can use `/milestone` or `/status` commands on issues/PRs.
+      This team also grants write access to the kubernetes/enhancements repo to allow
+       editing of descriptions for Enhancement tracking issues.
     maintainers:
     - calebamiles # Release / PM
     - cblecker # ContribEx

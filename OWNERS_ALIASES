@@ -25,10 +25,6 @@ aliases:
     - dstrebel
     - khenidak
     - feiskyer
-  sig-big-data-leads:
-    - foxish
-    - erikerlandson
-    - liyinan926
   sig-cli-leads:
     - soltysh
     - seans3
@@ -163,6 +159,10 @@ aliases:
     - aasmall
     - joelsmith
     - cji
+  ug-big-data-leads:
+    - foxish
+    - erikerlandson
+    - liyinan926
 ## BEGIN CUSTOM CONTENT
   steering-committee:
     - bgrant0607

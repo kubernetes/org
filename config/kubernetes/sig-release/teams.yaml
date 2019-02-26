@@ -14,6 +14,7 @@ teams:
     - tpepper # Release
     members:
     - abgworrall # GCP
+    - alejandrox1 # 1.14 CI Signal
     - amwat # 1.14 Test Infra
     - andrewsykim # Cloud Provider
     - BenTheElder # 1.14 RT Lead Shadow
@@ -51,6 +52,7 @@ teams:
     - jimangel # 1.14 Docs
     - justinsb # AWS
     - k82cn # Scheduling
+    - kacole2 # 1.14 CI Signal
     - khenidak # Azure
     - kow3ns # Apps
     - kris-nova # AWS
@@ -63,6 +65,7 @@ teams:
     - mattfarina # Apps / Architecture
     - michmike # Windows
     - mikedanese # Auth
+    - mortent # 1.14 CI Signal
     - mwielgus # Autoscaling
     - nikopen # 1.14 Bug Triage
     - nwoods3 # 1.14 Communications

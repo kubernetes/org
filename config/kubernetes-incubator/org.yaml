@@ -223,15 +223,9 @@ teams:
   admins-apiserver-builder:
     description: maintainers of the apiserver-builder repository with admin access
     maintainers:
-    - calebamiles
-    - pwittrock
-    members:
-    - brancz
     - DirectXMan12
-    - hongchaodeng
-    - jimmidyson
-    - MHBauer
-    - xiang90
+    - pwittrock
+    - yue9944882
     privacy: closed
   admins-application-images:
     description: administrators of the application-images repository
@@ -410,16 +404,8 @@ teams:
   maintainers-apiserver-builder:
     description: maintainers of apiserver-builder with write access on the repository
     maintainers:
-    - calebamiles
-    - MHBauer
-    - pwittrock
-    - vaikas-google
-    members:
-    - brancz
     - DirectXMan12
-    - hongchaodeng
-    - jimmidyson
-    - xiang90
+    - pwittrock
     - yue9944882
     privacy: closed
   maintainers-application-images:

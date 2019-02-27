@@ -10,7 +10,7 @@ assignees: ''
 ### Organization or repository
 e.g. kubernetes/kubernetes
 
-### Users effected
+### Users affected
 e.g. (at)example_user
 
 ### Describe the issue

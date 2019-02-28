@@ -101,14 +101,14 @@ teams:
     - ianychoi
     privacy: closed
     teams:
-      sig-docs-ko-reviews:
-        description: Reviews for Korean docs PRs
-        maintainers:
-        - ClaudiaJKang
-        - gochist
-        members:
-        - ianychoi
-        privacy: closed
+  sig-docs-ko-reviews:
+    description: Reviews for Korean docs PRs
+    maintainers:
+    - ClaudiaJKang
+    - gochist
+    members:
+    - ianychoi
+    privacy: closed
   sig-docs-l10n-admins:
     description: Admins for l10n projects
     maintainers:

@@ -29,8 +29,8 @@ teams:
     - xiangpengzhao
     - zhangxiaoyu-zidif
     privacy: closed
-  sig-docs-fr-reviews:
-    description: Review PRs for French content
+  sig-docs-fr-owners:
+    description: Owners for French content
     members:
     - awkif
     - jygastaud
@@ -42,8 +42,8 @@ teams:
     - smana
     - yastij
     privacy: closed
-  sig-docs-fr-owners:
-    description: Owners for French content
+  sig-docs-fr-reviews:
+    description: Review PRs for French content
     members:
     - awkif
     - jygastaud

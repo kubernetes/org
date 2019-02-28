@@ -91,6 +91,13 @@ teams:
         - hogepodge
         - jagosan
         privacy: closed
+      sig-cloud-provider-alibaba-admins:
+        description: ""
+        maintainers:
+        - aoxn
+        - cheyang
+        - xlgao-zju
+        privacy: closed
   sig-cloud-provider-admins:
     description: ""
     maintainers:

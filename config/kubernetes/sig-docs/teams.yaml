@@ -55,6 +55,22 @@ teams:
     - smana
     - yastij
     privacy: closed
+  sig-docs-it-owners:
+    description: Owners for Italian content
+    maintainers:
+    - rlenferink
+    members:
+    - lledru
+    - micheleberardi
+    privacy: closed
+  sig-docs-it-reviews:
+    description: Review PRs for Italian content
+    maintainers:
+    - rlenferink
+    members:
+    - lledru
+    - micheleberardi
+    privacy: closed
   sig-docs-ja-owners:
     description: sig-docs-ja-owners
     maintainers:

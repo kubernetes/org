@@ -102,7 +102,6 @@ teams:
     - ClaudiaJKang
     - ianychoi
     privacy: closed
-    teams:
   sig-docs-ko-reviews:
     description: Reviews for Korean docs PRs
     maintainers:

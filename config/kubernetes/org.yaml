@@ -998,6 +998,7 @@ teams:
     - mgdevstack
     - smarterclayton
     - WilliamDenniss
+    - rjbez17
     privacy: closed
   cncf-wg:
     description: The cncf working group

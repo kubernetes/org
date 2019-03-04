@@ -1873,7 +1873,7 @@ teams:
     - gmarek
     - wojtek-t
     privacy: closed
-  product-security-team:
+  product-security-committee:
     description: Please report security issues to https://kubernetes.io/security
     members:
     - cjcullen
@@ -1882,6 +1882,8 @@ teams:
     - philips
     - tallclair
     privacy: closed
+    previously:
+    - product-security-team
   repo-infra-maintainers:
     description: ""
     members:

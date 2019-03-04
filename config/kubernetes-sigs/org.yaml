@@ -381,7 +381,9 @@ teams:
     - mrunalp
     members:
     - giuseppe
+    - rhatdan
     - runcom
+    - sboeuf
     privacy: closed
   cri-tools-admins:
     description: admin access to cri-tools

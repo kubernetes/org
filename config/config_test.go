@@ -108,6 +108,11 @@ func testTeamMembers(teams map[string]org.Team, admins sets.String, orgMembers s
 		teamMaintainers = normalize(teamMaintainers)
 		teamMembers = normalize(teamMembers)
 
+		// check for non-admins in maintainers list
+		if nonAdminMaintainers := teamMaintainers.Difference(admins); len(nonAdminMaintainers) > 0 {
+			errs = append(errs, fmt.Errorf("The team %s in org %s has non-admins listed as maintainers; these users should be in the members list instead: %s", teamName, orgName, strings.Join(nonAdminMaintainers.List(), ",")))
+		}
+
 		// check for users in both maintainers and members
 		if both := teamMaintainers.Intersection(teamMembers); len(both) > 0 {
 			errs = append(errs, fmt.Errorf("The team %s in org %s has users in both maintainer admin and member roles: %s", teamName, orgName, strings.Join(both.List(), ", ")))
@@ -122,9 +127,6 @@ func testTeamMembers(teams map[string]org.Team, admins sets.String, orgMembers s
 		}
 
 		// check if all are org members
-		if missing := teamMaintainers.Difference(orgMembers); len(missing) > 0 {
-			errs = append(errs, fmt.Errorf("The following maintainers of team %s are not %s org members: %s", teamName, orgName, strings.Join(missing.List(), ", ")))
-		}
 		if missing := teamMembers.Difference(orgMembers); len(missing) > 0 {
 			errs = append(errs, fmt.Errorf("The following members of team %s are not %s org members: %s", teamName, orgName, strings.Join(missing.List(), ", ")))
 		}

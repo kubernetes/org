@@ -4,25 +4,27 @@ teams:
     maintainers:
     - calebamiles
     - idvoretskyi
+    members:
     - jdumars
     - justaugustus
-    privacy: closed
     previously:
     - features-maintainers
+    privacy: closed
   kep-maintainers:
     description: KEP Process Owners
     maintainers:
     - calebamiles
+    members:
     - jdumars
     - justaugustus
-    privacy: closed
     previously:
     - enhancement-maintainers
+    privacy: closed
   project-board-maintainers:
     description: Contributors with access to groom issues on org-level project boards.
-      Groups can opt-in to assistance with grooming by adding this team to their
-       project board with admin permissions.
-    maintainers:
+      Groups can opt-in to assistance with grooming by adding this team to their project
+      board with admin permissions.
+    members:
     - jdumars
     - justaugustus
     privacy: closed

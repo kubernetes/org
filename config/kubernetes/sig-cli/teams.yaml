@@ -1,66 +1,58 @@
 teams:
   sig-cli-api-reviews:
     description: ""
-    maintainers:
-    - pwittrock
-    - seans3
-    - soltysh
     members:
     - adohe
     - fabianofranz
     - janetkuo
-    privacy: closed
-  sig-cli-bugs:
-    description: ""
-    maintainers:
     - pwittrock
     - seans3
     - soltysh
+    privacy: closed
+  sig-cli-bugs:
+    description: ""
     members:
     - adohe
     - dixudx
     - fabianofranz
     - janetkuo
     - mengqiy
+    - pwittrock
+    - seans3
     - shiywang
+    - soltysh
     - wanghaoran1988
     privacy: closed
   sig-cli-feature-requests:
     description: ""
-    maintainers:
-    - pwittrock
-    - seans3
-    - soltysh
     members:
     - adohe
     - davidopp
     - fabianofranz
     - janetkuo
     - mengqiy
+    - pwittrock
+    - seans3
     - shiywang
     - smarterclayton
+    - soltysh
     - wanghaoran1988
     privacy: closed
   sig-cli-maintainers:
     description: ""
-    maintainers:
-    - liggitt
-    - pwittrock
-    - seans3
-    - soltysh
     members:
     - adohe
     - fabianofranz
     - janetkuo
+    - liggitt
     - mengqiy
     - monopole
-    privacy: closed
-  sig-cli-misc:
-    description: Use only if you can't figure out a better category
-    maintainers:
     - pwittrock
     - seans3
     - soltysh
+    privacy: closed
+  sig-cli-misc:
+    description: Use only if you can't figure out a better category
     members:
     - adohe
     - brendandburns
@@ -70,17 +62,16 @@ teams:
     - fabianofranz
     - janetkuo
     - mengqiy
+    - pwittrock
+    - seans3
     - shiywang
     - smarterclayton
+    - soltysh
     - sttts
     - wanghaoran1988
     privacy: closed
   sig-cli-pr-reviews:
     description: ""
-    maintainers:
-    - pwittrock
-    - seans3
-    - soltysh
     members:
     - adohe
     - deads2k
@@ -94,19 +85,18 @@ teams:
     - janetkuo
     - liggitt
     - mengqiy
+    - pwittrock
     - rootfs
+    - seans3
     - shiywang
     - smarterclayton
+    - soltysh
     - sttts
     - wanghaoran1988
     - yue9944882
     privacy: closed
   sig-cli-proposals:
     description: ""
-    maintainers:
-    - pwittrock
-    - seans3
-    - soltysh
     members:
     - adohe
     - brendandburns
@@ -116,16 +106,18 @@ teams:
     - janetkuo
     - liggitt
     - mengqiy
+    - pwittrock
+    - seans3
     - shiywang
     - smarterclayton
+    - soltysh
     privacy: closed
   sig-cli-test-failures:
     description: ""
-    maintainers:
-    - pwittrock
-    - seans3
-    - soltysh
     members:
     - adohe
     - fabianofranz
+    - pwittrock
+    - seans3
+    - soltysh
     privacy: closed

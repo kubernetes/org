@@ -807,19 +807,16 @@ teams:
   api-approvers:
     description: Approve changes to stable Kubernetes APIs and addition of new beta/stable
       APIs
-    maintainers:
-    - liggitt
     members:
     - bgrant0607
     - erictune
     - lavalamp
+    - liggitt
     - smarterclayton
     - thockin
     privacy: closed
   api-reviewers:
     description: See also api-approvers.
-    maintainers:
-    - pwittrock
     members:
     - davidopp
     - deads2k
@@ -828,33 +825,30 @@ teams:
     - lavalamp
     - liggitt
     - mikedanese
+    - pwittrock
     - smarterclayton
     - thockin
     - vishh
     privacy: closed
   autoscaler-admins:
     description: ""
-    maintainers:
-    - mwielgus
     members:
     - MaciekPytel
+    - mwielgus
     privacy: closed
   autoscaler-maintainers:
     description: ""
-    maintainers:
-    - mwielgus
     members:
     - aleksandra-malinowska
     - bskiba
     - DirectXMan12
     - losipiuk
     - MaciekPytel
+    - mwielgus
     - piosz
     privacy: closed
   autoscaler-reviewers:
     description: ""
-    maintainers:
-    - mwielgus
     members:
     - aleksandra-malinowska
     - bskiba
@@ -862,6 +856,7 @@ teams:
     - feiskyer
     - jszczepkowski
     - MaciekPytel
+    - mwielgus
     - piosz
     privacy: closed
   bash-firefighters:
@@ -903,43 +898,41 @@ teams:
   cloud-provider-gcp-admins:
     description: admin access to cloud-provider-gcp
     maintainers:
-    - awly
     - calebamiles
     members:
+    - awly
     - mikedanese
     privacy: closed
   cloud-provider-gcp-maintainers:
     description: write access to cloud-provider-gcp
     maintainers:
-    - awly
     - calebamiles
     members:
+    - awly
     - mikedanese
     privacy: closed
   cloud-provider-openstack-admins:
     description: Admin access to cloud-provider-openstack repo
-    maintainers:
-    - dklyle
-    - hogepodge
     members:
     - dims
+    - dklyle
+    - hogepodge
     privacy: closed
   cloud-provider-openstack-maintainers:
     description: Write access to the cloud-provider-openstack repo
-    maintainers:
-    - dklyle
-    - hogepodge
     members:
     - dims
+    - dklyle
+    - hogepodge
     privacy: closed
   cloud-provider-openstack-members:
     description: ""
-    maintainers:
+    members:
     - dims
     privacy: closed
   cloud-provider-vsphere-admins:
     description: admin access to cloud-provider-vsphere repository
-    maintainers:
+    members:
     - abrarshivani
     - BaluDontu
     - divyenpatel
@@ -950,7 +943,7 @@ teams:
     privacy: closed
   cloud-provider-vsphere-maintainers:
     description: write access to the cloud-provider-vsphere repo
-    maintainers:
+    members:
     - abrarshivani
     - BaluDontu
     - divyenpatel
@@ -961,36 +954,32 @@ teams:
     privacy: closed
   cluster-registry-admins:
     description: Admin access to cluster-registry repo
-    maintainers:
+    members:
+    - font
     - madhusudancs
     - perotinus
     - pmorie
-    members:
-    - font
     privacy: closed
   cluster-registry-maintainers:
     description: Write access to the cluster-registry repo.
-    maintainers:
-    - perotinus
-    - pmorie
     members:
     - font
     - madhusudancs
+    - perotinus
+    - pmorie
     privacy: closed
   cluster-registry-reviewers:
     description: cluster-registry reviewers. Read access to the cluster-registry repository.
-    maintainers:
+    members:
+    - font
     - madhusudancs
     - perotinus
     - pmorie
-    members:
-    - font
     privacy: closed
   cncf-conformance-wg:
     description: ""
     maintainers:
     - spiffxp
-    - timothysc
     members:
     - bgrant0607
     - bradtopol
@@ -1004,6 +993,7 @@ teams:
     - mgdevstack
     - rjbez17
     - smarterclayton
+    - timothysc
     - WilliamDenniss
     privacy: closed
   cncf-wg:
@@ -1017,17 +1007,15 @@ teams:
     privacy: closed
   code-generator-admins:
     description: ""
-    maintainers:
-    - deads2k
-    - sttts
     members:
+    - deads2k
     - eparis
+    - sttts
     privacy: closed
   code-generator-maintainers:
     description: ""
-    maintainers:
-    - deads2k
     members:
+    - deads2k
     - eparis
     - sttts
     privacy: closed
@@ -1050,12 +1038,12 @@ teams:
     privacy: closed
   csi-api-admins:
     description: admin access to csi-api
-    maintainers:
+    members:
     - saad-ali
     privacy: closed
   csi-api-maintainers:
     description: write access to csi-api
-    maintainers:
+    members:
     - saad-ali
     privacy: closed
   dashboard-admins:
@@ -1098,10 +1086,9 @@ teams:
     privacy: closed
   dns-maintainers:
     description: Maintainers of the DNS repository (can write to the repo)
-    maintainers:
+    members:
     - bowei
     - MrHohn
-    members:
     - thockin
     privacy: closed
   dns-reviewers:
@@ -1129,56 +1116,53 @@ teams:
     description: Admin privileges for the examples repo
     maintainers:
     - idvoretskyi
+    members:
     - sebgoa
     privacy: closed
   examples-maintainers:
     description: Write access to the examples repository
     maintainers:
     - idvoretskyi
-    - sebgoa
     members:
     - ahmetb
+    - sebgoa
     privacy: closed
   examples-reviewers:
     description: Read access to the examples repository
-    maintainers:
+    members:
     - sebgoa
     privacy: closed
   federation-admins:
     description: Admin permission to federation repo
-    maintainers:
-    - madhusudancs
     members:
     - csbell
     - irfanurrehman
+    - madhusudancs
     privacy: closed
   federation-maintainers:
     description: Contributors with write access to kubernetes/federation repo
-    maintainers:
-    - madhusudancs
     members:
     - csbell
     - irfanurrehman
+    - madhusudancs
     privacy: closed
   federation-reviewers:
     description: Contributors with read access to kubernetes/federation repo
-    maintainers:
-    - madhusudancs
     members:
     - csbell
     - irfanurrehman
+    - madhusudancs
     privacy: closed
   frakti-admins:
     description: ""
-    maintainers:
-    - feiskyer
-    - resouer
     members:
     - dchen1107
+    - feiskyer
+    - resouer
     privacy: closed
   frakti-maintainers:
     description: ""
-    maintainers:
+    members:
     - feiskyer
     privacy: closed
   gengo-admins:
@@ -1221,14 +1205,13 @@ teams:
     privacy: closed
   goog-gke:
     description: Google Kubernetes Engine
-    maintainers:
-    - alex-mohr
-    - fabioy
     members:
     - ajitak
+    - alex-mohr
     - bdbauer
     - cjcullen
     - destijl
+    - fabioy
     - ihmccreery
     - jcbsmpsn
     - jessicaochen
@@ -1241,13 +1224,12 @@ teams:
     privacy: closed
   goog-image:
     description: ""
-    maintainers:
-    - yinghan
     members:
     - adityakali
     - Amey-D
     - dchen1107
     - wonderfly
+    - yinghan
     privacy: closed
   ingress-gce-admins:
     description: ""
@@ -1279,18 +1261,16 @@ teams:
     privacy: closed
   ingress-nginx-admins:
     description: ""
-    maintainers:
-    - aledbf
     members:
+    - aledbf
     - bowei
     - bprashanth
     privacy: closed
   ingress-nginx-maintainers:
     description: Maintainers of the ingress repo
-    maintainers:
-    - bprashanth
     members:
     - aledbf
+    - bprashanth
     - justinsb
     - nicksardo
     privacy: closed
@@ -1302,11 +1282,10 @@ teams:
     privacy: closed
   intel:
     description: ""
-    maintainers:
-    - ConnorDoyle
     members:
     - balajismaniam
     - bart0sh
+    - ConnorDoyle
     - davidopp
     - kad
     privacy: closed
@@ -1314,16 +1293,16 @@ teams:
     description: ""
     maintainers:
     - cblecker
-    - dims
     - idvoretskyi
     - spiffxp
-    - thockin
     members:
     - amwat
     - BenTheElder
     - brendandburns
+    - dims
     - ixdy
     - shyamjvs
+    - thockin
     privacy: closed
   k8s.io-maintainers:
     description: People who run k8s.io
@@ -1336,52 +1315,48 @@ teams:
     privacy: closed
   klog-admins:
     description: ""
-    maintainers:
+    members:
     - dims
     - thockin
     privacy: closed
   klog-maintainers:
     description: ""
-    maintainers:
-    - dims
-    - thockin
     members:
+    - dims
     - erictune
     - justinsb
     - lavalamp
     - tallclair
+    - thockin
     privacy: closed
   kompose-admins:
     description: administrators for kompose repo
-    maintainers:
-    - sebgoa
     members:
     - cdrage
     - janetkuo
     - kadel
     - ngtuna
     - sarahnovotny
+    - sebgoa
     privacy: closed
   kompose-contributors:
     description: contributors to the kompose repo
-    maintainers:
-    - sebgoa
     members:
     - cdrage
     - ngtuna
     - procrypt
     - sarahnovotny
+    - sebgoa
     privacy: closed
   kompose-maintainers:
     description: maintainers for kompose
-    maintainers:
-    - cdrage
-    - sebgoa
     members:
     - cab105
+    - cdrage
     - janetkuo
     - kadel
     - sarahnovotny
+    - sebgoa
     - surajssd
     privacy: closed
   kops-admins:
@@ -1393,11 +1368,10 @@ teams:
     privacy: closed
   kops-maintainers:
     description: ""
-    maintainers:
-    - justinsb
     members:
     - chrislovecnm
     - geojaz
+    - justinsb
     - kris-nova
     - mikedanese
     - mikesplain
@@ -1410,24 +1384,21 @@ teams:
     privacy: closed
   kube-deploy-admins:
     description: ""
-    maintainers:
-    - justinsb
     members:
+    - justinsb
     - kris-nova
     privacy: closed
   kube-deploy-maintainers:
     description: ""
-    maintainers:
-    - justinsb
     members:
+    - justinsb
     - kris-nova
     privacy: closed
   kube-state-metrics-admins:
     description: Admin for kube-state-metrics
-    maintainers:
-    - ghodss
     members:
     - fabxc
+    - ghodss
     privacy: closed
   kube-state-metrics-maintainers:
     description: ""
@@ -1448,10 +1419,6 @@ teams:
     privacy: closed
   kubeadm-maintainers:
     description: Maintainers of kubeadm
-    maintainers:
-    - luxas
-    - roberthbailey
-    - timothysc
     members:
     - chuckha
     - detiber
@@ -1461,46 +1428,43 @@ teams:
     - jbeda
     - liztio
     - lukemarsden
+    - luxas
     - medinatiger
     - neolit123
     - pipejakob
+    - roberthbailey
     - stealthybox
+    - timothysc
     privacy: closed
   kubeadm-reviewers:
     description: Collaborators for kubeadm
-    maintainers:
-    - errordeveloper
-    - jbeda
-    - lukemarsden
-    - luxas
     members:
     - chuckha
     - detiber
     - dixudx
+    - errordeveloper
     - fabriziopandini
     - jamiehannaford
+    - jbeda
     - liztio
+    - lukemarsden
+    - luxas
     - medinatiger
     - stealthybox
     privacy: closed
   kubectl-admins:
     description: Administrators of the kubectl repo
-    maintainers:
-    - pwittrock
-    - seans3
-    - soltysh
     members:
     - adohe
     - fabianofranz
     - juanvallejo
     - monopole
-    privacy: closed
-  kubectl-maintainers:
-    description: Maintainers of the kubectl repo
-    maintainers:
     - pwittrock
     - seans3
     - soltysh
+    privacy: closed
+  kubectl-maintainers:
+    description: Maintainers of the kubectl repo
     members:
     - adohe
     - apelisse
@@ -1508,22 +1472,24 @@ teams:
     - juanvallejo
     - mengqiy
     - monopole
+    - pwittrock
+    - seans3
     - shiywang
+    - soltysh
     - yue9944882
     privacy: closed
   kubectl-reviewers:
     description: Code reviewers for the kubectl repo
-    maintainers:
-    - pwittrock
-    - seans3
-    - soltysh
     members:
     - adohe
     - fabianofranz
     - juanvallejo
     - mengqiy
     - monopole
+    - pwittrock
+    - seans3
     - shiywang
+    - soltysh
     privacy: closed
   kubernetes-admins:
     description: 'Do not add new people to this group.  Add build-cops to kubernetes-build-cops  and
@@ -1538,32 +1504,30 @@ teams:
     privacy: closed
   kubernetes-anywhere-admins:
     description: ""
-    maintainers:
+    members:
     - luxas
     - neolit123
     - timothysc
     privacy: closed
   kubernetes-anywhere-maintainers:
     description: Maintainers of the kubernetes-anywhere repository
-    maintainers:
-    - luxas
-    - neolit123
-    - timothysc
     members:
     - errordeveloper
     - fabriziopandini
     - kerneltime
+    - luxas
     - monadic
+    - neolit123
+    - timothysc
     privacy: closed
   kubernetes-blog-maintainers:
     description: Maintaining the Kubernetes blog on kubernetes.io
-    maintainers:
-    - zacharysarah
     members:
     - bobsky
     - kbarnard10
     - natekartchner
     - SarahKConway
+    - zacharysarah
     privacy: closed
   kubernetes-maintainers:
     description: Write access to kubernetes repo. Follow the process in https://github.com/kubernetes/community/blob/master/community-membership.md
@@ -1746,29 +1710,27 @@ teams:
   kubernetes-staging-publish-cops:
     description: will be notified if the robot fails to publish the staging folder
       to repos
-    maintainers:
-    - caesarxuchao
     members:
+    - caesarxuchao
     - deads2k
     - lavalamp
     - sttts
     privacy: closed
   kubernetes-website-admins:
     description: Admins of kubernetes/website repo
-    maintainers:
-    - chenopis
-    - jaredbhatti
-    - pwittrock
-    - sebgoa
-    - steveperry-53
-    - zacharysarah
     members:
     - Bradamant3
+    - chenopis
+    - jaredbhatti
     - Kashomon
     - lavalamp
     - mistyhacks
+    - pwittrock
+    - sebgoa
+    - steveperry-53
     - tfogo
     - thockin
+    - zacharysarah
     - zparnold
     privacy: closed
   maintainer-test-exemptions:
@@ -1820,26 +1782,23 @@ teams:
     privacy: closed
   node-problem-detector-admins:
     description: Maintainers of node problem detector
-    maintainers:
-    - Random-Liu
     members:
     - dchen1107
+    - Random-Liu
     privacy: closed
   node-problem-detector-maintainers:
     description: ""
-    maintainers:
-    - Random-Liu
     members:
     - andyxning
     - dchen1107
+    - Random-Liu
     - wangzhen127
     privacy: closed
   node-problem-detector-reviewers:
     description: ""
-    maintainers:
-    - Random-Liu
     members:
     - andyxning
+    - Random-Liu
     - wangzhen127
     privacy: closed
   owners:
@@ -1854,25 +1813,23 @@ teams:
     privacy: closed
   perf-tests-admins:
     description: ""
-    maintainers:
-    - gmarek
-    - wojtek-t
     members:
     - bowei
+    - gmarek
+    - wojtek-t
     privacy: closed
   perf-tests-maintainers:
     description: ""
-    maintainers:
-    - gmarek
-    - wojtek-t
     members:
     - bowei
+    - gmarek
     - shyamjvs
     - timothysc
+    - wojtek-t
     privacy: closed
   perf-tests-reviewers:
     description: ""
-    maintainers:
+    members:
     - gmarek
     - wojtek-t
     privacy: closed
@@ -1884,9 +1841,9 @@ teams:
     - liggitt
     - philips
     - tallclair
-    privacy: closed
     previously:
     - product-security-team
+    privacy: closed
   repo-infra-maintainers:
     description: ""
     members:
@@ -1913,15 +1870,15 @@ teams:
   steering-committee:
     description: Kubernetes Steering Committee
     maintainers:
-    - brendandburns
-    - jbeda
-    - philips
     - spiffxp
     members:
     - bgrant0607
+    - brendandburns
     - derekwaynecarr
     - dims
+    - jbeda
     - michelleN
+    - philips
     - pwittrock
     - sarahnovotny
     - smarterclayton
@@ -1939,10 +1896,9 @@ teams:
     privacy: closed
   utils-admins:
     description: ""
-    maintainers:
+    members:
     - apelisse
     - dims
-    members:
     - mengqiy
     - monopole
     - pwittrock
@@ -1950,10 +1906,9 @@ teams:
     privacy: closed
   utils-maintainers:
     description: ""
-    maintainers:
+    members:
     - apelisse
     - dims
-    members:
     - mengqiy
     - monopole
     - pwittrock
@@ -1961,10 +1916,9 @@ teams:
     privacy: closed
   utils-reviewers:
     description: ""
-    maintainers:
+    members:
     - apelisse
     - dims
-    members:
     - mengqiy
     - monopole
     - pwittrock

@@ -1,14 +1,13 @@
 teams:
   cluster-api-provider-azure-admins:
     description: ""
-    maintainers:
+    members:
     - justaugustus
     privacy: closed
   cluster-api-provider-azure-maintainers:
     description: ""
-    maintainers:
-    - justaugustus
     members:
+    - justaugustus
     - soggiest
     - tariq1890
     privacy: closed

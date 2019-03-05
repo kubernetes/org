@@ -1,127 +1,120 @@
 teams:
   sig-apps-api-reviews:
     description: ""
-    maintainers:
-    - enisoc
-    - foxish
-    - janetkuo
-    - mattfarina
-    - soltysh
     members:
     - davidopp
     - dhilipkumars
     - dixudx
+    - enisoc
+    - foxish
+    - janetkuo
     - kow3ns
     - lukaszo
+    - mattfarina
     - mfojtik
     - smarterclayton
+    - soltysh
     - tnozicka
     - zouyee
     privacy: closed
   sig-apps-bugs:
     description: ""
-    maintainers:
+    members:
+    - davidopp
     - enisoc
     - foxish
     - janetkuo
-    - mattfarina
-    - soltysh
-    members:
-    - davidopp
     - kow3ns
     - lukaszo
+    - mattfarina
     - mfojtik
     - resouer
     - smarterclayton
+    - soltysh
     - tnozicka
     - wanghaoran1988
     privacy: closed
   sig-apps-feature-requests:
     description: ""
-    maintainers:
+    members:
+    - ant31
+    - davidopp
     - enisoc
     - foxish
     - janetkuo
     - kow3ns
-    - mattfarina
-    - soltysh
-    members:
-    - ant31
-    - davidopp
     - lukaszo
+    - mattfarina
     - mfojtik
     - prydonius
     - resouer
     - smarterclayton
+    - soltysh
     - tnozicka
     privacy: closed
   sig-apps-misc:
     description: Use only if you can't figure out a better category
-    maintainers:
+    members:
+    - davidopp
     - enisoc
     - foxish
     - janetkuo
-    - mattfarina
-    - soltysh
-    members:
-    - davidopp
     - kow3ns
     - lukaszo
+    - mattfarina
     - mfojtik
     - prydonius
     - resouer
     - smarterclayton
+    - soltysh
     - tnozicka
     privacy: closed
   sig-apps-pr-reviews:
     description: ""
-    maintainers:
-    - enisoc
-    - foxish
-    - janetkuo
-    - mattfarina
-    - soltysh
     members:
     - davidopp
     - dhilipkumars
+    - enisoc
+    - foxish
+    - janetkuo
     - kow3ns
     - lukaszo
+    - mattfarina
     - mfojtik
     - resouer
     - smarterclayton
+    - soltysh
     - tnozicka
     privacy: closed
   sig-apps-proposals:
     description: ""
-    maintainers:
+    members:
+    - davidopp
     - enisoc
     - foxish
     - janetkuo
-    - mattfarina
-    - soltysh
-    members:
-    - davidopp
     - kow3ns
     - lukaszo
+    - mattfarina
     - mfojtik
     - prydonius
     - smarterclayton
+    - soltysh
     - tnozicka
     privacy: closed
   sig-apps-test-failures:
     description: ""
-    maintainers:
+    members:
+    - davidopp
     - enisoc
     - foxish
     - janetkuo
-    - mattfarina
-    - soltysh
-    members:
-    - davidopp
     - kow3ns
     - lukaszo
+    - mattfarina
     - mfojtik
     - prydonius
     - smarterclayton
+    - soltysh
     - tnozicka
     privacy: closed

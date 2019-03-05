@@ -211,55 +211,52 @@ members:
 teams:
   application-admins:
     description: admin access to application
-    maintainers:
-    - kow3ns
     members:
+    - kow3ns
     - mattfarina
     - prydonius
     privacy: closed
   architecture-tracking-admins:
     description: admin permission for architecture-tracking
-    maintainers:
+    members:
     - bgrant0607
     - jdumars
     privacy: closed
   architecture-tracking-maintainers:
     description: write permission for architecture-tracking
     maintainers:
-    - bgrant0607
-    - jdumars
     - spiffxp
     members:
+    - bgrant0607
     - dims
+    - jdumars
     - liggitt
     - mattfarina
     - timothysc
     privacy: closed
   aws-ebs-csi-driver-admins:
     description: ""
-    maintainers:
-    - d-nishi
     members:
+    - d-nishi
     - leakingtapan
     privacy: closed
   aws-ebs-csi-driver-maintainers:
     description: ""
-    maintainers:
-    - d-nishi
     members:
     - bertinatto
+    - d-nishi
     - jsafrane
     - leakingtapan
     privacy: closed
   aws-encryption-provider-admins:
     description: admin access to aws_encryption-provider repo
-    maintainers:
+    members:
     - justinsb
     - robinpercy
     privacy: closed
   aws-encryption-provider-maintainers:
     description: write access to aws_encryption-provider
-    maintainers:
+    members:
     - justinsb
     - robinpercy
     privacy: closed
@@ -272,35 +269,32 @@ teams:
     privacy: closed
   cluster-api-admins:
     description: ""
-    maintainers:
-    - timothysc
     members:
     - kris-nova
     - krousey
     - roberthbailey
+    - timothysc
     privacy: closed
   cluster-api-maintainers:
     description: ""
-    maintainers:
-    - timothysc
     members:
     - davidewatson
     - detiber
     - ncdc
+    - timothysc
     - vincepri
     privacy: closed
   cluster-api-provider-aws-admins:
     description: admin access to cluster-api-provider-aws
-    maintainers:
+    members:
     - detiber
     privacy: closed
   cluster-api-provider-aws-maintainers:
     description: write access to cluster-api-provider-aws
-    maintainers:
-    - detiber
     members:
     - chuckha
     - davidewatson
+    - detiber
     - ingvagabund
     - ncdc
     - timothysc
@@ -308,7 +302,7 @@ teams:
     privacy: closed
   cluster-api-provider-digitalocean-admins:
     description: ""
-    maintainers:
+    members:
     - roberthbailey
     - timothysc
     - xmudrii
@@ -316,37 +310,35 @@ teams:
   cluster-api-provider-digitalocean-maintainers:
     description: ""
     maintainers:
-    - alvaroaleman
     - nikhita
+    members:
+    - alvaroaleman
     - roberthbailey
     - timothysc
     - xmudrii
     privacy: closed
   cluster-api-provider-gcp-admins:
     description: admin access to cluster-api-provider-gcp
-    maintainers:
+    members:
     - roberthbailey
     privacy: closed
   cluster-api-provider-gcp-maintainers:
     description: write access to cluster-api-provider-gcp-maintainers
-    maintainers:
-    - roberthbailey
     members:
     - justinsb
+    - roberthbailey
     privacy: closed
   cluster-api-provider-openstack-admins:
     description: admin access to cluster-api-provider-openstack
-    maintainers:
-    - dims
     members:
     - chaosaffe
+    - dims
     privacy: closed
   cluster-api-provider-openstack-maintainers:
     description: write access to cluster-api-provider-openstack
-    maintainers:
-    - dims
     members:
     - chaosaffe
+    - dims
     privacy: closed
   cluster-api-provider-vsphere-admins:
     description: admin access to cluster-api-provider-vsphere-admins
@@ -364,56 +356,50 @@ teams:
     privacy: closed
   contributor-site-admins:
     description: admin access to contributor-site
-    maintainers:
-    - castrojo
     members:
+    - castrojo
     - mrbobbytables
     privacy: closed
   contributor-site-maintainers:
     description: write access to contributor-site
-    maintainers:
-    - castrojo
     members:
+    - castrojo
     - mrbobbytables
     privacy: closed
   cri-o-admins:
     description: admin access to cri-o
-    maintainers:
-    - mrunalp
     members:
+    - mrunalp
     - runcom
     privacy: closed
   cri-o-maintainers:
     description: write access to cri-o
-    maintainers:
-    - mrunalp
     members:
     - giuseppe
+    - mrunalp
     - rhatdan
     - runcom
     - sboeuf
     privacy: closed
   cri-tools-admins:
     description: admin access to cri-tools
-    maintainers:
+    members:
     - feiskyer
     - mrunalp
-    members:
     - Random-Liu
     - yujuhong
     privacy: closed
   cri-tools-maintainers:
     description: write access to cri-tools
-    maintainers:
+    members:
     - feiskyer
     - mrunalp
-    members:
     - Random-Liu
     - yujuhong
     privacy: closed
   dashboard-metrics-scraper-admins:
     description: admin access to dashboard-metrics-scraper
-    maintainers:
+    members:
     - bryk
     - floreks
     - jeefy
@@ -421,7 +407,7 @@ teams:
     privacy: closed
   dashboard-metrics-scraper-maintainers:
     description: write access to dashboard-metrics-scraper
-    maintainers:
+    members:
     - bryk
     - floreks
     - jeefy
@@ -429,13 +415,13 @@ teams:
     privacy: closed
   etcdadm-admins:
     description: admin access to etcdadm
-    maintainers:
+    members:
     - dlipovetsky
     - justinsb
     privacy: closed
   etcdadm-maintainers:
     description: write access to etcdadm
-    maintainers:
+    members:
     - dlipovetsky
     - justinsb
     privacy: closed
@@ -452,21 +438,19 @@ teams:
     privacy: closed
   federation-v2-maintainers:
     description: write access to the fededation-v2 repo
-    maintainers:
-    - marun
     members:
     - font
     - irfanurrehman
+    - marun
     - shashidharatd
     privacy: closed
   federation-wg:
     description: Individuals who are part of sig-multicluster and working as federation
       workgroup.
-    maintainers:
-    - irfanurrehman
     members:
     - font
     - gyliu513
+    - irfanurrehman
     - marun
     - onyiny-ang
     - pmorie
@@ -476,28 +460,26 @@ teams:
     privacy: closed
   gcp-filestore-csi-driver-admins:
     description: ""
-    maintainers:
+    members:
     - msau42
     - saad-ali
     privacy: closed
   gcp-filestore-csi-driver-maintainers:
     description: ""
-    maintainers:
+    members:
     - msau42
     - saad-ali
     privacy: closed
   kind-admins:
     description: ""
-    maintainers:
-    - BenTheElder
     members:
+    - BenTheElder
     - munnerz
     privacy: closed
   kind-maintainers:
     description: ""
-    maintainers:
-    - BenTheElder
     members:
+    - BenTheElder
     - munnerz
     privacy: closed
   kube-batch-admins:
@@ -541,17 +523,15 @@ teams:
     privacy: closed
   kubespray-admins:
     description: ""
-    maintainers:
-    - ant31
     members:
+    - ant31
     - chadswen
     - mattymo
     privacy: closed
   kubespray-maintainers:
     description: ""
-    maintainers:
-    - ant31
     members:
+    - ant31
     - Atoms
     - chadswen
     - mattymo
@@ -605,77 +585,69 @@ teams:
     privacy: closed
   sig-storage-lib-external-provisioner-admins:
     description: admin access to sig-storage-lib-external-provisioner
-    maintainers:
-    - wongma7
     members:
     - childsb
     - jsafrane
+    - wongma7
     privacy: closed
   sig-storage-lib-external-provisioner-maintainers:
     description: write access to sig-storage-lib-external-provisioner
-    maintainers:
-    - wongma7
     members:
     - childsb
     - jsafrane
+    - wongma7
     privacy: closed
   sig-storage-local-static-provisioner-admins:
     description: ""
-    maintainers:
+    members:
     - jsafrane
     - msau42
     - saad-ali
     privacy: closed
   sig-storage-local-static-provisioner-maintainers:
     description: ""
-    maintainers:
+    members:
     - jsafrane
     - msau42
     - saad-ali
     privacy: closed
   testing_frameworks-admins:
     description: admin access for testing_frameworks
-    maintainers:
-    - hoegaarden
     members:
+    - hoegaarden
     - totherme
     privacy: closed
   testing_frameworks-maintainers:
     description: write access to testing_frameworks
-    maintainers:
-    - liztio
     members:
+    - liztio
     - marun
     privacy: closed
   website-metadata-admins:
     description: ""
-    maintainers:
-    - Bradamant3
-    - zacharysarah
     members:
+    - Bradamant3
     - chenopis
+    - zacharysarah
     privacy: closed
   website-metadata-maintainers:
     description: ""
-    maintainers:
-    - Bradamant3
-    - zacharysarah
     members:
+    - Bradamant3
     - chenopis
+    - zacharysarah
     privacy: closed
   windows-testing-admins:
     description: ""
-    maintainers:
-    - michmike
-    - PatrickLang
     members:
     - adelina-t
+    - michmike
+    - PatrickLang
     privacy: closed
   windows-testing-maintainers:
     description: ""
-    maintainers:
-    - michmike
-    - PatrickLang
     members:
     - adelina-t
+    - michmike
+    - PatrickLang
     privacy: closed

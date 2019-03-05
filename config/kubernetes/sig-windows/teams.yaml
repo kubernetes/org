@@ -1,28 +1,24 @@
 teams:
   sig-windows-bugs:
     description: For reporting and investigating bugs for sig-windows
-    maintainers:
-    - michmike
     members:
     - alexbrand
     - asultan001
     - feiskyer
     - jbhurat
+    - michmike
     privacy: closed
   sig-windows-feature-requests:
     description: Feature requests for sig-windows
-    maintainers:
-    - michmike
     members:
     - alexbrand
     - asultan001
     - feiskyer
     - jbhurat
+    - michmike
     privacy: closed
   sig-windows-misc:
     description: Special Interest Group Windows
-    maintainers:
-    - michmike
     members:
     - alexbrand
     - andyzhangx
@@ -31,6 +27,7 @@ teams:
     - feiskyer
     - ikester
     - jbhurat
+    - michmike
     - pires
     - sarahnovotny
     privacy: closed

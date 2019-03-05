@@ -29,12 +29,14 @@ teams:
     - xiangpengzhao
     - zhangxiaoyu-zidif
     privacy: closed
-  sig-docs-fr-reviews:
-    description: Review PRs for French content
+  sig-docs-fr-owners:
+    description: Owners for French content
     members:
+    - abuisine
     - awkif
     - jygastaud
     - lledru
+    - oussemos
     - perriea
     - rbenzair
     - rekcah78
@@ -42,18 +44,34 @@ teams:
     - smana
     - yastij
     privacy: closed
-  sig-docs-fr-owners:
-    description: Owners for French content
+  sig-docs-fr-reviews:
+    description: Review PRs for French content
     members:
+    - abuisine
     - awkif
     - jygastaud
     - lledru
+    - oussemos
     - perriea
     - rbenzair
     - rekcah78
     - sieben
     - smana
     - yastij
+    privacy: closed
+  sig-docs-it-owners:
+    description: Owners for Italian content
+    members:
+    - lledru
+    - micheleberardi
+    - rlenferink
+    privacy: closed
+  sig-docs-it-reviews:
+    description: Review PRs for Italian content
+    members:
+    - lledru
+    - micheleberardi
+    - rlenferink
     privacy: closed
   sig-docs-ja-owners:
     description: sig-docs-ja-owners
@@ -84,15 +102,14 @@ teams:
     - ClaudiaJKang
     - ianychoi
     privacy: closed
-    teams:
-      sig-docs-ko-reviews:
-        description: Reviews for Korean docs PRs
-        maintainers:
-        - ClaudiaJKang
-        - gochist
-        members:
-        - ianychoi
-        privacy: closed
+  sig-docs-ko-reviews:
+    description: Reviews for Korean docs PRs
+    maintainers:
+    - ClaudiaJKang
+    - gochist
+    members:
+    - ianychoi
+    privacy: closed
   sig-docs-l10n-admins:
     description: Admins for l10n projects
     maintainers:

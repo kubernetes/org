@@ -12,3 +12,23 @@ teams:
     - soggiest
     - tariq1890
     privacy: closed
+  azuredisk-csi-driver-admins:
+    description: ""
+    members:
+    - andyzhangx
+    privacy: closed
+  azuredisk-csi-driver-maintainers:
+    description: ""
+    members:
+    - andyzhangx
+    privacy: closed
+  azurefile-csi-driver-admins:
+    description: ""
+    members:
+    - andyzhangx
+    privacy: closed
+  azurefile-csi-driver-maintainers:
+    description: ""
+    members:
+    - andyzhangx
+    privacy: closed

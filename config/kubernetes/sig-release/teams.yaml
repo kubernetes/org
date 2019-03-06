@@ -179,3 +179,13 @@ teams:
         - justaugustus
         - tpepper
         privacy: closed
+  publishing-bot-reviewers:
+    description: Reviews for publishing-bot
+    maintainers:
+    - nikhita
+    members:
+    - caesarxuchao
+    - dims
+    - mfojtik
+    - sttts
+    privacy: closed

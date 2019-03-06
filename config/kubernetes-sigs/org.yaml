@@ -426,11 +426,13 @@ teams:
   etcdadm-admins:
     description: admin access to etcdadm
     maintainers:
+    - dlipovetsky
     - justinsb
     privacy: closed
   etcdadm-maintainers:
     description: write access to etcdadm
     maintainers:
+    - dlipovetsky
     - justinsb
     privacy: closed
   federation-v2-admins:

@@ -284,6 +284,7 @@ teams:
     members:
     - davidewatson
     - detiber
+    - ncdc
     - vincepri
     privacy: closed
   cluster-api-provider-aws-admins:
@@ -299,6 +300,7 @@ teams:
     - chuckha
     - davidewatson
     - ingvagabund
+    - ncdc
     - timothysc
     - vincepri
     privacy: closed

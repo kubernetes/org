@@ -308,11 +308,13 @@ teams:
   external-resizer-admins:
     description: admin access to external-resizer
     maintainers:
+    - childsb
     - saad-ali
     privacy: closed
   external-resizer-maintainers:
     description: write access to external-resizer
     maintainers:
+    - childsb
     - saad-ali
     privacy: closed
   external-snapshotter-admins:

@@ -89,6 +89,7 @@ teams:
     - thockin # Network
     - timothysc # Cluster Lifecycle / Testing
     - wojtek-t # Scalability
+    - xmudrii # 1.14 Bug Triage Shadow
     - zacharysarah # Docs
     privacy: closed
   kubernetes-release-managers:

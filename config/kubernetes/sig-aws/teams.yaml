@@ -1,11 +1,10 @@
 teams:
   sig-aws-misc:
     description: ""
-    maintainers:
-    - kris-nova
     members:
     - d-nishi
     - jsafrane
+    - kris-nova
     - leakingtapan
     - mcrute
     - micahhausler

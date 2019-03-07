@@ -1,4 +1,31 @@
 teams:
+  community-admins:
+    description: ""
+    maintainers:
+    - calebamiles
+    - cblecker
+    - idvoretskyi
+    - nikhita
+    members:
+    - bgrant0607
+    - castrojo
+    - grodrigues3
+    - jdumars
+    - parispittman
+    - Phillels
+    - sarahnovotny
+    - thockin
+    privacy: closed
+  community-maintainers:
+    description: ""
+    maintainers:
+    - cblecker
+    - nikhita
+    members:
+    - parispittman
+    - Phillels
+    - thockin
+    privacy: closed
   sig-contributor-experience-bugs:
     description: Bugs relating to contributor-experience infrastructure, such as the
       PR bot, etc.
@@ -47,8 +74,8 @@ teams:
     - xiang90
     privacy: closed
   sig-contributor-experience-pr-reviews:
-    description: PR reviews for contributor-experience infrastructure, such
-      as the PR bot, etc.
+    description: PR reviews for contributor-experience infrastructure, such as the
+      PR bot, etc.
     maintainers:
     - cblecker
     - idvoretskyi
@@ -77,31 +104,4 @@ teams:
     members:
     - grodrigues3
     - idealhack
-    privacy: closed
-  community-admins:
-    description: ""
-    maintainers:
-    - calebamiles
-    - cblecker
-    - idvoretskyi
-    - nikhita
-    members:
-    - bgrant0607
-    - castrojo
-    - grodrigues3
-    - jdumars
-    - parispittman
-    - Phillels
-    - sarahnovotny
-    - thockin
-    privacy: closed
-  community-maintainers:
-    description: ""
-    maintainers:
-    - cblecker
-    - nikhita
-    - parispittman
-    - Phillels
-    members:
-    - thockin
     privacy: closed

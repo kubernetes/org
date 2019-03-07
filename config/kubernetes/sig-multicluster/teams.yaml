@@ -1,9 +1,8 @@
 teams:
   sig-multicluster-api-reviews:
     description: ""
-    maintainers:
-    - csbell
     members:
+    - csbell
     - davidopp
     - jianhuiz
     - madhusudancs
@@ -15,24 +14,22 @@ teams:
     privacy: closed
   sig-multicluster-bugs:
     description: ""
-    maintainers:
-    - csbell
-    - nikhiljindal
-    - quinton-hoole
     members:
+    - csbell
     - irfanurrehman
     - jianhuiz
     - madhusudancs
     - marun
     - mwielgus
+    - nikhiljindal
+    - quinton-hoole
     - quinton-hoole-2
     - shashidharatd
     privacy: closed
   sig-multicluster-feature-requests:
     description: ""
-    maintainers:
-    - csbell
     members:
+    - csbell
     - davidopp
     - derekwaynecarr
     - jianhuiz
@@ -46,30 +43,28 @@ teams:
     privacy: closed
   sig-multicluster-misc:
     description: 'SIG for multi cluster: https://groups.google.com/forum/#!forum/kubernetes-sig-multicluster'
-    maintainers:
-    - csbell
-    - madhusudancs
-    - nikhiljindal
-    - quinton-hoole
     members:
     - alfred-huangjian
+    - csbell
     - davidopp
     - derekwaynecarr
     - huangyuqi
     - irfanurrehman
     - jianhuiz
     - liggitt
+    - madhusudancs
     - marun
     - mwielgus
+    - nikhiljindal
+    - quinton-hoole
     - quinton-hoole-2
     - shashidharatd
     - smarterclayton
     privacy: closed
   sig-multicluster-pr-reviews:
     description: ""
-    maintainers:
-    - csbell
     members:
+    - csbell
     - jianhuiz
     - madhusudancs
     - marun
@@ -81,11 +76,8 @@ teams:
     privacy: closed
   sig-multicluster-proposals:
     description: ""
-    maintainers:
-    - csbell
-    - quinton-hoole
-    - quinton-hoole-2
     members:
+    - csbell
     - davidopp
     - derekwaynecarr
     - jianhuiz
@@ -94,6 +86,8 @@ teams:
     - marun
     - mwielgus
     - nikhiljindal
+    - quinton-hoole
+    - quinton-hoole-2
     - shashidharatd
     - smarterclayton
     previously:
@@ -101,9 +95,8 @@ teams:
     privacy: closed
   sig-multicluster-test-failures:
     description: ""
-    maintainers:
-    - csbell
     members:
+    - csbell
     - irfanurrehman
     - jianhuiz
     - madhusudancs

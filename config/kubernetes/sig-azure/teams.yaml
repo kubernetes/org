@@ -1,16 +1,15 @@
 teams:
   sig-azure:
     description: General discussion for SIG Azure
-    maintainers:
-    - dstrebel
-    - feiskyer
-    - justaugustus
-    - khenidak
     members:
     - andyzhangx
     - brendandburns
     - craiglpeters
+    - dstrebel
+    - feiskyer
+    - justaugustus
     - karataliu
+    - khenidak
     - lachie83
     - ritazh
     - soggiest

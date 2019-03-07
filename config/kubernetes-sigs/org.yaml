@@ -392,6 +392,7 @@ teams:
     - rhatdan
     - runcom
     - sboeuf
+    - umohnani8
     privacy: closed
   cri-tools-admins:
     description: admin access to cri-tools

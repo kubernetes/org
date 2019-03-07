@@ -66,11 +66,13 @@ teams:
   kubebuilder-declarative-pattern-admins:
     description: admin access to kubebuilder-declarative-pattern
     members:
+    - johnsonj
     - justinsb
     privacy: closed
   kubebuilder-declarative-pattern-maintainers:
     description: write access to kubebuilder-declarative-pattern
     members:
+    - johnsonj
     - justinsb
     privacy: closed
   kubebuilder-maintainers:

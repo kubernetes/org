@@ -1,0 +1,13 @@
+teams:
+  multi-tenancy-admins:
+    description: Admin access to multi-tenancy repo
+    members:
+    - davidopp
+    - easeway
+    privacy: closed
+  multi-tenancy-maintainers:
+    description: Write access to multi-tenancy repo
+    members:
+    - davidopp
+    - easeway
+    privacy: closed

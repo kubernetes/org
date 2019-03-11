@@ -181,9 +181,8 @@ members:
 teams:
   admin-bootkube:
     description: ""
-    maintainers:
-    - aaronlevy
     members:
+    - aaronlevy
     - philips
     privacy: closed
   admin-cluster-capacity:
@@ -203,9 +202,8 @@ teams:
     privacy: closed
   admin-custom-metrics-apiserver:
     description: Admins for the custom-metrics-apiserver repo
-    maintainers:
-    - DirectXMan12
     members:
+    - DirectXMan12
     - luxas
     - piosz
     privacy: closed
@@ -217,14 +215,13 @@ teams:
     privacy: closed
   admin-reference-docs:
     description: adminstration of reference-docs repo
-    maintainers:
-    - pwittrock
     members:
+    - pwittrock
     - sarahnovotny
     privacy: closed
   admins-apiserver-builder:
     description: maintainers of the apiserver-builder repository with admin access
-    maintainers:
+    members:
     - DirectXMan12
     - pwittrock
     - yue9944882
@@ -233,15 +230,14 @@ teams:
     description: administrators of the application-images repository
     maintainers:
     - calebamiles
-    - zmerlynn
     members:
     - mattf
+    - zmerlynn
     privacy: closed
   admins-client-python:
     description: admins of the client-python project
-    maintainers:
-    - mbohlool
     members:
+    - mbohlool
     - sarahnovotny
     - smarterclayton
     - yliaog
@@ -249,35 +245,34 @@ teams:
   admins-cluster-proportional-autoscaler:
     description: administers of  the cluster-proportional-autoscaler repository
     maintainers:
-    - bowei
     - calebamiles
-    - MrHohn
     members:
+    - bowei
+    - MrHohn
     - philips
     privacy: closed
   admins-external-dns:
     description: ""
     maintainers:
     - calebamiles
-    - justinsb
     members:
+    - justinsb
     - sarahnovotny
     privacy: closed
   admins-ip-masq-agent:
     description: ""
-    maintainers:
+    members:
     - dnardo
+    - MrHohn
     - mtaufen
     - thockin
-    members:
-    - MrHohn
     privacy: closed
   admins-kargo:
     description: ""
     maintainers:
-    - ant31
     - calebamiles
     members:
+    - ant31
     - bogdando
     - mattymo
     - sarahnovotny
@@ -285,14 +280,13 @@ teams:
     privacy: closed
   admins-kompose:
     description: Admins for kompose
-    maintainers:
-    - sebgoa
     members:
     - bgrant0607
     - cdrage
     - janetkuo
     - kadel
     - ngtuna
+    - sebgoa
     privacy: closed
   admins-kops:
     description: administrators of the kops repository
@@ -303,8 +297,8 @@ teams:
     description: kube-aws repository administrators
     maintainers:
     - calebamiles
-    - colhom
     members:
+    - colhom
     - mumoshu
     - philips
     privacy: closed
@@ -312,9 +306,9 @@ teams:
     description: administrators of the kube2consul repository
     maintainers:
     - calebamiles
-    - elg0nz
     members:
     - bgrant0607
+    - elg0nz
     privacy: closed
   admins-metrics-server:
     description: ""
@@ -324,9 +318,8 @@ teams:
     privacy: closed
   admins-node-feature-discovery:
     description: Administrators of node-feature-discovery
-    maintainers:
-    - balajismaniam
     members:
+    - balajismaniam
     - ConnorDoyle
     - davidopp
     - philips
@@ -335,51 +328,48 @@ teams:
     description: administrators of the rktlet repository
     maintainers:
     - calebamiles
-    - euank
-    - yifan-gu
     members:
     - dchen1107
+    - euank
+    - yifan-gu
     privacy: closed
   admins-service-catalog:
     description: administrators for the service catalog project
-    maintainers:
+    members:
     - carolynvs
     - duglin
-    - pmorie
-    members:
     - kibbles-n-bytes
+    - pmorie
     - sarahnovotny
     privacy: closed
   descheduler-admins:
     description: Admin permission for descheduler repo
-    maintainers:
+    members:
     - aveshagarwal
     privacy: closed
   descheduler-maintainers:
     description: Write permission for descheduler repo
-    maintainers:
+    members:
     - aveshagarwal
     privacy: closed
   descheduler-reviewers:
     description: Read permission for descheduler repo
-    maintainers:
+    members:
     - aveshagarwal
     privacy: closed
   design-reviewer-kube-arbitrator:
     description: The design reviewer of kube-arbitrator
-    maintainers:
-    - k82cn
     members:
     - bsalamat
     - davidopp
     - foxish
+    - k82cn
     - timothysc
     privacy: closed
   external-storage-community:
     description: the extended external storage community
-    maintainers:
-    - childsb
     members:
+    - childsb
     - ianchakeres
     - jsafrane
     - msau42
@@ -395,17 +385,16 @@ teams:
     privacy: closed
   kompose-contributors:
     description: Contributors to kompose repo (read access)
-    maintainers:
-    - sebgoa
     members:
     - bgrant0607
     - cdrage
     - ngtuna
     - procrypt
+    - sebgoa
     privacy: closed
   maintainers-apiserver-builder:
     description: maintainers of apiserver-builder with write access on the repository
-    maintainers:
+    members:
     - DirectXMan12
     - pwittrock
     - yue9944882
@@ -414,9 +403,9 @@ teams:
     description: contributors to the application-images repository
     maintainers:
     - calebamiles
-    - zmerlynn
     members:
     - mattf
+    - zmerlynn
     privacy: closed
   maintainers-bootkube:
     description: ""
@@ -428,12 +417,11 @@ teams:
     privacy: closed
   maintainers-client-python:
     description: maintainers of the client-python project
-    maintainers:
-    - mbohlool
     members:
     - caesarxuchao
     - dims
     - lavalamp
+    - mbohlool
     - sarahnovotny
     - yliaog
     privacy: closed
@@ -449,8 +437,8 @@ teams:
     description: contributors to the cluster-proportional-autoscaler repository
     maintainers:
     - calebamiles
-    - MrHohn
     members:
+    - MrHohn
     - philips
     privacy: closed
   maintainers-cluster-proportional-vertical-autoscaler:
@@ -461,24 +449,22 @@ teams:
     privacy: closed
   maintainers-cri-containerd:
     description: maintainers of cri-containerd repo
-    maintainers:
-    - Random-Liu
     members:
     - abhi
     - dchen1107
     - mikebrow
+    - Random-Liu
     - sarahnovotny
     - yujuhong
     privacy: closed
   maintainers-external-dns:
     description: ""
-    maintainers:
-    - justinsb
     members:
     - chrislovecnm
     - hjacobs
     - ideahitme
     - iterion
+    - justinsb
     - kris-nova
     - linki
     - njuettner
@@ -508,23 +494,22 @@ teams:
   maintainers-kargo:
     description: ""
     maintainers:
-    - ant31
     - calebamiles
     members:
+    - ant31
     - bogdando
     - mattymo
     - rsmitty
     privacy: closed
   maintainers-kompose:
     description: Write access for kompose
-    maintainers:
-    - sebgoa
     members:
     - bgrant0607
     - cab105
     - cdrage
     - janetkuo
     - kadel
+    - sebgoa
     - surajssd
     privacy: closed
   maintainers-kops:
@@ -536,8 +521,8 @@ teams:
     description: maintainers for kube-aws
     maintainers:
     - calebamiles
-    - colhom
     members:
+    - colhom
     - mumoshu
     - pbx0
     - philips
@@ -547,9 +532,9 @@ teams:
     description: contributors to the kube2consul repository
     maintainers:
     - calebamiles
-    - elg0nz
     members:
     - bgrant0607
+    - elg0nz
     privacy: closed
   maintainers-metrics-server:
     description: ""
@@ -567,9 +552,8 @@ teams:
     privacy: closed
   maintainers-node-feature-discovery:
     description: Maintainers of the node-feature-discovery repo.
-    maintainers:
-    - balajismaniam
     members:
+    - balajismaniam
     - ConnorDoyle
     - davidopp
     - flyingcougar
@@ -578,29 +562,26 @@ teams:
     privacy: closed
   maintainers-reference-docs:
     description: maintainers of the reference-docs repo
-    maintainers:
-    - pwittrock
     members:
+    - pwittrock
     - sarahnovotny
     privacy: closed
   maintainers-rktlet:
     description: contributors to the rktlet repository
     maintainers:
     - calebamiles
-    - euank
-    - yifan-gu
     members:
     - dchen1107
+    - euank
+    - yifan-gu
     privacy: closed
   maintainers-service-catalog:
     description: maintainers of the service catalog project
-    maintainers:
-    - carolynvs
-    - duglin
-    - pmorie
     members:
     - arschles
     - bgrant0607
+    - carolynvs
+    - duglin
     - eriknelson
     - jberkhahn
     - jboyd01
@@ -612,6 +593,7 @@ teams:
     - MHBauer
     - n3wscott
     - nilebox
+    - pmorie
     - service-catalog-jenkins
     - slack
     - staebler
@@ -619,10 +601,9 @@ teams:
     privacy: closed
   maintainers-spartakus:
     description: People who maintain spartakus
-    maintainers:
-    - grodrigues3
     members:
     - aronchick
+    - grodrigues3
     - squat
     - thockin
     privacy: closed
@@ -647,12 +628,11 @@ teams:
     privacy: closed
   reviewers-cri-containerd:
     description: reviewers of cri-containerd repo
-    maintainers:
-    - Random-Liu
     members:
     - abhi
     - miaoyq
     - mikebrow
+    - Random-Liu
     - yanxuean
     privacy: closed
   temporary-admin-transfers:

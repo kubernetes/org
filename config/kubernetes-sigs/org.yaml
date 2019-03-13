@@ -274,7 +274,6 @@ teams:
     members:
     - kris-nova
     - krousey
-    - roberthbailey
     - timothysc
     privacy: closed
   cluster-api-maintainers:
@@ -306,7 +305,6 @@ teams:
   cluster-api-provider-digitalocean-admins:
     description: ""
     members:
-    - roberthbailey
     - timothysc
     - xmudrii
     privacy: closed
@@ -316,20 +314,18 @@ teams:
     - nikhita
     members:
     - alvaroaleman
-    - roberthbailey
     - timothysc
     - xmudrii
     privacy: closed
   cluster-api-provider-gcp-admins:
     description: admin access to cluster-api-provider-gcp
     members:
-    - roberthbailey
+    - justinsb
     privacy: closed
   cluster-api-provider-gcp-maintainers:
     description: write access to cluster-api-provider-gcp-maintainers
     members:
     - justinsb
-    - roberthbailey
     privacy: closed
   cluster-api-provider-openstack-admins:
     description: admin access to cluster-api-provider-openstack

@@ -72,3 +72,8 @@ teams:
     - krzyzacy
     - stevekuznetsov
     privacy: closed
+  sig-testing-dummy-project-team:
+    description: dummy team to test prow project plugin; no acl
+    members:
+    - taragu
+    privacy: closed

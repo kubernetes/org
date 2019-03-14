@@ -20,6 +20,7 @@ teams:
     description: ""
     members:
     - andyzhangx
+    - feiskyer
     privacy: closed
   azurefile-csi-driver-admins:
     description: ""
@@ -30,4 +31,6 @@ teams:
     description: ""
     members:
     - andyzhangx
+    - feiskyer
     privacy: closed
+

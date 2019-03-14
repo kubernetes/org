@@ -1420,7 +1420,6 @@ teams:
     description: ""
     members:
     - luxas
-    - roberthbailey
     - timothysc
     privacy: closed
   kubeadm-maintainers:
@@ -1438,7 +1437,6 @@ teams:
     - medinatiger
     - neolit123
     - pipejakob
-    - roberthbailey
     - stealthybox
     - timothysc
     privacy: closed
@@ -1601,7 +1599,6 @@ teams:
     - quinton-hoole-2
     - Random-Liu
     - rmmh
-    - roberthbailey
     - saad-ali
     - smarterclayton
     - soltysh

@@ -4,10 +4,12 @@ teams:
     members:
     - davidopp
     - easeway
+    - tashimi
     privacy: closed
   multi-tenancy-maintainers:
     description: Write access to multi-tenancy repo
     members:
     - davidopp
     - easeway
+    - tashimi
     privacy: closed

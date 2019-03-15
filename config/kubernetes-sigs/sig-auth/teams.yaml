@@ -4,6 +4,7 @@ teams:
     members:
     - davidopp
     - easeway
+    - srampal
     - tashimi
     privacy: closed
   multi-tenancy-maintainers:
@@ -11,5 +12,6 @@ teams:
     members:
     - davidopp
     - easeway
+    - srampal
     - tashimi
     privacy: closed

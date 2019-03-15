@@ -626,24 +626,6 @@ teams:
     - squat
     - thockin
     privacy: closed
-  owners:
-    description: owners of the kubernetes-incubator org
-    maintainers:
-    - calebamiles
-    - spiffxp
-    members:
-    - alex-mohr
-    - bgrant0607
-    - ConnorDoyle
-    - eparis
-    - lavalamp
-    - philips
-    - piosz
-    - sarahnovotny
-    - smarterclayton
-    - spxtr
-    - thockin
-    privacy: closed
   reviewers-cri-containerd:
     description: reviewers of cri-containerd repo
     maintainers:

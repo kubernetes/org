@@ -5,6 +5,7 @@ has_organization_projects: true
 has_repository_projects: true
 members_can_create_repositories: false
 admins:
+- brendandburns
 - calebamiles
 - cblecker
 - fejta
@@ -19,7 +20,6 @@ members:
 - avinassh
 - bgrant0607
 - brejoc
-- brendandburns
 - bsherman
 - caesarxuchao
 - codevulture

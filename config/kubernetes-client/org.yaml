@@ -104,7 +104,7 @@ teams:
     - yliaog
     privacy: closed
   python-base-admins:
-    description: ""
+    description: admin access to python-base
     members:
     - mbohlool
     - yliaog

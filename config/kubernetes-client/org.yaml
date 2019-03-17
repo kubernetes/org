@@ -69,6 +69,16 @@ teams:
     - brendandburns
     - mbohlool
     privacy: closed
+  go-admins:
+    description: admin access to go
+    members:
+    - brendandburns
+    privacy: closed
+  go-base-admins:
+    description: admin access to go-base
+    members:
+    - brendandburns
+    privacy: closed
   haskell-admins:
     description: admin access to haskell
     members:

@@ -26,6 +26,30 @@ teams:
     - Phillels
     - thockin
     privacy: closed
+  community-milestone-maintainers:
+    description: Contributors who can use `/milestone` in the community repo. Defined by an entry in an OWNERS file for a contribex subproject.
+    maintainers:
+    - calebamiles
+    - cblecker
+    - fejta
+    - idvoretskyi
+    - nikhita
+    - spiffxp
+    members:
+    - castrojo
+    - dims
+    - grodrigues3
+    - guineveresaenger
+    - jberkus
+    - jdumars
+    - jeefy
+    - justaugustus
+    - lukaszgryglicki
+    - mrbobbytables
+    - parispittman
+    - Phillels
+    - tpepper
+    privacy: closed
   sig-contributor-experience-bugs:
     description: Bugs relating to contributor-experience infrastructure, such as the
       PR bot, etc.

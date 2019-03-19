@@ -87,7 +87,7 @@ teams:
     - lledru
     - micheleberardi
     privacy: closed
-   sig-docs-ja-owners:
+  sig-docs-ja-owners:
      description: Admins for Japanese content
      maintainers:
      - cstoku

@@ -1,26 +1,31 @@
 teams:
-  sig-docs-en-owners:
-    description: ""
+  sig-docs-en-owners: 
+    description: English content admins 
     maintainers:
-    - Bradamant3
-    - chenopis
+    - bradamant3
+    - jaredbhatti
     - zacharysarah
     members:
     - bradtopol
+    - chenopis
     - cody-clark
-    - jaredbhatti
+    - jimangel
     - kbarnard10
     - mistyhacks
+    - rajakavitha1
     - ryanmcginnis
     - steveperry-53
     - stewart-yu
     - tengqm
     - tfogo
+    - zhangxiaoyu-zidif
     - zparnold
     privacy: closed
   sig-docs-en-reviews:
-    description: Review PRs for English content
+    description: PR reviews for English content
     maintainers:
+    - Bradamant3
+    - jaredbhatti
     - zacharysarah
     members:
     - jimangel
@@ -29,19 +34,69 @@ teams:
     - xiangpengzhao
     - zhangxiaoyu-zidif
     privacy: closed
-  sig-docs-ja-owners:
-    description: sig-docs-ja-owners
+  sig-docs-fr-owners:
+    description: Admins for French content
     maintainers:
-    - cstoku
+    - lledru
+    - sieben
+    - zacharysarah
     members:
-    - chenopis
-    - makocchi-git
-    - MasayaAoyama
-    - nasa9084
-    - tnir
+    - perriea
+    - rekcah78
+    - yastij
+    - smana
+    - rbenzair
+    - abuisine
+    - erickhun
+    - jygastaud
+    - awkif
+    - oussemos
     privacy: closed
+  sig-docs-fr-reviews:
+    description: PR reviews for French content
+    maintainers:
+    - zacharysarah
+    - sieben
+    - lledru
+    members:
+    - perriea
+    - rekcah78
+    - yastij
+    - smana
+    - rbenzair
+    - abuisine
+    - erickhun
+    - jygastaud
+    - awkif
+    - oussemos
+    privacy: closed
+  sig-docs-it-owners:
+    description: Admins for Italian content
+    maintainers:
+    - zacharysarah
+    - rlenferink
+    members:
+    - lledru
+    - micheleberardi
+  sig-docs-it-reviews:
+    description: PR reviews for Italian content
+    maintainers:
+    - zacharysarah
+    - rlenferink
+    members:
+    - lledru
+    - micheleberardi
+    privacy: closed
+   sig-docs-ja-owners:
+     description: Admins for Japanese content
+     maintainers:
+     - cstoku
+     - nasa9084
+     - tnir
+     - zacharysarah
+     privacy: closed
   sig-docs-ja-reviews:
-    description: ""
+    description: PR reviews for Japanese content
     maintainers:
     - cstoku
     - nasa9084
@@ -51,68 +106,67 @@ teams:
     - MasayaAoyama
     privacy: closed
   sig-docs-ko-owners:
-    description: sig-docs-ko-owners
+    description: Admins for Korean content
     maintainers:
+    - claudiajkang
     - gochist
-    members:
-    - ClaudiaJKang
-    - ianychoi
-    privacy: closed
-    teams:
-      sig-docs-ko-reviews:
-        description: Reviews for Korean docs PRs
-        maintainers:
-        - ClaudiaJKang
-        - gochist
-        members:
-        - ianychoi
-        privacy: closed
-  sig-docs-l10n-admins:
-    description: Admins for l10n projects
-    maintainers:
-    - Bradamant3
-    - chenopis
     - zacharysarah
     members:
+    - ianychoi
+    privacy: closed
+  sig-docs-ko-reviews:
+    description: Reviews for Korean docs PRs
+    maintainers:
     - ClaudiaJKang
-    - cstoku
     - gochist
-    - hanjiayao
-    - markthink
-    - tnir
-    - zhangxiaoyu-zidif
+    members:
+    - ianychoi
+    privacy: closed
+  sig-docs-l10n-admins:
+    description: Admins for localization projects
+    maintainers:
+    - bradamant3
+    - jaredbhatti
+    - zacharysarah
+    members:
+    - ClaudiaJKang # Korean
+    - cstoku # Japanese
+    - gochist # Korean
+    - hanjiayao # Chinese
+    - lledru # French
+    - markthink # Chinese
+    - micheleberardi # Italian
+    - rlenferink # Italian
+    - sieben # French
+    - tnir # Japanese
+    - zhangxiaoyu-zidif # Chinese
     privacy: closed
   sig-docs-maintainers:
-    description: Docs maintainers team.
+    description: Docs maintainers team
     maintainers:
-    - chenopis
+    - bradamant3
     - jaredbhatti
     - pwittrock
     - steveperry-53
     - zacharysarah
     members:
-    - Bradamant3
-    - bradtopol
+    - chenopis
     - jimangel
     - kbarnard10
     - mistyhacks
-    - ryanmcginnis
     - tengqm
-    - tfogo
-    - xiangpengzhao
-    - zhangxiaoyu-zidif
     - zparnold
     privacy: closed
   sig-docs-pr-reviews:
-    description: Users authorized to review docs PRs
+    description: PR reviews for docs-related issues
     maintainers:
-    - Bradamant3
-    - chenopis
+    - bradamant3
+    - jaredbhatti
     - zacharysarah
     members:
     - bradtopol
+    - chenopis
     - cody-clark
-    - jaredbhatti
     - jimangel
     - kbarnard10
     - mistyhacks
@@ -127,7 +181,7 @@ teams:
     - zparnold
     privacy: closed
   sig-docs-zh-owners:
-    description: ""
+    description: Admins for Chinese content
     maintainers:
     - hanjiayao
     - tengqm
@@ -136,7 +190,7 @@ teams:
     - zhangxiaoyu-zidif
     privacy: closed
   sig-docs-zh-reviews:
-    description: Reviews for Chinese docs PRs
+    description: PR reviews for Chinese content 
     maintainers:
     - tengqm
     - xiangpengzhao
@@ -145,4 +199,18 @@ teams:
     - chenrui333
     - idealhack
     - pigletfly
+    privacy: closed
+  website-milestone-maintainers:
+    description: Contributors who can use `/milestone` in the website repo. Defined in https://github.com/kubernetes/org/blob/master/config/kubernetes/sig-docs/teams.yaml.
+    maintainers:
+    - bradamant3
+    - jaredbhatti
+    - zacharysarah
+    members:
+    - sig-docs-en-owners
+    - sig-docs-fr-owners
+    - sig-docs-it-owners
+    - sig-docs-ja-owners
+    - sig-docs-ko-owners
+    - sig-docs-zh-owners
     privacy: closed

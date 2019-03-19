@@ -1,109 +1,102 @@
 teams:
   sig-instrumentation-api-reviews:
     description: ""
-    maintainers:
-    - fabxc
-    - piosz
     members:
     - brancz
     - danielqsj
     - DirectXMan12
+    - fabxc
     - fgrzadkowski
     - kawych
     - loburm
     - mxinden
+    - piosz
     - x13n
     - zouyee
     privacy: closed
   sig-instrumentation-bugs:
     description: ""
-    maintainers:
-    - fabxc
-    - piosz
     members:
     - brancz
     - danielqsj
     - DirectXMan12
+    - fabxc
     - fgrzadkowski
     - kawych
     - loburm
     - mxinden
+    - piosz
     - x13n
     - zouyee
     privacy: closed
   sig-instrumentation-feature-requests:
     description: ""
-    maintainers:
-    - fabxc
-    - piosz
     members:
     - brancz
     - danielqsj
     - DirectXMan12
+    - fabxc
     - fgrzadkowski
     - kawych
     - loburm
     - mxinden
+    - piosz
     - x13n
     privacy: closed
   sig-instrumentation-misc:
     description: ""
-    maintainers:
-    - fabxc
-    - piosz
     members:
     - brancz
     - danielqsj
     - DirectXMan12
+    - fabxc
     - fgrzadkowski
     - kawych
     - loburm
     - mxinden
+    - piosz
     - x13n
     privacy: closed
   sig-instrumentation-pr-reviews:
     description: ""
-    maintainers:
-    - fabxc
-    - piosz
     members:
     - brancz
     - danielqsj
     - DirectXMan12
+    - fabxc
     - fgrzadkowski
     - kawych
     - loburm
     - mxinden
+    - piosz
     - x13n
     - zouyee
     privacy: closed
   sig-instrumentation-proposals:
     description: ""
-    maintainers:
-    - fabxc
-    - piosz
     members:
     - brancz
     - danielqsj
     - DirectXMan12
+    - fabxc
     - fgrzadkowski
     - kawych
     - loburm
     - mxinden
+    - piosz
     - x13n
     privacy: closed
   sig-instrumentation-test-failures:
     description: ""
-    maintainers:
-    - fabxc
-    - piosz
     members:
     - brancz
     - danielqsj
     - DirectXMan12
+    - fabxc
     - fgrzadkowski
     - kawych
     - loburm
     - mxinden
+    - piosz
     - x13n
     privacy: closed

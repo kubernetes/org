@@ -18,9 +18,8 @@ teams:
     privacy: closed
   sig-api-machinery-misc:
     description: Use only if you can't figure out a better category
-    maintainers:
-    - deads2k
     members:
+    - deads2k
     - derekwaynecarr
     - enj
     - ironcladlou
@@ -34,9 +33,8 @@ teams:
     privacy: closed
   sig-api-machinery-pr-reviews:
     description: ""
-    maintainers:
-    - deads2k
     members:
+    - deads2k
     - lavalamp
     - liggitt
     - smarterclayton

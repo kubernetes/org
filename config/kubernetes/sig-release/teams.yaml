@@ -2,16 +2,14 @@ teams:
   kubernetes-milestone-maintainers:
     description: Contributors who can use `/milestone` or `/status` commands on issues/PRs.
       This team also grants write access to the kubernetes/enhancements repo to allow
-       editing of descriptions for Enhancement tracking issues.
+      editing of descriptions for Enhancement tracking issues.
     maintainers:
     - calebamiles # Release / PM
     - cblecker # ContribEx
     - fejta # Testing
     - idvoretskyi # PM
-    - justaugustus # Azure / PM / Release
     - nikhita # ContribEx
     - spiffxp # 1.14 RT Lead / Testing
-    - tpepper # Release
     members:
     - abgworrall # GCP
     - alejandrox1 # 1.14 CI Signal
@@ -50,12 +48,14 @@ teams:
     - jagosan # Cloud Provider
     - jdumars # Architecture
     - jimangel # 1.14 Docs
+    - justaugustus # Azure / PM / Release
     - justinsb # AWS
     - k82cn # Scheduling
     - kacole2 # 1.14 CI Signal
     - khenidak # Azure
     - kow3ns # Apps
     - kris-nova # AWS
+    - krmayankk # 1.14 RT Bug Triage
     - lavalamp # API Machinery
     - liggitt # Release
     - liyinan926 # Big Data
@@ -76,17 +76,20 @@ teams:
     - prydonius # Apps
     - pwittrock # CLI
     - quinton-hoole-2 # Multicluster
-    - roberthbailey # Cluster Lifecycle
     - saad-ali # Storage
     - seans3 # CLI
     - shyamjvs # Scalability
+    - smourapina # 1.14 CI Signal
+    - soggiest # 1.14 Bug Triage Shadow
     - soltysh # CLI
     - spzala # IBM Cloud
     - stevekuznetsov # Testing
     - tallclair # Auth
     - thockin # Network
     - timothysc # Cluster Lifecycle / Testing
+    - tpepper # Release
     - wojtek-t # Scalability
+    - xmudrii # 1.14 Bug Triage Shadow
     - zacharysarah # Docs
     privacy: closed
   kubernetes-release-managers:
@@ -96,26 +99,24 @@ teams:
       management is needed. Remove users who are not actively doing this job.
     maintainers:
     - calebamiles
-    - justaugustus
     - spiffxp # 1.14 RT Lead
-    - tpepper # 1.13 PRM
     members:
     - aleksandra-malinowska # 1.13 PRM
     - BenTheElder # 1.14 RT Lead Shadow
     - feiskyer # 1.12 PRM
     - foxish # 1.11 PRM
     - hoegaarden # 1.14 Branch Manager
+    - justaugustus
     - k8s-release-robot
     - maciekpytel # 1.10 PRM
     - marpaia # 1.14 RT Lead Shadow
+    - tpepper # 1.13 PRM
     privacy: closed
   sig-release:
     description: SIG Release Members
     maintainers:
     - calebamiles
-    - justaugustus
     - spiffxp
-    - tpepper
     members:
     - abgworrall
     - AishSundar
@@ -144,6 +145,7 @@ teams:
     - jdumars
     - jimangel
     - jpbetz
+    - justaugustus
     - kacole2
     - kbarnard10
     - krzyzacy
@@ -165,6 +167,7 @@ teams:
     - shyamjvs
     - steveperry-53
     - tfogo
+    - tpepper
     - wojtek-t
     - zacharysarah
     - zparnold
@@ -174,6 +177,17 @@ teams:
         description: Admins for SIG Release repositories
         maintainers:
         - calebamiles
+        members:
         - justaugustus
         - tpepper
         privacy: closed
+  publishing-bot-reviewers:
+    description: Reviews for publishing-bot
+    maintainers:
+    - nikhita
+    members:
+    - caesarxuchao
+    - dims
+    - mfojtik
+    - sttts
+    privacy: closed

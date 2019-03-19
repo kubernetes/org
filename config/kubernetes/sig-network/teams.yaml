@@ -24,8 +24,6 @@ teams:
     privacy: closed
   sig-network-misc:
     description: Network SIG
-    maintainers:
-    - dcbw
     members:
     - aanm
     - bowei
@@ -33,6 +31,7 @@ teams:
     - caseydavenport
     - danwinship
     - davidopp
+    - dcbw
     - dnardo
     - eghobo
     - eparis

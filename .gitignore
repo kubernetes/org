@@ -3,3 +3,4 @@
 *~
 /bazel-*
 .DS_Store
+.idea/

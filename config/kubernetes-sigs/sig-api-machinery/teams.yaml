@@ -1,20 +1,20 @@
 teams:
   controller-runtime-admins:
-    description: "admin access to controller-runtime"
+    description: admin access to controller-runtime
     members:
     - DirectXMan12
     - droot
     - pwittrock
     privacy: closed
   controller-runtime-contributors:
-    description: "read access to controller-runtime"
+    description: read access to controller-runtime
     members:
     - fanzhangio
     - lichuqiang
     - pwittrock
     privacy: closed
   controller-runtime-maintainers:
-    description: "write access to controller-runtime"
+    description: write access to controller-runtime
     members:
     - Liujingfang1
     - mengqiy
@@ -22,7 +22,7 @@ teams:
     - seans3
     privacy: closed
   controller-tools-admins:
-    description: "admin access to controller-tools"
+    description: admin access to controller-tools
     members:
     - DirectXMan12
     - droot
@@ -30,13 +30,13 @@ teams:
     - seans3
     privacy: closed
   controller-tools-contributors:
-    description: "read access to controller-tools"
+    description: read access to controller-tools
     members:
     - Birdrock
     - pwittrock
     privacy: closed
   controller-tools-maintainers:
-    description: "write access to controller-tools"
+    description: write access to controller-tools
     members:
     - droot
     - mengqiy
@@ -44,12 +44,11 @@ teams:
     - seans3
     privacy: closed
   kubebuilder-admins:
-    description: "admin access to kubebuilder"
-    maintainers:
-    - grodrigues3
+    description: admin access to kubebuilder
     members:
     - DirectXMan12
     - droot
+    - grodrigues3
     - Liujingfang1
     - mengqiy
     - monopole
@@ -57,15 +56,27 @@ teams:
     - pwittrock
     privacy: closed
   kubebuilder-contributors:
-    description: "read access to kubebuilder"
+    description: read access to kubebuilder
     members:
     - DirectXMan12
     - fanzhangio
     - lichuqiang
     - pwittrock
     privacy: closed
+  kubebuilder-declarative-pattern-admins:
+    description: admin access to kubebuilder-declarative-pattern
+    members:
+    - johnsonj
+    - justinsb
+    privacy: closed
+  kubebuilder-declarative-pattern-maintainers:
+    description: write access to kubebuilder-declarative-pattern
+    members:
+    - johnsonj
+    - justinsb
+    privacy: closed
   kubebuilder-maintainers:
-    description: "write access to kubebuilder"
+    description: write access to kubebuilder
     members:
     - apelisse
     - DirectXMan12
@@ -75,18 +86,6 @@ teams:
     - pmorie
     - pwittrock
     - seans3
-    privacy: closed
-  kubebuilder-declarative-pattern-admins:
-    description: "admin access to kubebuilder-declarative-pattern"
-    members:
-    # - johnsonj # TODO: uncomment once johnsonj is a member, ref: https://github.com/kubernetes/org/issues/418#issuecomment-465357261
-    - justinsb
-    privacy: closed
-  kubebuilder-declarative-pattern-maintainers:
-    description: "write access to kubebuilder-declarative-pattern"
-    members:
-    # - johnsonj # TODO: uncomment once johnsonj is a member, ref: https://github.com/kubernetes/org/issues/418#issuecomment-465357261
-    - justinsb
     privacy: closed
   kubernetes/sig-api-machinery:
     description: Parent team for all SIG API Machinery subteams (approvers, reviewers,
@@ -116,31 +115,30 @@ teams:
         privacy: closed
   structured-merge-diff-admins:
     description: admin access to structured-merge-diff
-    maintainers:
-      - apelisse
-      - lavalamp
+    members:
+    - apelisse
+    - lavalamp
     privacy: closed
   structured-merge-diff-maintainers:
     description: write access to structured-merge-diff
-    maintainers:
-      - apelisse
-      - lavalamp
     members:
-      - jennybuckley
+    - apelisse
+    - jennybuckley
+    - lavalamp
     privacy: closed
   yaml-admins:
     description: ""
-    maintainers:
-      - deads2k
-      - dims
-      - lavalamp
-      - liggitt
+    members:
+    - deads2k
+    - dims
+    - lavalamp
+    - liggitt
     privacy: closed
   yaml-maintainers:
     description: ""
-    maintainers:
-      - deads2k
-      - dims
-      - lavalamp
-      - liggitt
+    members:
+    - deads2k
+    - dims
+    - lavalamp
+    - liggitt
     privacy: closed

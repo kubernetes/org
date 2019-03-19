@@ -1,10 +1,9 @@
 teams:
   sig-architecture-api-reviews:
     description: SIG Architecture API review notifications
-    maintainers:
-    - liggitt
     members:
     - bgrant0607
+    - liggitt
     - smarterclayton
     privacy: closed
   sig-architecture-bugs:
@@ -16,9 +15,9 @@ teams:
     description: SIG Architecture feature request notifications
     maintainers:
     - idvoretskyi
-    - liggitt
     members:
     - bgrant0607
+    - liggitt
     - smarterclayton
     privacy: closed
   sig-architecture-misc-use-only-as-a-last-resort:
@@ -30,11 +29,10 @@ teams:
     privacy: closed
   sig-architecture-pr-reviews:
     description: SIG Architecture PR review notifications
-    maintainers:
-    - liggitt
     members:
     - bgrant0607
     - jbeda
+    - liggitt
     - smarterclayton
     - timothysc
     privacy: closed

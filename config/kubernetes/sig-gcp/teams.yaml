@@ -1,36 +1,36 @@
 teams:
   sig-gcp-api-reviews:
     description: ""
-    maintainers:
+    members:
     - abgworrall
     privacy: closed
   sig-gcp-bugs:
     description: ""
-    maintainers:
+    members:
     - abgworrall
     privacy: closed
   sig-gcp-feature-requests:
     description: ""
-    maintainers:
+    members:
     - abgworrall
     privacy: closed
   sig-gcp-misc:
     description: ""
-    maintainers:
+    members:
     - abgworrall
     privacy: closed
   sig-gcp-pr-reviews:
     description: ""
-    maintainers:
+    members:
     - abgworrall
     privacy: closed
   sig-gcp-proposals:
     description: ""
-    maintainers:
+    members:
     - abgworrall
     privacy: closed
   sig-gcp-test-failures:
     description: ""
-    maintainers:
+    members:
     - abgworrall
     privacy: closed

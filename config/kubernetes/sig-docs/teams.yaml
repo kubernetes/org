@@ -6,7 +6,6 @@ teams:
     - jaredbhatti
     - zacharysarah
     members:
-    - Bradamant3
     - bradtopol
     - chenopis
     - cody-clark
@@ -33,7 +32,6 @@ teams:
     - Rajakavitha1
     - stewart-yu
     - xiangpengzhao
-    - zacharysarah
     - zhangxiaoyu-zidif
     privacy: closed
   sig-docs-fr-owners:
@@ -43,48 +41,46 @@ teams:
     - sieben
     - zacharysarah
     members:
-    - perriea
-    - rekcah78
-    - yastij
-    - smana
-    - rbenzair
     - abuisine
-    - erickhun
-    - jygastaud
     - awkif
+    - jygastaud
     - oussemos
+    - perriea
+    - rbenzair
+    - rekcah78
+    - smana
+    - yastij
     privacy: closed
   sig-docs-fr-reviews:
     description: PR reviews for French content
     maintainers:
-    - zacharysarah
-    - sieben
     - lledru
+    - sieben
+    - zacharysarah
     members:
-    - perriea
-    - rekcah78
-    - yastij
-    - smana
-    - rbenzair
     - abuisine
-    - erickhun
-    - jygastaud
     - awkif
+    - jygastaud
     - oussemos
+    - perriea
+    - rbenzair
+    - rekcah78
+    - smana
+    - yastij
     privacy: closed
   sig-docs-it-owners:
     description: Admins for Italian content
     maintainers:
-    - zacharysarah
     - rlenferink
+    - zacharysarah
     members:
     - lledru
     - micheleberardi
   sig-docs-it-reviews:
     description: PR reviews for Italian content
     maintainers:
-    - zacharysarah
     - rlenferink
+    - zacharysarah
     members:
     - lledru
     - micheleberardi
@@ -104,11 +100,8 @@ teams:
     - nasa9084
     - tnir
     members:
-    - cstoku
     - makocchi-git
     - MasayaAoyama
-    - nasa9084
-    - tnir
     privacy: closed
   sig-docs-ko-owners:
     description: Admins for Korean content
@@ -169,7 +162,6 @@ teams:
     - jaredbhatti
     - zacharysarah
     members:
-    - Bradamant3
     - bradtopol
     - chenopis
     - cody-clark
@@ -183,7 +175,6 @@ teams:
     - tengqm
     - tfogo
     - xiangpengzhao
-    - zacharysarah
     - zhangxiaoyu-zidif
     - zparnold
     privacy: closed
@@ -192,6 +183,8 @@ teams:
     maintainers:
     - hanjiayao
     - tengqm
+    - zacharysarah
+    members:
     - xiangpengzhao
     - zhangxiaoyu-zidif
     privacy: closed
@@ -205,9 +198,6 @@ teams:
     - chenrui333
     - idealhack
     - pigletfly
-    - tengqm
-    - xiangpengzhao
-    - zhangxiaoyu-zidif
     privacy: closed
   website-milestone-maintainers:
     description: Contributors who can use `/milestone` in the website repo. Defined in https://github.com/kubernetes/org/blob/master/config/kubernetes/sig-docs/teams.yaml.
@@ -216,10 +206,38 @@ teams:
     - jaredbhatti
     - zacharysarah
     members:
-    - sig-docs-en-owners
-    - sig-docs-fr-owners
-    - sig-docs-it-owners
-    - sig-docs-ja-owners
-    - sig-docs-ko-owners
-    - sig-docs-zh-owners
+    - abuisine
+    - awkif
+    - bradtopol
+    - chenopis
+    - claudiajkang
+    - cody-clark
+    - cstoku
+    - gochist
+    - hanjiayao
+    - jimangel
+    - jygastaud
+    - kbarnard10
+    - lledru
+    - micheleberardi
+    - mistyhacks
+    - nasa9084
+    - oussemos
+    - perriea
+    - rajakavitha1
+    - rbenzair
+    - rekcah78
+    - rlenferink
+    - ryanmcginnis
+    - sieben
+    - smana
+    - steveperry-53
+    - stewart-yu
+    - tengqm
+    - tfogo
+    - tnir
+    - xiangpengzhao
+    - yastij
+    - zhangxiaoyu-zidif
+    - zparnold    
     privacy: closed

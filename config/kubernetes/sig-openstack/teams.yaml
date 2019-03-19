@@ -3,15 +3,16 @@ teams:
     description: ""
     maintainers:
     - idvoretskyi
+    members:
     - xsgordon
     privacy: closed
   sig-openstack-bugs:
     description: ""
     maintainers:
     - idvoretskyi
-    - xsgordon
     members:
     - NickrenREN
+    - xsgordon
     privacy: closed
   sig-openstack-feature-requests:
     description: ""
@@ -24,7 +25,6 @@ teams:
     description: OpenStack Special Interest Group
     maintainers:
     - idvoretskyi
-    - xsgordon
     members:
     - anguslees
     - codevulture
@@ -42,24 +42,27 @@ teams:
     - rootfs
     - russellb
     - stevemcquaid
+    - xsgordon
     privacy: closed
   sig-openstack-pr-reviews:
     description: ""
     maintainers:
     - idvoretskyi
-    - xsgordon
     members:
     - NickrenREN
+    - xsgordon
     privacy: closed
   sig-openstack-proposals:
     description: ""
     maintainers:
     - idvoretskyi
+    members:
     - xsgordon
     privacy: closed
   sig-openstack-test-failures:
     description: ""
     maintainers:
     - idvoretskyi
+    members:
     - xsgordon
     privacy: closed

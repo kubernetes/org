@@ -6,6 +6,7 @@ teams:
     - jaredbhatti
     - zacharysarah
     members:
+    - Bradamant3
     - bradtopol
     - chenopis
     - cody-clark
@@ -32,6 +33,7 @@ teams:
     - Rajakavitha1
     - stewart-yu
     - xiangpengzhao
+    - zacharysarah
     - zhangxiaoyu-zidif
     privacy: closed
   sig-docs-fr-owners:
@@ -102,8 +104,11 @@ teams:
     - nasa9084
     - tnir
     members:
+    - cstoku
     - makocchi-git
     - MasayaAoyama
+    - nasa9084
+    - tnir
     privacy: closed
   sig-docs-ko-owners:
     description: Admins for Korean content
@@ -164,6 +169,7 @@ teams:
     - jaredbhatti
     - zacharysarah
     members:
+    - Bradamant3
     - bradtopol
     - chenopis
     - cody-clark
@@ -177,6 +183,7 @@ teams:
     - tengqm
     - tfogo
     - xiangpengzhao
+    - zacharysarah
     - zhangxiaoyu-zidif
     - zparnold
     privacy: closed
@@ -185,7 +192,6 @@ teams:
     maintainers:
     - hanjiayao
     - tengqm
-    members:
     - xiangpengzhao
     - zhangxiaoyu-zidif
     privacy: closed
@@ -199,6 +205,9 @@ teams:
     - chenrui333
     - idealhack
     - pigletfly
+    - tengqm
+    - xiangpengzhao
+    - zhangxiaoyu-zidif
     privacy: closed
   website-milestone-maintainers:
     description: Contributors who can use `/milestone` in the website repo. Defined in https://github.com/kubernetes/org/blob/master/config/kubernetes/sig-docs/teams.yaml.

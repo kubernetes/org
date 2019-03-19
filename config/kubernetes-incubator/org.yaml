@@ -17,6 +17,7 @@ admins:
 members:
 - aaronlevy
 - abhi
+- adohe
 - alex-mohr
 - ant31
 - aronchick
@@ -154,6 +155,7 @@ members:
 - stewart-yu
 - sttts
 - surajssd
+- taragu
 - tengqm
 - thockin
 - timothysc
@@ -223,15 +225,9 @@ teams:
   admins-apiserver-builder:
     description: maintainers of the apiserver-builder repository with admin access
     maintainers:
-    - calebamiles
-    - pwittrock
-    members:
-    - brancz
     - DirectXMan12
-    - hongchaodeng
-    - jimmidyson
-    - MHBauer
-    - xiang90
+    - pwittrock
+    - yue9944882
     privacy: closed
   admins-application-images:
     description: administrators of the application-images repository
@@ -410,16 +406,8 @@ teams:
   maintainers-apiserver-builder:
     description: maintainers of apiserver-builder with write access on the repository
     maintainers:
-    - calebamiles
-    - MHBauer
-    - pwittrock
-    - vaikas-google
-    members:
-    - brancz
     - DirectXMan12
-    - hongchaodeng
-    - jimmidyson
-    - xiang90
+    - pwittrock
     - yue9944882
     privacy: closed
   maintainers-application-images:
@@ -636,25 +624,6 @@ teams:
     members:
     - aronchick
     - squat
-    - thockin
-    privacy: closed
-  owners:
-    description: owners of the kubernetes-incubator org
-    maintainers:
-    - calebamiles
-    - spiffxp
-    members:
-    - alex-mohr
-    - bgrant0607
-    - ConnorDoyle
-    - eparis
-    - lavalamp
-    - philips
-    - piosz
-    - roberthbailey
-    - sarahnovotny
-    - smarterclayton
-    - spxtr
     - thockin
     privacy: closed
   reviewers-cri-containerd:

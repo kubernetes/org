@@ -1,18 +1,31 @@
 teams:
   sig-azure:
     description: General discussion for SIG Azure
-    maintainers:
-    - dstrebel
-    - feiskyer
-    - justaugustus
-    - khenidak
     members:
     - andyzhangx
     - brendandburns
     - craiglpeters
+    - dstrebel
+    - feiskyer
+    - justaugustus
     - karataliu
+    - khenidak
     - lachie83
     - ritazh
     - soggiest
     - tariq1890
+    privacy: closed
+  cloud-provider-azure-admins:
+    description: ""
+    members:
+    - feiskyer
+    - justaugustus
+    privacy: closed
+  cloud-provider-azure-maintainers:
+    description: ""
+    members:
+    - andyzhangx
+    - feiskyer
+    - justaugustus
+    - ritazh
     privacy: closed

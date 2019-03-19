@@ -1,10 +1,6 @@
 teams:
   sig-cluster-lifecycle:
     description: Use only if you can't figure out a better category
-    maintainers:
-    - luxas
-    - roberthbailey
-    - timothysc
     members:
     - chuckha
     - detiber
@@ -15,20 +11,18 @@ teams:
     - karan
     - krousey
     - liztio
+    - luxas
     - medinatiger
     - neolit123
     - pipejakob
     - rosti
     - stealthybox
+    - timothysc
     - xiangpengzhao
     - yagonobre
     privacy: closed
   sig-cluster-lifecycle-pr-reviews:
     description: ""
-    maintainers:
-    - luxas
-    - roberthbailey
-    - timothysc
     members:
     - chuckha
     - detiber
@@ -39,11 +33,13 @@ teams:
     - karan
     - krousey
     - liztio
+    - luxas
     - medinatiger
     - neolit123
     - pipejakob
     - rosti
     - stealthybox
+    - timothysc
     - xiangpengzhao
     - yagonobre
     - zouyee

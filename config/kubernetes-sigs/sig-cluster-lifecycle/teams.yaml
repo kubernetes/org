@@ -1,4 +1,14 @@
 teams:
+  addon-operators-admins:
+    description: admin access to addon-operators
+    members:
+    - justinsb
+    privacy: closed
+  addon-operators-maintainers:
+    description: write access to addon-operators
+    members:
+    - justinsb
+    privacy: closed
   cluster-api-admins:
     description: ""
     members:

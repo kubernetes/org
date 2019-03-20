@@ -97,6 +97,18 @@ teams:
     - brendandburns
     - mbohlool
     privacy: closed
+  perl-admins:
+    description: admin access to perl
+    members:
+    - mbohlool
+    - yue9944882
+    privacy: closed
+  perl-maintainers:
+    description: write access to perl
+    members:
+    - mbohlool
+    - yue9944882
+    privacy: closed
   python-admins:
     description: admin access to python
     members:

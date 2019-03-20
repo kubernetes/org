@@ -3,6 +3,9 @@ teams:
     description: admin access to addon-operators
     members:
     - justinsb
+    - luxas
+    - roberthbailey
+    - timothysc
     privacy: closed
   addon-operators-maintainers:
     description: write access to addon-operators
@@ -14,6 +17,8 @@ teams:
     members:
     - kris-nova
     - krousey
+    - luxas
+    - roberthbailey
     - timothysc
     privacy: closed
   cluster-api-maintainers:
@@ -29,6 +34,9 @@ teams:
     description: admin access to cluster-api-provider-aws
     members:
     - detiber
+    - luxas
+    - roberthbailey
+    - timothysc
     privacy: closed
   cluster-api-provider-aws-maintainers:
     description: write access to cluster-api-provider-aws
@@ -45,6 +53,8 @@ teams:
   cluster-api-provider-digitalocean-admins:
     description: ""
     members:
+    - luxas
+    - roberthbailey
     - timothysc
     - xmudrii
     privacy: closed
@@ -61,6 +71,9 @@ teams:
     description: admin access to cluster-api-provider-gcp
     members:
     - justinsb
+    - luxas
+    - roberthbailey
+    - timothysc
     privacy: closed
   cluster-api-provider-gcp-maintainers:
     description: write access to cluster-api-provider-gcp-maintainers
@@ -72,6 +85,9 @@ teams:
     members:
     - chaosaffe
     - dims
+    - luxas
+    - roberthbailey
+    - timothysc
     privacy: closed
   cluster-api-provider-openstack-maintainers:
     description: write access to cluster-api-provider-openstack

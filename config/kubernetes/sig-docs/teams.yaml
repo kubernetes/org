@@ -1,4 +1,16 @@
 teams:
+  sig-docs-de-owners: 
+    description: German content admins 
+    members:
+    - bene2k1
+    - rlenferink
+    privacy: closed
+  sig-docs-de-reviews:
+    description: PR reviews for German content
+    members:
+    - bene2k1
+    - rlenferink
+    privacy: closed
   sig-docs-en-owners: 
     description: English content admins 
     members:
@@ -185,6 +197,7 @@ teams:
     members:
     - abuisine
     - awkif
+    - bene2k1
     - bradamant3    
     - bradtopol
     - chenopis

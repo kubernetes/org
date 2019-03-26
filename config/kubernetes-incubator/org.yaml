@@ -581,9 +581,9 @@ teams:
     maintainers:
     - pwittrock
     members:
+    - jimangel
     - sarahnovotny
     - tengqm
-    - jimangel
     privacy: closed
   maintainers-rktlet:
     description: contributors to the rktlet repository

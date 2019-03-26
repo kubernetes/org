@@ -22,10 +22,10 @@ e.g. alice, bob
 ### If not a staging repo, who should have write access
 e.g. chris, dianne
 
-### If a new repo, who should be listed as approvers in OWNERS
+### If not a staging repo, who should be listed as approvers in OWNERS
 e.g. alice, bob
 
-### If a new repo, who should be listed in SECURITY_CONTACTS
+### If not a staging repo, who should be listed in SECURITY_CONTACTS
 e.g. alice, bob
 
 ### What should the repo description be

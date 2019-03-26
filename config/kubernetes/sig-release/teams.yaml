@@ -94,25 +94,29 @@ teams:
     - zacharysarah # Docs
     privacy: closed
   kubernetes-release-managers:
-    description: People actively working on next k8s minor release, or who are patch
-      managers for any still-supported minor release. Gives admin access to repos
+    description: People actively working on next k8s minor release.  Gives admin access to repos
       where branches must be created, etc., and write access to ones where label/PR
       management is needed. Remove users who are not actively doing this job.
     maintainers:
     - calebamiles
     - spiffxp # 1.14 RT Lead
     members:
-    - aleksandra-malinowska # 1.13 PRM
     - BenTheElder # 1.14 RT Lead Shadow
-    - feiskyer # 1.12 PRM
-    - foxish # 1.11 PRM
-    - hoegaarden # 1.14 Branch Manager
     - justaugustus
     - k8s-release-robot
-    - maciekpytel # 1.10 PRM
     - marpaia # 1.14 RT Lead Shadow
-    - tpepper # 1.13 PRM
     privacy: closed
+    teams:
+      patch-release-team:
+        description: People managing patch releases of prior k8s minor release branches.
+        maintainers:
+        - justaugustus
+        members:
+        - aleksandra-malinowska
+        - feiskyer
+        - hoegaarden
+        - tpepper
+        privacy: closed
   sig-release:
     description: SIG Release Members
     maintainers:

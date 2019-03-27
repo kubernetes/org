@@ -943,6 +943,7 @@ teams:
   cloud-provider-openstack-maintainers:
     description: Write access to the cloud-provider-openstack repo
     members:
+    - adisky
     - dims
     - dklyle
     - hogepodge

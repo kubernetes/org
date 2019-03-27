@@ -1,6 +1,6 @@
 teams:
   sig-docs-de-owners: 
-    description: German content admins 
+    description: Admins for German content
     members:
     - bene2k1
     - rlenferink
@@ -12,7 +12,7 @@ teams:
     - rlenferink
     privacy: closed
   sig-docs-en-owners: 
-    description: English content admins 
+    description: Admins for English content
     members:
     - bradamant3
     - bradtopol

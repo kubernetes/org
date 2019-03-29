@@ -288,13 +288,17 @@ teams:
     - spiffxp
     members:
     - frapposelli
+    - sflxn
     privacy: closed
   cluster-api-provider-vsphere-maintainers:
     description: write access to cluster-api-provider-vsphere
     maintainers:
     - spiffxp
     members:
+    - figo
     - frapposelli
+    - sflxn
+    - sidharthsurana
     privacy: closed
   cri-o-admins:
     description: admin access to cri-o

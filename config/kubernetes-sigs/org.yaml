@@ -296,18 +296,6 @@ teams:
     members:
     - frapposelli
     privacy: closed
-  contributor-site-admins:
-    description: admin access to contributor-site
-    members:
-    - castrojo
-    - mrbobbytables
-    privacy: closed
-  contributor-site-maintainers:
-    description: write access to contributor-site
-    members:
-    - castrojo
-    - mrbobbytables
-    privacy: closed
   cri-o-admins:
     description: admin access to cri-o
     members:

@@ -471,23 +471,6 @@ teams:
     - riverzhang
     - woopstar
     privacy: closed
-  kustomize-admins:
-    description: ""
-    members:
-    - droot
-    - monopole
-    - pwittrock
-    privacy: closed
-  kustomize-contributors:
-    description: ""
-    members:
-    - pwittrock
-    privacy: closed
-  kustomize-maintainers:
-    description: ""
-    members:
-    - pwittrock
-    privacy: closed
   mutating-trace-admission-controller:
     description: ""
     maintainers:

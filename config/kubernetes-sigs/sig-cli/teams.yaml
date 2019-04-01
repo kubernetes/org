@@ -13,6 +13,50 @@ teams:
     - Liujingfang1
     - monopole
     privacy: closed
+  krew-admins:
+    description: admin access to krew
+    members:
+    - ahmetb
+    - juanvallejo
+    - seans3
+    - soltysh
+    privacy: closed
+  krew-maintainers:
+    description: write access to krew
+    members:
+    - adohe
+    - ahmetb
+    - fabianofranz
+    - janetkuo
+    - liggitt
+    - mengqiy
+    - monopole
+    - pwittrock
+    - seans3
+    - soltysh
+    privacy: closed
+  krew-index-admins:
+    description: admin access to krew-index
+    members:
+    - ahmetb
+    - juanvallejo
+    - seans3
+    - soltysh
+    privacy: closed
+  krew-index-maintainers:
+    description: write access to krew-index
+    members:
+    - adohe
+    - ahmetb
+    - fabianofranz
+    - janetkuo
+    - liggitt
+    - mengqiy
+    - monopole
+    - pwittrock
+    - seans3
+    - soltysh
+    privacy: closed
   kustomize-admins:
     description: ""
     members:

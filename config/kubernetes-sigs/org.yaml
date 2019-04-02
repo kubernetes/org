@@ -254,32 +254,6 @@ teams:
     - mattfarina
     - timothysc
     privacy: closed
-  aws-ebs-csi-driver-admins:
-    description: ""
-    members:
-    - d-nishi
-    - leakingtapan
-    privacy: closed
-  aws-ebs-csi-driver-maintainers:
-    description: ""
-    members:
-    - bertinatto
-    - d-nishi
-    - jsafrane
-    - leakingtapan
-    privacy: closed
-  aws-encryption-provider-admins:
-    description: admin access to aws_encryption-provider repo
-    members:
-    - justinsb
-    - robinpercy
-    privacy: closed
-  aws-encryption-provider-maintainers:
-    description: write access to aws_encryption-provider
-    members:
-    - justinsb
-    - robinpercy
-    privacy: closed
   bots:
     description: Bot Service Accounts in the Kubernetes-SIGs org
     maintainers:

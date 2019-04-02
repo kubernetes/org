@@ -1,0 +1,57 @@
+teams:
+  aws-ebs-csi-driver-admins:
+    description: ""
+    members:
+    - d-nishi
+    - leakingtapan
+    privacy: closed
+  aws-ebs-csi-driver-maintainers:
+    description: ""
+    members:
+    - bertinatto
+    - d-nishi
+    - jsafrane
+    - leakingtapan
+    privacy: closed
+  aws-encryption-provider-admins:
+    description: admin access to aws_encryption-provider repo
+    members:
+    - justinsb
+    - robinpercy
+    privacy: closed
+  aws-encryption-provider-maintainers:
+    description: write access to aws_encryption-provider
+    members:
+    - justinsb
+    - robinpercy
+    privacy: closed
+  aws-fsx-csi-driver-admins:
+    description: admin access to aws-fsx-csi-driver
+    members:
+    - d-nishi
+    - justinsb
+    - leakingtapan
+    privacy: closed
+  aws-fsx-csi-driver-maintainers:
+    description: write access to aws-fsx-csi-driver
+    members:
+    - d-nishi
+    - jsafrane
+    - justinsb
+    - leakingtapan
+    privacy: closed
+  aws-efs-csi-driver-admins:
+    description: admin access to aws-efs-csi-driver
+    members:
+    - d-nishi
+    - justinsb
+    - leakingtapan
+    privacy: closed
+  aws-efs-csi-driver-maintainers:
+    description: write access to aws-efs-csi-driver
+    members:
+    - d-nishi
+    - jsafrane
+    - justinsb
+    - leakingtapan
+    privacy: closed

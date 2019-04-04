@@ -44,6 +44,20 @@ teams:
     - zacharysarah
     - zhangxiaoyu-zidif
     privacy: closed
+  sig-docs-es-owners:
+    description: Admins for Spanish content
+    members:
+    - alexbrand
+    - raelga
+    privacy: closed
+  sig-docs-es-reviews:
+    description: PR reviews for Spanish content
+    members:
+    - alexbrand
+    - electrocucaracha
+    - glo-pena
+    - raelga
+    privacy: closed
   sig-docs-fr-owners:
     description: Admins for French content
     members:
@@ -122,6 +136,7 @@ teams:
   sig-docs-l10n-admins:
     description: Admins for localization projects
     members:
+    - alexbrand # Spanish
     - bradamant3 # English
     - ClaudiaJKang # Korean
     - cstoku # Japanese
@@ -131,6 +146,7 @@ teams:
     - lledru # French
     - markthink # Chinese
     - micheleberardi # Italian
+    - raelga # Spanish
     - rlenferink # Italian
     - sieben # French
     - tnir # Japanese
@@ -196,6 +212,7 @@ teams:
     description: Contributors who can use `/milestone` in the website repo.
     members:
     - abuisine
+    - alexbrand
     - awkif
     - bene2k1
     - bradamant3    
@@ -216,6 +233,7 @@ teams:
     - nasa9084
     - oussemos
     - perriea
+    - raelga
     - rajakavitha1
     - rbenzair
     - rekcah78

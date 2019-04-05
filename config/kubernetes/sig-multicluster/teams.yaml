@@ -9,7 +9,6 @@ teams:
     - mwielgus
     - nikhiljindal
     - quinton-hoole
-    - quinton-hoole-2
     - shashidharatd
     privacy: closed
   sig-multicluster-bugs:
@@ -23,7 +22,6 @@ teams:
     - mwielgus
     - nikhiljindal
     - quinton-hoole
-    - quinton-hoole-2
     - shashidharatd
     privacy: closed
   sig-multicluster-feature-requests:
@@ -37,7 +35,6 @@ teams:
     - mwielgus
     - nikhiljindal
     - quinton-hoole
-    - quinton-hoole-2
     - shashidharatd
     - smarterclayton
     privacy: closed
@@ -57,7 +54,6 @@ teams:
     - mwielgus
     - nikhiljindal
     - quinton-hoole
-    - quinton-hoole-2
     - shashidharatd
     - smarterclayton
     privacy: closed
@@ -71,7 +67,6 @@ teams:
     - mwielgus
     - nikhiljindal
     - quinton-hoole
-    - quinton-hoole-2
     - shashidharatd
     privacy: closed
   sig-multicluster-proposals:
@@ -87,7 +82,6 @@ teams:
     - mwielgus
     - nikhiljindal
     - quinton-hoole
-    - quinton-hoole-2
     - shashidharatd
     - smarterclayton
     previously:
@@ -102,6 +96,5 @@ teams:
     - madhusudancs
     - nikhiljindal
     - quinton-hoole
-    - quinton-hoole-2
     - shashidharatd
     privacy: closed

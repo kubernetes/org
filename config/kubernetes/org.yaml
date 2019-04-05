@@ -1111,6 +1111,18 @@ teams:
     members:
     - danielromlein
     privacy: closed
+  dep-approvers:
+    description: People who can approve dependency changes in kubernetes/kubernetes
+    maintainers:
+    - cblecker
+    members:
+    - apelisse
+    - BenTheElder
+    - dims
+    - soltysh
+    - sttts
+    - thockin
+    privacy: closed
   dns-admins:
     description: Admins of the DNS repository (can admin the repo)
     members:

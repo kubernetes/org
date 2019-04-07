@@ -1,4 +1,4 @@
-load("@io_kubernetes_build//defs:run_in_workspace.bzl", "workspace_binary")
+load("@io_k8s_repo_infra//defs:run_in_workspace.bzl", "workspace_binary")
 
 workspace_binary(
     name = "go",
@@ -48,7 +48,7 @@ gazelle(
 
 workspace_binary(
     name = "kazel",
-    cmd = "@io_kubernetes_build//kazel",
+    cmd = "@io_k8s_repo_infra//kazel",
 )
 
 workspace_binary(
@@ -57,7 +57,7 @@ workspace_binary(
         "--dry-run",
         "--print-diff",
     ],
-    cmd = "@io_kubernetes_build//kazel",
+    cmd = "@io_k8s_repo_infra//kazel",
 )
 
 workspace_binary(

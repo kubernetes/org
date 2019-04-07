@@ -1,43 +1,44 @@
-load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
-git_repository(
+http_archive(
     name = "bazel_skylib",
-    remote = "https://github.com/bazelbuild/bazel-skylib.git",
-    tag = "0.6.0",
+    sha256 = "eb5c57e4c12e68c0c20bc774bfbc60a568e800d025557bc4ea022c6479acc867",
+    strip_prefix = "bazel-skylib-0.6.0",
+    urls = ["https://github.com/bazelbuild/bazel-skylib/archive/0.6.0.tar.gz"],
 )
 
 load("@bazel_skylib//:lib.bzl", "versions")
 
-versions.check(minimum_bazel_version = "0.18.0")
+versions.check(minimum_bazel_version = "0.23.0")
+
+http_archive(
+    name = "io_k8s_repo_infra",
+    sha256 = "4a8384320fba401cbf21fef177aa113ed8fe35952ace98e00b796cac87ae7868",
+    strip_prefix = "repo-infra-df02ded38f9506e5bbcbf21702034b4fef815f2f",
+    urls = ["https://github.com/kubernetes/repo-infra/archive/df02ded38f9506e5bbcbf21702034b4fef815f2f.tar.gz"],
+)
 
 http_archive(
     name = "io_bazel_rules_go",
-    sha256 = "7be7dc01f1e0afdba6c8eb2b43d2fa01c743be1b9273ab1eaf6c233df078d705",
-    urls = ["https://github.com/bazelbuild/rules_go/releases/download/0.16.5/rules_go-0.16.5.tar.gz"],
+    sha256 = "6433336b4c5feb54e2f45df4c1c84ea4385b2dc0b6f274ec2cd5d745045eae1f",
+    urls = ["https://github.com/bazelbuild/rules_go/releases/download/0.17.2/rules_go-0.17.2.tar.gz"],
 )
 
 http_archive(
     name = "bazel_gazelle",
-    sha256 = "7949fc6cc17b5b191103e97481cf8889217263acf52e00b560683413af204fcb",
-    urls = ["https://github.com/bazelbuild/bazel-gazelle/releases/download/0.16.0/bazel-gazelle-0.16.0.tar.gz"],
+    sha256 = "3c681998538231a2d24d0c07ed5a7658cb72bfb5fd4bf9911157c0e9ac6a2687",
+    urls = ["https://github.com/bazelbuild/bazel-gazelle/releases/download/0.17.0/bazel-gazelle-0.17.0.tar.gz"],
 )
 
-load("@io_bazel_rules_go//go:def.bzl", "go_register_toolchains", "go_rules_dependencies")
+load("@io_bazel_rules_go//go:deps.bzl", "go_register_toolchains", "go_rules_dependencies")
 
 go_rules_dependencies()
 
-go_register_toolchains(go_version = "1.11.4")
+go_register_toolchains(go_version = "1.12.1")
 
 load("@bazel_gazelle//:deps.bzl", "gazelle_dependencies", "go_repository")
 
 gazelle_dependencies()
-
-git_repository(
-    name = "io_kubernetes_build",
-    commit = "4ce715fbe67d8fbed05ec2bb47a148e754100a4b",
-    remote = "https://github.com/kubernetes/repo-infra.git",
-)
 
 # TODO(fejta): create a test_infra_repositories and delete the below
 ## IMPLICIT test-infra repos
@@ -55,9 +56,9 @@ k8s_repositories()
 
 http_archive(
     name = "io_bazel_rules_docker",
-    sha256 = "5235045774d2f40f37331636378f21fe11f69906c0386a790c5987a09211c3c4",
-    strip_prefix = "rules_docker-8010a50ef03d1e13f1bebabfc625478da075fa60",
-    urls = ["https://github.com/bazelbuild/rules_docker/archive/8010a50ef03d1e13f1bebabfc625478da075fa60.tar.gz"],
+    sha256 = "aed1c249d4ec8f703edddf35cbe9dfaca0b5f5ea6e4cd9e83e99f3b0d1136c3d",
+    strip_prefix = "rules_docker-0.7.0",
+    urls = ["https://github.com/bazelbuild/rules_docker/archive/v0.7.0.tar.gz"],
 )
 
 load(
@@ -68,12 +69,13 @@ load(
 _go_repositories()
 
 load(
-    "@io_bazel_rules_docker//container:container.bzl",
-    "container_pull",
+    "@io_bazel_rules_docker//repositories:repositories.bzl",
     container_repositories = "repositories",
 )
 
 container_repositories()
+
+load("@io_bazel_rules_docker//container:container.bzl", "container_pull")
 ## END test-infra repos
 
 # Repos needed by utilities

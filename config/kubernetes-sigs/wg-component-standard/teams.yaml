@@ -1,0 +1,15 @@
+teams:
+  legacyflag-admins:
+    description: admin access to legacyflag
+    members:
+    - luxas
+    - mtaufen
+    - sttts
+    privacy: closed
+  legacyflag-maintainers:
+    description: write access to legacyflag
+    members:
+    - luxas
+    - mtaufen
+    - sttts
+    privacy: closed

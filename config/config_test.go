@@ -25,7 +25,7 @@ import (
 	"testing"
 
 	"k8s.io/apimachinery/pkg/util/sets"
-	"k8s.io/test-infra/prow/config"
+						"k8s.io/test-infra/prow/config" // bad gofmt
 	"k8s.io/test-infra/prow/config/org"
 	"k8s.io/test-infra/prow/github"
 

@@ -25,6 +25,7 @@ teams:
     - chenopis # Docs
     - childsb # Storage
     - claurence # 1.14 Enhancements Lead
+    - craiglpeters # 1.15 Enhancement
     - csbell # Multicluster
     - d-nishi # AWS
     - danielromlein # UI
@@ -51,7 +52,7 @@ teams:
     - justaugustus # Azure / PM / Release
     - justinsb # AWS
     - k82cn # Scheduling
-    - kacole2 # 1.14 CI Signal
+    - kacole2 # 1.14 CI Signal / 1.15 Enhancement
     - khenidak # Azure
     - kow3ns # Apps
     - kris-nova # AWS
@@ -66,6 +67,7 @@ teams:
     - michmike # Windows
     - mikedanese # Auth
     - mortent # 1.14 CI Signal
+    - mrbobbytables # 1.15 Enhancement
     - mwielgus # Autoscaling
     - neolit123 # Cluster Lifecycle
     - nikopen # 1.14 Bug Triage
@@ -134,6 +136,7 @@ teams:
     - chenopis
     - cjwagner
     - claurence
+    - craiglpeters
     - dashpole
     - dchen1107
     - dims
@@ -164,6 +167,7 @@ teams:
     - mistyhacks
     - mohammedzee1000
     - monopole
+    - mrbobbytables
     - nickchase
     - nikopen
     - nwoods3

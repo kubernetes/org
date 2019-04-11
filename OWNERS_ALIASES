@@ -10,10 +10,15 @@ aliases:
     - bgrant0607
     - jdumars
     - mattfarina
+    - derekwaynecarr
+    - dims
   sig-auth-leads:
     - mikedanese
     - enj
     - tallclair
+    - deads2k
+    - liggitt
+    - mikedanese
   sig-autoscaling-leads:
     - mwielgus
   sig-aws-leads:
@@ -35,12 +40,9 @@ aliases:
     - hogepodge
     - jagosan
   sig-cluster-lifecycle-leads:
-    - roberthbailey
+    - justinsb
     - luxas
     - timothysc
-  sig-cluster-ops-leads:
-    - zehicle
-    - jdumars
   sig-contributor-experience-leads:
     - Phillels
     - parispittman
@@ -71,8 +73,8 @@ aliases:
     - derekwaynecarr
   sig-openstack-leads:
     - hogepodge
-    - dklyle
-    - rjmorse
+    - adisky
+    - chrigl
   sig-pm-leads:
     - apsinha
     - idvoretskyi
@@ -88,7 +90,6 @@ aliases:
     - bsalamat
     - k82cn
   sig-service-catalog-leads:
-    - carolynvs
     - kibbles-n-bytes
     - jberkhahn
     - jboyd01
@@ -101,27 +102,22 @@ aliases:
     - stevekuznetsov
     - timothysc
   sig-ui-leads:
-    - danielromlein
     - floreks
+    - maciaszczykm
+    - danielromlein
+    - jeefy
   sig-vmware-leads:
     - frapposelli
     - cantbewong
   sig-windows-leads:
     - michmike
     - patricklang
-  wg-app-def-leads:
-    - ant31
-    - bryanl
-    - garethr
   wg-apply-leads:
     - lavalamp
   wg-component-standard-leads:
     - luxas
     - sttts
     - mtaufen
-  wg-container-identity-leads:
-    - smarterclayton
-    - destijl
   wg-iot-edge-leads:
     - cindyxing
     - dejanb
@@ -130,9 +126,6 @@ aliases:
   wg-k8s-infra-leads:
     - dims
     - spiffxp
-  wg-kubeadm-adoption-leads:
-    - luxas
-    - justinsb
   wg-lts-leads:
     - tpepper
     - imkin
@@ -145,7 +138,7 @@ aliases:
     - ConnorDoyle
   wg-multitenancy-leads:
     - davidopp
-    - jessfraz
+    - tashimi
   wg-policy-leads:
     - hannibalhuang
     - tsandall
@@ -159,12 +152,24 @@ aliases:
     - aasmall
     - joelsmith
     - cji
+    - jaybeale
   ug-big-data-leads:
     - foxish
     - erikerlandson
     - liyinan926
-## BEGIN CUSTOM CONTENT
-  steering-committee:
+  committee-code-of-conduct:
+    - jdumars
+    - parispittman
+    - carolynvs
+    - eparis
+    - bradamant3
+  committee-product-security:
+    - philips
+    - cjcullen
+    - tallclair
+    - liggitt
+    - joelsmith
+  committee-steering:
     - bgrant0607
     - brendandburns
     - derekwaynecarr
@@ -177,16 +182,4 @@ aliases:
     - smarterclayton
     - spiffxp
     - timothysc
-  code-of-conduct-committee:
-    - jdumars
-    - parispittman
-    - eparis
-    - carolynvs
-    - bradamant3
-  product-security-committee:
-    - philips
-    - jessfraz
-    - cjcullen
-    - tallclair
-    - liggitt
-## END CUSTOM CONTENT
+

@@ -344,12 +344,9 @@ teams:
   admins-service-catalog:
     description: administrators for the service catalog project
     maintainers:
-    - carolynvs
-    - duglin
-    - pmorie
+    - jberkhahn
+    - jboyd01
     members:
-    - kibbles-n-bytes
-    - sarahnovotny
     privacy: closed
   descheduler-admins:
     description: Admin permission for descheduler repo
@@ -598,15 +595,14 @@ teams:
   maintainers-service-catalog:
     description: maintainers of the service catalog project
     maintainers:
-    - carolynvs
-    - duglin
-    - pmorie
+    - jberkhahn
+    - jboyd01
     members:
     - arschles
     - bgrant0607
+    - carolynvs
+    - duglin
     - eriknelson
-    - jberkhahn
-    - jboyd01
     - jeremyrickard
     - jpeeler
     - kibbles-n-bytes
@@ -615,6 +611,7 @@ teams:
     - MHBauer
     - n3wscott
     - nilebox
+    - pmorie
     - service-catalog-jenkins
     - slack
     - staebler

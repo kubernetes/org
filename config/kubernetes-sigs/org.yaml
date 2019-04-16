@@ -287,23 +287,6 @@ teams:
     - sflxn
     - sidharthsurana
     privacy: closed
-  cri-o-admins:
-    description: admin access to cri-o
-    members:
-    - mrunalp
-    - runcom
-    privacy: closed
-  cri-o-maintainers:
-    description: write access to cri-o
-    members:
-    - giuseppe
-    - mrunalp
-    - rhatdan
-    - runcom
-    - saschagrunert
-    - sboeuf
-    - umohnani8
-    privacy: closed
   cri-tools-admins:
     description: admin access to cri-tools
     members:

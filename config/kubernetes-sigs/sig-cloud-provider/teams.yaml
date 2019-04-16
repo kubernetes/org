@@ -1,0 +1,17 @@
+teams:
+  apiserver-network-proxy-admins:
+    description: admin access to apiserver-network-proxy
+    members:
+    - andrewsykim
+    - anfernee
+    - cheftako
+    - mcrute
+    privacy: closed
+  apiserver-network-proxy-maintainers:
+    description: write access to apiserver-network-proxy
+    members:
+    - andrewsykim
+    - anfernee
+    - cheftako
+    - mcrute
+    privacy: closed

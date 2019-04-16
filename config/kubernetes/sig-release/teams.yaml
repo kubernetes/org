@@ -13,7 +13,6 @@ teams:
     members:
     - abgworrall # GCP
     - alejandrox1 # 1.15 CI Signal
-    - alenkacz # 1.15 CI Signal Shadow
     - andrewsykim # Cloud Provider
     - bgrant0607 # Architecture
     - bradamant3 # Docs
@@ -78,7 +77,6 @@ teams:
     - prydonius # Apps
     - pwittrock # CLI
     - quinton-hoole # Multicluster
-    - rarchk # 1.15 CI Signal Shadow
     - saad-ali # Storage
     - seans3 # CLI
     - shyamjvs # Scalability
@@ -90,9 +88,7 @@ teams:
     - tallclair # Auth
     - thockin # Network
     - timothysc # Cluster Lifecycle / Testing
-    - timmycarr # 1.15 Bug Triage Shadow
     - tpepper # 1.15 Lead Shadow / Release
-    - ttousai # 1.15 Bug Triage Shadow
     - wojtek-t # Scalability
     - xmudrii # 1.15 Bug Triage Shadow
     - zacharysarah # Docs

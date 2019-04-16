@@ -9,23 +9,24 @@ teams:
     - fejta # Testing
     - idvoretskyi # PM
     - nikhita # ContribEx
-    - spiffxp # 1.14 RT Lead / Testing
+    - spiffxp # Testing
     members:
     - abgworrall # GCP
-    - alejandrox1 # 1.14 CI Signal
-    - amwat # 1.14 Test Infra
+    - alejandrox1 # 1.15 CI Signal
+    - alenkacz # 1.15 CI Signal Shadow
     - andrewsykim # Cloud Provider
-    - BenTheElder # 1.14 RT Lead Shadow
     - bgrant0607 # Architecture
     - bradamant3 # Docs
     - brancz # Instrumentation
     - bsalamat # Scheduling
+    - bubblemelon # 1.15 Branch Manager
     - carolynvs # Service Catalog
     - caseydavenport # Network
+    - castrojo # 1.15 Communications
     - chenopis # Docs
     - childsb # Storage
-    - claurence # 1.14 Enhancements Lead
-    - craiglpeters # 1.15 Enhancement
+    - claurence # 1.15 Lead
+    - craiglpeters # 1.15 Enhancements Shadow
     - csbell # Multicluster
     - d-nishi # AWS
     - danielromlein # UI
@@ -36,7 +37,7 @@ teams:
     - dims # Release
     - directxman12 # Autoscaling
     - dklyle # OpenStack
-    - dstrebel # Azure / 1.14 Release Notes
+    - dstrebel # Azure / 1.15 Bug Triage Shadow
     - duglin # Service Catalog
     - enj # Auth
     - fabriziopandini # Cluster Lifecycle
@@ -44,34 +45,32 @@ teams:
     - floreks # UI
     - foxish # Big Data
     - frapposelli # VMware
-    - hoegaarden # 1.14 Branch Manager
     - hogepodge # Cloud Provider / OpenStack
+    - imkin # 1.15 Test Infra
     - jagosan # Cloud Provider
     - jdumars # Architecture
-    - jimangel # 1.14 Docs
+    - jimangel # 1.15 CI Signal Shadow
     - justaugustus # Azure / PM / Release
     - justinsb # AWS
     - k82cn # Scheduling
-    - kacole2 # 1.14 CI Signal / 1.15 Enhancement
+    - kacole2 # 1.15 Enhancements
     - khenidak # Azure
     - kow3ns # Apps
     - kris-nova # AWS
-    - krmayankk # 1.14 RT Bug Triage
+    - lachie83 # 1.15 Lead Shadow
     - lavalamp # API Machinery
     - liggitt # Release
     - liyinan926 # Big Data
     - luxas # Cluster Lifecycle
-    - mariantalla # 1.14 CI Signal
-    - marpaia # 1.14 RT Lead Shadow
+    - MAKOSCAFEE # 1.15 Docs
     - mattfarina # Apps / Architecture
     - michmike # Windows
     - mikedanese # Auth
-    - mortent # 1.14 CI Signal
-    - mrbobbytables # 1.15 Enhancement
+    - mrbobbytables # 1.15 Enhancements Shadow
     - mwielgus # Autoscaling
     - neolit123 # Cluster Lifecycle
-    - nikopen # 1.14 Bug Triage
-    - nwoods3 # 1.14 Communications
+    - nikopen # 1.15 Lead Shadow
+    - onyiny-ang # 1.15 Release Notes
     - parispittman # ContribEx
     - patricklang # Windows
     - phillels # ContribEx
@@ -79,34 +78,35 @@ teams:
     - prydonius # Apps
     - pwittrock # CLI
     - quinton-hoole # Multicluster
+    - rarchk # 1.15 CI Signal Shadow
     - saad-ali # Storage
     - seans3 # CLI
     - shyamjvs # Scalability
-    - smourapina # 1.14 CI Signal
-    - soggiest # 1.14 Bug Triage Shadow
+    - smourapina # 1.15 CI Signal Shadow
+    - soggiest # 1.15 Bug Triage
     - soltysh # CLI
     - spzala # IBM Cloud
     - stevekuznetsov # Testing
     - tallclair # Auth
     - thockin # Network
     - timothysc # Cluster Lifecycle / Testing
-    - tpepper # Release
+    - timmycarr # 1.15 Bug Triage Shadow
+    - tpepper # 1.15 Lead Shadow / Release
+    - ttousai # 1.15 Bug Triage Shadow
     - wojtek-t # Scalability
-    - xmudrii # 1.14 Bug Triage Shadow
+    - xmudrii # 1.15 Bug Triage Shadow
     - zacharysarah # Docs
     privacy: closed
   kubernetes-release-managers:
     description: People actively working on next k8s minor release.  Gives admin access to repos
       where branches must be created, etc., and write access to ones where label/PR
       management is needed. Remove users who are not actively doing this job.
-    maintainers:
-    - calebamiles
-    - spiffxp # 1.14 RT Lead
     members:
-    - BenTheElder # 1.14 RT Lead Shadow
-    - justaugustus
+    - claurence # 1.15 RT Lead
     - k8s-release-robot
-    - marpaia # 1.14 RT Lead Shadow
+    - lachie83 # 1.15 RT Lead Shadow
+    - nikopen # 1.15 RT Lead Shadow
+    - tpepper # 1.15 RT Lead Shadow
     privacy: closed
     teams:
       patch-release-team:

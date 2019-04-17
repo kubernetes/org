@@ -147,11 +147,13 @@ teams:
     - bradamant3 # English
     - ClaudiaJKang # Korean
     - cstoku # Japanese
+    - femrtnz # Portuguese
     - girikuncoro # Indonesian
     - gochist # Korean
     - hanjiayao # Chinese
     - irvifa # Indonesian
     - jaredbhatti # English 
+    - jcjesus # Portuguese
     - markthink # Chinese
     - micheleberardi # Italian
     - raelga # Spanish
@@ -198,6 +200,17 @@ teams:
     - zhangxiaoyu-zidif
     - zparnold
     privacy: closed
+  sig-docs-pt-owners:
+    description: Admins for Portuguese content
+    members:
+    - femrtnz
+    - jcjesus
+  sig-docs-pt-reviews:
+    description: PR reviews for Portuguese content
+    members:
+    - femrtnz
+    - jcjesus
+    privacy: closed
   sig-docs-zh-owners:
     description: Admins for Chinese content
     members:
@@ -229,11 +242,13 @@ teams:
     - claudiajkang
     - cody-clark
     - cstoku
+    - femrtnz
     - girikuncoro
     - gochist
     - hanjiayao
     - irvifa
     - jaredbhatti
+    - jcjesus
     - jimangel
     - jygastaud
     - kbarnard10
@@ -260,5 +275,5 @@ teams:
     - yastij
     - zacharysarah
     - zhangxiaoyu-zidif
-    - zparnold    
+    - zparnold
     privacy: closed

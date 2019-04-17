@@ -47,3 +47,8 @@ teams:
     members:
     - bgrant0607
     privacy: closed
+  code-organization-project-admins:
+    description: admin access to code organization subproject board
+    members:
+    - dims
+    privacy: closed

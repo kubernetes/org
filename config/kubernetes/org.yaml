@@ -1065,14 +1065,6 @@ teams:
     - jdumars
     - parispittman
     privacy: closed
-  contrib-maintainers:
-    description: Those who maintain (have write access to) contrib.
-    maintainers:
-    - thelinuxfoundation
-    members:
-    - foxish
-    - lavalamp
-    privacy: closed
   csi-api-admins:
     description: admin access to csi-api
     members:

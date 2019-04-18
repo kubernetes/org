@@ -15,10 +15,10 @@ teams:
   cluster-api-admins:
     description: ""
     members:
-    - kris-nova
-    - krousey
+    - davidewatson
+    - detiber
+    - justinsb
     - luxas
-    - roberthbailey
     - timothysc
     privacy: closed
   cluster-api-maintainers:
@@ -34,8 +34,8 @@ teams:
     description: admin access to cluster-api-provider-aws
     members:
     - detiber
+    - justinsb
     - luxas
-    - roberthbailey
     - timothysc
     privacy: closed
   cluster-api-provider-aws-maintainers:

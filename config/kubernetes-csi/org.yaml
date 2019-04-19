@@ -126,18 +126,6 @@ teams:
     - childsb
     - saad-ali
     privacy: closed
-  csi-lib-common-admins:
-    description: admin access to csi-lib-common
-    members:
-    - childsb
-    - saad-ali
-    privacy: closed
-  csi-lib-common-maintainers:
-    description: write access to csi-lib-common
-    members:
-    - childsb
-    - saad-ali
-    privacy: closed
   csi-lib-fc-admins:
     description: admin access to csi-lib-fc
     members:
@@ -326,18 +314,6 @@ teams:
     description: admin access to kubernetes-csi.github.io
     members:
     - lpabon
-    - saad-ali
-    privacy: closed
-  kubernetes-csi-migration-library-admins:
-    description: admin access to kubernetes-csi-migration-library
-    members:
-    - davidz627
-    - saad-ali
-    privacy: closed
-  kubernetes-csi-migration-library-maintainers:
-    description: write access to kubernetes-csi-migration-library
-    members:
-    - davidz627
     - saad-ali
     privacy: closed
   livenessprobe-admins:

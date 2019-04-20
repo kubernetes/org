@@ -95,6 +95,19 @@ teams:
     - smana
     - yastij
     privacy: closed
+  sig-docs-hi-approvers:
+    description: Owners for Hindi content
+    members:
+    - daminisatya
+    - mittalyashu
+    - Rajakavitha1
+  sig-docs-hi-reviews:
+    description: PR reviews for Hindi content
+    members:
+    - daminisatya
+    - mittalyashu
+    - Rajakavitha1
+    privacy: closed
   sig-docs-id-owners:
     description: Approvers for Indonesian content
     members:
@@ -165,6 +178,7 @@ teams:
     - jcjesus # Portuguese
     - markthink # Chinese
     - micheleberardi # Italian
+    - mittalyashu #hindi
     - raelga # Spanish
     - remyleone # French
     - rlenferink # Italian

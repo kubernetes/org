@@ -1,4 +1,11 @@
 teams:
+  kubernetes-blog:
+    description: Admins for the Kubernetes blog
+    members:
+    - kbarnard10
+    - natekartchner
+    - sarahkconway
+    privacy: closed
   sig-docs-de-owners: 
     description: Admins for German content
     members:

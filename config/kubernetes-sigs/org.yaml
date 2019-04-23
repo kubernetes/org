@@ -514,20 +514,6 @@ teams:
     - liztio
     - marun
     privacy: closed
-  website-metadata-admins:
-    description: ""
-    members:
-    - Bradamant3
-    - chenopis
-    - zacharysarah
-    privacy: closed
-  website-metadata-maintainers:
-    description: ""
-    members:
-    - Bradamant3
-    - chenopis
-    - zacharysarah
-    privacy: closed
   windows-testing-admins:
     description: ""
     members:

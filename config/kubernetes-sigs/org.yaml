@@ -246,24 +246,6 @@ teams:
     - mattfarina
     - prydonius
     privacy: closed
-  architecture-tracking-admins:
-    description: admin permission for architecture-tracking
-    members:
-    - bgrant0607
-    - jdumars
-    privacy: closed
-  architecture-tracking-maintainers:
-    description: write permission for architecture-tracking
-    maintainers:
-    - spiffxp
-    members:
-    - bgrant0607
-    - dims
-    - jdumars
-    - liggitt
-    - mattfarina
-    - timothysc
-    privacy: closed
   bots:
     description: Bot Service Accounts in the Kubernetes-SIGs org
     maintainers:

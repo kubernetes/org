@@ -1823,6 +1823,7 @@ teams:
     - balopat
     - ethernetdan
     - jimmidyson
+    - sharifelgamal
     - tstromberg
     privacy: closed
   node-problem-detector-admins:

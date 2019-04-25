@@ -473,6 +473,7 @@ teams:
   sig-storage-local-static-provisioner-admins:
     description: ""
     members:
+    - cofyc
     - jsafrane
     - msau42
     - saad-ali
@@ -480,6 +481,7 @@ teams:
   sig-storage-local-static-provisioner-maintainers:
     description: ""
     members:
+    - cofyc
     - jsafrane
     - msau42
     - saad-ali

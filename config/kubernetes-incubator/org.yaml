@@ -256,6 +256,11 @@ teams:
     members:
     - philips
     privacy: closed
+  admins-cluster-proportional-vertical-autoscaler:
+    description: admin access to cluster-proportional-vertical-autoscaler
+    members:
+    - MrHohn
+    privacy: closed
   admins-external-dns:
     description: ""
     maintainers:

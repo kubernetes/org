@@ -10,12 +10,14 @@ teams:
     description: Admins for German content
     members:
     - bene2k1
+    - mkorbi
     - rlenferink
     privacy: closed
   sig-docs-de-reviews:
     description: PR reviews for German content
     members:
     - bene2k1
+    - mkorbi
     - rlenferink
     privacy: closed
   sig-docs-en-owners: 

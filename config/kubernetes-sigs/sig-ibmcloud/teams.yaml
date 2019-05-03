@@ -8,4 +8,6 @@ teams:
     description: Write access to the cluster-api-provider-ibmcloud repo
     members:
     - gyliu513
+    - jichenjc
+    - xunpan
     privacy: closed

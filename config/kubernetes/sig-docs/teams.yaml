@@ -1,13 +1,13 @@
 teams:
   kubernetes-blog:
-    description: Admins for the Kubernetes blog
+    description: Approvers for the Kubernetes blog
     members:
     - kbarnard10
     - natekartchner
     - sarahkconway
     privacy: closed
   sig-docs-de-owners: 
-    description: Admins for German content
+    description: Approvers for German content
     members:
     - bene2k1
     - rlenferink
@@ -19,7 +19,7 @@ teams:
     - rlenferink
     privacy: closed
   sig-docs-en-owners: 
-    description: Admins for English content
+    description: Approvers for English content
     members:
     - bradamant3
     - bradtopol
@@ -52,7 +52,7 @@ teams:
     - zhangxiaoyu-zidif
     privacy: closed
   sig-docs-es-owners:
-    description: Admins for Spanish content
+    description: Approvers for Spanish content
     members:
     - alexbrand
     - raelga
@@ -66,7 +66,7 @@ teams:
     - raelga
     privacy: closed
   sig-docs-fr-owners:
-    description: Admins for French content
+    description: Approvers for French content
     members:
     - abuisine
     - awkif
@@ -94,7 +94,7 @@ teams:
     - yastij
     privacy: closed
   sig-docs-id-owners:
-    description: Admins for Indonesian content
+    description: Approvers for Indonesian content
     members:
     - girikuncoro
     - irvifa
@@ -105,7 +105,7 @@ teams:
     - irvifa
     privacy: closed
   sig-docs-it-owners:
-    description: Admins for Italian content
+    description: Approvers for Italian content
     members:
     - micheleberardi
     - rlenferink
@@ -116,7 +116,7 @@ teams:
     - rlenferink
     privacy: closed
   sig-docs-ja-owners:
-     description: Admins for Japanese content
+     description: Approvers for Japanese content
      members:
      - cstoku
      - makocchi-git
@@ -134,7 +134,7 @@ teams:
     - tnir
     privacy: closed
   sig-docs-ko-owners:
-    description: Admins for Korean content
+    description: Approvers for Korean content
     members:
     - claudiajkang
     - gochist
@@ -148,7 +148,7 @@ teams:
     - ianychoi
     privacy: closed
   sig-docs-l10n-admins:
-    description: Admins for localization projects
+    description: Approvers for localization projects
     members:
     - alexbrand # Spanish
     - bradamant3 # English
@@ -208,7 +208,7 @@ teams:
     - zparnold
     privacy: closed
   sig-docs-pt-owners:
-    description: Admins for Portuguese content
+    description: Approvers for Portuguese content
     members:
     - femrtnz
     - jcjesus
@@ -219,7 +219,7 @@ teams:
     - jcjesus
     privacy: closed
   sig-docs-zh-owners:
-    description: Admins for Chinese content
+    description: Approvers for Chinese content
     members:
     - hanjiayao
     - tengqm

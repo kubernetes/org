@@ -1185,11 +1185,6 @@ teams:
     - ahmetb
     - sebgoa
     privacy: closed
-  examples-reviewers:
-    description: Read access to the examples repository
-    members:
-    - sebgoa
-    privacy: closed
   federation-admins:
     description: Admin permission to federation repo
     members:

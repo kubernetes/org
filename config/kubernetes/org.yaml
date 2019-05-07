@@ -1541,17 +1541,6 @@ teams:
     - shiywang
     - soltysh
     privacy: closed
-  kubernetes-admins:
-    description: 'Do not add new people to this group.  Add build-cops to kubernetes-build-cops  and
-      release managers to kubernetes-release-managers.  '
-    members:
-    - bgrant0607
-    - david-mcmahon
-    - eparis
-    - lavalamp
-    - smarterclayton
-    - thockin
-    privacy: closed
   kubernetes-anywhere-admins:
     description: ""
     members:

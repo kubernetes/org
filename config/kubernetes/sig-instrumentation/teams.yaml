@@ -2,6 +2,7 @@ teams:
   sig-instrumentation-api-reviews:
     description: ""
     members:
+    - andyxning
     - brancz
     - danielqsj
     - DirectXMan12
@@ -18,6 +19,7 @@ teams:
   sig-instrumentation-bugs:
     description: ""
     members:
+    - andyxning
     - brancz
     - danielqsj
     - DirectXMan12
@@ -34,6 +36,7 @@ teams:
   sig-instrumentation-feature-requests:
     description: ""
     members:
+    - andyxning
     - brancz
     - danielqsj
     - DirectXMan12
@@ -49,6 +52,7 @@ teams:
   sig-instrumentation-misc:
     description: ""
     members:
+    - andyxning
     - brancz
     - danielqsj
     - DirectXMan12
@@ -64,6 +68,7 @@ teams:
   sig-instrumentation-pr-reviews:
     description: ""
     members:
+    - andyxning
     - brancz
     - danielqsj
     - DirectXMan12
@@ -80,6 +85,7 @@ teams:
   sig-instrumentation-proposals:
     description: ""
     members:
+    - andyxning
     - brancz
     - danielqsj
     - DirectXMan12
@@ -95,6 +101,7 @@ teams:
   sig-instrumentation-test-failures:
     description: ""
     members:
+    - andyxning
     - brancz
     - danielqsj
     - DirectXMan12

@@ -13,6 +13,20 @@ teams:
     - Liujingfang1
     - monopole
     privacy: closed
+  cli-utils-admins:
+    description: admin access to cli-utils
+    members:
+    - pwittrock
+    - seans3
+    - soltysh
+    privacy: closed
+  cli-utils-maintainers:
+    description: write access to cli-utils
+    members:
+    - liggitt
+    - Liujingfang1
+    - monopole
+    privacy: closed
   krew-admins:
     description: admin access to krew
     members:

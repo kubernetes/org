@@ -1569,6 +1569,11 @@ teams:
     - SarahKConway
     - zacharysarah
     privacy: closed
+  kubernetes-feature-branch-admins:
+    description: Admin access to kubernetes repo, for maintaining feature branches. Will deprecate when this access is no longer needed.
+    members:
+    - lavalamp
+    privacy: closed
   kubernetes-maintainers:
     description: Write access to kubernetes repo. Follow the process in https://github.com/kubernetes/community/blob/master/community-membership.md
     maintainers:

@@ -15,3 +15,20 @@ teams:
     - listx
     - tpepper
     privacy: closed
+  release-notes-admins:
+    description: admin access to release-notes
+    members:
+    - jeefy
+    - marpaia
+    - onyiny-ang
+    privacy: closed
+  release-notes-maintainers:
+    description: write access to release-notes
+    maintainers:
+    - calebamiles
+    members:
+    - jeefy
+    - justaugustus
+    - marpaia
+    - onyiny-ang
+    - tpepper

@@ -1786,7 +1786,7 @@ teams:
     description: Please report security issues to https://kubernetes.io/security
     members:
     - cjcullen
-    - jessfraz
+    - joelsmith
     - liggitt
     - philips
     - tallclair

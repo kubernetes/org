@@ -1729,6 +1729,11 @@ teams:
     - sharifelgamal
     - tstromberg
     privacy: closed
+  newrepo-maintainers:
+    description: Write access to new repo
+    members:
+    - fejta-bot
+    privacy: closed
   node-problem-detector-admins:
     description: Maintainers of node problem detector
     members:

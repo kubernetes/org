@@ -52,6 +52,7 @@ teams:
     - justaugustus # Azure / PM / Release
     - justinsb # AWS
     - k82cn # Scheduling
+    - k8s-release-robot # Release
     - kacole2 # 1.15 Enhancements
     - khenidak # Azure
     - kow3ns # Apps

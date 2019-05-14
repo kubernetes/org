@@ -1,0 +1,37 @@
+teams:
+  kubefed-admins:
+    description: admin access for the kubefed repo
+    maintainers:
+    - spiffxp
+    members:
+    - font
+    - irfanurrehman
+    - marun
+    - pmorie
+    - shashidharatd
+    privacy: closed
+    previously:
+    - federation-v2-admins
+  kubefed-maintainers:
+    description: write access to the kubefed repo
+    members:
+    - font
+    - irfanurrehman
+    - marun
+    - shashidharatd
+    privacy: closed
+    previously:
+    - federation-v2-maintainers
+  federation-wg:
+    description: Individuals who are part of sig-multicluster and working as federation
+      workgroup.
+    members:
+    - font
+    - gyliu513
+    - irfanurrehman
+    - marun
+    - onyiny-ang
+    - pmorie
+    - quinton-hoole
+    - shashidharatd
+    privacy: closed

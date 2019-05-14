@@ -324,38 +324,6 @@ teams:
     - dlipovetsky
     - justinsb
     privacy: closed
-  federation-v2-admins:
-    description: admin access for the federation-v2 repo
-    maintainers:
-    - spiffxp
-    members:
-    - font
-    - irfanurrehman
-    - marun
-    - pmorie
-    - shashidharatd
-    privacy: closed
-  federation-v2-maintainers:
-    description: write access to the fededation-v2 repo
-    members:
-    - font
-    - irfanurrehman
-    - marun
-    - shashidharatd
-    privacy: closed
-  federation-wg:
-    description: Individuals who are part of sig-multicluster and working as federation
-      workgroup.
-    members:
-    - font
-    - gyliu513
-    - irfanurrehman
-    - marun
-    - onyiny-ang
-    - pmorie
-    - quinton-hoole
-    - shashidharatd
-    privacy: closed
   gcp-filestore-csi-driver-admins:
     description: ""
     members:

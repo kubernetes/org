@@ -6,7 +6,7 @@ teams:
     - natekartchner
     - sarahkconway
     privacy: closed
-  sig-docs-de-owners: 
+  sig-docs-de-owners:
     description: Approvers for German content
     members:
     - bene2k1
@@ -20,7 +20,7 @@ teams:
     - mkorbi
     - rlenferink
     privacy: closed
-  sig-docs-en-owners: 
+  sig-docs-en-owners:
     description: Approvers for English content
     members:
     - bradamant3
@@ -95,12 +95,13 @@ teams:
     - smana
     - yastij
     privacy: closed
-  sig-docs-hi-approvers:
+  sig-docs-hi-owners:
     description: Owners for Hindi content
     members:
     - daminisatya
     - mittalyashu
     - Rajakavitha1
+    privacy: closed
   sig-docs-hi-reviews:
     description: PR reviews for Hindi content
     members:
@@ -113,6 +114,7 @@ teams:
     members:
     - girikuncoro
     - irvifa
+    privacy: closed
   sig-docs-id-reviews:
     description: PR reviews for Indonesian content
     members:
@@ -174,7 +176,7 @@ teams:
     - gochist # Korean
     - hanjiayao # Chinese
     - irvifa # Indonesian
-    - jaredbhatti # English 
+    - jaredbhatti # English
     - jcjesus # Portuguese
     - markthink # Chinese
     - micheleberardi # Italian
@@ -187,7 +189,7 @@ teams:
     - zhangxiaoyu-zidif # Chinese
     privacy: closed
   sig-docs-maintainers:
-    description: Website maintainers 
+    description: Website maintainers
     members:
     - bradamant3
     - chenopis
@@ -228,6 +230,7 @@ teams:
     members:
     - femrtnz
     - jcjesus
+    privacy: closed
   sig-docs-pt-reviews:
     description: PR reviews for Portuguese content
     members:
@@ -243,7 +246,7 @@ teams:
     - zhangxiaoyu-zidif
     privacy: closed
   sig-docs-zh-reviews:
-    description: PR reviews for Chinese content 
+    description: PR reviews for Chinese content
     members:
     - chenrui333
     - idealhack
@@ -259,7 +262,7 @@ teams:
     - alexbrand
     - awkif
     - bene2k1
-    - bradamant3    
+    - bradamant3
     - bradtopol
     - chenopis
     - claudiajkang

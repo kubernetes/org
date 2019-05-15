@@ -99,7 +99,9 @@ teams:
       where branches must be created, etc., and write access to ones where label/PR
       management is needed. Remove users who are not actively doing this job.
     members:
+    - bubblemelon # 1.15 Branch Manager
     - claurence # 1.15 RT Lead
+    - idealhack # 1.15 Branch Manager Shadow
     - k8s-release-robot
     - lachie83 # 1.15 RT Lead Shadow
     - nikopen # 1.15 RT Lead Shadow

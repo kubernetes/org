@@ -34,3 +34,14 @@ teams:
     - lachie83
     - mattfarina
     privacy: closed
+  sig-pm:
+    description: Members of SIG PM.
+    maintainers:
+    - calebamiles
+    - idvoretskyi
+    members:
+    - craiglpeters
+    - jdumars
+    - justaugustus
+    - lachie83
+    privacy: closed

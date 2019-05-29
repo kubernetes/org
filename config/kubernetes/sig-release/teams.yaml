@@ -110,14 +110,11 @@ teams:
     teams:
       patch-release-team:
         description: People managing patch releases of prior k8s minor release branches.
-        maintainers:
-        - justaugustus
         members:
-        - aleksandra-malinowska
-        - feiskyer
-        - foxish
-        - hoegaarden
-        - tpepper
+        - aleksandra-malinowska # 1.13 / 1.14 Patch Release Team
+        - feiskyer # 1.12 Patch Release Manager
+        - foxish # 1.11 Patch Release Manager
+        - tpepper # 1.13 / 1.14 Patch Release Team
         privacy: closed
   sig-release:
     description: SIG Release Members

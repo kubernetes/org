@@ -45,120 +45,120 @@ members:
 - xing-yang
 teams:
   cluster-driver-registrar-admins:
-    description: admin access to cluster-driver-registrar
+    description: Admin access to cluster-driver-registrar repo
     members:
     - lpabon
     - saad-ali
     privacy: closed
   cluster-driver-registrar-maintainers:
-    description: write access to cluster-driver-registrar
+    description: Write access to cluster-driver-registrar repo
     members:
     - lpabon
     - saad-ali
     privacy: closed
   csi-driver-fibre-channel-admins:
-    description: admin access to csi-driver-fibre-channel
+    description: Admin access to csi-driver-fibre-channel repo
     members:
     - childsb
     - saad-ali
     privacy: closed
   csi-driver-fibre-channel-maintainers:
-    description: write access to csi-driver-fibre-channel
+    description: Write access to csi-driver-fibre-channel repo
     members:
     - childsb
     - saad-ali
     privacy: closed
   csi-driver-flex-admins:
-    description: admin access to csi-driver-flex
+    description: Admin access to csi-driver-flex repo
     members:
     - childsb
     - saad-ali
     privacy: closed
   csi-driver-flex-maintainers:
-    description: write access to csi-driver-flex
+    description: Write access to csi-driver-flex repo
     members:
     - childsb
     - saad-ali
     privacy: closed
   csi-driver-host-path-admins:
-    description: admin access to csi-driver-host-path
+    description: Admin access to csi-driver-host-path repo
     members:
     - childsb
     - saad-ali
     privacy: closed
   csi-driver-host-path-maintainers:
-    description: write access to csi-driver-host-path
+    description: Write access to csi-driver-host-path repo
     members:
     - childsb
     - saad-ali
     privacy: closed
   csi-driver-image-populator-admins:
-    description: admin access to csi-driver-image-populator
+    description: Admin access to csi-driver-image-populator repo
     members:
       - msau42
       - saad-ali
     privacy: closed
   csi-driver-image-populator-maintainers:
-    description: write access to csi-driver-image-populator
+    description: Write access to csi-driver-image-populator repo
     members:
       - msau42
       - saad-ali
     privacy: closed
   csi-driver-iscsi-admins:
-    description: admin access to csi-driver-iscsi
+    description: Admin access to csi-driver-iscsi repo
     members:
     - childsb
     - saad-ali
     privacy: closed
   csi-driver-iscsi-maintainers:
-    description: write access to csi-driver-iscsi
+    description: Write access to csi-driver-iscsi repo
     members:
     - childsb
     - saad-ali
     privacy: closed
   csi-driver-nfs-admins:
-    description: admin access to csi-driver-nfs
+    description: Admin access to csi-driver-nfs repo
     members:
     - childsb
     - saad-ali
     privacy: closed
   csi-driver-nfs-maintainers:
-    description: write access to csi-driver-nfs
+    description: Write access to csi-driver-nfs repo
     members:
     - childsb
     - saad-ali
     privacy: closed
   csi-lib-fc-admins:
-    description: admin access to csi-lib-fc
+    description: Admin access to csi-lib-fc repo
     members:
     - childsb
     - saad-ali
     privacy: closed
   csi-lib-fc-maintainers:
-    description: write access to csi-lib-fc
+    description: Write access to csi-lib-fc repo
     members:
     - childsb
     - saad-ali
     privacy: closed
   csi-lib-iscsi-admins:
-    description: admin access to csi-lib-iscsi
+    description: Admin access to csi-lib-iscsi repo
     members:
     - childsb
     - saad-ali
     privacy: closed
   csi-lib-iscsi-maintainers:
-    description: write access to csi-lib-iscsi
+    description: Write access to csi-lib-iscsi repo
     members:
     - childsb
     - saad-ali
     privacy: closed
   csi-lib-utils-admins:
-    description: admin access to csi-lib-utils
+    description: Admin access to csi-lib-utils repo
     members:
     - saad-ali
     privacy: closed
   csi-lib-utils-maintainers:
-    description: write access to csi-lib-utils
+    description: Write access to csi-lib-utils repo
     members:
     - saad-ali
     privacy: closed
@@ -180,19 +180,19 @@ teams:
     - xing-yang
     privacy: closed
   csi-release-tools-admins:
-    description: admin access to csi-release-tools
+    description: Admin access to csi-release-tools repo
     members:
     - msau42
     - saad-ali
     privacy: closed
   csi-release-tools-maintainers:
-    description: write access to csi-release-tools
+    description: Write access to csi-release-tools repo
     members:
     - msau42
     - saad-ali
     privacy: closed
   csi-test-admins:
-    description: admin access to csi-test
+    description: Admin access to csi-test repo
     members:
     - childsb
     - davidz627
@@ -200,7 +200,7 @@ teams:
     - saad-ali
     privacy: closed
   csi-test-maintainers:
-    description: write access to csi-test
+    description: Write access to csi-test repo
     members:
     - childsb
     - saad-ali
@@ -220,20 +220,20 @@ teams:
     - vladimirvivien
     privacy: closed
   docs-admins:
-    description: admin access to docs
+    description: Admin access to docs repo
     members:
     - childsb
     - lpabon
     - saad-ali
     privacy: closed
   docs-maintainers:
-    description: write access to docs
+    description: Write access to docs repo
     members:
     - childsb
     - saad-ali
     privacy: closed
   driver-registrar-admins:
-    description: admin access to driver-registrar
+    description: Admin access to driver-registrar repo
     members:
     - childsb
     - davidz627
@@ -241,13 +241,13 @@ teams:
     - saad-ali
     privacy: closed
   driver-registrar-maintainers:
-    description: write access to driver-registrar
+    description: Write access to driver-registrar repo
     members:
     - childsb
     - saad-ali
     privacy: closed
   drivers-admins:
-    description: admin access to drivers
+    description: Admin access to drivers repo
     members:
     - chakri-nelluri
     - childsb
@@ -255,26 +255,26 @@ teams:
     - saad-ali
     privacy: closed
   drivers-maintainers:
-    description: write access to drivers
+    description: Write access to drivers repo
     members:
     - childsb
     - saad-ali
     - sbezverk
     privacy: closed
   external-attacher-admins:
-    description: admin access to external-attacher
+    description: Admin access to external-attacher repo
     members:
     - childsb
     - saad-ali
     privacy: closed
   external-attacher-maintainers:
-    description: write access to external-attacher
+    description: Write access to external-attacher repo
     members:
     - childsb
     - saad-ali
     privacy: closed
   external-provisioner-admins:
-    description: admin access to external-provisioner
+    description: Admin access to external-provisioner repo
     members:
     - childsb
     - davidz627
@@ -282,64 +282,64 @@ teams:
     - saad-ali
     privacy: closed
   external-provisioner-maintainers:
-    description: write access to external-provisioner
+    description: Write access to external-provisioner repo
     members:
     - childsb
     - saad-ali
     privacy: closed
   external-resizer-admins:
-    description: admin access to external-resizer
+    description: Admin access to external-resizer repo
     members:
     - childsb
     - saad-ali
     privacy: closed
   external-resizer-maintainers:
-    description: write access to external-resizer
+    description: Write access to external-resizer repo
     members:
     - childsb
     - saad-ali
     privacy: closed
   external-snapshotter-admins:
-    description: admin access to external-snapshotter
+    description: Admin access to external-snapshotter repo
     members:
     - childsb
     - lpabon
     - saad-ali
     privacy: closed
   external-snapshotter-maintainers:
-    description: write access to external-snapshotter
+    description: Write access to external-snapshotter repo
     members:
     - childsb
     - saad-ali
     privacy: closed
   kubernetes-csi-github-io-admins:
-    description: admin access to kubernetes-csi.github.io
+    description: Admin access to kubernetes-csi.github.io repo
     members:
     - lpabon
     - saad-ali
     privacy: closed
   livenessprobe-admins:
-    description: admin access to livenessprobe
+    description: Admin access to livenessprobe repo
     members:
     - childsb
     - lpabon
     - saad-ali
     privacy: closed
   livenessprobe-maintainers:
-    description: write access to livenessprobe
+    description: Write access to livenessprobe repo
     members:
     - childsb
     - saad-ali
     - sbezverk
     privacy: closed
   node-driver-registrar-admins:
-    description: admnin access to node-driver-registrar
+    description: Admin access to node-driver-registrar repo
     members:
     - lpabon
     - saad-ali
     privacy: closed
   node-driver-registrar-maintainers:
-    description: write access to node-driver-registrar
+    description: Write access to node-driver-registrar repo
     members:
     - lpabon
     - saad-ali

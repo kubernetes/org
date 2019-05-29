@@ -59,75 +59,75 @@ teams:
     - mbohlool
     privacy: secret
   csharp-admins:
-    description: admin access to csharp
+    description: Admin access to csharp repo
     members:
     - brendandburns
     - krabhishek8260
     privacy: closed
   gen-admins:
-    description: admin access to gen
+    description: Admin access to gen repo
     members:
     - brendandburns
     - mbohlool
     privacy: closed
   go-admins:
-    description: admin access to go
+    description: Admin access to go repo
     members:
     - brendandburns
     privacy: closed
   go-base-admins:
-    description: admin access to go-base
+    description: Admin access to go-base repo
     members:
     - brendandburns
     privacy: closed
   haskell-admins:
-    description: admin access to haskell
+    description: Admin access to haskell repo
     members:
     - brendandburns
     - mbohlool
     privacy: closed
   java-admins:
-    description: admin access to java
+    description: Admin access to java repo
     members:
     - brendandburns
     - mbohlool
     privacy: closed
   javascript-admins:
-    description: admin access to javascript
+    description: Admin access to javascript repo
     members:
     - brendandburns
     - mbohlool
     privacy: closed
   perl-admins:
-    description: admin access to perl
+    description: Admin access to perl repo
     members:
     - brendandburns
     - mbohlool
     - yue9944882
     privacy: closed
   perl-maintainers:
-    description: write access to perl
+    description: Write access to perl repo
     members:
     - brendandburns
     - mbohlool
     - yue9944882
     privacy: closed
   python-admins:
-    description: admin access to python
+    description: Admin access to python repo
     members:
     - brendandburns
     - mbohlool
     - yliaog
     privacy: closed
   python-base-admins:
-    description: admin access to python-base
+    description: Admin access to python-base repo
     members:
     - brendandburns
     - mbohlool
     - yliaog
     privacy: closed
   ruby-admins:
-    description: admin access to ruby
+    description: Admin access to ruby repo
     members:
     - brendandburns
     - mbohlool

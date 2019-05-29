@@ -251,7 +251,7 @@ members:
 - zvonkok
 teams:
   application-admins:
-    description: admin access to application
+    description: Admin access to the application repo
     members:
     - kow3ns
     - mattfarina
@@ -265,7 +265,7 @@ teams:
     - thelinuxfoundation
     privacy: closed
   cluster-api-provider-vsphere-admins:
-    description: admin access to cluster-api-provider-vsphere-admins
+    description: Admin access to the cluster-api-provider-vsphere repo
     maintainers:
     - spiffxp
     members:
@@ -273,7 +273,7 @@ teams:
     - sflxn
     privacy: closed
   cluster-api-provider-vsphere-maintainers:
-    description: write access to cluster-api-provider-vsphere
+    description: Write access to the cluster-api-provider-vsphere repo
     maintainers:
     - spiffxp
     members:
@@ -283,7 +283,7 @@ teams:
     - sidharthsurana
     privacy: closed
   cri-tools-admins:
-    description: admin access to cri-tools
+    description: Admin access to the cri-tools repo
     members:
     - feiskyer
     - mrunalp
@@ -291,7 +291,7 @@ teams:
     - yujuhong
     privacy: closed
   cri-tools-maintainers:
-    description: write access to cri-tools
+    description: Write access to the cri-tools repo
     members:
     - feiskyer
     - mrunalp
@@ -299,7 +299,7 @@ teams:
     - yujuhong
     privacy: closed
   dashboard-metrics-scraper-admins:
-    description: admin access to dashboard-metrics-scraper
+    description: Admin access to the dashboard-metrics-scraper repo
     members:
     - bryk
     - floreks
@@ -307,7 +307,7 @@ teams:
     - maciaszczykm
     privacy: closed
   dashboard-metrics-scraper-maintainers:
-    description: write access to dashboard-metrics-scraper
+    description: Write access to the dashboard-metrics-scraper
     members:
     - bryk
     - floreks
@@ -315,43 +315,43 @@ teams:
     - maciaszczykm
     privacy: closed
   etcdadm-admins:
-    description: admin access to etcdadm
+    description: Admin access to the etcdadm repo
     members:
     - dlipovetsky
     - justinsb
     privacy: closed
   etcdadm-maintainers:
-    description: write access to etcdadm
+    description: Write access to the etcdadm repo
     members:
     - dlipovetsky
     - justinsb
     privacy: closed
   gcp-filestore-csi-driver-admins:
-    description: ""
+    description: Admin access to the gcp-filestore-csi-driver repo
     members:
     - msau42
     - saad-ali
     privacy: closed
   gcp-filestore-csi-driver-maintainers:
-    description: ""
+    description: Write access to the gcp-filestore-csi-driver repo
     members:
     - msau42
     - saad-ali
     privacy: closed
   kind-admins:
-    description: ""
+    description: Admin access to the kind rpeo
     members:
     - BenTheElder
     - munnerz
     privacy: closed
   kind-maintainers:
-    description: ""
+    description: Write access to the kind repo
     members:
     - BenTheElder
     - munnerz
     privacy: closed
   kube-batch-admins:
-    description: admin access to kube-batch
+    description: Admin access to the kube-batch repo
     maintainers:
     - calebamiles
     - spiffxp
@@ -360,7 +360,7 @@ teams:
     - timothysc
     privacy: closed
   kube-batch-maintainers:
-    description: write access to kube-batch
+    description: Write access to the kube-batch repo
     maintainers:
     - calebamiles
     - spiffxp
@@ -390,14 +390,14 @@ teams:
     - timothysc
     privacy: closed
   kubespray-admins:
-    description: ""
+    description: Admin access to the kubespray repo
     members:
     - ant31
     - chadswen
     - mattymo
     privacy: closed
   kubespray-maintainers:
-    description: ""
+    description: Write access to the kubespray repo
     members:
     - ant31
     - Atoms
@@ -409,48 +409,48 @@ teams:
     - woopstar
     privacy: closed
   mutating-trace-admission-controller:
-    description: ""
+    description: Parent team for mutating-trace-admission-controller repo (maintainers, admins)
     maintainers:
     - calebamiles
     privacy: closed
     teams:
       mutating-trace-admission-controller-admins:
-        description: admin access to mutating-trace-admission-controller
+        description: Admin access to the mutating-trace-admission-controller repo
         maintainers:
         - calebamiles
         privacy: closed
       mutating-trace-admission-controller-maintainers:
-        description: write access to mutating-trace-admission-controller
+        description: Write access to the mutating-trace-admission-controller repo
         maintainers:
         - calebamiles
         privacy: closed
   node-feature-discovery-admins:
-    description: ""
+    description: Admin access to the node-feature-discovery repo
     members:
     - balajismaniam
     privacy: closed
   node-feature-discovery-maintainers:
-    description: ""
+    description: Write access to the node-feature-discovery repo
     members:
     - balajismaniam
     - marquiz
     privacy: closed
   sig-storage-lib-external-provisioner-admins:
-    description: admin access to sig-storage-lib-external-provisioner
+    description: Admin access to the sig-storage-lib-external-provisioner repo
     members:
     - childsb
     - jsafrane
     - wongma7
     privacy: closed
   sig-storage-lib-external-provisioner-maintainers:
-    description: write access to sig-storage-lib-external-provisioner
+    description: Write access to the sig-storage-lib-external-provisioner repo
     members:
     - childsb
     - jsafrane
     - wongma7
     privacy: closed
   sig-storage-local-static-provisioner-admins:
-    description: ""
+    description: Admin access to the sig-storage-local-static-provisioner repo
     members:
     - cofyc
     - jsafrane
@@ -458,7 +458,7 @@ teams:
     - saad-ali
     privacy: closed
   sig-storage-local-static-provisioner-maintainers:
-    description: ""
+    description: Write access to the sig-storage-local-static-provisioner repo
     members:
     - cofyc
     - jsafrane
@@ -466,26 +466,26 @@ teams:
     - saad-ali
     privacy: closed
   testing_frameworks-admins:
-    description: admin access for testing_frameworks
+    description: Admin access to the testing_frameworks repo
     members:
     - hoegaarden
     - totherme
     privacy: closed
   testing_frameworks-maintainers:
-    description: write access to testing_frameworks
+    description: Write access to the testing_frameworks repo
     members:
     - liztio
     - marun
     privacy: closed
   windows-testing-admins:
-    description: ""
+    description: Admin access to the windows-testing repo
     members:
     - adelina-t
     - michmike
     - PatrickLang
     privacy: closed
   windows-testing-maintainers:
-    description: ""
+    description: Write access to the windows-testing repo
     members:
     - adelina-t
     - michmike

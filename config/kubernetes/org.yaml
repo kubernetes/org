@@ -898,7 +898,7 @@ teams:
     - vishh
     privacy: closed
   autoscaler-admins:
-    description: ""
+    description: Admin access to the autoscaler repo
     members:
     - MaciekPytel
     - mwielgus
@@ -950,7 +950,7 @@ teams:
     - k8s-release-robot
     privacy: closed
   client-go-admins:
-    description: ""
+    description: Admin access to the client-go repo
     members:
     - caesarxuchao
     - lavalamp
@@ -963,7 +963,7 @@ teams:
     - sttts
     privacy: closed
   cloud-provider-gcp-admins:
-    description: admin access to cloud-provider-gcp
+    description: Admin access to cloud-provider-gcp repo
     maintainers:
     - calebamiles
     members:
@@ -971,7 +971,7 @@ teams:
     - mikedanese
     privacy: closed
   cloud-provider-gcp-maintainers:
-    description: write access to cloud-provider-gcp
+    description: Write access to cloud-provider-gcp repo
     maintainers:
     - calebamiles
     members:
@@ -999,7 +999,7 @@ teams:
     - dims
     privacy: closed
   cloud-provider-vsphere-admins:
-    description: admin access to cloud-provider-vsphere repository
+    description: Admin access to cloud-provider-vsphere repo
     members:
     - abrarshivani
     - BaluDontu
@@ -1010,7 +1010,7 @@ teams:
     - SandeepPissay
     privacy: closed
   cloud-provider-vsphere-maintainers:
-    description: write access to the cloud-provider-vsphere repo
+    description: Write access to the cloud-provider-vsphere repo
     members:
     - abrarshivani
     - BaluDontu
@@ -1029,15 +1029,7 @@ teams:
     - pmorie
     privacy: closed
   cluster-registry-maintainers:
-    description: Write access to the cluster-registry repo.
-    members:
-    - font
-    - madhusudancs
-    - perotinus
-    - pmorie
-    privacy: closed
-  cluster-registry-reviewers:
-    description: cluster-registry reviewers. Read access to the cluster-registry repository.
+    description: Write access to the cluster-registry repo
     members:
     - font
     - madhusudancs
@@ -1074,14 +1066,14 @@ teams:
     - foxish
     privacy: closed
   code-generator-admins:
-    description: ""
+    description: Admin access to the code-generator repo
     members:
     - deads2k
     - eparis
     - sttts
     privacy: closed
   code-generator-maintainers:
-    description: ""
+    description: Write access to the code-generator repo
     members:
     - deads2k
     - eparis
@@ -1097,17 +1089,17 @@ teams:
     - parispittman
     privacy: closed
   csi-api-admins:
-    description: admin access to csi-api
+    description: Admin access to csi-api repo
     members:
     - saad-ali
     privacy: closed
   csi-api-maintainers:
-    description: write access to csi-api
+    description: Write access to csi-api repo
     members:
     - saad-ali
     privacy: closed
   dashboard-admins:
-    description: Admins of the Dashboard repository
+    description: Admins of the dashboard repo
     members:
     - bryk
     - floreks
@@ -1116,7 +1108,7 @@ teams:
     - maciaszczykm
     privacy: closed
   dashboard-maintainers:
-    description: The Dashboard UI team
+    description: Write access to the dashboard repo
     members:
     - bryk
     - cheld
@@ -1132,11 +1124,6 @@ teams:
     - pewu
     - rf232
     privacy: closed
-  dashboard-reviewers:
-    description: ""
-    members:
-    - danielromlein
-    privacy: closed
   dep-approvers:
     description: People who can approve dependency changes in kubernetes/kubernetes
     maintainers:
@@ -1150,22 +1137,17 @@ teams:
     - thockin
     privacy: closed
   dns-admins:
-    description: Admins of the DNS repository (can admin the repo)
+    description: Admin access to the dns repo 
     members:
     - bowei
     - MrHohn
     - thockin
     privacy: closed
   dns-maintainers:
-    description: Maintainers of the DNS repository (can write to the repo)
+    description: Write access to the dns repo
     members:
     - bowei
     - MrHohn
-    - thockin
-    privacy: closed
-  dns-reviewers:
-    description: ""
-    members:
     - thockin
     privacy: closed
   examples:
@@ -1185,14 +1167,14 @@ teams:
     - viglesiasce
     privacy: closed
   examples-admins:
-    description: Admin privileges for the examples repo
+    description: Admin access to the examples repo
     maintainers:
     - idvoretskyi
     members:
     - sebgoa
     privacy: closed
   examples-maintainers:
-    description: Write access to the examples repository
+    description: Write access to the examples repo
     maintainers:
     - idvoretskyi
     members:
@@ -1200,40 +1182,33 @@ teams:
     - sebgoa
     privacy: closed
   federation-admins:
-    description: Admin permission to federation repo
+    description: Admin access to the federation repo
     members:
     - csbell
     - irfanurrehman
     - madhusudancs
     privacy: closed
   federation-maintainers:
-    description: Contributors with write access to kubernetes/federation repo
-    members:
-    - csbell
-    - irfanurrehman
-    - madhusudancs
-    privacy: closed
-  federation-reviewers:
-    description: Contributors with read access to kubernetes/federation repo
+    description: Admin access to the federation repo
     members:
     - csbell
     - irfanurrehman
     - madhusudancs
     privacy: closed
   frakti-admins:
-    description: ""
+    description: Admin access to the frakti repo
     members:
     - dchen1107
     - feiskyer
     - resouer
     privacy: closed
   frakti-maintainers:
-    description: ""
+    description: Write access to the frakti repo
     members:
     - feiskyer
     privacy: closed
   gengo-admins:
-    description: admins of gengo
+    description: Admin access to the gengo repo
     members:
     - lavalamp
     - smarterclayton
@@ -1241,33 +1216,21 @@ teams:
     - wojtek-t
     privacy: closed
   gengo-maintainers:
-    description: ""
+    description: Write access to the gengo repo
     members:
-    - thockin
-    privacy: closed
-  gengo-reviewers:
-    description: ""
-    members:
-    - caesarxuchao
-    - mbohlool
     - thockin
     privacy: closed
   git-sync-admins:
-    description: ""
+    description: Admin access to the git-sync repo
     members:
     - mikedanese
     - thockin
     privacy: closed
   git-sync-maintainers:
-    description: People who maintain the git-sync repo
+    description: Write access to the git-sync repo
     members:
     - mikedanese
     - stp-ip
-    - thockin
-    privacy: closed
-  git-sync-reviewers:
-    description: ""
-    members:
     - thockin
     privacy: closed
   goog-gke:
@@ -1298,14 +1261,14 @@ teams:
     - yinghan
     privacy: closed
   ingress-gce-admins:
-    description: ""
+    description: Admin access to the ingress-gce repo
     members:
     - bowei
     - nicksardo
     - thockin
     privacy: closed
   ingress-gce-maintainers:
-    description: ""
+    description: Write access to the ingress-gce repo
     members:
     - bowei
     - dnardo
@@ -1315,35 +1278,19 @@ teams:
     - rramkumar1
     - thockin
     privacy: closed
-  ingress-gce-reviewers:
-    description: ""
-    members:
-    - bowei
-    - dnardo
-    - freehan
-    - MrHohn
-    - nicksardo
-    - thockin
-    privacy: closed
   ingress-nginx-admins:
-    description: ""
+    description: Admin access to the ingress-nginx repo
     members:
     - aledbf
     - bowei
     - bprashanth
     privacy: closed
   ingress-nginx-maintainers:
-    description: Maintainers of the ingress repo
+    description: Write access to the ingress-nginx repo
     members:
     - aledbf
     - bprashanth
     - justinsb
-    - nicksardo
-    privacy: closed
-  ingress-nginx-reviewers:
-    description: ""
-    members:
-    - aledbf
     - nicksardo
     privacy: closed
   intel:
@@ -1371,7 +1318,7 @@ teams:
     - thockin
     privacy: closed
   k8s.io-maintainers:
-    description: People who run k8s.io
+    description: Write access to the k8s.io repo 
     members:
     - dims
     - ixdy
@@ -1380,13 +1327,13 @@ teams:
     - thockin
     privacy: closed
   klog-admins:
-    description: ""
+    description: Admin access to the klog repo
     members:
     - dims
     - thockin
     privacy: closed
   klog-maintainers:
-    description: ""
+    description: Write access to the klog repo
     members:
     - dims
     - erictune
@@ -1396,7 +1343,7 @@ teams:
     - thockin
     privacy: closed
   kompose-admins:
-    description: administrators for kompose repo
+    description: Admin access to the kompose repo
     members:
     - cdrage
     - janetkuo
@@ -1415,7 +1362,7 @@ teams:
     - sebgoa
     privacy: closed
   kompose-maintainers:
-    description: maintainers for kompose
+    description: Write access to the kompose repo
     members:
     - cab105
     - cdrage
@@ -1426,14 +1373,14 @@ teams:
     - surajssd
     privacy: closed
   kops-admins:
-    description: Admin group for kops repo
+    description: Admin access to the kops repo
     members:
     - justinsb
     - mikedanese
     - zmerlynn
     privacy: closed
   kops-maintainers:
-    description: ""
+    description: Write access to the kops repo
     members:
     - chrislovecnm
     - geojaz
@@ -1443,47 +1390,35 @@ teams:
     - mikesplain
     - yissachar
     privacy: closed
-  kops-reviewers:
-    description: ""
-    members:
-    - thockin
-    privacy: closed
   kube-deploy-admins:
-    description: ""
+    description: Admin access to the kube-deploy repo
     members:
     - justinsb
     - kris-nova
     privacy: closed
   kube-deploy-maintainers:
-    description: ""
+    description: Write access to the kube-deploy repo
     members:
     - justinsb
     - kris-nova
     privacy: closed
   kube-state-metrics-admins:
-    description: Admin for kube-state-metrics
+    description: Admin access to the kube-state-metrics repo
     members:
     - fabxc
     - ghodss
     privacy: closed
   kube-state-metrics-maintainers:
-    description: ""
-    privacy: closed
-  kube-ui-maintainers:
-    description: ""
-    members:
-    - rrmckinley
-    - SebastianM
-    - timstclair
+    description: Write access to the kube-state-metrics repo
     privacy: closed
   kubeadm-admins:
-    description: ""
+    description: Admin access to the kubeadm repo
     members:
     - luxas
     - timothysc
     privacy: closed
   kubeadm-maintainers:
-    description: Maintainers of kubeadm
+    description: Write access to the kubeadm repo
     members:
     - chuckha
     - detiber
@@ -1500,24 +1435,8 @@ teams:
     - stealthybox
     - timothysc
     privacy: closed
-  kubeadm-reviewers:
-    description: Collaborators for kubeadm
-    members:
-    - chuckha
-    - detiber
-    - dixudx
-    - errordeveloper
-    - fabriziopandini
-    - jamiehannaford
-    - jbeda
-    - liztio
-    - lukemarsden
-    - luxas
-    - medinatiger
-    - stealthybox
-    privacy: closed
   kubectl-admins:
-    description: Administrators of the kubectl repo
+    description: Admin access to the kubectl repo
     members:
     - adohe
     - fabianofranz
@@ -1528,7 +1447,7 @@ teams:
     - soltysh
     privacy: closed
   kubectl-maintainers:
-    description: Maintainers of the kubectl repo
+    description: Write access to the kubectl repo
     members:
     - adohe
     - apelisse
@@ -1542,28 +1461,15 @@ teams:
     - soltysh
     - yue9944882
     privacy: closed
-  kubectl-reviewers:
-    description: Code reviewers for the kubectl repo
-    members:
-    - adohe
-    - fabianofranz
-    - juanvallejo
-    - mengqiy
-    - monopole
-    - pwittrock
-    - seans3
-    - shiywang
-    - soltysh
-    privacy: closed
   kubernetes-anywhere-admins:
-    description: ""
+    description: Admin access to the kubernetes-anywhere repo
     members:
     - luxas
     - neolit123
     - timothysc
     privacy: closed
   kubernetes-anywhere-maintainers:
-    description: Maintainers of the kubernetes-anywhere repository
+    description: Write access to the kubernetes-anywhere repo
     members:
     - errordeveloper
     - fabriziopandini
@@ -1574,7 +1480,7 @@ teams:
     - timothysc
     privacy: closed
   kubernetes-blog-maintainers:
-    description: Maintaining the Kubernetes blog on kubernetes.io
+    description: Maintainers of the kubernetes blog
     members:
     - bobsky
     - kbarnard10
@@ -1583,12 +1489,12 @@ teams:
     - zacharysarah
     privacy: closed
   kubernetes-feature-branch-admins:
-    description: Admin access to kubernetes repo, for maintaining feature branches. Will deprecate when this access is no longer needed.
+    description: Admin access to the kubernetes repo, for maintaining feature branches. Will deprecate when this access is no longer needed.
     members:
     - lavalamp
     privacy: closed
   kubernetes-maintainers:
-    description: Write access to kubernetes repo. Follow the process in https://github.com/kubernetes/community/blob/master/community-membership.md
+    description: Write access to the kubernetes repo. Follow the process in https://github.com/kubernetes/community/blob/master/community-membership.md
     maintainers:
     - cblecker
     - fejta
@@ -1676,7 +1582,7 @@ teams:
     - sttts
     privacy: closed
   kubernetes-website-admins:
-    description: Admins of kubernetes/website repo
+    description: Admin access to the website repo
     members:
     - Bradamant3
     - chenopis
@@ -1707,21 +1613,21 @@ teams:
     - vmarmol
     privacy: closed
   metrics-admins:
-    description: metrics repository admins
+    description: Admin access to the metrics repo
     members:
     - DirectXMan12
     - piosz
     - sarahnovotny
     privacy: closed
   metrics-maintainers:
-    description: metrics repository maintainers
+    description: Write access to the metrics repo
     members:
     - DirectXMan12
     - piosz
     - sarahnovotny
     privacy: closed
   minikube-admins:
-    description: Admin access to kubernetes/minikube
+    description: Admin access to the minikube repo
     members:
     - balopat
     - dlorenc
@@ -1729,7 +1635,7 @@ teams:
     - vishh
     privacy: closed
   minikube-maintainers:
-    description: Write access to kubernetes/minikube
+    description: Write access to the minikube repo
     maintainers:
     - spiffxp
     members:
@@ -1741,23 +1647,16 @@ teams:
     - tstromberg
     privacy: closed
   node-problem-detector-admins:
-    description: Maintainers of node problem detector
+    description: Admin access to the node-problem-detector repo
     members:
     - dchen1107
     - Random-Liu
     privacy: closed
   node-problem-detector-maintainers:
-    description: ""
+    description: Write access to the node-problem-detector repo
     members:
     - andyxning
     - dchen1107
-    - Random-Liu
-    - wangzhen127
-    privacy: closed
-  node-problem-detector-reviewers:
-    description: ""
-    members:
-    - andyxning
     - Random-Liu
     - wangzhen127
     privacy: closed
@@ -1772,25 +1671,19 @@ teams:
     - spiffxp
     privacy: closed
   perf-tests-admins:
-    description: ""
+    description: Admin access to the perf-tests repo
     members:
     - bowei
     - gmarek
     - wojtek-t
     privacy: closed
   perf-tests-maintainers:
-    description: ""
+    description: Write access to the perf-tests repo
     members:
     - bowei
     - gmarek
     - shyamjvs
     - timothysc
-    - wojtek-t
-    privacy: closed
-  perf-tests-reviewers:
-    description: ""
-    members:
-    - gmarek
     - wojtek-t
     privacy: closed
   product-security-committee:
@@ -1805,18 +1698,18 @@ teams:
     - product-security-team
     privacy: closed
   repo-infra-maintainers:
-    description: ""
+    description: Write access to the repo-infra repo
     members:
     - ixdy
     - mikedanese
     privacy: closed
   sample-apiserver-admins:
-    description: Admin permissions for sample-apiserver repo
+    description: Admin access to the sample-apiserver repo
     members:
     - bgrant0607
     privacy: closed
   sample-controller-admins:
-    description: Admin permission for sample-controller
+    description: Admin access to the sample-controller repo
     members:
     - bgrant0607
     privacy: closed
@@ -1855,7 +1748,7 @@ teams:
     - rcj4747
     privacy: closed
   utils-admins:
-    description: ""
+    description: Admin access to the utils repo
     members:
     - apelisse
     - dims
@@ -1865,17 +1758,7 @@ teams:
     - thockin
     privacy: closed
   utils-maintainers:
-    description: ""
-    members:
-    - apelisse
-    - dims
-    - mengqiy
-    - monopole
-    - pwittrock
-    - thockin
-    privacy: closed
-  utils-reviewers:
-    description: ""
+    description: Write access to the utils repo
     members:
     - apelisse
     - dims

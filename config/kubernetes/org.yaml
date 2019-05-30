@@ -1819,7 +1819,7 @@ teams:
     - bgrant0607
     privacy: closed
   stage-bots:
-    description: Bots that only have write access to staged repositories. Giving write
+    description: Bots that only have admin access to staged repositories. Giving admin
       access to other repositories may allow the bot to automatically unintentionally
       close issues in those repositories.
     members:

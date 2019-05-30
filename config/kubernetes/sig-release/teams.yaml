@@ -1,5 +1,14 @@
 teams:
-  kubernetes-milestone-maintainers:
+  licensing:
+    description: Members of the Licensing subproject.
+    maintainers:
+    - nikhita # subproject owner
+    members:
+    - dims # subproject owner
+    - justaugustus # subproject owner
+    - swinslow # subproject owner
+    privacy: closed
+  milestone-maintainers:
     description: Contributors who can use `/milestone` or `/status` commands on issues/PRs.
       This team also grants write access to the kubernetes/enhancements repo to allow
       editing of descriptions for Enhancement tracking issues.
@@ -94,23 +103,8 @@ teams:
     - xmudrii # 1.15 Bug Triage Shadow
     - zacharysarah # Docs
     privacy: closed
-  kubernetes-release-managers:
-    description: People actively pushing k8s releases.  Gives admin access to
-      repos where branches must be created, etc., and write access to ones where
-      label/PR management is needed. Remove users who are not actively doing
-      this job.
-    members:
-    - aleksandra-malinowska # 1.13 / 1.14 Patch Release Team
-    - bubblemelon # 1.15 Branch Manager
-    - claurence # 1.15 RT Lead
-    - feiskyer # 1.12 Patch Release Manager
-    - foxish # 1.11 Patch Release Manager
-    - idealhack # 1.15 Branch Manager Shadow
-    - k8s-release-robot
-    - lachie83 # 1.15 RT Lead Shadow
-    - nikopen # 1.15 RT Lead Shadow
-    - tpepper # 1.13 / 1.14 Patch Release Team, 1.15 RT Lead Shadow
-    privacy: closed
+    previously:
+    - kubernetes-milestone-maintainers
   patch-release-team:
     description: People managing patch releases of prior k8s minor release
       branches. This team is used for notifications for all active patch
@@ -118,7 +112,6 @@ teams:
     members:
     - aleksandra-malinowska # 1.13 / 1.14 Patch Release Team
     - feiskyer # 1.12 Patch Release Manager
-    - foxish # 1.11 Patch Release Manager
     - tpepper # 1.13 / 1.14 Patch Release Team
     privacy: closed
   publishing-bot-reviewers:
@@ -131,6 +124,79 @@ teams:
     - mfojtik
     - sttts
     privacy: closed
+  release-engineering:
+    description: Members of the Release Engineering subproject.
+    maintainers:
+    - calebamiles # subproject owner
+    members:
+    - aleksandra-malinowska # subproject owner
+    - hoegaarden # subproject owner
+    - ixdy # subproject owner
+    - tpepper # subproject owner
+    privacy: closed
+  release-managers:
+    description: People actively pushing k8s releases. Gives admin access to
+      repos where branches must be created, etc., and write access to ones where
+      label/PR management is needed. Remove users who are not actively doing
+      this job.
+    members:
+    - aleksandra-malinowska # 1.13 / 1.14 Patch Release Team
+    - bubblemelon # 1.15 Branch Manager
+    - feiskyer # 1.12 Patch Release Manager
+    - idealhack # 1.15 Branch Manager Shadow
+    - k8s-release-robot
+    - tpepper # 1.13 / 1.14 Patch Release Team
+    privacy: closed
+    previously:
+    - kubernetes-release-managers
+  release-team:
+    description: Members of the current Release Team and subproject owners.
+    maintainers:
+    - spiffxp # subproject owner
+    members:
+    - aishsundar # subproject owner
+    - alejandrox1 # 1.15 CI Signal Lead
+    - alenkacz # 1.15 CI Signal Shadow
+    - bubblemelon # 1.15 Branch Manager
+    - castrojo # 1.15 Communications Lead
+    - claurence # 1.15 RT Lead
+    - craiglpeters # 1.15 Enhancements Shadow
+    - daminisatya # 1.15 Docs Shadow
+    - dstrebel # 1.15 Bug Triage Shadow
+    - idealhack # 1.15 Branch Manager Shadow
+    - imkin # 1.15 Test Infra Lead
+    - jberkus # subproject owner
+    - jeefy # 1.15 Release Notes Shadow
+    - jimangel # 1.15 CI Signal Shadow
+    - justaugustus # subproject owner
+    - kacole2 # 1.15 Enhancements Lead
+    - Katharine # 1.15 Test Infra Shadow
+    - lachie83 # 1.15 RT Lead Shadow
+    - MAKOSCAFEE # 1.15 Docs Lead
+    - mariantalla # 1.15 Test Infra Shadow
+    - mrbobbytables # 1.15 Enhancements Shadow
+    - nickchase # 1.15 Release Notes Shadow
+    - nikopen # 1.15 RT Lead Shadow
+    - onyiny-ang # 1.15 Release Notes Lead
+    - slicknik # 1.15 Branch Manager Shadow
+    - smourapina # 1.15 CI Signal Shadow
+    - soggiest # 1.15 Bug Triage Lead
+    - taragu # 1.15 Test Infra Shadow
+    - tpepper # subproject owner
+    - xmudrii # 1.15 Bug Triage Shadow
+    privacy: closed
+    teams:
+      release-team-leads:
+        description: Release Team Leads for the current Kubernetes release cycle.
+           Grants write access to kubernetes/kubernetes, kubernetes/release, and kubernetes/sig-release,
+           and can be used as a notification group.
+          Remove org members who are not current Release Team Leads.
+        members:
+        - claurence # 1.15 RT Lead
+        - lachie83 # 1.15 RT Lead Shadow
+        - nikopen # 1.15 RT Lead Shadow
+        - tpepper # 1.15 RT Lead Shadow
+        privacy: closed
   sig-release:
     description: SIG Release Members
     maintainers:

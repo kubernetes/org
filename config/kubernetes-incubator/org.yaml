@@ -181,13 +181,13 @@ members:
 - zparnold
 teams:
   admin-bootkube:
-    description: ""
+    description: Admin access to the bootkube repo
     members:
     - aaronlevy
     - philips
     privacy: closed
   admin-cluster-capacity:
-    description: ""
+    description: Admin access to the cluster-capacity repo
     members:
     - aveshagarwal
     - hodovska
@@ -195,40 +195,40 @@ teams:
     - sarahnovotny
     privacy: closed
   admin-cri-containerd:
-    description: administration of cri-containerd repo
+    description: Admin access to the cri-containerd repo
     members:
     - dchen1107
     - Random-Liu
     - sarahnovotny
     privacy: closed
   admin-custom-metrics-apiserver:
-    description: Admins for the custom-metrics-apiserver repo
+    description: Admin access to the custom-metrics-apiserver repo
     members:
     - DirectXMan12
     - luxas
     - piosz
     privacy: closed
   admin-external-storage:
-    description: administering the external-storage project
+    description: Admin access to the external-storage repo
     members:
     - childsb
     - sarahnovotny
     privacy: closed
   admin-reference-docs:
-    description: adminstration of reference-docs repo
+    description: Admin access to the reference-docs repo
     members:
     - pwittrock
     - sarahnovotny
     privacy: closed
   admins-apiserver-builder:
-    description: maintainers of the apiserver-builder repository with admin access
+    description: Admin access to the apiserver-builder repo
     members:
     - DirectXMan12
     - pwittrock
     - yue9944882
     privacy: closed
   admins-application-images:
-    description: administrators of the application-images repository
+    description: Admin access to the application-images repo
     maintainers:
     - calebamiles
     members:
@@ -236,7 +236,7 @@ teams:
     - zmerlynn
     privacy: closed
   admins-client-python:
-    description: admins of the client-python project
+    description: Admin access to the client-python repo
     members:
     - mbohlool
     - sarahnovotny
@@ -244,7 +244,7 @@ teams:
     - yliaog
     privacy: closed
   admins-cluster-proportional-autoscaler:
-    description: administers of  the cluster-proportional-autoscaler repository
+    description: Admin access to the cluster-proportional-autoscaler repo
     maintainers:
     - calebamiles
     members:
@@ -253,12 +253,12 @@ teams:
     - philips
     privacy: closed
   admins-cluster-proportional-vertical-autoscaler:
-    description: admin access to cluster-proportional-vertical-autoscaler
+    description: Admin access to the cluster-proportional-vertical-autoscaler repo
     members:
     - MrHohn
     privacy: closed
   admins-external-dns:
-    description: ""
+    description: Admin access to the external-dns repo
     maintainers:
     - calebamiles
     members:
@@ -266,7 +266,7 @@ teams:
     - sarahnovotny
     privacy: closed
   admins-ip-masq-agent:
-    description: ""
+    description: Admin access to the ip-masq-agent repo
     members:
     - dnardo
     - MrHohn
@@ -274,7 +274,7 @@ teams:
     - thockin
     privacy: closed
   admins-kargo:
-    description: ""
+    description: Admin access to the kargo repo
     maintainers:
     - calebamiles
     members:
@@ -285,7 +285,7 @@ teams:
     - Smana
     privacy: closed
   admins-kompose:
-    description: Admins for kompose
+    description: Admins access to the kompose repo
     members:
     - bgrant0607
     - cdrage
@@ -295,12 +295,12 @@ teams:
     - sebgoa
     privacy: closed
   admins-kops:
-    description: administrators of the kops repository
+    description: Admin access to the kops repo
     maintainers:
     - calebamiles
     privacy: closed
   admins-kube-aws:
-    description: kube-aws repository administrators
+    description: Admin access to the kube-aws repo
     maintainers:
     - calebamiles
     members:
@@ -309,7 +309,7 @@ teams:
     - philips
     privacy: closed
   admins-kube2consul:
-    description: administrators of the kube2consul repository
+    description: Admin access to the kube2consul repo
     maintainers:
     - calebamiles
     members:
@@ -317,13 +317,13 @@ teams:
     - elg0nz
     privacy: closed
   admins-metrics-server:
-    description: ""
+    description: Admin access to the metrics-server repo
     members:
     - piosz
     - thockin
     privacy: closed
   admins-node-feature-discovery:
-    description: Administrators of node-feature-discovery
+    description: Admin access to the node-feature-discovery repo
     members:
     - balajismaniam
     - ConnorDoyle
@@ -331,7 +331,7 @@ teams:
     - philips
     privacy: closed
   admins-rktlet:
-    description: administrators of the rktlet repository
+    description: Admin access to the rktlet repo
     maintainers:
     - calebamiles
     members:
@@ -340,23 +340,18 @@ teams:
     - yifan-gu
     privacy: closed
   admins-service-catalog:
-    description: administrators for the service catalog project
+    description: Admin access to the service-catalog repo
     members:
     - jberkhahn
     - jboyd01
     privacy: closed
   descheduler-admins:
-    description: Admin permission for descheduler repo
+    description: Admin access to the descheduler repo
     members:
     - aveshagarwal
     privacy: closed
   descheduler-maintainers:
-    description: Write permission for descheduler repo
-    members:
-    - aveshagarwal
-    privacy: closed
-  descheduler-reviewers:
-    description: Read permission for descheduler repo
+    description: Write access to the descheduler repo
     members:
     - aveshagarwal
     privacy: closed
@@ -378,14 +373,6 @@ teams:
     - msau42
     - wongma7
     privacy: closed
-  incubator-admin:
-    description: ""
-    members:
-    - philips
-    privacy: closed
-  incubator-admins:
-    description: ""
-    privacy: closed
   kompose-contributors:
     description: Contributors to kompose repo (read access)
     members:
@@ -396,14 +383,14 @@ teams:
     - sebgoa
     privacy: closed
   maintainers-apiserver-builder:
-    description: maintainers of apiserver-builder with write access on the repository
+    description: Write access to the apiserver-builder repo
     members:
     - DirectXMan12
     - pwittrock
     - yue9944882
     privacy: closed
   maintainers-application-images:
-    description: contributors to the application-images repository
+    description: Write access to the application-images repo
     maintainers:
     - calebamiles
     members:
@@ -411,7 +398,7 @@ teams:
     - zmerlynn
     privacy: closed
   maintainers-bootkube:
-    description: ""
+    description: Write access to the bootkube repo
     members:
     - aaronlevy
     - derekparker
@@ -419,7 +406,7 @@ teams:
     - philips
     privacy: closed
   maintainers-client-python:
-    description: maintainers of the client-python project
+    description: Write access to the client-python repo
     members:
     - caesarxuchao
     - dims
@@ -429,7 +416,7 @@ teams:
     - yliaog
     privacy: closed
   maintainers-cluster-capacity:
-    description: ""
+    description: Write access to the cluster-capacity repo
     members:
     - aveshagarwal
     - hodovska
@@ -437,7 +424,7 @@ teams:
     - sarahnovotny
     privacy: closed
   maintainers-cluster-proportional-autoscaler:
-    description: contributors to the cluster-proportional-autoscaler repository
+    description: Write access to the cluster-proportional-autoscaler repo
     maintainers:
     - calebamiles
     members:
@@ -445,13 +432,13 @@ teams:
     - philips
     privacy: closed
   maintainers-cluster-proportional-vertical-autoscaler:
-    description: ""
+    description: Write access to the cluster-proportional-vertical-autoscaler repo
     members:
     - dnardo
     - thockin
     privacy: closed
   maintainers-cri-containerd:
-    description: maintainers of cri-containerd repo
+    description: Write access to the cri-containerd repo
     members:
     - abhi
     - dchen1107
@@ -461,7 +448,7 @@ teams:
     - yujuhong
     privacy: closed
   maintainers-external-dns:
-    description: ""
+    description: Write access to the external-dns repo
     members:
     - chrislovecnm
     - hjacobs
@@ -475,7 +462,7 @@ teams:
     - sarahnovotny
     privacy: closed
   maintainers-external-storage:
-    description: maintainers of the external-storage project
+    description: Write access to the external-storage repo
     members:
     - childsb
     - humblec
@@ -488,14 +475,14 @@ teams:
     - wongma7
     privacy: closed
   maintainers-ip-masq-agent:
-    description: ""
+    description: Write access to the ip-masq-agent repo
     members:
     - dnardo
     - mtaufen
     - thockin
     privacy: closed
   maintainers-kargo:
-    description: ""
+    description: Write access to the kargo repo
     maintainers:
     - calebamiles
     members:
@@ -505,7 +492,7 @@ teams:
     - rsmitty
     privacy: closed
   maintainers-kompose:
-    description: Write access for kompose
+    description: Write access to the kompose repo
     members:
     - bgrant0607
     - cab105
@@ -516,12 +503,12 @@ teams:
     - surajssd
     privacy: closed
   maintainers-kops:
-    description: contributors to the kops repository
+    description: Write access to the kops repo
     maintainers:
     - calebamiles
     privacy: closed
   maintainers-kube-aws:
-    description: maintainers for kube-aws
+    description: Write access to the kube-aws repo
     maintainers:
     - calebamiles
     members:
@@ -532,7 +519,7 @@ teams:
     - redbaron
     privacy: closed
   maintainers-kube2consul:
-    description: contributors to the kube2consul repository
+    description: Write access to the kube2consul repo
     maintainers:
     - calebamiles
     members:
@@ -540,7 +527,7 @@ teams:
     - elg0nz
     privacy: closed
   maintainers-metrics-server:
-    description: ""
+    description: Write access to the metrics-server repo
     members:
     - crassirostris
     - DirectXMan12
@@ -554,7 +541,7 @@ teams:
     - x13n
     privacy: closed
   maintainers-node-feature-discovery:
-    description: Maintainers of the node-feature-discovery repo.
+    description: Write access to the node-feature-discovery repo
     members:
     - balajismaniam
     - ConnorDoyle
@@ -564,7 +551,7 @@ teams:
     - philips
     privacy: closed
   maintainers-reference-docs:
-    description: maintainers of the reference-docs repo
+    description: Write access to the reference-docs repo
     members:
     - jimangel
     - pwittrock
@@ -572,7 +559,7 @@ teams:
     - tengqm
     privacy: closed
   maintainers-rktlet:
-    description: contributors to the rktlet repository
+    description: Write access to the rktlet repo
     maintainers:
     - calebamiles
     members:
@@ -581,7 +568,7 @@ teams:
     - yifan-gu
     privacy: closed
   maintainers-service-catalog:
-    description: maintainers of the service catalog project
+    description: Write access to the service-catalog repo
     members:
     - arschles
     - bgrant0607
@@ -605,21 +592,12 @@ teams:
     - vaikas-google
     privacy: closed
   maintainers-spartakus:
-    description: People who maintain spartakus
+    description: Write access to the spartakus repo
     members:
     - aronchick
     - grodrigues3
     - squat
     - thockin
-    privacy: closed
-  reviewers-cri-containerd:
-    description: reviewers of cri-containerd repo
-    members:
-    - abhi
-    - miaoyq
-    - mikebrow
-    - Random-Liu
-    - yanxuean
     privacy: closed
   temporary-admin-transfers:
     description: For transferring repos into incubator.

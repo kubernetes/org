@@ -1,0 +1,15 @@
+teams:
+  service-catalog-admins:
+    description: Admin access to the service-catalog repo
+    members:
+    - jberkhahn
+    privacy: closed
+  service-catalog-maintainers:
+    description: Write access to the service-catalog repo
+    members:
+    - bgrant0607
+    - carolynvs
+    - jberkhahn
+    - jeremyrickard
+    - pmorie
+    privacy: closed

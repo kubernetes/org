@@ -2,14 +2,11 @@ teams:
   sig-service-catalog:
     description: Notifications for SIG service-catalog
     members:
-    - bmelville
+    - bgrant0607
+    - carolynvs
     - jberkhahn
-    - jboyd01
-    - jessfraz
-    - kibbles-n-bytes
+    - jeremyrickard
     - pmorie
-    - pwittrock
-    - smarterclayton
     previously:
     - sig-service-catalog-misc
     privacy: closed

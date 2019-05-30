@@ -129,3 +129,18 @@ teams:
     - grodrigues3
     - idealhack
     privacy: closed
+  youtube-admins:
+    description: Members who have admin access to the Kubernetes Community
+      YouTube channel.
+    maintainers:
+    - idvoretskyi
+    members:
+    - alejandrox1
+    - castrojo
+    - jbeda
+    - jdumars
+    - jeefy
+    - mrbobbytables
+    - parispittman
+    - sarahnovotny
+    privacy: closed

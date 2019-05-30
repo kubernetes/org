@@ -95,27 +95,42 @@ teams:
     - zacharysarah # Docs
     privacy: closed
   kubernetes-release-managers:
-    description: People actively working on next k8s minor release.  Gives admin access to repos
-      where branches must be created, etc., and write access to ones where label/PR
-      management is needed. Remove users who are not actively doing this job.
+    description: People actively pushing k8s releases.  Gives admin access to
+      repos where branches must be created, etc., and write access to ones where
+      label/PR management is needed. Remove users who are not actively doing
+      this job.
     members:
+    - aleksandra-malinowska # 1.13 / 1.14 Patch Release Team
     - bubblemelon # 1.15 Branch Manager
     - claurence # 1.15 RT Lead
+    - feiskyer # 1.12 Patch Release Manager
+    - foxish # 1.11 Patch Release Manager
     - idealhack # 1.15 Branch Manager Shadow
     - k8s-release-robot
     - lachie83 # 1.15 RT Lead Shadow
     - nikopen # 1.15 RT Lead Shadow
-    - tpepper # 1.15 RT Lead Shadow
+    - tpepper # 1.13 / 1.14 Patch Release Team, 1.15 RT Lead Shadow
     privacy: closed
-    teams:
-      patch-release-team:
-        description: People managing patch releases of prior k8s minor release branches.
-        members:
-        - aleksandra-malinowska # 1.13 / 1.14 Patch Release Team
-        - feiskyer # 1.12 Patch Release Manager
-        - foxish # 1.11 Patch Release Manager
-        - tpepper # 1.13 / 1.14 Patch Release Team
-        privacy: closed
+  patch-release-team:
+    description: People managing patch releases of prior k8s minor release
+      branches. This team is used for notifications for all active patch
+      managers, but does not give permissions.
+    members:
+    - aleksandra-malinowska # 1.13 / 1.14 Patch Release Team
+    - feiskyer # 1.12 Patch Release Manager
+    - foxish # 1.11 Patch Release Manager
+    - tpepper # 1.13 / 1.14 Patch Release Team
+    privacy: closed
+  publishing-bot-reviewers:
+    description: Reviews for publishing-bot
+    maintainers:
+    - nikhita
+    members:
+    - caesarxuchao
+    - dims
+    - mfojtik
+    - sttts
+    privacy: closed
   sig-release:
     description: SIG Release Members
     maintainers:
@@ -187,13 +202,3 @@ teams:
         - justaugustus
         - tpepper
         privacy: closed
-  publishing-bot-reviewers:
-    description: Reviews for publishing-bot
-    maintainers:
-    - nikhita
-    members:
-    - caesarxuchao
-    - dims
-    - mfojtik
-    - sttts
-    privacy: closed

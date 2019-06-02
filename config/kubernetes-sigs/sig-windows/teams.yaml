@@ -1,15 +1,27 @@
 teams:
   windows-gmsa-admins:
-    description: "admin access to windows-gmsa"
+    description: Admin access to windows-gmsa repo
     members:
     - ddebroy
     - michmike
     - PatrickLang
     privacy: closed
   windows-gmsa-maintainers:
-    description: "write access to windows-gmsa"
+    description: Write access to windows-gmsa repo
     members:
     - ddebroy
+    - michmike
+    - PatrickLang
+    privacy: closed
+  sig-windows-tools-admins:
+    description: Admin access to sig-windows-tools repo
+    members:
+    - michmike
+    - PatrickLang
+    privacy: closed
+  sig-windows-tools-maintainers:
+    description: Write access to sig-windows-tools repo
+    members:
     - michmike
     - PatrickLang
     privacy: closed

@@ -195,13 +195,6 @@ teams:
     - ingvagabund
     - sarahnovotny
     privacy: closed
-  admin-cri-containerd:
-    description: Admin access to the cri-containerd repo
-    members:
-    - dchen1107
-    - Random-Liu
-    - sarahnovotny
-    privacy: closed
   admin-custom-metrics-apiserver:
     description: Admin access to the custom-metrics-apiserver repo
     members:
@@ -437,16 +430,6 @@ teams:
     members:
     - dnardo
     - thockin
-    privacy: closed
-  maintainers-cri-containerd:
-    description: Write access to the cri-containerd repo
-    members:
-    - abhi
-    - dchen1107
-    - mikebrow
-    - Random-Liu
-    - sarahnovotny
-    - yujuhong
     privacy: closed
   maintainers-external-dns:
     description: Write access to the external-dns repo

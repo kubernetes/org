@@ -43,6 +43,7 @@ members:
 - sbezverk
 - vladimirvivien
 - xing-yang
+- zhucan
 teams:
   cluster-driver-registrar-admins:
     description: Admin access to cluster-driver-registrar repo

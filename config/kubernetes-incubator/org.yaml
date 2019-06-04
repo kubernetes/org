@@ -145,7 +145,6 @@ members:
 - sarahnovotny
 - sbezverk
 - sebgoa
-- service-catalog-jenkins
 - shubheksha
 - slack
 - Smana
@@ -339,12 +338,6 @@ teams:
     - dchen1107
     - euank
     - yifan-gu
-    privacy: closed
-  admins-service-catalog:
-    description: Admin access to the service-catalog repo
-    members:
-    - jberkhahn
-    - jboyd01
     privacy: closed
   descheduler-admins:
     description: Admin access to the descheduler repo
@@ -567,30 +560,6 @@ teams:
     - dchen1107
     - euank
     - yifan-gu
-    privacy: closed
-  maintainers-service-catalog:
-    description: Write access to the service-catalog repo
-    members:
-    - arschles
-    - bgrant0607
-    - carolynvs
-    - duglin
-    - eriknelson
-    - jberkhahn
-    - jboyd01
-    - jeremyrickard
-    - jpeeler
-    - kibbles-n-bytes
-    - luksa
-    - martinmaly
-    - MHBauer
-    - n3wscott
-    - nilebox
-    - pmorie
-    - service-catalog-jenkins
-    - slack
-    - staebler
-    - vaikas-google
     privacy: closed
   maintainers-spartakus:
     description: Write access to the spartakus repo

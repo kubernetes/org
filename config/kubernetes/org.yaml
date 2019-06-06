@@ -532,6 +532,7 @@ members:
 - mcrute
 - mdelio
 - medinatiger
+- medyagh
 - mengqiy
 - mfojtik
 - mgdevstack
@@ -1142,7 +1143,7 @@ teams:
     - thockin
     privacy: closed
   dns-admins:
-    description: Admin access to the dns repo 
+    description: Admin access to the dns repo
     members:
     - bowei
     - MrHohn
@@ -1323,7 +1324,7 @@ teams:
     - thockin
     privacy: closed
   k8s.io-maintainers:
-    description: Write access to the k8s.io repo 
+    description: Write access to the k8s.io repo
     members:
     - dims
     - ixdy

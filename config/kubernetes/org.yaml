@@ -137,6 +137,7 @@ members:
 - chancez
 - chaosaffe
 - chardch
+- chases2
 - cheftako
 - cheld
 - chenopis
@@ -532,6 +533,7 @@ members:
 - mcrute
 - mdelio
 - medinatiger
+- medyagh
 - mengqiy
 - mfojtik
 - mgdevstack
@@ -606,6 +608,7 @@ members:
 - nilebox
 - nowjean
 - nwoods3
+- nzoueidi
 - OddBloke
 - olekzabl
 - onyiny-ang
@@ -1142,7 +1145,7 @@ teams:
     - thockin
     privacy: closed
   dns-admins:
-    description: Admin access to the dns repo 
+    description: Admin access to the dns repo
     members:
     - bowei
     - MrHohn
@@ -1323,7 +1326,7 @@ teams:
     - thockin
     privacy: closed
   k8s.io-maintainers:
-    description: Write access to the k8s.io repo 
+    description: Write access to the k8s.io repo
     members:
     - dims
     - ixdy

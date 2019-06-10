@@ -2,9 +2,9 @@ teams:
   enhancements-maintainers:
     description: Contributors with write access to k/enhancements
     maintainers:
-    - calebamiles
     - idvoretskyi
     members:
+    - calebamiles
     - jdumars
     - justaugustus
     - lachie83
@@ -13,9 +13,8 @@ teams:
     privacy: closed
   kep-maintainers:
     description: KEP Process Owners
-    maintainers:
-    - calebamiles
     members:
+    - calebamiles
     - jdumars
     - justaugustus
     - lachie83
@@ -37,9 +36,9 @@ teams:
   sig-pm:
     description: Members of SIG PM.
     maintainers:
-    - calebamiles
     - idvoretskyi
     members:
+    - calebamiles
     - craiglpeters
     - jdumars
     - justaugustus

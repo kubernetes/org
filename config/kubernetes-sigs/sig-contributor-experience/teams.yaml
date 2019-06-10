@@ -1,15 +1,17 @@
 teams:
   contributor-site-admins:
     description: admin access to contributor-site
+    maintainers:
+    - mrbobbytables
     members:
     - castrojo
-    - mrbobbytables
     privacy: closed
   contributor-site-maintainers:
     description: write access to contributor-site
+    maintainers:
+    - mrbobbytables
     members:
     - castrojo
-    - mrbobbytables
     privacy: closed
   slack-infra-admins:
     description: admin access to slack-infra

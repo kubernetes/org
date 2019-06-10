@@ -1,4 +1,17 @@
 teams:
+  build-admins:
+    description: Kubernetes Build Admins are the current set of Googlers with access to
+      publish packages (debs/rpms) on behalf of the Kubernetes project. This team is a 
+      notification-only group, which includes the SIG Release Chairs for continuity.
+    maintainers:
+    - calebamiles
+    members:
+    - aleksandra-malinowska
+    - justaugustus
+    - listx
+    - sumitranr
+    - tpepper
+    privacy: closed
   licensing:
     description: Members of the Licensing subproject.
     maintainers:

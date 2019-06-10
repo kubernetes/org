@@ -5,12 +5,12 @@ has_organization_projects: true
 has_repository_projects: true
 members_can_create_repositories: false
 admins:
-- calebamiles
 - cblecker
 - fejta
 - idvoretskyi
 - k8s-ci-robot
 - k8s-github-robot
+- mrbobbytables
 - nikhita
 - spiffxp
 - thelinuxfoundation
@@ -46,6 +46,7 @@ members:
 - brancz
 - bryk
 - caesarxuchao
+- calebamiles
 - carolynvs
 - castrojo
 - chadswen
@@ -177,7 +178,6 @@ members:
 - monopole
 - morvencao
 - moshloop
-- mrbobbytables
 - mrunalp
 - msau42
 - mszostok
@@ -366,18 +366,18 @@ teams:
   kube-batch-admins:
     description: Admin access to the kube-batch repo
     maintainers:
-    - calebamiles
     - spiffxp
     members:
+    - calebamiles
     - k82cn
     - timothysc
     privacy: closed
   kube-batch-maintainers:
     description: Write access to the kube-batch repo
     maintainers:
-    - calebamiles
     - spiffxp
     members:
+    - calebamiles
     - k82cn
     - timothysc
     privacy: closed
@@ -423,18 +423,18 @@ teams:
     privacy: closed
   mutating-trace-admission-controller:
     description: Parent team for mutating-trace-admission-controller repo (maintainers, admins)
-    maintainers:
+    members:
     - calebamiles
     privacy: closed
     teams:
       mutating-trace-admission-controller-admins:
         description: Admin access to the mutating-trace-admission-controller repo
-        maintainers:
+        members:
         - calebamiles
         privacy: closed
       mutating-trace-admission-controller-maintainers:
         description: Write access to the mutating-trace-admission-controller repo
-        maintainers:
+        members:
         - calebamiles
         privacy: closed
   node-feature-discovery-admins:

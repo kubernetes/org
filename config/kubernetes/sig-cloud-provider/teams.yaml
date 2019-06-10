@@ -1,10 +1,9 @@
 teams:
   sig-cloud-provider:
     description: Parent Team for SIG Cloud Provider
-    maintainers:
-    - calebamiles
     members:
     - andrewsykim
+    - calebamiles
     - cheftako
     - hogepodge
     - jagosan
@@ -18,19 +17,17 @@ teams:
     teams:
       cloud-provider-sample-admins:
         description: ""
-        maintainers:
-        - calebamiles
         members:
         - andrewsykim
+        - calebamiles
         - cheftako
         - mcrute
         privacy: closed
       cloud-provider-sample-maintainers:
         description: ""
-        maintainers:
-        - calebamiles
         members:
         - andrewsykim
+        - calebamiles
         - cheftako
         - mcrute
         privacy: closed
@@ -43,46 +40,41 @@ teams:
         privacy: closed
       sig-cloud-provider-api-reviews:
         description: ""
-        maintainers:
-        - calebamiles
         members:
         - andrewsykim
+        - calebamiles
         - hogepodge
         - jagosan
         privacy: closed
       sig-cloud-provider-bugs:
         description: ""
-        maintainers:
-        - calebamiles
         members:
         - andrewsykim
+        - calebamiles
         - hogepodge
         - jagosan
         privacy: closed
       sig-cloud-provider-feature-requests:
         description: ""
-        maintainers:
-        - calebamiles
         members:
         - andrewsykim
+        - calebamiles
         - hogepodge
         - jagosan
         privacy: closed
       sig-cloud-provider-misc:
         description: ""
-        maintainers:
-        - calebamiles
         members:
         - andrewsykim
+        - calebamiles
         - hogepodge
         - jagosan
         privacy: closed
       sig-cloud-provider-pr-reviews:
         description: ""
-        maintainers:
-        - calebamiles
         members:
         - andrewsykim
+        - calebamiles
         - hogepodge
         - jagosan
         - nckturner
@@ -90,26 +82,23 @@ teams:
         privacy: closed
       sig-cloud-provider-proposals:
         description: ""
-        maintainers:
-        - calebamiles
         members:
         - andrewsykim
+        - calebamiles
         - hogepodge
         - jagosan
         privacy: closed
       sig-cloud-provider-test-failures:
         description: ""
-        maintainers:
-        - calebamiles
         members:
         - andrewsykim
+        - calebamiles
         - hogepodge
         - jagosan
         privacy: closed
   sig-cloud-provider-admins:
     description: ""
-    maintainers:
-    - calebamiles
     members:
     - andrewsykim
+    - calebamiles
     privacy: closed

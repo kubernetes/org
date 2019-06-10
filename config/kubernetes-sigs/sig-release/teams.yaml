@@ -24,9 +24,8 @@ teams:
     privacy: closed
   release-notes-maintainers:
     description: write access to release-notes
-    maintainers:
-    - calebamiles
     members:
+    - calebamiles
     - jeefy
     - justaugustus
     - marpaia

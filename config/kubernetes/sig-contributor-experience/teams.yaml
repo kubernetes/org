@@ -2,12 +2,12 @@ teams:
   community-admins:
     description: ""
     maintainers:
-    - calebamiles
     - cblecker
     - idvoretskyi
     - nikhita
     members:
     - bgrant0607
+    - calebamiles
     - castrojo
     - grodrigues3
     - jdumars
@@ -29,13 +29,14 @@ teams:
   community-milestone-maintainers:
     description: Contributors who can use `/milestone` in the community repo. Defined by an entry in an OWNERS file for a contribex subproject.
     maintainers:
-    - calebamiles
     - cblecker
     - fejta
     - idvoretskyi
+    - mrbobbytables
     - nikhita
     - spiffxp
     members:
+    - calebamiles
     - castrojo
     - dims
     - grodrigues3
@@ -45,7 +46,6 @@ teams:
     - jeefy
     - justaugustus
     - lukaszgryglicki
-    - mrbobbytables
     - parispittman
     - Phillels
     - tpepper
@@ -134,13 +134,13 @@ teams:
       YouTube channel.
     maintainers:
     - idvoretskyi
+    - mrbobbytables
     members:
     - alejandrox1
     - castrojo
     - jbeda
     - jdumars
     - jeefy
-    - mrbobbytables
     - parispittman
     - sarahnovotny
     privacy: closed

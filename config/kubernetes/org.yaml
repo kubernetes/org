@@ -5,12 +5,12 @@ has_organization_projects: true
 has_repository_projects: true
 members_can_create_repositories: false
 admins:
-- calebamiles
 - cblecker
 - fejta
 - idvoretskyi
 - k8s-ci-robot
 - k8s-github-robot
+- mrbobbytables
 - nikhita
 - spiffxp
 - thelinuxfoundation
@@ -121,6 +121,7 @@ members:
 - burmanm
 - cab105
 - caesarxuchao
+- calebamiles
 - cameronbrunner
 - caniszczyk
 - cantbewong
@@ -580,7 +581,6 @@ members:
 - mortent
 - mqliang
 - mr-linus
-- mrbobbytables
 - mrhillsman
 - MrHohn
 - mrunalp
@@ -975,18 +975,16 @@ teams:
     privacy: closed
   cloud-provider-gcp-admins:
     description: Admin access to cloud-provider-gcp repo
-    maintainers:
-    - calebamiles
     members:
     - awly
+    - calebamiles
     - mikedanese
     privacy: closed
   cloud-provider-gcp-maintainers:
     description: Write access to cloud-provider-gcp repo
-    maintainers:
-    - calebamiles
     members:
     - awly
+    - calebamiles
     - mikedanese
     privacy: closed
   cloud-provider-openstack-admins:
@@ -1676,10 +1674,10 @@ teams:
   owners:
     description: Kubernetes GitHub Owners
     maintainers:
-    - calebamiles
     - cblecker
     - fejta
     - idvoretskyi
+    - mrbobbytables
     - nikhita
     - spiffxp
     privacy: closed

@@ -2,11 +2,10 @@ teams:
   sig-service-catalog:
     description: Notifications for SIG service-catalog
     members:
-    - bgrant0607
     - carolynvs
     - jberkhahn
-    - jeremyrickard
-    - pmorie
+    - mhbauer
+    - mszostok
     previously:
     - sig-service-catalog-misc
     privacy: closed

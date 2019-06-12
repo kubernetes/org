@@ -221,7 +221,7 @@ func TestAllOrgs(t *testing.T) {
 		allOrgMembers := members.Union(admins)
 
 		if both := admins.Intersection(members); len(both) > 0 {
-			t.Errorf("users in both org admin and member roles: %s", strings.Join(both.List(), ", "))
+			t.Errorf("users in both org admin and member roles for org '%s': %s", *org.Name, strings.Join(both.List(), ", "))
 		}
 
 		if !admins.Has("k8s-ci-robot") {

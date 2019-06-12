@@ -5,12 +5,12 @@ has_organization_projects: true
 has_repository_projects: true
 members_can_create_repositories: false
 admins:
-- calebamiles
 - cblecker
 - fejta
 - idvoretskyi
 - k8s-ci-robot
 - k8s-github-robot
+- mrbobbytables
 - nikhita
 - spiffxp
 - thelinuxfoundation
@@ -36,6 +36,7 @@ members:
 - bsalamat
 - cab105
 - caesarxuchao
+- calebamiles
 - carolynvs
 - cdrage
 - chadswen
@@ -108,7 +109,6 @@ members:
 - mikebrow
 - mirwan
 - mistyhacks
-- mrbobbytables
 - MrHohn
 - mrunalp
 - msau42
@@ -222,9 +222,8 @@ teams:
     privacy: closed
   admins-application-images:
     description: Admin access to the application-images repo
-    maintainers:
-    - calebamiles
     members:
+    - calebamiles
     - mattf
     - zmerlynn
     privacy: closed
@@ -238,10 +237,9 @@ teams:
     privacy: closed
   admins-cluster-proportional-autoscaler:
     description: Admin access to the cluster-proportional-autoscaler repo
-    maintainers:
-    - calebamiles
     members:
     - bowei
+    - calebamiles
     - MrHohn
     - philips
     privacy: closed
@@ -252,9 +250,8 @@ teams:
     privacy: closed
   admins-external-dns:
     description: Admin access to the external-dns repo
-    maintainers:
-    - calebamiles
     members:
+    - calebamiles
     - justinsb
     - sarahnovotny
     privacy: closed
@@ -268,11 +265,10 @@ teams:
     privacy: closed
   admins-kargo:
     description: Admin access to the kargo repo
-    maintainers:
-    - calebamiles
     members:
     - ant31
     - bogdando
+    - calebamiles
     - mattymo
     - sarahnovotny
     - Smana
@@ -290,23 +286,22 @@ teams:
   admins-kops:
     description: Admin access to the kops repo
     maintainers:
+    members:
     - calebamiles
     privacy: closed
   admins-kube-aws:
     description: Admin access to the kube-aws repo
-    maintainers:
-    - calebamiles
     members:
+    - calebamiles
     - colhom
     - mumoshu
     - philips
     privacy: closed
   admins-kube2consul:
     description: Admin access to the kube2consul repo
-    maintainers:
-    - calebamiles
     members:
     - bgrant0607
+    - calebamiles
     - elg0nz
     privacy: closed
   admins-metrics-server:
@@ -325,9 +320,8 @@ teams:
     privacy: closed
   admins-rktlet:
     description: Admin access to the rktlet repo
-    maintainers:
-    - calebamiles
     members:
+    - calebamiles
     - dchen1107
     - euank
     - yifan-gu
@@ -378,9 +372,8 @@ teams:
     privacy: closed
   maintainers-application-images:
     description: Write access to the application-images repo
-    maintainers:
-    - calebamiles
     members:
+    - calebamiles
     - mattf
     - zmerlynn
     privacy: closed
@@ -412,9 +405,8 @@ teams:
     privacy: closed
   maintainers-cluster-proportional-autoscaler:
     description: Write access to the cluster-proportional-autoscaler repo
-    maintainers:
-    - calebamiles
     members:
+    - calebamiles
     - MrHohn
     - philips
     privacy: closed
@@ -460,11 +452,10 @@ teams:
     privacy: closed
   maintainers-kargo:
     description: Write access to the kargo repo
-    maintainers:
-    - calebamiles
     members:
     - ant31
     - bogdando
+    - calebamiles
     - mattymo
     - rsmitty
     privacy: closed
@@ -481,14 +472,13 @@ teams:
     privacy: closed
   maintainers-kops:
     description: Write access to the kops repo
-    maintainers:
+    members:
     - calebamiles
     privacy: closed
   maintainers-kube-aws:
     description: Write access to the kube-aws repo
-    maintainers:
-    - calebamiles
     members:
+    - calebamiles
     - colhom
     - mumoshu
     - pbx0
@@ -497,10 +487,9 @@ teams:
     privacy: closed
   maintainers-kube2consul:
     description: Write access to the kube2consul repo
-    maintainers:
-    - calebamiles
     members:
     - bgrant0607
+    - calebamiles
     - elg0nz
     privacy: closed
   maintainers-metrics-server:
@@ -537,9 +526,8 @@ teams:
     privacy: closed
   maintainers-rktlet:
     description: Write access to the rktlet repo
-    maintainers:
-    - calebamiles
     members:
+    - calebamiles
     - dchen1107
     - euank
     - yifan-gu

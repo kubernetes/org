@@ -1,16 +1,11 @@
 # See the OWNERS docs at https://go.k8s.io/owners
 
-reviewers:
-  - calebamiles
-  - cblecker
-  - fejta
-  - idvoretskyi
-  - nikhita
-  - spiffxp
 approvers:
-  - calebamiles
   - cblecker
   - fejta
   - idvoretskyi
+  - mrbobbytables
   - nikhita
   - spiffxp
+emeritus_approvers:
+  - calebamiles

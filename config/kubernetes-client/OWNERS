@@ -2,11 +2,12 @@
 
 reviewers:
   - justaugustus
-  - mrbobbytables
 approvers:
-  - calebamiles
   - cblecker
   - fejta
   - idvoretskyi
+  - mrbobbytables
   - nikhita
   - spiffxp
+emeritus_approvers:
+  - calebamiles

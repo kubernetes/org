@@ -9,7 +9,6 @@ teams:
     members:
     - justaugustus
     - soggiest
-    - tariq1890
     privacy: closed
   azuredisk-csi-driver-admins:
     description: ""

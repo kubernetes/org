@@ -11,6 +11,8 @@ teams:
     description: write access to addon-operators
     members:
     - justinsb
+    - dholbach
+    - stealthybox
     privacy: closed
   cluster-api-admins:
     description: ""

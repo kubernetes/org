@@ -1422,11 +1422,16 @@ teams:
   kube-state-metrics-admins:
     description: Admin access to the kube-state-metrics repo
     members:
-    - fabxc
-    - ghodss
+    - andyxning
+    - brancz
     privacy: closed
   kube-state-metrics-maintainers:
     description: Write access to the kube-state-metrics repo
+    members:
+    - andyxning
+    - brancz
+    - mxinden
+    - tariq1890
     privacy: closed
   kubeadm-admins:
     description: Admin access to the kubeadm repo

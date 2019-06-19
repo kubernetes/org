@@ -2,30 +2,36 @@ teams:
   sig-openstack-api-reviews:
     description: ""
     maintainers:
-    - idvoretskyi
+    - hogepodge
     members:
-    - xsgordon
+    - adisky
+    - chrigl
     privacy: closed
   sig-openstack-bugs:
     description: ""
     maintainers:
-    - idvoretskyi
+    - hogepodge
     members:
     - NickrenREN
-    - xsgordon
+    - adisky
+    - chrigl
     privacy: closed
   sig-openstack-feature-requests:
     description: ""
     maintainers:
-    - idvoretskyi
+    - hogepodge
     members:
-    - xsgordon
+    - adisky
+    - chrigl
     privacy: closed
   sig-openstack-misc:
     description: OpenStack Special Interest Group
     maintainers:
-    - idvoretskyi
+    - adisky
+    - chrigl
+    - hogepodge
     members:
+    - NickrenREN
     - anguslees
     - codevulture
     - dims
@@ -34,10 +40,8 @@ teams:
     - flaper87
     - grahamhayes
     - harlowja
-    - hogepodge
     - hongbin
     - kragniz
-    - NickrenREN
     - pigmej
     - rootfs
     - russellb
@@ -47,22 +51,24 @@ teams:
   sig-openstack-pr-reviews:
     description: ""
     maintainers:
-    - idvoretskyi
+    - hogepodge
     members:
-    - NickrenREN
-    - xsgordon
+    - adisky
+    - chrigl
     privacy: closed
   sig-openstack-proposals:
     description: ""
     maintainers:
-    - idvoretskyi
+    - hogepodge
     members:
-    - xsgordon
+    - adisky
+    - chrigl
     privacy: closed
   sig-openstack-test-failures:
     description: ""
     maintainers:
-    - idvoretskyi
+    - hogepodge
     members:
-    - xsgordon
+    - adisky
+    - chrigl
     privacy: closed

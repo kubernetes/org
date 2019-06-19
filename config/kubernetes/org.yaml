@@ -996,22 +996,26 @@ teams:
   cloud-provider-openstack-admins:
     description: Admin access to cloud-provider-openstack repo
     members:
+    - adisky
+    - chrigl
     - dims
-    - dklyle
     - hogepodge
     privacy: closed
   cloud-provider-openstack-maintainers:
     description: Write access to the cloud-provider-openstack repo
     members:
     - adisky
+    - chrigl
     - dims
-    - dklyle
     - hogepodge
     privacy: closed
   cloud-provider-openstack-members:
     description: ""
     members:
+    - adisky
+    - chrigl
     - dims
+    - hogepodge
     privacy: closed
   cloud-provider-vsphere-admins:
     description: Admin access to cloud-provider-vsphere repo

@@ -72,9 +72,9 @@ aliases:
     - dchen1107
     - derekwaynecarr
   sig-openstack-leads:
-    - hogepodge
     - adisky
     - chrigl
+    - hogepodge
   sig-pm-leads:
     - calebamiles
     - idvoretskyi

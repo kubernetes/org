@@ -124,6 +124,7 @@ teams:
     members:
     - aleksandra-malinowska # 1.13 / 1.14 Patch Release Team
     - feiskyer # 1.12 Patch Release Manager
+    - hoegaarden # 1.13 / 1.14 Patch Release Team
     - tpepper # 1.13 / 1.14 Patch Release Team
     privacy: closed
   publishing-bot-reviewers:
@@ -154,6 +155,7 @@ teams:
     - aleksandra-malinowska # 1.13 / 1.14 Patch Release Team
     - bubblemelon # 1.15 Branch Manager
     - feiskyer # 1.12 Patch Release Manager
+    - hoegaarden # 1.13 / 1.14 Patch Release Team
     - idealhack # 1.15 Branch Manager Shadow
     - k8s-release-robot
     - tpepper # 1.13 / 1.14 Patch Release Team

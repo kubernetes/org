@@ -1113,27 +1113,6 @@ teams:
     - calebamiles
     - mikedanese
     privacy: closed
-  cloud-provider-openstack-admins:
-    description: Admin access to cloud-provider-openstack repo
-    members:
-    - dims
-    - dklyle
-    - lingxiankong
-    privacy: closed
-  cloud-provider-openstack-maintainers:
-    description: Write access to the cloud-provider-openstack repo
-    members:
-    - adisky
-    - dims
-    - dklyle
-    - lingxiankong
-    privacy: closed
-  cloud-provider-openstack-members:
-    description: ""
-    members:
-    - dims
-    - lingxiankong
-    privacy: closed
   cloud-provider-vsphere-admins:
     description: Admin access to cloud-provider-vsphere repo
     members:

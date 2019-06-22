@@ -1,0 +1,15 @@
+teams:
+  execution-hook-admins:
+    description: Admin access to execution-hook repo
+    members:
+    - kow3ns
+    - liyinan926
+    privacy: closed
+  execution-hook-maintainers:
+    description: Write access to execution-hook repo
+    members:
+    - jingxu97
+    - kow3ns
+    - liyinan926
+    - xing-yang
+    privacy: closed

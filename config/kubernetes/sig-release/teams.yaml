@@ -69,6 +69,7 @@ teams:
     - hogepodge # Cloud Provider / OpenStack
     - imkin # 1.15 Test Infra
     - jagosan # Cloud Provider
+    - jberkus # Release
     - jdumars # Architecture
     - jimangel # 1.15 CI Signal Shadow
     - justaugustus # Azure / PM / Release
@@ -122,10 +123,10 @@ teams:
       branches. This team is used for notifications for all active patch
       managers, but does not give permissions.
     members:
-    - aleksandra-malinowska # 1.13 / 1.14 Patch Release Team
-    - feiskyer # 1.12 Patch Release Manager
-    - hoegaarden # 1.13 / 1.14 Patch Release Team
-    - tpepper # 1.13 / 1.14 Patch Release Team
+    - aleksandra-malinowska
+    - feiskyer
+    - hoegaarden
+    - tpepper
     privacy: closed
   publishing-bot-reviewers:
     description: Reviews for publishing-bot
@@ -152,13 +153,13 @@ teams:
       label/PR management is needed. Remove users who are not actively doing
       this job.
     members:
-    - aleksandra-malinowska # 1.13 / 1.14 Patch Release Team
-    - bubblemelon # 1.15 Branch Manager
-    - feiskyer # 1.12 Patch Release Manager
-    - hoegaarden # 1.13 / 1.14 Patch Release Team
-    - idealhack # 1.15 Branch Manager Shadow
+    - aleksandra-malinowska # Patch Release Team
+    - bubblemelon # Branch Manager
+    - feiskyer # Patch Release Team
+    - hoegaarden # Patch Release Team
+    - idealhack # Branch Manager
     - k8s-release-robot
-    - tpepper # 1.13 / 1.14 Patch Release Team
+    - tpepper # Patch Release Team
     privacy: closed
     previously:
     - kubernetes-release-managers
@@ -169,34 +170,38 @@ teams:
     - spiffxp # subproject owner
     members:
     - aishsundar # subproject owner
-    - alejandrox1 # 1.15 CI Signal Lead
+    - alejandrox1 # 1.16 CI Signal Lead
     - alenkacz # 1.15 CI Signal Shadow
-    - bubblemelon # 1.15 Branch Manager
+    - bubblemelon # Branch Manager
     - castrojo # 1.15 Communications Lead
-    - claurence # 1.15 RT Lead
+    - claurence # subproject owner
     - craiglpeters # 1.15 Enhancements Shadow
     - daminisatya # 1.15 Docs Shadow
     - dstrebel # 1.15 Bug Triage Shadow
-    - idealhack # 1.15 Branch Manager Shadow
+    - guineveresaenger # 1.16 RT Lead Shadow
+    - idealhack # Branch Manager
     - imkin # 1.15 Test Infra Lead
     - jberkus # subproject owner
-    - jeefy # 1.15 Release Notes Shadow
+    - jeefy # 1.16 RT Lead Shadow
     - jimangel # 1.15 CI Signal Shadow
     - justaugustus # subproject owner
-    - kacole2 # 1.15 Enhancements Lead
+    - kacole2 # 1.16 Enhancements Lead
     - Katharine # 1.15 Test Infra Shadow
     - lachie83 # 1.15 RT Lead Shadow
     - MAKOSCAFEE # 1.15 Docs Lead
     - mariantalla # 1.15 Test Infra Shadow
     - nickchase # 1.15 Release Notes Shadow
-    - nikopen # 1.15 RT Lead Shadow
+    - nikopen # 1.16 RT Lead Shadow
+    - onlydole # 1.16 Communications Lead
     - onyiny-ang # 1.15 Release Notes Lead
+    - saschagrunert # 1.16 Release Notes Lead
+    - simplytunde # 1.16 Docs Lead
     - slicknik # 1.15 Branch Manager Shadow
     - smourapina # 1.15 CI Signal Shadow
     - soggiest # 1.15 Bug Triage Lead
     - taragu # 1.15 Test Infra Shadow
     - tpepper # subproject owner
-    - xmudrii # 1.15 Bug Triage Shadow
+    - xmudrii # 1.16 Bug Triage Lead
     privacy: closed
     teams:
       release-team-leads:
@@ -205,10 +210,10 @@ teams:
            and can be used as a notification group.
           Remove org members who are not current Release Team Leads.
         members:
-        - claurence # 1.15 RT Lead
-        - lachie83 # 1.15 RT Lead Shadow
-        - nikopen # 1.15 RT Lead Shadow
-        - tpepper # 1.15 RT Lead Shadow
+        - guineveresaenger # 1.16 RT Lead Shadow
+        - jeefy # 1.16 RT Lead Shadow
+        - lachie83 # 1.16 RT Lead
+        - nikopen # 1.16 RT Lead Shadow
         privacy: closed
   sig-release:
     description: SIG Release Members
@@ -218,12 +223,15 @@ teams:
     members:
     - abgworrall
     - AishSundar
+    - alejandrox1
     - aleksandra-malinowska
     - amwat
     - BenTheElder
     - Bradamant3
+    - bubblemelon
     - caesarxuchao
     - calebamiles
+    - castrojo
     - chenopis
     - cjwagner
     - claurence
@@ -240,17 +248,22 @@ teams:
     - guineveresaenger
     - hoegaarden
     - idealhack
+    - imkin
     - ixdy
     - jberkus
     - jdumars
+    - jeefy
     - jimangel
     - jpbetz
     - justaugustus
     - kacole2
+    - Katharine
     - kbarnard10
     - krzyzacy
+    - lachie83
     - liggitt
     - MaciekPytel
+    - MAKOSCAFEE
     - mariantalla
     - marpaia
     - marun
@@ -261,14 +274,20 @@ teams:
     - nickchase
     - nikopen
     - nwoods3
+    - onlydole
+    - onyiny-ang
     - pwittrock
     - radhikapc
     - saad-ali
+    - saschagrunert
     - shyamjvs
+    - simplytunde
+    - soggiest
     - steveperry-53
     - tfogo
     - tpepper
     - wojtek-t
+    - xmudrii
     - zacharysarah
     - zparnold
     privacy: closed

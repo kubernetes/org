@@ -1,7 +1,7 @@
 teams:
   build-admins:
     description: Kubernetes Build Admins are the current set of Googlers with access to
-      publish packages (debs/rpms) on behalf of the Kubernetes project. This team is a 
+      publish packages (debs/rpms) on behalf of the Kubernetes project. This team is a
       notification-only group, which includes the SIG Release Chairs for continuity.
     members:
     - aleksandra-malinowska
@@ -61,6 +61,7 @@ teams:
     - dstrebel # Azure / 1.15 Bug Triage Shadow
     - duglin # Service Catalog
     - enj # Auth
+    - evillgenius75 # 1.16 Enhancements Shadow
     - fabriziopandini # Cluster Lifecycle
     - feiskyer # Azure
     - floreks # UI
@@ -76,7 +77,7 @@ teams:
     - justinsb # AWS
     - k82cn # Scheduling
     - k8s-release-robot # Release
-    - kacole2 # 1.15 Enhancements
+    - kacole2 # 1.16 Enhancement Lead
     - khenidak # Azure
     - kow3ns # Apps
     - kris-nova # AWS
@@ -100,6 +101,7 @@ teams:
     - prydonius # Apps
     - pwittrock # CLI
     - quinton-hoole # Multicluster
+    - rbitia # 1.16 Enhancements Shadow
     - saad-ali # Storage
     - seans3 # CLI
     - shyamjvs # Scalability
@@ -166,7 +168,7 @@ teams:
   release-team:
     description: Members of the current Release Team and subproject owners.
     maintainers:
-    - mrbobbytables # 1.15 Enhancements Shadow
+    - mrbobbytables # 1.16 Enhancements Shadow
     - spiffxp # subproject owner
     members:
     - aishsundar # subproject owner
@@ -178,6 +180,7 @@ teams:
     - craiglpeters # 1.15 Enhancements Shadow
     - daminisatya # 1.15 Docs Shadow
     - dstrebel # 1.15 Bug Triage Shadow
+    - evillgenius75 # 1.16 Enhancements Shadow
     - guineveresaenger # 1.16 RT Lead Shadow
     - idealhack # Branch Manager
     - imkin # 1.15 Test Infra Lead
@@ -189,11 +192,12 @@ teams:
     - Katharine # 1.15 Test Infra Shadow
     - lachie83 # 1.15 RT Lead Shadow
     - MAKOSCAFEE # 1.15 Docs Lead
-    - mariantalla # 1.15 Test Infra Shadow
+    - mariantalla # 1.16 Enhancements Shadow
     - nickchase # 1.15 Release Notes Shadow
     - nikopen # 1.16 RT Lead Shadow
     - onlydole # 1.16 Communications Lead
     - onyiny-ang # 1.15 Release Notes Lead
+    - rbitia # 1.16 Enhancements Shadow
     - saschagrunert # 1.16 Release Notes Lead
     - simplytunde # 1.16 Docs Lead
     - slicknik # 1.15 Branch Manager Shadow
@@ -243,6 +247,7 @@ teams:
     - dstrebel
     - enisoc
     - ethernetdan
+    - evillgenius75
     - feiskyer
     - foxish
     - guineveresaenger
@@ -278,6 +283,7 @@ teams:
     - onyiny-ang
     - pwittrock
     - radhikapc
+    - rbitia
     - saad-ali
     - saschagrunert
     - shyamjvs

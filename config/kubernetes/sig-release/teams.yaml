@@ -139,13 +139,30 @@ teams:
     - sttts
     privacy: closed
   release-engineering:
-    description: Members of the Release Engineering subproject.
+    description: Members of the Release Engineering subproject, including Build Admins,
+      Patch Release Team, Branch Managers, and Release Manager Associates.
+    maintainers:
+    - nikhita # Release Manager Associate
     members:
-    - aleksandra-malinowska # subproject owner
-    - calebamiles # subproject owner
-    - hoegaarden # subproject owner
+    - aleksandra-malinowska # subproject owner / Build Admin / Patch Release Team
+    - bubblemelon # Branch Manager
+    - calebamiles # subproject owner / Build Admin
+    - chrisz100 # Release Manager Associate
+    - feiskyer # Patch Release Team
+    - girikuncoro # Release Manager Associate
+    - hoegaarden # subproject owner / Patch Release Team
+    - idealhack # Branch Manager
+    - imkin # Release Manager Associate
     - ixdy # subproject owner
-    - tpepper # subproject owner
+    - javier-b-perez # Release Manager Associate
+    - justaugustus # Release Manager Associate / Build Admin
+    - k82cn # Release Manager Associate
+    - listx # Build Admin
+    - mcrute # Release Manager Associate
+    - pswica # Release Manager Associate
+    - slicknik # Release Manager Associate
+    - sumitranr # Build Admin
+    - tpepper # subproject owner / Build Admin / Patch Release Team
     privacy: closed
   release-managers:
     description: People actively pushing k8s releases. Gives admin access to

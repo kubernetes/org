@@ -58,7 +58,7 @@ teams:
     - krabhishek8260
     - lwander
     - mbohlool
-    privacy: secret
+    privacy: closed
   csharp-admins:
     description: Admin access to csharp repo
     members:

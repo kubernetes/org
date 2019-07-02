@@ -980,7 +980,6 @@ teams:
     - thelinuxfoundation
     members:
     - k8s-publishing-bot
-    - k8s-release-robot
     privacy: closed
   client-go-admins:
     description: Admin access to the client-go repo

@@ -129,3 +129,18 @@ teams:
     - chaosaffe
     - dims
     privacy: closed
+  image-builder-admins:
+    description: admin access to image-builder
+    members:
+    - justinsb
+    - luxas
+    - timothysc
+    privacy: closed
+  image-builder-maintainers:
+    description: write access to image-builder
+    members:
+    - justinsb
+    - luxas
+    - moshloop
+    - timothysc
+    privacy: closed

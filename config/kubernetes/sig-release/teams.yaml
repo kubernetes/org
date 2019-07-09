@@ -147,9 +147,11 @@ teams:
     - nikhita # Release Manager Associate
     members:
     - aleksandra-malinowska # subproject owner / Build Admin / Patch Release Team
+    - alexeldeib # Release Manager Associate
     - bubblemelon # Branch Manager
     - calebamiles # subproject owner / Build Admin
     - chrisz100 # Release Manager Associate
+    - cpanato # Release Manager Associate
     - feiskyer # Patch Release Team
     - girikuncoro # Release Manager Associate
     - hoegaarden # subproject owner / Patch Release Team

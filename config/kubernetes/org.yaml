@@ -1528,15 +1528,6 @@ teams:
     - neolit123
     - timothysc
     privacy: closed
-  kubernetes-blog-maintainers:
-    description: Maintainers of the kubernetes blog
-    members:
-    - bobsky
-    - kbarnard10
-    - natekartchner
-    - SarahKConway
-    - zacharysarah
-    privacy: closed
   kubernetes-feature-branch-admins:
     description: Admin access to the kubernetes repo, for maintaining feature branches. Will deprecate when this access is no longer needed.
     members:

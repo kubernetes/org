@@ -1,11 +1,4 @@
 teams:
-  kubernetes-blog:
-    description: Approvers for the Kubernetes blog
-    members:
-    - kbarnard10
-    - natekartchner
-    - sarahkconway
-    privacy: closed
   sig-docs-de-owners:
     description: Approvers for German content
     members:

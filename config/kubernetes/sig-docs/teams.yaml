@@ -157,6 +157,16 @@ teams:
     - gochist
     - ianychoi
     privacy: closed
+  sig-docs-ta-owners:
+    description: Owners for Tamil content
+    members:
+    - kittenking
+    privacy: closed
+  sig-docs-ta-reviews:
+    description: PR reviews for Tamil content
+    members:
+    - kittenking
+    privacy: closed
   sig-docs-l10n-admins:
     description: Approvers for localization projects
     members:
@@ -173,7 +183,7 @@ teams:
     - jcjesus # Portuguese
     - markthink # Chinese
     - micheleberardi # Italian
-    - mittalyashu #hindi
+    - mittalyashu # Hindi
     - nasa9084 # Japanese
     - raelga # Spanish
     - remyleone # French
@@ -181,6 +191,7 @@ teams:
     - tnir # Japanese
     - zacharysarah # English
     - zhangxiaoyu-zidif # Chinese
+    - kittenking # Tamil
     privacy: closed
   sig-docs-maintainers:
     description: Website maintainers

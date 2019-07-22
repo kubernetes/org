@@ -2,6 +2,7 @@ teams:
   cli-experimental-admins:
     description: admin access to cli-experimental
     members:
+    - Liujingfang1
     - pwittrock
     - seans3
     - soltysh

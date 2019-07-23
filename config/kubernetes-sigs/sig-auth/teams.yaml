@@ -2,17 +2,19 @@ teams:
   multi-tenancy-admins:
     description: Admin access to multi-tenancy repo
     members:
-    - davidopp
-    - easeway
     - srampal
     - tashimi
     privacy: closed
   multi-tenancy-maintainers:
     description: Write access to multi-tenancy repo
     members:
-    - davidopp
-    - easeway
     - rjbez17
     - srampal
     - tashimi
+    privacy:closed
+  multi-tenancy-emeritus-approvers:
+    description: Emeritus approvers of multi-tenancy repo
+    members:
+    - davidopp
+    - easeway
     privacy: closed

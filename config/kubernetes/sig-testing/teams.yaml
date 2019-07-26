@@ -10,13 +10,17 @@ teams:
     - alejandroEsc
     - BenTheElder
     - bowei
+    - chases2
     - cjwagner
+    - clarketm
     - ixdy
     - jayunit100
     - jdef
     - justaugustus
     - justinsb
+    - Katharine
     - marun
+    - michelle192837
     - mithrav
     - mkumatag
     - pigmej
@@ -36,10 +40,13 @@ teams:
     - akutz
     - amwat
     - BenTheElder
+    - chases2
     - cjwagner
+    - clarketm
     - ixdy
     - Katharine
     - krzyzacy
+    - michelle192837
     - mithrav
     - mkumatag
     - stevekuznetsov
@@ -56,6 +63,7 @@ teams:
     - ixdy
     - Katharine
     - krzyzacy
+    - michelle192837
     - stevekuznetsov
     privacy: closed
   test-infra-maintainers:
@@ -70,6 +78,7 @@ teams:
     - ixdy
     - Katharine
     - krzyzacy
+    - michelle192837
     - stevekuznetsov
     privacy: closed
   sig-testing-dummy-project-team:

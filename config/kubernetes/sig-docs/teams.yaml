@@ -183,6 +183,7 @@ teams:
     - irvifa # Indonesian
     - jaredbhatti # English
     - jcjesus # Portuguese
+    - kittenking # Tamil
     - markthink # Chinese
     - micheleberardi # Italian
     - mittalyashu # Hindi
@@ -193,7 +194,6 @@ teams:
     - tnir # Japanese
     - zacharysarah # English
     - zhangxiaoyu-zidif # Chinese
-    - kittenking # Tamil
     privacy: closed
   sig-docs-maintainers:
     description: Website maintainers

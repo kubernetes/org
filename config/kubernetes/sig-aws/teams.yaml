@@ -1,5 +1,5 @@
 teams:
-  sig-aws-misc:
+  provider-aws-misc:
     description: ""
     members:
     - d-nishi
@@ -11,3 +11,5 @@ teams:
     - nckturner
     - sethpollack
     privacy: closed
+    previously:
+    - sig-aws-misc

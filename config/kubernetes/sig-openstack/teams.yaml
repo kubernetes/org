@@ -1,12 +1,14 @@
 teams:
-  sig-openstack-api-reviews:
+  provider-openstack-api-reviews:
     description: ""
     maintainers:
     - idvoretskyi
     members:
     - xsgordon
     privacy: closed
-  sig-openstack-bugs:
+    previously:
+    - sig-openstack-api-reviews
+  provider-openstack-bugs:
     description: ""
     maintainers:
     - idvoretskyi
@@ -14,14 +16,18 @@ teams:
     - NickrenREN
     - xsgordon
     privacy: closed
-  sig-openstack-feature-requests:
+    previously:
+    - sig-openstack-bugs
+  provider-openstack-feature-requests:
     description: ""
     maintainers:
     - idvoretskyi
     members:
     - xsgordon
     privacy: closed
-  sig-openstack-misc:
+    previously:
+    - sig-openstack-feature-requests
+  provider-openstack-misc:
     description: OpenStack Special Interest Group
     maintainers:
     - idvoretskyi
@@ -44,7 +50,9 @@ teams:
     - stevemcquaid
     - xsgordon
     privacy: closed
-  sig-openstack-pr-reviews:
+    previously:
+    - sig-openstack-misc
+  provider-openstack-pr-reviews:
     description: ""
     maintainers:
     - idvoretskyi
@@ -52,17 +60,23 @@ teams:
     - NickrenREN
     - xsgordon
     privacy: closed
-  sig-openstack-proposals:
+    previously:
+    - sig-openstack-pr-reviews
+  provider-openstack-proposals:
     description: ""
     maintainers:
     - idvoretskyi
     members:
     - xsgordon
     privacy: closed
-  sig-openstack-test-failures:
+    previously:
+    - sig-openstack-proposals
+  provider-openstack-test-failures:
     description: ""
     maintainers:
     - idvoretskyi
     members:
     - xsgordon
     privacy: closed
+    previously:
+    - sig-openstack-test-failures

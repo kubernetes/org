@@ -1,44 +1,36 @@
 aliases:
   sig-api-machinery-leads:
-    - lavalamp
     - deads2k
+    - lavalamp
   sig-apps-leads:
+    - janetkuo
+    - kow3ns
     - mattfarina
     - prydonius
-    - kow3ns
   sig-architecture-leads:
     - bgrant0607
-    - jdumars
-    - mattfarina
     - derekwaynecarr
     - dims
+    - jdumars
+    - mattfarina
   sig-auth-leads:
-    - mikedanese
     - enj
+    - mikedanese
     - tallclair
     - deads2k
     - liggitt
     - mikedanese
   sig-autoscaling-leads:
     - mwielgus
-  sig-aws-leads:
-    - justinsb
-    - kris-nova
-    - d-nishi
-  sig-azure-leads:
-    - justaugustus
-    - dstrebel
-    - khenidak
-    - feiskyer
   sig-cli-leads:
-    - soltysh
     - seans3
     - soltysh
     - pwittrock
+    - soltysh
   sig-cloud-provider-leads:
     - andrewsykim
+    - cheftako
     - hogepodge
-    - jagosan
   sig-cluster-lifecycle-leads:
     - justinsb
     - luxas
@@ -49,127 +41,119 @@ aliases:
     - cblecker
     - nikhita
   sig-docs-leads:
+    - bradamant3
     - jaredbhatti
     - zacharysarah
-    - bradamant3
-  sig-gcp-leads:
-    - abgworrall
-  sig-ibmcloud-leads:
-    - khahmed
-    - rtheis
-    - spzala
   sig-instrumentation-leads:
-    - piosz
     - brancz
+    - piosz
   sig-multicluster-leads:
-    - csbell
+    - pmorie
     - quinton-hoole
   sig-network-leads:
-    - thockin
-    - dcbw
     - caseydavenport
+    - dcbw
+    - thockin
   sig-node-leads:
     - dchen1107
     - derekwaynecarr
-  sig-openstack-leads:
-    - hogepodge
-    - adisky
-    - chrigl
   sig-pm-leads:
     - calebamiles
-    - idvoretskyi
     - jdumars
     - justaugustus
+    - lachie83
   sig-release-leads:
     - calebamiles
     - justaugustus
     - tpepper
   sig-scalability-leads:
-    - wojtek-t
     - shyamjvs
+    - wojtek-t
   sig-scheduling-leads:
     - bsalamat
     - k82cn
   sig-service-catalog-leads:
-    - kibbles-n-bytes
     - jberkhahn
-    - jboyd01
+    - mszostok
   sig-storage-leads:
-    - saad-ali
     - childsb
+    - saad-ali
   sig-testing-leads:
-    - spiffxp
     - fejta
+    - spiffxp
     - stevekuznetsov
     - timothysc
   sig-ui-leads:
-    - floreks
-    - maciaszczykm
     - danielromlein
+    - floreks
     - jeefy
-  sig-vmware-leads:
-    - frapposelli
-    - cantbewong
+    - maciaszczykm
+  sig-usability-leads:
+    - Rajakavitha1
+    - hpandeycodeit
+    - tashimi
+    - vllry
   sig-windows-leads:
     - michmike
     - patricklang
   wg-apply-leads:
     - lavalamp
   wg-component-standard-leads:
-    - luxas
-    - sttts
     - mtaufen
+    - stealthybox
+    - sttts
   wg-iot-edge-leads:
+    - cantbewong
     - cindyxing
     - dejanb
     - ptone
-    - cantbewong
   wg-k8s-infra-leads:
     - dims
     - spiffxp
   wg-lts-leads:
-    - tpepper
     - imkin
     - quinton-hoole
+    - tpepper
     - youngnick
   wg-machine-learning-leads:
-    - vishh
-    - kow3ns
-    - balajismaniam
     - ConnorDoyle
+    - balajismaniam
+    - kow3ns
+    - vishh
   wg-multitenancy-leads:
-    - davidopp
+    - srampal
     - tashimi
   wg-policy-leads:
-    - hannibalhuang
-    - tsandall
     - easeway
     - ericavonb
+    - hannibalhuang
     - mdelder
+    - tsandall
   wg-resource-management-leads:
-    - vishh
     - derekwaynecarr
+    - vishh
   wg-security-audit-leads:
     - aasmall
-    - joelsmith
     - cji
     - jaybeale
+    - joelsmith
   ug-big-data-leads:
-    - foxish
     - erikerlandson
+    - foxish
     - liyinan926
   committee-code-of-conduct:
-    - jdumars
-    - parispittman
+    - bradamant3
     - carolynvs
     - eparis
-    - bradamant3
+    - jdumars
+    - parispittman
   committee-product-security:
-    - philips
     - cjcullen
-    - tallclair
-    - liggitt
     - joelsmith
+    - jonpulsifer
+    - liggitt
+    - philips
+    - tallclair
   committee-steering:
     - bgrant0607
     - brendandburns
@@ -184,5 +168,24 @@ aliases:
     - spiffxp
     - timothysc
 ## BEGIN CUSTOM CONTENT
-
+  provider-aws:
+    - d-nishi
+    - justinsb
+    - kris-nova
+  provider-azure:
+    - craiglpeters
+    - justaugustus
+    - feiskyer
+    - khenidak
+  provider-gcp:
+    - abgworrall
+  provider-ibmcloud:
+    - spzala
+  provider-openstack:
+    - adisky
+    - chrigl
+    - hogepodge
+  provider-vmware:
+    - cantbewong
+    - frapposelli
 ## END CUSTOM CONTENT

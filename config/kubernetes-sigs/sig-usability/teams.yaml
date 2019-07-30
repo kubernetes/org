@@ -1,0 +1,17 @@
+teams:
+  sig-usability-admins:
+    description: Admin access to sig-usability repo
+    members:
+    - hpandeycodeit
+    - Rajakavitha1
+    - tashimi
+    - vllry
+    privacy: closed
+  sig-usability-maintainers:
+    description: Write access to sig-usability repo
+    members:
+    - hpandeycodeit
+    - Rajakavitha1
+    - tashimi
+    - vllry
+    privacy: closed

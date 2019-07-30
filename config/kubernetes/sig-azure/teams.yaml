@@ -1,5 +1,5 @@
 teams:
-  sig-azure:
+  provider-azure:
     description: General discussion for SIG Azure
     members:
     - andyzhangx
@@ -14,6 +14,8 @@ teams:
     - ritazh
     - soggiest
     privacy: closed
+    previously:
+    - sig-azure
   cloud-provider-azure-admins:
     description: ""
     members:

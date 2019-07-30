@@ -1,36 +1,50 @@
 teams:
-  sig-gcp-api-reviews:
+  provider-gcp-api-reviews:
     description: ""
     members:
     - abgworrall
     privacy: closed
-  sig-gcp-bugs:
+    previously:
+    - sig-gcp-api-reviews
+  provider-gcp-bugs:
     description: ""
     members:
     - abgworrall
     privacy: closed
-  sig-gcp-feature-requests:
+    previously:
+    - sig-gcp-bugs
+  provider-gcp-feature-requests:
     description: ""
     members:
     - abgworrall
     privacy: closed
-  sig-gcp-misc:
+    previously:
+    - sig-gcp-feature-requests
+  provider-gcp-misc:
     description: ""
     members:
     - abgworrall
     privacy: closed
-  sig-gcp-pr-reviews:
+    previously:
+    - sig-gcp-misc
+  provider-gcp-pr-reviews:
     description: ""
     members:
     - abgworrall
     privacy: closed
-  sig-gcp-proposals:
+    previously:
+    - sig-gcp-pr-reviews
+  provider-gcp-proposals:
     description: ""
     members:
     - abgworrall
     privacy: closed
-  sig-gcp-test-failures:
+    previously:
+    - sig-gcp-proposals
+  provider-gcp-test-failures:
     description: ""
     members:
     - abgworrall
     privacy: closed
+    previously:
+    - sig-gcp-test-failures

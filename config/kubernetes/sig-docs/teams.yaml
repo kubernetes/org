@@ -149,6 +149,7 @@ teams:
     - claudiajkang
     - gochist
     - ianychoi
+    - seokho-son
     privacy: closed
   sig-docs-ko-reviews:
     description: Reviews for Korean docs PRs
@@ -156,6 +157,7 @@ teams:
     - ClaudiaJKang
     - gochist
     - ianychoi
+    - seokho-son
     privacy: closed
   sig-docs-l10n-admins:
     description: Approvers for localization projects
@@ -168,6 +170,7 @@ teams:
     - girikuncoro # Indonesian
     - gochist # Korean
     - hanjiayao # Chinese
+    - ianychoi # Korean
     - irvifa # Indonesian
     - jaredbhatti # English
     - jcjesus # Portuguese
@@ -178,6 +181,7 @@ teams:
     - raelga # Spanish
     - remyleone # French
     - rlenferink # Italian
+    - seokho-son # Korean
     - tnir # Japanese
     - zacharysarah # English
     - zhangxiaoyu-zidif # Chinese

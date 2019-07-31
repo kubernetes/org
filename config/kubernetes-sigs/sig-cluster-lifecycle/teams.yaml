@@ -46,6 +46,7 @@ teams:
     - chuckha
     - justinsb
     - luxas
+    - ncdc
     - timothysc
     privacy: closed
   cluster-api-provider-aws-admins:
@@ -99,6 +100,7 @@ teams:
     - chuckha
     - justinsb
     - luxas
+    - ncdc
     - timothysc
     privacy: closed
   cluster-api-provider-gcp-admins:

@@ -17,6 +17,7 @@ teams:
   cli-utils-admins:
     description: admin access to cli-utils
     members:
+    - Liujingfang1
     - pwittrock
     - seans3
     - soltysh

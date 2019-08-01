@@ -38,6 +38,7 @@ members:
 - mlmhl
 - msau42
 - nzoueidi
+- PatrickLang
 - pohly
 - rlenferink
 - rootfs
@@ -181,6 +182,20 @@ teams:
     - sbezverk
     - vladimirvivien
     - xing-yang
+    privacy: closed
+  csi-proxy-admins:
+    description: Admin access to csi-proxy repo
+    members:
+    - ddebroy
+    - msau42
+    - PatrickLang
+    privacy: closed
+  csi-proxy-maintainers:
+    description: Write access to csi-proxy repo
+    members:
+    - ddebroy
+    - msau42
+    - PatrickLang
     privacy: closed
   csi-release-tools-admins:
     description: Admin access to csi-release-tools repo

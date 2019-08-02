@@ -129,7 +129,9 @@ teams:
     description: write access to cluster-api-provider-openstack
     members:
     - chaosaffe
+    - chrigl
     - dims
+    - jichenjc
     privacy: closed
   image-builder-admins:
     description: admin access to image-builder

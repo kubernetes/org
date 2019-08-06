@@ -1476,6 +1476,8 @@ teams:
     members:
     - andyxning
     - brancz
+    - LiliC
+    - tariq1890
     privacy: closed
   kube-state-metrics-maintainers:
     description: Write access to the kube-state-metrics repo

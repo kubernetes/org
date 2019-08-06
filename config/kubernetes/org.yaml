@@ -1482,7 +1482,6 @@ teams:
     members:
     - andyxning
     - brancz
-    - mxinden
     - tariq1890
     privacy: closed
   kubeadm-admins:

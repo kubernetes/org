@@ -113,6 +113,8 @@ teams:
     members:
     - girikuncoro
     - irvifa
+    - qbl
+    - danninov
     privacy: closed
   sig-docs-it-owners:
     description: Approvers for Italian content

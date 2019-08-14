@@ -183,6 +183,7 @@ teams:
     - feiskyer # Patch Release Team
     - hoegaarden # Patch Release Team
     - idealhack # Branch Manager
+    - justaugustus # Branch Manager
     - k8s-release-robot
     - tpepper # Patch Release Team
     privacy: closed

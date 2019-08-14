@@ -44,6 +44,7 @@ teams:
     descrption: write acccess to cluster-api-bootstrap-provider-kubeadm
     members:
     - chuckha
+    - detiber
     - justinsb
     - luxas
     - ncdc

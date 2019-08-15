@@ -287,7 +287,6 @@ teams:
     privacy: closed
   admins-kops:
     description: Admin access to the kops repo
-    maintainers:
     members:
     - calebamiles
     privacy: closed

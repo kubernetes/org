@@ -111,8 +111,10 @@ teams:
   sig-docs-id-reviews:
     description: PR reviews for Indonesian content
     members:
+    - danninov
     - girikuncoro
     - irvifa
+    - phanama
     privacy: closed
   sig-docs-it-owners:
     description: Approvers for Italian content

@@ -9,7 +9,7 @@ http_archive(
 
 load("@bazel_skylib//:lib.bzl", "versions")
 
-versions.check(minimum_bazel_version = "0.23.0")
+versions.check(minimum_bazel_version = "0.26.0")
 
 http_archive(
     name = "io_k8s_repo_infra",

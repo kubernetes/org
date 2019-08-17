@@ -1,4 +1,18 @@
 teams:
+  apiserver-builder-alpha-admins:
+    description: admin access to apiserver-builder-alpha
+    members:
+    - DirectXMan12
+    - pwittrock
+    - yue9944882
+    privacy: closed
+  apiserver-builder-alpha-maintainers:
+    description: write access to apiserver-builder-alpha
+    members:
+    - DirectXMan12
+    - pwittrock
+    - yue9944882
+    privacy: closed
   controller-runtime-admins:
     description: admin access to controller-runtime
     members:

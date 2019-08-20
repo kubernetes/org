@@ -44,3 +44,15 @@ teams:
     - yagonobre
     - zouyee
     privacy: closed
+  system-validators-admins:
+    description: Admin access to system-validators repo
+    members:
+    - neolit123
+    - timothysc
+    privacy: closed
+  system-validators-maintainers:
+    description: Write access to system-validators repo
+    members:
+    - neolit123
+    - timothysc
+    privacy: closed

@@ -3,6 +3,7 @@ teams:
     description: Admin access to the service-catalog repo
     members:
     - jberkhahn
+    - mszostok
     privacy: closed
   service-catalog-maintainers:
     description: Write access to the service-catalog repo

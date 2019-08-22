@@ -177,6 +177,8 @@ teams:
       repos where branches must be created, etc., and write access to ones where
       label/PR management is needed. Remove users who are not actively doing
       this job.
+    maintainers:
+    - nikhita # Branch Manager
     members:
     - aleksandra-malinowska # Patch Release Team
     - bubblemelon # Branch Manager

@@ -25,7 +25,6 @@ import (
 	"testing"
 
 	"k8s.io/apimachinery/pkg/util/sets"
-	"k8s.io/test-infra/prow/config"
 	"k8s.io/test-infra/prow/config/org"
 	"k8s.io/test-infra/prow/github"
 
@@ -187,8 +186,9 @@ func testOrg(targetDir string, t *testing.T) {
 }
 
 func TestAllOrgs(t *testing.T) {
-	cfg, err := config.Load("config.yaml", "")
-	if err != nil {
+	raw, err := ioutil.ReadFile("config.yaml")
+	var cfg org.FullConfig
+	if err := yaml.Unmarshal(raw, &cfg); err != nil {
 		t.Fatalf("cannot read config.yaml from //config:gen-config.yaml: %v", err)
 	}
 	f, err := os.Open(".")

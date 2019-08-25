@@ -25,11 +25,11 @@ go_test(
         "*/OWNERS",
     ]) + ["config.yaml"],
     deps = [
-        "//vendor/github.com/ghodss/yaml:go_default_library",
-        "//vendor/k8s.io/apimachinery/pkg/util/sets:go_default_library",
-        "//vendor/k8s.io/test-infra/prow/config:go_default_library",
-        "//vendor/k8s.io/test-infra/prow/config/org:go_default_library",
-        "//vendor/k8s.io/test-infra/prow/github:go_default_library",
+        "@com_github_ghodss_yaml//:go_default_library",
+        "@io_k8s_apimachinery//pkg/util/sets:go_default_library",
+        "@io_k8s_test_infra//prow/config:go_default_library",
+        "@io_k8s_test_infra//prow/config/org:go_default_library",
+        "@io_k8s_test_infra//prow/github:go_default_library",
     ],
 )
 

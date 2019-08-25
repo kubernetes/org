@@ -1,3 +1,6 @@
+# gazelle:prefix k8s.io/org
+# gazelle:proto disable_global
+
 load("@io_k8s_repo_infra//defs:run_in_workspace.bzl", "workspace_binary")
 
 workspace_binary(
@@ -30,19 +33,16 @@ workspace_binary(
 
 load("@bazel_gazelle//:def.bzl", "gazelle")
 
-# gazelle:prefix k8s.io/org
-# gazelle:proto disable_global
-
 gazelle(
     name = "gazelle",
     command = "fix",
-    external = "vendored",
+    external = "external",
 )
 
 gazelle(
     name = "gazelle-diff",
     command = "fix",
-    external = "vendored",
+    external = "external",
     mode = "diff",
 )
 
@@ -84,7 +84,6 @@ filegroup(
         "//admin:all-srcs",
         "//cmd/merge:all-srcs",
         "//config:all-srcs",
-        "//vendor:all-srcs",
     ],
     tags = ["automanaged"],
     visibility = ["//visibility:public"],

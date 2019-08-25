@@ -16,7 +16,6 @@
 set -o nounset
 set -o errexit
 set -o pipefail
-set -o xtrace
 
 prefix="k8s.io/org"
 repo_root="$(git rev-parse --show-toplevel)"

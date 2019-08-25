@@ -18,8 +18,5 @@ set -o nounset
 set -o pipefail
 
 cd "$(git rev-parse --show-toplevel)"
-mkdir -p ./vendor
-find vendor -name BUILD -o -name BUILD.bazel -exec rm '{}' +
-touch ./vendor/BUILD.bazel
 bazel run //:gazelle
 bazel run //:kazel

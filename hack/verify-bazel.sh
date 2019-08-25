@@ -18,9 +18,8 @@ set -o nounset
 set -o pipefail
 
 cd "$(git rev-parse --show-toplevel)"
-ls ./vendor/BUILD.bazel >/dev/null
-gazelle_diff=$(bazel run //:gazelle-diff)
-kazel_diff=$(bazel run //:kazel-diff)
+gazelle_diff=$(bazel run //:gazelle-diff || true)
+kazel_diff=$(bazel run //:kazel-diff || true)
 
 if [[ -n "${gazelle_diff}" ]]; then
   echo "Gazelle diff:"

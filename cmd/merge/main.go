@@ -24,7 +24,6 @@ import (
 	"path/filepath"
 	"strings"
 
-	"k8s.io/test-infra/prow/config"
 	"k8s.io/test-infra/prow/config/org"
 
 	"github.com/ghodss/yaml"
@@ -87,7 +86,7 @@ func main() {
 	if err != nil {
 		logrus.Fatalf("Failed to load orgs: %v", err)
 	}
-	pc := config.ProwConfig{
+	pc := org.FullConfig{
 		Orgs: cfg,
 	}
 	out, err := yaml.Marshal(pc)

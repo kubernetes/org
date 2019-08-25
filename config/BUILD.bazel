@@ -27,7 +27,6 @@ go_test(
     deps = [
         "@com_github_ghodss_yaml//:go_default_library",
         "@io_k8s_apimachinery//pkg/util/sets:go_default_library",
-        "@io_k8s_test_infra//prow/config:go_default_library",
         "@io_k8s_test_infra//prow/config/org:go_default_library",
         "@io_k8s_test_infra//prow/github:go_default_library",
     ],

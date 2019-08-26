@@ -34,6 +34,7 @@ teams:
     members:
     - abgworrall # GCP
     - alejandrox1 # 1.15 CI Signal
+    - aleksandra-malinowska # Patch Release Team
     - andrewsykim # Cloud Provider
     - bgrant0607 # Architecture
     - bradamant3 # Docs
@@ -67,7 +68,9 @@ teams:
     - floreks # UI
     - foxish # Big Data
     - frapposelli # VMware
+    - hoegaarden # Patch Release Team
     - hogepodge # Cloud Provider / OpenStack
+    - idealhack # Branch Manager
     - imkin # 1.15 Test Infra
     - jagosan # Cloud Provider
     - jberkus # Release

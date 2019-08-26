@@ -24,29 +24,14 @@
 set -o nounset
 set -o errexit
 set -o pipefail
-set -o xtrace
 
 cd "$(git rev-parse --show-toplevel)"
 trap 'echo "FAILED" >&2' ERR
 
-prune-vendor() {
-  find vendor -type f \
-    -not -iname "*.go" \
-    -not -iname "*.proto" \
-    -not -iname "*.s" \
-    -not -iname "*.h" \
-    -not -iname "*.c" \
-    -not -iname "AUTHORS*" \
-    -not -iname "CONTRIBUTORS*" \
-    -not -iname "LICENSE*" \
-    -exec rm '{}' \;
-}
-
-rm -rf vendor
 export GO111MODULE=on
 bazel run //:go -- mod tidy
-bazel run //:go -- mod vendor
-prune-vendor
 hack/update-bazel.sh
-bazel run //:gazelle -- update-repos --from_file=go.mod
+bazel run //:gazelle -- update-repos --from_file=go.mod \
+  --to_macro=repos.bzl%go_repositories --build_file_generation=on \
+  --build_file_proto_mode=disable
 echo SUCCESS

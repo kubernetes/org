@@ -15,3 +15,15 @@ teams:
     - cheftako
     - mcrute
     privacy: closed
+  alibaba-cloud-csi-driver-admins:
+   description: Admin access to alibaba-cloud-csi-driver repo
+   members:
+   - fredkan
+   - xianlubird
+   privacy: closed
+  alibaba-cloud-csi-driver-maintainers:
+   description: Write access to alibaba-cloud-csi-driver repo
+   members:
+   - fredkan
+   - xianlubird
+   privacy: closed

@@ -113,11 +113,16 @@ teams:
     - luxas
     - roberthbailey
     - timothysc
+    - vincepri
     privacy: closed
   cluster-api-provider-gcp-maintainers:
     description: write access to cluster-api-provider-gcp-maintainers
     members:
+    - detiber
     - justinsb
+    - krousey
+    - maisem
+    - vincepri
     privacy: closed
   cluster-api-provider-openstack-admins:
     description: admin access to cluster-api-provider-openstack

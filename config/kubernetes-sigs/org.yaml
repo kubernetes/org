@@ -368,6 +368,18 @@ teams:
     - jeefy
     - maciaszczykm
     privacy: closed
+  descheduler-admins:
+    description: Admin access to the descheduler repo
+    members:
+    - aveshagarwal
+    - k82cn
+    - ravisantoshgudimetla
+  descehduler-maintainers:
+    description: Write access to the descheduler repo
+    members:
+    - aveshagarwal
+    - k82cn
+    - ravisantoshgudimetla
   etcdadm-admins:
     description: Admin access to the etcdadm repo
     members:

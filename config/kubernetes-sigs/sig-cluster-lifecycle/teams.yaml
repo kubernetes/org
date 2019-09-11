@@ -140,6 +140,7 @@ teams:
     - chrigl
     - dims
     - jichenjc
+    - sbueringer
     privacy: closed
   image-builder-admins:
     description: admin access to image-builder

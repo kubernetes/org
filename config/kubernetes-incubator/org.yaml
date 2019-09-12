@@ -327,16 +327,6 @@ teams:
     - euank
     - yifan-gu
     privacy: closed
-  descheduler-admins:
-    description: Admin access to the descheduler repo
-    members:
-    - aveshagarwal
-    privacy: closed
-  descheduler-maintainers:
-    description: Write access to the descheduler repo
-    members:
-    - aveshagarwal
-    privacy: closed
   design-reviewer-kube-arbitrator:
     description: The design reviewer of kube-arbitrator
     members:

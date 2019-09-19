@@ -59,6 +59,7 @@ teams:
     - dims # Release
     - directxman12 # Autoscaling
     - dklyle # OpenStack
+    - dougm # Patch Release Team
     - dstrebel # Azure / 1.15 Bug Triage Shadow
     - duglin # Service Catalog
     - enj # Auth
@@ -70,7 +71,7 @@ teams:
     - frapposelli # VMware
     - hoegaarden # Patch Release Team
     - hogepodge # Cloud Provider / OpenStack
-    - idealhack # Branch Manager
+    - idealhack # Branch Manager / Patch Release Team
     - imkin # 1.15 Test Infra
     - jagosan # Cloud Provider
     - jberkus # Release
@@ -133,8 +134,10 @@ teams:
       managers, but does not give permissions.
     members:
     - aleksandra-malinowska
+    - dougm
     - feiskyer
     - hoegaarden
+    - idealhack
     - tpepper
     privacy: closed
   publishing-bot-reviewers:
@@ -159,10 +162,11 @@ teams:
     - calebamiles # subproject owner / Build Admin
     - chrisz100 # Release Manager Associate
     - cpanato # Release Manager Associate
+    - dougm # Patch Release Team
     - feiskyer # Patch Release Team
     - girikuncoro # Release Manager Associate
     - hoegaarden # subproject owner / Patch Release Team
-    - idealhack # Branch Manager
+    - idealhack # Branch Manager / Patch Release Team
     - imkin # Release Manager Associate
     - ixdy # subproject owner
     - javier-b-perez # Release Manager Associate
@@ -183,9 +187,10 @@ teams:
     members:
     - aleksandra-malinowska # Patch Release Team
     - bubblemelon # Branch Manager
+    - dougm # Patch Release Team
     - feiskyer # Patch Release Team
     - hoegaarden # Patch Release Team
-    - idealhack # Branch Manager
+    - idealhack # Branch Manager / Patch Release Team
     - justaugustus # Branch Manager
     - k8s-release-robot
     - tpepper # Patch Release Team

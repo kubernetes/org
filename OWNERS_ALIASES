@@ -70,7 +70,7 @@ aliases:
     - shyamjvs
     - wojtek-t
   sig-scheduling-leads:
-    - bsalamat
+    - ahg-g
     - k82cn
   sig-service-catalog-leads:
     - jberkhahn
@@ -94,6 +94,8 @@ aliases:
     - tashimi
     - vllry
   sig-windows-leads:
+    - benmoss
+    - ddebroy
     - michmike
     - patricklang
   wg-apply-leads:

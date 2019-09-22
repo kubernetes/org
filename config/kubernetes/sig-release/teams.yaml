@@ -8,6 +8,7 @@ teams:
     - calebamiles
     - justaugustus
     - listx
+    - ps882
     - sumitranr
     - tpepper
     privacy: closed
@@ -27,43 +28,39 @@ teams:
     maintainers:
     - cblecker # ContribEx
     - fejta # Testing
-    - idvoretskyi # PM
-    - mrbobbytables # 1.15 Enhancements Shadow
+    - mrbobbytables # 1.17 Enhancements Lead
     - nikhita # ContribEx
     - spiffxp # Testing
     members:
     - abgworrall # GCP
-    - alejandrox1 # 1.15 CI Signal
+    - adisky # OpenStack
+    - ahg-g # Scheduling
+    - alejandrox1 # 1.17 RT Lead Shadow
     - aleksandra-malinowska # Patch Release Team
     - andrewsykim # Cloud Provider
+    - benmoss # Windows
     - bgrant0607 # Architecture
     - bradamant3 # Docs
     - brancz # Instrumentation
-    - bsalamat # Scheduling
-    - bubblemelon # 1.15 Branch Manager
+    - bubblemelon # Branch Manager
     - calebamiles # Release / PM
-    - carolynvs # Service Catalog
+    - cantbewong # VMware
     - caseydavenport # Network
-    - castrojo # 1.15 Communications
-    - chenopis # Docs
+    - cheftako # Cloud Provider
     - childsb # Storage
-    - claurence # 1.15 Lead
-    - craiglpeters # 1.15 Enhancements Shadow
-    - csbell # Multicluster
+    - chrigl # OpenStack
+    - cpanato # Branch Manager
+    - craiglpeters # Azure
     - d-nishi # AWS
     - danielromlein # UI
     - dcbw # Network
     - dchen1107 # Node
-    - deads2k # API Machinery
-    - derekwaynecarr # Node
-    - dims # Release
-    - directxman12 # Autoscaling
-    - dklyle # OpenStack
+    - ddebroy # Windows
+    - deads2k # API Machinery / Auth
+    - derekwaynecarr # Architecture / Node
+    - dims # Architecture / Release
     - dougm # Patch Release Team
-    - dstrebel # Azure / 1.15 Bug Triage Shadow
-    - duglin # Service Catalog
     - enj # Auth
-    - evillgenius75 # 1.16 Enhancements Shadow
     - fabriziopandini # Cluster Lifecycle
     - feiskyer # Azure
     - floreks # UI
@@ -71,59 +68,58 @@ teams:
     - frapposelli # VMware
     - hoegaarden # Patch Release Team
     - hogepodge # Cloud Provider / OpenStack
-    - idealhack # Branch Manager / Patch Release Team
-    - imkin # 1.15 Test Infra
-    - jagosan # Cloud Provider
+    - hpandeycodeit # Usability
+    - idealhack # Patch Release Team
+    - janetkuo # Apps
+    - jberkhahn # Service Catalog
     - jberkus # Release
-    - jdumars # Architecture
-    - jimangel # 1.15 CI Signal Shadow
+    - jdumars # Architecture / PM
+    - jeefy # UI
+    - jimangel # Docs
     - justaugustus # Azure / PM / Release
-    - justinsb # AWS
+    - justinsb # AWS / Cluster Lifecycle
     - k82cn # Scheduling
     - k8s-release-robot # Release
-    - kacole2 # 1.16 Enhancement Lead
     - khenidak # Azure
     - kow3ns # Apps
     - kris-nova # AWS
-    - lachie83 # 1.15 Lead Shadow
+    - lachie83 # PM
     - lavalamp # API Machinery
-    - liggitt # Release
+    - liggitt # Auth / Release
     - liyinan926 # Big Data
     - luxas # Cluster Lifecycle
-    - MAKOSCAFEE # 1.15 Docs
-    - mariantalla # 1.16 Enhancement Shadow
+    - maciaszczykm # UI
+    - mariantalla # 1.17 RT Lead Shadow
     - mattfarina # Apps / Architecture
     - mborsz # Scalability
     - michmike # Windows
     - mikedanese # Auth
     - mm4tt # Scalability
+    - mszostok # Service Catalog
     - mwielgus # Autoscaling
     - neolit123 # Cluster Lifecycle
-    - nikopen # 1.15 Lead Shadow
-    - onyiny-ang # 1.15 Release Notes
     - parispittman # ContribEx
     - patricklang # Windows
     - phillels # ContribEx
     - piosz # Instrumentation
+    - pmorie # Multicluster
     - prydonius # Apps
     - pwittrock # CLI
     - quinton-hoole # Multicluster
-    - rbitia # 1.16 Enhancements Shadow
+    - rajakavitha1 # Usability
     - saad-ali # Storage
     - seans3 # CLI
     - shyamjvs # Scalability
-    - simplytunde # 1.16 Docs Lead
-    - smourapina # 1.15 CI Signal Shadow
-    - soggiest # 1.15 Bug Triage
     - soltysh # CLI
     - spzala # IBM Cloud
     - stevekuznetsov # Testing
     - tallclair # Auth
+    - tashimi # Usability
     - thockin # Network
     - timothysc # Cluster Lifecycle / Testing
-    - tpepper # 1.15 Lead Shadow / Release
+    - tpepper # Release
+    - vllry # Usability
     - wojtek-t # Scalability
-    - xmudrii # 1.15 Bug Triage Shadow
     - zacharysarah # Docs
     privacy: closed
     previously:
@@ -160,20 +156,17 @@ teams:
     - alexeldeib # Release Manager Associate
     - bubblemelon # Branch Manager
     - calebamiles # subproject owner / Build Admin
-    - chrisz100 # Release Manager Associate
-    - cpanato # Release Manager Associate
+    - cpanato # Branch Manager
     - dougm # Patch Release Team
     - feiskyer # Patch Release Team
     - girikuncoro # Release Manager Associate
     - hoegaarden # subproject owner / Patch Release Team
-    - idealhack # Branch Manager / Patch Release Team
+    - idealhack # Patch Release Team
     - imkin # Release Manager Associate
-    - ixdy # subproject owner
     - javier-b-perez # Release Manager Associate
-    - justaugustus # Release Manager Associate / Build Admin
-    - k82cn # Release Manager Associate
+    - justaugustus # subproject owner / Branch Manager / Build Admin
     - listx # Build Admin
-    - mcrute # Release Manager Associate
+    - ps882 # Build Admin
     - pswica # Release Manager Associate
     - slicknik # Release Manager Associate
     - sumitranr # Build Admin
@@ -187,10 +180,11 @@ teams:
     members:
     - aleksandra-malinowska # Patch Release Team
     - bubblemelon # Branch Manager
+    - cpanato # Branch Manager
     - dougm # Patch Release Team
     - feiskyer # Patch Release Team
     - hoegaarden # Patch Release Team
-    - idealhack # Branch Manager / Patch Release Team
+    - idealhack # Patch Release Team
     - justaugustus # Branch Manager
     - k8s-release-robot
     - tpepper # Patch Release Team
@@ -200,42 +194,35 @@ teams:
   release-team:
     description: Members of the current Release Team and subproject owners.
     maintainers:
-    - mrbobbytables # 1.16 Enhancements Shadow
+    - mrbobbytables # 1.17 Enhancements Lead
     - spiffxp # subproject owner
     members:
     - aishsundar # subproject owner
-    - alejandrox1 # 1.16 CI Signal Lead
-    - alenkacz # 1.15 CI Signal Shadow
+    - alejandrox1 # 1.17 RT Lead Shadow
+    - alenkacz # 1.17 CI Signal Lead
     - bubblemelon # Branch Manager
-    - castrojo # 1.15 Communications Lead
+    - cartyc # 1.17 Release Notes Lead
     - claurence # subproject owner
-    - craiglpeters # 1.15 Enhancements Shadow
-    - daminisatya # 1.15 Docs Shadow
-    - dstrebel # 1.15 Bug Triage Shadow
+    - cpanato # Branch Manager
+    - daminisatya # 1.17 Docs Lead
     - evillgenius75 # 1.16 Enhancements Shadow
-    - guineveresaenger # 1.16 RT Lead Shadow
+    - guineveresaenger # 1.17 RT Lead
     - idealhack # Branch Manager
-    - imkin # 1.15 Test Infra Lead
     - jberkus # subproject owner
-    - jeefy # 1.16 RT Lead Shadow
-    - jimangel # 1.15 CI Signal Shadow
+    - jeefy # 1.17 RT Lead Shadow
+    - josiahbjorgaard # 1.17 Bug Triage Lead
     - justaugustus # subproject owner
     - kacole2 # 1.16 Enhancements Lead
-    - Katharine # 1.15 Test Infra Shadow
-    - lachie83 # 1.15 RT Lead Shadow
-    - MAKOSCAFEE # 1.15 Docs Lead
-    - mariantalla # 1.16 Enhancements Shadow
-    - nickchase # 1.15 Release Notes Shadow
+    - lachie83 # subproject owner
+    - mariantalla # 1.17 RT Lead Shadow
     - nikopen # 1.16 RT Lead Shadow
     - onlydole # 1.16 Communications Lead
-    - onyiny-ang # 1.15 Release Notes Lead
+    - onyiny-ang # 1.16 Release Notes Shadow
+    - rawkode # 1.17 Communications Lead
     - rbitia # 1.16 Enhancements Shadow
     - saschagrunert # 1.16 Release Notes Lead
     - simplytunde # 1.16 Docs Lead
-    - slicknik # 1.15 Branch Manager Shadow
-    - smourapina # 1.15 CI Signal Shadow
-    - soggiest # 1.15 Bug Triage Lead
-    - taragu # 1.15 Test Infra Shadow
+    - soggiest # 1.16 CI Signal Shadow
     - tpepper # subproject owner
     - xmudrii # 1.16 Bug Triage Lead
     privacy: closed
@@ -246,32 +233,39 @@ teams:
            and can be used as a notification group.
           Remove org members who are not current Release Team Leads.
         members:
-        - guineveresaenger # 1.16 RT Lead Shadow
-        - jeefy # 1.16 RT Lead Shadow
-        - lachie83 # 1.16 RT Lead
-        - nikopen # 1.16 RT Lead Shadow
+        - alejandrox1 # 1.17 RT Lead Shadow
+        - guineveresaenger # 1.17 RT Lead
+        - jeefy # 1.17 RT Lead Shadow
+        - mariantalla # 1.17 RT Lead Shadow
         privacy: closed
   sig-release:
     description: SIG Release Members
     maintainers:
     - mrbobbytables
+    - nikhita
     - spiffxp
     members:
     - abgworrall
     - AishSundar
     - alejandrox1
     - aleksandra-malinowska
+    - alenkacz
+    - alexeldeib
     - amwat
     - BenTheElder
     - Bradamant3
     - bubblemelon
     - caesarxuchao
     - calebamiles
+    - cartyc
     - castrojo
     - chenopis
+    - chrisz100
     - cjwagner
     - claurence
+    - cpanato
     - craiglpeters
+    - daminisatya
     - dashpole
     - dchen1107
     - dims
@@ -282,29 +276,35 @@ teams:
     - evillgenius75
     - feiskyer
     - foxish
+    - girikuncoro
     - guineveresaenger
     - hoegaarden
     - idealhack
     - imkin
     - ixdy
+    - javier-b-perez
     - jberkus
     - jdumars
     - jeefy
     - jimangel
+    - josiahbjorgaard
     - jpbetz
     - justaugustus
+    - k82cn
     - kacole2
     - Katharine
     - kbarnard10
     - krzyzacy
     - lachie83
     - liggitt
+    - listx
     - MaciekPytel
     - MAKOSCAFEE
     - mariantalla
     - marpaia
     - marun
     - mbohlool
+    - mcrute
     - mistyhacks
     - mohammedzee1000
     - monopole
@@ -313,15 +313,20 @@ teams:
     - nwoods3
     - onlydole
     - onyiny-ang
+    - ps882
+    - pswica
     - pwittrock
     - radhikapc
+    - rawkode
     - rbitia
     - saad-ali
     - saschagrunert
     - shyamjvs
     - simplytunde
+    - slicknik
     - soggiest
     - steveperry-53
+    - sumitranr
     - tfogo
     - tpepper
     - wojtek-t

@@ -257,14 +257,6 @@ teams:
     - justinsb
     - sarahnovotny
     privacy: closed
-  admins-ip-masq-agent:
-    description: Admin access to the ip-masq-agent repo
-    members:
-    - dnardo
-    - MrHohn
-    - mtaufen
-    - thockin
-    privacy: closed
   admins-kargo:
     description: Admin access to the kargo repo
     members:
@@ -433,13 +425,6 @@ teams:
     - sbezverk
     - tsmetana
     - wongma7
-    privacy: closed
-  maintainers-ip-masq-agent:
-    description: Write access to the ip-masq-agent repo
-    members:
-    - dnardo
-    - mtaufen
-    - thockin
     privacy: closed
   maintainers-kargo:
     description: Write access to the kargo repo

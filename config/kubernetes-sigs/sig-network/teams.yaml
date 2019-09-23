@@ -1,0 +1,15 @@
+teams:
+  admins-ip-masq-agent:
+    description: Admin access to the ip-masq-agent repo
+    members:
+    - bowei
+    - dnardo
+    - MrHohn
+    privacy: closed
+  maintainers-ip-masq-agent:
+    description: Write access to the ip-masq-agent repo
+    members:
+    - bowei
+    - dnardo
+    - MrHohn
+    privacy: closed

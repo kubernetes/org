@@ -186,7 +186,7 @@ aliases:
   provider-openstack:
     - adisky
     - chrigl
-    - hogepodge
+    - lingxiankong
   provider-vmware:
     - cantbewong
     - frapposelli

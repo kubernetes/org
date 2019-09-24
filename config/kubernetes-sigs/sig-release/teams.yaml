@@ -1,17 +1,21 @@
 teams:
   k8s-container-image-promoter-admins:
-    description: "admin access to k8s-container-image-promoter"
+    description: admin access to k8s-container-image-promoter
     members:
+    - calebamiles
     - dims
     - hh
+    - justaugustus
     - listx
     - tpepper
     privacy: closed
   k8s-container-image-promoter-maintainers:
-    description: "write access to k8s-container-image-promoter"
+    description: write access to k8s-container-image-promoter
     members:
+    - calebamiles
     - dims
     - hh
+    - justaugustus
     - listx
     - tpepper
     privacy: closed

@@ -67,7 +67,6 @@ teams:
     - foxish # Big Data
     - frapposelli # VMware
     - hoegaarden # Patch Release Team
-    - hogepodge # Cloud Provider / OpenStack
     - hpandeycodeit # Usability
     - idealhack # Patch Release Team
     - janetkuo # Apps
@@ -86,6 +85,7 @@ teams:
     - lachie83 # PM
     - lavalamp # API Machinery
     - liggitt # Auth / Release
+    - lingxiankong # OpenStack
     - liyinan926 # Big Data
     - luxas # Cluster Lifecycle
     - maciaszczykm # UI

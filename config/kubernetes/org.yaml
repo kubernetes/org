@@ -1818,12 +1818,6 @@ teams:
     previously:
     - product-security-team
     privacy: closed
-  repo-infra-maintainers:
-    description: Write access to the repo-infra repo
-    members:
-    - ixdy
-    - mikedanese
-    privacy: closed
   sample-apiserver-admins:
     description: Admin access to the sample-apiserver repo
     members:

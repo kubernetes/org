@@ -40,6 +40,7 @@ teams:
     - justinsb
     - luxas
     - timothysc
+    - vincepri
     privacy: closed
   cluster-api-bootstrap-provider-kubeadm-maintainers:
     descrption: write acccess to cluster-api-bootstrap-provider-kubeadm

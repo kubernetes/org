@@ -5,4 +5,5 @@ reviewers:
 approvers:
   - provider-ibmcloud
 labels:
-  - sig/ibmcloud
+  - sig/cloud-provider
+  - area/provider/ibmcloud

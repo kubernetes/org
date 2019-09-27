@@ -5,4 +5,5 @@ reviewers:
 approvers:
   - provider-vmware
 labels:
-  - sig/vmware
+  - sig/cloud-provider
+  - area/provider/vmware

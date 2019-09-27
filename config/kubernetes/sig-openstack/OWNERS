@@ -5,4 +5,5 @@ reviewers:
 approvers:
   - provider-openstack
 labels:
-  - sig/openstack
+  - sig/cloud-provider
+  - area/provider/openstack

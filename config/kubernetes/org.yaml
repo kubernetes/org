@@ -1107,7 +1107,7 @@ teams:
     members:
     - dims
     - dklyle
-    - hogepodge
+    - lingxiankong
     privacy: closed
   cloud-provider-openstack-maintainers:
     description: Write access to the cloud-provider-openstack repo
@@ -1115,12 +1115,13 @@ teams:
     - adisky
     - dims
     - dklyle
-    - hogepodge
+    - lingxiankong
     privacy: closed
   cloud-provider-openstack-members:
     description: ""
     members:
     - dims
+    - lingxiankong
     privacy: closed
   cloud-provider-vsphere-admins:
     description: Admin access to cloud-provider-vsphere repo

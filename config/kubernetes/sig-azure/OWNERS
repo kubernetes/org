@@ -5,4 +5,5 @@ reviewers:
 approvers:
   - provider-azure
 labels:
-  - sig/azure
+  - sig/cloud-provider
+  - area/provider/azure

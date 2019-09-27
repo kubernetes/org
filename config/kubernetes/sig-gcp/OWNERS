@@ -5,4 +5,5 @@ reviewers:
 approvers:
   - provider-gcp
 labels:
-  - sig/gcp
+  - sig/cloud-provider
+  - area/provider/gcp

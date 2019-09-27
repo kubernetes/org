@@ -5,4 +5,5 @@ reviewers:
 approvers:
   - provider-aws
 labels:
-  - sig/aws
+  - sig/cloud-provider
+  - area/provider/aws

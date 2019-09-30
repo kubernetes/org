@@ -209,12 +209,6 @@ teams:
     - childsb
     - sarahnovotny
     privacy: closed
-  admin-reference-docs:
-    description: Admin access to the reference-docs repo
-    members:
-    - pwittrock
-    - sarahnovotny
-    privacy: closed
   admins-apiserver-builder:
     description: Admin access to the apiserver-builder repo
     members:
@@ -491,14 +485,6 @@ teams:
     - flyingcougar
     - marquiz
     - philips
-    privacy: closed
-  maintainers-reference-docs:
-    description: Write access to the reference-docs repo
-    members:
-    - jimangel
-    - pwittrock
-    - sarahnovotny
-    - tengqm
     privacy: closed
   maintainers-rktlet:
     description: Write access to the rktlet repo

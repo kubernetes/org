@@ -522,6 +522,19 @@ teams:
     - balajismaniam
     - marquiz
     privacy: closed
+  reference-docs-admins:
+    description: Admin access to the reference-docs repo
+    members:
+    - bradamant3
+    - jimangel
+    - zacharysarah
+    privacy: closed
+  reference-docs-maintainers:
+    description: Write access to the reference-docs repo
+    members:
+    - kbhawkey
+    - tengqm
+    privacy: closed
   sig-storage-lib-external-provisioner-admins:
     description: Admin access to the sig-storage-lib-external-provisioner repo
     members:

@@ -37,6 +37,7 @@ teams:
     - ahg-g # Scheduling
     - alejandrox1 # 1.17 RT Lead Shadow
     - aleksandra-malinowska # Patch Release Team
+    - alenkacz # 1.17 RT CI Signal lead
     - andrewsykim # Cloud Provider
     - benmoss # Windows
     - bgrant0607 # Architecture

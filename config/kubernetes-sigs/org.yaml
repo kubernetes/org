@@ -48,6 +48,7 @@ members:
 - Birdrock
 - bowei
 - Bradamant3
+- bradtopol
 - brancz
 - bryk
 - caesarxuchao
@@ -145,6 +146,7 @@ members:
 - jennybuckley
 - jeremyrickard
 - jichenjc
+- jimangel
 - jingxu97
 - jinzhejz
 - JoelSpeed
@@ -159,6 +161,8 @@ members:
 - k82cn
 - kad
 - Katharine
+- kbarnard10
+- kbhawkey
 - kfox1111
 - kow3ns
 - kris-nova
@@ -272,6 +276,7 @@ members:
 - soltysh
 - srampal
 - stealthybox
+- steveperry-53
 - sttts
 - suleisl2000
 - syjabri
@@ -280,6 +285,7 @@ members:
 - taragu
 - tariq1890
 - tashimi
+- tengqm
 - thandayuthapani
 - thockin
 - timothysc
@@ -311,6 +317,7 @@ members:
 - zacharysarah
 - zouyee
 - ZP-AlwaysWin
+- zparnold
 - zulandar
 - zvonkok
 teams:
@@ -514,6 +521,19 @@ teams:
     members:
     - balajismaniam
     - marquiz
+    privacy: closed
+  reference-docs-admins:
+    description: Admin access to the reference-docs repo
+    members:
+    - bradamant3
+    - jimangel
+    - zacharysarah
+    privacy: closed
+  reference-docs-maintainers:
+    description: Write access to the reference-docs repo
+    members:
+    - kbhawkey
+    - tengqm
     privacy: closed
   sig-storage-lib-external-provisioner-admins:
     description: Admin access to the sig-storage-lib-external-provisioner repo

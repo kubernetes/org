@@ -39,6 +39,7 @@ teams:
     - aleksandra-malinowska # Patch Release Team
     - alenkacz # 1.17 RT CI Signal lead
     - andrewsykim # Cloud Provider
+    - annajung # 1.17 RT Enhancements shadow
     - benmoss # Windows
     - bgrant0607 # Architecture
     - bradamant3 # Docs
@@ -75,11 +76,13 @@ teams:
     - jberkus # Release
     - jdumars # Architecture / PM
     - jeefy # UI
+    - jeremyrickard # 1.17 RT Enhancements shadow
     - jimangel # Docs
     - justaugustus # Azure / PM / Release
     - justinsb # AWS / Cluster Lifecycle
     - k82cn # Scheduling
     - k8s-release-robot # Release
+    - kcmartin # 1.17 RT Enhancements shadow
     - khenidak # Azure
     - kow3ns # Apps
     - kris-nova # AWS
@@ -99,6 +102,7 @@ teams:
     - mszostok # Service Catalog
     - mwielgus # Autoscaling
     - neolit123 # Cluster Lifecycle
+    - palnabarun # 1.17 RT Enhancements shadow
     - parispittman # ContribEx
     - patricklang # Windows
     - phillels # ContribEx

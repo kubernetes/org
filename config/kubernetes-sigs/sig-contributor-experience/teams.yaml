@@ -13,6 +13,20 @@ teams:
     members:
     - castrojo
     privacy: closed
+  discuss-theme-admins:
+    description: admin access to the discuss-theme repo
+    maintainers:
+    - mrbobbytables
+    members:
+    - castrojo
+    privacy: closed
+  discuss-theme-maintainers:
+    description: write access to the discuss-theme repo
+    maintainers:
+    - mrbobbytables
+    members:
+    - castrojo
+    privacy: closed
   slack-infra-admins:
     description: admin access to slack-infra
     members:

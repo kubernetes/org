@@ -50,6 +50,18 @@ teams:
     - Phillels
     - tpepper
     privacy: closed
+  sig-contributor-experience-apac-coordinators:
+    description: Contributor Experience APAC Coordinator team
+    maintainers:
+    - nikhita
+    members:
+    - alisondy
+    - aravindputrevu
+    - idealhack
+    - Pensu
+    - saiyam1814
+    - tao12345666333
+    privacy: closed
   sig-contributor-experience-bugs:
     description: Bugs relating to contributor-experience infrastructure, such as the
       PR bot, etc.

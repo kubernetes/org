@@ -8,11 +8,9 @@ aliases:
     - mattfarina
     - prydonius
   sig-architecture-leads:
-    - bgrant0607
     - derekwaynecarr
     - dims
-    - jdumars
-    - mattfarina
+    - johnbelamaric
   sig-auth-leads:
     - enj
     - mikedanese
@@ -30,10 +28,8 @@ aliases:
   sig-cloud-provider-leads:
     - andrewsykim
     - cheftako
-    - hogepodge
   sig-cluster-lifecycle-leads:
     - justinsb
-    - luxas
     - timothysc
   sig-contributor-experience-leads:
     - Phillels
@@ -41,7 +37,7 @@ aliases:
     - cblecker
     - nikhita
   sig-docs-leads:
-    - bradamant3
+    - Bradamant3
     - jimangel
     - zacharysarah
   sig-instrumentation-leads:
@@ -94,10 +90,10 @@ aliases:
     - tashimi
     - vllry
   sig-windows-leads:
+    - PatrickLang
+    - michmike
     - benmoss
     - ddebroy
-    - michmike
-    - patricklang
   wg-apply-leads:
     - lavalamp
   wg-component-standard-leads:
@@ -143,8 +139,11 @@ aliases:
     - erikerlandson
     - foxish
     - liyinan926
+  ug-vmware-users-leads:
+    - cantbewong
+    - mylesagray
   committee-code-of-conduct:
-    - bradamant3
+    - Bradamant3
     - carolynvs
     - eparis
     - jdumars
@@ -157,16 +156,11 @@ aliases:
     - philips
     - tallclair
   committee-steering:
-    - bgrant0607
-    - brendandburns
+    - cblecker
     - derekwaynecarr
     - dims
-    - jbeda
-    - michelleN
-    - philips
-    - pwittrock
-    - sarahnovotny
-    - smarterclayton
+    - nikhita
+    - parispittman
     - spiffxp
     - timothysc
 ## BEGIN CUSTOM CONTENT

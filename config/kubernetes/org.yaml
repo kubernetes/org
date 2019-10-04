@@ -1836,18 +1836,13 @@ teams:
   steering-committee:
     description: Kubernetes Steering Committee
     maintainers:
+    - cblecker
+    - nikhita
     - spiffxp
     members:
-    - bgrant0607
-    - brendandburns
     - derekwaynecarr
     - dims
-    - jbeda
-    - michelleN
-    - philips
-    - pwittrock
-    - sarahnovotny
-    - smarterclayton
+    - parispittman
     - timothysc
     privacy: closed
   ubuntu-image:

@@ -19,8 +19,5 @@ set -o pipefail
 set -o xtrace
 
 cd "$(git rev-parse --show-toplevel)"
-for sh in $(ls hack/update* | grep -v update-all); do
-	"./$sh" && echo "PASS: $sh" && continue
-	echo "FAIL: $sh"
-	exit 1
-done
+bazel run @io_k8s_repo_infra//hack:update-gofmt
+bazel run @io_k8s_repo_infra//hack:update-deps

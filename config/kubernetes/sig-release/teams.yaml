@@ -69,6 +69,7 @@ teams:
     - foxish # Big Data
     - frapposelli # VMware
     - guineveresaenger # 1.17 Release Lead
+    - hasheddan # 1.17 CI Signal Shadow
     - hoegaarden # Patch Release Team
     - hpandeycodeit # Usability
     - idealhack # Patch Release Team

@@ -1,50 +1,23 @@
 # gazelle:repository_macro repos.bzl%go_repositories
 workspace(name = "io_k8s_org")
 
-load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
+load("//:load.bzl", "repositories")
 
-http_archive(
-    name = "bazel_skylib",
-    sha256 = "2ef429f5d7ce7111263289644d233707dba35e39696377ebab8b0bc701f7818e",
-    urls = ["https://github.com/bazelbuild/bazel-skylib/releases/download/0.8.0/bazel-skylib.0.8.0.tar.gz"],
-)
+repositories()
 
-load("@bazel_skylib//lib:versions.bzl", "versions")
+load("@io_k8s_repo_infra//:load.bzl", repo_infra_repos = "repositories")
 
-versions.check(minimum_bazel_version = "0.27.0")
+repo_infra_repos()
 
-http_archive(
-    name = "io_k8s_repo_infra",
-    sha256 = "f6d65480241ec0fd7a0d01f432938b97d7395aeb8eefbe859bb877c9b4eafa56",
-    strip_prefix = "repo-infra-9f4571ad7242bf3ec4b47365062498c2528f9a5f",
-    urls = ["https://github.com/kubernetes/repo-infra/archive/9f4571ad7242bf3ec4b47365062498c2528f9a5f.tar.gz"],
-)
+load("@io_k8s_repo_infra//:repos.bzl", "configure")
 
-http_archive(
-    name = "io_bazel_rules_go",
-    sha256 = "313f2c7a23fecc33023563f082f381a32b9b7254f727a7dd2d6380ccc6dfe09b",
-    urls = ["https://github.com/bazelbuild/rules_go/releases/download/0.19.3/rules_go-0.19.3.tar.gz"],
-)
-
-http_archive(
-    name = "bazel_gazelle",
-    sha256 = "7fc87f4170011201b1690326e8c16c5d802836e3a0d617d8f75c3af2b23180c4",
-    urls = ["https://github.com/bazelbuild/bazel-gazelle/releases/download/0.18.2/bazel-gazelle-0.18.2.tar.gz"],
-)
-
-load("@io_bazel_rules_go//go:deps.bzl", "go_register_toolchains", "go_rules_dependencies")
-
-go_rules_dependencies()
-
-go_register_toolchains()
-
-load("@bazel_gazelle//:deps.bzl", "gazelle_dependencies")
-
-gazelle_dependencies()
+configure(go_modules = None)
 
 load("//:repos.bzl", "go_repositories")
 
 go_repositories()
+
+load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
 http_archive(
     name = "io_k8s_test_infra",

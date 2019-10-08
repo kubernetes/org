@@ -1903,3 +1903,19 @@ def go_repositories():
         sum = "h1:xyiBuvkD2g5n7cYzx6u2sxQvsAy4QJsZFCzGVdzOXZ0=",
         version = "v2.0.1",
     )
+    go_repository(
+        name = "com_github_golang_lint",
+        build_file_generation = "on",
+        build_file_proto_mode = "disable",
+        importpath = "github.com/golang/lint",
+        sum = "h1:2hRPrmiwPrp3fQX967rNJIhQPtiGXdlQWAxKbKw3VHA=",
+        version = "v0.0.0-20180702182130-06c8688daad7",
+    )
+    go_repository(
+        name = "org_apache_git_thrift_git",
+        build_file_generation = "on",
+        build_file_proto_mode = "disable",
+        importpath = "git.apache.org/thrift.git",
+        sum = "h1:OR8VhtwhcAI3U48/rzBsVOuHi0zDPzYI1xASVcdSgR8=",
+        version = "v0.0.0-20180902110319-2566ecd5d999",
+    )

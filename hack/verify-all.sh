@@ -19,10 +19,4 @@ set -o pipefail
 set -o xtrace
 
 cd "$(git rev-parse --show-toplevel)"
-err=0
-for sh in $(ls hack/verify* | grep -v verify-all); do
-	"./$sh" && echo "PASS: $sh" && continue
-	err=1
-	echo "FAIL: $sh"
-done
-exit $err
+bazel test //:verify-all

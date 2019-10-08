@@ -17,6 +17,10 @@ load("//:repos.bzl", "go_repositories")
 
 go_repositories()
 
+load("@io_k8s_repo_infra//:repos.bzl", _repo_infra_go_repos = "go_repositories")
+
+_repo_infra_go_repos()
+
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
 http_archive(

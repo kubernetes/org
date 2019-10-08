@@ -1,68 +1,14 @@
 # gazelle:prefix k8s.io/org
 # gazelle:proto disable_global
 
-load("@io_k8s_repo_infra//defs:run_in_workspace.bzl", "workspace_binary")
-
-workspace_binary(
-    name = "go",
-    cmd = "@go_sdk//:bin/go",
-)
-
-workspace_binary(
-    name = "update-minor",
-    args = [
-        "get",
-        "-u",
+test_suite(
+    name = "verify-all",
+    tests = [
+        "@io_k8s_repo_infra//hack:verify-bazel",
+        "@io_k8s_repo_infra//hack:verify-boilerplate",
+        "@io_k8s_repo_infra//hack:verify-deps",
+        "@io_k8s_repo_infra//hack:verify-gofmt",
     ],
-    cmd = "@go_sdk//:bin/go",
-)
-
-workspace_binary(
-    name = "update-patch",
-    args = [
-        "get",
-        "-u=patch",
-    ],
-    cmd = "@go_sdk//:bin/go",
-)
-
-workspace_binary(
-    name = "golint",
-    cmd = "@com_github_golang_lint//golint",
-)
-
-load("@bazel_gazelle//:def.bzl", "gazelle")
-
-gazelle(
-    name = "gazelle",
-    command = "fix",
-    external = "external",
-)
-
-gazelle(
-    name = "gazelle-diff",
-    command = "fix",
-    external = "external",
-    mode = "diff",
-)
-
-workspace_binary(
-    name = "kazel",
-    cmd = "@io_k8s_repo_infra//cmd/kazel",
-)
-
-workspace_binary(
-    name = "kazel-diff",
-    args = [
-        "--dry-run",
-        "--print-diff",
-    ],
-    cmd = "@io_k8s_repo_infra//cmd/kazel",
-)
-
-workspace_binary(
-    name = "gofmt",
-    cmd = "@go_sdk//:bin/gofmt",
 )
 
 filegroup(

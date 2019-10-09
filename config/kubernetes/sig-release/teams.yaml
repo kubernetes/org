@@ -63,6 +63,7 @@ teams:
     - dims # Architecture / Release
     - dougm # Patch Release Team
     - enj # Auth
+    - evillgenius75 # 1.17 Release Notes Shadow
     - fabriziopandini # Cluster Lifecycle
     - feiskyer # Azure
     - floreks # UI
@@ -212,7 +213,7 @@ teams:
     - claurence # subproject owner
     - cpanato # Branch Manager
     - daminisatya # 1.17 Docs Lead
-    - evillgenius75 # 1.16 Enhancements Shadow
+    - evillgenius75 # 1.17 Release Notes Shadow
     - guineveresaenger # 1.17 RT Lead
     - idealhack # Branch Manager
     - jberkus # subproject owner

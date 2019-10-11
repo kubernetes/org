@@ -184,6 +184,7 @@ teams:
     - raelga # Spanish
     - remyleone # French
     - rlenferink # Italian
+    - SataQiu # Chinese
     - seokho-son # Korean
     - tnir # Japanese
     - zacharysarah # English
@@ -240,6 +241,7 @@ teams:
     description: Approvers for Chinese content
     members:
     - hanjiayao
+    - SataQiu
     - tengqm
     - xiangpengzhao
     - zhangxiaoyu-zidif
@@ -250,6 +252,7 @@ teams:
     - chenrui333
     - idealhack
     - pigletfly
+    - SataQiu
     - tengqm
     - xiangpengzhao
     - zhangxiaoyu-zidif
@@ -293,6 +296,7 @@ teams:
     - remyleone
     - rlenferink
     - ryanmcginnis
+    - SataQiu
     - simplytunde
     - smana
     - steveperry-53

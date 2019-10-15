@@ -9,5 +9,6 @@ teams:
     description: write access to vsphere-csi-driver
     members:
     - codenrhoden
+    - divyenpatel
     - frapposelli
     privacy: closed

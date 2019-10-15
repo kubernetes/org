@@ -50,6 +50,7 @@ teams:
     - justinsb
     - luxas
     - ncdc
+    - SataQiu
     - timothysc
     privacy: closed
   cluster-api-provider-aws-admins:

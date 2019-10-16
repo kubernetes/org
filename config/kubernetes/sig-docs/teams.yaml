@@ -162,6 +162,16 @@ teams:
     - ianychoi
     - seokho-son
     privacy: closed
+  sig-docs-vi-owners:
+    description: Admins for Vietnamese content
+    members:
+    - truongnh1992
+    privacy: closed
+  sig-docs-vi-reviews:
+    description: PR reviews for Vietnamese content
+    members:
+    - truongnh1992
+    privacy: closed
   sig-docs-l10n-admins:
     description: Approvers for localization projects
     members:
@@ -188,6 +198,7 @@ teams:
     - tnir # Japanese
     - zacharysarah # English
     - zhangxiaoyu-zidif # Chinese
+    - truongnh1992 # Vietnamese
     privacy: closed
   sig-docs-maintainers:
     description: Website maintainers
@@ -308,4 +319,5 @@ teams:
     - zacharysarah
     - zhangxiaoyu-zidif
     - zparnold
+    - truongnh1992
     privacy: closed

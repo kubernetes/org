@@ -82,12 +82,14 @@ teams:
     - jeefy # UI
     - jeremyrickard # 1.17 RT Enhancements shadow
     - jimangel # Docs
+    - josiahbjorgaard # 1.17 Bug Triage Lead
     - justaugustus # Azure / PM / Release
     - justinsb # AWS / Cluster Lifecycle
     - k82cn # Scheduling
     - k8s-release-robot # Release
     - kcmartin # 1.17 RT Enhancements shadow
     - khenidak # Azure
+    - kikisdeliveryservice # 1.17 Bug Triage Shadow
     - kow3ns # Apps
     - kris-nova # AWS
     - lachie83 # PM
@@ -98,6 +100,7 @@ teams:
     - luxas # Cluster Lifecycle
     - maciaszczykm # UI
     - mariantalla # 1.17 RT Lead Shadow
+    - markyjackson-taulia # 1.17 Bug Triage shadow
     - mattfarina # Apps / Architecture
     - mborsz # Scalability
     - michmike # Windows
@@ -119,6 +122,7 @@ teams:
     - saad-ali # Storage
     - seans3 # CLI
     - shyamjvs # Scalability
+    - smourapina # 1.17 Bug Triage shadow
     - soltysh # CLI
     - spzala # IBM Cloud
     - stevekuznetsov # Testing
@@ -127,6 +131,7 @@ teams:
     - thockin # Network
     - timothysc # Cluster Lifecycle / Testing
     - tpepper # Release
+    - ttousai # 1.17 Bug Triage shadow
     - vllry # Usability
     - wojtek-t # Scalability
     - zacharysarah # Docs

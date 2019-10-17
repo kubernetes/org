@@ -63,6 +63,7 @@ teams:
     description: Approvers for French content
     members:
     - abuisine
+    - anthonydahanne
     - awkif
     - jygastaud
     - oussemos

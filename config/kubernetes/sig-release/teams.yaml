@@ -62,6 +62,7 @@ teams:
     - derekwaynecarr # Architecture / Node
     - dims # Architecture / Release
     - dougm # Patch Release Team
+    - droslean # 1.17 CI Signal Shadow
     - enj # Auth
     - evillgenius75 # 1.17 Release Notes Shadow
     - fabriziopandini # Cluster Lifecycle

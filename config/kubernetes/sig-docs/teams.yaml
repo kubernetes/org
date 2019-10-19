@@ -180,12 +180,14 @@ teams:
     - micheleberardi # Italian
     - mittalyashu #hindi
     - nasa9084 # Japanese
+    - ngtuna # Vietnamese
     - raelga # Spanish
     - remyleone # French
     - rlenferink # Italian
     - SataQiu # Chinese
     - seokho-son # Korean
     - tnir # Japanese
+    - truongnh1992 # Vietnamese
     - zacharysarah # English
     - zhangxiaoyu-zidif # Chinese
     privacy: closed
@@ -286,6 +288,7 @@ teams:
     - micheleberardi
     - mistyhacks
     - nasa9084
+    - ngtuna
     - oussemos
     - perriea
     - raelga
@@ -303,9 +306,22 @@ teams:
     - tengqm
     - tfogo
     - tnir
+    - truongnh1992
     - xiangpengzhao
     - yastij
     - zacharysarah
     - zhangxiaoyu-zidif
     - zparnold
+    privacy: closed
+  sig-docs-vi-owners:
+    description: Admins for Vietnamese content
+    members:
+    - ngtuna
+    - truongnh1992
+    privacy: closed
+  sig-docs-vi-reviews:
+    description: PR reviews for Vietnamese content
+    members:
+    - ngtuna
+    - truongnh1992
     privacy: closed

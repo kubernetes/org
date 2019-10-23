@@ -27,6 +27,7 @@ teams:
   cluster-api-maintainers:
     description: ""
     members:
+    - chuckha
     - davidewatson
     - detiber
     - ncdc

@@ -1231,11 +1231,11 @@ teams:
   code-of-conduct-committee:
     description: Kubernetes Code of Conduct Committee
     members:
-    - Bradamant3
+    - aevaonline
+    - bradamant3
     - carolynvs
-    - eparis
     - jdumars
-    - parispittman
+    - tashimi
     privacy: closed
   csi-api-admins:
     description: Admin access to csi-api repo

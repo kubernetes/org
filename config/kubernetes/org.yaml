@@ -1499,31 +1499,21 @@ teams:
     description: Admin access to the kompose repo
     members:
     - cdrage
+    - hangyan
     - janetkuo
     - kadel
     - ngtuna
-    - sarahnovotny
-    - sebgoa
-    privacy: closed
-  kompose-contributors:
-    description: contributors to the kompose repo
-    members:
-    - cdrage
-    - ngtuna
-    - procrypt
-    - sarahnovotny
     - sebgoa
     privacy: closed
   kompose-maintainers:
     description: Write access to the kompose repo
     members:
-    - cab105
     - cdrage
+    - hangyan
     - janetkuo
     - kadel
-    - sarahnovotny
+    - ngtuna
     - sebgoa
-    - surajssd
     privacy: closed
   kops-admins:
     description: Admin access to the kops repo

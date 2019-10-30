@@ -494,14 +494,6 @@ teams:
     - euank
     - yifan-gu
     privacy: closed
-  maintainers-spartakus:
-    description: Write access to the spartakus repo
-    members:
-    - aronchick
-    - grodrigues3
-    - squat
-    - thockin
-    privacy: closed
   temporary-admin-transfers:
     description: For transferring repos into incubator.
     members:

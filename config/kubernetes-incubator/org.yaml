@@ -244,13 +244,6 @@ teams:
     members:
     - MrHohn
     privacy: closed
-  admins-external-dns:
-    description: Admin access to the external-dns repo
-    members:
-    - calebamiles
-    - justinsb
-    - sarahnovotny
-    privacy: closed
   admins-kargo:
     description: Admin access to the kargo repo
     members:
@@ -392,20 +385,6 @@ teams:
     members:
     - dnardo
     - thockin
-    privacy: closed
-  maintainers-external-dns:
-    description: Write access to the external-dns repo
-    members:
-    - chrislovecnm
-    - hjacobs
-    - ideahitme
-    - iterion
-    - justinsb
-    - kris-nova
-    - linki
-    - njuettner
-    - Raffo
-    - sarahnovotny
     privacy: closed
   maintainers-external-storage:
     description: Write access to the external-storage repo

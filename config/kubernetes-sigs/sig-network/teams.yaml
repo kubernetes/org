@@ -13,3 +13,13 @@ teams:
     - dnardo
     - MrHohn
     privacy: closed
+  admins-external-dns:
+    description: Admin access to the external-dns repo
+    members:
+    - linki
+    privacy: closed
+  maintainers-external-dns:
+    description: Write access to the external-dns repo
+    members:
+    - linki
+    privacy: closed

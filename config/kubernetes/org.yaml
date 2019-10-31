@@ -1727,18 +1727,8 @@ teams:
     description: Admin access to the website repo
     members:
     - Bradamant3
-    - chenopis
-    - jaredbhatti
-    - Kashomon
-    - lavalamp
-    - mistyhacks
-    - pwittrock
-    - sebgoa
-    - steveperry-53
-    - tfogo
-    - thockin
+    - jimangel
     - zacharysarah
-    - zparnold
     privacy: closed
   maintainer-test-exemptions:
     description: Maintainers who for whatever random reason should not own tests.

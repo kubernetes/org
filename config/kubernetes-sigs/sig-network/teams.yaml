@@ -23,3 +23,15 @@ teams:
     members:
     - linki
     privacy: closed
+  admins-ingress-controller-conformance:
+    description: Admin access to the ingress-controller-conformance repo
+    members:
+    - bowei
+    - thockin
+    privacy: closed
+  maintainers-ingress-controller-conformance:
+    description: Write access to the ingress-controller-conformance repo
+    members:
+    - bowei
+    - thockin
+    privacy: closed

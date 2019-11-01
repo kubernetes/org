@@ -161,36 +161,6 @@ teams:
     - ianychoi
     - seokho-son
     privacy: closed
-  sig-docs-l10n-admins:
-    description: Approvers for localization projects
-    members:
-    - alexbrand # Spanish
-    - bradamant3 # English
-    - ClaudiaJKang # Korean
-    - cstoku # Japanese
-    - femrtnz # Portuguese
-    - girikuncoro # Indonesian
-    - gochist # Korean
-    - hanjiayao # Chinese
-    - ianychoi # Korean
-    - inductor # Japanese
-    - irvifa # Indonesian
-    - jaredbhatti # English
-    - jcjesus # Portuguese
-    - micheleberardi # Italian
-    - mittalyashu #hindi
-    - nasa9084 # Japanese
-    - ngtuna # Vietnamese
-    - raelga # Spanish
-    - remyleone # French
-    - rlenferink # Italian
-    - SataQiu # Chinese
-    - seokho-son # Korean
-    - truongnh1992 # Vietnamese
-    - xichengliudui # Chinese
-    - zacharysarah # English
-    - zhangxiaoyu-zidif # Chinese
-    privacy: closed
   sig-docs-maintainers:
     description: Website maintainers
     members:
@@ -260,8 +230,58 @@ teams:
     - xichengliudui
     - zhangxiaoyu-zidif
     privacy: closed
+  sig-docs-vi-owners:
+    description: Admins for Vietnamese content
+    members:
+    - ngtuna
+    - truongnh1992
+    privacy: closed
+  sig-docs-vi-reviews:
+    description: PR reviews for Vietnamese content
+    members:
+    - ngtuna
+    - truongnh1992
+    privacy: closed
+  website-admins:
+    description: Admin access to the website repo
+    previously:
+    - kubernetes-website-admins
+    members:
+    - Bradamant3
+    - jimangel
+    - zacharysarah
+    privacy: closed
+  website-maintainers:
+    description: Write access to the website repo
+    members:
+    - alexbrand # L10n: Spanish
+    - Bradamant3 # L10n: English
+    - ClaudiaJKang # L10n: Korean
+    - cstoku # L10n: Japanese
+    - femrtnz # L10n: Portuguese
+    - girikuncoro # L10n: Indonesian
+    - gochist # L10n: Korean
+    - hanjiayao # L10n: Chinese
+    - ianychoi # L10n: Korean
+    - irvifa # L10n: Indonesian
+    - jcjesus # L10n: Portuguese
+    - jimangel # L10n: English
+    - micheleberardi # L10n: Italian
+    - mittalyashu # L10n: Hindi
+    - nasa9084 # L10n: Japanese
+    - ngtuna # L10n: Vietnamese
+    - raelga # L10n: Spanish
+    - remyleone # L10n: French
+    - rlenferink # L10n: Italian
+    - SataQiu # L10n: Chinese
+    - seokho-son # L10n: Korean
+    - tnir # L10n: Japanese
+    - truongnh1992 # L10n: Vietnamese
+    - zacharysarah # L10n: English
+    - zhangxiaoyu-zidif # L10n: Chinese
+    privacy: closed
   website-milestone-maintainers:
-    description: Contributors who can use `/milestone` in the website repo.
+    description: Contributors who can use `/milestone` in the website repo
     members:
     - abuisine
     - alexbrand
@@ -316,15 +336,4 @@ teams:
     - zhangxiaoyu-zidif
     - zparnold
     privacy: closed
-  sig-docs-vi-owners:
-    description: Admins for Vietnamese content
-    members:
-    - ngtuna
-    - truongnh1992
-    privacy: closed
-  sig-docs-vi-reviews:
-    description: PR reviews for Vietnamese content
-    members:
-    - ngtuna
-    - truongnh1992
-    privacy: closed
+    

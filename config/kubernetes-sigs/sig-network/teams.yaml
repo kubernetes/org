@@ -16,12 +16,18 @@ teams:
   admins-external-dns:
     description: Admin access to the external-dns repo
     members:
+    - hjacobs
     - linki
+    - njuettner
+    - Raffo
     privacy: closed
   maintainers-external-dns:
     description: Write access to the external-dns repo
     members:
+    - hjacobs
     - linki
+    - njuettner
+    - Raffo
     privacy: closed
   admins-ingress-controller-conformance:
     description: Admin access to the ingress-controller-conformance repo

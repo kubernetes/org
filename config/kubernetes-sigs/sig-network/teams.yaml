@@ -35,3 +35,15 @@ teams:
     - bowei
     - thockin
     privacy: closed
+  service-apis-admins:
+    description: Admin access to the service-apis repo
+    members:
+    - bowei
+    - thockin
+    privacy: closed
+  service-apis-amintainers:
+    description: Write access to the service-apis repo
+    members:
+    - bowei
+    - thockin
+    privacy: closed

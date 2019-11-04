@@ -1,19 +1,23 @@
 teams:
-  admins-ip-masq-agent:
+  ip-masq-agent-admins:
     description: Admin access to the ip-masq-agent repo
     members:
     - bowei
     - dnardo
     - MrHohn
     privacy: closed
-  maintainers-ip-masq-agent:
+    previously:
+    - admins-ip-masq-agent
+  ip-masq-agent-maintainers:
     description: Write access to the ip-masq-agent repo
     members:
     - bowei
     - dnardo
     - MrHohn
     privacy: closed
-  admins-external-dns:
+    previously:
+    - maintainers-ip-masq-agent
+  external-dns-admins:
     description: Admin access to the external-dns repo
     members:
     - hjacobs
@@ -21,7 +25,9 @@ teams:
     - njuettner
     - Raffo
     privacy: closed
-  maintainers-external-dns:
+    previously:
+    - admins-external-dns
+  external-dns-maintainers:
     description: Write access to the external-dns repo
     members:
     - hjacobs
@@ -29,27 +35,35 @@ teams:
     - njuettner
     - Raffo
     privacy: closed
-  admins-ingress-controller-conformance:
+    previously:
+    - maintainers-external-dns
+  ingress-controller-conformance-admins:
     description: Admin access to the ingress-controller-conformance repo
     members:
     - bowei
     - thockin
     privacy: closed
-  maintainers-ingress-controller-conformance:
+    previously:
+    - admins-ingress-controller-conformance
+  ingress-controller-conformance-maintainers:
     description: Write access to the ingress-controller-conformance repo
     members:
     - bowei
     - thockin
     privacy: closed
+    previously:
+    - maintainers-ingress-controller-conformance
   service-apis-admins:
     description: Admin access to the service-apis repo
     members:
     - bowei
     - thockin
     privacy: closed
-  service-apis-amintainers:
+  service-apis-maintainers:
     description: Write access to the service-apis repo
     members:
     - bowei
     - thockin
     privacy: closed
+    previously:
+    - service-apis-amintainers

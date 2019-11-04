@@ -170,7 +170,7 @@ teams:
     - aleksandra-malinowska # subproject owner / Build Admin / Patch Release Team
     - alexeldeib # Release Manager Associate
     - bubblemelon # Branch Manager
-    - calebamiles # subproject owner / Build Admin
+    - calebamiles # subproject owner
     - cpanato # Branch Manager
     - dougm # Patch Release Team
     - feiskyer # Patch Release Team
@@ -179,13 +179,20 @@ teams:
     - idealhack # Patch Release Team
     - imkin # Release Manager Associate
     - javier-b-perez # Release Manager Associate
+    - jimangel # Release Manager Associate
     - justaugustus # subproject owner / Branch Manager / Build Admin
+    - kacole2 # Release Manager Associate
     - listx # Build Admin
+    - onlydole # Release Manager Associate
+    - paulbouwer # Release Manager Associate
     - ps882 # Build Admin
     - pswica # Release Manager Associate
+    - saschagrunert # Release Manager Associate
+    - sethmccombs # Release Manager Associate
     - slicknik # Release Manager Associate
     - sumitranr # Build Admin
     - tpepper # subproject owner / Build Admin / Patch Release Team
+    - xmudrii # Release Manager Associate
     privacy: closed
   release-managers:
     description: People actively pushing k8s releases. Gives admin access to

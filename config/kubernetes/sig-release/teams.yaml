@@ -202,6 +202,9 @@ teams:
     - idealhack # Patch Release Team
     - justaugustus # Branch Manager
     - k8s-release-robot
+    # TODO(justaugustus): Temporary assignment to shadow Branch Managers
+    #                     Remove after 11/5/19.
+    - saschagrunert # Release Manager Associate
     - tpepper # Patch Release Team
     privacy: closed
     previously:

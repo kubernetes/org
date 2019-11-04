@@ -16,17 +16,3 @@ teams:
     privacy: closed
     previously:
     - sig-azure
-  cloud-provider-azure-admins:
-    description: ""
-    members:
-    - feiskyer
-    - justaugustus
-    privacy: closed
-  cloud-provider-azure-maintainers:
-    description: ""
-    members:
-    - andyzhangx
-    - feiskyer
-    - justaugustus
-    - ritazh
-    privacy: closed

@@ -14,6 +14,7 @@ teams:
     - logicalhan
     - mxinden
     - piosz
+    - serathius
     - x13n
     - zouyee
     privacy: closed
@@ -32,6 +33,7 @@ teams:
     - logicalhan
     - mxinden
     - piosz
+    - serathius
     - x13n
     - zouyee
     privacy: closed
@@ -50,6 +52,7 @@ teams:
     - logicalhan
     - mxinden
     - piosz
+    - serathius
     - x13n
     privacy: closed
   sig-instrumentation-misc:
@@ -67,6 +70,7 @@ teams:
     - logicalhan
     - mxinden
     - piosz
+    - serathius
     - x13n
     privacy: closed
   sig-instrumentation-pr-reviews:
@@ -84,6 +88,7 @@ teams:
     - logicalhan
     - mxinden
     - piosz
+    - serathius
     - x13n
     - zouyee
     privacy: closed
@@ -102,6 +107,7 @@ teams:
     - logicalhan
     - mxinden
     - piosz
+    - serathius
     - x13n
     privacy: closed
   sig-instrumentation-test-failures:
@@ -119,5 +125,6 @@ teams:
     - logicalhan
     - mxinden
     - piosz
+    - serathius
     - x13n
     privacy: closed

@@ -1,4 +1,18 @@
 teams:
+  cloud-provider-azure-admins:
+    description: ""
+    members:
+    - feiskyer
+    - justaugustus
+    privacy: closed
+  cloud-provider-azure-maintainers:
+    description: ""
+    members:
+    - andyzhangx
+    - feiskyer
+    - justaugustus
+    - ritazh
+    privacy: closed
   cluster-api-provider-azure-admins:
     description: ""
     members:

@@ -531,22 +531,6 @@ teams:
     - riverzhang
     - woopstar
     privacy: closed
-  mutating-trace-admission-controller:
-    description: Parent team for mutating-trace-admission-controller repo (maintainers, admins)
-    members:
-    - calebamiles
-    privacy: closed
-    teams:
-      mutating-trace-admission-controller-admins:
-        description: Admin access to the mutating-trace-admission-controller repo
-        members:
-        - calebamiles
-        privacy: closed
-      mutating-trace-admission-controller-maintainers:
-        description: Write access to the mutating-trace-admission-controller repo
-        members:
-        - calebamiles
-        privacy: closed
   node-feature-discovery-admins:
     description: Admin access to the node-feature-discovery repo
     members:

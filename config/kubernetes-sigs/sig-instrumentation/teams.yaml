@@ -1,4 +1,16 @@
 teams:
+  metrics-server-admins:
+    description: Admin access to the metrics-server repo
+    members:
+    - brancz
+    - piosz
+    privacy: closed
+  metrics-server-maintainers:
+    description: Write access to the metrics-server repo
+    members:
+    - s-urbaniak
+    - serathius
+    privacy: closed
   mutating-trace-admission-controller:
     description: Parent team for mutating-trace-admission-controller repo (maintainers, admins)
     members:

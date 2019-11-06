@@ -361,6 +361,7 @@ teams:
     - kow3ns
     - mattfarina
     - prydonius
+    - janetkuo
     privacy: closed
   bots:
     description: Bot Service Accounts in the Kubernetes-SIGs org

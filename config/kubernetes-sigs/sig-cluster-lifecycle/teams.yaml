@@ -14,6 +14,16 @@ teams:
     - justinsb
     - stealthybox
     privacy: closed
+  bootkube-admins:
+    description: admin access to bootkube repo
+    members:
+    - aaronlevy
+    privacy: closed
+  bootkube-maintainers:
+    description: write access to bootkube repo
+    members:
+    - aaronlevy
+    privacy: closed
   cluster-api-admins:
     description: ""
     members:

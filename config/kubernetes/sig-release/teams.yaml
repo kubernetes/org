@@ -110,6 +110,7 @@ teams:
     - mszostok # Service Catalog
     - mwielgus # Autoscaling
     - neolit123 # Cluster Lifecycle
+    - oxddr # Scalability
     - palnabarun # 1.17 RT Enhancements shadow
     - parispittman # ContribEx
     - patricklang # Windows

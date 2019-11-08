@@ -12,6 +12,15 @@ teams:
     - sumitranr
     - tpepper
     privacy: closed
+  ci-signal:
+    description: Members of the CI Signal team for the current release cycle.
+    members:
+      - alenkacz # 1.17 CI Signal Lead
+      - droslean # 1.17 CI Signal shadow
+      - epk # 1.17 CI Signal shadow
+      - hasheddan # 1.17 CI Signal shadow
+      - verolop # 1.17 CI Signal shadow
+    privacy: closed
   licensing:
     description: Members of the Licensing subproject.
     maintainers:

@@ -27,3 +27,19 @@ teams:
    - fredkan
    - xianlubird
    privacy: closed
+  aws-iam-authenticator-admins:
+   description: Admin access to the aws-iam-authenticator repo
+   members:
+   - m00nf1sh
+   - micahhausler
+   - nckturner
+   - wongma7
+   privacy: closed
+  aws-iam-authenticator-maintainers:
+   description: Write access to the aws-iam-authenticator repo
+   members:
+   - m00nf1sh
+   - micahhausler
+   - nckturner
+   - wongma7
+   privacy: closed

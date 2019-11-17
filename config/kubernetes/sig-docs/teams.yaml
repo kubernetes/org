@@ -188,6 +188,7 @@ teams:
     - seokho-son # Korean
     - tnir # Japanese
     - truongnh1992 # Vietnamese
+    - xichengliudui # Chinese
     - zacharysarah # English
     - zhangxiaoyu-zidif # Chinese
     privacy: closed
@@ -245,6 +246,7 @@ teams:
     - SataQiu
     - tengqm
     - xiangpengzhao
+    - xichengliudui
     - zhangxiaoyu-zidif
     privacy: closed
   sig-docs-zh-reviews:
@@ -256,6 +258,7 @@ teams:
     - SataQiu
     - tengqm
     - xiangpengzhao
+    - xichengliudui
     - zhangxiaoyu-zidif
     privacy: closed
   website-milestone-maintainers:
@@ -308,6 +311,7 @@ teams:
     - tnir
     - truongnh1992
     - xiangpengzhao
+    - xichengliudui
     - yastij
     - zacharysarah
     - zhangxiaoyu-zidif

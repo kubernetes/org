@@ -129,22 +129,21 @@ teams:
     - rlenferink
     privacy: closed
   sig-docs-ja-owners:
-     description: Approvers for Japanese content
-     members:
-     - cstoku
-     - makocchi-git
-     - MasayaAoyama
-     - nasa9084
-     - tnir
-     privacy: closed
+    description: Approvers for Japanese content
+    members:
+    - cstoku
+    - inductor
+    - nasa9084
+    privacy: closed
   sig-docs-ja-reviews:
     description: PR reviews for Japanese content
     members:
     - cstoku
+    - inductor
     - makocchi-git
     - MasayaAoyama
     - nasa9084
-    - tnir
+    - oke-py
     privacy: closed
   sig-docs-ko-owners:
     description: Approvers for Korean content
@@ -174,6 +173,7 @@ teams:
     - gochist # Korean
     - hanjiayao # Chinese
     - ianychoi # Korean
+    - inductor # Japanese
     - irvifa # Indonesian
     - jaredbhatti # English
     - jcjesus # Portuguese
@@ -186,7 +186,6 @@ teams:
     - rlenferink # Italian
     - SataQiu # Chinese
     - seokho-son # Korean
-    - tnir # Japanese
     - truongnh1992 # Vietnamese
     - xichengliudui # Chinese
     - zacharysarah # English
@@ -279,6 +278,7 @@ teams:
     - girikuncoro
     - gochist
     - hanjiayao
+    - inductor
     - irvifa
     - jaredbhatti
     - jcjesus
@@ -308,7 +308,6 @@ teams:
     - stewart-yu
     - tengqm
     - tfogo
-    - tnir
     - truongnh1992
     - xiangpengzhao
     - xichengliudui

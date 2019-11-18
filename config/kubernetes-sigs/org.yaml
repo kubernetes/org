@@ -442,13 +442,15 @@ teams:
     - k82cn
     - ravisantoshgudimetla
     privacy: closed
-  descehduler-maintainers:
+  descheduler-maintainers:
     description: Write access to the descheduler repo
     members:
     - aveshagarwal
     - k82cn
     - ravisantoshgudimetla
     privacy: closed
+    previously:
+    - descehduler-maintainers
   etcdadm-admins:
     description: Admin access to the etcdadm repo
     members:

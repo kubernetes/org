@@ -1734,13 +1734,6 @@ teams:
     - lavalamp
     - sttts
     privacy: closed
-  kubernetes-website-admins:
-    description: Admin access to the website repo
-    members:
-    - Bradamant3
-    - jimangel
-    - zacharysarah
-    privacy: closed
   maintainer-test-exemptions:
     description: Maintainers who for whatever random reason should not own tests.
     maintainers:

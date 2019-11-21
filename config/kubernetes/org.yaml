@@ -1539,10 +1539,13 @@ teams:
     members:
     - chrislovecnm
     - geojaz
+    - granular-ryanbonham
     - justinsb
     - kris-nova
     - mikedanese
     - mikesplain
+    - rdrgmnzs
+    - rifelpet
     - yissachar
     privacy: closed
   kube-deploy-admins:

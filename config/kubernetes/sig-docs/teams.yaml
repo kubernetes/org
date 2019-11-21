@@ -161,6 +161,22 @@ teams:
     - ianychoi
     - seokho-son
     privacy: closed
+  sig-docs-ru-owners:
+    description: Approvers for Russian content
+    members:
+    - aisonaku
+    - dianaabv
+    - msheldyakov
+    - potapy4
+    privacy: closed
+  sig-docs-ru-reviews:
+    description: Reviews for Russian docs PRs
+    members:
+    - aisonaku
+    - dianaabv
+    - msheldyakov
+    - potapy4
+    privacy: closed
   sig-docs-maintainers:
     description: Website maintainers
     members:
@@ -254,10 +270,12 @@ teams:
   website-maintainers:
     description: Write access to the website repo
     members:
+    - aisonaku # L10n: Russian
     - alexbrand # L10n: Spanish
     - Bradamant3 # L10n: English
     - ClaudiaJKang # L10n: Korean
     - cstoku # L10n: Japanese
+    - dianaabv # L10n: Russian
     - femrtnz # L10n: Portuguese
     - girikuncoro # L10n: Indonesian
     - gochist # L10n: Korean
@@ -268,8 +286,10 @@ teams:
     - jimangel # L10n: English
     - micheleberardi # L10n: Italian
     - mittalyashu # L10n: Hindi
+    - msheldyakov # L10n: Russian
     - nasa9084 # L10n: Japanese
     - ngtuna # L10n: Vietnamese
+    - potapy4 # L10n: Russian
     - raelga # L10n: Spanish
     - remyleone # L10n: French
     - rlenferink # L10n: Italian
@@ -284,6 +304,7 @@ teams:
     description: Contributors who can use `/milestone` in the website repo
     members:
     - abuisine
+    - aisonaku
     - alexbrand
     - awkif
     - bene2k1
@@ -294,6 +315,7 @@ teams:
     - cody-clark
     - cstoku
     - daminisatya
+    - dianaabv
     - femrtnz
     - girikuncoro
     - gochist
@@ -310,10 +332,12 @@ teams:
     - MAKOSCAFEE
     - micheleberardi
     - mistyhacks
+    - msheldyakov
     - nasa9084
     - ngtuna
     - oussemos
     - perriea
+    - potapy4
     - raelga
     - Rajakavitha1
     - rbenzair

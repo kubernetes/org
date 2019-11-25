@@ -160,6 +160,7 @@ teams:
     - feiskyer
     - hoegaarden
     - idealhack
+    - justaugustus
     - tpepper
     privacy: closed
   publishing-bot-reviewers:
@@ -185,7 +186,7 @@ teams:
     - hoegaarden # subproject owner / Patch Release Team
     - idealhack # Patch Release Team
     - jimangel # Release Manager Associate
-    - justaugustus # subproject owner / Branch Manager / Build Admin
+    - justaugustus # subproject owner / Build Admin / Patch Release Team
     - kacole2 # Release Manager Associate
     - listx # Build Admin
     - onlydole # Release Manager Associate

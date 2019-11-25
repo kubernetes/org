@@ -175,8 +175,6 @@ teams:
   release-engineering:
     description: Members of the Release Engineering subproject, including Build Admins,
       Patch Release Team, Branch Managers, and Release Manager Associates.
-    maintainers:
-    - nikhita # Release Manager Associate
     members:
     - aleksandra-malinowska # subproject owner / Build Admin / Patch Release Team
     - alexeldeib # Release Manager Associate
@@ -184,11 +182,8 @@ teams:
     - cpanato # Branch Manager
     - dougm # Patch Release Team
     - feiskyer # Patch Release Team
-    - girikuncoro # Release Manager Associate
     - hoegaarden # subproject owner / Patch Release Team
     - idealhack # Patch Release Team
-    - imkin # Release Manager Associate
-    - javier-b-perez # Release Manager Associate
     - jimangel # Release Manager Associate
     - justaugustus # subproject owner / Branch Manager / Build Admin
     - kacole2 # Release Manager Associate
@@ -196,10 +191,8 @@ teams:
     - onlydole # Release Manager Associate
     - paulbouwer # Release Manager Associate
     - ps882 # Build Admin
-    - pswica # Release Manager Associate
     - saschagrunert # Branch Manager
     - sethmccombs # Release Manager Associate
-    - slicknik # Release Manager Associate
     - sumitranr # Build Admin
     - tpepper # subproject owner / Build Admin / Patch Release Team
     - xmudrii # Release Manager Associate

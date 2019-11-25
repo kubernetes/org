@@ -132,6 +132,7 @@ teams:
     - RainbowMango # Instrumentation
     - rajakavitha1 # Usability
     - saad-ali # Storage
+    - saschagrunert # Branch Manager
     - seans3 # CLI
     - shyamjvs # Scalability
     - smourapina # 1.17 Bug Triage shadow
@@ -198,7 +199,7 @@ teams:
     - paulbouwer # Release Manager Associate
     - ps882 # Build Admin
     - pswica # Release Manager Associate
-    - saschagrunert # Release Manager Associate
+    - saschagrunert # Branch Manager
     - sethmccombs # Release Manager Associate
     - slicknik # Release Manager Associate
     - sumitranr # Build Admin
@@ -220,6 +221,7 @@ teams:
     - idealhack # Patch Release Team
     - justaugustus # Branch Manager
     - k8s-release-robot
+    - saschagrunert # Branch Manager
     - tpepper # Patch Release Team
     privacy: closed
     previously:

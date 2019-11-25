@@ -53,7 +53,6 @@ teams:
     - bgrant0607 # Architecture
     - bradamant3 # Docs
     - brancz # Instrumentation
-    - bubblemelon # Branch Manager
     - calebamiles # Release / PM
     - cantbewong # VMware
     - caseydavenport # Network
@@ -181,7 +180,6 @@ teams:
     members:
     - aleksandra-malinowska # subproject owner / Build Admin / Patch Release Team
     - alexeldeib # Release Manager Associate
-    - bubblemelon # Branch Manager
     - calebamiles # subproject owner
     - cpanato # Branch Manager
     - dougm # Patch Release Team
@@ -213,7 +211,6 @@ teams:
       this job.
     members:
     - aleksandra-malinowska # Patch Release Team
-    - bubblemelon # Branch Manager
     - cpanato # Branch Manager
     - dougm # Patch Release Team
     - feiskyer # Patch Release Team
@@ -235,7 +232,7 @@ teams:
     - aishsundar # subproject owner
     - alejandrox1 # 1.17 RT Lead Shadow
     - alenkacz # 1.17 CI Signal Lead
-    - bubblemelon # Branch Manager
+    - bubblemelon # Emeritus Branch Manager
     - cartyc # 1.17 Release Notes Lead
     - claurence # subproject owner
     - cpanato # Branch Manager

@@ -33,21 +33,16 @@ teams:
     description: admin access to krew
     members:
     - ahmetb
-    - juanvallejo
+    - corneliusweig
+    - pwittrock
     - seans3
     - soltysh
     privacy: closed
   krew-maintainers:
     description: write access to krew
     members:
-    - adohe
     - ahmetb
     - corneliusweig
-    - fabianofranz
-    - janetkuo
-    - liggitt
-    - mengqiy
-    - monopole
     - pwittrock
     - seans3
     - soltysh
@@ -56,20 +51,16 @@ teams:
     description: admin access to krew-index
     members:
     - ahmetb
-    - juanvallejo
+    - corneliusweig
+    - pwittrock
     - seans3
     - soltysh
     privacy: closed
   krew-index-maintainers:
     description: write access to krew-index
     members:
-    - adohe
     - ahmetb
-    - fabianofranz
-    - janetkuo
-    - liggitt
-    - mengqiy
-    - monopole
+    - corneliusweig
     - pwittrock
     - seans3
     - soltysh

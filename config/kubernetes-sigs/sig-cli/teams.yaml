@@ -69,16 +69,13 @@ teams:
     description: ""
     members:
     - droot
+    - Liujingfang1
     - monopole
-    - pwittrock
-    privacy: closed
-  kustomize-contributors:
-    description: ""
-    members:
     - pwittrock
     privacy: closed
   kustomize-maintainers:
     description: ""
     members:
+    - haiyanmeng
     - pwittrock
     privacy: closed

@@ -441,22 +441,6 @@ teams:
     - jeefy
     - maciaszczykm
     privacy: closed
-  descheduler-admins:
-    description: Admin access to the descheduler repo
-    members:
-    - aveshagarwal
-    - k82cn
-    - ravisantoshgudimetla
-    privacy: closed
-  descheduler-maintainers:
-    description: Write access to the descheduler repo
-    members:
-    - aveshagarwal
-    - k82cn
-    - ravisantoshgudimetla
-    privacy: closed
-    previously:
-    - descehduler-maintainers
   etcdadm-admins:
     description: Admin access to the etcdadm repo
     members:
@@ -492,24 +476,6 @@ teams:
     members:
     - BenTheElder
     - munnerz
-    privacy: closed
-  kube-batch-admins:
-    description: Admin access to the kube-batch repo
-    maintainers:
-    - spiffxp
-    members:
-    - calebamiles
-    - k82cn
-    - timothysc
-    privacy: closed
-  kube-batch-maintainers:
-    description: Write access to the kube-batch repo
-    maintainers:
-    - spiffxp
-    members:
-    - calebamiles
-    - k82cn
-    - timothysc
     privacy: closed
   kubernetes/sig-apps:
     description: Parent team for all SIG Apps subteams (approvers, reviewers, admins)

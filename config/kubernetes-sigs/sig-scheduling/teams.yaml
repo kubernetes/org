@@ -1,0 +1,41 @@
+teams:
+  descheduler-admins:
+    description: Admin access to the descheduler repo
+    members:
+    - aveshagarwal
+    - k82cn
+    - ravisantoshgudimetla
+    privacy: closed
+  descheduler-maintainers:
+    description: Write access to the descheduler repo
+    members:
+    - aveshagarwal
+    - k82cn
+    - ravisantoshgudimetla
+    privacy: closed
+    previously:
+    - descehduler-maintainers
+  kube-batch-admins:
+    description: Admin access to the kube-batch repo
+    members:
+    - k82cn
+    privacy: closed
+  kube-batch-maintainers:
+    description: Write access to the kube-batch repo
+    members:
+    - k82cn
+    privacy: closed
+  poseidon-admins:
+    description: Admin access to the poseidon repo
+    members:
+    - ahg-g
+    - deepak-vij
+    - k82cn
+    privacy: closed
+  poseidon-maintainers:
+    description: Write access to the poseidon repo
+    members:
+    - ahg-g
+    - deepak-vij
+    - k82cn
+    privacy: closed

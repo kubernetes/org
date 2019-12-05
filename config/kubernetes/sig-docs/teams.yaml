@@ -249,12 +249,14 @@ teams:
   sig-docs-vi-owners:
     description: Admins for Vietnamese content
     members:
+    - huynguyennovem
     - ngtuna
     - truongnh1992
     privacy: closed
   sig-docs-vi-reviews:
     description: PR reviews for Vietnamese content
     members:
+    - huynguyennovem
     - ngtuna
     - truongnh1992
     privacy: closed
@@ -280,6 +282,7 @@ teams:
     - girikuncoro # L10n: Indonesian
     - gochist # L10n: Korean
     - hanjiayao # L10n: Chinese
+    - huynguyennovem # L10n: Vietnamese
     - ianychoi # L10n: Korean
     - inductor # L10n: Japanese
     - irvifa # L10n: Indonesian
@@ -320,6 +323,7 @@ teams:
     - girikuncoro
     - gochist
     - hanjiayao
+    - huynguyennovem
     - inductor
     - irvifa
     - jaredbhatti

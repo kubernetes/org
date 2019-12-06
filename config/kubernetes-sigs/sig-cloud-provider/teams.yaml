@@ -43,3 +43,23 @@ teams:
    - nckturner
    - wongma7
    privacy: closed
+  blobfuse-csi-driver-admins:
+   description: Admin access to the blobfuse-csi-driver repo
+   members:
+   - andyzhangx
+   - brendandburns
+   - feiskyer
+   - justaugustus
+   - khenidak
+   - lachie83
+   privacy: closed
+  blobfuse-csi-driver-maintainers:
+   description: Write access to the blobfuse-csi-driver repo
+   members:
+   - andyzhangx
+   - brendandburns
+   - feiskyer
+   - justaugustus
+   - khenidak
+   - lachie83
+   privacy: closed

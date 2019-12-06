@@ -230,6 +230,7 @@ teams:
     description: Write access to csi-test repo
     members:
     - childsb
+    - pohly
     - saad-ali
     - sbezverk
     privacy: closed

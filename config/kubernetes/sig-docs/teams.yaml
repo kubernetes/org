@@ -119,7 +119,6 @@ teams:
     description: Approvers for Italian content
     members:
     - mattiaperi
-    - micheleberardi
     - rlenferink
   sig-docs-it-reviews:
     description: PR reviews for Italian content
@@ -289,7 +288,6 @@ teams:
     - irvifa # L10n: Indonesian
     - jcjesus # L10n: Portuguese
     - jimangel # L10n: English
-    - micheleberardi # L10n: Italian
     - mittalyashu # L10n: Hindi
     - msheldyakov # L10n: Russian
     - nasa9084 # L10n: Japanese
@@ -314,9 +312,7 @@ teams:
     - bene2k1
     - bradamant3
     - bradtopol
-    - chenopis
     - claudiajkang
-    - cody-clark
     - cstoku
     - daminisatya
     - dianaabv
@@ -335,8 +331,6 @@ teams:
     - kbarnard10
     - lledru
     - MAKOSCAFEE
-    - micheleberardi
-    - mistyhacks
     - msheldyakov
     - nasa9084
     - ngtuna

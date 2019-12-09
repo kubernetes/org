@@ -175,17 +175,6 @@ teams:
     - msheldyakov
     - potapy4
     privacy: closed
-  sig-docs-maintainers:
-    description: Website maintainers
-    members:
-    - bradamant3
-    - jimangel
-    - kbarnard10
-    - pwittrock
-    - steveperry-53
-    - zacharysarah
-    - zparnold
-    privacy: closed
   sig-docs-pr-reviews:
     description: PR reviews for docs-related issues
     members:

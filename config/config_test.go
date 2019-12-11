@@ -228,10 +228,6 @@ func TestAllOrgs(t *testing.T) {
 			t.Errorf("k8s-ci-robot must be an admin")
 		}
 
-		if org.BillingEmail != nil {
-			t.Errorf("billing_email must be unset")
-		}
-
 		if err := testDuplicates(admins); err != nil {
 			t.Errorf("duplicate admins: %v", err)
 		}

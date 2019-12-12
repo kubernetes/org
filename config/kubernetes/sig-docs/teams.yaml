@@ -117,11 +117,13 @@ teams:
   sig-docs-it-owners:
     description: Approvers for Italian content
     members:
+    - fabriziopandini
     - mattiaperi
     - rlenferink
   sig-docs-it-reviews:
     description: PR reviews for Italian content
     members:
+    - fabriziopandini
     - mattiaperi
     - micheleberardi
     - rlenferink

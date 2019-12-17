@@ -334,6 +334,7 @@ teams:
     - childsb
     - lpabon
     - saad-ali
+    - xing-yang
     privacy: closed
   external-snapshotter-maintainers:
     description: Write access to external-snapshotter repo

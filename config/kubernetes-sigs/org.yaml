@@ -427,6 +427,7 @@ teams:
     - feiskyer
     - mrunalp
     - Random-Liu
+    - saschagrunert
     - yujuhong
     privacy: closed
   cri-tools-maintainers:
@@ -435,6 +436,7 @@ teams:
     - feiskyer
     - mrunalp
     - Random-Liu
+    - saschagrunert
     - yujuhong
     privacy: closed
   dashboard-metrics-scraper-admins:

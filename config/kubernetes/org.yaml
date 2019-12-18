@@ -1300,7 +1300,7 @@ teams:
     - mhenc
     - olekzabl
     - pewu
-    - rf232
+    - shu-mutou
     privacy: closed
   dep-approvers:
     description: People who can approve dependency changes in kubernetes/kubernetes

@@ -299,14 +299,6 @@ teams:
     - davidopp
     - philips
     privacy: closed
-  admins-rktlet:
-    description: Admin access to the rktlet repo
-    members:
-    - calebamiles
-    - dchen1107
-    - euank
-    - yifan-gu
-    privacy: closed
   design-reviewer-kube-arbitrator:
     description: The design reviewer of kube-arbitrator
     members:
@@ -466,14 +458,6 @@ teams:
     - flyingcougar
     - marquiz
     - philips
-    privacy: closed
-  maintainers-rktlet:
-    description: Write access to the rktlet repo
-    members:
-    - calebamiles
-    - dchen1107
-    - euank
-    - yifan-gu
     privacy: closed
   temporary-admin-transfers:
     description: For transferring repos into incubator.

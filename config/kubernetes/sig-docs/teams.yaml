@@ -177,6 +177,18 @@ teams:
     - seokho-son
     - ysyukr
     privacy: closed
+  sig-docs-pl-owners:
+    description: Approvers for Polish content
+    members:
+    - mfilocha
+    - nvtkaszpir
+    privacy: closed
+  sig-docs-pl-reviews:
+    description: Reviews for Polish docs PRs
+    members:
+    - mfilocha
+    - nvtkaszpir
+    privacy: closed
   sig-docs-ru-owners:
     description: Approvers for Russian content
     members:
@@ -292,10 +304,12 @@ teams:
     - jcjesus # L10n: Portuguese
     - jimangel # L10n: English
     - kbarnard10 # L10n: English
+    - mfilocha # L10n: Polish
     - mittalyashu # L10n: Hindi
     - msheldyakov # L10n: Russian
     - nasa9084 # L10n: Japanese
     - ngtuna # L10n: Vietnamese
+    - nvtkaszpir # L10n: Polish
     - potapy4 # L10n: Russian
     - raelga # L10n: Spanish
     - remyleone # L10n: French

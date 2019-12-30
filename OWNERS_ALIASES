@@ -1,6 +1,8 @@
 aliases:
   sig-api-machinery-leads:
     - deads2k
+    - fedebongio
+    - deads2k
     - lavalamp
   sig-apps-leads:
     - janetkuo
@@ -30,7 +32,9 @@ aliases:
     - cheftako
   sig-cluster-lifecycle-leads:
     - justinsb
+    - neolit123
     - timothysc
+    - fabriziopandini
   sig-contributor-experience-leads:
     - Phillels
     - parispittman
@@ -63,6 +67,7 @@ aliases:
     - justaugustus
     - tpepper
   sig-scalability-leads:
+    - mm4tt
     - shyamjvs
     - wojtek-t
   sig-scheduling-leads:
@@ -78,7 +83,6 @@ aliases:
     - fejta
     - spiffxp
     - stevekuznetsov
-    - timothysc
   sig-ui-leads:
     - danielromlein
     - floreks
@@ -106,6 +110,7 @@ aliases:
     - dejanb
     - ptone
   wg-k8s-infra-leads:
+    - bartsmykla
     - dims
     - spiffxp
   wg-lts-leads:
@@ -143,16 +148,17 @@ aliases:
     - cantbewong
     - mylesagray
   committee-code-of-conduct:
+    - AevaOnline
     - Bradamant3
     - carolynvs
-    - eparis
     - jdumars
-    - parispittman
+    - tashimi
   committee-product-security:
     - cjcullen
     - joelsmith
     - jonpulsifer
     - liggitt
+    - lukehinds
     - philips
     - tallclair
   committee-steering:
@@ -180,7 +186,7 @@ aliases:
   provider-openstack:
     - adisky
     - chrigl
-    - lingxiankong
+    - hogepodge
   provider-vmware:
     - cantbewong
     - frapposelli

@@ -6,15 +6,11 @@ teams:
     - idvoretskyi
     - nikhita
     members:
-    - bgrant0607
     - calebamiles
     - castrojo
-    - grodrigues3
     - jdumars
     - parispittman
     - Phillels
-    - sarahnovotny
-    - thockin
     privacy: closed
   community-maintainers:
     description: ""
@@ -24,7 +20,6 @@ teams:
     members:
     - parispittman
     - Phillels
-    - thockin
     privacy: closed
   community-milestone-maintainers:
     description: Contributors who can use `/milestone` in the community repo. Defined by an entry in an OWNERS file for a contribex subproject.
@@ -50,42 +45,7 @@ teams:
     - Phillels
     - tpepper
     privacy: closed
-  sig-contributor-experience-apac-coordinators:
-    description: Contributor Experience APAC Coordinator team
-    maintainers:
-    - nikhita
-    members:
-    - alisondy
-    - aravindputrevu
-    - idealhack
-    - Pensu
-    - saiyam1814
-    - tao12345666333
-    privacy: closed
-  sig-contributor-experience-bugs:
-    description: Bugs relating to contributor-experience infrastructure, such as the
-      PR bot, etc.
-    maintainers:
-    - cblecker
-    - nikhita
-    members:
-    - grodrigues3
-    - idealhack
-    - rmmh
-    privacy: closed
-  sig-contributor-experience-feature-requests:
-    description: Requests for features in contributor-experience infrastructure, such
-      as the PR bot, etc.
-    maintainers:
-    - cblecker
-    - idvoretskyi
-    - nikhita
-    members:
-    - grodrigues3
-    - idealhack
-    - rmmh
-    privacy: closed
-  sig-contributor-experience-misc-use-only-as-a-last-resort:
+  sig-contributor-experience:
     description: Improve contributor productivity
     maintainers:
     - cblecker
@@ -109,38 +69,40 @@ teams:
     - thockin
     - xiang90
     privacy: closed
-  sig-contributor-experience-pr-reviews:
-    description: PR reviews for contributor-experience infrastructure, such as the
-      PR bot, etc.
-    maintainers:
-    - cblecker
-    - idvoretskyi
-    - nikhita
-    members:
-    - grodrigues3
-    - idealhack
-    - rmmh
-    privacy: closed
-  sig-contributor-experience-proposals:
-    description: Design proposals for new contributor-experience infrastructure, such
-      as bots, monitoring dashboards, portals, etc.
-    maintainers:
-    - cblecker
-    - nikhita
-    members:
-    - grodrigues3
-    - idealhack
-    privacy: closed
-  sig-contributor-experience-test-failures:
-    description: List to triage test failures for contributor-experience infrastructure,
-      such as the PR bot, etc.
-    maintainers:
-    - cblecker
-    - nikhita
-    members:
-    - grodrigues3
-    - idealhack
-    privacy: closed
+    previously:
+      - sig-contributor-experience-misc-use-only-as-a-last-resort
+    teams:
+      sig-contributor-experience-apac-coordinators:
+        description: Contributor Experience APAC Coordinator team
+        maintainers:
+        - nikhita
+        members:
+        - alisondy
+        - aravindputrevu
+        - idealhack
+        - Pensu
+        - saiyam1814
+        - tao12345666333
+        privacy: closed
+      sig-contributor-experience-leads:
+        description: Chairs and Technical Leads for SIG Contributor Experience
+        maintainers:
+        - cblecker
+        - nikhita
+        members:
+        - parispittman
+        - Phillels
+        privacy: closed
+      sig-contributor-experience-pr-reviews:
+        description: PR reviews for contributor-experience infrastructure, such as the
+          PR bot, etc.
+        maintainers:
+        - cblecker
+        - idvoretskyi
+        - nikhita
+        members:
+        - idealhack
+        privacy: closed
   youtube-admins:
     description: Members who have admin access to the Kubernetes Community
       YouTube channel.

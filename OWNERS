@@ -18,4 +18,4 @@ emeritus_approvers:
   - calebamiles
 
 labels:
-  - sig/contributor-experience
+  - area/github-management

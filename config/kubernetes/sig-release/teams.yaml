@@ -37,14 +37,14 @@ teams:
     maintainers:
     - cblecker # ContribEx
     - fejta # Testing
-    - mrbobbytables # 1.17 Enhancements Lead
+    - mrbobbytables # 1.18 RT Lead Shadow
     - nikhita # ContribEx
     - spiffxp # Testing
     members:
     - abgworrall # GCP
     - adisky # OpenStack
     - ahg-g # Scheduling
-    - alejandrox1 # 1.17 RT Lead Shadow
+    - alejandrox1 # 1.18 RT Lead
     - aleksandra-malinowska # Patch Release Team
     - alenkacz # 1.17 RT CI Signal lead
     - andrewsykim # Cloud Provider
@@ -62,7 +62,7 @@ teams:
     - cpanato # Branch Manager
     - craiglpeters # Azure
     - d-nishi # AWS
-    - daminisatya #1.17 Docs Lead
+    - daminisatya # 1.18 RT Lead Shadow
     - danielromlein # UI
     - dcbw # Network
     - dchen1107 # Node
@@ -220,17 +220,17 @@ teams:
   release-team:
     description: Members of the current Release Team and subproject owners.
     maintainers:
-    - mrbobbytables # 1.17 Enhancements Lead
+    - mrbobbytables # 1.18 RT Lead Shadow
     - spiffxp # subproject owner
     members:
     - aishsundar # subproject owner
-    - alejandrox1 # 1.17 RT Lead Shadow
+    - alejandrox1 # 1.18 RT Lead
     - alenkacz # 1.17 CI Signal Lead
     - bubblemelon # Emeritus Branch Manager
     - cartyc # 1.17 Release Notes Lead
     - claurence # subproject owner
     - cpanato # Branch Manager
-    - daminisatya # 1.17 Docs Lead
+    - daminisatya # 1.18 RT Lead Shadow
     - evillgenius75 # 1.17 Release Notes Shadow
     - guineveresaenger # 1.17 RT Lead
     - idealhack # Branch Manager
@@ -258,11 +258,11 @@ teams:
            Grants write access to kubernetes/kubernetes, kubernetes/release, and kubernetes/sig-release,
            and can be used as a notification group.
           Remove org members who are not current Release Team Leads.
+        maintainers:
+        - mrbobbytables # 1.18 RT Lead Shadow
         members:
-        - alejandrox1 # 1.17 RT Lead Shadow
-        - guineveresaenger # 1.17 RT Lead
-        - jeefy # 1.17 RT Lead Shadow
-        - mariantalla # 1.17 RT Lead Shadow
+        - alejandrox1 # 1.18 RT Lead
+        - daminisatya # 1.18 RT Lead Shadow
         privacy: closed
   sig-release:
     description: SIG Release Members

@@ -160,6 +160,7 @@ teams:
     - gochist
     - ianychoi
     - seokho-son
+    - ysyukr
     privacy: closed
   sig-docs-ru-owners:
     description: Approvers for Russian content

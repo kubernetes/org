@@ -79,6 +79,7 @@ teams:
     - frapposelli # VMware
     - guineveresaenger # 1.17 Release Lead
     - hasheddan # 1.17 CI Signal Shadow
+    - helayoty # 1.18 RT Enhancemments Shadow
     - hoegaarden # Patch Release Team
     - hpandeycodeit # Usability
     - idealhack # Patch Release Team
@@ -87,8 +88,9 @@ teams:
     - jberkus # Release
     - jdumars # Architecture / PM
     - jeefy # UI
-    - jeremyrickard # 1.17 RT Enhancements shadow
+    - jeremyrickard # 1.18 RT Enhancements Lead
     - jimangel # Docs
+    - johnbelamaric # 1.18 RT Enhancements Shadow
     - josiahbjorgaard # 1.17 Bug Triage Lead
     - justaugustus # Azure / PM / Release
     - justinsb # AWS / Cluster Lifecycle
@@ -96,7 +98,7 @@ teams:
     - k8s-release-robot # Release
     - kcmartin # 1.17 RT Enhancements shadow
     - khenidak # Azure
-    - kikisdeliveryservice # 1.17 Bug Triage Shadow
+    - kikisdeliveryservice # 1.18 RT Enhancements Shadow
     - kow3ns # Apps
     - kris-nova # AWS
     - lachie83 # PM
@@ -117,7 +119,7 @@ teams:
     - mwielgus # Autoscaling
     - neolit123 # Cluster Lifecycle
     - oxddr # Scalability
-    - palnabarun # 1.17 RT Enhancements shadow
+    - palnabarun # 1.18 RT Enhancements shadow
     - parispittman # ContribEx
     - patricklang # Windows
     - phillels # ContribEx

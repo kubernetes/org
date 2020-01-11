@@ -17,6 +17,8 @@ teams:
     members:
       - droslean # 1.18 CI Signal Lead
       - hasheddan # 1.18 CI Signal shadow
+      - hrishin # 1.18 CI Signal shadow
+      - jpreese # 1.18 CI Signal shadow
       - prksu # 1.18 CI Signal shadow
     privacy: closed
   licensing:

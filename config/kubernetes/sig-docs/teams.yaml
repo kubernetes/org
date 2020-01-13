@@ -18,21 +18,20 @@ teams:
     members:
     - bradamant3
     - bradtopol
-    - chenopis
-    - cody-clark
+    - daminisatya
     - gochist
     - jaredbhatti
     - jimangel
     - kbarnard10
     - kbhawkey
     - makoscafee
-    - mistyhacks
     - Rajakavitha1
     - ryanmcginnis
+    - sftim
     - simplytunde
     - steveperry-53
     - stewart-yu
-    - tfogo
+    - tengqm
     - xiangpengzhao
     - zacharysarah
     - zparnold
@@ -40,9 +39,25 @@ teams:
   sig-docs-en-reviews:
     description: PR reviews for English content
     members:
+    - bradamant3
+    - bradtopol
+    - daminisatya
+    - gochist
+    - jaredbhatti
+    - jimangel
+    - kbarnard10
+    - kbhawkey
+    - makoscafee
     - Rajakavitha1
+    - ryanmcginnis
     - sftim
+    - simplytunde
+    - steveperry-53
     - stewart-yu
+    - tengqm
+    - xiangpengzhao
+    - zacharysarah
+    - zparnold
     privacy: closed
   sig-docs-es-owners:
     description: Approvers for Spanish content
@@ -218,6 +233,7 @@ teams:
     members:
     - hanjiayao
     - SataQiu
+    - tengqm
     - xiangpengzhao
     - xichengliudui
     - zhangxiaoyu-zidif
@@ -341,6 +357,7 @@ teams:
     - smana
     - steveperry-53
     - stewart-yu
+    - tengqm
     - tfogo
     - truongnh1992
     - vineethreddy02

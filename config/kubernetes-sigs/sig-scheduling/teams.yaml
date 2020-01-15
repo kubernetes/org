@@ -1,4 +1,14 @@
 teams:
+  cluster-capacity-admins:
+    description: Admin access to the cluster-capacity repo
+    members:
+    - ingvagabund
+    privacy: closed
+  cluster-capacity-maintainers:
+    description: Write access to the cluster-capacity repo
+    members:
+    - ingvagabund
+    privacy: closed
   descheduler-admins:
     description: Admin access to the descheduler repo
     members:

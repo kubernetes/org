@@ -189,14 +189,6 @@ teams:
     - aaronlevy
     - philips
     privacy: closed
-  admin-cluster-capacity:
-    description: Admin access to the cluster-capacity repo
-    members:
-    - aveshagarwal
-    - hodovska
-    - ingvagabund
-    - sarahnovotny
-    privacy: closed
   admin-custom-metrics-apiserver:
     description: Admin access to the custom-metrics-apiserver repo
     members:

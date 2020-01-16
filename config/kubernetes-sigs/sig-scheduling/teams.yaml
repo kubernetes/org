@@ -49,3 +49,15 @@ teams:
     - deepak-vij
     - k82cn
     privacy: closed
+  scheduler-plugins-admins:
+    description: Admin access to the scheduler-plugins repo
+    members:
+    - ahg-g
+    - Huang-Wei
+    privacy: closed
+  scheduler-plugins-maintainers:
+    description: Write access to the scheduler-plugins repo
+    members:
+    - ahg-g
+    - Huang-Wei
+    privacy: closed

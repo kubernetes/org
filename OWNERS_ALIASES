@@ -37,7 +37,7 @@ aliases:
     - fabriziopandini
   sig-contributor-experience-leads:
     - Phillels
-    - parispittman
+    - mrbobbytables
     - cblecker
     - nikhita
   sig-docs-leads:
@@ -77,7 +77,6 @@ aliases:
     - jberkhahn
     - mszostok
   sig-storage-leads:
-    - childsb
     - saad-ali
   sig-testing-leads:
     - fejta
@@ -104,6 +103,9 @@ aliases:
     - mtaufen
     - stealthybox
     - sttts
+  wg-data-protection-leads:
+    - xing-yang
+    - yuxiangqian
   wg-iot-edge-leads:
     - cantbewong
     - cindyxing

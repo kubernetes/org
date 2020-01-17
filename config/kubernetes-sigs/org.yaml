@@ -599,18 +599,6 @@ teams:
     - msau42
     - saad-ali
     privacy: closed
-  testing_frameworks-admins:
-    description: Admin access to the testing_frameworks repo
-    members:
-    - hoegaarden
-    - totherme
-    privacy: closed
-  testing_frameworks-maintainers:
-    description: Write access to the testing_frameworks repo
-    members:
-    - liztio
-    - marun
-    privacy: closed
   windows-testing-admins:
     description: Admin access to the windows-testing repo
     members:

@@ -50,6 +50,7 @@ teams:
     maintainers:
     - cblecker
     - idvoretskyi
+    - mrbobbytables
     - nikhita
     members:
     - dims
@@ -62,7 +63,9 @@ teams:
     - Kashomon
     - lavalamp
     - monopole
+    - parispittman
     - philips
+    - Phillels
     - pigmej
     - pwittrock
     - rmmh
@@ -88,9 +91,9 @@ teams:
         description: Chairs and Technical Leads for SIG Contributor Experience
         maintainers:
         - cblecker
+        - mrbobbytables
         - nikhita
         members:
-        - parispittman
         - Phillels
         privacy: closed
       sig-contributor-experience-pr-reviews:

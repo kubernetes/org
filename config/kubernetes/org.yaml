@@ -1601,6 +1601,18 @@ teams:
     - justinsb
     - kris-nova
     privacy: closed
+  kube-openapi-admins:
+    description: Admin access to the kube-openapi repo
+    members:
+    - apelisse
+    - mbohlool
+    privacy: closed
+  kube-openapi-maintainers:
+    description: Write access to the kube-openapi repo
+    members:
+    - apelisse
+    - mbohlool
+    privacy: closed
   kube-state-metrics-admins:
     description: Admin access to the kube-state-metrics repo
     members:

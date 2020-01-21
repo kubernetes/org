@@ -1605,13 +1605,15 @@ teams:
     description: Admin access to the kube-openapi repo
     members:
     - apelisse
-    - mbohlool
+    - deads2k
+    - lavalamp
     privacy: closed
   kube-openapi-maintainers:
     description: Write access to the kube-openapi repo
     members:
     - apelisse
-    - mbohlool
+    - lavalamp
+    - roycaihw
     privacy: closed
   kube-state-metrics-admins:
     description: Admin access to the kube-state-metrics repo

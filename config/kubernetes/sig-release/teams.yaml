@@ -62,7 +62,6 @@ teams:
     - cpanato # Branch Manager
     - craiglpeters # Azure
     - d-nishi # AWS
-    - daminisatya # 1.18 RT Lead Shadow
     - danielromlein # UI
     - dcbw # Network
     - dchen1107 # Node
@@ -120,6 +119,7 @@ teams:
     - mszostok # Service Catalog
     - mwielgus # Autoscaling
     - neolit123 # Cluster Lifecycle
+    - onlydole # 1.18 RT Lead Shadow
     - oxddr # Scalability
     - palnabarun # 1.18 RT Enhancements shadow
     - parispittman # ContribEx
@@ -232,7 +232,6 @@ teams:
     - cartyc # 1.17 Release Notes Lead
     - claurence # subproject owner
     - cpanato # Branch Manager
-    - daminisatya # 1.18 RT Lead Shadow
     - evillgenius75 # 1.17 Release Notes Shadow
     - guineveresaenger # 1.17 RT Lead
     - idealhack # Branch Manager
@@ -244,7 +243,7 @@ teams:
     - lachie83 # subproject owner
     - mariantalla # 1.17 RT Lead Shadow
     - nikopen # 1.16 RT Lead Shadow
-    - onlydole # 1.16 Communications Lead
+    - onlydole # 1.18 RT Lead Shadow
     - onyiny-ang # 1.16 Release Notes Shadow
     - rawkode # 1.17 Communications Lead
     - rbitia # 1.16 Enhancements Shadow
@@ -264,7 +263,7 @@ teams:
         - mrbobbytables # 1.18 RT Lead Shadow
         members:
         - alejandrox1 # 1.18 RT Lead
-        - daminisatya # 1.18 RT Lead Shadow
+        - onlydole # 1.18 RT Lead Shadow
         privacy: closed
   sig-release:
     description: SIG Release Members

@@ -16,11 +16,13 @@ teams:
   cluster-api-provider-azure-admins:
     description: ""
     members:
+    - CecileRobertMichon
     - justaugustus
     privacy: closed
   cluster-api-provider-azure-maintainers:
     description: ""
     members:
+    - CecileRobertMichon
     - justaugustus
     - soggiest
     privacy: closed

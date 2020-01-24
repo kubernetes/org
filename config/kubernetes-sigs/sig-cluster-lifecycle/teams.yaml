@@ -85,6 +85,22 @@ teams:
     - timothysc
     - vincepri
     privacy: closed
+  cluster-api-provider-azure-admins:
+    description: ""
+    members:
+    - awesomenix
+    - CecileRobertMichon
+    - justaugustus
+    - soggiest
+    privacy: closed
+  cluster-api-provider-azure-maintainers:
+    description: ""
+    members:
+    - awesomenix
+    - CecileRobertMichon
+    - justaugustus
+    - soggiest
+    privacy: closed
   cluster-api-provider-digitalocean-admins:
     description: ""
     members:

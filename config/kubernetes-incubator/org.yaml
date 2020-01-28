@@ -189,13 +189,6 @@ teams:
     - aaronlevy
     - philips
     privacy: closed
-  admin-custom-metrics-apiserver:
-    description: Admin access to the custom-metrics-apiserver repo
-    members:
-    - DirectXMan12
-    - luxas
-    - piosz
-    privacy: closed
   admin-external-storage:
     description: Admin access to the external-storage repo
     members:

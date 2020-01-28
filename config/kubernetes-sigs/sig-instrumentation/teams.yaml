@@ -1,4 +1,16 @@
 teams:
+  custom-metrics-apiserver-admins:
+    description: Admin access to the custom-metrics-apiserver repo
+    members:
+    - brancz
+    - piosz
+    privacy: closed
+  custom-metrics-apiserver-maintainers:
+    description: Write access to the custom-metrics-apiserver repo
+    members:
+    - s-urbaniak
+    - serathius
+    privacy: closed
   metrics-server-admins:
     description: Admin access to the metrics-server repo
     members:

@@ -418,9 +418,12 @@ teams:
   application-admins:
     description: Admin access to the application repo
     members:
+    - barney-s
     - janetkuo
     - kow3ns
     - mattfarina
+    - mortent
+    - nan-yu
     - prydonius
     privacy: closed
   bots:

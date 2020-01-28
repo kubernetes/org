@@ -48,7 +48,7 @@ teams:
     - aleksandra-malinowska # Patch Release Team
     - alenkacz # 1.17 RT CI Signal lead
     - andrewsykim # Cloud Provider
-    - annajung # 1.17 RT Enhancements shadow
+    - annajung # 1.18 Bug Triage shadow
     - benmoss # Windows
     - bgrant0607 # Architecture
     - bradamant3 # Docs
@@ -78,6 +78,7 @@ teams:
     - floreks # UI
     - foxish # Big Data
     - frapposelli # VMware
+    - gianarb # 1.18 Bug Triage shadow
     - guineveresaenger # 1.17 Release Lead
     - hasheddan # 1.17 CI Signal Shadow
     - helayoty # 1.18 RT Enhancemments Shadow
@@ -93,6 +94,7 @@ teams:
     - jimangel # Docs
     - johnbelamaric # 1.18 RT Enhancements Shadow
     - josiahbjorgaard # 1.17 Bug Triage Lead
+    - jtslear # 1.18 Bug Triage shadow
     - justaugustus # Azure / PM / Release
     - justinsb # AWS / Cluster Lifecycle
     - k82cn # Scheduling
@@ -110,7 +112,7 @@ teams:
     - luxas # Cluster Lifecycle
     - maciaszczykm # UI
     - mariantalla # 1.17 RT Lead Shadow
-    - markyjackson-taulia # 1.17 Bug Triage shadow
+    - markyjackson-taulia # 1.18 Bug Triage shadow
     - mattfarina # Apps / Architecture
     - mborsz # Scalability
     - michmike # Windows
@@ -136,7 +138,7 @@ teams:
     - saschagrunert # Branch Manager
     - seans3 # CLI
     - shyamjvs # Scalability
-    - smourapina # 1.17 Bug Triage shadow
+    - smourapina # 1.18 Bug Triage Lead
     - soltysh # CLI
     - spzala # IBM Cloud
     - stevekuznetsov # Testing
@@ -145,7 +147,6 @@ teams:
     - thockin # Network
     - timothysc # Cluster Lifecycle / Testing
     - tpepper # Release
-    - ttousai # 1.17 Bug Triage shadow
     - vllry # Usability
     - wojtek-t # Scalability
     - zacharysarah # Docs

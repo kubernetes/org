@@ -1,19 +1,23 @@
 teams:
-  addon-operators-admins:
-    description: admin access to addon-operators
+  cluster-addons-admins:
+    description: admin access to cluster-addons
     members:
     - justinsb
     - luxas
     - roberthbailey
     - timothysc
     privacy: closed
-  addon-operators-maintainers:
-    description: write access to addon-operators
+    previously:
+    - addon-operators-admins
+  cluster-addons-maintainers:
+    description: write access to cluster-addons
     members:
     - dholbach
     - justinsb
     - stealthybox
     privacy: closed
+    previously:
+    - addon-operators-maintainers
   bootkube-admins:
     description: admin access to bootkube repo
     members:

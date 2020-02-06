@@ -186,6 +186,7 @@ teams:
     - cpanato # Branch Manager
     - dougm # Patch Release Team
     - feiskyer # Patch Release Team
+    - hasheddan # Release Manager Associate
     - hoegaarden # subproject owner / Patch Release Team
     - idealhack # Patch Release Team
     - jimangel # Release Manager Associate
@@ -211,6 +212,7 @@ teams:
     - cpanato # Branch Manager
     - dougm # Patch Release Team
     - feiskyer # Patch Release Team
+    - hasheddan # Release Manager Associate (temporary grant)
     - hoegaarden # Patch Release Team
     - idealhack # Patch Release Team
     - justaugustus # Branch Manager
@@ -306,6 +308,7 @@ teams:
     - foxish
     - girikuncoro
     - guineveresaenger
+    - hasheddan
     - hoegaarden
     - idealhack
     - imkin

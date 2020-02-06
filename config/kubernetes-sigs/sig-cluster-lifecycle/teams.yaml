@@ -185,6 +185,7 @@ teams:
   image-builder-maintainers:
     description: write access to image-builder
     members:
+    - codenrhoden
     - justinsb
     - luxas
     - moshloop

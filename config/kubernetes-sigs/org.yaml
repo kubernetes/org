@@ -423,28 +423,6 @@ teams:
     - k8s-github-robot
     - thelinuxfoundation
     privacy: closed
-  cluster-api-provider-vsphere-admins:
-    description: Admin access to the cluster-api-provider-vsphere repo
-    maintainers:
-    - spiffxp
-    members:
-    - akutz
-    - andrewsykim
-    - frapposelli
-    - sflxn
-    privacy: closed
-  cluster-api-provider-vsphere-maintainers:
-    description: Write access to the cluster-api-provider-vsphere repo
-    maintainers:
-    - spiffxp
-    members:
-    - akutz
-    - andrewsykim
-    - figo
-    - frapposelli
-    - sflxn
-    - sidharthsurana
-    privacy: closed
   cri-tools-admins:
     description: Admin access to the cri-tools repo
     members:

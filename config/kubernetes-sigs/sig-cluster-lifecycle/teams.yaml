@@ -184,6 +184,7 @@ teams:
     - andrewsykim
     - frapposelli
     - sflxn
+    - yastij
     privacy: closed
   cluster-api-provider-vsphere-maintainers:
     description: Write access to the cluster-api-provider-vsphere repo

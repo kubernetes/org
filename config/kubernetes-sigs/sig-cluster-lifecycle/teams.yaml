@@ -192,10 +192,14 @@ teams:
     members:
     - akutz
     - andrewsykim
+    - detiber
     - figo
     - frapposelli
+    - ncdc
     - sflxn
     - sidharthsurana
+    - vincepri
+    - yastij
     privacy: closed
   image-builder-admins:
     description: admin access to image-builder

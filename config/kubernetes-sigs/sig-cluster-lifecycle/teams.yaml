@@ -175,6 +175,33 @@ teams:
     - jichenjc
     - sbueringer
     privacy: closed
+  cluster-api-provider-vsphere-admins:
+    description: Admin access to the cluster-api-provider-vsphere repo
+    maintainers:
+    - spiffxp
+    members:
+    - akutz
+    - andrewsykim
+    - frapposelli
+    - sflxn
+    - yastij
+    privacy: closed
+  cluster-api-provider-vsphere-maintainers:
+    description: Write access to the cluster-api-provider-vsphere repo
+    maintainers:
+    - spiffxp
+    members:
+    - akutz
+    - andrewsykim
+    - detiber
+    - figo
+    - frapposelli
+    - ncdc
+    - sflxn
+    - sidharthsurana
+    - vincepri
+    - yastij
+    privacy: closed
   image-builder-admins:
     description: admin access to image-builder
     members:

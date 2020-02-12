@@ -95,7 +95,6 @@ teams:
     - awesomenix
     - CecileRobertMichon
     - justaugustus
-    - soggiest
     privacy: closed
   cluster-api-provider-azure-maintainers:
     description: ""
@@ -103,7 +102,14 @@ teams:
     - awesomenix
     - CecileRobertMichon
     - justaugustus
-    - soggiest
+    privacy: closed
+  cluster-api-provider-azure-pms:
+    description: ""
+    members:
+    - awesomenix
+    - CecileRobertMichon
+    - justaugustus
+    - rbitia
     privacy: closed
   cluster-api-provider-digitalocean-admins:
     description: ""

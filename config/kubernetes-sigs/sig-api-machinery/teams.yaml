@@ -34,6 +34,7 @@ teams:
     - mengqiy
     - pwittrock
     - seans3
+    - vincepri
     privacy: closed
   controller-tools-admins:
     description: admin access to controller-tools

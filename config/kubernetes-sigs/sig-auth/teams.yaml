@@ -16,3 +16,15 @@ teams:
     - srampal
     - tashimi
     privacy: closed
+  secrets-store-csi-driver-admins:
+    description: Admin access to secrets-store-csi-driver repo
+    members:
+    - aramase
+    - ritazh
+    privacy: closed
+  secrets-store-csi-driver-maintainers:
+    description: Write access to secrets-store-csi-driver repo
+    members:
+    - aramase
+    - ritazh
+    privacy: closed

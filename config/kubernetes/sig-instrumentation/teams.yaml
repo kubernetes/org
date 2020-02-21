@@ -5,16 +5,21 @@ teams:
     - andyxning
     - brancz
     - danielqsj
+    - dashpole
     - DirectXMan12
     - ehashman
     - fabxc
     - fgrzadkowski
     - kawych
+    - lilic
     - loburm
     - logicalhan
     - mxinden
     - piosz
+    - RainbowMango
+    - s-urbaniak
     - serathius
+    - tariq1890
     - x13n
     - zouyee
     privacy: closed
@@ -24,16 +29,21 @@ teams:
     - andyxning
     - brancz
     - danielqsj
+    - dashpole
     - DirectXMan12
     - ehashman
     - fabxc
     - fgrzadkowski
     - kawych
+    - lilic
     - loburm
     - logicalhan
     - mxinden
     - piosz
+    - RainbowMango
+    - s-urbaniak
     - serathius
+    - tariq1890
     - x13n
     - zouyee
     privacy: closed
@@ -43,16 +53,21 @@ teams:
     - andyxning
     - brancz
     - danielqsj
+    - dashpole
     - DirectXMan12
     - ehashman
     - fabxc
     - fgrzadkowski
     - kawych
+    - lilic
     - loburm
     - logicalhan
     - mxinden
     - piosz
+    - RainbowMango
+    - s-urbaniak
     - serathius
+    - tariq1890
     - x13n
     privacy: closed
   sig-instrumentation-misc:
@@ -61,16 +76,21 @@ teams:
     - andyxning
     - brancz
     - danielqsj
+    - dashpole
     - DirectXMan12
     - ehashman
     - fabxc
     - fgrzadkowski
     - kawych
+    - lilic
     - loburm
     - logicalhan
     - mxinden
     - piosz
+    - RainbowMango
+    - s-urbaniak
     - serathius
+    - tariq1890
     - x13n
     privacy: closed
   sig-instrumentation-pr-reviews:
@@ -79,16 +99,21 @@ teams:
     - andyxning
     - brancz
     - danielqsj
+    - dashpole
     - DirectXMan12
     - ehashman
     - fabxc
     - fgrzadkowski
     - kawych
+    - lilic
     - loburm
     - logicalhan
     - mxinden
     - piosz
+    - RainbowMango
+    - s-urbaniak
     - serathius
+    - tariq1890
     - x13n
     - zouyee
     privacy: closed
@@ -98,16 +123,21 @@ teams:
     - andyxning
     - brancz
     - danielqsj
+    - dashpole
     - DirectXMan12
     - ehashman
     - fabxc
     - fgrzadkowski
     - kawych
+    - lilic
     - loburm
     - logicalhan
     - mxinden
     - piosz
+    - RainbowMango
+    - s-urbaniak
     - serathius
+    - tariq1890
     - x13n
     privacy: closed
   sig-instrumentation-test-failures:
@@ -116,15 +146,20 @@ teams:
     - andyxning
     - brancz
     - danielqsj
+    - dashpole
     - DirectXMan12
     - ehashman
     - fabxc
     - fgrzadkowski
     - kawych
+    - lilic
     - loburm
     - logicalhan
     - mxinden
     - piosz
+    - RainbowMango
+    - s-urbaniak
     - serathius
+    - tariq1890
     - x13n
     privacy: closed

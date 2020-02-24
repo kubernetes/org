@@ -57,6 +57,7 @@ teams:
     - mengqiy
     - pwittrock
     - seans3
+    - vincepri
     privacy: closed
   kubebuilder-admins:
     description: admin access to kubebuilder

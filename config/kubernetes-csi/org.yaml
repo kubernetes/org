@@ -46,6 +46,7 @@ members:
 - mlmhl
 - msau42
 - mucahitkurt
+- NickrenREN
 - nzoueidi
 - PatrickLang
 - pohly
@@ -303,6 +304,23 @@ teams:
     members:
     - childsb
     - saad-ali
+    privacy: closed
+  external-health-monitor-admins:
+    description: Admin access to external-health-monitor repo
+    members:
+    - jsafrane
+    - msau42
+    - saad-ali
+    - xing-yang
+    privacy: closed
+  external-health-monitor-maintainers:
+    description: Write access to external-health-monitor repo
+    members:
+    - jsafrane
+    - msau42
+    - NickrenREN
+    - saad-ali
+    - xing-yang
     privacy: closed
   external-provisioner-admins:
     description: Admin access to external-provisioner repo

@@ -2,7 +2,6 @@ teams:
   sig-storage-api-reviews:
     description: API Reviews for Kubernetes Storage Special-Interest-Group
     members:
-    - childsb
     - davidopp
     - jsafrane
     - matchstick
@@ -11,11 +10,11 @@ teams:
     - saad-ali
     - thockin
     - wattsteve
+    - xing-yang
     privacy: closed
   sig-storage-bugs:
     description: Bugs for Kubernetes Storage Special-Interest-Group
     members:
-    - childsb
     - gnufied
     - ianchakeres
     - jeffvance
@@ -27,11 +26,11 @@ teams:
     - rootfs
     - saad-ali
     - wattsteve
+    - xing-yang
     privacy: closed
   sig-storage-feature-requests:
     description: Feature Requests for Kubernetes Storage Special-Interest-Group
     members:
-    - childsb
     - davidopp
     - ianchakeres
     - jingxu97
@@ -45,6 +44,7 @@ teams:
     - smarterclayton
     - thockin
     - wattsteve
+    - xing-yang
     privacy: closed
   sig-storage-misc:
     description: Miscellaneous Discussions for Kubernetes Storage Special-Interest-Group.
@@ -52,7 +52,6 @@ teams:
       appropriate channels (sig-storage-bugs, sig-storage-proposals, sig-storage-pr-reviews,
       etc.)
     members:
-    - childsb
     - davidopp
     - gnufied
     - ianchakeres
@@ -68,21 +67,21 @@ teams:
     - smarterclayton
     - thockin
     - wattsteve
+    - xing-yang
     privacy: closed
   sig-storage-pr-reviews:
     description: PR Reviews for Kubernetes Storage Special-Interest-Group
     members:
-    - childsb
     - jsafrane
     - matchstick
     - msau42
     - rootfs
     - saad-ali
+    - xing-yang
     privacy: closed
   sig-storage-proposals:
     description: Proposals for Kubernetes Storage Special-Interest-Group
     members:
-    - childsb
     - davidopp
     - jingxu97
     - jsafrane
@@ -95,11 +94,11 @@ teams:
     - thockin
     - vishh
     - wattsteve
+    - xing-yang
     privacy: closed
   sig-storage-test-failures:
     description: Test Failures for Kubernetes Storage Special-Interest-Group
     members:
-    - childsb
     - ianchakeres
     - jeffvance
     - jingxu97
@@ -108,4 +107,5 @@ teams:
     - msau42
     - rootfs
     - saad-ali
+    - xing-yang
     privacy: closed

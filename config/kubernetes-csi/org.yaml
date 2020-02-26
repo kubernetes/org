@@ -22,7 +22,6 @@ members:
 - bswartz
 - calebamiles
 - chakri-nelluri
-- childsb
 - codenrhoden
 - cofyc
 - cwdsuzhou
@@ -64,126 +63,169 @@ teams:
   cluster-driver-registrar-admins:
     description: Admin access to cluster-driver-registrar repo
     members:
+    - jsafrane
     - lpabon
+    - msau42
     - saad-ali
+    - xing-yang
     privacy: closed
   cluster-driver-registrar-maintainers:
     description: Write access to cluster-driver-registrar repo
     members:
+    - jsafrane
     - lpabon
+    - msau42
     - saad-ali
+    - xing-yang
     privacy: closed
   csi-driver-fibre-channel-admins:
     description: Admin access to csi-driver-fibre-channel repo
     members:
-    - childsb
+    - jsafrane
+    - msau42
     - saad-ali
+    - xing-yang
     privacy: closed
   csi-driver-fibre-channel-maintainers:
     description: Write access to csi-driver-fibre-channel repo
     members:
-    - childsb
+    - jsafrane
+    - msau42
     - saad-ali
+    - xing-yang
     privacy: closed
   csi-driver-flex-admins:
     description: Admin access to csi-driver-flex repo
     members:
-    - childsb
+    - jsafrane
+    - msau42
     - saad-ali
+    - xing-yang
     privacy: closed
   csi-driver-flex-maintainers:
     description: Write access to csi-driver-flex repo
     members:
-    - childsb
+    - jsafrane
+    - msau42
     - saad-ali
+    - xing-yang
     privacy: closed
   csi-driver-host-path-admins:
     description: Admin access to csi-driver-host-path repo
     members:
-    - childsb
+    - jsafrane
+    - msau42
     - saad-ali
+    - xing-yang
     privacy: closed
   csi-driver-host-path-maintainers:
     description: Write access to csi-driver-host-path repo
     members:
-    - childsb
+    - jsafrane
+    - msau42
     - saad-ali
+    - xing-yang
     privacy: closed
   csi-driver-image-populator-admins:
     description: Admin access to csi-driver-image-populator repo
     members:
-      - msau42
-      - saad-ali
+    - jsafrane
+    - msau42
+    - saad-ali
+    - xing-yang
     privacy: closed
   csi-driver-image-populator-maintainers:
     description: Write access to csi-driver-image-populator repo
     members:
-      - msau42
-      - saad-ali
+    - jsafrane
+    - msau42
+    - saad-ali
+    - xing-yang
     privacy: closed
   csi-driver-iscsi-admins:
     description: Admin access to csi-driver-iscsi repo
     members:
-    - childsb
+    - jsafrane
+    - msau42
     - saad-ali
+    - xing-yang
     privacy: closed
   csi-driver-iscsi-maintainers:
     description: Write access to csi-driver-iscsi repo
     members:
-    - childsb
+    - jsafrane
+    - msau42
     - saad-ali
+    - xing-yang
     privacy: closed
   csi-driver-nfs-admins:
     description: Admin access to csi-driver-nfs repo
     members:
-    - childsb
+    - jsafrane
+    - msau42
     - saad-ali
+    - xing-yang
     privacy: closed
   csi-driver-nfs-maintainers:
     description: Write access to csi-driver-nfs repo
     members:
-    - childsb
+    - jsafrane
+    - msau42
     - saad-ali
+    - xing-yang
     privacy: closed
   csi-lib-fc-admins:
     description: Admin access to csi-lib-fc repo
     members:
-    - childsb
+    - jsafrane
+    - msau42
     - saad-ali
+    - xing-yang
     privacy: closed
   csi-lib-fc-maintainers:
     description: Write access to csi-lib-fc repo
     members:
-    - childsb
+    - jsafrane
+    - msau42
     - saad-ali
+    - xing-yang
     privacy: closed
   csi-lib-iscsi-admins:
     description: Admin access to csi-lib-iscsi repo
     members:
-    - childsb
+    - jsafrane
+    - msau42
     - saad-ali
+    - xing-yang
     privacy: closed
   csi-lib-iscsi-maintainers:
     description: Write access to csi-lib-iscsi repo
     members:
-    - childsb
+    - jsafrane
+    - msau42
     - saad-ali
+    - xing-yang
     privacy: closed
   csi-lib-utils-admins:
     description: Admin access to csi-lib-utils repo
     members:
+    - jsafrane
+    - msau42
     - saad-ali
+    - xing-yang
     privacy: closed
   csi-lib-utils-maintainers:
     description: Write access to csi-lib-utils repo
     members:
+    - jsafrane
+    - msau42
     - saad-ali
+    - xing-yang
     privacy: closed
   csi-misc:
     description: Miscellaneous Discussions for Kubernetes CSI Working Group
     members:
     - chakri-nelluri
-    - childsb
     - davidz627
     - gnufied
     - jsafrane
@@ -200,110 +242,141 @@ teams:
     description: Admin access to csi-proxy repo
     members:
     - ddebroy
+    - jsafrane
     - msau42
     - PatrickLang
+    - saad-ali
+    - xing-yang
     privacy: closed
   csi-proxy-maintainers:
     description: Write access to csi-proxy repo
     members:
     - ddebroy
+    - jsafrane
     - msau42
     - PatrickLang
+    - saad-ali
+    - xing-yang
     privacy: closed
   csi-release-tools-admins:
     description: Admin access to csi-release-tools repo
     members:
+    - jsafrane
     - msau42
     - saad-ali
+    - xing-yang
     privacy: closed
   csi-release-tools-maintainers:
     description: Write access to csi-release-tools repo
     members:
+    - jsafrane
     - msau42
     - saad-ali
+    - xing-yang
     privacy: closed
   csi-test-admins:
     description: Admin access to csi-test repo
     members:
-    - childsb
     - davidz627
+    - jsafrane
     - lpabon
+    - msau42
     - saad-ali
+    - xing-yang
     privacy: closed
   csi-test-maintainers:
     description: Write access to csi-test repo
     members:
-    - childsb
+    - jsafrane
+    - msau42
     - pohly
     - saad-ali
     - sbezverk
+    - xing-yang
     privacy: closed
   developers:
     description: ""
     members:
     - chakri-nelluri
-    - childsb
     - davidz627
     - jsafrane
     - lpabon
+    - msau42
     - rootfs
     - saad-ali
     - sbezverk
     - vladimirvivien
+    - xing-yang
     privacy: closed
   docs-admins:
     description: Admin access to docs repo
     members:
-    - childsb
+    - jsafrane
     - lpabon
+    - msau42
     - saad-ali
+    - xing-yang
     privacy: closed
   docs-maintainers:
     description: Write access to docs repo
     members:
-    - childsb
+    - jsafrane
+    - msau42
     - saad-ali
+    - xing-yang
     privacy: closed
   driver-registrar-admins:
     description: Admin access to driver-registrar repo
     members:
-    - childsb
     - davidz627
+    - jsafrane
     - lpabon
+    - msau42
     - saad-ali
+    - xing-yang
     privacy: closed
   driver-registrar-maintainers:
     description: Write access to driver-registrar repo
     members:
-    - childsb
+    - jsafrane
+    - msau42
     - saad-ali
+    - xing-yang
     privacy: closed
   drivers-admins:
     description: Admin access to drivers repo
     members:
     - chakri-nelluri
-    - childsb
+    - jsafrane
     - lpabon
+    - msau42
     - saad-ali
+    - xing-yang
     privacy: closed
   drivers-maintainers:
     description: Write access to drivers repo
     members:
-    - childsb
+    - jsafrane
+    - msau42
     - saad-ali
     - sbezverk
+    - xing-yang
     privacy: closed
   external-attacher-admins:
     description: Admin access to external-attacher repo
     members:
-    - childsb
+    - jsafrane
+    - msau42
     - saad-ali
+    - xing-yang
     privacy: closed
   external-attacher-maintainers:
     description: Write access to external-attacher repo
     members:
-    - childsb
+    - jsafrane
+    - msau42
     - saad-ali
+    - xing-yang
     privacy: closed
   external-health-monitor-admins:
     description: Admin access to external-health-monitor repo
@@ -325,72 +398,95 @@ teams:
   external-provisioner-admins:
     description: Admin access to external-provisioner repo
     members:
-    - childsb
     - davidz627
+    - jsafrane
     - lpabon
+    - msau42
     - saad-ali
+    - xing-yang
     privacy: closed
   external-provisioner-maintainers:
     description: Write access to external-provisioner repo
     members:
-    - childsb
+    - jsafrane
+    - msau42
     - saad-ali
+    - xing-yang
     privacy: closed
   external-resizer-admins:
     description: Admin access to external-resizer repo
     members:
-    - childsb
+    - jsafrane
+    - msau42
     - saad-ali
+    - xing-yang
     privacy: closed
   external-resizer-maintainers:
     description: Write access to external-resizer repo
     members:
-    - childsb
+    - jsafrane
+    - msau42
     - saad-ali
+    - xing-yang
     privacy: closed
   external-snapshotter-admins:
     description: Admin access to external-snapshotter repo
     members:
-    - childsb
+    - jsafrane
     - lpabon
+    - msau42
     - saad-ali
     - xing-yang
     privacy: closed
   external-snapshotter-maintainers:
     description: Write access to external-snapshotter repo
     members:
-    - childsb
+    - jsafrane
+    - msau42
     - saad-ali
+    - xing-yang
     privacy: closed
   kubernetes-csi-github-io-admins:
     description: Admin access to kubernetes-csi.github.io repo
     members:
-    - lpabon
+    - jsafrane
+    - msau42
     - saad-ali
+    - xing-yang
     privacy: closed
   livenessprobe-admins:
     description: Admin access to livenessprobe repo
     members:
-    - childsb
+    - jsafrane
     - lpabon
+    - msau42
     - saad-ali
+    - xing-yang
     privacy: closed
   livenessprobe-maintainers:
     description: Write access to livenessprobe repo
     members:
-    - childsb
+    - jsafrane
+    - msau42
     - saad-ali
     - sbezverk
+    - xing-yang
     privacy: closed
   node-driver-registrar-admins:
     description: Admin access to node-driver-registrar repo
     members:
+    - jsafrane
     - lpabon
+    - msau42
     - saad-ali
+    - xing-yang
     privacy: closed
   node-driver-registrar-maintainers:
     description: Write access to node-driver-registrar repo
     members:
+    - jsafrane
     - lpabon
+    - msau42
     - saad-ali
+    - xing-yang
     privacy: closed

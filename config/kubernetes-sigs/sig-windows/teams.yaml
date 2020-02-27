@@ -22,6 +22,7 @@ teams:
   sig-windows-tools-maintainers:
     description: Write access to sig-windows-tools repo
     members:
+    - benmoss
     - michmike
     - PatrickLang
     privacy: closed

@@ -49,7 +49,6 @@ teams:
    description: Admin access to the blobfuse-csi-driver repo
    members:
    - andyzhangx
-   - brendandburns
    - feiskyer
    - justaugustus
    - khenidak
@@ -59,7 +58,6 @@ teams:
    description: Write access to the blobfuse-csi-driver repo
    members:
    - andyzhangx
-   - brendandburns
    - feiskyer
    - justaugustus
    - khenidak

@@ -2,6 +2,7 @@ teams:
   sig-instrumentation-api-reviews:
     description: ""
     members:
+    - 44past4
     - andyxning
     - brancz
     - danielqsj
@@ -23,6 +24,7 @@ teams:
   sig-instrumentation-bugs:
     description: ""
     members:
+    - 44past4
     - andyxning
     - brancz
     - danielqsj
@@ -44,6 +46,7 @@ teams:
   sig-instrumentation-feature-requests:
     description: ""
     members:
+    - 44past4
     - andyxning
     - brancz
     - danielqsj
@@ -64,6 +67,7 @@ teams:
   sig-instrumentation-misc:
     description: ""
     members:
+    - 44past4
     - andyxning
     - brancz
     - danielqsj
@@ -84,6 +88,7 @@ teams:
   sig-instrumentation-pr-reviews:
     description: ""
     members:
+    - 44past4
     - andyxning
     - brancz
     - danielqsj
@@ -105,6 +110,7 @@ teams:
   sig-instrumentation-proposals:
     description: ""
     members:
+    - 44past4
     - andyxning
     - brancz
     - danielqsj
@@ -125,6 +131,7 @@ teams:
   sig-instrumentation-test-failures:
     description: ""
     members:
+    - 44past4
     - andyxning
     - brancz
     - danielqsj

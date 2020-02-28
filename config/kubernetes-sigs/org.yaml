@@ -64,8 +64,6 @@ members:
 - Bradamant3
 - bradtopol
 - brancz
-- brendandburns
-- bryk
 - bzub
 - caesarxuchao
 - calebamiles
@@ -121,7 +119,6 @@ members:
 - draveness
 - droot
 - dstrebel
-- dtoledo67
 - dvonthenen
 - easeway
 - entro-pi
@@ -144,7 +141,6 @@ members:
 - gerred
 - girikuncoro
 - giuseppe
-- grayluck
 - grodrigues3
 - guineveresaenger
 - gyliu513
@@ -290,7 +286,6 @@ members:
 - odinuge
 - onyiny-ang
 - oomichi
-- openstacker
 - parispittman
 - PatrickLang
 - pbnj
@@ -453,7 +448,6 @@ teams:
   dashboard-metrics-scraper-admins:
     description: Admin access to the dashboard-metrics-scraper repo
     members:
-    - bryk
     - floreks
     - jeefy
     - maciaszczykm
@@ -461,7 +455,6 @@ teams:
   dashboard-metrics-scraper-maintainers:
     description: Write access to the dashboard-metrics-scraper
     members:
-    - bryk
     - floreks
     - jeefy
     - maciaszczykm

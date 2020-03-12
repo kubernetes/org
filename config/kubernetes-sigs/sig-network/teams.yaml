@@ -53,6 +53,22 @@ teams:
     privacy: closed
     previously:
     - maintainers-ingress-controller-conformance
+  iptables-wrappers-admins:
+    description: Admin access to the iptables-wrappers repo
+    members:
+    - caseydavenport
+    - danwinship
+    - dcbw
+    - thockin
+    privacy: closed
+  iptables-wrappers-maintainers:
+    description: Write access to the iptables-wrappers repo
+    members:
+    - caseydavenport
+    - danwinship
+    - dcbw
+    - thockin
+    privacy: closed
   service-apis-admins:
     description: Admin access to the service-apis repo
     members:

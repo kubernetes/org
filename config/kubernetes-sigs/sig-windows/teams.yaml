@@ -16,6 +16,7 @@ teams:
   sig-windows-tools-admins:
     description: Admin access to sig-windows-tools repo
     members:
+    - benmoss
     - michmike
     - PatrickLang
     privacy: closed

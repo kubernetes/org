@@ -63,3 +63,15 @@ teams:
    - khenidak
    - lachie83
    privacy: closed
+  cloud-provider-huaweicloud-admins:
+   description: Admin access to the cloud-provider-huaweicloud repo
+   members:
+   - kevin-wangzefeng
+   - RainbowMango
+   privacy: closed
+  cloud-provider-huaweicloud-maintainers:
+   description: Write access to the cloud-provider-huaweicloud repo
+   members:
+   - kevin-wangzefeng
+   - RainbowMango
+   privacy: closed

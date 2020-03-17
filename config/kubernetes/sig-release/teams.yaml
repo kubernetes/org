@@ -113,6 +113,7 @@ teams:
     - maciaszczykm # UI
     - mariantalla # 1.17 RT Lead Shadow
     - markyjackson-taulia # 1.18 Bug Triage shadow
+    - marosset # Windows
     - mattfarina # Apps / Architecture
     - mborsz # Scalability
     - michmike # Windows
@@ -125,7 +126,6 @@ teams:
     - oxddr # Scalability
     - palnabarun # 1.18 RT Enhancements shadow
     - parispittman # ContribEx
-    - patricklang # Windows
     - phillels # ContribEx
     - piosz # Instrumentation
     - pmorie # Multicluster

@@ -112,7 +112,7 @@ teams:
     - rbitia
     privacy: closed
   cluster-api-provider-digitalocean-admins:
-    description: ""
+    description: Admin access to the cluster-api-provider-digitalocean repo
     members:
     - luxas
     - roberthbailey
@@ -120,9 +120,7 @@ teams:
     - xmudrii
     privacy: closed
   cluster-api-provider-digitalocean-maintainers:
-    description: ""
-    maintainers:
-    - nikhita
+    description: Write access to the cluster-api-provider-digitalocean repo
     members:
     - alvaroaleman
     - timothysc

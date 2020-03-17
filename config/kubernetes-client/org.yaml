@@ -69,6 +69,18 @@ teams:
     - lwander
     - mbohlool
     privacy: closed
+  c-admins:
+    description: Admin access to the c repo
+    members:
+    - brendandburns
+    - ityuhui
+    privacy: closed
+  c-maintainers:
+    description: Write access to the c repo
+    members:
+    - brendandburns
+    - ityuhui
+    privacy: closed
   csharp-admins:
     description: Admin access to csharp repo
     members:

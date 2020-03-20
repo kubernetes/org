@@ -13,6 +13,18 @@ teams:
     - pwittrock
     - yue9944882
     privacy: closed
+  clientgofix-admins:
+    description: admin access to clientgofix
+    members:
+    - liggitt
+    - mikedanese
+    privacy: closed
+  clientgofix-maintainers:
+    description: write access to clientgofix
+    members:
+    - liggitt
+    - mikedanese
+    privacy: closed
   controller-runtime-admins:
     description: admin access to controller-runtime
     members:

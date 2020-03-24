@@ -16,6 +16,7 @@ teams:
     description: write access to the kubefed repo
     members:
     - font
+    - hectorj2f
     - irfanurrehman
     - jimmidyson
     - shashidharatd
@@ -28,6 +29,7 @@ teams:
     members:
     - font
     - gyliu513
+    - hectorj2f
     - irfanurrehman
     - jimmidyson
     - onyiny-ang

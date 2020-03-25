@@ -63,6 +63,20 @@ teams:
    - khenidak
    - lachie83
    privacy: closed
+  cloud-provider-baiducloud-admins:
+   description: Admin access to the cloud-provider-baiducloud repo
+   members:
+   - hello2mao
+   - tizhou86
+   - ZP-AlwaysWin
+   privacy: closed
+  cloud-provider-baiducloud-maintainers:
+   description: Write access to the cloud-provider-baiducloud repo
+   members:
+   - hello2mao
+   - tizhou86
+   - ZP-AlwaysWin
+   privacy: closed
   cloud-provider-huaweicloud-admins:
    description: Admin access to the cloud-provider-huaweicloud repo
    members:

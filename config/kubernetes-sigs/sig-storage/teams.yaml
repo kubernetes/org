@@ -1,0 +1,17 @@
+teams:
+  nfs-subdir-external-provisioner-admins:
+    description: Admin access to nfs-subdir-external-provisioner
+    members:
+    - jsafrane
+    - msau42
+    - saad-ali
+    - xing-yang
+    privacy: closed
+  nfs-ganesha-server-and-external-provisioner-admins:
+    description: Admin access to nfs-ganesha-server-and-external-provisioner
+    members:
+    - jsafrane
+    - msau42
+    - saad-ali
+    - xing-yang
+    privacy: closed

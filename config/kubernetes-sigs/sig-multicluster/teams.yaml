@@ -1,8 +1,6 @@
 teams:
   kubefed-admins:
     description: admin access for the kubefed repo
-    maintainers:
-    - spiffxp
     members:
     - font
     - irfanurrehman

@@ -1869,8 +1869,6 @@ teams:
     privacy: closed
   minikube-maintainers:
     description: Write access to the minikube repo
-    maintainers:
-    - spiffxp
     members:
     - afbjorklund
     - balopat

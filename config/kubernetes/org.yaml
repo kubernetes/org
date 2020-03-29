@@ -11,6 +11,7 @@ admins:
 - idvoretskyi
 - k8s-ci-robot
 - k8s-github-robot
+- heroku-miraheze
 - mrbobbytables
 - nikhita
 - spiffxp
@@ -415,6 +416,7 @@ members:
 - heckj
 - helayoty
 - hello2mao
+- heroku-miraheze
 - hex108
 - hh
 - hhoover

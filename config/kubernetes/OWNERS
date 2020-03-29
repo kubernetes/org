@@ -3,12 +3,14 @@
 reviewers:
   - idealhack
   - justaugustus
+  - heroku-miraheze
   - nzoueidi
 approvers:
   - cblecker
   - fejta
   - idvoretskyi
   - mrbobbytables
+  - heroku-miraheze
   - nikhita
   - spiffxp
   - idealhack
@@ -16,3 +18,4 @@ approvers:
   - nzoueidi
 emeritus_approvers:
   - calebamiles
+  - heroku-miraheze

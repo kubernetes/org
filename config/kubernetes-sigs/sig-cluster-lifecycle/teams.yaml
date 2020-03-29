@@ -122,6 +122,9 @@ teams:
   cluster-api-provider-digitalocean-maintainers:
     description: Write access to the cluster-api-provider-digitalocean repo
     members:
+    - cpanato
+    - MorrisLaw
+    - prksu 
     - timothysc
     - xmudrii
     privacy: closed

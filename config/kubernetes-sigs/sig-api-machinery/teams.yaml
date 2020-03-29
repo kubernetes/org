@@ -115,6 +115,22 @@ teams:
     - pwittrock
     - seans3
     privacy: closed
+  kubebuilder-release-tools-admins:
+    description: Admin access to kubebuilder-release-tools
+    members:
+    - DirectXMan12
+    - droot
+    - mengqiy
+    - vincepri
+    privacy: closed
+  kubebuilder-release-tools-maintainers:
+    description: Write access to kubebuilder-release-tools
+    members:
+    - DirectXMan12
+    - droot
+    - mengqiy
+    - vincepri
+    privacy: closed
   kubernetes/sig-api-machinery:
     description: Parent team for all SIG API Machinery subteams (approvers, reviewers,
       admins)

@@ -132,14 +132,13 @@ teams:
     members:
     - fabriziopandini
     - mattiaperi
-    - rlenferink
+    - micheleberardi
   sig-docs-it-reviews:
     description: PR reviews for Italian content
     members:
     - fabriziopandini
     - mattiaperi
     - micheleberardi
-    - rlenferink
     privacy: closed
   sig-docs-ja-owners:
     description: Approvers for Japanese content
@@ -312,7 +311,7 @@ teams:
     - potapy4 # L10n: Russian
     - raelga # L10n: Spanish
     - remyleone # L10n: French
-    - rlenferink # L10n: Italian
+    - rlenferink # L10n: German
     - SataQiu # L10n: Chinese
     - seokho-son # L10n: Korean
     - truongnh1992 # L10n: Vietnamese

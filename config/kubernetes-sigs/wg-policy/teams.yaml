@@ -1,0 +1,12 @@
+teams:
+  wg-policy-prototypes-admins:
+    description: Admin access to wg-policy-prototypes
+    members:
+    - ericavonb
+    - hannibalhuang
+    privacy: closed
+  wg-policy-prototypes-maintainers:
+    description: Write access to wg-policy-prototypes
+    members:
+    - JimBugwadia
+    privacy: closed

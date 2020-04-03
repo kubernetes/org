@@ -427,6 +427,7 @@ teams:
   external-resizer-maintainers:
     description: Write access to external-resizer repo
     members:
+    - gnufied
     - jsafrane
     - msau42
     - saad-ali

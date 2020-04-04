@@ -164,6 +164,7 @@ teams:
     - gochist
     - ianychoi
     - seokho-son
+    - ysyukr
     privacy: closed
   sig-docs-ko-reviews:
     description: Reviews for Korean docs PRs
@@ -370,6 +371,7 @@ teams:
     - xiangpengzhao
     - xichengliudui
     - yastij
+    - ysyukr
     - zacharysarah
     - zhangxiaoyu-zidif
     - zparnold

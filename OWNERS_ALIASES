@@ -2,7 +2,6 @@ aliases:
   sig-api-machinery-leads:
     - deads2k
     - fedebongio
-    - deads2k
     - lavalamp
   sig-apps-leads:
     - janetkuo
@@ -14,36 +13,36 @@ aliases:
     - dims
     - johnbelamaric
   sig-auth-leads:
-    - enj
-    - mikedanese
-    - tallclair
     - deads2k
+    - enj
     - liggitt
     - mikedanese
+    - tallclair
   sig-autoscaling-leads:
+    - gjtempleton
     - mwielgus
   sig-cli-leads:
-    - seans3
-    - soltysh
     - pwittrock
+    - seans3
     - soltysh
   sig-cloud-provider-leads:
     - andrewsykim
     - cheftako
   sig-cluster-lifecycle-leads:
+    - fabriziopandini
     - justinsb
     - neolit123
     - timothysc
-    - fabriziopandini
   sig-contributor-experience-leads:
     - Phillels
-    - mrbobbytables
     - cblecker
+    - mrbobbytables
     - nikhita
   sig-docs-leads:
     - jimangel
     - kbarnard10
     - kbhawkey
+    - onlydole
     - sftim
     - zacharysarah
   sig-instrumentation-leads:
@@ -74,13 +73,16 @@ aliases:
     - shyamjvs
     - wojtek-t
   sig-scheduling-leads:
+    - Huang-Wei
     - ahg-g
-    - k82cn
   sig-service-catalog-leads:
     - jberkhahn
     - mszostok
   sig-storage-leads:
+    - jsafrane
+    - msau42
     - saad-ali
+    - xing-yang
   sig-testing-leads:
     - fejta
     - spiffxp
@@ -96,10 +98,10 @@ aliases:
     - tashimi
     - vllry
   sig-windows-leads:
-    - PatrickLang
-    - michmike
     - benmoss
     - ddebroy
+    - marosset
+    - michmike
   wg-apply-leads:
     - lavalamp
   wg-component-standard-leads:
@@ -124,19 +126,15 @@ aliases:
     - tpepper
     - youngnick
   wg-machine-learning-leads:
-    - ConnorDoyle
-    - balajismaniam
+    - k82cn
     - kow3ns
     - vishh
   wg-multitenancy-leads:
     - srampal
     - tashimi
   wg-policy-leads:
-    - easeway
     - ericavonb
     - hannibalhuang
-    - mdelder
-    - tsandall
   wg-resource-management-leads:
     - derekwaynecarr
     - vishh
@@ -150,8 +148,10 @@ aliases:
     - foxish
     - liyinan926
   ug-vmware-users-leads:
+    - brysonshepherd
     - cantbewong
     - mylesagray
+    - phenixblue
   committee-code-of-conduct:
     - AevaOnline
     - Bradamant3
@@ -161,10 +161,9 @@ aliases:
   committee-product-security:
     - cjcullen
     - joelsmith
-    - jonpulsifer
     - liggitt
     - lukehinds
-    - philips
+    - micahhausler
     - tallclair
   committee-steering:
     - cblecker
@@ -189,9 +188,9 @@ aliases:
   provider-ibmcloud:
     - spzala
   provider-openstack:
-    - adisky
     - chrigl
-    - hogepodge
+    - lingxiankong
+    - ramineni
   provider-vmware:
     - cantbewong
     - frapposelli

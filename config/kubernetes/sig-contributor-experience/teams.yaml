@@ -4,6 +4,7 @@ teams:
     maintainers:
     - cblecker
     - idvoretskyi
+    - mrbobbytables
     - nikhita
     members:
     - calebamiles
@@ -16,10 +17,11 @@ teams:
     description: ""
     maintainers:
     - cblecker
+    - mrbobbytables
     - nikhita
     members:
+    - castrojo
     - parispittman
-    - Phillels
     privacy: closed
   community-milestone-maintainers:
     description: Contributors who can use `/milestone` in the community repo. Defined by an entry in an OWNERS file for a contribex subproject.
@@ -53,6 +55,7 @@ teams:
     - mrbobbytables
     - nikhita
     members:
+    - castrojo
     - dims
     - eparis
     - foxish
@@ -94,7 +97,7 @@ teams:
         - mrbobbytables
         - nikhita
         members:
-        - Phillels
+        - castrojo
         privacy: closed
       sig-contributor-experience-pr-reviews:
         description: PR reviews for contributor-experience infrastructure, such as the

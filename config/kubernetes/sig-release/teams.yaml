@@ -45,7 +45,6 @@ teams:
     - adisky # OpenStack
     - ahg-g # Scheduling
     - alejandrox1 # 1.18 RT Lead
-    - aleksandra-malinowska # Patch Release Team
     - alenkacz # 1.17 RT CI Signal lead
     - andrewsykim # Cloud Provider
     - annajung # 1.18 Bug Triage shadow
@@ -159,7 +158,6 @@ teams:
       branches. This team is used for notifications for all active patch
       managers, but does not give permissions.
     members:
-    - aleksandra-malinowska
     - dougm
     - feiskyer
     - hoegaarden
@@ -181,7 +179,7 @@ teams:
     description: Members of the Release Engineering subproject, including Build Admins,
       Patch Release Team, Branch Managers, and Release Manager Associates.
     members:
-    - aleksandra-malinowska # subproject owner / Build Admin / Patch Release Team
+    - aleksandra-malinowska # Build Admin
     - alexeldeib # Release Manager Associate
     - calebamiles # subproject owner
     - cpanato # Branch Manager
@@ -209,7 +207,6 @@ teams:
       label/PR management is needed. Remove users who are not actively doing
       this job.
     members:
-    - aleksandra-malinowska # Patch Release Team
     - cpanato # Branch Manager
     - dougm # Patch Release Team
     - feiskyer # Patch Release Team

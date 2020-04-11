@@ -16,7 +16,7 @@ teams:
     description: Members of the CI Signal team for the current release cycle.
     members:
       - droslean # 1.18 CI Signal Lead
-      - hasheddan # 1.18 CI Signal shadow
+      - hasheddan # 1.19 CI Signal Lead
       - hrishin # 1.18 CI Signal shadow
       - jpreese # 1.18 CI Signal shadow
       - prksu # 1.18 CI Signal shadow
@@ -79,7 +79,7 @@ teams:
     - frapposelli # VMware
     - gianarb # 1.18 Bug Triage shadow
     - guineveresaenger # 1.17 Release Lead
-    - hasheddan # 1.17 CI Signal Shadow
+    - hasheddan # Branch Manager / 1.19 CI Signal Lead
     - helayoty # 1.18 RT Enhancemments Shadow
     - hoegaarden # Patch Release Team
     - hpandeycodeit # Usability
@@ -185,7 +185,7 @@ teams:
     - cpanato # Branch Manager
     - dougm # Patch Release Team
     - feiskyer # Patch Release Team
-    - hasheddan # Release Manager Associate
+    - hasheddan # Branch Manager
     - hoegaarden # subproject owner / Patch Release Team
     - idealhack # Patch Release Team
     - jimangel # Release Manager Associate
@@ -210,6 +210,7 @@ teams:
     - cpanato # Branch Manager
     - dougm # Patch Release Team
     - feiskyer # Patch Release Team
+    - hasheddan # Branch Manager
     - hoegaarden # Patch Release Team
     - idealhack # Patch Release Team
     - justaugustus # Branch Manager

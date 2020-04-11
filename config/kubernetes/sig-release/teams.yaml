@@ -111,7 +111,6 @@ teams:
     - luxas # Cluster Lifecycle
     - maciaszczykm # UI
     - mariantalla # 1.17 RT Lead Shadow
-    - markyjackson-taulia # 1.18 Bug Triage shadow
     - marosset # Windows
     - mattfarina # Apps / Architecture
     - mborsz # Scalability
@@ -121,7 +120,7 @@ teams:
     - mszostok # Service Catalog
     - mwielgus # Autoscaling
     - neolit123 # Cluster Lifecycle
-    - onlydole # 1.18 RT Lead Shadow
+    - onlydole # 1.19 RT Lead
     - oxddr # Scalability
     - palnabarun # 1.18 RT Enhancements shadow
     - parispittman # ContribEx
@@ -180,7 +179,6 @@ teams:
       Patch Release Team, Branch Managers, and Release Manager Associates.
     members:
     - aleksandra-malinowska # Build Admin
-    - alexeldeib # Release Manager Associate
     - calebamiles # subproject owner
     - cpanato # Branch Manager
     - dougm # Patch Release Team
@@ -190,15 +188,14 @@ teams:
     - idealhack # Patch Release Team
     - jimangel # Release Manager Associate
     - justaugustus # subproject owner / Build Admin / Patch Release Team
-    - kacole2 # Release Manager Associate
     - listx # Build Admin
-    - onlydole # Release Manager Associate
-    - paulbouwer # Release Manager Associate
+    - markyjackson-taulia # Release Manager Associate
     - ps882 # Build Admin
     - saschagrunert # Branch Manager
     - sethmccombs # Release Manager Associate
     - sumitranr # Build Admin
     - tpepper # subproject owner / Build Admin / Patch Release Team
+    - Verolop # Release Manager Associate
     - xmudrii # Release Manager Associate
     privacy: closed
   release-managers:
@@ -240,11 +237,10 @@ teams:
     - jeefy # 1.17 RT Lead Shadow
     - josiahbjorgaard # 1.17 Bug Triage Lead
     - justaugustus # subproject owner
-    - kacole2 # 1.16 Enhancements Lead
     - lachie83 # subproject owner
     - mariantalla # 1.17 RT Lead Shadow
     - nikopen # 1.16 RT Lead Shadow
-    - onlydole # 1.18 RT Lead Shadow
+    - onlydole # 1.19 RT Lead
     - onyiny-ang # 1.16 Release Notes Shadow
     - rawkode # 1.17 Communications Lead
     - rbitia # 1.16 Enhancements Shadow
@@ -264,7 +260,7 @@ teams:
         - mrbobbytables # 1.18 RT Lead Shadow
         members:
         - alejandrox1 # 1.18 RT Lead
-        - onlydole # 1.18 RT Lead Shadow
+        - onlydole # 1.19 RT Lead
         privacy: closed
   sig-release:
     description: SIG Release Members
@@ -330,6 +326,7 @@ teams:
     - MaciekPytel
     - MAKOSCAFEE
     - mariantalla
+    - markyjackson-taulia
     - marpaia
     - marun
     - mbohlool
@@ -358,6 +355,7 @@ teams:
     - sumitranr
     - tfogo
     - tpepper
+    - Verolop
     - wojtek-t
     - xmudrii
     - zacharysarah

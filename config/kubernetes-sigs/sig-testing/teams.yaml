@@ -1,0 +1,13 @@
+teams:
+  boskos-admins:
+    description: admin access to kubernetes-sigs/boksos
+    members:
+    - alvaroaleman
+    - ixdy
+    - stevekuznetsov
+  boskos-maintainers:
+    description: write access to kubernetes-sigs/boksos
+    members:
+    - alvaroaleman
+    - ixdy
+    - stevekuznetsov

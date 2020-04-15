@@ -52,3 +52,25 @@ teams:
     members:
     - dims
     privacy: closed
+  enhancements-admins:
+    description: Contributors with admin access to k/enhancements
+    maintainers:
+    - idvoretskyi
+    members:
+    - calebamiles
+    - jdumars
+    - justaugustus
+    - lachie83
+    privacy: closed
+  enhancements-maintainers:
+    description: Contributors with write access to k/enhancements
+    maintainers:
+    - idvoretskyi
+    members:
+    - calebamiles
+    - jdumars
+    - justaugustus
+    - lachie83
+    previously:
+    - features-maintainers
+    privacy: closed

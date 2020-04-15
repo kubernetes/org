@@ -42,6 +42,7 @@ teams:
     members:
     - bowei
     - thockin
+    - alexgervais
     privacy: closed
     previously:
     - admins-ingress-controller-conformance
@@ -50,6 +51,7 @@ teams:
     members:
     - bowei
     - thockin
+    - alexgervais
     privacy: closed
     previously:
     - maintainers-ingress-controller-conformance

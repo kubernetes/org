@@ -3,6 +3,7 @@ teams:
     description: admin access for the kubefed repo
     members:
     - font
+    - hectorj2f
     - irfanurrehman
     - jimmidyson
     - pmorie

@@ -52,3 +52,23 @@ teams:
     members:
     - dims
     privacy: closed
+  enhancements-admins:
+    description: Contributors with admin access to k/enhancements
+    maintainers:
+    - mrbobbytables
+    members:
+    - jeremyrickard
+    - johnbelamaric
+    - justaugustus
+    privacy: closed
+  enhancements-maintainers:
+    description: Contributors with write access to k/enhancements
+    maintainers:
+    - mrbobbytables
+    members:
+    - jeremyrickard
+    - johnbelamaric
+    - justaugustus
+    previously:
+    - features-maintainers
+    privacy: closed

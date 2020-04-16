@@ -47,6 +47,18 @@ teams:
     - Phillels
     - tpepper
     privacy: closed
+  project-board-maintainers:
+    description: Contributors with access to groom issues on org-level project boards.
+      Groups can opt-in to assistance with grooming by adding this team to their project
+      board with admin permissions.
+    maintainers:
+    - idvoretskyi
+    members:
+    - jdumars
+    - justaugustus
+    - lachie83
+    - mattfarina
+    privacy: closed
   sig-contributor-experience:
     description: Improve contributor productivity
     maintainers:

@@ -2,14 +2,12 @@ teams:
   sig-architecture:
     description: SIG Architecture
     members:
-    - bgrant0607
     - derekwaynecarr
     - dims
-    - jbeda
     - johnbelamaric
     - liggitt
     - smarterclayton
-    - timothysc
+    - thockin
     privacy: closed
     teams:
       sig-architecture-leads:
@@ -22,14 +20,12 @@ teams:
       sig-architecture-pr-reviews:
         description: SIG Architecture PR review notifications
         members:
-        - bgrant0607
         - derekwaynecarr
         - dims
-        - jbeda
         - johnbelamaric
         - liggitt
         - smarterclayton
-        - timothysc
+        - thockin
         privacy: closed
   code-organization-project-admins:
     description: admin access to code organization subproject board

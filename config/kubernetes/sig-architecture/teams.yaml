@@ -1,52 +1,32 @@
 teams:
-  sig-architecture-api-reviews:
-    description: SIG Architecture API review notifications
+  sig-architecture:
+    description: SIG Architecture
     members:
-    - bgrant0607
+    - derekwaynecarr
+    - dims
+    - johnbelamaric
     - liggitt
     - smarterclayton
+    - thockin
     privacy: closed
-  sig-architecture-bugs:
-    description: SIG Architecture bug notifications
-    members:
-    - bgrant0607
-    privacy: closed
-  sig-architecture-feature-requests:
-    description: SIG Architecture feature request notifications
-    maintainers:
-    - idvoretskyi
-    members:
-    - bgrant0607
-    - liggitt
-    - smarterclayton
-    privacy: closed
-  sig-architecture-misc-use-only-as-a-last-resort:
-    description: SIG Architecture misc. notifications (consider notifying a more-specific
-      team first!)
-    members:
-    - bgrant0607
-    - smarterclayton
-    privacy: closed
-  sig-architecture-pr-reviews:
-    description: SIG Architecture PR review notifications
-    members:
-    - bgrant0607
-    - jbeda
-    - liggitt
-    - smarterclayton
-    - timothysc
-    privacy: closed
-  sig-architecture-proposals:
-    description: SIG Architecture proposal notifications
-    members:
-    - bgrant0607
-    - smarterclayton
-    privacy: closed
-  sig-architecture-test-failures:
-    description: SIG Architecture test failure notifications
-    members:
-    - bgrant0607
-    privacy: closed
+    teams:
+      sig-architecture-leads:
+        description: SIG Architecture Chairs and Technical Leads
+        members:
+        - derekwaynecarr
+        - dims
+        - johnbelamaric
+        privacy: closed
+      sig-architecture-pr-reviews:
+        description: SIG Architecture PR review notifications
+        members:
+        - derekwaynecarr
+        - dims
+        - johnbelamaric
+        - liggitt
+        - smarterclayton
+        - thockin
+        privacy: closed
   code-organization-project-admins:
     description: admin access to code organization subproject board
     members:

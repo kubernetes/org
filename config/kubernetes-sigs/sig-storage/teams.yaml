@@ -1,4 +1,20 @@
 teams:
+  gluster-block-external-provisioner-admins:
+    description: Admin access to gluster-block-external-provisioner
+    members:
+    - jsafrane
+    - msau42
+    - saad-ali
+    - xing-yang
+    privacy: closed
+  gluster-file-external-provisioner-admins:
+    description: Admin access to gluster-file-external-provisioner
+    members:
+    - jsafrane
+    - msau42
+    - saad-ali
+    - xing-yang
+    privacy: closed
   nfs-subdir-external-provisioner-admins:
     description: Admin access to nfs-subdir-external-provisioner
     members:

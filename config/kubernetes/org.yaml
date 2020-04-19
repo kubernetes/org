@@ -1961,8 +1961,8 @@ teams:
     members:
     - derekwaynecarr
     - dims
+    - lachie83
     - parispittman
-    - timothysc
     privacy: closed
   ubuntu-image:
     description: ""

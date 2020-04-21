@@ -260,6 +260,7 @@ teams:
     - PatrickLang
     - saad-ali
     - xing-yang
+    - craiglpeters
     privacy: closed
   csi-release-tools-admins:
     description: Admin access to csi-release-tools repo

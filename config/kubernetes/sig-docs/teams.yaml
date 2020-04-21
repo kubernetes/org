@@ -176,6 +176,16 @@ teams:
     - seokho-son
     - ysyukr
     privacy: closed
+  sig-docs-leads:
+    description: Chairs and tech leads for SIG Docs
+    members:
+    - jimangel
+    - kbarnard10
+    - kbhawkey
+    - onlydole
+    - sftim
+    - zacharysarah
+    privacy: closed
   sig-docs-pl-owners:
     description: Approvers for Polish content
     members:
@@ -276,8 +286,8 @@ teams:
     previously:
     - kubernetes-website-admins
     members:
-    - Bradamant3
     - jimangel
+    - kbarnard10
     - zacharysarah
     privacy: closed
   website-maintainers:
@@ -307,6 +317,7 @@ teams:
     - nasa9084 # L10n: Japanese
     - ngtuna # L10n: Vietnamese
     - nvtkaszpir # L10n: Polish
+    - onlydole # L10n: English, 1.19 release lead
     - potapy4 # L10n: Russian
     - raelga # L10n: Spanish
     - remyleone # L10n: French
@@ -351,6 +362,7 @@ teams:
     - msheldyakov
     - nasa9084
     - ngtuna
+    - onlydole
     - oussemos
     - perriea
     - potapy4

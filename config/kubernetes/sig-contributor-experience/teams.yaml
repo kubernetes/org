@@ -47,6 +47,21 @@ teams:
     - Phillels
     - tpepper
     privacy: closed
+  ghas-subproject-board:
+    description: Members who have access to edit the GitHub Administration
+      Subproject Board
+    maintainers:
+    - cblecker
+    - fejta
+    - idvoretskyi
+    - mrbobbytables
+    - nikhita
+    - spiffxp
+    members:
+    - idealhack
+    - justaugustus
+    - nzoueidi
+    privacy: closed
   project-board-maintainers:
     description: Contributors with access to groom issues on org-level project boards.
       Groups can opt-in to assistance with grooming by adding this team to their project

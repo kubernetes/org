@@ -218,19 +218,6 @@ teams:
     - smarterclayton
     - yliaog
     privacy: closed
-  admins-cluster-proportional-autoscaler:
-    description: Admin access to the cluster-proportional-autoscaler repo
-    members:
-    - bowei
-    - calebamiles
-    - MrHohn
-    - philips
-    privacy: closed
-  admins-cluster-proportional-vertical-autoscaler:
-    description: Admin access to the cluster-proportional-vertical-autoscaler repo
-    members:
-    - MrHohn
-    privacy: closed
   admins-kargo:
     description: Admin access to the kargo repo
     members:
@@ -351,19 +338,6 @@ teams:
     - hodovska
     - ingvagabund
     - sarahnovotny
-    privacy: closed
-  maintainers-cluster-proportional-autoscaler:
-    description: Write access to the cluster-proportional-autoscaler repo
-    members:
-    - calebamiles
-    - MrHohn
-    - philips
-    privacy: closed
-  maintainers-cluster-proportional-vertical-autoscaler:
-    description: Write access to the cluster-proportional-vertical-autoscaler repo
-    members:
-    - dnardo
-    - thockin
     privacy: closed
   maintainers-external-storage:
     description: Write access to the external-storage repo

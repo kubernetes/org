@@ -126,7 +126,6 @@ members:
 - nzoueidi
 - onyiny-ang
 - parispittman
-- pbx0
 - philips
 - piosz
 - piotrmiskiewicz
@@ -318,7 +317,6 @@ teams:
     members:
     - aaronlevy
     - derekparker
-    - pbx0
     - philips
     privacy: closed
   maintainers-client-python:
@@ -383,7 +381,6 @@ teams:
     - calebamiles
     - colhom
     - mumoshu
-    - pbx0
     - philips
     - redbaron
     privacy: closed

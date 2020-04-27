@@ -15,11 +15,11 @@ teams:
   ci-signal:
     description: Members of the CI Signal team for the current release cycle.
     members:
-      - droslean # 1.18 CI Signal Lead
       - hasheddan # 1.19 CI Signal Lead
-      - hrishin # 1.18 CI Signal shadow
-      - jpreese # 1.18 CI Signal shadow
-      - prksu # 1.18 CI Signal shadow
+      - hkamel # 1.19 CI Signal Shadow
+      - robertkielty # 1.19 CI Signal Shadow
+      - sayanchowdhury # 1.19 CI Signal Shadow
+      - vineethreddy02 # 1.19 CI Signal Shadow
     privacy: closed
   licensing:
     description: Members of the Licensing subproject.

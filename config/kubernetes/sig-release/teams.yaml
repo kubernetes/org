@@ -67,6 +67,7 @@ teams:
     - derekwaynecarr # Architecture / Node
     - dims # Architecture / Release
     - dougm # Patch Release Team
+    - droslean # 1.19 Bug Triage Shadow
     - enj # Auth
     - fabriziopandini # Cluster Lifecycle
     - feiskyer # Azure

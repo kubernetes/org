@@ -76,6 +76,7 @@ teams:
     - gianarb # 1.19 Bug Triage Lead
     - harshanarayana # 1.19 RT Enhancements Shadow
     - hasheddan # Branch Manager / 1.19 CI Signal Lead
+    - hkamel # 1.19 CI Signal Shadow
     - hoegaarden # Patch Release Team
     - hpandeycodeit # Usability
     - idealhack # Patch Release Team
@@ -126,9 +127,11 @@ teams:
     - quinton-hoole # Multicluster
     - RainbowMango # Instrumentation
     - rajakavitha1 # Usability
+    - robertkielty # 1.19 CI Signal Shadow
     - saad-ali # Storage
     - saschagrunert # Branch Manager
     - savitharaghunathan # 1.19 RT Docs Lead
+    - sayanchowdhury # 1.19 CI Signal Shadow
     - seans3 # CLI
     - serathius # Instrumentation
     - shyamjvs # Scalability
@@ -141,6 +144,7 @@ teams:
     - thockin # Network
     - timothysc # Cluster Lifecycle / Testing
     - tpepper # Release
+    - vineethreddy02 # 1.19 CI Signal Shadow
     - vllry # Usability
     - wojtek-t # Scalability
     - zacharysarah # Docs

@@ -87,7 +87,7 @@ teams:
     - jdumars # Architecture / PM
     - jeefy # UI
     - jeremyrickard # 1.19 RT Lead Shadow
-    - jimangel # Docs
+    - jimangel # Docs / Release Manager Associate
     - johnbelamaric # Architecture / 1.19 RT Enhancements Shadow
     - jtslear # 1.18 Bug Triage shadow
     - justaugustus # Azure / PM / Release
@@ -104,6 +104,7 @@ teams:
     - liyinan926 # Big Data
     - luxas # Cluster Lifecycle
     - maciaszczykm # UI
+    - markyjackson-taulia # Release Manager Associate
     - marosset # Windows
     - mattfarina # Apps / Architecture
     - mborsz # Scalability
@@ -135,6 +136,7 @@ teams:
     - sayanchowdhury # 1.19 CI Signal Shadow
     - seans3 # CLI
     - serathius # Instrumentation
+    - sethmccombs # Release Manager Associate
     - shyamjvs # Scalability
     - smourapina # 1.18 Bug Triage Lead
     - soltysh # CLI
@@ -145,9 +147,11 @@ teams:
     - thockin # Network
     - timothysc # Cluster Lifecycle / Testing
     - tpepper # Release
+    - verolop # Release Manager Associate
     - vineethreddy02 # 1.19 CI Signal Shadow
     - vllry # Usability
     - wojtek-t # Scalability
+    - xmudrii # Release Manager Associate
     - zacharysarah # Docs
     privacy: closed
     previously:

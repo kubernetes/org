@@ -18,6 +18,7 @@ admins:
 members:
 - 27149chen
 - andrewsykim
+- andyzhangx
 - bertinatto
 - bswartz
 - calebamiles
@@ -176,6 +177,22 @@ teams:
     - msau42
     - saad-ali
     - xing-yang
+    privacy: closed
+  csi-driver-smb-admins:
+    description: Admin access to csi-driver-smb repo
+    members:
+    - andyzhangx
+    - jsafrane
+    - msau42
+    - saad-ali
+    - xing-yang
+    privacy: closed
+  csi-driver-smb-maintainers:
+    description: Write access to csi-driver-smb repo
+    members:
+    - andyzhangx
+    - jingxu97
+    - msau42
     privacy: closed
   csi-lib-fc-admins:
     description: Admin access to csi-lib-fc repo

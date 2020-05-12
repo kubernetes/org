@@ -13,18 +13,22 @@ teams:
     - michmike
     - PatrickLang
     privacy: closed
-  sig-windows-examples-admins:
-    description: Admin access to sig-windows-examples repo
+  sig-windows-samples-admins:
+    description: Admin access to sig-windows-samples repo
     members:
     - marosset
     - michmike
     privacy: closed
-  sig-windows-examples-maintainers:
-    description: Write access to sig-windows-examples repo
+    previously:
+    - sig-windows-examples-admins
+  sig-windows-samples-maintainers:
+    description: Write access to sig-windows-samples repo
     members:
     - marosset
     - michmike
     privacy: closed
+    previously:
+    - sig-windows-examples-maintainers
   sig-windows-tools-admins:
     description: Admin access to sig-windows-tools repo
     members:

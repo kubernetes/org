@@ -72,6 +72,7 @@ teams:
   ingress-controller-conformance-admins:
     description: Admin access to the ingress-controller-conformance repo
     members:
+    - alexgervais
     - bowei
     - thockin
     privacy: closed
@@ -80,6 +81,7 @@ teams:
   ingress-controller-conformance-maintainers:
     description: Write access to the ingress-controller-conformance repo
     members:
+    - alexgervais
     - bowei
     - thockin
     privacy: closed

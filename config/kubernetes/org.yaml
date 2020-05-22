@@ -1672,18 +1672,6 @@ teams:
     - rifelpet
     - yissachar
     privacy: closed
-  kube-deploy-admins:
-    description: Admin access to the kube-deploy repo
-    members:
-    - justinsb
-    - kris-nova
-    privacy: closed
-  kube-deploy-maintainers:
-    description: Write access to the kube-deploy repo
-    members:
-    - justinsb
-    - kris-nova
-    privacy: closed
   kube-openapi-admins:
     description: Admin access to the kube-openapi repo
     members:

@@ -32,23 +32,38 @@ teams:
     members:
     - dims
     privacy: closed
-  enhancements-admins:
-    description: Contributors with admin access to k/enhancements
+  enhancements:
+    description: Enhancements subproject members (includes subproject owners
+      and the active Release Team's Enhancements subteam)
     maintainers:
-    - mrbobbytables
+    - mrbobbytables # subproject owner
     members:
-    - jeremyrickard
-    - johnbelamaric
-    - justaugustus
+    - harshanarayana # 1.19 RT Enhancements Shadow
+    - jeremyrickard # subproject owner
+    - johnbelamaric # subproject owner / 1.19 RT Enhancements Shadow
+    - justaugustus # subproject owner
+    - kikisdeliveryservice # 1.19 RT Enhancements Shadow
+    - msedzins # 1.19 RT Enhancements Shadow
+    - palnabarun # 1.19 RT Enhancements Lead
     privacy: closed
-  enhancements-maintainers:
-    description: Contributors with write access to k/enhancements
-    maintainers:
-    - mrbobbytables
-    members:
-    - jeremyrickard
-    - johnbelamaric
-    - justaugustus
-    previously:
-    - features-maintainers
-    privacy: closed
+    teams:
+      enhancements-admins:
+        description: Contributors with admin access to k/enhancements
+        maintainers:
+        - mrbobbytables # subproject owner
+        members:
+        - jeremyrickard # subproject owner
+        - johnbelamaric # subproject owner
+        - justaugustus # subproject owner
+        privacy: closed
+      enhancements-maintainers:
+        description: Contributors with write access to k/enhancements
+        maintainers:
+        - mrbobbytables # subproject owner
+        members:
+        - jeremyrickard # subproject owner
+        - johnbelamaric # subproject owner
+        - justaugustus # subproject owner
+        previously:
+        - features-maintainers
+        privacy: closed

@@ -11,6 +11,22 @@ teams:
     - s-urbaniak
     - serathius
     privacy: closed
+  instrumentation-tools-admins:
+    description: Admin access to the instrumentation-tools repo
+    members:
+    - brancz
+    - dashpole
+    - ehashman
+    - logicalhan
+    privacy: closed
+  instrumentation-tools-maintainers:
+    description: Write access to the instrumentation-tools repo
+    members:
+    - brancz
+    - dashpole
+    - ehashman
+    - logicalhan
+    privacy: closed
   metrics-server-admins:
     description: Admin access to the metrics-server repo
     members:

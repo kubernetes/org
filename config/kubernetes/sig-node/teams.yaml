@@ -80,6 +80,9 @@ teams:
   sig-node-test-failures:
     description: Test Failures for Kubernetes Node Special-Interest-Group
     members:
+    - alejandrox1
+    - bobbypage
+    - bsdnet
     - ConnorDoyle
     - dashpole
     - dchen1107
@@ -87,6 +90,7 @@ teams:
     - euank
     - feiskyer
     - karan
+    - MHBauer
     - mtaufen
     - Random-Liu
     - resouer
@@ -95,6 +99,7 @@ teams:
     - timstclair
     - vikaschoudhary16
     - vishh
+    - vpickard
     - yguo0905
     - yujuhong
     privacy: closed

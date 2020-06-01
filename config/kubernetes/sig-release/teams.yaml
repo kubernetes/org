@@ -95,6 +95,7 @@ teams:
     - justinsb # AWS / Cluster Lifecycle
     - k82cn # Scheduling
     - k8s-release-robot # Release
+    - kbruner # 1.19 Bug Triage shadow
     - khenidak # Azure
     - kikisdeliveryservice # 1.19 RT Enhancements Shadow
     - kow3ns # Apps

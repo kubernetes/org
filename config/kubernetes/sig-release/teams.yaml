@@ -1,8 +1,9 @@
 teams:
   milestone-maintainers:
-    description: Contributors who can use `/milestone` or `/status` commands on issues/PRs.
-      This team also grants write access to the kubernetes/enhancements repo to allow
-      editing of descriptions for Enhancement tracking issues.
+    description: Contributors who can use `/milestone` or `/status` commands on
+      issues/PRs. This team also grants write access to the
+      kubernetes/enhancements repo to allow editing of descriptions for
+      Enhancement tracking issues.
     maintainers:
     - cblecker # ContribEx
     - fejta # Testing
@@ -175,8 +176,8 @@ teams:
         - swinslow # subproject owner
         privacy: closed
       release-engineering:
-        description: Members of the Release Engineering subproject, including Build Admins,
-          Patch Release Team, Branch Managers, and Release Manager Associates.
+        description: Members of the Release Engineering subproject, including
+          Release Managers, Release Manager Associates, and Build Admins.
         members:
         - aleksandra-malinowska # Build Admin
         - calebamiles # subproject owner
@@ -200,9 +201,10 @@ teams:
         privacy: closed
         teams:
           build-admins:
-            description: Kubernetes Build Admins are the current set of Googlers with access to
-              publish packages (debs/rpms) on behalf of the Kubernetes project. This team is a
-              notification-only group, which includes the SIG Release Chairs for continuity.
+            description: Kubernetes Build Admins are the current set of
+              Googlers with access to publish packages (debs/rpms) on behalf of
+              the Kubernetes project. This team is a notification-only group,
+              which includes the SIG Release Chairs for continuity.
             members:
             - aleksandra-malinowska
             - calebamiles
@@ -213,10 +215,10 @@ teams:
             - tpepper
             privacy: closed
           release-managers:
-            description: People actively pushing Kubernetes releases. Gives admin access to
-              repos where branches must be created, etc., and write access to ones where
-              label/PR management is needed. Remove users who are not actively doing
-              this job.
+            description: People actively pushing Kubernetes releases. Gives
+              admin access to repos where branches must be created and write
+              access to ones where label/PR management is needed. Remove users
+              who are not actively doing this job.
             members:
             - cpanato
             - dougm
@@ -251,11 +253,12 @@ teams:
         - puerco # 1.19 RT Release Notes Lead
         - saschagrunert # Release Manager
         - savitharaghunathan # 1.19 RT Docs Lead
-        - tpepper # subproject owner / 1.19 Emeritus Adviser
+        - tpepper # subproject owner / Release Manager / 1.19 Emeritus Adviser
         privacy: closed
         teams:
           ci-signal:
-            description: Members of the CI Signal team for the current release cycle.
+            description: Members of the CI Signal team for the current release
+              cycle.
             members:
             - hasheddan # 1.19 CI Signal Lead
             - hkamel # 1.19 CI Signal Shadow
@@ -264,10 +267,11 @@ teams:
             - vineethreddy02 # 1.19 CI Signal Shadow
             privacy: closed
           release-team-leads:
-            description: Release Team Leads for the current Kubernetes release cycle.
-              Grants write access to kubernetes/kubernetes, kubernetes/release, and kubernetes/sig-release,
-              and can be used as a notification group.
-              Remove org members who are not current Release Team Leads.
+            description: Release Team Leads for the current Kubernetes release
+              cycle. Grants write access to kubernetes/kubernetes,
+              kubernetes/release, and kubernetes/sig-release, and can be used
+              as a notification group. Remove org members who are not current
+              Release Team Leads.
             maintainers:
             - mrbobbytables # 1.19 RT Lead Shadow
             members:

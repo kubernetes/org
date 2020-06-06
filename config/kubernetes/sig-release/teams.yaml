@@ -157,18 +157,6 @@ teams:
     privacy: closed
     previously:
     - kubernetes-milestone-maintainers
-  patch-release-team:
-    description: People managing patch releases of prior k8s minor release
-      branches. This team is used for notifications for all active patch
-      managers, but does not give permissions.
-    members:
-    - dougm
-    - feiskyer
-    - hoegaarden
-    - idealhack
-    - justaugustus
-    - tpepper
-    privacy: closed
   publishing-bot-reviewers:
     description: Reviews for publishing-bot
     maintainers:

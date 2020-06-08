@@ -38,6 +38,20 @@ teams:
         - cheyang
         - xlgao-zju
         privacy: closed
+      sig-cloud-provider-aws-admins:
+        description: "Admin access to k8s.io/cloud-provider-aws"
+        members:
+        - andrewsykim
+        - justinsb
+        - nckturner
+        privacy: closed
+      sig-cloud-provider-aws-maintainers:
+        description: "Write access to k8s.io/cloud-provider-aws"
+        members:
+        - andrewsykim
+        - justinsb
+        - nckturner
+        privacy: closed
       sig-cloud-provider-api-reviews:
         description: ""
         members:

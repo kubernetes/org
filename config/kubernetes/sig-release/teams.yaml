@@ -1,39 +1,9 @@
 teams:
-  build-admins:
-    description: Kubernetes Build Admins are the current set of Googlers with access to
-      publish packages (debs/rpms) on behalf of the Kubernetes project. This team is a
-      notification-only group, which includes the SIG Release Chairs for continuity.
-    members:
-    - aleksandra-malinowska
-    - calebamiles
-    - justaugustus
-    - listx
-    - ps882
-    - sumitranr
-    - tpepper
-    privacy: closed
-  ci-signal:
-    description: Members of the CI Signal team for the current release cycle.
-    members:
-      - hasheddan # 1.19 CI Signal Lead
-      - hkamel # 1.19 CI Signal Shadow
-      - robertkielty # 1.19 CI Signal Shadow
-      - sayanchowdhury # 1.19 CI Signal Shadow
-      - vineethreddy02 # 1.19 CI Signal Shadow
-    privacy: closed
-  licensing:
-    description: Members of the Licensing subproject.
-    maintainers:
-    - nikhita # subproject owner
-    members:
-    - dims # subproject owner
-    - justaugustus # subproject owner
-    - swinslow # subproject owner
-    privacy: closed
   milestone-maintainers:
-    description: Contributors who can use `/milestone` or `/status` commands on issues/PRs.
-      This team also grants write access to the kubernetes/enhancements repo to allow
-      editing of descriptions for Enhancement tracking issues.
+    description: Contributors who can use `/milestone` or `/status` commands on
+      issues/PRs. This team also grants write access to the
+      kubernetes/enhancements repo to allow editing of descriptions for
+      Enhancement tracking issues.
     maintainers:
     - cblecker # ContribEx
     - fejta # Testing
@@ -58,7 +28,7 @@ teams:
     - cheftako # Cloud Provider
     - childsb # Storage
     - chrigl # OpenStack
-    - cpanato # Branch Manager
+    - cpanato # Release Manager
     - craiglpeters # Azure
     - d-nishi # AWS
     - dcbw # Network
@@ -67,7 +37,7 @@ teams:
     - deads2k # API Machinery / Auth
     - derekwaynecarr # Architecture / Node
     - dims # Architecture / Release
-    - dougm # Patch Release Team
+    - dougm # Release Manager
     - droslean # 1.19 Bug Triage Shadow
     - enj # Auth
     - fabriziopandini # Cluster Lifecycle
@@ -77,11 +47,11 @@ teams:
     - frapposelli # VMware
     - gianarb # 1.19 Bug Triage Lead
     - harshanarayana # 1.19 RT Enhancements Shadow
-    - hasheddan # Branch Manager / 1.19 CI Signal Lead
+    - hasheddan # Release Manager / 1.19 CI Signal Lead
     - hkamel # 1.19 CI Signal Shadow
-    - hoegaarden # Patch Release Team
+    - hoegaarden # Release Manager
     - hpandeycodeit # Usability
-    - idealhack # Patch Release Team
+    - idealhack # Release Manager
     - janetkuo # Apps
     - jberkhahn # Service Catalog
     - jberkus # Release
@@ -132,7 +102,7 @@ teams:
     - rajakavitha1 # Usability
     - robertkielty # 1.19 CI Signal Shadow
     - saad-ali # Storage
-    - saschagrunert # Branch Manager
+    - saschagrunert # Release Manager
     - savitharaghunathan # 1.19 RT Docs Lead
     - sayanchowdhury # 1.19 CI Signal Shadow
     - seans3 # CLI
@@ -157,18 +127,6 @@ teams:
     privacy: closed
     previously:
     - kubernetes-milestone-maintainers
-  patch-release-team:
-    description: People managing patch releases of prior k8s minor release
-      branches. This team is used for notifications for all active patch
-      managers, but does not give permissions.
-    members:
-    - dougm
-    - feiskyer
-    - hoegaarden
-    - idealhack
-    - justaugustus
-    - tpepper
-    privacy: closed
   publishing-bot-reviewers:
     description: Reviews for publishing-bot
     maintainers:
@@ -179,190 +137,148 @@ teams:
     - mfojtik
     - sttts
     privacy: closed
-  release-engineering:
-    description: Members of the Release Engineering subproject, including Build Admins,
-      Patch Release Team, Branch Managers, and Release Manager Associates.
-    members:
-    - aleksandra-malinowska # Build Admin
-    - calebamiles # subproject owner
-    - cpanato # Branch Manager
-    - dougm # Patch Release Team
-    - feiskyer # Patch Release Team
-    - hasheddan # Branch Manager
-    - hoegaarden # subproject owner / Patch Release Team
-    - idealhack # Patch Release Team
-    - jimangel # Release Manager Associate
-    - justaugustus # subproject owner / Build Admin / Patch Release Team
-    - listx # Build Admin
-    - markyjackson-taulia # Release Manager Associate
-    - ps882 # Build Admin
-    - saschagrunert # Branch Manager
-    - sethmccombs # Release Manager Associate
-    - sumitranr # Build Admin
-    - tpepper # subproject owner / Build Admin / Patch Release Team
-    - Verolop # Release Manager Associate
-    - xmudrii # Release Manager Associate
-    privacy: closed
-  release-managers:
-    description: People actively pushing k8s releases. Gives admin access to
-      repos where branches must be created, etc., and write access to ones where
-      label/PR management is needed. Remove users who are not actively doing
-      this job.
-    members:
-    - cpanato # Branch Manager
-    - dougm # Patch Release Team
-    - feiskyer # Patch Release Team
-    - hasheddan # Branch Manager
-    - hoegaarden # Patch Release Team
-    - idealhack # Patch Release Team
-    - justaugustus # Branch Manager
-    - k8s-release-robot
-    - saschagrunert # Branch Manager
-    - tpepper # Patch Release Team
-    privacy: closed
-    previously:
-    - kubernetes-release-managers
-  release-team:
-    description: Members of the current Release Team and subproject owners.
-    maintainers:
-    - mrbobbytables # 1.19 RT Lead Shadow
-    members:
-    - alejandrox1 # subproject owner
-    - claurence # subproject owner
-    - cpanato # Branch Manager
-    - gianarb # 1.19 Bug Triage Lead
-    - guineveresaenger # subproject owner
-    - hasheddan # Branch Manager / 1.19 CI Signal Lead
-    - jeremyrickard # 1.19 RT Lead Shadow
-    - justaugustus # subproject owner
-    - lachie83 # subproject owner
-    - mkorbi # 1.19 RT Communications Lead
-    - onlydole # 1.19 RT Lead
-    - palnabarun # 1.19 RT Enhancements Lead
-    - puerco # 1.19 RT Release Notes Lead
-    - saschagrunert # Branch Manager
-    - savitharaghunathan # 1.19 RT Docs Lead
-    - tpepper # subproject owner / 1.19 Emeritus Adviser
-    privacy: closed
-    teams:
-      release-team-leads:
-        description: Release Team Leads for the current Kubernetes release cycle.
-           Grants write access to kubernetes/kubernetes, kubernetes/release, and kubernetes/sig-release,
-           and can be used as a notification group.
-          Remove org members who are not current Release Team Leads.
-        maintainers:
-        - mrbobbytables # 1.19 RT Lead Shadow
-        members:
-        - jeremyrickard # 1.19 RT Lead Shadow
-        - onlydole # 1.19 RT Lead
-        - tpepper # 1.19 Emeritus Adviser
-        privacy: closed
-  sig-release:
+  sig-release: # explicitly lists active folks that are not already members of a nested team
     description: SIG Release Members
     maintainers:
     - mrbobbytables
     - nikhita
     - spiffxp
     members:
-    - abgworrall
-    - AishSundar
-    - alejandrox1
-    - aleksandra-malinowska
     - alenkacz
-    - alexeldeib
-    - amwat
     - BenTheElder
-    - Bradamant3
-    - bubblemelon
-    - caesarxuchao
     - calebamiles
-    - cartyc
     - castrojo
-    - chenopis
-    - chrisz100
-    - cjwagner
-    - claurence
-    - cpanato
-    - craiglpeters
-    - daminisatya
-    - dashpole
-    - dchen1107
     - dims
-    - dougm
-    - dstrebel
-    - enisoc
-    - ethernetdan
-    - evillgenius75
-    - feiskyer
-    - foxish
-    - gianarb
-    - girikuncoro
-    - guineveresaenger
-    - hasheddan
-    - hoegaarden
-    - idealhack
-    - imkin
     - ixdy
-    - javier-b-perez
     - jberkus
     - jdumars
     - jeefy
     - jeremyrickard
-    - jimangel
-    - josiahbjorgaard
-    - jpbetz
     - justaugustus
-    - k82cn
-    - kacole2
-    - Katharine
-    - kbarnard10
-    - krzyzacy
-    - lachie83
     - liggitt
-    - listx
-    - MaciekPytel
-    - MAKOSCAFEE
     - mariantalla
-    - markyjackson-taulia
-    - marpaia
-    - marun
-    - mbohlool
-    - mcrute
-    - mistyhacks
-    - mkorbi
-    - mohammedzee1000
-    - monopole
-    - nickchase
     - nikopen
-    - nwoods3
-    - onlydole
     - onyiny-ang
     - palnabarun
-    - ps882
-    - pswica
-    - puerco
-    - pwittrock
-    - radhikapc
     - rawkode
-    - rbitia
-    - saad-ali
-    - saschagrunert
     - savitharaghunathan
-    - shyamjvs
-    - simplytunde
-    - slicknik
     - soggiest
-    - steveperry-53
-    - sumitranr
-    - tfogo
     - tpepper
-    - Verolop
-    - wojtek-t
-    - xmudrii
-    - zacharysarah
-    - zparnold
     privacy: closed
     teams:
+      licensing:
+        description: Members of the Licensing subproject.
+        maintainers:
+        - nikhita # subproject owner
+        members:
+        - dims # subproject owner
+        - justaugustus # subproject owner
+        - swinslow # subproject owner
+        privacy: closed
+      release-engineering:
+        description: Members of the Release Engineering subproject, including
+          Release Managers, Release Manager Associates, and Build Admins.
+        members:
+        - aleksandra-malinowska # Build Admin
+        - calebamiles # subproject owner
+        - cpanato # Release Manager
+        - dougm # Release Manager
+        - feiskyer # Release Manager
+        - hasheddan # Release Manager
+        - hoegaarden # subproject owner / Release Manager
+        - idealhack # Release Manager
+        - jimangel # Release Manager Associate
+        - justaugustus # subproject owner / Build Admin / Release Manager
+        - listx # Build Admin
+        - markyjackson-taulia # Release Manager Associate
+        - ps882 # Build Admin
+        - saschagrunert # Release Manager
+        - sethmccombs # Release Manager Associate
+        - sumitranr # Build Admin
+        - tpepper # subproject owner / Build Admin / Release Manager
+        - Verolop # Release Manager Associate
+        - xmudrii # Release Manager Associate
+        privacy: closed
+        teams:
+          build-admins:
+            description: Kubernetes Build Admins are the current set of
+              Googlers with access to publish packages (debs/rpms) on behalf of
+              the Kubernetes project. This team is a notification-only group,
+              which includes the SIG Release Chairs for continuity.
+            members:
+            - aleksandra-malinowska
+            - calebamiles
+            - justaugustus
+            - listx
+            - ps882
+            - sumitranr
+            - tpepper
+            privacy: closed
+          release-managers:
+            description: People actively pushing Kubernetes releases. Gives
+              admin access to repos where branches must be created and write
+              access to ones where label/PR management is needed. Remove users
+              who are not actively doing this job.
+            members:
+            - cpanato
+            - dougm
+            - feiskyer
+            - hasheddan
+            - hoegaarden
+            - idealhack
+            - justaugustus
+            - k8s-release-robot
+            - saschagrunert
+            - tpepper
+            privacy: closed
+            previously:
+            - kubernetes-release-managers
+      release-team:
+        description: Members of the current Release Team and subproject owners.
+        maintainers:
+        - mrbobbytables # 1.19 RT Lead Shadow
+        members:
+        - alejandrox1 # subproject owner
+        - claurence # subproject owner
+        - cpanato # Release Manager
+        - gianarb # 1.19 Bug Triage Lead
+        - guineveresaenger # subproject owner
+        - hasheddan # Release Manager / 1.19 CI Signal Lead
+        - jeremyrickard # 1.19 RT Lead Shadow
+        - justaugustus # subproject owner
+        - lachie83 # subproject owner
+        - mkorbi # 1.19 RT Communications Lead
+        - onlydole # 1.19 RT Lead
+        - palnabarun # 1.19 RT Enhancements Lead
+        - puerco # 1.19 RT Release Notes Lead
+        - saschagrunert # Release Manager
+        - savitharaghunathan # 1.19 RT Docs Lead
+        - tpepper # subproject owner / Release Manager / 1.19 Emeritus Adviser
+        privacy: closed
+        teams:
+          ci-signal:
+            description: Members of the CI Signal team for the current release
+              cycle.
+            members:
+            - hasheddan # 1.19 CI Signal Lead
+            - hkamel # 1.19 CI Signal Shadow
+            - robertkielty # 1.19 CI Signal Shadow
+            - sayanchowdhury # 1.19 CI Signal Shadow
+            - vineethreddy02 # 1.19 CI Signal Shadow
+            privacy: closed
+          release-team-leads:
+            description: Release Team Leads for the current Kubernetes release
+              cycle. Grants write access to kubernetes/kubernetes,
+              kubernetes/release, and kubernetes/sig-release, and can be used
+              as a notification group. Remove org members who are not current
+              Release Team Leads.
+            maintainers:
+            - mrbobbytables # 1.19 RT Lead Shadow
+            members:
+            - jeremyrickard # 1.19 RT Lead Shadow
+            - onlydole # 1.19 RT Lead
+            - tpepper # 1.19 Emeritus Adviser
+            privacy: closed
       sig-release-admins:
         description: Admins for SIG Release repositories
         members:

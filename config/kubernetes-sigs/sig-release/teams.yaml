@@ -19,6 +19,26 @@ teams:
     - listx
     - tpepper
     privacy: closed
+  release-engineering:
+    description: Members of the Release Engineering subproject, including
+      Release Managers and Release Manager Associates.
+    members:
+    - calebamiles # subproject owner
+    - cpanato # Release Manager
+    - dougm # Release Manager
+    - feiskyer # Release Manager
+    - hasheddan # Release Manager
+    - hoegaarden # subproject owner / Release Manager
+    - idealhack # Release Manager
+    - jimangel # Release Manager Associate
+    - justaugustus # subproject owner / Build Admin / Release Manager
+    - markyjackson-taulia # Release Manager Associate
+    - saschagrunert # Release Manager
+    - sethmccombs # Release Manager Associate
+    - tpepper # subproject owner / Build Admin / Release Manager
+    - Verolop # Release Manager Associate
+    - xmudrii # Release Manager Associate
+    privacy: closed
   release-notes-admins:
     description: admin access to release-notes
     members:

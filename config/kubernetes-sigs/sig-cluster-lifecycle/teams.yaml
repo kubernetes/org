@@ -106,9 +106,13 @@ teams:
   cluster-api-provider-azure-pms:
     description: ""
     members:
+    - alexeldeib
     - awesomenix
     - CecileRobertMichon
+    - devigned
+    - juan-lee
     - justaugustus
+    - nader-ziada
     - rbitia
     privacy: closed
   cluster-api-provider-digitalocean-admins:

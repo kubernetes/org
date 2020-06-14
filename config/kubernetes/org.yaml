@@ -1723,19 +1723,11 @@ teams:
   kubeadm-maintainers:
     description: Write access to the kubeadm repo
     members:
-    - chuckha
     - detiber
-    - errordeveloper
     - fabriziopandini
-    - jamiehannaford
-    - jbeda
-    - liztio
-    - lukemarsden
     - luxas
-    - medinatiger
     - neolit123
-    - pipejakob
-    - stealthybox
+    - rosti
     - timothysc
     privacy: closed
   kubectl-admins:

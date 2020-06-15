@@ -1,4 +1,20 @@
 teams:
+  kubeadm-admins:
+    description: Admin access to the kubeadm repo
+    members:
+    - luxas
+    - timothysc
+    privacy: closed
+  kubeadm-maintainers:
+    description: Write access to the kubeadm repo
+    members:
+    - detiber
+    - fabriziopandini
+    - luxas
+    - neolit123
+    - rosti
+    - timothysc
+    privacy: closed
   sig-cluster-lifecycle:
     description: Use only if you can't figure out a better category
     members:

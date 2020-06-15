@@ -185,6 +185,20 @@ teams:
     - jichenjc
     - sbueringer
     privacy: closed
+  cluster-api-provider-packet-admins:
+    description: Admin access to cluster-api-provider-packet repo
+    members:
+    - deitch
+    - mrmrcoleman
+    privacy: closed
+  cluster-api-provider-packet-maintainers:
+    description: Write access to the cluster-api-provider-packet repo
+    members:
+    - deitch
+    - gianarb
+    - jacobsmith928
+    - mrmrcoleman
+    privacy: closed
   cluster-api-provider-vsphere-admins:
     description: Admin access to the cluster-api-provider-vsphere repo
     members:

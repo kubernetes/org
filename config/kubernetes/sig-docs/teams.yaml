@@ -283,6 +283,22 @@ teams:
     - ngtuna
     - truongnh1992
     privacy: closed
+  sig-docs-uk-owners:
+    description: Approvers for Ukrainian content
+    members:
+    - anastyakulyk
+    - butuzov
+    - MaxymVlasov
+    privacy: closed
+  sig-docs-uk-reviews:
+    description: PR reviews for Ukrainian content
+    members:
+    - anastyakulyk
+    - Arhell
+    - butuzov
+    - MaxymVlasov
+    - Potapy4
+    privacy: closed
   website-admins:
     description: Admin access to the website repo
     previously:

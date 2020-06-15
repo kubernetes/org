@@ -1714,22 +1714,6 @@ teams:
     - LiliC
     - tariq1890
     privacy: closed
-  kubeadm-admins:
-    description: Admin access to the kubeadm repo
-    members:
-    - luxas
-    - timothysc
-    privacy: closed
-  kubeadm-maintainers:
-    description: Write access to the kubeadm repo
-    members:
-    - detiber
-    - fabriziopandini
-    - luxas
-    - neolit123
-    - rosti
-    - timothysc
-    privacy: closed
   kubectl-admins:
     description: Admin access to the kubectl repo
     members:

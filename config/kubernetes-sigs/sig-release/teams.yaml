@@ -8,6 +8,7 @@ teams:
     - justaugustus
     - listx
     - tpepper
+    - yodahekinsew
     privacy: closed
   k8s-container-image-promoter-maintainers:
     description: write access to k8s-container-image-promoter

@@ -15,8 +15,10 @@ Learn how to engage with the Kubernetes community on the
 
 You can reach the maintainers of this project at:
 
-- [Slack](http://slack.k8s.io/)
-- [Mailing List](https://groups.google.com/forum/#!forum/kubernetes-dev)
+- [#github-management](https://kubernetes.slack.com/messages/github-management) on slack
+- [Mailing List](https://groups.google.com/forum/#!forum/kubernetes-sig-contribex)
+
+To report any sensitive information, please email the private github@kubernetes.io list.
 
 ### Code of conduct
 

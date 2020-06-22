@@ -6,6 +6,7 @@ teams:
     - chrigl
     - dims
     - lingxiankong
+    - ramineni
     privacy: closed
   cloud-provider-openstack-maintainers:
     description: Write access to the cloud-provider-openstack repo
@@ -14,6 +15,7 @@ teams:
     - chrigl
     - dims
     - lingxiankong
+    - ramineni
     privacy: closed
   cloud-provider-openstack-members:
     description: ""
@@ -22,6 +24,7 @@ teams:
     - chrigl
     - dims
     - lingxiankong
+    - ramineni
     privacy: closed
   provider-openstack-api-reviews:
     description: ""
@@ -29,6 +32,7 @@ teams:
     - adisky
     - chrigl
     - lingxiankong
+    - ramineni
     privacy: closed
     previously:
     - sig-openstack-api-reviews
@@ -38,6 +42,7 @@ teams:
     - adisky
     - chrigl
     - lingxiankong
+    - ramineni
     privacy: closed
     previously:
     - sig-openstack-bugs
@@ -47,6 +52,7 @@ teams:
     - adisky
     - chrigl
     - lingxiankong
+    - ramineni
     privacy: closed
     previously:
     - sig-openstack-feature-requests
@@ -68,6 +74,7 @@ teams:
     - lingxiankong
     - NickrenREN
     - pigmej
+    - ramineni
     - rootfs
     - russellb
     - stevemcquaid
@@ -81,6 +88,7 @@ teams:
     - adisky
     - chrigl
     - lingxiankong
+    - ramineni
     privacy: closed
     previously:
     - sig-openstack-pr-reviews
@@ -90,6 +98,7 @@ teams:
     - adisky
     - chrigl
     - lingxiankong
+    - ramineni
     privacy: closed
     previously:
     - sig-openstack-proposals
@@ -99,6 +108,7 @@ teams:
     - adisky
     - chrigl
     - lingxiankong
+    - ramineni
     privacy: closed
     previously:
     - sig-openstack-test-failures

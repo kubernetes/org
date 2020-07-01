@@ -13,6 +13,7 @@ teams:
     - gnufied
     - jsafrane
     - leakingtapan
+    - wongma7
     privacy: closed
   aws-encryption-provider-admins:
     description: admin access to aws_encryption-provider repo
@@ -40,6 +41,7 @@ teams:
     - jsafrane
     - justinsb
     - leakingtapan
+    - wongma7
     privacy: closed
   aws-efs-csi-driver-admins:
     description: admin access to aws-efs-csi-driver
@@ -55,4 +57,5 @@ teams:
     - jsafrane
     - justinsb
     - leakingtapan
+    - wongma7
     privacy: closed

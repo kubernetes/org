@@ -179,6 +179,7 @@ teams:
   sig-docs-leads:
     description: Chairs and tech leads for SIG Docs
     members:
+    - irvifa
     - jimangel
     - kbarnard10
     - kbhawkey

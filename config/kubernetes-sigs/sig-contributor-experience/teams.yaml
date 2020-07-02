@@ -13,6 +13,24 @@ teams:
     members:
     - castrojo
     privacy: closed
+  contributor-tweets-admins:
+    description: admin access to contributor-tweets
+    maintainers:
+    - cblecker
+    - mrbobbytables
+    - nikhita
+    members:
+    - castrojo
+    privacy: closed
+  contributor-tweets-maintainers:
+    description: write access to contributor-tweets
+    maintainers:
+    - cblecker
+    - mrbobbytables
+    - nikhita
+    members:
+    - castrojo
+    privacy: closed
   discuss-theme-admins:
     description: admin access to the discuss-theme repo
     maintainers:

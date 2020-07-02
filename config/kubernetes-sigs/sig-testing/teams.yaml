@@ -5,9 +5,27 @@ teams:
     - alvaroaleman
     - ixdy
     - stevekuznetsov
+    privacy: closed
   boskos-maintainers:
     description: write access to kubernetes-sigs/boksos
     members:
     - alvaroaleman
     - ixdy
     - stevekuznetsov
+    privacy: closed
+  kubetest2-admins:
+    description: Admin access to kubetest2
+    maintainers:
+    - spiffxp
+    members:
+    - amwat
+    - BenTheElder
+    privacy: closed
+  kubetest2-maintainers:
+    description: Write access to kubetest2
+    maintainers:
+    - spiffxp
+    members:
+    - amwat
+    - BenTheElder
+    privacy: closed

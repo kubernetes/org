@@ -107,6 +107,11 @@ func testTeamMembers(teams map[string]org.Team, admins sets.String, orgMembers s
 		teamMaintainers = normalize(teamMaintainers)
 		teamMembers = normalize(teamMembers)
 
+		// ensure all teams have privacy as closed
+		if team.Privacy == nil || (team.Privacy != nil && *team.Privacy != org.Closed) {
+			errs = append(errs, fmt.Errorf("The team %s in org %s doesn't have the `privacy: closed` field", teamName, orgName))
+		}
+
 		// check for non-admins in maintainers list
 		if nonAdminMaintainers := teamMaintainers.Difference(admins); len(nonAdminMaintainers) > 0 {
 			errs = append(errs, fmt.Errorf("The team %s in org %s has non-admins listed as maintainers; these users should be in the members list instead: %s", teamName, orgName, strings.Join(nonAdminMaintainers.List(), ",")))

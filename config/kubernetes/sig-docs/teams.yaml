@@ -134,6 +134,7 @@ teams:
     - fabriziopandini
     - mattiaperi
     - micheleberardi
+    privacy: closed
   sig-docs-it-reviews:
     description: PR reviews for Italian content
     members:

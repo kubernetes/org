@@ -55,53 +55,20 @@ teams:
     - tstromberg
     privacy: closed
   sig-cluster-lifecycle:
-    description: Use only if you can't figure out a better category
+    description: For discussing SIG Cluster Lifecycle topics
     members:
-    - chuckha
     - detiber
     - dixudx
     - ereslibre
     - fabriziopandini
-    - jbeda
     - kad
-    - karan
-    - krousey
-    - liztio
     - luxas
-    - medinatiger
     - neolit123
-    - pipejakob
     - rosti
     - SataQiu
     - stealthybox
     - timothysc
-    - xiangpengzhao
     - yagonobre
-    privacy: closed
-  sig-cluster-lifecycle-pr-reviews:
-    description: ""
-    members:
-    - chuckha
-    - detiber
-    - dixudx
-    - ereslibre
-    - fabriziopandini
-    - jbeda
-    - kad
-    - karan
-    - krousey
-    - liztio
-    - luxas
-    - medinatiger
-    - neolit123
-    - pipejakob
-    - rosti
-    - SataQiu
-    - stealthybox
-    - timothysc
-    - xiangpengzhao
-    - yagonobre
-    - zouyee
     privacy: closed
   system-validators-admins:
     description: Admin access to system-validators repo

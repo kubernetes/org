@@ -1934,9 +1934,11 @@ teams:
     description: Please report security issues to https://kubernetes.io/security
     members:
     - cjcullen
+    - cji
     - joelsmith
-    - liggitt
-    - philips
+    - lukehinds
+    - micahhausler
+    - swamymsft
     - tallclair
     previously:
     - product-security-team

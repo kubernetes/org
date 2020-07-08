@@ -542,18 +542,6 @@ teams:
     - jeefy
     - maciaszczykm
     privacy: closed
-  etcdadm-admins:
-    description: Admin access to the etcdadm repo
-    members:
-    - dlipovetsky
-    - justinsb
-    privacy: closed
-  etcdadm-maintainers:
-    description: Write access to the etcdadm repo
-    members:
-    - dlipovetsky
-    - justinsb
-    privacy: closed
   gcp-filestore-csi-driver-admins:
     description: Admin access to the gcp-filestore-csi-driver repo
     members:
@@ -598,25 +586,6 @@ teams:
     description: Team responsible for sig-scheduling related projects
     members:
     - timothysc
-    privacy: closed
-  kubespray-admins:
-    description: Admin access to the kubespray repo
-    members:
-    - ant31
-    - chadswen
-    - mattymo
-    privacy: closed
-  kubespray-maintainers:
-    description: Write access to the kubespray repo
-    members:
-    - ant31
-    - Atoms
-    - chadswen
-    - mattymo
-    - miouge1
-    - mirwan
-    - riverzhang
-    - woopstar
     privacy: closed
   node-feature-discovery-admins:
     description: Admin access to the node-feature-discovery repo

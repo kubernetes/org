@@ -1,4 +1,25 @@
 teams:
+  kops-admins:
+    description: Admin access to the kops repo
+    members:
+    - justinsb
+    - mikedanese
+    - zmerlynn
+    privacy: closed
+  kops-maintainers:
+    description: Write access to the kops repo
+    members:
+    - chrislovecnm
+    - geojaz
+    - granular-ryanbonham
+    - justinsb
+    - kris-nova
+    - mikedanese
+    - mikesplain
+    - rdrgmnzs
+    - rifelpet
+    - yissachar
+    privacy: closed
   kubeadm-admins:
     description: Admin access to the kubeadm repo
     members:
@@ -15,54 +36,39 @@ teams:
     - rosti
     - timothysc
     privacy: closed
-  sig-cluster-lifecycle:
-    description: Use only if you can't figure out a better category
+  minikube-admins:
+    description: Admin access to the minikube repo
     members:
-    - chuckha
-    - detiber
-    - dixudx
-    - ereslibre
-    - fabriziopandini
-    - jbeda
-    - kad
-    - karan
-    - krousey
-    - liztio
-    - luxas
-    - medinatiger
-    - neolit123
-    - pipejakob
-    - rosti
-    - SataQiu
-    - stealthybox
-    - timothysc
-    - xiangpengzhao
-    - yagonobre
+    - balopat
+    - dlorenc
+    - tstromberg
+    - vishh
     privacy: closed
-  sig-cluster-lifecycle-pr-reviews:
-    description: ""
+  minikube-maintainers:
+    description: Write access to the minikube repo
     members:
-    - chuckha
+    - afbjorklund
+    - balopat
+    - ethernetdan
+    - jimmidyson
+    - sharifelgamal
+    - tstromberg
+    privacy: closed
+  sig-cluster-lifecycle:
+    description: For discussing SIG Cluster Lifecycle topics
+    members:
     - detiber
     - dixudx
     - ereslibre
     - fabriziopandini
-    - jbeda
     - kad
-    - karan
-    - krousey
-    - liztio
     - luxas
-    - medinatiger
     - neolit123
-    - pipejakob
     - rosti
     - SataQiu
     - stealthybox
     - timothysc
-    - xiangpengzhao
     - yagonobre
-    - zouyee
     privacy: closed
   system-validators-admins:
     description: Admin access to system-validators repo

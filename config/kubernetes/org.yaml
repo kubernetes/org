@@ -1675,27 +1675,6 @@ teams:
     - ngtuna
     - sebgoa
     privacy: closed
-  kops-admins:
-    description: Admin access to the kops repo
-    members:
-    - justinsb
-    - mikedanese
-    - zmerlynn
-    privacy: closed
-  kops-maintainers:
-    description: Write access to the kops repo
-    members:
-    - chrislovecnm
-    - geojaz
-    - granular-ryanbonham
-    - justinsb
-    - kris-nova
-    - mikedanese
-    - mikesplain
-    - rdrgmnzs
-    - rifelpet
-    - yissachar
-    privacy: closed
   kube-openapi-admins:
     description: Admin access to the kube-openapi repo
     members:
@@ -1871,24 +1850,6 @@ teams:
     - DirectXMan12
     - piosz
     - sarahnovotny
-    privacy: closed
-  minikube-admins:
-    description: Admin access to the minikube repo
-    members:
-    - balopat
-    - dlorenc
-    - tstromberg
-    - vishh
-    privacy: closed
-  minikube-maintainers:
-    description: Write access to the minikube repo
-    members:
-    - afbjorklund
-    - balopat
-    - ethernetdan
-    - jimmidyson
-    - sharifelgamal
-    - tstromberg
     privacy: closed
   node-problem-detector-admins:
     description: Admin access to the node-problem-detector repo

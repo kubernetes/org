@@ -1,4 +1,14 @@
 teams:
+  bootkube-admins:
+    description: admin access to bootkube repo
+    members:
+    - aaronlevy
+    privacy: closed
+  bootkube-maintainers:
+    description: write access to bootkube repo
+    members:
+    - aaronlevy
+    privacy: closed
   cluster-addons-admins:
     description: admin access to cluster-addons
     members:
@@ -18,16 +28,6 @@ teams:
     privacy: closed
     previously:
     - addon-operators-maintainers
-  bootkube-admins:
-    description: admin access to bootkube repo
-    members:
-    - aaronlevy
-    privacy: closed
-  bootkube-maintainers:
-    description: write access to bootkube repo
-    members:
-    - aaronlevy
-    privacy: closed
   cluster-api-admins:
     description: ""
     members:
@@ -128,7 +128,7 @@ teams:
     members:
     - cpanato
     - MorrisLaw
-    - prksu 
+    - prksu
     - timothysc
     - xmudrii
     privacy: closed
@@ -222,6 +222,18 @@ teams:
     - vincepri
     - yastij
     privacy: closed
+  etcdadm-admins:
+    description: Admin access to the etcdadm repo
+    members:
+    - dlipovetsky
+    - justinsb
+    privacy: closed
+  etcdadm-maintainers:
+    description: Write access to the etcdadm repo
+    members:
+    - dlipovetsky
+    - justinsb
+    privacy: closed
   image-builder-admins:
     description: admin access to image-builder
     members:
@@ -237,4 +249,23 @@ teams:
     - luxas
     - moshloop
     - timothysc
+    privacy: closed
+  kubespray-admins:
+    description: Admin access to the kubespray repo
+    members:
+    - ant31
+    - chadswen
+    - mattymo
+    privacy: closed
+  kubespray-maintainers:
+    description: Write access to the kubespray repo
+    members:
+    - ant31
+    - Atoms
+    - chadswen
+    - mattymo
+    - miouge1
+    - mirwan
+    - riverzhang
+    - woopstar
     privacy: closed

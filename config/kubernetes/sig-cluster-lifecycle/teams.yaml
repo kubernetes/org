@@ -57,6 +57,7 @@ teams:
   sig-cluster-lifecycle:
     description: For discussing SIG Cluster Lifecycle topics
     members:
+    - cpanato
     - detiber
     - dixudx
     - ereslibre

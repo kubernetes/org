@@ -60,8 +60,9 @@ aliases:
     - dchen1107
     - derekwaynecarr
   sig-release-leads:
-    - calebamiles
+    - alejandrox1
     - justaugustus
+    - saschagrunert
     - tpepper
   sig-scalability-leads:
     - mm4tt

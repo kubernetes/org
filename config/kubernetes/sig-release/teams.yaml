@@ -284,7 +284,8 @@ teams:
       sig-release-admins:
         description: Admins for SIG Release repositories
         members:
-        - calebamiles
+        - alejandrox1
         - justaugustus
+        - saschagrunert
         - tpepper
         privacy: closed

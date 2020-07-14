@@ -47,6 +47,7 @@ aliases:
     - zacharysarah
   sig-instrumentation-leads:
     - brancz
+    - dashpole
     - ehashman
     - logicalhan
   sig-multicluster-leads:
@@ -84,22 +85,20 @@ aliases:
     - spiffxp
     - stevekuznetsov
   sig-ui-leads:
-    - danielromlein
     - floreks
     - jeefy
     - maciaszczykm
   sig-usability-leads:
-    - Rajakavitha1
     - hpandeycodeit
     - tashimi
-    - vllry
   sig-windows-leads:
     - benmoss
     - ddebroy
     - marosset
     - michmike
-  wg-apply-leads:
-    - lavalamp
+  wg-api-expression-leads:
+    - apelisse
+    - kwiesmueller
   wg-component-standard-leads:
     - mtaufen
     - stealthybox
@@ -127,12 +126,14 @@ aliases:
   wg-multitenancy-leads:
     - srampal
     - tashimi
+  wg-naming-leads:
+    - celestehorgan
+    - jdumars
+    - justaugustus
+    - zacharysarah
   wg-policy-leads:
     - ericavonb
     - hannibalhuang
-  wg-resource-management-leads:
-    - derekwaynecarr
-    - vishh
   wg-security-audit-leads:
     - aasmall
     - cji
@@ -155,10 +156,11 @@ aliases:
     - tashimi
   committee-product-security:
     - cjcullen
+    - cji
     - joelsmith
-    - liggitt
     - lukehinds
     - micahhausler
+    - swamymsft
     - tallclair
   committee-steering:
     - cblecker

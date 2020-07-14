@@ -29,3 +29,17 @@ teams:
     - amwat
     - BenTheElder
     privacy: closed
+  secret-sync-rotation-admins:
+    description: Admin access to secret-sync-rotation
+    maintainers:
+    - spiffxp
+    members:
+    - BenTheElder
+    privacy: closed
+  secret-sync-rotation-maintainers:
+    description: Write access to secret-sync-rotation
+    maintainers:
+    - spiffxp
+    members:
+    - BenTheElder
+    privacy: closed

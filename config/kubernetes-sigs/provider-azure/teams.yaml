@@ -2,6 +2,7 @@ teams:
   cloud-provider-azure-admins:
     description: ""
     members:
+    - andyzhangx
     - feiskyer
     - justaugustus
     privacy: closed

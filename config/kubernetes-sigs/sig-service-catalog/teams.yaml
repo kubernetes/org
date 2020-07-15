@@ -14,3 +14,8 @@ teams:
     - mszostok
     - piotrmiskiewicz
     privacy: closed
+  minibroker-admins:
+    description: Admin access to the minibroker repo
+    members:
+    - carolynvs
+    privacy: closed

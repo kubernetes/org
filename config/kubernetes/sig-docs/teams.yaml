@@ -16,22 +16,17 @@ teams:
   sig-docs-en-owners:
     description: Approvers for English content
     members:
-    - bradamant3
     - bradtopol
     - celestehorgan
-    - daminisatya
     - gochist
     - irvifa
-    - jaredbhatti
     - jimangel
     - kbarnard10
     - kbhawkey
     - makoscafee
     - onlydole
-    - Rajakavitha1
     - sftim
     - steveperry-53
-    - stewart-yu
     - tengqm
     - xiangpengzhao
     - zacharysarah
@@ -324,7 +319,6 @@ teams:
     - bradtopol # L10n: English
     - ClaudiaJKang # L10n: Korean
     - cstoku # L10n: Japanese
-    - daminisatya # Release lead 1.17
     - dianaabv # L10n: Russian
     - femrtnz # L10n: Portuguese
     - girikuncoro # L10n: Indonesian
@@ -343,7 +337,6 @@ teams:
     - nasa9084 # L10n: Japanese
     - ngtuna # L10n: Vietnamese
     - nvtkaszpir # L10n: Polish
-    - onlydole # L10n: English, 1.19 release lead
     - potapy4 # L10n: Russian
     - raelga # L10n: Spanish
     - remyleone # L10n: French
@@ -352,7 +345,6 @@ teams:
     - seokho-son # L10n: Korean
     - sftim # L10n: English
     - truongnh1992 # L10n: Vietnamese
-    - vineethreddy02 # Docs 1.18 lead
     - xichengliudui # L10n: Chinese
     - zacharysarah # L10n: English
     - zhangxiaoyu-zidif # L10n: Chinese
@@ -365,12 +357,10 @@ teams:
     - alexbrand
     - awkif
     - bene2k1
-    - bradamant3
     - bradtopol
     - celestehorgan
     - claudiajkang
     - cstoku
-    - daminisatya
     - dianaabv
     - femrtnz
     - girikuncoro
@@ -379,7 +369,6 @@ teams:
     - huynguyennovem
     - inductor
     - irvifa
-    - jaredbhatti
     - jcjesus
     - jimangel
     - juandiegopalomino
@@ -405,7 +394,6 @@ teams:
     - sftim
     - smana
     - steveperry-53
-    - stewart-yu
     - tengqm
     - tfogo
     - truongnh1992

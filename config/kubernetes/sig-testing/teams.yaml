@@ -83,6 +83,15 @@ teams:
     members:
     - taragu
     privacy: closed
+  repo-infra-admins:
+    description: Admin access to the repo-infra repo
+    maintainers:
+    - fejta
+    members:
+    - BenTheElder
+    - clarketm
+    - mikedanese
+    privacy: closed
   repo-infra-maintainers:
     description: Write access to the repo-infra repo
     maintainers:

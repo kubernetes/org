@@ -90,6 +90,7 @@ teams:
     members:
     - BenTheElder
     - clarketm
+    - justaugustus
     - mikedanese
     privacy: closed
   repo-infra-maintainers:
@@ -99,5 +100,6 @@ teams:
     members:
     - BenTheElder
     - clarketm
+    - justaugustus
     - mikedanese
     privacy: closed

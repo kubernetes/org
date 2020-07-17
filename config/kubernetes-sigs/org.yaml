@@ -563,18 +563,6 @@ teams:
     - msau42
     - saad-ali
     privacy: closed
-  kind-admins:
-    description: Admin access to the kind rpeo
-    members:
-    - BenTheElder
-    - munnerz
-    privacy: closed
-  kind-maintainers:
-    description: Write access to the kind repo
-    members:
-    - BenTheElder
-    - munnerz
-    privacy: closed
   kubernetes/sig-apps:
     description: Parent team for all SIG Apps subteams (approvers, reviewers, admins)
     members:

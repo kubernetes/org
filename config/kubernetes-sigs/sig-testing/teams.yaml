@@ -13,6 +13,18 @@ teams:
     - ixdy
     - stevekuznetsov
     privacy: closed
+  kind-admins:
+    description: Admin access to the kind rpeo
+    members:
+    - BenTheElder
+    - munnerz
+    privacy: closed
+  kind-maintainers:
+    description: Write access to the kind repo
+    members:
+    - BenTheElder
+    - munnerz
+    privacy: closed
   kubetest2-admins:
     description: Admin access to kubetest2
     maintainers:

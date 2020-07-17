@@ -29,17 +29,21 @@ teams:
     - amwat
     - BenTheElder
     privacy: closed
-  secret-sync-rotation-admins:
-    description: Admin access to secret-sync-rotation
+  k8s-gsm-tools-admins:
+    description: Admin access to k8s-gsm-tools
     maintainers:
     - spiffxp
     members:
     - BenTheElder
     privacy: closed
-  secret-sync-rotation-maintainers:
-    description: Write access to secret-sync-rotation
+    previously:
+    - secret-sync-rotation-admins
+  k8s-gsm-tools-maintainers:
+    description: Write access to k8s-gsm-tools
     maintainers:
     - spiffxp
     members:
     - BenTheElder
     privacy: closed
+    previously:
+    - secret-sync-rotation-maintainers

@@ -60,7 +60,6 @@ members:
 - foxish
 - grodrigues3
 - hjacobs
-- hodovska
 - hongchaodeng
 - humblec
 - ianchakeres
@@ -322,7 +321,6 @@ teams:
     description: Write access to the cluster-capacity repo
     members:
     - aveshagarwal
-    - hodovska
     - ingvagabund
     - sarahnovotny
     privacy: closed

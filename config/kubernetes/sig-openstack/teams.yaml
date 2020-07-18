@@ -76,7 +76,6 @@ teams:
     - rootfs
     - russellb
     - stevemcquaid
-    - xsgordon
     privacy: closed
     previously:
     - sig-openstack-misc

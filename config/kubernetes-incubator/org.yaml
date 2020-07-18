@@ -119,7 +119,6 @@ members:
 - piosz
 - piotrmiskiewicz
 - pmorie
-- procrypt
 - pwittrock
 - Raffo
 - Rajakavitha1
@@ -281,7 +280,6 @@ teams:
     - bgrant0607
     - cdrage
     - ngtuna
-    - procrypt
     - sebgoa
     privacy: closed
   maintainers-apiserver-builder:

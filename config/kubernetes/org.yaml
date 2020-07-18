@@ -129,7 +129,6 @@ members:
 - boluisa
 - bowei
 - bparees
-- bprashanth
 - Bradamant3
 - bradtopol
 - brahmaroutu
@@ -1581,13 +1580,11 @@ teams:
     members:
     - aledbf
     - bowei
-    - bprashanth
     privacy: closed
   ingress-nginx-maintainers:
     description: Write access to the ingress-nginx repo
     members:
     - aledbf
-    - bprashanth
     - justinsb
     - nicksardo
     privacy: closed
@@ -1730,7 +1727,6 @@ teams:
     - alex-mohr
     - apelisse
     - bgrant0607
-    - bprashanth
     - brendandburns
     - bsalamat
     - caesarxuchao

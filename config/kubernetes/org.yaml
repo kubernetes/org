@@ -998,7 +998,6 @@ members:
 - vivekbagade
 - vladimirvivien
 - vllry
-- vmarmol
 - vonguard
 - vpickard
 - wackxu
@@ -1678,7 +1677,6 @@ teams:
     - amygdala
     - aronchick
     - kelseyhightower
-    - vmarmol
     privacy: closed
   metrics-admins:
     description: Admin access to the metrics repo

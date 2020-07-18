@@ -1037,7 +1037,6 @@ members:
 - yastij
 - yguo0905
 - yifan-gu
-- yinghan
 - yissachar
 - yliaog
 - yoojinl
@@ -1428,7 +1427,6 @@ teams:
     - adityakali
     - dchen1107
     - wonderfly
-    - yinghan
     privacy: closed
   ingress-gce-admins:
     description: Admin access to the ingress-gce repo

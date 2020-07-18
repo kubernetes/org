@@ -41,7 +41,7 @@ teams:
   cluster-api-maintainers:
     description: ""
     members:
-    - chuckha
+    - CecileRobertMichon
     - davidewatson
     - detiber
     - ncdc

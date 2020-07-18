@@ -56,7 +56,6 @@ members:
 - eriknelson
 - euank
 - feiskyer
-- fgrzadkowski
 - flyingcougar
 - foxish
 - grodrigues3
@@ -382,7 +381,6 @@ teams:
     description: Write access to the metrics-server repo
     members:
     - DirectXMan12
-    - fgrzadkowski
     - kawych
     - loburm
     - ncdc

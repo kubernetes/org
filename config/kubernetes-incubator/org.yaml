@@ -44,7 +44,6 @@ members:
 - chrislovecnm
 - cofyc
 - ConnorDoyle
-- crassirostris
 - cyphar
 - davidopp
 - dchen1107
@@ -388,7 +387,6 @@ teams:
   maintainers-metrics-server:
     description: Write access to the metrics-server repo
     members:
-    - crassirostris
     - DirectXMan12
     - fgrzadkowski
     - kawych

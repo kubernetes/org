@@ -50,7 +50,6 @@ teams:
     - pmorie
     - smarterclayton
     - tallclair
-    - timstclair
     privacy: closed
   sig-auth-pr-reviews:
     description: ""

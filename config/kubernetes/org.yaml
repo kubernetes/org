@@ -265,7 +265,6 @@ members:
 - dklyle
 - dlipovetsky
 - dlorenc
-- dnardo
 - dougm
 - draveness
 - drekle
@@ -1554,7 +1553,6 @@ teams:
     description: Write access to the ingress-gce repo
     members:
     - bowei
-    - dnardo
     - freehan
     - MrHohn
     - nicksardo

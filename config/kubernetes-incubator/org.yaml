@@ -52,7 +52,6 @@ members:
 - dims
 - DirectXMan12
 - duglin
-- elg0nz
 - eparis
 - eriknelson
 - euank
@@ -248,7 +247,6 @@ teams:
     members:
     - bgrant0607
     - calebamiles
-    - elg0nz
     privacy: closed
   admins-metrics-server:
     description: Admin access to the metrics-server repo
@@ -379,7 +377,6 @@ teams:
     members:
     - bgrant0607
     - calebamiles
-    - elg0nz
     privacy: closed
   maintainers-metrics-server:
     description: Write access to the metrics-server repo

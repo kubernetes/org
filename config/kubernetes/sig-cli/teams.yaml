@@ -3,7 +3,6 @@ teams:
     description: ""
     members:
     - adohe
-    - fabianofranz
     - janetkuo
     - pwittrock
     - seans3
@@ -14,7 +13,6 @@ teams:
     members:
     - adohe
     - dixudx
-    - fabianofranz
     - janetkuo
     - mengqiy
     - pwittrock
@@ -28,7 +26,6 @@ teams:
     members:
     - adohe
     - davidopp
-    - fabianofranz
     - janetkuo
     - mengqiy
     - pwittrock
@@ -42,7 +39,6 @@ teams:
     description: ""
     members:
     - adohe
-    - fabianofranz
     - janetkuo
     - liggitt
     - mengqiy
@@ -59,7 +55,6 @@ teams:
     - deads2k
     - dims
     - eparis
-    - fabianofranz
     - janetkuo
     - mengqiy
     - pwittrock
@@ -79,7 +74,6 @@ teams:
     - dims
     - dixudx
     - eparis
-    - fabianofranz
     - ghodss
     - janetkuo
     - liggitt
@@ -101,7 +95,6 @@ teams:
     - brendandburns
     - davidopp
     - deads2k
-    - fabianofranz
     - janetkuo
     - liggitt
     - mengqiy
@@ -115,7 +108,6 @@ teams:
     description: ""
     members:
     - adohe
-    - fabianofranz
     - pwittrock
     - seans3
     - soltysh

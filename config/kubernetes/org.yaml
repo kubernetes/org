@@ -308,7 +308,6 @@ members:
 - euank
 - everpeace
 - evillgenius75
-- fabianofranz
 - fabianvf
 - fabioy
 - fabriziopandini
@@ -1665,7 +1664,6 @@ teams:
     description: Admin access to the kubectl repo
     members:
     - adohe
-    - fabianofranz
     - juanvallejo
     - monopole
     - pwittrock
@@ -1677,7 +1675,6 @@ teams:
     members:
     - adohe
     - apelisse
-    - fabianofranz
     - juanvallejo
     - mengqiy
     - monopole

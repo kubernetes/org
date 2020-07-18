@@ -183,7 +183,6 @@ members:
 - chizhg
 - chrigl
 - chris-short
-- chrisglass
 - chrislovecnm
 - chrisohaver
 - christian-roggia
@@ -1909,7 +1908,6 @@ teams:
   ubuntu-image:
     description: ""
     members:
-    - chrisglass
     - dchen1107
     - josvazg
     - OddBloke

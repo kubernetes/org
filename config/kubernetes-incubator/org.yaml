@@ -94,7 +94,6 @@ members:
 - luxas
 - marquiz
 - martinmaly
-- mattf
 - mattymo
 - mbohlool
 - MHBauer
@@ -196,7 +195,6 @@ teams:
     description: Admin access to the application-images repo
     members:
     - calebamiles
-    - mattf
     - zmerlynn
     privacy: closed
   admins-client-python:
@@ -297,7 +295,6 @@ teams:
     description: Write access to the application-images repo
     members:
     - calebamiles
-    - mattf
     - zmerlynn
     privacy: closed
   maintainers-bootkube:

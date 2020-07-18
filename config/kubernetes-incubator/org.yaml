@@ -43,7 +43,6 @@ members:
 - childsb
 - chrislovecnm
 - cofyc
-- colhom
 - ConnorDoyle
 - crassirostris
 - cyphar
@@ -244,7 +243,6 @@ teams:
     description: Admin access to the kube-aws repo
     members:
     - calebamiles
-    - colhom
     - mumoshu
     - philips
     privacy: closed
@@ -376,7 +374,6 @@ teams:
     description: Write access to the kube-aws repo
     members:
     - calebamiles
-    - colhom
     - mumoshu
     - philips
     - redbaron

@@ -291,7 +291,6 @@ members:
 - embano1
 - emedina
 - EmilyM1
-- emsearcy
 - enisoc
 - enj
 - entro-pi
@@ -1343,7 +1342,6 @@ teams:
     - thelinuxfoundation
     members:
     - caniszczyk
-    - emsearcy
     - foxish
     privacy: closed
   code-generator-admins:

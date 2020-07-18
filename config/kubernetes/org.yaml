@@ -830,7 +830,6 @@ members:
 - rbenzair
 - rbitia
 - RCantw3ll
-- rcj4747
 - rdrgmnzs
 - rekcah78
 - remyleone
@@ -1807,7 +1806,6 @@ teams:
     members:
     - dchen1107
     - OddBloke
-    - rcj4747
     privacy: closed
   utils-admins:
     description: Admin access to the utils repo

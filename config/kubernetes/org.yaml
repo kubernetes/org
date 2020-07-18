@@ -110,7 +110,6 @@ members:
 - bart0sh
 - bartsmykla
 - bboreham
-- bdbauer
 - bells17
 - bencer
 - bene2k1
@@ -1543,7 +1542,6 @@ teams:
     description: Google Kubernetes Engine
     members:
     - alex-mohr
-    - bdbauer
     - cjcullen
     - destijl
     - fabioy

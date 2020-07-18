@@ -47,7 +47,6 @@ members:
 - cyphar
 - davidopp
 - dchen1107
-- derekparker
 - derekwaynecarr
 - dhirajh
 - dims
@@ -311,7 +310,6 @@ teams:
     description: Write access to the bootkube repo
     members:
     - aaronlevy
-    - derekparker
     - philips
     privacy: closed
   maintainers-client-python:

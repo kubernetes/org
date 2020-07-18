@@ -47,7 +47,6 @@ members:
 - AishSundar
 - aisonaku
 - ajaeger
-- ajitak
 - aknuds1
 - akutz
 - alculquicondor
@@ -1550,7 +1549,6 @@ teams:
   goog-gke:
     description: Google Kubernetes Engine
     members:
-    - ajitak
     - alex-mohr
     - bdbauer
     - cjcullen

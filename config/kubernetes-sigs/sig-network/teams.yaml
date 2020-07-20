@@ -3,7 +3,6 @@ teams:
     description: Admin access to the cluster-proportional-autoscaler repo
     members:
     - bowei
-    - dnardo
     - MrHohn
     - thockin
     privacy: closed
@@ -11,7 +10,6 @@ teams:
     description: Write access to the cluster-proportional-autoscaler repo
     members:
     - bowei
-    - dnardo
     - MrHohn
     - thockin
     privacy: closed
@@ -19,7 +17,6 @@ teams:
     description: Admin access to the cluster-proportional-autoscaler repo
     members:
     - bowei
-    - dnardo
     - MrHohn
     - thockin
     privacy: closed
@@ -27,7 +24,6 @@ teams:
     description: Admin access to the cluster-proportional-autoscaler repo
     members:
     - bowei
-    - dnardo
     - MrHohn
     - thockin
     privacy: closed
@@ -35,7 +31,6 @@ teams:
     description: Admin access to the ip-masq-agent repo
     members:
     - bowei
-    - dnardo
     - MrHohn
     privacy: closed
     previously:
@@ -44,7 +39,6 @@ teams:
     description: Write access to the ip-masq-agent repo
     members:
     - bowei
-    - dnardo
     - MrHohn
     privacy: closed
     previously:

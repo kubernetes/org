@@ -28,14 +28,12 @@ members:
 - aveshagarwal
 - balajismaniam
 - bgrant0607
-- bmelville
 - bogdando
 - bowei
 - Bradamant3
 - bradtopol
 - brancz
 - bsalamat
-- cab105
 - caesarxuchao
 - calebamiles
 - carolynvs
@@ -45,30 +43,23 @@ members:
 - childsb
 - chrislovecnm
 - cofyc
-- colhom
 - ConnorDoyle
-- crassirostris
 - cyphar
 - davidopp
 - dchen1107
-- derekparker
 - derekwaynecarr
 - dhirajh
 - dims
 - DirectXMan12
-- dnardo
 - duglin
-- elg0nz
 - eparis
 - eriknelson
 - euank
 - feiskyer
-- fgrzadkowski
 - flyingcougar
 - foxish
 - grodrigues3
 - hjacobs
-- hodovska
 - hongchaodeng
 - humblec
 - ianchakeres
@@ -76,7 +67,6 @@ members:
 - idealhack
 - ingvagabund
 - irvifa
-- iterion
 - janetkuo
 - jberkhahn
 - jboyd01
@@ -104,7 +94,6 @@ members:
 - luxas
 - marquiz
 - martinmaly
-- mattf
 - mattymo
 - mbohlool
 - MHBauer
@@ -130,7 +119,6 @@ members:
 - piosz
 - piotrmiskiewicz
 - pmorie
-- procrypt
 - pwittrock
 - Raffo
 - Rajakavitha1
@@ -206,7 +194,6 @@ teams:
     description: Admin access to the application-images repo
     members:
     - calebamiles
-    - mattf
     - zmerlynn
     privacy: closed
   admins-client-python:
@@ -246,7 +233,6 @@ teams:
     description: Admin access to the kube-aws repo
     members:
     - calebamiles
-    - colhom
     - mumoshu
     - philips
     privacy: closed
@@ -255,7 +241,6 @@ teams:
     members:
     - bgrant0607
     - calebamiles
-    - elg0nz
     privacy: closed
   admins-metrics-server:
     description: Admin access to the metrics-server repo
@@ -295,7 +280,6 @@ teams:
     - bgrant0607
     - cdrage
     - ngtuna
-    - procrypt
     - sebgoa
     privacy: closed
   maintainers-apiserver-builder:
@@ -309,14 +293,12 @@ teams:
     description: Write access to the application-images repo
     members:
     - calebamiles
-    - mattf
     - zmerlynn
     privacy: closed
   maintainers-bootkube:
     description: Write access to the bootkube repo
     members:
     - aaronlevy
-    - derekparker
     - philips
     privacy: closed
   maintainers-client-python:
@@ -333,7 +315,6 @@ teams:
     description: Write access to the cluster-capacity repo
     members:
     - aveshagarwal
-    - hodovska
     - ingvagabund
     - sarahnovotny
     privacy: closed
@@ -363,7 +344,6 @@ teams:
     description: Write access to the kompose repo
     members:
     - bgrant0607
-    - cab105
     - cdrage
     - janetkuo
     - kadel
@@ -379,7 +359,6 @@ teams:
     description: Write access to the kube-aws repo
     members:
     - calebamiles
-    - colhom
     - mumoshu
     - philips
     - redbaron
@@ -389,14 +368,11 @@ teams:
     members:
     - bgrant0607
     - calebamiles
-    - elg0nz
     privacy: closed
   maintainers-metrics-server:
     description: Write access to the metrics-server repo
     members:
-    - crassirostris
     - DirectXMan12
-    - fgrzadkowski
     - kawych
     - loburm
     - ncdc

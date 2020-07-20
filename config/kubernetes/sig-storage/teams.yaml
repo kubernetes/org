@@ -4,7 +4,6 @@ teams:
     members:
     - davidopp
     - jsafrane
-    - matchstick
     - msau42
     - rootfs
     - saad-ali
@@ -20,7 +19,6 @@ teams:
     - jeffvance
     - jingxu97
     - jsafrane
-    - matchstick
     - msau42
     - NickrenREN
     - rootfs
@@ -35,8 +33,6 @@ teams:
     - ianchakeres
     - jingxu97
     - jsafrane
-    - matchstick
-    - mdelio
     - msau42
     - NickrenREN
     - rootfs
@@ -58,8 +54,6 @@ teams:
     - jeffvance
     - jingxu97
     - jsafrane
-    - matchstick
-    - mdelio
     - msau42
     - NickrenREN
     - rootfs
@@ -73,7 +67,6 @@ teams:
     description: PR Reviews for Kubernetes Storage Special-Interest-Group
     members:
     - jsafrane
-    - matchstick
     - msau42
     - rootfs
     - saad-ali
@@ -85,8 +78,6 @@ teams:
     - davidopp
     - jingxu97
     - jsafrane
-    - matchstick
-    - mdelio
     - msau42
     - rootfs
     - saad-ali
@@ -103,7 +94,6 @@ teams:
     - jeffvance
     - jingxu97
     - jsafrane
-    - matchstick
     - msau42
     - rootfs
     - saad-ali

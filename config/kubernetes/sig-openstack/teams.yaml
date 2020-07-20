@@ -64,12 +64,10 @@ teams:
     - chrigl
     - codevulture
     - dims
-    - eghobo
     - feiskyer
     - flaper87
     - grahamhayes
     - harlowja
-    - hongbin
     - kragniz
     - lingxiankong
     - NickrenREN
@@ -78,7 +76,6 @@ teams:
     - rootfs
     - russellb
     - stevemcquaid
-    - xsgordon
     privacy: closed
     previously:
     - sig-openstack-misc

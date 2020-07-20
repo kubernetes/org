@@ -44,14 +44,12 @@ teams:
     - destijl
     - enj
     - erictune
-    - gtank
     - liggitt
     - mattmoyer
     - mikedanese
     - pmorie
     - smarterclayton
     - tallclair
-    - timstclair
     privacy: closed
   sig-auth-pr-reviews:
     description: ""

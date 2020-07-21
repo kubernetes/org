@@ -71,6 +71,19 @@ teams:
     - glo-pena
     - raelga
     privacy: closed
+  sig-docs-fa-owners:
+    description: Approvers for Persian content
+    members:
+    - kasramp
+    - sattarfeizollahibarough
+    privacy: closed
+  sig-docs-fa-reviews:
+    description: PR reviews for Persian content
+    members:
+    - FaezeAzimi
+    - kasramp
+    - sattarfeizollahibarough
+    privacy: closed
   sig-docs-fr-owners:
     description: Approvers for French content
     members:

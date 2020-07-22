@@ -1,4 +1,23 @@
 teams:
+  container-object-storage-interface-controller-admins:
+    description: Admin access to container-object-storage-interface-controller
+    members:
+    - jsafrane
+    - msau42
+    - saad-ali
+    - xing-yang
+    privacy: closed
+  container-object-storage-interface-controller-maintainers:
+    description: Write access to container-object-storage-interface-controller
+    members:
+    - brahmaroutu
+    - jsafrane
+    - msau42
+    - rrati
+    - saad-ali
+    - wlan0
+    - xing-yang
+    privacy: closed
   container-object-storage-interface-csi-adapter-admins:
     description: Admin access to container-object-storage-interface-csi-adapter
     members:
@@ -14,6 +33,25 @@ teams:
     - copejon
     - jsafrane
     - msau42
+    - saad-ali
+    - wlan0
+    - xing-yang
+    privacy: closed
+  container-object-storage-interface-provisioner-sidecar-admins:
+    description: Admin access to container-object-storage-interface-provisioner-sidecar
+    members:
+    - jsafrane
+    - msau42
+    - saad-ali
+    - xing-yang
+    privacy: closed
+  container-object-storage-interface-provisioner-sidecar-maintainers:
+    description: Write access to container-object-storage-interface-provisioner-sidecar
+    members:
+    - brahmaroutu
+    - jsafrane
+    - msau42
+    - rrati
     - saad-ali
     - wlan0
     - xing-yang

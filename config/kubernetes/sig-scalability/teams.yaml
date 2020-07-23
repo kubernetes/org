@@ -1,64 +1,40 @@
 teams:
-  sig-scalability-api-reviews:
-    description: ""
+  sig-scalability:
+    description: SIG Scalability
     members:
-    - countspongebob
-    - jbeda
-    - lavalamp
+    - alejandrox1 # SIG Release Technical Lead
+    - gmarek
+    - hasheddan # 1.19 CI Signal Lead / Release Manager
+    - jkaniuk
+    - jprzychodzen
+    - justaugustus # SIG Release Chair / Release Manager
+    - krzysied
+    - mborsz
+    - mm4tt
+    - onlydole # 1.19 Release Team Lead
+    - oxddr
+    - saschagrunert # SIG Release Technical Lead / Release Manager
     - shyamjvs
+    - tosi3k
+    - tpepper # SIG Release Chair / Release Manager
+    - wojtek-t
     privacy: closed
-  sig-scalability-bugs:
-    description: ""
-    members:
-    - countspongebob
-    - jbeda
-    - lavalamp
-    - shyamjvs
-    - timothysc
-    privacy: closed
-  sig-scalability-feature-requests:
-    description: ""
-    members:
-    - countspongebob
-    - jbeda
-    - lavalamp
-    - shyamjvs
-    - smarterclayton
-    - timothysc
-    privacy: closed
-  sig-scalability-misc:
-    description: ""
-    members:
-    - countspongebob
-    - feiskyer
-    - jbeda
-    - jeremyeder
-    - lavalamp
-    - rrati
-    - shyamjvs
-    - smarterclayton
-    privacy: closed
-  sig-scalability-pr-reviews:
-    description: ""
-    members:
-    - countspongebob
-    - jbeda
-    - lavalamp
-    - shyamjvs
-    privacy: closed
-  sig-scalability-proprosals:
-    description: ""
-    members:
-    - countspongebob
-    - jbeda
-    - lavalamp
-    - shyamjvs
-    - smarterclayton
-    privacy: closed
-  sig-scalability-test-failures:
-    description: ""
-    members:
-    - countspongebob
-    - jbeda
-    - lavalamp
-    privacy: closed
+    teams:
+      sig-scalability-leads:
+        description: Chairs and Technical Leads for SIG Scalability
+        members:
+        - mm4tt
+        - shyamjvs
+        - wojtek-t
+        privacy: closed
+      sig-scalability-pr-reviews:
+        description: PR reviews for SIG Scalability
+        members:
+        - jkaniuk
+        - jprzychodzen
+        - mborsz
+        - mm4tt
+        - shyamjvs
+        - tosi3k
+        - wojtek-t
+        privacy: closed

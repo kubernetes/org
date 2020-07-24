@@ -208,15 +208,15 @@ teams:
               the Kubernetes project. This team is a notification-only group,
               which includes the SIG Release Chairs for continuity.
             members:
+            - aleksandra-malinowska
             - amwat
             - BenTheElder
-            - MushuEE
-            - spiffxp
-            - aleksandra-malinowska
             - calebamiles
             - justaugustus
             - listx
+            - MushuEE
             - ps882
+            - spiffxp
             - sumitranr
             - tpepper
             privacy: closed

@@ -1,9 +1,5 @@
 # See the OWNERS docs at https://go.k8s.io/owners
 
-reviewers:
-  - idealhack
-  - justaugustus
-  - nzoueidi
 approvers:
   - cblecker
   - fejta
@@ -11,8 +7,5 @@ approvers:
   - mrbobbytables
   - nikhita
   - spiffxp
-  - idealhack
-  - justaugustus
-  - nzoueidi
 emeritus_approvers:
   - calebamiles

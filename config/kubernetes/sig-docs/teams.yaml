@@ -210,6 +210,7 @@ teams:
   sig-docs-ru-reviews:
     description: Reviews for Russian docs PRs
     members:
+    - Arhell
     - aisonaku
     - dianaabv
     - msheldyakov

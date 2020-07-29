@@ -32,6 +32,7 @@ teams:
     - cpanato # Release Manager
     - craiglpeters # Azure
     - d-nishi # AWS
+    - dashpole # Instrumentation
     - dcbw # Network
     - dchen1107 # Node
     - ddebroy # Windows
@@ -75,6 +76,7 @@ teams:
     - liggitt # Auth / Release
     - lingxiankong # OpenStack
     - liyinan926 # Big Data
+    - logicalhan # Instrumentation
     - luxas # Cluster Lifecycle
     - maciaszczykm # UI
     - markyjackson-taulia # Release Manager Associate

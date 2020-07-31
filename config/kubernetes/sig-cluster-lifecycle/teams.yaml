@@ -9,16 +9,16 @@ teams:
   kops-maintainers:
     description: Write access to the kops repo
     members:
-    - chrislovecnm
     - geojaz
-    - granular-ryanbonham
+    - hakman
+    - johngmyers
     - justinsb
-    - kris-nova
+    - kashifsaadat
     - mikedanese
     - mikesplain
     - rdrgmnzs
     - rifelpet
-    - yissachar
+    - zetaab
     privacy: closed
   kubeadm-admins:
     description: Admin access to the kubeadm repo

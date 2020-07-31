@@ -3,6 +3,7 @@ teams:
     description: admin access to vsphere-csi-driver
     members:
     - codenrhoden
+    - divyenpatel
     - frapposelli
     privacy: closed
   vsphere-csi-driver-maintainers:

@@ -17,7 +17,6 @@ admins:
 - thelinuxfoundation
 members:
 - akshaymankar
-- arschles
 - bgrant0607
 - brejoc
 - brendandburns
@@ -59,7 +58,6 @@ teams:
   Reviewers:
     description: ""
     members:
-    - arschles
     - krabhishek8260
     - lwander
     - mbohlool

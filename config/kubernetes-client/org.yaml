@@ -34,7 +34,6 @@ members:
 - justaugustus
 - krabhishek8260
 - lavalamp
-- lwander
 - mbohlool
 - micw523
 - MoShitrit
@@ -57,7 +56,6 @@ teams:
     description: ""
     members:
     - krabhishek8260
-    - lwander
     - mbohlool
     privacy: closed
   c-admins:

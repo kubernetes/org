@@ -706,7 +706,6 @@ members:
 - nestorsalceda
 - ngtuna
 - NickrenREN
-- nicksardo
 - nikhiljindal
 - nikopen
 - nilebox
@@ -1406,7 +1405,6 @@ teams:
     description: Admin access to the ingress-gce repo
     members:
     - bowei
-    - nicksardo
     - thockin
     privacy: closed
   ingress-gce-maintainers:
@@ -1415,7 +1413,6 @@ teams:
     - bowei
     - freehan
     - MrHohn
-    - nicksardo
     - rramkumar1
     - thockin
     privacy: closed
@@ -1430,7 +1427,6 @@ teams:
     members:
     - aledbf
     - justinsb
-    - nicksardo
     privacy: closed
   intel:
     description: ""

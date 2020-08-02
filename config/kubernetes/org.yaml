@@ -963,7 +963,6 @@ members:
 - verb
 - Verolop
 - verult
-- viglesiasce
 - vikaschoudhary16
 - vincepri
 - VineethReddy02
@@ -1308,7 +1307,6 @@ teams:
     - jayunit100
     - pwittrock
     - steveperry-53
-    - viglesiasce
     privacy: closed
   examples-admins:
     description: Admin access to the examples repo

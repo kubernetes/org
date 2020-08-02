@@ -26,7 +26,6 @@ members:
 - aaronlevy
 - aasmall
 - abgworrall
-- abrarshivani
 - abuisine
 - AdamDang
 - adelina-t
@@ -1183,7 +1182,6 @@ teams:
   cloud-provider-vsphere-admins:
     description: Admin access to cloud-provider-vsphere repo
     members:
-    - abrarshivani
     - andrewsykim
     - BaluDontu
     - divyenpatel
@@ -1196,7 +1194,6 @@ teams:
   cloud-provider-vsphere-maintainers:
     description: Write access to the cloud-provider-vsphere repo
     members:
-    - abrarshivani
     - andrewsykim
     - BaluDontu
     - divyenpatel

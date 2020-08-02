@@ -32,7 +32,6 @@ members:
 - Adirio
 - adisky
 - aditya-konarde
-- adityakali
 - adohe
 - AevaOnline
 - afbjorklund
@@ -1423,7 +1422,6 @@ teams:
   goog-image:
     description: ""
     members:
-    - adityakali
     - dchen1107
     - wonderfly
     privacy: closed

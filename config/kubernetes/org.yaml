@@ -162,7 +162,6 @@ members:
 - chardch
 - chases2
 - cheftako
-- cheld
 - chendave
 - chendotjs
 - chenopis
@@ -1284,7 +1283,6 @@ teams:
     description: Write access to the dashboard repo
     members:
     - bryk
-    - cheld
     - floreks
     - ianlewis
     - jeefy

@@ -57,12 +57,12 @@ teams:
     - spiffxp
     members:
     - BenTheElder
+    - chaodaiG
     - chases2
     - cjwagner
     - Katharine
     - michelle192837
     - stevekuznetsov
-    - chaodaiG
     privacy: closed
   test-infra-maintainers:
     description: write access to test-infra

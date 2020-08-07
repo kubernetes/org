@@ -171,10 +171,177 @@ members:
 - zmerlynn
 - zparnold
 teams:
+  admins-kops:
+    description: Admin access to the kops repo
+    members:
+    - calebamiles
+    privacy: closed
   admins-kube-aws:
     description: Admin access to the kube-aws repo
     members:
     - calebamiles
     - mumoshu
+    - philips
+    privacy: closed
+  admins-kube2consul:
+    description: Admin access to the kube2consul repo
+    members:
+    - bgrant0607
+    - calebamiles
+    privacy: closed
+  admins-metrics-server:
+    description: Admin access to the metrics-server repo
+    members:
+    - piosz
+    - thockin
+    privacy: closed
+  admins-node-feature-discovery:
+    description: Admin access to the node-feature-discovery repo
+    members:
+    - balajismaniam
+    - ConnorDoyle
+    - davidopp
+    - philips
+    privacy: closed
+  design-reviewer-kube-arbitrator:
+    description: The design reviewer of kube-arbitrator
+    members:
+    - bsalamat
+    - davidopp
+    - foxish
+    - k82cn
+    - timothysc
+    privacy: closed
+  external-storage-community:
+    description: the extended external storage community
+    members:
+    - childsb
+    - ianchakeres
+    - jsafrane
+    - msau42
+    - wongma7
+    privacy: closed
+  kompose-contributors:
+    description: Contributors to kompose repo (read access)
+    members:
+    - bgrant0607
+    - cdrage
+    - ngtuna
+    - sebgoa
+    privacy: closed
+  maintainers-apiserver-builder:
+    description: Write access to the apiserver-builder repo
+    members:
+    - DirectXMan12
+    - pwittrock
+    - yue9944882
+    privacy: closed
+  maintainers-application-images:
+    description: Write access to the application-images repo
+    members:
+    - calebamiles
+    - zmerlynn
+    privacy: closed
+  maintainers-bootkube:
+    description: Write access to the bootkube repo
+    members:
+    - aaronlevy
+    - philips
+    privacy: closed
+  maintainers-client-python:
+    description: Write access to the client-python repo
+    members:
+    - caesarxuchao
+    - dims
+    - lavalamp
+    - mbohlool
+    - sarahnovotny
+    - yliaog
+    privacy: closed
+  maintainers-cluster-capacity:
+    description: Write access to the cluster-capacity repo
+    members:
+    - aveshagarwal
+    - ingvagabund
+    - sarahnovotny
+    privacy: closed
+  maintainers-external-storage:
+    description: Write access to the external-storage repo
+    members:
+    - childsb
+    - humblec
+    - ianchakeres
+    - jsafrane
+    - rootfs
+    - sarahnovotny
+    - sbezverk
+    - tsmetana
+    - wongma7
+    privacy: closed
+  maintainers-kargo:
+    description: Write access to the kargo repo
+    members:
+    - ant31
+    - bogdando
+    - calebamiles
+    - mattymo
+    - rsmitty
+    privacy: closed
+  maintainers-kompose:
+    description: Write access to the kompose repo
+    members:
+    - bgrant0607
+    - cdrage
+    - janetkuo
+    - kadel
+    - sebgoa
+    - surajssd
+    privacy: closed
+  maintainers-kops:
+    description: Write access to the kops repo
+    members:
+    - calebamiles
+    privacy: closed
+  maintainers-kube-aws:
+    description: Write access to the kube-aws repo
+    members:
+    - calebamiles
+    - mumoshu
+    - philips
+    - redbaron
+    privacy: closed
+  maintainers-kube2consul:
+    description: Write access to the kube2consul repo
+    members:
+    - bgrant0607
+    - calebamiles
+    privacy: closed
+  maintainers-metrics-server:
+    description: Write access to the metrics-server repo
+    members:
+    - DirectXMan12
+    - kawych
+    - loburm
+    - ncdc
+    - piosz
+    - serathius
+    - sttts
+    - thockin
+    - x13n
+    privacy: closed
+  maintainers-node-feature-discovery:
+    description: Write access to the node-feature-discovery repo
+    members:
+    - balajismaniam
+    - ConnorDoyle
+    - davidopp
+    - flyingcougar
+    - marquiz
+    - philips
+    privacy: closed
+  temporary-admin-transfers:
+    description: For transferring repos into incubator.
+    members:
+    - mbohlool
     - philips
     privacy: closed

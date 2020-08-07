@@ -26,15 +26,12 @@ members:
 - aaronlevy
 - aasmall
 - abgworrall
-- abhi
-- abrarshivani
 - abuisine
 - AdamDang
 - adelina-t
 - Adirio
 - adisky
 - aditya-konarde
-- adityakali
 - adohe
 - AevaOnline
 - afbjorklund
@@ -46,11 +43,9 @@ members:
 - aimeeu
 - AishSundar
 - aisonaku
-- ajaeger
 - akutz
 - alculquicondor
 - aledbf
-- alejandroEsc
 - alejandrox1
 - aleksandra-malinowska
 - alenkacz
@@ -59,7 +54,6 @@ members:
 - alexeldeib
 - AlexeyPerevalov
 - AlexNPavel
-- alfred-huangjian
 - alisondy
 - alonyb
 - alrs
@@ -113,7 +107,6 @@ members:
 - bboreham
 - bells17
 - bene2k1
-- benjigoldberg
 - benmoss
 - BenTheElder
 - bertinatto
@@ -124,7 +117,6 @@ members:
 - bluebreezecf
 - blueelvis
 - bobbypage
-- bobsky
 - BobyMCbobs
 - boddumanohar
 - boluisa
@@ -151,7 +143,6 @@ members:
 - calebamiles
 - caniszczyk
 - cantbewong
-- CaoShuFeng
 - carlosedp
 - carolynvs
 - cartyc
@@ -171,7 +162,6 @@ members:
 - chardch
 - chases2
 - cheftako
-- cheld
 - chendave
 - chendotjs
 - chenopis
@@ -208,7 +198,6 @@ members:
 - cody-clark
 - coffeepac
 - cofyc
-- colemickens
 - ConnorDoyle
 - copejon
 - countspongebob
@@ -232,7 +221,6 @@ members:
 - danwinship
 - DanyC97
 - dashpole
-- david-mcmahon
 - davidewatson
 - davidkarlsen
 - davidopp
@@ -271,7 +259,6 @@ members:
 - drekle
 - droslean
 - drubin
-- DStorck
 - dstrebel
 - dtaniwaki
 - duglin
@@ -307,7 +294,6 @@ members:
 - erikerlandson
 - errordeveloper
 - ethernetdan
-- euank
 - everpeace
 - evillgenius75
 - fabianvf
@@ -367,7 +353,6 @@ members:
 - grayluck
 - grobie
 - grodrigues3
-- guangxuli
 - guineveresaenger
 - gujingit
 - gyliu513
@@ -393,7 +378,6 @@ members:
 - hex108
 - heyste
 - hh
-- hhoover
 - hkaj
 - hkamel
 - hoegaarden
@@ -524,7 +508,6 @@ members:
 - jwforres
 - jygastaud
 - k-toyoda-pi
-- k4leung4
 - k82cn
 - k8s-publishing-bot
 - k8s-release-robot
@@ -562,7 +545,6 @@ members:
 - knight42
 - knobunc
 - KnVerey
-- konryd
 - kow3ns
 - kpucynski
 - kragniz
@@ -648,7 +630,6 @@ members:
 - mbohlool
 - mborsz
 - mcrute
-- medinatiger
 - medmedchiheb
 - medyagh
 - mengqiy
@@ -687,7 +668,6 @@ members:
 - mkjelland
 - mkorbi
 - mkumatag
-- mkurylec
 - mlmhl
 - mm4tt
 - mml
@@ -715,7 +695,6 @@ members:
 - munnerz
 - MushuEE
 - mwielgus
-- mwringe
 - mxinden
 - mylesagray
 - mysunshine92
@@ -729,9 +708,7 @@ members:
 - neolit123
 - nestorsalceda
 - ngtuna
-- nickchase
 - NickrenREN
-- nicksardo
 - nikhiljindal
 - nikopen
 - nilebox
@@ -762,9 +739,7 @@ members:
 - PatrickLang
 - paulangton
 - paulbouwer
-- paulczar
 - pbnj
-- pengx17
 - Pensu
 - perotinus
 - perriea
@@ -812,7 +787,6 @@ members:
 - pwittrock
 - qbl
 - qedrakmar
-- qhuynh96
 - qingsenLi
 - quinton-hoole
 - r2d4
@@ -872,7 +846,6 @@ members:
 - rsdcastro
 - runcom
 - russellb
-- rutsky
 - s-ito-ts
 - s-urbaniak
 - saad-ali
@@ -908,7 +881,6 @@ members:
 - sethpollack
 - sflxn
 - sftim
-- sgoings
 - Sh4d1
 - shaileshsharan98
 - sharifelgamal
@@ -934,7 +906,6 @@ members:
 - soltysh
 - spew
 - spurin
-- spxtr
 - spzala
 - squeed
 - srampal
@@ -971,7 +942,6 @@ members:
 - therc
 - thkoch2001
 - thockin
-- tianshapjq
 - timothysc
 - timstoop
 - timyinshi
@@ -996,7 +966,6 @@ members:
 - verb
 - Verolop
 - verult
-- viglesiasce
 - vikaschoudhary16
 - vincepri
 - VineethReddy02
@@ -1041,7 +1010,6 @@ members:
 - xueweiz
 - yagonobre
 - YangLu1031
-- yanxuean
 - yastij
 - yguo0905
 - yifan-gu
@@ -1188,7 +1156,6 @@ teams:
   cloud-provider-vsphere-admins:
     description: Admin access to cloud-provider-vsphere repo
     members:
-    - abrarshivani
     - andrewsykim
     - BaluDontu
     - divyenpatel
@@ -1201,7 +1168,6 @@ teams:
   cloud-provider-vsphere-maintainers:
     description: Write access to the cloud-provider-vsphere repo
     members:
-    - abrarshivani
     - andrewsykim
     - BaluDontu
     - divyenpatel
@@ -1292,18 +1258,15 @@ teams:
     - bryk
     - floreks
     - jeefy
-    - konryd
     - maciaszczykm
     privacy: closed
   dashboard-maintainers:
     description: Write access to the dashboard repo
     members:
     - bryk
-    - cheld
     - floreks
     - ianlewis
     - jeefy
-    - konryd
     - maciaszczykm
     - shu-mutou
     privacy: closed
@@ -1347,7 +1310,6 @@ teams:
     - jayunit100
     - pwittrock
     - steveperry-53
-    - viglesiasce
     privacy: closed
   examples-admins:
     description: Admin access to the examples repo
@@ -1425,13 +1387,11 @@ teams:
     - ihmccreery
     - jessicaochen
     - maisem
-    - medinatiger
     - zmerlynn
     privacy: closed
   goog-image:
     description: ""
     members:
-    - adityakali
     - dchen1107
     - wonderfly
     privacy: closed
@@ -1439,7 +1399,6 @@ teams:
     description: Admin access to the ingress-gce repo
     members:
     - bowei
-    - nicksardo
     - thockin
     privacy: closed
   ingress-gce-maintainers:
@@ -1448,7 +1407,6 @@ teams:
     - bowei
     - freehan
     - MrHohn
-    - nicksardo
     - rramkumar1
     - thockin
     privacy: closed
@@ -1463,7 +1421,6 @@ teams:
     members:
     - aledbf
     - justinsb
-    - nicksardo
     privacy: closed
   intel:
     description: ""
@@ -1607,7 +1564,6 @@ teams:
     - caesarxuchao
     - childsb
     - cjcullen
-    - david-mcmahon
     - davidopp
     - dchen1107
     - deads2k

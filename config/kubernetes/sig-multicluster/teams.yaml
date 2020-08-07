@@ -41,7 +41,6 @@ teams:
   sig-multicluster-misc:
     description: 'SIG for multi cluster: https://groups.google.com/forum/#!forum/kubernetes-sig-multicluster'
     members:
-    - alfred-huangjian
     - csbell
     - davidopp
     - derekwaynecarr

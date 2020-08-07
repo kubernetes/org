@@ -17,15 +17,12 @@ admins:
 - thelinuxfoundation
 members:
 - akshaymankar
-- arschles
 - bgrant0607
-- brejoc
 - brendandburns
 - caesarxuchao
 - calebamiles
 - codevulture
 - dims
-- dmyerscough
 - drubin
 - fabianvf
 - grodrigues3
@@ -37,7 +34,6 @@ members:
 - justaugustus
 - krabhishek8260
 - lavalamp
-- lwander
 - mbohlool
 - micw523
 - MoShitrit
@@ -48,7 +44,6 @@ members:
 - roycaihw
 - sebgoa
 - SEJeff
-- skuda
 - strigazi
 - tg123
 - tomplus
@@ -59,9 +54,7 @@ teams:
   Reviewers:
     description: ""
     members:
-    - arschles
     - krabhishek8260
-    - lwander
     - mbohlool
     privacy: closed
   c-admins:

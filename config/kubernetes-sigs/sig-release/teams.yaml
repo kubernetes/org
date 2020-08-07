@@ -19,6 +19,14 @@ teams:
     - listx
     - tpepper
     privacy: closed
+  mdtoc-admins:
+    description: admin access to mdtoc
+    members:
+    - alejandrox1
+    - justaugustus
+    - saschagrunert
+    - tpepper
+    privacy: closed
   release-engineering:
     description: Members of the Release Engineering subproject, including
       Release Managers and Release Manager Associates.

@@ -1,4 +1,10 @@
 teams:
+  mcs-api-admins:
+    description: Admin access to the mcs-api repo
+    members:
+    - JeremyOT
+    - pmorie
+    privacy: closed
   service-catalog-admins:
     description: Admin access to the service-catalog repo
     members:

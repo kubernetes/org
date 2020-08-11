@@ -145,17 +145,15 @@ teams:
   sig-docs-ja-owners:
     description: Approvers for Japanese content
     members:
-    - cstoku
     - inductor
     - nasa9084
     privacy: closed
   sig-docs-ja-reviews:
     description: PR reviews for Japanese content
     members:
-    - cstoku
+    - bells17
     - inductor
     - makocchi-git
-    - MasayaAoyama
     - nasa9084
     - oke-py
     privacy: closed

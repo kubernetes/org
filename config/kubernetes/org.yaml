@@ -568,7 +568,7 @@ members:
 - lex111
 - lichuqiang
 - liggitt
-- LiliC
+- lilic
 - lingxiankong
 - linki
 - linyouchong
@@ -1510,7 +1510,7 @@ teams:
     members:
     - andyxning
     - brancz
-    - LiliC
+    - lilic
     - tariq1890
     privacy: closed
   kube-state-metrics-maintainers:
@@ -1518,7 +1518,7 @@ teams:
     members:
     - andyxning
     - brancz
-    - LiliC
+    - lilic
     - tariq1890
     privacy: closed
   kubectl-admins:

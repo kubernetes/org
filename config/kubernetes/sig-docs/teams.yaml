@@ -132,6 +132,7 @@ teams:
     description: Approvers for Italian content
     members:
     - fabriziopandini
+    - Fale
     - mattiaperi
     - micheleberardi
     privacy: closed
@@ -139,6 +140,7 @@ teams:
     description: PR reviews for Italian content
     members:
     - fabriziopandini
+    - Fale
     - mattiaperi
     - micheleberardi
     privacy: closed

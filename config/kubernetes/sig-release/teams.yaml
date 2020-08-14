@@ -296,3 +296,23 @@ teams:
         - saschagrunert
         - tpepper
         privacy: closed
+      sig-release-leads:
+        description: |
+          Chairs, Technical Leads, and Program Managers for SIG Release
+        members:
+        - alejandrox1
+        - justaugustus
+        - LappleApple
+        - saschagrunert
+        - tpepper
+        privacy: closed
+      sig-release-pms:
+        description: |
+          Grants access to maintain SIG Release project boards
+        members:
+        - alejandrox1
+        - justaugustus
+        - LappleApple
+        - saschagrunert
+        - tpepper
+        privacy: closed

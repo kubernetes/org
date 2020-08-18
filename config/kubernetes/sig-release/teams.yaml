@@ -41,6 +41,7 @@ teams:
     - dims # Architecture / Release
     - dougm # Release Manager
     - droslean # 1.19 Bug Triage Shadow
+    - ehashman # Instrumentation
     - enj # Auth
     - fabriziopandini # Cluster Lifecycle
     - feiskyer # Azure
@@ -96,7 +97,6 @@ teams:
     - palnabarun # 1.19 RT Enhancements Lead
     - parispittman # ContribEx
     - phillels # ContribEx
-    - piosz # Instrumentation
     - pmorie # Multicluster
     - prydonius # Apps
     - puerco # 1.19 RT Release Notes Lead

@@ -27,7 +27,6 @@ teams:
     - cantbewong # VMware
     - caseydavenport # Network
     - cheftako # Cloud Provider
-    - childsb # Storage
     - chrigl # OpenStack
     - cpanato # Release Manager
     - craiglpeters # Azure
@@ -126,6 +125,7 @@ teams:
     - vineethreddy02 # 1.19 CI Signal Shadow
     - vllry # Usability
     - wojtek-t # Scalability
+    - xing-yang # Storage
     - xmudrii # Release Manager Associate
     - zacharysarah # Docs
     privacy: closed

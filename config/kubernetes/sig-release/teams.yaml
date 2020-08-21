@@ -54,6 +54,7 @@ teams:
     - hkamel # 1.19 CI Signal Shadow
     - hoegaarden # Release Manager
     - hpandeycodeit # Usability
+    - Huang-Wei # Scheduling
     - idealhack # Release Manager
     - janetkuo # Apps
     - jberkhahn # Service Catalog
@@ -66,7 +67,6 @@ teams:
     - jtslear # 1.18 Bug Triage shadow
     - justaugustus # Azure / PM / Release
     - justinsb # AWS / Cluster Lifecycle
-    - k82cn # Scheduling
     - k8s-release-robot # Release
     - kbruner # 1.19 Bug Triage shadow
     - khenidak # Azure

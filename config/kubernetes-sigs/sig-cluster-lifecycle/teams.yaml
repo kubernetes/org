@@ -194,6 +194,7 @@ teams:
     members:
     - deitch
     - mrmrcoleman
+    - thebsdbox
     privacy: closed
   cluster-api-provider-packet-maintainers:
     description: Write access to the cluster-api-provider-packet repo
@@ -202,6 +203,7 @@ teams:
     - gianarb
     - jacobsmith928
     - mrmrcoleman
+    - thebsdbox
     privacy: closed
   cluster-api-provider-vsphere-admins:
     description: Admin access to the cluster-api-provider-vsphere repo

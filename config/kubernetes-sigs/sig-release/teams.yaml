@@ -1,4 +1,22 @@
 teams:
+  downloadkubernetes-admins:
+    description: admin access to downloadkubernetes
+    members:
+    - alejandrox1
+    - justaugustus
+    - saschagrunert
+    - tpepper
+    privacy: closed
+  downloadkubernetes-maintainers:
+    description: write access to downloadkubernetes
+    members:
+    - alejandrox1
+    - chuckha
+    - justaugustus
+    - mauilion
+    - saschagrunert
+    - tpepper
+    privacy: closed
   k8s-container-image-promoter-admins:
     description: admin access to k8s-container-image-promoter
     members:

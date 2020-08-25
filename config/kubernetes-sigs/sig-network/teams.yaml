@@ -107,6 +107,9 @@ teams:
     description: Write access to the service-apis repo
     members:
     - bowei
+    - hbagdi
+    - jpeach
+    - robscott
     - thockin
     privacy: closed
     previously:

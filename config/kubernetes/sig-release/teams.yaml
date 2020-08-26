@@ -63,6 +63,7 @@ teams:
     - jeremyrickard # 1.19 RT Lead Shadow
     - jimangel # Docs / Release Manager Associate
     - johnbelamaric # Architecture / 1.19 RT Enhancements Shadow
+    - jsafrane # Storage
     - jtslear # 1.18 Bug Triage shadow
     - justaugustus # Azure / PM / Release
     - justinsb # AWS / Cluster Lifecycle
@@ -87,6 +88,7 @@ teams:
     - mikedanese # Auth
     - mkorbi # 1.19 RT Communications Lead
     - mm4tt # Scalability
+    - msau42 # Storage
     - msedzins # 1.19 RT Enhancements Shadow
     - mszostok # Service Catalog
     - mwielgus # Autoscaling

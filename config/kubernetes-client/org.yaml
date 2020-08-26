@@ -83,18 +83,21 @@ teams:
     - brendandburns
     - mbohlool
     - roycaihw
+    - yliaog
     privacy: closed
   go-admins:
     description: Admin access to go repo
     members:
     - brendandburns
     - roycaihw
+    - yliaog
     privacy: closed
   go-base-admins:
     description: Admin access to go-base repo
     members:
     - brendandburns
     - roycaihw
+    - yliaog
     privacy: closed
   haskell-admins:
     description: Admin access to haskell repo
@@ -106,6 +109,7 @@ teams:
     description: Admin access to java repo
     members:
     - brendandburns
+    - yliaog
     - yue9944882
     privacy: closed
   javascript-admins:

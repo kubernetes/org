@@ -7,7 +7,7 @@ teams:
     maintainers:
     - cblecker # ContribEx
     - fejta # Testing
-    - mrbobbytables # 1.19 RT Lead Shadow
+    - mrbobbytables # ContribEx
     - nikhita # ContribEx
     - spiffxp # Testing
     members:
@@ -16,8 +16,8 @@ teams:
     - ahg-g # Scheduling
     - alejandrox1 # Testing
     - andrewsykim # Cloud Provider
-    - annajung # 1.18 Bug Triage shadow
-    - bai # 1.19 Bug Triage shadow
+    - annajung # 1.20 RT Docs Lead
+    - bai # 1.20 RT Bug Triage Lead
     - benmoss # Windows
     - BenTheElder # Testing
     - bgrant0607 # Architecture
@@ -39,7 +39,6 @@ teams:
     - derekwaynecarr # Architecture / Node
     - dims # Architecture / Release
     - dougm # Release Manager
-    - droslean # 1.19 Bug Triage Shadow
     - ehashman # Instrumentation
     - enj # Auth
     - fabriziopandini # Cluster Lifecycle
@@ -47,30 +46,27 @@ teams:
     - floreks # UI
     - foxish # Big Data
     - frapposelli # VMware
-    - gianarb # 1.19 Bug Triage Lead
-    - harshanarayana # 1.19 RT Enhancements Shadow
-    - hasheddan # Release Manager / 1.19 CI Signal Lead
-    - hkamel # 1.19 CI Signal Shadow
+    - hasheddan # Release Manager / 1.20 RT Lead Shadow
     - hoegaarden # Release Manager
     - hpandeycodeit # Usability
     - Huang-Wei # Scheduling
     - idealhack # Release Manager
+    - jameslaverack # 1.20 RT Release Notes Lead
     - janetkuo # Apps
     - jberkhahn # Service Catalog
     - jberkus # Release
     - jdumars # Architecture / PM
     - jeefy # UI
-    - jeremyrickard # 1.19 RT Lead Shadow
+    - jeremyrickard # 1.20 RT Lead
     - jimangel # Docs / Release Manager Associate
-    - johnbelamaric # Architecture / 1.19 RT Enhancements Shadow
+    - johnbelamaric # Architecture
+    - jrsapi # 1.20 RT Communications Lead
     - jsafrane # Storage
-    - jtslear # 1.18 Bug Triage shadow
     - justaugustus # Azure / PM / Release
     - justinsb # AWS / Cluster Lifecycle
     - k8s-release-robot # Release
-    - kbruner # 1.19 Bug Triage shadow
     - khenidak # Azure
-    - kikisdeliveryservice # 1.19 RT Enhancements Shadow
+    - kikisdeliveryservice # 1.20 RT Enhancements Lead
     - kow3ns # Apps
     - kris-nova # AWS
     - lavalamp # API Machinery
@@ -86,35 +82,29 @@ teams:
     - mborsz # Scalability
     - michmike # Windows
     - mikedanese # Auth
-    - mkorbi # 1.19 RT Communications Lead
     - mm4tt # Scalability
     - msau42 # Storage
-    - msedzins # 1.19 RT Enhancements Shadow
     - mszostok # Service Catalog
     - mwielgus # Autoscaling
     - neolit123 # Cluster Lifecycle
-    - onlydole # 1.19 RT Lead
     - oxddr # Scalability
-    - palnabarun # 1.19 RT Enhancements Lead
+    - palnabarun # 1.20 RT Lead Shadow
     - parispittman # ContribEx
     - phillels # ContribEx
     - pmorie # Multicluster
     - prydonius # Apps
-    - puerco # 1.19 RT Release Notes Lead
     - pwittrock # CLI
     - quinton-hoole # Multicluster
     - RainbowMango # Instrumentation
     - rajakavitha1 # Usability
-    - robertkielty # 1.19 CI Signal Shadow
+    - robertkielty # 1.20 RT CI Signal Lead
     - saad-ali # Storage
     - saschagrunert # Release Manager
-    - savitharaghunathan # 1.19 RT Docs Lead
-    - sayanchowdhury # 1.19 CI Signal Shadow
+    - savitharaghunathan # 1.20 RT Lead Shadow
     - seans3 # CLI
     - serathius # Instrumentation
     - sethmccombs # Release Manager Associate
     - shyamjvs # Scalability
-    - smourapina # 1.18 Bug Triage Lead
     - soltysh # CLI
     - spzala # IBM Cloud
     - stevekuznetsov # Testing
@@ -124,7 +114,6 @@ teams:
     - timothysc # Cluster Lifecycle / Testing
     - tpepper # Release
     - verolop # Release Manager Associate
-    - vineethreddy02 # 1.19 CI Signal Shadow
     - vllry # Usability
     - wojtek-t # Scalability
     - xing-yang # Storage
@@ -246,36 +235,33 @@ teams:
             - kubernetes-release-managers
       release-team:
         description: Members of the current Release Team and subproject owners.
-        maintainers:
-        - mrbobbytables # 1.19 RT Lead Shadow
         members:
         - alejandrox1 # subproject owner
+        - annajung # 1.20 RT Docs Lead
+        - bai # 1.20 RT Bug Triage Lead
         - claurence # subproject owner
         - cpanato # Release Manager
-        - gianarb # 1.19 Bug Triage Lead
         - guineveresaenger # subproject owner
-        - hasheddan # Release Manager / 1.19 CI Signal Lead
-        - jeremyrickard # 1.19 RT Lead Shadow
+        - hasheddan # Release Manager / 1.20 RT Lead Shadow
+        - jameslaverack # 1.20 RT Release Notes Lead
+        - jeremyrickard # 1.20 RT Lead
+        - jrsapi # 1.20 Communications Lead
         - justaugustus # subproject owner
-        - lachie83 # subproject owner
-        - mkorbi # 1.19 RT Communications Lead
-        - onlydole # 1.19 RT Lead
-        - palnabarun # 1.19 RT Enhancements Lead
-        - puerco # 1.19 RT Release Notes Lead
+        - kikisdeliveryservice # 1.20 Enhancements Lead
+        - lachie83 # subproject owner / 1.20 Emeritus Adviser
+        - onlydole # subproject owner
+        - palnabarun # 1.20 RT Lead Shadow
+        - robertkielty #1.20 RT CI Signal Lead
         - saschagrunert # Release Manager
-        - savitharaghunathan # 1.19 RT Docs Lead
-        - tpepper # subproject owner / Release Manager / 1.19 Emeritus Adviser
+        - savitharaghunathan # 1.20 RT Lead Shadow
+        - tpepper # subproject owner / Release Manager
         privacy: closed
         teams:
           ci-signal:
             description: Members of the CI Signal team for the current release
               cycle.
             members:
-            - hasheddan # 1.19 CI Signal Lead
-            - hkamel # 1.19 CI Signal Shadow
-            - robertkielty # 1.19 CI Signal Shadow
-            - sayanchowdhury # 1.19 CI Signal Shadow
-            - vineethreddy02 # 1.19 CI Signal Shadow
+            - robertkielty # 1.20 CI Signal Lead
             privacy: closed
           release-team-leads:
             description: Release Team Leads for the current Kubernetes release
@@ -283,12 +269,12 @@ teams:
               kubernetes/release, and kubernetes/sig-release, and can be used
               as a notification group. Remove org members who are not current
               Release Team Leads.
-            maintainers:
-            - mrbobbytables # 1.19 RT Lead Shadow
             members:
-            - jeremyrickard # 1.19 RT Lead Shadow
-            - onlydole # 1.19 RT Lead
-            - tpepper # 1.19 Emeritus Adviser
+            - hasheddan #  1.20 RT Lead Shadow
+            - jeremyrickard # 1.20 RT Lead
+            - lachie83 # 1.20 Emeritus Adviser
+            - palnabarun # 1.20 RT Lead Shadow
+            - savitharaghunathan # 1.20 RT Lead Shadow
             privacy: closed
       sig-release-admins:
         description: Admins for SIG Release repositories

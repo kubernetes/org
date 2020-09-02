@@ -30,7 +30,6 @@ teams:
     - chrigl # OpenStack
     - cpanato # Release Manager
     - craiglpeters # Azure
-    - d-nishi # AWS
     - dashpole # Instrumentation
     - dcbw # Network
     - dchen1107 # Node
@@ -68,7 +67,6 @@ teams:
     - khenidak # Azure
     - kikisdeliveryservice # 1.20 RT Enhancements Lead
     - kow3ns # Apps
-    - kris-nova # AWS
     - lavalamp # API Machinery
     - liggitt # Auth / Release
     - lingxiankong # OpenStack
@@ -86,6 +84,7 @@ teams:
     - msau42 # Storage
     - mszostok # Service Catalog
     - mwielgus # Autoscaling
+    - nckturner # AWS
     - neolit123 # Cluster Lifecycle
     - oxddr # Scalability
     - palnabarun # 1.20 RT Lead Shadow

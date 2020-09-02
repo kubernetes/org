@@ -2,6 +2,7 @@ teams:
   cloud-provider-azure-admins:
     description: ""
     members:
+    - nilo19
     - andyzhangx
     - feiskyer
     - justaugustus

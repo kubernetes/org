@@ -106,7 +106,6 @@ teams:
     description: Admin access to java repo
     members:
     - brendandburns
-    - mbohlool
     - yue9944882
     privacy: closed
   javascript-admins:

@@ -84,3 +84,19 @@ teams:
     - onyiny-ang
     - tpepper
     privacy: closed
+  zeitgeist-admins:
+    description: admin access to zeitgeist
+    members:
+    - alejandrox1
+    - justaugustus
+    - saschagrunert
+    - tpepper
+    privacy: closed
+  zeitgeist-maintainers:
+    description: write access to zeitgeist
+    members:
+    - alejandrox1
+    - justaugustus
+    - saschagrunert
+    - tpepper
+    privacy: closed

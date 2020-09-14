@@ -194,6 +194,7 @@ teams:
     description: Admin access to cluster-api-provider-packet repo
     members:
     - deitch
+    - detiber
     - mrmrcoleman
     - thebsdbox
     privacy: closed
@@ -201,6 +202,7 @@ teams:
     description: Write access to the cluster-api-provider-packet repo
     members:
     - deitch
+    - detiber
     - gianarb
     - jacobsmith928
     - mrmrcoleman

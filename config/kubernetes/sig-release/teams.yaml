@@ -117,7 +117,7 @@ teams:
     - vllry # Usability
     - wojtek-t # Scalability
     - xing-yang # Storage
-    - xmudrii # Release Manager Associate
+    - xmudrii # Release Manager
     - zacharysarah # Docs
     privacy: closed
     previously:
@@ -192,7 +192,7 @@ teams:
         - sumitranr # Build Admin
         - tpepper # subproject owner / Build Admin / Release Manager
         - Verolop # Release Manager Associate
-        - xmudrii # Release Manager Associate
+        - xmudrii # Release Manager
         privacy: closed
         teams:
           build-admins:
@@ -230,6 +230,7 @@ teams:
             - k8s-release-robot
             - saschagrunert
             - tpepper
+            - xmudrii
             privacy: closed
             previously:
             - kubernetes-release-managers
@@ -255,6 +256,7 @@ teams:
         - saschagrunert # Release Manager
         - savitharaghunathan # 1.20 RT Lead Shadow
         - tpepper # subproject owner / Release Manager
+        - xmudrii # Release Manager
         privacy: closed
         teams:
           ci-signal:

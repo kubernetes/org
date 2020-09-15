@@ -64,7 +64,7 @@ teams:
     - sethmccombs # Release Manager Associate
     - tpepper # subproject owner / Build Admin / Release Manager
     - Verolop # Release Manager Associate
-    - xmudrii # Release Manager Associate
+    - xmudrii # Release Manager
     - yodahekinsew # Image promoter contributor (ref: https://github.com/kubernetes/org/pull/1938)
     privacy: closed
   release-notes-admins:

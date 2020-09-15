@@ -46,6 +46,7 @@ teams:
     - floreks # UI
     - foxish # Big Data
     - frapposelli # VMware
+    - gianarb # Release Manager Associate
     - hasheddan # Release Manager / 1.20 RT Lead Shadow
     - hoegaarden # Release Manager
     - hpandeycodeit # Usability
@@ -82,17 +83,20 @@ teams:
     - mborsz # Scalability
     - michmike # Windows
     - mikedanese # Auth
+    - mkorbi # Release Manager Associate
     - mm4tt # Scalability
     - msau42 # Storage
     - mszostok # Service Catalog
     - mwielgus # Autoscaling
     - neolit123 # Cluster Lifecycle
+    - onlydole # Release Manager Associate
     - oxddr # Scalability
     - palnabarun # 1.20 RT Lead Shadow
     - parispittman # ContribEx
     - phillels # ContribEx
     - pmorie # Multicluster
     - prydonius # Apps
+    - puerco # Release Manager Associate
     - pwittrock # CLI
     - quinton-hoole # Multicluster
     - RainbowMango # Instrumentation
@@ -179,6 +183,7 @@ teams:
         - cpanato # Release Manager
         - dougm # Release Manager
         - feiskyer # Release Manager
+        - gianarb # Release Manager Associate
         - hasheddan # Release Manager
         - hoegaarden # subproject owner / Release Manager
         - idealhack # Release Manager
@@ -186,7 +191,10 @@ teams:
         - justaugustus # subproject owner / Build Admin / Release Manager
         - listx # Build Admin
         - markyjackson-taulia # Release Manager Associate
+        - mkorbi # Release Manager Associate
+        - onlydole # Release Manager Associate
         - ps882 # Build Admin
+        - puerco # Release Manager Associate
         - saschagrunert # Release Manager
         - sethmccombs # Release Manager Associate
         - sumitranr # Build Admin

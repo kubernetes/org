@@ -58,6 +58,8 @@ teams:
   controller-runtime-maintainers:
     description: write access to controller-runtime
     members:
+    - camilamacedo86
+    - gabbifish
     - Liujingfang1
     - mengqiy
     - pwittrock
@@ -81,7 +83,9 @@ teams:
   controller-tools-maintainers:
     description: write access to controller-tools
     members:
+    - camilamacedo86
     - droot
+    - gabbifish
     - mengqiy
     - pwittrock
     - seans3
@@ -123,8 +127,10 @@ teams:
     description: write access to kubebuilder
     members:
     - apelisse
+    - camilamacedo86
     - DirectXMan12
     - droot
+    - gabbifish
     - mengqiy
     - monopole
     - pmorie

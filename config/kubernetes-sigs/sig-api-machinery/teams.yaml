@@ -13,6 +13,22 @@ teams:
     - pwittrock
     - yue9944882
     privacy: closed
+  apiserver-runtime-admins:
+    description: admin access to apiserver-runtime
+    members:
+    - DirectXMan12
+    - gabbifish
+    - pwittrock
+    - yue9944882
+    privacy: closed
+  apiserver-runtime-maintainers:
+    description: write access to apiserver-runtime
+    members:
+    - DirectXMan12
+    - gabbifish
+    - pwittrock
+    - yue9944882
+    privacy: closed
   clientgofix-admins:
     description: admin access to clientgofix
     members:

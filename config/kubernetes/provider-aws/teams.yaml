@@ -2,14 +2,11 @@ teams:
   provider-aws-misc:
     description: ""
     members:
-    - d-nishi
-    - jsafrane
-    - kris-nova
-    - leakingtapan
-    - mcrute
+    - andrewsykim
+    - justinsb
     - micahhausler
     - nckturner
-    - sethpollack
+    - wongma7
     privacy: closed
     previously:
     - sig-aws-misc

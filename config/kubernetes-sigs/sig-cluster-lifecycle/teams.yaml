@@ -247,6 +247,7 @@ teams:
   image-builder-admins:
     description: admin access to image-builder
     members:
+    - codenrhoden
     - justinsb
     - luxas
     - timothysc

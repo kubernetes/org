@@ -107,6 +107,7 @@ teams:
     description: Write access to the service-apis repo
     members:
     - bowei
+    - danehans
     - hbagdi
     - jpeach
     - robscott

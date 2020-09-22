@@ -38,6 +38,7 @@ teams:
     - derekwaynecarr # Architecture / Node
     - dims # Architecture / Release
     - dougm # Release Manager
+    - droslean # 1.20 RT Bug Triage Shadow
     - ehashman # Instrumentation
     - enj # Auth
     - fabriziopandini # Cluster Lifecycle

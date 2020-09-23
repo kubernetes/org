@@ -250,19 +250,23 @@ teams:
         - bai # 1.20 RT Bug Triage Lead
         - claurence # subproject owner
         - cpanato # Release Manager
+        - eagleusb # 1.20 RT Docs Shadow
         - guineveresaenger # subproject owner
         - hasheddan # Release Manager / 1.20 RT Lead Shadow
         - jameslaverack # 1.20 RT Release Notes Lead
         - jeremyrickard # 1.20 RT Lead
         - jrsapi # 1.20 Communications Lead
         - justaugustus # subproject owner
+        - kcmartin # 1.20 RT Docs Shadow
         - kikisdeliveryservice # 1.20 Enhancements Lead
         - lachie83 # subproject owner / 1.20 Emeritus Adviser
         - onlydole # subproject owner
         - palnabarun # 1.20 RT Lead Shadow
+        - reylejano-rxm # 1.20 RT Docs Shadow
         - robertkielty #1.20 RT CI Signal Lead
         - saschagrunert # Release Manager
         - savitharaghunathan # 1.20 RT Lead Shadow
+        - somtochiama # 1.20 RT Docs Shadow
         - tpepper # subproject owner / Release Manager
         - xmudrii # Release Manager
         privacy: closed

@@ -280,7 +280,11 @@ teams:
             description: Members of the CI Signal team for the current release
               cycle.
             members:
+            - eddiezane # 1.20 RT CI Signal Shadow
+            - hkamel # 1.20 RT CI Signal Shadow
             - robertkielty # 1.20 CI Signal Lead
+            - ScrapCodes # 1.20 RT CI Signal Shadow
+            - thejoycekung # 1.20 RT CI Signal Shadow
             privacy: closed
           release-team-leads:
             description: Release Team Leads for the current Kubernetes release

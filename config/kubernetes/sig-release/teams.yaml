@@ -252,8 +252,10 @@ teams:
         - claurence # subproject owner
         - cpanato # Release Manager
         - eagleusb # 1.20 RT Docs Shadow
+        - eddiezane # 1.20 RT CI Signal Shadow 
         - guineveresaenger # subproject owner
         - hasheddan # Release Manager / 1.20 RT Lead Shadow
+        - hkamel # 1.20 RT CI Signal Shadow
         - jameslaverack # 1.20 RT Release Notes Lead
         - jeremyrickard # 1.20 RT Lead
         - jrsapi # 1.20 Communications Lead
@@ -267,7 +269,9 @@ teams:
         - robertkielty #1.20 RT CI Signal Lead
         - saschagrunert # Release Manager
         - savitharaghunathan # 1.20 RT Lead Shadow
+        - ScrapCodes # 1.20 RT CI Signal Shadow
         - somtochiama # 1.20 RT Docs Shadow
+        - thejoycekung # 1.20 RT CI Signal Shadow
         - tpepper # subproject owner / Release Manager
         - xmudrii # Release Manager
         privacy: closed
@@ -276,7 +280,11 @@ teams:
             description: Members of the CI Signal team for the current release
               cycle.
             members:
+            - eddiezane # 1.20 RT CI Signal Shadow
+            - hkamel # 1.20 RT CI Signal Shadow
             - robertkielty # 1.20 CI Signal Lead
+            - ScrapCodes # 1.20 RT CI Signal Shadow
+            - thejoycekung # 1.20 RT CI Signal Shadow
             privacy: closed
           release-team-leads:
             description: Release Team Leads for the current Kubernetes release

@@ -25,32 +25,27 @@ teams:
     - kbhawkey
     - onlydole
     - sftim
-    - steveperry-53
     - tengqm
-    - xiangpengzhao
     - zacharysarah
     - zparnold
     privacy: closed
   sig-docs-en-reviews:
     description: PR reviews for English content
     members:
-    - bradamant3
     - bradtopol
     - celestehorgan
     - daminisatya
     - gochist
     - irvifa
-    - jaredbhatti
     - jimangel
     - kbarnard10
     - kbhawkey
     - onlydole
     - Rajakavitha1
     - sftim
-    - steveperry-53
     - stewart-yu
     - tengqm
-    - xiangpengzhao
+    - zacharysarah
     - zparnold
     privacy: closed
   sig-docs-es-owners:
@@ -218,7 +213,6 @@ teams:
   sig-docs-pr-reviews:
     description: PR reviews for docs-related issues
     members:
-    - bradamant3
     - bradtopol
     - cody-clark
     - gochist
@@ -227,11 +221,9 @@ teams:
     - kbarnard10
     - kbhawkey
     - Rajakavitha1
-    - steveperry-53
     - stewart-yu
     - tengqm
     - tfogo
-    - xiangpengzhao
     - zacharysarah
     - zparnold
     privacy: closed
@@ -254,7 +246,6 @@ teams:
     - SataQiu
     - tanjunchen
     - tengqm
-    - xiangpengzhao
     - xichengliudui
     - zhangxiaoyu-zidif
     privacy: closed
@@ -267,7 +258,6 @@ teams:
     - SataQiu
     - tanjunchen
     - tengqm
-    - xiangpengzhao
     - xichengliudui
     - zhangxiaoyu-zidif
     privacy: closed
@@ -394,13 +384,11 @@ teams:
     - savitharaghunathan
     - sftim
     - smana
-    - steveperry-53
     - tanjunchen
     - tengqm
     - tfogo
     - truongnh1992
     - vineethreddy02
-    - xiangpengzhao
     - xichengliudui
     - yastij
     - ysyukr

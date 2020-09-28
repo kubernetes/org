@@ -9,6 +9,7 @@ teams:
   reference-docs-maintainers:
     description: write access to the reference-docs repo
     members:
+    - irvifa
     - kbhawkey
     - onlydole
     - sftim

@@ -51,7 +51,6 @@ teams:
     - stewart-yu
     - tengqm
     - xiangpengzhao
-    - zacharysarah
     - zparnold
     privacy: closed
   sig-docs-es-owners:
@@ -179,12 +178,12 @@ teams:
   sig-docs-leads:
     description: Chairs and tech leads for SIG Docs
     members:
+    - irvifa
     - jimangel
     - kbarnard10
     - kbhawkey
     - onlydole
     - sftim
-    - zacharysarah
     privacy: closed
   sig-docs-pl-owners:
     description: Approvers for Polish content
@@ -306,9 +305,9 @@ teams:
     previously:
     - kubernetes-website-admins
     members:
+    - irvifa
     - jimangel
     - kbarnard10
-    - zacharysarah
     privacy: closed
   website-maintainers:
     description: Write access to the website repo

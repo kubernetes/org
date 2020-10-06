@@ -38,13 +38,16 @@ teams:
     maintainers:
     - mrbobbytables # subproject owner
     members:
-    - harshanarayana # 1.19 RT Enhancements Shadow
     - jeremyrickard # subproject owner
-    - johnbelamaric # subproject owner / 1.19 RT Enhancements Shadow
+    - johnbelamaric # subproject owner
     - justaugustus # subproject owner
-    - kikisdeliveryservice # 1.19 RT Enhancements Shadow
-    - msedzins # 1.19 RT Enhancements Shadow
-    - palnabarun # 1.19 RT Enhancements Lead
+    - kendallroden # 1.20 Enhancements Shadow
+    - kikisdeliveryservice # 1.20 Enhancements Lead
+    - kinarashah # 1.20 Enhancements Shadow
+    - LappleApple # subproject owner
+    - mikejoh # 1.20 Enhancements Shadow
+    - MorrisLaw # 1.20 Enhancements Shadow
+    - palnabarun
     privacy: closed
     teams:
       enhancements-admins:
@@ -55,6 +58,7 @@ teams:
         - jeremyrickard # subproject owner
         - johnbelamaric # subproject owner
         - justaugustus # subproject owner
+        - LappleApple # subproject owner
         privacy: closed
       enhancements-maintainers:
         description: Contributors with write access to k/enhancements
@@ -64,6 +68,7 @@ teams:
         - jeremyrickard # subproject owner
         - johnbelamaric # subproject owner
         - justaugustus # subproject owner
+        - LappleApple # subproject owner
         previously:
         - features-maintainers
         privacy: closed

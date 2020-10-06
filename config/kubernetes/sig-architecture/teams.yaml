@@ -43,6 +43,7 @@ teams:
     - johnbelamaric # subproject owner / 1.19 RT Enhancements Shadow
     - justaugustus # subproject owner
     - kikisdeliveryservice # 1.19 RT Enhancements Shadow
+    - LappleApple # subproject owner
     - msedzins # 1.19 RT Enhancements Shadow
     - palnabarun # 1.19 RT Enhancements Lead
     privacy: closed
@@ -55,6 +56,7 @@ teams:
         - jeremyrickard # subproject owner
         - johnbelamaric # subproject owner
         - justaugustus # subproject owner
+        - LappleApple # subproject owner
         privacy: closed
       enhancements-maintainers:
         description: Contributors with write access to k/enhancements
@@ -64,6 +66,7 @@ teams:
         - jeremyrickard # subproject owner
         - johnbelamaric # subproject owner
         - justaugustus # subproject owner
+        - LappleApple # subproject owner
         previously:
         - features-maintainers
         privacy: closed

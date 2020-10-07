@@ -11,17 +11,21 @@ teams:
     - marquiz
     - zvonkok
     privacy: closed
-  seccomp-operator-admins:
-    description: Admin access to seccomp-operator repo
+  security-profiles-operator-admins:
+    description: Admin access to security-profiles-operator repo
     members:
     - hasheddan
     - pjbgf
     - saschagrunert
     privacy: closed
-  seccomp-operator-maintainers:
-    description: Write access to seccomp-operator repo
+    previously:
+    - seccomp-operator-admins
+  security-profiles-operator-maintainers:
+    description: Write access to security-profiles-operator repo
     members:
     - hasheddan
     - pjbgf
     - saschagrunert
     privacy: closed
+    previously:
+    - seccomp-operator-maintainers

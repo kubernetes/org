@@ -34,6 +34,7 @@ teams:
     description: admin access to krew
     members:
     - ahmetb
+    - chriskim06
     - corneliusweig
     - pwittrock
     - seans3
@@ -43,6 +44,7 @@ teams:
     description: write access to krew
     members:
     - ahmetb
+    - chriskim06
     - corneliusweig
     - pwittrock
     - seans3
@@ -52,6 +54,7 @@ teams:
     description: admin access to krew-index
     members:
     - ahmetb
+    - chriskim06
     - corneliusweig
     - pwittrock
     - seans3
@@ -61,6 +64,7 @@ teams:
     description: write access to krew-index
     members:
     - ahmetb
+    - chriskim06
     - corneliusweig
     - pwittrock
     - seans3

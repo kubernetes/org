@@ -172,6 +172,25 @@ teams:
     - maisem
     - vincepri
     privacy: closed
+  cluster-api-provider-nested-admins:
+    description: admin access to cluster-api-provider-nested
+    members:
+    - christopherhein
+    - fabriziopandini
+    - Fei-Guo
+    - justinsb
+    - neolit123
+    - timothysc
+    - vincepri
+    privacy: closed
+  cluster-api-provider-nested-maintainers:
+    description: write access to cluster-api-provider-nested
+    members:
+    - christopherhein
+    - Fei-Guo
+    - resouer
+    - zhuangqh
+    privacy: closed
   cluster-api-provider-openstack-admins:
     description: admin access to cluster-api-provider-openstack
     members:

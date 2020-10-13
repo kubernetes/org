@@ -1762,12 +1762,12 @@ teams:
     description: Kubernetes Steering Committee
     maintainers:
     - cblecker
+    - mrbobbytables
     - nikhita
-    - spiffxp
     members:
     - derekwaynecarr
     - dims
-    - lachie83
+    - liggitt
     - parispittman
     privacy: closed
   ubuntu-image:

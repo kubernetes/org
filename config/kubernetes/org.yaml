@@ -694,6 +694,7 @@ members:
 - monopole
 - monotek
 - MonzElmasry
+- morengab
 - moriadry
 - MorrisLaw
 - mortent
@@ -728,6 +729,7 @@ members:
 - nestorsalceda
 - ngtuna
 - NickrenREN
+- nicolehanjing
 - nikhiljindal
 - nikopen
 - nilebox
@@ -1083,6 +1085,7 @@ members:
 - zouyee
 - ZP-AlwaysWin
 - zparnold
+- zshihang
 teams:
   api-approvers:
     description: Approve changes to stable Kubernetes APIs and addition of new beta/stable

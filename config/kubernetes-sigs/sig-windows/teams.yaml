@@ -40,6 +40,6 @@ teams:
     description: Write access to sig-windows-tools repo
     members:
     - benmoss
-    - michmike
     - jsturtevant
+    - michmike
     privacy: closed

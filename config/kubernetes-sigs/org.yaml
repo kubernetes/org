@@ -603,14 +603,18 @@ teams:
   gcp-filestore-csi-driver-admins:
     description: Admin access to the gcp-filestore-csi-driver repo
     members:
+    - mattcary
     - msau42
     - saad-ali
+    - saikat-royc
     privacy: closed
   gcp-filestore-csi-driver-maintainers:
     description: Write access to the gcp-filestore-csi-driver repo
     members:
+    - mattcary
     - msau42
     - saad-ali
+    - saikat-royc
     privacy: closed
   kubernetes/sig-apps:
     description: Parent team for all SIG Apps subteams (approvers, reviewers, admins)

@@ -20,21 +20,21 @@ teams:
   k8s-container-image-promoter-admins:
     description: admin access to k8s-container-image-promoter
     members:
-    - calebamiles
     - dims
-    - hh
     - justaugustus
+    - justinsb
     - listx
+    - saschagrunert
     - tpepper
     privacy: closed
   k8s-container-image-promoter-maintainers:
     description: write access to k8s-container-image-promoter
     members:
-    - calebamiles
     - dims
-    - hh
     - justaugustus
+    - justinsb
     - listx
+    - saschagrunert
     - tpepper
     privacy: closed
   mdtoc-admins:

@@ -36,6 +36,7 @@ teams:
         members:
         - aoxn
         - cheyang
+        - gujingit
         - xlgao-zju
         privacy: closed
       sig-cloud-provider-aws-admins:

@@ -13,8 +13,26 @@ teams:
     - ixdy
     - stevekuznetsov
     privacy: closed
+  e2e-framework-admins:
+    description: admin access to e2e-framework
+    maintainers:
+    - spiffxp
+    members:
+    - alejandrox1
+    - andrewsykim
+    - BenTheElder
+    privacy: closed
+  e2e-framework-maintainers:
+    description: write access to e2e-framework
+    maintainers:
+    - spiffxp
+    members:
+    - alejandrox1
+    - andrewsykim
+    - BenTheElder
+    privacy: closed
   kind-admins:
-    description: Admin access to the kind rpeo
+    description: Admin access to the kind repo
     members:
     - BenTheElder
     - munnerz

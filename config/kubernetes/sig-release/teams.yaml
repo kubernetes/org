@@ -23,7 +23,6 @@ teams:
     - bgrant0607 # Architecture
     - bradamant3 # Docs
     - brancz # Instrumentation
-    - calebamiles # Release / PM
     - cantbewong # VMware
     - caseydavenport # Network
     - cheftako # Cloud Provider
@@ -138,16 +137,18 @@ teams:
     - mfojtik
     - sttts
     privacy: closed
-  sig-release: # explicitly lists active folks that are not already members of a nested team
-    description: SIG Release Members
+  sig-release:
+    description: SIG Release members. Explicitly lists SIG Release Chairs,
+      Technical Leads, Program Managers, and any active SIG contributors that
+      are not already members of a nested team.
     maintainers:
     - mrbobbytables
     - nikhita
     - spiffxp
     members:
+    - alejandrox1 # Technical Lead
     - alenkacz
     - BenTheElder
-    - calebamiles
     - castrojo
     - dims
     - ixdy
@@ -155,16 +156,18 @@ teams:
     - jdumars
     - jeefy
     - jeremyrickard
-    - justaugustus
+    - justaugustus # Chair
+    - LappleApple # Program Manager
     - liggitt
     - mariantalla
     - nikopen
     - onyiny-ang
     - palnabarun
     - rawkode
+    - saschagrunert # Technical Lead
     - savitharaghunathan
     - soggiest
-    - tpepper
+    - tpepper # Chair
     privacy: closed
     teams:
       licensing:
@@ -180,27 +183,22 @@ teams:
         description: Members of the Release Engineering subproject, including
           Release Managers, Release Manager Associates, and Build Admins.
         members:
-        - aleksandra-malinowska # Build Admin
-        - calebamiles # subproject owner
         - cpanato # Release Manager
         - dougm # Release Manager
         - feiskyer # Release Manager
         - gianarb # Release Manager Associate
         - hasheddan # Release Manager
-        - hoegaarden # subproject owner / Release Manager
+        - hoegaarden # Release Manager
         - idealhack # Release Manager
         - jimangel # Release Manager Associate
-        - justaugustus # subproject owner / Build Admin / Release Manager
-        - listx # Build Admin
+        - justaugustus # subproject owner / Release Manager
         - markyjackson-taulia # Release Manager Associate
         - mkorbi # Release Manager Associate
         - onlydole # Release Manager Associate
-        - ps882 # Build Admin
         - puerco # Release Manager Associate
-        - saschagrunert # Release Manager
+        - saschagrunert # subproject owner / Release Manager
         - sethmccombs # Release Manager Associate
-        - sumitranr # Build Admin
-        - tpepper # subproject owner / Build Admin / Release Manager
+        - tpepper # subproject owner / Release Manager
         - Verolop # Release Manager Associate
         - xmudrii # Release Manager
         privacy: closed
@@ -209,19 +207,15 @@ teams:
             description: Kubernetes Build Admins are the current set of
               Googlers with access to publish packages (debs/rpms) on behalf of
               the Kubernetes project. This team is a notification-only group,
-              which includes the SIG Release Chairs for continuity.
+              which includes the SIG Release Chairs/TLs for continuity.
             maintainers:
             - spiffxp
             members:
-            - aleksandra-malinowska
             - amwat
             - BenTheElder
-            - calebamiles
             - justaugustus
-            - listx
             - MushuEE
-            - ps882
-            - sumitranr
+            - saschagrunert
             - tpepper
             privacy: closed
           release-managers:
@@ -250,7 +244,6 @@ teams:
         - alejandrox1 # subproject owner
         - annajung # 1.20 RT Docs Lead
         - bai # 1.20 RT Bug Triage Lead
-        - claurence # subproject owner
         - cpanato # Release Manager
         - eagleusb # 1.20 RT Docs Shadow
         - eddiezane # 1.20 RT CI Signal Shadow 
@@ -303,28 +296,28 @@ teams:
       sig-release-admins:
         description: Admins for SIG Release repositories
         members:
-        - alejandrox1
-        - justaugustus
-        - saschagrunert
-        - tpepper
+        - alejandrox1 # Technical Lead
+        - justaugustus # Chair
+        - saschagrunert # Technical Lead
+        - tpepper # Chair
         privacy: closed
       sig-release-leads:
         description: |
           Chairs, Technical Leads, and Program Managers for SIG Release
         members:
-        - alejandrox1
-        - justaugustus
-        - LappleApple
-        - saschagrunert
-        - tpepper
+        - alejandrox1 # Technical Lead
+        - justaugustus # Chair
+        - LappleApple # Program Manager
+        - saschagrunert # Technical Lead
+        - tpepper # Chair
         privacy: closed
       sig-release-pms:
         description: |
           Grants access to maintain SIG Release project boards
         members:
-        - alejandrox1
-        - justaugustus
-        - LappleApple
-        - saschagrunert
-        - tpepper
+        - alejandrox1 # Technical Lead
+        - justaugustus # Chair
+        - LappleApple # Program Manager
+        - saschagrunert # Technical Lead
+        - tpepper # Chair
         privacy: closed

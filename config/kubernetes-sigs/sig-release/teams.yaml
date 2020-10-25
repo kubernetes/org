@@ -17,26 +17,32 @@ teams:
     - saschagrunert
     - tpepper
     privacy: closed
-  k8s-container-image-promoter-admins:
+  image-promoter-admins:
     description: admin access to k8s-container-image-promoter
     members:
-    - dims
-    - justaugustus
-    - justinsb
-    - listx
-    - saschagrunert
-    - tpepper
+    - justaugustus # subproject owner / maintainer
+    - justinsb # maintainer
+    - listx # maintainer
+    - saschagrunert # subproject owner
+    - tpepper # subproject owner
     privacy: closed
-  k8s-container-image-promoter-maintainers:
+    previously:
+    - k8s-container-image-promoter-admins
+  image-promoter-maintainers:
     description: write access to k8s-container-image-promoter
+    maintainers:
+    - spiffxp # WG K8s Infra Lead
     members:
-    - dims
-    - justaugustus
-    - justinsb
-    - listx
-    - saschagrunert
-    - tpepper
+    - bartsmykla # WG K8s Infra Lead
+    - dims # WG K8s Infra Lead
+    - justaugustus # subproject owner / maintainer
+    - justinsb # maintainer
+    - listx # maintainer
+    - saschagrunert # subproject owner
+    - tpepper # subproject owner
     privacy: closed
+    previously:
+    - k8s-container-image-promoter-maintainers
   mdtoc-admins:
     description: admin access to mdtoc
     members:
@@ -49,27 +55,24 @@ teams:
     description: Members of the Release Engineering subproject, including
       Release Managers and Release Manager Associates.
     members:
-    - calebamiles # subproject owner
     - cpanato # Release Manager
     - dougm # Release Manager
     - feiskyer # Release Manager
     - gianarb # Release Manager Associate
     - hasheddan # Release Manager
-    - hoegaarden # subproject owner / Release Manager
+    - hoegaarden # Release Manager
     - idealhack # Release Manager
     - jimangel # Release Manager Associate
-    - justaugustus # subproject owner / Build Admin / Release Manager
-    - listx # Build Admin / Image promoter admin
+    - justaugustus # subproject owner / Release Manager
     - markyjackson-taulia # Release Manager Associate
     - mkorbi # Release Manager Associate
     - onlydole # Release Manager Associate
     - puerco # Release Manager Associate
-    - saschagrunert # Release Manager
+    - saschagrunert # subproject owner / Release Manager
     - sethmccombs # Release Manager Associate
-    - tpepper # subproject owner / Build Admin / Release Manager
+    - tpepper # subproject owner / Release Manager
     - Verolop # Release Manager Associate
     - xmudrii # Release Manager
-    - yodahekinsew # Image promoter contributor (ref: https://github.com/kubernetes/org/pull/1938)
     privacy: closed
   release-notes-admins:
     description: admin access to release-notes
@@ -81,7 +84,6 @@ teams:
   release-notes-maintainers:
     description: write access to release-notes
     members:
-    - calebamiles
     - jeefy
     - justaugustus
     - marpaia

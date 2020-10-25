@@ -180,27 +180,22 @@ teams:
         description: Members of the Release Engineering subproject, including
           Release Managers, Release Manager Associates, and Build Admins.
         members:
-        - aleksandra-malinowska # Build Admin
-        - calebamiles # subproject owner
         - cpanato # Release Manager
         - dougm # Release Manager
         - feiskyer # Release Manager
         - gianarb # Release Manager Associate
         - hasheddan # Release Manager
-        - hoegaarden # subproject owner / Release Manager
+        - hoegaarden # Release Manager
         - idealhack # Release Manager
         - jimangel # Release Manager Associate
-        - justaugustus # subproject owner / Build Admin / Release Manager
-        - listx # Build Admin
+        - justaugustus # subproject owner / Release Manager
         - markyjackson-taulia # Release Manager Associate
         - mkorbi # Release Manager Associate
         - onlydole # Release Manager Associate
-        - ps882 # Build Admin
         - puerco # Release Manager Associate
-        - saschagrunert # Release Manager
+        - saschagrunert # subproject owner / Release Manager
         - sethmccombs # Release Manager Associate
-        - sumitranr # Build Admin
-        - tpepper # subproject owner / Build Admin / Release Manager
+        - tpepper # subproject owner / Release Manager
         - Verolop # Release Manager Associate
         - xmudrii # Release Manager
         privacy: closed
@@ -209,19 +204,15 @@ teams:
             description: Kubernetes Build Admins are the current set of
               Googlers with access to publish packages (debs/rpms) on behalf of
               the Kubernetes project. This team is a notification-only group,
-              which includes the SIG Release Chairs for continuity.
+              which includes the SIG Release Chairs/TLs for continuity.
             maintainers:
             - spiffxp
             members:
-            - aleksandra-malinowska
             - amwat
             - BenTheElder
-            - calebamiles
             - justaugustus
-            - listx
             - MushuEE
-            - ps882
-            - sumitranr
+            - saschagrunert
             - tpepper
             privacy: closed
           release-managers:

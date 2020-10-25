@@ -17,26 +17,32 @@ teams:
     - saschagrunert
     - tpepper
     privacy: closed
-  k8s-container-image-promoter-admins:
+  image-promoter-admins:
     description: admin access to k8s-container-image-promoter
     members:
-    - dims
-    - justaugustus
-    - justinsb
-    - listx
-    - saschagrunert
-    - tpepper
+    - justaugustus # subproject owner / maintainer
+    - justinsb # maintainer
+    - listx # maintainer
+    - saschagrunert # subproject owner
+    - tpepper # subproject owner
     privacy: closed
-  k8s-container-image-promoter-maintainers:
+    previously:
+    - k8s-container-image-promoter-admins
+  image-promoter-maintainers:
     description: write access to k8s-container-image-promoter
+    maintainers:
+    - spiffxp # WG K8s Infra Lead
     members:
-    - dims
-    - justaugustus
-    - justinsb
-    - listx
-    - saschagrunert
-    - tpepper
+    - bartsmykla # WG K8s Infra Lead
+    - dims # WG K8s Infra Lead
+    - justaugustus # subproject owner / maintainer
+    - justinsb # maintainer
+    - listx # maintainer
+    - saschagrunert # subproject owner
+    - tpepper # subproject owner
     privacy: closed
+    previously:
+    - k8s-container-image-promoter-maintainers
   mdtoc-admins:
     description: admin access to mdtoc
     members:

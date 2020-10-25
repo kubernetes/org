@@ -23,7 +23,6 @@ teams:
     - bgrant0607 # Architecture
     - bradamant3 # Docs
     - brancz # Instrumentation
-    - calebamiles # Release / PM
     - cantbewong # VMware
     - caseydavenport # Network
     - cheftako # Cloud Provider
@@ -147,7 +146,6 @@ teams:
     members:
     - alenkacz
     - BenTheElder
-    - calebamiles
     - castrojo
     - dims
     - ixdy

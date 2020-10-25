@@ -84,7 +84,6 @@ teams:
   release-notes-maintainers:
     description: write access to release-notes
     members:
-    - calebamiles
     - jeefy
     - justaugustus
     - marpaia

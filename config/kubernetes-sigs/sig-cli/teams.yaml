@@ -6,7 +6,6 @@ teams:
     - pwittrock
     - seans3
     - soltysh
-    - zacharysarah # temporary, remove after 15 Nov 2020
     privacy: closed
   cli-experimental-maintainers:
     description: write access to cli-experimental

@@ -16,8 +16,8 @@ teams:
     - ahg-g # Scheduling
     - alejandrox1 # Testing
     - andrewsykim # Cloud Provider
-    - annajung # 1.20 RT Docs Lead
-    - bai # 1.20 RT Bug Triage Lead
+    - annajung # 1.20 Docs Lead
+    - bai # 1.20 Bug Triage Lead
     - benmoss # Windows
     - BenTheElder # Testing
     - bgrant0607 # Architecture
@@ -37,10 +37,10 @@ teams:
     - derekwaynecarr # Architecture / Node
     - dims # Architecture / Release
     - dougm # Release Manager
-    - droslean # 1.20 RT Bug Triage Shadow
+    - droslean # 1.20 Bug Triage Shadow
     - ehashman # Instrumentation
     - enj # Auth
-    - erismaster # 1.20 RT Bug Triage Shadow
+    - erismaster # 1.20 Bug Triage Shadow
     - fabriziopandini # Cluster Lifecycle
     - feiskyer # Azure
     - floreks # UI
@@ -52,7 +52,7 @@ teams:
     - hpandeycodeit # Usability
     - Huang-Wei # Scheduling
     - idealhack # Release Manager
-    - jameslaverack # 1.20 RT Release Notes Lead
+    - jameslaverack # 1.20 Release Notes Lead
     - janetkuo # Apps
     - jberkhahn # Service Catalog
     - jberkus # Release
@@ -61,13 +61,13 @@ teams:
     - jeremyrickard # 1.20 RT Lead
     - jimangel # Docs / Release Manager Associate
     - johnbelamaric # Architecture
-    - jrsapi # 1.20 RT Communications Lead
+    - jrsapi # 1.20 Communications Lead
     - jsafrane # Storage
     - justaugustus # Azure / PM / Release
     - justinsb # AWS / Cluster Lifecycle
     - k8s-release-robot # Release
     - khenidak # Azure
-    - kikisdeliveryservice # 1.20 RT Enhancements Lead
+    - kikisdeliveryservice # 1.20 Enhancements Lead
     - kow3ns # Apps
     - lavalamp # API Machinery
     - liggitt # Auth / Release
@@ -101,11 +101,11 @@ teams:
     - quinton-hoole # Multicluster
     - RainbowMango # Instrumentation
     - rajakavitha1 # Usability
-    - robertkielty # 1.20 RT CI Signal Lead
+    - robertkielty # 1.20 CI Signal Lead
     - saad-ali # Storage
     - saschagrunert # Release Manager
     - savitharaghunathan # 1.20 RT Lead Shadow
-    - sayanchowdhury # 1.20 RT Bug Triage Shadow
+    - sayanchowdhury # 1.20 Bug Triage Shadow
     - seans3 # CLI
     - serathius # Instrumentation
     - sethmccombs # Release Manager Associate
@@ -242,31 +242,48 @@ teams:
         description: Members of the current Release Team and subproject owners.
         members:
         - alejandrox1 # subproject owner
-        - annajung # 1.20 RT Docs Lead
-        - bai # 1.20 RT Bug Triage Lead
+        - annajung # 1.20 Docs Lead
+        - bai # 1.20 Bug Triage Lead
+        - celestehorgan # 1.20 Release Notes Shadow
+        - chris-short # 1.20 Communications Shadow 
         - cpanato # Release Manager
-        - eagleusb # 1.20 RT Docs Shadow
-        - eddiezane # 1.20 RT CI Signal Shadow 
+        - divya-mohan0209 # 1.20 Communications Shadow
+        - droslean # 1.20 Bug Triage Shadow
+        - eagleusb # 1.20 Docs Shadow
+        - eddiezane # 1.20 CI Signal Shadow
+        - erismaster # 1.20 Bug Triage Shadow
         - guineveresaenger # subproject owner
         - hasheddan # Release Manager / 1.20 RT Lead Shadow
-        - hkamel # 1.20 RT CI Signal Shadow
-        - jameslaverack # 1.20 RT Release Notes Lead
+        - hkamel # 1.20 CI Signal Shadow
+        - jameslaverack # 1.20 Release Notes Lead
         - jeremyrickard # 1.20 RT Lead
         - jrsapi # 1.20 Communications Lead
         - justaugustus # subproject owner
-        - kcmartin # 1.20 RT Docs Shadow
+        - kcmartin # 1.20 Docs Shadow
+        - kendallroden # 1.20 Enhancements Shadow
         - kikisdeliveryservice # 1.20 Enhancements Lead
+        - kinarashah # 1.20 Enhancements Shadow
         - lachie83 # subproject owner / 1.20 Emeritus Adviser
+        - mikejoh # 1.20 Enhancements Shadow
+        - mkorbi # 1.20 Bug Triage Shadow
+        - monzelmasry # 1.20 Bug Triage Shadow
+        - morrislaw # 1.20 Enhancements Shadow
         - onlydole # subproject owner
         - palnabarun # 1.20 RT Lead Shadow
-        - reylejano-rxm # 1.20 RT Docs Shadow
-        - robertkielty #1.20 RT CI Signal Lead
+        - reylejano-rxm # 1.20 Docs Shadow
+        - robertkielty # 1.20 CI Signal Lead
+        - salaxander # 1.20 Communications Shadow
         - saschagrunert # Release Manager
         - savitharaghunathan # 1.20 RT Lead Shadow
-        - ScrapCodes # 1.20 RT CI Signal Shadow
-        - somtochiama # 1.20 RT Docs Shadow
-        - thejoycekung # 1.20 RT CI Signal Shadow
+        - sayanchowdhury # 1.20 Bug Triage Shadow
+        - scrapcodes # 1.20 CI Signal Shadow
+        - sfotony # 1.20 Communications Shadow
+        - somtochiama # 1.20 Docs Shadow
+        - soniasingla # 1.20 Release Notes Shadow
+        - tanjacky # 1.20 Release Notes Shadow
+        - thejoycekung # 1.20 CI Signal Shadow
         - tpepper # subproject owner / Release Manager
+        - wilsonehusin # 1.20 Release Notes Shadow
         - xmudrii # Release Manager
         privacy: closed
         teams:
@@ -274,11 +291,11 @@ teams:
             description: Members of the CI Signal team for the current release
               cycle.
             members:
-            - eddiezane # 1.20 RT CI Signal Shadow
-            - hkamel # 1.20 RT CI Signal Shadow
+            - eddiezane # 1.20 CI Signal Shadow
+            - hkamel # 1.20 CI Signal Shadow
             - robertkielty # 1.20 CI Signal Lead
-            - ScrapCodes # 1.20 RT CI Signal Shadow
-            - thejoycekung # 1.20 RT CI Signal Shadow
+            - ScrapCodes # 1.20 CI Signal Shadow
+            - thejoycekung # 1.20 CI Signal Shadow
             privacy: closed
           release-team-leads:
             description: Release Team Leads for the current Kubernetes release

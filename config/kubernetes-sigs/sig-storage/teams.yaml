@@ -1,4 +1,23 @@
 teams:
+  container-object-storage-interface-api-admins:
+    description: Admin access to container-object-storage-interface-api
+    members:
+    - jsafrane
+    - msau42
+    - saad-ali
+    - xing-yang
+    privacy: closed
+  container-object-storage-interface-api-maintainers:
+    description: Write access to container-object-storage-interface-api
+    members:
+    - brahmaroutu
+    - jsafrane
+    - msau42
+    - rrati
+    - saad-ali
+    - wlan0
+    - xing-yang
+    privacy: closed
   container-object-storage-interface-controller-admins:
     description: Admin access to container-object-storage-interface-controller
     members:

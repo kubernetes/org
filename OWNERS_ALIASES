@@ -114,11 +114,6 @@ aliases:
     - bartsmykla
     - dims
     - spiffxp
-  wg-lts-leads:
-    - imkin
-    - quinton-hoole
-    - tpepper
-    - youngnick
   wg-multitenancy-leads:
     - srampal
     - tashimi
@@ -130,11 +125,6 @@ aliases:
   wg-policy-leads:
     - ericavonb
     - hannibalhuang
-  wg-security-audit-leads:
-    - aasmall
-    - cji
-    - jaybeale
-    - joelsmith
   ug-big-data-leads:
     - erikerlandson
     - foxish

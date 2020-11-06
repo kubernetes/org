@@ -152,9 +152,9 @@ teams:
     members:
     - bells17
     - inductor
+    - kakts
     - makocchi-git
     - nasa9084
-    - oke-py
     privacy: closed
   sig-docs-ko-owners:
     description: Approvers for Korean content

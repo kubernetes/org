@@ -1,4 +1,19 @@
 teams:
+  build-admins:
+    description: Kubernetes Build Admins are the current set of Googlers with
+      access to publish packages (debs/rpms) on behalf of the Kubernetes
+      project. This team is a notification-only group, which includes the SIG
+      Release Chairs/TLs for continuity.
+    maintainers:
+    - spiffxp
+    members:
+    - amwat
+    - BenTheElder
+    - justaugustus
+    - MushuEE
+    - saschagrunert
+    - tpepper
+    privacy: closed
   milestone-maintainers:
     description: Contributors who can use `/milestone` or `/status` commands on
       issues/PRs. This team also grants write access to the
@@ -203,21 +218,6 @@ teams:
         - xmudrii # Release Manager
         privacy: closed
         teams:
-          build-admins:
-            description: Kubernetes Build Admins are the current set of
-              Googlers with access to publish packages (debs/rpms) on behalf of
-              the Kubernetes project. This team is a notification-only group,
-              which includes the SIG Release Chairs/TLs for continuity.
-            maintainers:
-            - spiffxp
-            members:
-            - amwat
-            - BenTheElder
-            - justaugustus
-            - MushuEE
-            - saschagrunert
-            - tpepper
-            privacy: closed
           release-managers:
             description: People actively pushing Kubernetes releases. Gives
               admin access to repos where branches must be created and write

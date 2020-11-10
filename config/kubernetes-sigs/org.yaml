@@ -685,17 +685,3 @@ teams:
     - msau42
     - saad-ali
     privacy: closed
-  windows-testing-admins:
-    description: Admin access to the windows-testing repo
-    members:
-    - adelina-t
-    - michmike
-    - PatrickLang
-    privacy: closed
-  windows-testing-maintainers:
-    description: Write access to the windows-testing repo
-    members:
-    - adelina-t
-    - michmike
-    - PatrickLang
-    privacy: closed

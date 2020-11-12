@@ -3,15 +3,15 @@ teams:
     description: Admin access to windows-gmsa repo
     members:
     - ddebroy
+    - marosset
     - michmike
-    - PatrickLang
     privacy: closed
   windows-gmsa-maintainers:
     description: Write access to windows-gmsa repo
     members:
     - ddebroy
+    - marosset
     - michmike
-    - PatrickLang
     privacy: closed
   sig-windows-samples-admins:
     description: Admin access to sig-windows-samples repo
@@ -24,6 +24,7 @@ teams:
   sig-windows-samples-maintainers:
     description: Write access to sig-windows-samples repo
     members:
+    - jsturtevant
     - marosset
     - michmike
     privacy: closed
@@ -33,13 +34,14 @@ teams:
     description: Admin access to sig-windows-tools repo
     members:
     - benmoss
+    - marosset
     - michmike
-    - PatrickLang
     privacy: closed
   sig-windows-tools-maintainers:
     description: Write access to sig-windows-tools repo
     members:
     - benmoss
     - jsturtevant
+    - marosset
     - michmike
     privacy: closed

@@ -45,3 +45,18 @@ teams:
     - marosset
     - michmike
     privacy: closed
+  windows-testing-admins:
+    description: Admin access to the windows-testing repo
+    members:
+    - adelina-t
+    - marosset
+    - michmike
+    privacy: closed
+  windows-testing-maintainers:
+    description: Write access to the windows-testing repo
+    members:
+    - adelina-t
+    - jsturtevant
+    - marosset
+    - michmike
+    privacy: closed

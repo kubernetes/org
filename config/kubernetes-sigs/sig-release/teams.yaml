@@ -2,29 +2,33 @@ teams:
   downloadkubernetes-admins:
     description: admin access to downloadkubernetes
     members:
-    - alejandrox1
-    - justaugustus
-    - saschagrunert
-    - tpepper
+    - alejandrox1 # subproject owner
+    - hasheddan # subproject owner
+    - justaugustus # subproject owner
+    - saschagrunert # subproject owner
+    - tpepper # subproject owner
     privacy: closed
   downloadkubernetes-maintainers:
     description: write access to downloadkubernetes
     members:
-    - alejandrox1
+    - alejandrox1 # subproject owner
     - chuckha
-    - justaugustus
+    - hasheddan # subproject owner
+    - justaugustus # subproject owner
     - mauilion
-    - saschagrunert
-    - tpepper
+    - saschagrunert # subproject owner
+    - tpepper # subproject owner
     privacy: closed
   image-promoter-admins:
     description: admin access to k8s-container-image-promoter
     members:
+    - alejandrox1 # subproject owner
+    - hasheddan # subproject owner
     - justaugustus # subproject owner / maintainer
-    - justinsb # maintainer
-    - listx # maintainer
     - saschagrunert # subproject owner
     - tpepper # subproject owner
+    - justinsb # maintainer
+    - listx # maintainer
     privacy: closed
     previously:
     - k8s-container-image-promoter-admins
@@ -33,8 +37,10 @@ teams:
     maintainers:
     - spiffxp # WG K8s Infra Lead
     members:
+    - alejandrox1 # subproject owner
     - bartsmykla # WG K8s Infra Lead
     - dims # WG K8s Infra Lead
+    - hasheddan # subproject owner
     - justaugustus # subproject owner / maintainer
     - justinsb # maintainer
     - listx # maintainer
@@ -46,66 +52,76 @@ teams:
   mdtoc-admins:
     description: admin access to mdtoc
     members:
-    - alejandrox1
-    - justaugustus
-    - saschagrunert
-    - tpepper
+    - alejandrox1 # subproject owner
+    - hasheddan # subproject owner
+    - justaugustus # subproject owner
+    - saschagrunert # subproject owner
+    - tpepper # subproject owner
     privacy: closed
   release-engineering:
     description: Members of the Release Engineering subproject, including
       Release Managers and Release Manager Associates.
     members:
+    - ameukam # Release Manager Associate
     - cpanato # Release Manager
-    - dougm # Release Manager
     - feiskyer # Release Manager
     - gianarb # Release Manager Associate
-    - hasheddan # Release Manager
-    - hoegaarden # Release Manager
+    - hasheddan # subproject owner / Release Manager
     - idealhack # Release Manager
     - jimangel # Release Manager Associate
     - justaugustus # subproject owner / Release Manager
     - markyjackson-taulia # Release Manager Associate
     - mkorbi # Release Manager Associate
     - onlydole # Release Manager Associate
-    - puerco # Release Manager Associate
+    - puerco # Release Manager
     - saschagrunert # subproject owner / Release Manager
     - sethmccombs # Release Manager Associate
-    - tpepper # subproject owner / Release Manager
+    - tpepper # subproject owner
     - Verolop # Release Manager Associate
     - xmudrii # Release Manager
     privacy: closed
   release-notes-admins:
     description: admin access to release-notes
     members:
+    - alejandrox1 # subproject owner
+    - hasheddan # subproject owner
     - jeefy
+    - justaugustus # subproject owner
     - marpaia
     - onyiny-ang
+    - saschagrunert # subproject owner
+    - tpepper # subproject owner
     privacy: closed
   release-notes-maintainers:
     description: write access to release-notes
     members:
+    - alejandrox1 # subproject owner
+    - hasheddan # subproject owner
     - jeefy
-    - justaugustus
+    - justaugustus # subproject owner
     - marpaia
     - onyiny-ang
-    - tpepper
+    - saschagrunert # subproject owner
+    - tpepper # subproject owner
     privacy: closed
   zeitgeist-admins:
     description: admin access to zeitgeist
     members:
-    - alejandrox1
-    - justaugustus
-    - saschagrunert
-    - tpepper
+    - alejandrox1 # subproject owner
+    - hasheddan # subproject owner
+    - justaugustus # subproject owner
+    - saschagrunert # subproject owner
+    - tpepper # subproject owner
     privacy: closed
   zeitgeist-maintainers:
     description: write access to zeitgeist
     members:
-    - alejandrox1
-    - justaugustus
+    - alejandrox1 # subproject owner
+    - hasheddan # subproject owner
+    - justaugustus # subproject owner
     - n3wscott
     - Pluies
-    - saschagrunert
-    - tpepper
+    - saschagrunert # subproject owner
+    - tpepper # subproject owner
     - yastij
     privacy: closed

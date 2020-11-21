@@ -111,7 +111,7 @@ teams:
     - phillels # ContribEx
     - pmorie # Multicluster
     - prydonius # Apps
-    - puerco # Release Manager Associate
+    - puerco # Release Manager
     - pwittrock # CLI
     - quinton-hoole # Multicluster
     - RainbowMango # Instrumentation
@@ -210,7 +210,7 @@ teams:
         - markyjackson-taulia # Release Manager Associate
         - mkorbi # Release Manager Associate
         - onlydole # Release Manager Associate
-        - puerco # Release Manager Associate
+        - puerco # Release Manager
         - saschagrunert # subproject owner / Release Manager
         - sethmccombs # Release Manager Associate
         - tpepper # subproject owner / Release Manager
@@ -232,6 +232,7 @@ teams:
             - idealhack
             - justaugustus
             - k8s-release-robot
+            - puerco
             - saschagrunert
             - tpepper
             - xmudrii
@@ -270,6 +271,7 @@ teams:
         - morrislaw # 1.20 Enhancements Shadow
         - onlydole # subproject owner
         - palnabarun # 1.20 RT Lead Shadow
+        - puerco # Release Manager
         - reylejano-rxm # 1.20 Docs Shadow
         - robertkielty # 1.20 CI Signal Lead
         - salaxander # 1.20 Communications Shadow

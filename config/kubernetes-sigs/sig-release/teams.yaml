@@ -25,10 +25,10 @@ teams:
     - alejandrox1 # subproject owner
     - hasheddan # subproject owner
     - justaugustus # subproject owner / maintainer
-    - saschagrunert # subproject owner
-    - tpepper # subproject owner
     - justinsb # maintainer
     - listx # maintainer
+    - saschagrunert # subproject owner
+    - tpepper # subproject owner
     privacy: closed
     previously:
     - k8s-container-image-promoter-admins

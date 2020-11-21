@@ -12,7 +12,6 @@ teams:
     - justaugustus
     - MushuEE
     - saschagrunert
-    - tpepper
     privacy: closed
   milestone-maintainers:
     description: Contributors who can use `/milestone` or `/status` commands on
@@ -181,7 +180,7 @@ teams:
     - saschagrunert # Technical Lead
     - savitharaghunathan
     - soggiest
-    - tpepper # Chair
+    - tpepper
     privacy: closed
     teams:
       licensing:
@@ -313,7 +312,6 @@ teams:
         - alejandrox1 # Technical Lead
         - justaugustus # Chair
         - saschagrunert # Technical Lead
-        - tpepper # Chair
         privacy: closed
       sig-release-leads:
         description: |
@@ -323,7 +321,6 @@ teams:
         - justaugustus # Chair
         - LappleApple # Program Manager
         - saschagrunert # Technical Lead
-        - tpepper # Chair
         privacy: closed
       sig-release-pms:
         description: |
@@ -333,5 +330,4 @@ teams:
         - justaugustus # Chair
         - LappleApple # Program Manager
         - saschagrunert # Technical Lead
-        - tpepper # Chair
         privacy: closed

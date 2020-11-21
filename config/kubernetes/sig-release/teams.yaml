@@ -52,7 +52,6 @@ teams:
     - deads2k # API Machinery / Auth
     - derekwaynecarr # Architecture / Node
     - dims # Architecture / Release
-    - dougm # Release Manager
     - droslean # 1.20 Bug Triage Shadow
     - ehashman # Instrumentation
     - enj # Auth
@@ -64,7 +63,6 @@ teams:
     - frapposelli # VMware
     - gianarb # Release Manager Associate
     - hasheddan # Release Manager / 1.20 RT Lead Shadow
-    - hoegaarden # Release Manager
     - hpandeycodeit # Usability
     - Huang-Wei # Scheduling
     - idealhack # Release Manager
@@ -201,11 +199,9 @@ teams:
         members:
         - ameukam # Release Manager Associate
         - cpanato # Release Manager
-        - dougm # Release Manager
         - feiskyer # Release Manager
         - gianarb # Release Manager Associate
         - hasheddan # Release Manager
-        - hoegaarden # Release Manager
         - idealhack # Release Manager
         - jimangel # Release Manager Associate
         - justaugustus # subproject owner / Release Manager
@@ -215,7 +211,7 @@ teams:
         - puerco # Release Manager
         - saschagrunert # subproject owner / Release Manager
         - sethmccombs # Release Manager Associate
-        - tpepper # subproject owner / Release Manager
+        - tpepper # subproject owner
         - Verolop # Release Manager Associate
         - xmudrii # Release Manager
         privacy: closed
@@ -227,16 +223,13 @@ teams:
               who are not actively doing this job.
             members:
             - cpanato
-            - dougm
             - feiskyer
             - hasheddan
-            - hoegaarden
             - idealhack
             - justaugustus
             - k8s-release-robot
             - puerco
             - saschagrunert
-            - tpepper
             - xmudrii
             privacy: closed
             previously:
@@ -286,7 +279,7 @@ teams:
         - soniasingla # 1.20 Release Notes Shadow
         - tanjacky # 1.20 Release Notes Shadow
         - thejoycekung # 1.20 CI Signal Shadow
-        - tpepper # subproject owner / Release Manager
+        - tpepper # subproject owner
         - wilsonehusin # 1.20 Release Notes Shadow
         - xmudrii # Release Manager
         privacy: closed

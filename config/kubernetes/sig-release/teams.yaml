@@ -30,6 +30,7 @@ teams:
     - adisky # OpenStack
     - ahg-g # Scheduling
     - alejandrox1 # Testing
+    - ameukam # Release Manager Associate
     - andrewsykim # Cloud Provider
     - annajung # 1.20 Docs Lead
     - bai # 1.20 Bug Triage Lead
@@ -198,6 +199,7 @@ teams:
         description: Members of the Release Engineering subproject, including
           Release Managers, Release Manager Associates, and Build Admins.
         members:
+        - ameukam # Release Manager Associate
         - cpanato # Release Manager
         - dougm # Release Manager
         - feiskyer # Release Manager

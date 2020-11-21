@@ -9,6 +9,7 @@ teams:
     members:
     - amwat
     - BenTheElder
+    - hasheddan
     - justaugustus
     - MushuEE
     - saschagrunert
@@ -61,7 +62,7 @@ teams:
     - foxish # Big Data
     - frapposelli # VMware
     - gianarb # Release Manager Associate
-    - hasheddan # Release Manager / 1.20 RT Lead Shadow
+    - hasheddan # Release
     - hpandeycodeit # Usability
     - Huang-Wei # Scheduling
     - idealhack # Release Manager
@@ -116,7 +117,7 @@ teams:
     - rajakavitha1 # Usability
     - robertkielty # 1.20 CI Signal Lead
     - saad-ali # Storage
-    - saschagrunert # Release Manager
+    - saschagrunert # Release
     - savitharaghunathan # 1.20 RT Lead Shadow
     - sayanchowdhury # 1.20 Bug Triage Shadow
     - seans3 # CLI
@@ -164,6 +165,7 @@ teams:
     - BenTheElder
     - castrojo
     - dims
+    - hasheddan # Technical Lead
     - ixdy
     - jberkus
     - jdumars
@@ -177,7 +179,7 @@ teams:
     - onyiny-ang
     - palnabarun
     - rawkode
-    - saschagrunert # Technical Lead
+    - saschagrunert # Chair
     - savitharaghunathan
     - soggiest
     - tpepper
@@ -200,7 +202,7 @@ teams:
         - cpanato # Release Manager
         - feiskyer # Release Manager
         - gianarb # Release Manager Associate
-        - hasheddan # Release Manager
+        - hasheddan # subproject owner / Release Manager
         - idealhack # Release Manager
         - jimangel # Release Manager Associate
         - justaugustus # subproject owner / Release Manager
@@ -248,7 +250,7 @@ teams:
         - eddiezane # 1.20 CI Signal Shadow
         - erismaster # 1.20 Bug Triage Shadow
         - guineveresaenger # subproject owner
-        - hasheddan # Release Manager / 1.20 RT Lead Shadow
+        - hasheddan # subproject owner
         - hkamel # 1.20 CI Signal Shadow
         - jameslaverack # 1.20 Release Notes Lead
         - jeremyrickard # 1.20 RT Lead
@@ -269,7 +271,7 @@ teams:
         - reylejano-rxm # 1.20 Docs Shadow
         - robertkielty # 1.20 CI Signal Lead
         - salaxander # 1.20 Communications Shadow
-        - saschagrunert # Release Manager
+        - saschagrunert # subproject owner
         - savitharaghunathan # 1.20 RT Lead Shadow
         - sayanchowdhury # 1.20 Bug Triage Shadow
         - scrapcodes # 1.20 CI Signal Shadow
@@ -300,7 +302,7 @@ teams:
               as a notification group. Remove org members who are not current
               Release Team Leads.
             members:
-            - hasheddan #  1.20 RT Lead Shadow
+            - hasheddan # 1.20 RT Lead Shadow
             - jeremyrickard # 1.20 RT Lead
             - lachie83 # 1.20 Emeritus Adviser
             - palnabarun # 1.20 RT Lead Shadow
@@ -310,24 +312,27 @@ teams:
         description: Admins for SIG Release repositories
         members:
         - alejandrox1 # Technical Lead
+        - hasheddan # Technical Lead
         - justaugustus # Chair
-        - saschagrunert # Technical Lead
+        - saschagrunert # Chair
         privacy: closed
       sig-release-leads:
         description: |
           Chairs, Technical Leads, and Program Managers for SIG Release
         members:
         - alejandrox1 # Technical Lead
+        - hasheddan # Technical Lead
         - justaugustus # Chair
         - LappleApple # Program Manager
-        - saschagrunert # Technical Lead
+        - saschagrunert # Chair
         privacy: closed
       sig-release-pms:
         description: |
           Grants access to maintain SIG Release project boards
         members:
         - alejandrox1 # Technical Lead
+        - hasheddan # Technical Lead
         - justaugustus # Chair
         - LappleApple # Program Manager
-        - saschagrunert # Technical Lead
+        - saschagrunert # Chair
         privacy: closed

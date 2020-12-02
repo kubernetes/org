@@ -153,6 +153,13 @@ teams:
     - mengqiy
     - vincepri
     privacy: closed
+  kubectl-check-ownerreferences-admins:
+    description: Admin access to kubectl-check-ownerreferences
+    members:
+    - caesarxuchao
+    - deads2k
+    - liggitt
+    privacy: closed
   kubernetes/sig-api-machinery:
     description: Parent team for all SIG API Machinery subteams (approvers, reviewers,
       admins)

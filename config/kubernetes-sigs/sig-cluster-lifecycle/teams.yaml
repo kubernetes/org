@@ -166,6 +166,7 @@ teams:
   cluster-api-provider-gcp-maintainers:
     description: write access to cluster-api-provider-gcp-maintainers
     members:
+    - cpanato
     - detiber
     - justinsb
     - krousey

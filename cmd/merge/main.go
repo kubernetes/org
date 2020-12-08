@@ -45,6 +45,7 @@ func (fm flagMap) String() string {
 	for key, value := range fm {
 		if value == "" {
 			parts = append(parts, key)
+			continue
 		}
 		parts = append(parts, key+"="+value)
 	}
@@ -90,17 +91,20 @@ func main() {
 		Orgs: cfg,
 	}
 	out, err := yaml.Marshal(pc)
+	if err != nil {
+		logrus.Fatalf("Failed to marshal orgs: %v", err)
+	}
 	fmt.Println(string(out))
 }
 
 func unmarshal(path string) (*org.Config, error) {
 	buf, err := ioutil.ReadFile(path)
 	if err != nil {
-		return nil, fmt.Errorf("read: %v", path, err)
+		return nil, fmt.Errorf("read: %v", err)
 	}
 	var cfg org.Config
 	if err := yaml.Unmarshal(buf, &cfg); err != nil {
-		return nil, fmt.Errorf("unmarshal: %v", path, err)
+		return nil, fmt.Errorf("unmarshal: %v", err)
 	}
 	return &cfg, nil
 }

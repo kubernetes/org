@@ -95,38 +95,6 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
-  csi-driver-fibre-channel-admins:
-    description: Admin access to csi-driver-fibre-channel repo
-    members:
-    - jsafrane
-    - msau42
-    - saad-ali
-    - xing-yang
-    privacy: closed
-  csi-driver-fibre-channel-maintainers:
-    description: Write access to csi-driver-fibre-channel repo
-    members:
-    - jsafrane
-    - msau42
-    - saad-ali
-    - xing-yang
-    privacy: closed
-  csi-driver-flex-admins:
-    description: Admin access to csi-driver-flex repo
-    members:
-    - jsafrane
-    - msau42
-    - saad-ali
-    - xing-yang
-    privacy: closed
-  csi-driver-flex-maintainers:
-    description: Write access to csi-driver-flex repo
-    members:
-    - jsafrane
-    - msau42
-    - saad-ali
-    - xing-yang
-    privacy: closed
   csi-driver-host-path-admins:
     description: Admin access to csi-driver-host-path repo
     members:

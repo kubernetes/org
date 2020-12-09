@@ -58,6 +58,7 @@ teams:
   controller-runtime-maintainers:
     description: write access to controller-runtime
     members:
+    - alvaroaleman
     - camilamacedo86
     - gabbifish
     - Liujingfang1

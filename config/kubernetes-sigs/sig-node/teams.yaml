@@ -2,12 +2,14 @@ teams:
   node-feature-discovery-operator-admins:
     description: Admin access to node-feature-discovery-operator repo
     members:
+    - ArangoGutierrez
     - marquiz
     - zvonkok
     privacy: closed
   node-feature-discovery-operator-maintainers:
     description: Write access to node-feature-discovery-operator repo
     members:
+    - ArangoGutierrez
     - marquiz
     - zvonkok
     privacy: closed

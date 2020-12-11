@@ -45,7 +45,6 @@ teams:
     - davidewatson
     - detiber
     - fabriziopandini
-    - ncdc
     - timothysc
     - vincepri
     privacy: closed
@@ -65,7 +64,6 @@ teams:
     - detiber
     - justinsb
     - luxas
-    - ncdc
     - SataQiu
     - timothysc
     privacy: closed
@@ -85,7 +83,6 @@ teams:
     - davidewatson
     - detiber
     - ingvagabund
-    - ncdc
     - randomvariable
     - timothysc
     - vincepri
@@ -151,7 +148,6 @@ teams:
     - chuckha
     - justinsb
     - luxas
-    - ncdc
     - timothysc
     privacy: closed
   cluster-api-provider-gcp-admins:
@@ -261,7 +257,6 @@ teams:
     - detiber
     - figo
     - frapposelli
-    - ncdc
     - randomvariable
     - sflxn
     - sidharthsurana

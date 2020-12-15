@@ -314,7 +314,6 @@ teams:
     members:
     - aisonaku # L10n: Russian
     - alexbrand # L10n: Spanish
-    - annajung # 1.20 RT Docs Lead temporary access for the release
     - Bradamant3 # L10n: English
     - bradtopol # L10n: English
     - ClaudiaJKang # L10n: Korean
@@ -355,7 +354,7 @@ teams:
     - abuisine
     - aisonaku
     - alexbrand
-    - annajung # 1.20 RT Docs Lead
+    - annajung
     - awkif
     - bene2k1
     - bradtopol
@@ -363,7 +362,6 @@ teams:
     - claudiajkang
     - cstoku
     - dianaabv
-    - eagleusb # 1.20 RT Docs Shadow
     - femrtnz
     - girikuncoro
     - gochist
@@ -376,7 +374,6 @@ teams:
     - juandiegopalomino
     - jygastaud
     - kbarnard10
-    - kcmartin # 1.20 RT Docs Shadow
     - lledru
     - msheldyakov
     - nasa9084
@@ -390,13 +387,12 @@ teams:
     - rbenzair
     - rekcah78
     - remyleone
-    - reylejano # 1.20 RT Docs Shadow
+    - reylejano # 1.21 RT Docs Lead
     - rlenferink
     - SataQiu
     - savitharaghunathan
     - sftim
     - smana
-    - somtochiama # 1.20 RT Docs Shadow
     - steveperry-53
     - tanjunchen
     - tengqm

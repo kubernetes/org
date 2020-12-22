@@ -114,6 +114,7 @@ teams:
     description: Admin access to nfs-subdir-external-provisioner
     members:
     - jsafrane
+    - kmova
     - msau42
     - saad-ali
     - xing-yang
@@ -122,6 +123,7 @@ teams:
     description: Admin access to nfs-ganesha-server-and-external-provisioner
     members:
     - jsafrane
+    - kmova
     - msau42
     - saad-ali
     - xing-yang

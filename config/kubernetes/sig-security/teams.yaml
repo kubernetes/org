@@ -1,0 +1,20 @@
+teams:
+  sig-security:
+    description: SIG Security
+    members:
+    - IanColdwater
+    - tabbysable
+    privacy: closed
+    teams:
+      sig-security-leads:
+        description: SIG Security Leads
+        members:
+        - IanColdwater
+        - tabbysable
+        privacy: closed
+      sig-security-pr-reviews:
+        description: SIG Security PR review notifications
+        members:
+        - IanColdwater
+        - tabbysable
+        privacy: closed

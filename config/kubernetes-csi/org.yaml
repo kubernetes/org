@@ -472,6 +472,7 @@ teams:
   livenessprobe-maintainers:
     description: Write access to livenessprobe repo
     members:
+    - Jiawei0227
     - jsafrane
     - msau42
     - saad-ali
@@ -490,6 +491,7 @@ teams:
   node-driver-registrar-maintainers:
     description: Write access to node-driver-registrar repo
     members:
+    - Jiawei0227
     - jsafrane
     - lpabon
     - msau42

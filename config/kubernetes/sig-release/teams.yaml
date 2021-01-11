@@ -32,8 +32,8 @@ teams:
     - alejandrox1 # Testing
     - ameukam # Release Manager Associate
     - andrewsykim # Cloud Provider
-    - annajung # 1.20 Docs Lead
-    - bai # 1.20 Bug Triage Lead
+    - annajung # 1.21 Enhancements Lead
+    - bai # 1.21 RT Lead Shadow
     - benmoss # Windows
     - BenTheElder # Testing
     - bgrant0607 # Architecture
@@ -52,11 +52,12 @@ teams:
     - deads2k # API Machinery / Auth
     - derekwaynecarr # Architecture / Node
     - dims # Architecture / Release
+    - divya-mohan0209 # 1.21 Communications Lead
     - droslean # 1.20 Bug Triage Shadow
     - eddiezane # CLI
     - ehashman # Instrumentation
     - enj # Auth
-    - erismaster # 1.20 Bug Triage Shadow
+    - erismaster # 1.21 Bug Triage Lead
     - fabriziopandini # Cluster Lifecycle
     - feiskyer # Azure
     - floreks # UI
@@ -82,7 +83,7 @@ teams:
     - justinsb # AWS / Cluster Lifecycle
     - k8s-release-robot # Release
     - khenidak # Azure
-    - kikisdeliveryservice # 1.20 Enhancements Lead
+    - kikisdeliveryservice # 1.21 RT Lead Shadow
     - kow3ns # Apps
     - lavalamp # API Machinery
     - liggitt # Auth / Release
@@ -104,9 +105,9 @@ teams:
     - mwielgus # Autoscaling
     - nckturner # AWS
     - neolit123 # Cluster Lifecycle
-    - onlydole # Release Manager Associate
+    - onlydole # Release Manager Associate / 1.21 Emeritus Advisor
     - oxddr # Scalability
-    - palnabarun # 1.20 RT Lead Shadow
+    - palnabarun # 1.21 RT Lead
     - parispittman # ContribEx
     - phillels # ContribEx
     - pmorie # Multicluster
@@ -116,7 +117,7 @@ teams:
     - quinton-hoole # Multicluster
     - RainbowMango # Instrumentation
     - rajakavitha1 # Usability
-    - robertkielty # 1.20 CI Signal Lead
+    - reylejano # 1.21 Docs Lead
     - saad-ali # Storage
     - saschagrunert # Release
     - savitharaghunathan # 1.20 RT Lead Shadow
@@ -130,11 +131,13 @@ teams:
     - stevekuznetsov # Testing
     - tallclair # Auth
     - tashimi # Usability
+    - thejoycekung # 1.21 CI Signal Lead
     - thockin # Network
     - timothysc # Cluster Lifecycle / Testing
     - tpepper # Release
     - verolop # Release Manager Associate
     - vllry # Usability
+    - wilsonehusin # 1.21 Release Notes Lead
     - wojtek-t # Scalability
     - xing-yang # Storage
     - xmudrii # Release Manager
@@ -240,16 +243,16 @@ teams:
         description: Members of the current Release Team and subproject owners.
         members:
         - alejandrox1 # subproject owner
-        - annajung # 1.20 Docs Lead
-        - bai # 1.20 Bug Triage Lead
+        - annajung # 1.20 Enhancements Lead
+        - bai # 1.20 RT Lead Shadow
         - celestehorgan # 1.20 Release Notes Shadow
-        - chris-short # 1.20 Communications Shadow 
+        - chris-short # 1.20 Communications Shadow
         - cpanato # Release Manager
-        - divya-mohan0209 # 1.20 Communications Shadow
+        - divya-mohan0209 # 1.20 Communications Lead
         - droslean # 1.20 Bug Triage Shadow
         - eagleusb # 1.20 Docs Shadow
         - eddiezane # 1.20 CI Signal Shadow
-        - erismaster # 1.20 Bug Triage Shadow
+        - erismaster # 1.20 Bug Triage Lead
         - guineveresaenger # subproject owner
         - hasheddan # subproject owner
         - hkamel # 1.20 CI Signal Shadow
@@ -259,17 +262,17 @@ teams:
         - justaugustus # subproject owner
         - kcmartin # 1.20 Docs Shadow
         - kendallroden # 1.20 Enhancements Shadow
-        - kikisdeliveryservice # 1.20 Enhancements Lead
+        - kikisdeliveryservice # 1.20 RT Lead Shadow
         - kinarashah # 1.20 Enhancements Shadow
-        - lachie83 # subproject owner / 1.20 Emeritus Adviser
+        - lachie83 # subproject owner / 1.20 Emeritus Advisor
         - mikejoh # 1.20 Enhancements Shadow
         - mkorbi # 1.20 Bug Triage Shadow
         - monzelmasry # 1.20 Bug Triage Shadow
         - morrislaw # 1.20 Enhancements Shadow
-        - onlydole # subproject owner
+        - onlydole # subproject owner / 1.21 Emeritus Advisor
         - palnabarun # 1.20 RT Lead Shadow
         - puerco # Release Manager
-        - reylejano # 1.20 Docs Shadow
+        - reylejano # 1.20 Docs Lead
         - robertkielty # 1.20 CI Signal Lead
         - salaxander # 1.20 Communications Shadow
         - saschagrunert # subproject owner
@@ -280,9 +283,9 @@ teams:
         - somtochiama # 1.20 Docs Shadow
         - soniasingla # 1.20 Release Notes Shadow
         - tanjacky # 1.20 Release Notes Shadow
-        - thejoycekung # 1.20 CI Signal Shadow
+        - thejoycekung # 1.20 CI Signal Lead
         - tpepper # subproject owner
-        - wilsonehusin # 1.20 Release Notes Shadow
+        - wilsonehusin # 1.21 Release Notes Lead
         - xmudrii # Release Manager
         privacy: closed
         teams:
@@ -294,7 +297,7 @@ teams:
             - hkamel # 1.20 CI Signal Shadow
             - robertkielty # 1.20 CI Signal Lead
             - ScrapCodes # 1.20 CI Signal Shadow
-            - thejoycekung # 1.20 CI Signal Shadow
+            - thejoycekung # 1.21 CI Signal Lead
             privacy: closed
           release-team-leads:
             description: Release Team Leads for the current Kubernetes release
@@ -303,11 +306,11 @@ teams:
               as a notification group. Remove org members who are not current
               Release Team Leads.
             members:
-            - hasheddan # 1.20 RT Lead Shadow
-            - jeremyrickard # 1.20 RT Lead
-            - lachie83 # 1.20 Emeritus Adviser
-            - palnabarun # 1.20 RT Lead Shadow
-            - savitharaghunathan # 1.20 RT Lead Shadow
+            - bai # 1.21 RT Lead Shadow
+            - kikisdeliveryservice # 1.21 RT Lead Shadow
+            - onlydole # 1.21 Emeritus Advisor
+            - palnabarun # 1.21 RT Lead
+            - savitharaghunathan # 1.21 RT Lead Shadow
             privacy: closed
       sig-release-admins:
         description: Admins for SIG Release repositories

@@ -42,6 +42,7 @@ teams:
     - cantbewong # VMware
     - caseydavenport # Network
     - cheftako # Cloud Provider
+    - chewong # Azure
     - chrigl # OpenStack
     - cpanato # Release Manager
     - craiglpeters # Azure
@@ -243,7 +244,7 @@ teams:
         - annajung # 1.20 Docs Lead
         - bai # 1.20 Bug Triage Lead
         - celestehorgan # 1.20 Release Notes Shadow
-        - chris-short # 1.20 Communications Shadow 
+        - chris-short # 1.20 Communications Shadow
         - cpanato # Release Manager
         - divya-mohan0209 # 1.20 Communications Shadow
         - droslean # 1.20 Bug Triage Shadow

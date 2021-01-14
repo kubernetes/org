@@ -3,60 +3,69 @@ teams:
     description: Admin access to windows-gmsa repo
     members:
     - ddebroy
+    - jayunit100
+    - jsturtevant
     - marosset
-    - michmike
     privacy: closed
   windows-gmsa-maintainers:
     description: Write access to windows-gmsa repo
     members:
     - ddebroy
+    - jayunit100
+    - jsturtevant
     - marosset
-    - michmike
     privacy: closed
   sig-windows-samples-admins:
     description: Admin access to sig-windows-samples repo
     members:
+    - ddebroy
+    - jayunit100
+    - jsturtevant
     - marosset
-    - michmike
     privacy: closed
     previously:
     - sig-windows-examples-admins
   sig-windows-samples-maintainers:
     description: Write access to sig-windows-samples repo
     members:
+    - ddebroy
+    - jayunit100
     - jsturtevant
     - marosset
-    - michmike
     privacy: closed
     previously:
     - sig-windows-examples-maintainers
   sig-windows-tools-admins:
     description: Admin access to sig-windows-tools repo
     members:
-    - benmoss
+    - ddebroy
+    - jayunit100
+    - jsturtevant
     - marosset
-    - michmike
     privacy: closed
   sig-windows-tools-maintainers:
     description: Write access to sig-windows-tools repo
     members:
-    - benmoss
+    - ddebroy
+    - jayunit100
     - jsturtevant
     - marosset
-    - michmike
     privacy: closed
   windows-testing-admins:
     description: Admin access to the windows-testing repo
     members:
     - adelina-t
+    - ddebroy
+    - jayunit100
+    - jsturtevant
     - marosset
-    - michmike
     privacy: closed
   windows-testing-maintainers:
     description: Write access to the windows-testing repo
     members:
     - adelina-t
+    - ddebroy
+    - jayunit100
     - jsturtevant
     - marosset
-    - michmike
     privacy: closed

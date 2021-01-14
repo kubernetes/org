@@ -74,7 +74,7 @@ teams:
     - jberkus # Release
     - jdumars # Architecture / PM
     - jeefy # UI
-    - jeremyrickard # 1.20 RT Lead
+    - jeremyrickard # Release
     - jimangel # Docs / Release Manager Associate
     - johnbelamaric # Architecture
     - jrsapi # 1.20 Communications Lead
@@ -174,7 +174,7 @@ teams:
     - jberkus
     - jdumars
     - jeefy
-    - jeremyrickard
+    - jeremyrickard # Technical Lead
     - justaugustus # Chair
     - LappleApple # Program Manager
     - liggitt
@@ -317,6 +317,7 @@ teams:
         members:
         - alejandrox1 # Technical Lead
         - hasheddan # Technical Lead
+        - jeremyrickard # Technical Lead
         - justaugustus # Chair
         - saschagrunert # Chair
         privacy: closed
@@ -326,6 +327,7 @@ teams:
         members:
         - alejandrox1 # Technical Lead
         - hasheddan # Technical Lead
+        - jeremyrickard # Technical Lead
         - justaugustus # Chair
         - LappleApple # Program Manager
         - saschagrunert # Chair
@@ -336,6 +338,7 @@ teams:
         members:
         - alejandrox1 # Technical Lead
         - hasheddan # Technical Lead
+        - jeremyrickard # Technical Lead
         - justaugustus # Chair
         - LappleApple # Program Manager
         - saschagrunert # Chair

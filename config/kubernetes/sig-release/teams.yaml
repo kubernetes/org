@@ -34,7 +34,6 @@ teams:
     - andrewsykim # Cloud Provider
     - annajung # 1.21 Enhancements Lead
     - bai # 1.21 RT Lead Shadow
-    - benmoss # Windows
     - BenTheElder # Testing
     - bgrant0607 # Architecture
     - bradamant3 # Docs
@@ -70,6 +69,7 @@ teams:
     - idealhack # Release Manager
     - jameslaverack # 1.20 Release Notes Lead
     - janetkuo # Apps
+    - jayunit100 # Windows
     - jberkhahn # Service Catalog
     - jberkus # Release
     - jdumars # Architecture / PM
@@ -79,6 +79,7 @@ teams:
     - johnbelamaric # Architecture
     - jrsapi # 1.20 Communications Lead
     - jsafrane # Storage
+    - jsturtevant # Windows
     - justaugustus # Azure / PM / Release
     - justinsb # AWS / Cluster Lifecycle
     - k8s-release-robot # Release
@@ -96,7 +97,6 @@ teams:
     - marosset # Windows
     - mattfarina # Apps / Architecture
     - mborsz # Scalability
-    - michmike # Windows
     - mikedanese # Auth
     - mkorbi # Release Manager Associate
     - mm4tt # Scalability

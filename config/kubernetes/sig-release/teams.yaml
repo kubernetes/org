@@ -31,6 +31,7 @@ teams:
     - ahg-g # Scheduling
     - alejandrox1 # Testing
     - ameukam # Release Manager Associate
+    - ams0 # Bug Triage Shadow for Kubernetes 1.21
     - andrewsykim # Cloud Provider
     - annajung # 1.21 Enhancements Lead
     - bai # 1.21 RT Lead Shadow

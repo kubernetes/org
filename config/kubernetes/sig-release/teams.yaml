@@ -31,6 +31,7 @@ teams:
     - ahg-g # Scheduling
     - alejandrox1 # Testing
     - ameukam # Release Manager Associate
+    - ams0 # 1.21 Bug Triage Shadow
     - andrewsykim # Cloud Provider
     - annajung # 1.21 Enhancements Lead
     - bai # 1.21 RT Lead Shadow
@@ -50,9 +51,9 @@ teams:
     - ddebroy # Windows
     - deads2k # API Machinery / Auth
     - derekwaynecarr # Architecture / Node
+    - desponda # 1.21 Bug Triage Shadow
     - dims # Architecture / Release
     - divya-mohan0209 # 1.21 Communications Lead
-    - droslean # 1.20 Bug Triage Shadow
     - eddiezane # CLI
     - ehashman # Instrumentation
     - enj # Auth
@@ -83,6 +84,7 @@ teams:
     - justaugustus # Azure / PM / Release
     - justinsb # AWS / Cluster Lifecycle
     - k8s-release-robot # Release
+    - kcmartin # 1.21 Bug Triage Shadow
     - khenidak # Azure
     - kikisdeliveryservice # 1.21 RT Lead Shadow
     - kow3ns # Apps
@@ -100,6 +102,7 @@ teams:
     - mikedanese # Auth
     - mkorbi # Release Manager Associate
     - mm4tt # Scalability
+    - monzelmasry # 1.21 Bug Triage Shadow
     - msau42 # Storage
     - mszostok # Service Catalog
     - mwielgus # Autoscaling
@@ -121,7 +124,6 @@ teams:
     - saad-ali # Storage
     - saschagrunert # Release
     - savitharaghunathan # 1.20 RT Lead Shadow
-    - sayanchowdhury # 1.20 Bug Triage Shadow
     - seans3 # CLI
     - serathius # Instrumentation
     - sethmccombs # Release Manager Associate
@@ -243,29 +245,30 @@ teams:
         description: Members of the current Release Team and subproject owners.
         members:
         - alejandrox1 # subproject owner
+        - ams0 # 1.21 Bug Triage Shadow
         - annajung # 1.20 Enhancements Lead
         - bai # 1.20 RT Lead Shadow
         - celestehorgan # 1.20 Release Notes Shadow
         - chris-short # 1.20 Communications Shadow
         - cpanato # Release Manager
+        - desponda # 1.21 Bug Triage Shadow
         - divya-mohan0209 # 1.20 Communications Lead
-        - droslean # 1.20 Bug Triage Shadow
         - eagleusb # 1.20 Docs Shadow
-        - erismaster # 1.20 Bug Triage Lead
+        - erismaster # 1.21 Bug Triage Lead
         - guineveresaenger # subproject owner
         - hasheddan # subproject owner
         - jameslaverack # 1.20 Release Notes Lead
         - jeremyrickard # 1.20 RT Lead
         - jrsapi # 1.20 Communications Lead
         - justaugustus # subproject owner
-        - kcmartin # 1.20 Docs Shadow
+        - kcmartin # 1.21 Bug Triage Shadow
         - kendallroden # 1.20 Enhancements Shadow
         - kikisdeliveryservice # 1.20 RT Lead Shadow
         - kinarashah # 1.20 Enhancements Shadow
         - lachie83 # subproject owner / 1.20 Emeritus Advisor
         - mikejoh # 1.20 Enhancements Shadow
         - mkorbi # 1.21 CI Signal Shadow
-        - monzelmasry # 1.20 Bug Triage Shadow
+        - monzelmasry # 1.21 Bug Triage Shadow
         - morrislaw # 1.20 Enhancements Shadow
         - n3wscott # 1.21 CI Signal Shadow
         - onlydole # subproject owner / 1.21 Emeritus Advisor
@@ -277,7 +280,7 @@ teams:
         - salaxander # 1.20 Communications Shadow
         - saschagrunert # subproject owner
         - savitharaghunathan # 1.20 RT Lead Shadow
-        - sayanchowdhury # 1.20 Bug Triage Shadow
+        - scrapcodes # 1.20 CI Signal Shadow
         - sfotony # 1.20 Communications Shadow
         - somtochiama # 1.20 Docs Shadow
         - soniasingla # 1.20 Release Notes Shadow

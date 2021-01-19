@@ -251,11 +251,9 @@ teams:
         - divya-mohan0209 # 1.20 Communications Lead
         - droslean # 1.20 Bug Triage Shadow
         - eagleusb # 1.20 Docs Shadow
-        - eddiezane # 1.20 CI Signal Shadow
         - erismaster # 1.20 Bug Triage Lead
         - guineveresaenger # subproject owner
         - hasheddan # subproject owner
-        - hkamel # 1.20 CI Signal Shadow
         - jameslaverack # 1.20 Release Notes Lead
         - jeremyrickard # 1.20 RT Lead
         - jrsapi # 1.20 Communications Lead
@@ -266,24 +264,25 @@ teams:
         - kinarashah # 1.20 Enhancements Shadow
         - lachie83 # subproject owner / 1.20 Emeritus Advisor
         - mikejoh # 1.20 Enhancements Shadow
-        - mkorbi # 1.20 Bug Triage Shadow
+        - mkorbi # 1.21 CI Signal Shadow
         - monzelmasry # 1.20 Bug Triage Shadow
         - morrislaw # 1.20 Enhancements Shadow
+        - n3wscott # 1.21 CI Signal Shadow
         - onlydole # subproject owner / 1.21 Emeritus Advisor
         - palnabarun # 1.20 RT Lead Shadow
+        - priyankah21 # 1.21 CI Signal Shadow
         - puerco # Release Manager
         - reylejano # 1.20 Docs Lead
-        - robertkielty # 1.20 CI Signal Lead
+        - s278gupt # 1.21 CI Signal Shadow
         - salaxander # 1.20 Communications Shadow
         - saschagrunert # subproject owner
         - savitharaghunathan # 1.20 RT Lead Shadow
         - sayanchowdhury # 1.20 Bug Triage Shadow
-        - scrapcodes # 1.20 CI Signal Shadow
         - sfotony # 1.20 Communications Shadow
         - somtochiama # 1.20 Docs Shadow
         - soniasingla # 1.20 Release Notes Shadow
         - tanjacky # 1.20 Release Notes Shadow
-        - thejoycekung # 1.20 CI Signal Lead
+        - thejoycekung # 1.21 CI Signal Lead
         - tpepper # subproject owner
         - wilsonehusin # 1.21 Release Notes Lead
         - xmudrii # Release Manager
@@ -293,10 +292,10 @@ teams:
             description: Members of the CI Signal team for the current release
               cycle.
             members:
-            - eddiezane # 1.20 CI Signal Shadow
-            - hkamel # 1.20 CI Signal Shadow
-            - robertkielty # 1.20 CI Signal Lead
-            - ScrapCodes # 1.20 CI Signal Shadow
+            - mkorbi # 1.21 CI Signal Shadow
+            - n3wscott # 1.21 CI Signal Shadow
+            - priyankah21 # 1.21 CI Signal Shadow
+            - s278gupt # 1.21 CI Signal Shadow
             - thejoycekung # 1.21 CI Signal Lead
             privacy: closed
           release-team-leads:

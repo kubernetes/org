@@ -34,6 +34,7 @@ teams:
     - ams0 # 1.21 Bug Triage Shadow
     - andrewsykim # Cloud Provider
     - annajung # 1.21 Enhancements Lead
+    - arunmk # 1.21 Enhancements Shadow
     - bai # 1.21 RT Lead Shadow
     - BenTheElder # Testing
     - bgrant0607 # Architecture
@@ -68,7 +69,7 @@ teams:
     - hpandeycodeit # Usability
     - Huang-Wei # Scheduling
     - idealhack # Release Manager
-    - jameslaverack # 1.20 Release Notes Lead
+    - jameslaverack # 1.21 Enhancements Shadow
     - janetkuo # Apps
     - jayunit100 # Windows
     - jberkhahn # Service Catalog
@@ -78,13 +79,14 @@ teams:
     - jeremyrickard # Release
     - jimangel # Docs / Release Manager Associate
     - johnbelamaric # Architecture
-    - jrsapi # 1.20 Communications Lead
+    - jrsapi # 1.21 Enhancements Shadow
     - jsafrane # Storage
     - jsturtevant # Windows
     - justaugustus # Azure / PM / Release
     - justinsb # AWS / Cluster Lifecycle
     - k8s-release-robot # Release
     - kcmartin # 1.21 Bug Triage Shadow
+    - kendallroden # 1.21 Enhancements Shadow
     - khenidak # Azure
     - kikisdeliveryservice # 1.21 RT Lead Shadow
     - kow3ns # Apps
@@ -246,7 +248,8 @@ teams:
         members:
         - alejandrox1 # subproject owner
         - ams0 # 1.21 Bug Triage Shadow
-        - annajung # 1.20 Enhancements Lead
+        - annajung # 1.21 Enhancements Lead
+        - arunmk # 1.21 Enhancements Shadow
         - bai # 1.20 RT Lead Shadow
         - celestehorgan # 1.20 Release Notes Shadow
         - chris-short # 1.20 Communications Shadow
@@ -257,12 +260,12 @@ teams:
         - erismaster # 1.21 Bug Triage Lead
         - guineveresaenger # subproject owner
         - hasheddan # subproject owner
-        - jameslaverack # 1.20 Release Notes Lead
+        - jameslaverack # 1.21 Enhancements Shadow
         - jeremyrickard # 1.20 RT Lead
-        - jrsapi # 1.20 Communications Lead
+        - jrsapi # 1.21 Enhancements Shadow
         - justaugustus # subproject owner
         - kcmartin # 1.21 Bug Triage Shadow
-        - kendallroden # 1.20 Enhancements Shadow
+        - kendallroden # 1.21 Enhancements Shadow
         - kikisdeliveryservice # 1.20 RT Lead Shadow
         - kinarashah # 1.20 Enhancements Shadow
         - lachie83 # subproject owner / 1.20 Emeritus Advisor

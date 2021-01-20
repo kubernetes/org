@@ -252,6 +252,7 @@ teams:
         - arunmk # 1.21 Enhancements Shadow
         - bai # 1.20 RT Lead Shadow
         - celestehorgan # 1.20 Release Notes Shadow
+        - ChandaniM123 # 1.21 Docs Shadow
         - chris-short # 1.20 Communications Shadow
         - cpanato # Release Manager
         - desponda # 1.21 Bug Triage Shadow
@@ -273,12 +274,14 @@ teams:
         - mkorbi # 1.21 CI Signal Shadow
         - monzelmasry # 1.21 Bug Triage Shadow
         - morrislaw # 1.20 Enhancements Shadow
+        - mvortizr # 1.21 Docs Shadow
         - n3wscott # 1.21 CI Signal Shadow
         - onlydole # subproject owner / 1.21 Emeritus Advisor
         - palnabarun # 1.20 RT Lead Shadow
+        - pi-victor # 1.21 Docs Shadow
         - priyankah21 # 1.21 CI Signal Shadow
         - puerco # Release Manager
-        - reylejano # 1.20 Docs Lead
+        - reylejano # 1.21 Docs Lead
         - s278gupt # 1.21 CI Signal Shadow
         - salaxander # 1.20 Communications Shadow
         - saschagrunert # subproject owner
@@ -288,6 +291,7 @@ teams:
         - somtochiama # 1.20 Docs Shadow
         - soniasingla # 1.20 Release Notes Shadow
         - tanjacky # 1.20 Release Notes Shadow
+        - tengqm # 1.21 Docs Shadow
         - thejoycekung # 1.21 CI Signal Lead
         - tpepper # subproject owner
         - wilsonehusin # 1.21 Release Notes Lead

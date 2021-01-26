@@ -1235,13 +1235,17 @@ teams:
     description: Admin access to the client-go repo
     members:
     - caesarxuchao
+    - dims
     - lavalamp
+    - liggitt
     privacy: closed
   client-go-maintainers:
     description: ""
     members:
     - caesarxuchao
+    - dims
     - lavalamp
+    - liggitt
     - sttts
     privacy: closed
   cloud-provider-gcp-admins:

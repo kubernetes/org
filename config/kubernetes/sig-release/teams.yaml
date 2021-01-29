@@ -64,7 +64,6 @@ teams:
     - floreks # UI
     - foxish # Big Data
     - frapposelli # VMware
-    - gianarb # Release Manager Associate
     - hasheddan # Release
     - hpandeycodeit # Usability
     - Huang-Wei # Scheduling
@@ -209,7 +208,6 @@ teams:
         - ameukam # Release Manager Associate
         - cpanato # Release Manager
         - feiskyer # Release Manager
-        - gianarb # Release Manager Associate
         - hasheddan # subproject owner / Release Manager
         - idealhack # Release Manager
         - jimangel # Release Manager Associate

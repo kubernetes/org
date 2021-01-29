@@ -28,26 +28,35 @@ teams:
     - timothysc
     - xiangpengzhao
     privacy: closed
-  sig-testing-pr-reviews:
-    description: sig-testing PR reviews
-    maintainers:
-    - fejta
-    - spiffxp
-    members:
-    - akutz
-    - amwat
-    - BenTheElder
-    - chases2
-    - cjwagner
-    - clarketm
-    - ixdy
-    - Katharine
-    - krzyzacy
-    - michelle192837
-    - mithrav
-    - mkumatag
-    - stevekuznetsov
-    privacy: closed
+    teams:
+      sig-testing-leads:
+        description: sig-testing chairs and technical leads
+        maintainers:
+        - spiffxp
+        members:
+        - BenTheElder
+        - stevekuznetsov
+        privacy: closed
+      sig-testing-pr-reviews:
+        description: sig-testing PR reviews
+        maintainers:
+        - fejta
+        - spiffxp
+        members:
+        - akutz
+        - amwat
+        - BenTheElder
+        - chases2
+        - cjwagner
+        - clarketm
+        - ixdy
+        - Katharine
+        - krzyzacy
+        - michelle192837
+        - mithrav
+        - mkumatag
+        - stevekuznetsov
+        privacy: closed
   test-infra-admins:
     description: admin access to test-infra
     maintainers:

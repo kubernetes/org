@@ -7,8 +7,8 @@ teams:
     - mrbobbytables
     - nikhita
     members:
+    - alisondy
     - calebamiles
-    - castrojo
     - jdumars
     - parispittman
     - Phillels
@@ -20,7 +20,7 @@ teams:
     - mrbobbytables
     - nikhita
     members:
-    - castrojo
+    - alisondy
     - parispittman
     privacy: closed
   community-milestone-maintainers:
@@ -33,6 +33,7 @@ teams:
     - nikhita
     - spiffxp
     members:
+    - alisondy
     - calebamiles
     - castrojo
     - dims
@@ -83,6 +84,7 @@ teams:
     - mrbobbytables
     - nikhita
     members:
+    - alisondy
     - castrojo
     - dims
     - eparis
@@ -124,7 +126,7 @@ teams:
         - mrbobbytables
         - nikhita
         members:
-        - castrojo
+        - alisondy
         privacy: closed
       sig-contributor-experience-pr-reviews:
         description: PR reviews for contributor-experience infrastructure, such as the

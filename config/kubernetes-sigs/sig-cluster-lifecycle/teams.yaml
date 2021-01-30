@@ -169,7 +169,6 @@ teams:
     - detiber
     - justinsb
     - krousey
-    - maisem
     - vincepri
     privacy: closed
   cluster-api-provider-kubemark-admins:

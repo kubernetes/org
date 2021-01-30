@@ -2,7 +2,6 @@ teams:
   sig-multicluster-api-reviews:
     description: ""
     members:
-    - csbell
     - davidopp
     - jianhuiz
     - madhusudancs
@@ -14,7 +13,6 @@ teams:
   sig-multicluster-bugs:
     description: ""
     members:
-    - csbell
     - irfanurrehman
     - jianhuiz
     - madhusudancs
@@ -26,7 +24,6 @@ teams:
   sig-multicluster-feature-requests:
     description: ""
     members:
-    - csbell
     - davidopp
     - derekwaynecarr
     - jianhuiz
@@ -40,7 +37,6 @@ teams:
   sig-multicluster-misc:
     description: 'SIG for multi cluster: https://groups.google.com/forum/#!forum/kubernetes-sig-multicluster'
     members:
-    - csbell
     - davidopp
     - derekwaynecarr
     - huangyuqi
@@ -57,7 +53,6 @@ teams:
   sig-multicluster-pr-reviews:
     description: ""
     members:
-    - csbell
     - jianhuiz
     - madhusudancs
     - mwielgus
@@ -68,7 +63,6 @@ teams:
   sig-multicluster-proposals:
     description: ""
     members:
-    - csbell
     - davidopp
     - derekwaynecarr
     - jianhuiz
@@ -85,7 +79,6 @@ teams:
   sig-multicluster-test-failures:
     description: ""
     members:
-    - csbell
     - irfanurrehman
     - jianhuiz
     - madhusudancs

@@ -211,7 +211,6 @@ members:
 - cpanato
 - craigbox
 - craiglpeters
-- csbell
 - csrwng
 - cstoku
 - cwdsuzhou
@@ -1420,14 +1419,12 @@ teams:
   federation-admins:
     description: Admin access to the federation repo
     members:
-    - csbell
     - irfanurrehman
     - madhusudancs
     privacy: closed
   federation-maintainers:
     description: Admin access to the federation repo
     members:
-    - csbell
     - irfanurrehman
     - madhusudancs
     privacy: closed

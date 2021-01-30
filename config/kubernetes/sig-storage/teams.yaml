@@ -15,7 +15,6 @@ teams:
     description: Bugs for Kubernetes Storage Special-Interest-Group
     members:
     - gnufied
-    - ianchakeres
     - jeffvance
     - jingxu97
     - jsafrane
@@ -30,7 +29,6 @@ teams:
     description: Feature Requests for Kubernetes Storage Special-Interest-Group
     members:
     - davidopp
-    - ianchakeres
     - jingxu97
     - jsafrane
     - msau42
@@ -50,7 +48,6 @@ teams:
     members:
     - davidopp
     - gnufied
-    - ianchakeres
     - jeffvance
     - jingxu97
     - jsafrane
@@ -90,7 +87,6 @@ teams:
   sig-storage-test-failures:
     description: Test Failures for Kubernetes Storage Special-Interest-Group
     members:
-    - ianchakeres
     - jeffvance
     - jingxu97
     - jsafrane

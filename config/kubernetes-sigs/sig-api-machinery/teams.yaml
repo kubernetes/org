@@ -51,7 +51,6 @@ teams:
   controller-runtime-contributors:
     description: read access to controller-runtime
     members:
-    - fanzhangio
     - lichuqiang
     - pwittrock
     privacy: closed
@@ -108,7 +107,6 @@ teams:
     description: read access to kubebuilder
     members:
     - DirectXMan12
-    - fanzhangio
     - lichuqiang
     - pwittrock
     privacy: closed

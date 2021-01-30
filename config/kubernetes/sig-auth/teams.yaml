@@ -37,7 +37,6 @@ teams:
   sig-auth-misc:
     description: ""
     members:
-    - alex-mohr
     - cjcullen
     - davidopp
     - deads2k

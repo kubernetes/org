@@ -137,7 +137,6 @@ members:
 - brianpursley
 - bridgetkromhout
 - bruceauyeung
-- bryk
 - brysonshepherd
 - bsalamat
 - bsdnet
@@ -1353,7 +1352,6 @@ teams:
   dashboard-admins:
     description: Admins of the dashboard repo
     members:
-    - bryk
     - floreks
     - jeefy
     - maciaszczykm
@@ -1361,7 +1359,6 @@ teams:
   dashboard-maintainers:
     description: Write access to the dashboard repo
     members:
-    - bryk
     - floreks
     - ianlewis
     - jeefy

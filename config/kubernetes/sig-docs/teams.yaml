@@ -242,7 +242,6 @@ teams:
   sig-docs-zh-owners:
     description: Approvers for Chinese content
     members:
-    - hanjiayao
     - SataQiu
     - tanjunchen
     - tengqm
@@ -313,7 +312,6 @@ teams:
     - femrtnz # L10n: Portuguese
     - girikuncoro # L10n: Indonesian
     - gochist # L10n: Korean
-    - hanjiayao # L10n: Chinese
     - huynguyennovem # L10n: Vietnamese
     - ianychoi # L10n: Korean
     - inductor # L10n: Japanese
@@ -357,7 +355,6 @@ teams:
     - femrtnz
     - girikuncoro
     - gochist
-    - hanjiayao
     - huynguyennovem
     - inductor
     - irvifa

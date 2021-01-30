@@ -104,7 +104,6 @@ members:
 - awly
 - b01901143
 - bai
-- balajismaniam
 - balopat
 - BaluDontu
 - barney-s
@@ -1523,7 +1522,6 @@ teams:
   intel:
     description: ""
     members:
-    - balajismaniam
     - bart0sh
     - ConnorDoyle
     - davidopp

@@ -57,7 +57,6 @@ members:
 - awesomenix
 - ayberk
 - b01901143
-- balajismaniam
 - BaluDontu
 - barney-s
 - bartsmykla
@@ -668,12 +667,10 @@ teams:
   node-feature-discovery-admins:
     description: Admin access to the node-feature-discovery repo
     members:
-    - balajismaniam
     privacy: closed
   node-feature-discovery-maintainers:
     description: Write access to the node-feature-discovery repo
     members:
-    - balajismaniam
     - marquiz
     privacy: closed
   sig-storage-lib-external-provisioner-admins:

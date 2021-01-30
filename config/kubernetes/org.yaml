@@ -614,7 +614,6 @@ members:
 - maciaszczykm
 - MaciekPytel
 - madhanrm
-- madhusudancs
 - magicwang-cn
 - maisem
 - makocchi-git
@@ -1248,7 +1247,6 @@ teams:
     description: Admin access to cluster-registry repo
     members:
     - font
-    - madhusudancs
     - perotinus
     - pmorie
     privacy: closed
@@ -1256,7 +1254,6 @@ teams:
     description: Write access to the cluster-registry repo
     members:
     - font
-    - madhusudancs
     - perotinus
     - pmorie
     privacy: closed
@@ -1396,13 +1393,11 @@ teams:
     description: Admin access to the federation repo
     members:
     - irfanurrehman
-    - madhusudancs
     privacy: closed
   federation-maintainers:
     description: Admin access to the federation repo
     members:
     - irfanurrehman
-    - madhusudancs
     privacy: closed
   frakti-admins:
     description: Admin access to the frakti repo
@@ -1652,7 +1647,6 @@ teams:
     - lavalamp
     - liggitt
     - luxas
-    - madhusudancs
     - maisem
     - mbohlool
     - mikedanese

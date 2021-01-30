@@ -354,7 +354,6 @@ members:
 - gkarthiks
 - glo-pena
 - gman0
-- gmarek
 - gnarled-cipher
 - gnufied
 - gochist
@@ -1654,7 +1653,6 @@ teams:
     - erictune
     - feiskyer
     - freehan
-    - gmarek
     - grodrigues3
     - ingvagabund
     - ixdy
@@ -1759,14 +1757,12 @@ teams:
     description: Admin access to the perf-tests repo
     members:
     - bowei
-    - gmarek
     - wojtek-t
     privacy: closed
   perf-tests-maintainers:
     description: Write access to the perf-tests repo
     members:
     - bowei
-    - gmarek
     - shyamjvs
     - timothysc
     - wojtek-t

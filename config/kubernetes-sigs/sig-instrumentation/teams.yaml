@@ -55,3 +55,10 @@ teams:
         members:
         - calebamiles
         privacy: closed
+  prometheus-adapter-admins:
+    description: Admin access to the prometheus-adapter repo
+    members:
+    - brancz
+    - DirectXMan12
+    - s-urbaniak
+    privacy: closed

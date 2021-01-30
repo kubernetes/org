@@ -3,7 +3,6 @@ teams:
     description: ""
     members:
     - davidopp
-    - jianhuiz
     - madhusudancs
     - mwielgus
     - nikhiljindal
@@ -14,7 +13,6 @@ teams:
     description: ""
     members:
     - irfanurrehman
-    - jianhuiz
     - madhusudancs
     - mwielgus
     - nikhiljindal
@@ -26,7 +24,6 @@ teams:
     members:
     - davidopp
     - derekwaynecarr
-    - jianhuiz
     - madhusudancs
     - mwielgus
     - nikhiljindal
@@ -41,7 +38,6 @@ teams:
     - derekwaynecarr
     - huangyuqi
     - irfanurrehman
-    - jianhuiz
     - liggitt
     - madhusudancs
     - mwielgus
@@ -53,7 +49,6 @@ teams:
   sig-multicluster-pr-reviews:
     description: ""
     members:
-    - jianhuiz
     - madhusudancs
     - mwielgus
     - nikhiljindal
@@ -65,7 +60,6 @@ teams:
     members:
     - davidopp
     - derekwaynecarr
-    - jianhuiz
     - liggitt
     - madhusudancs
     - mwielgus
@@ -80,7 +74,6 @@ teams:
     description: ""
     members:
     - irfanurrehman
-    - jianhuiz
     - madhusudancs
     - nikhiljindal
     - quinton-hoole

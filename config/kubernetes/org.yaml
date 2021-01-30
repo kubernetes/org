@@ -758,7 +758,6 @@ members:
 - paulbouwer
 - pbnj
 - Pensu
-- perotinus
 - perriea
 - petr-muller
 - pgburt
@@ -1236,14 +1235,12 @@ teams:
     description: Admin access to cluster-registry repo
     members:
     - font
-    - perotinus
     - pmorie
     privacy: closed
   cluster-registry-maintainers:
     description: Write access to the cluster-registry repo
     members:
     - font
-    - perotinus
     - pmorie
     privacy: closed
   cncf-conformance-wg:

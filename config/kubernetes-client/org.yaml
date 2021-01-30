@@ -34,7 +34,6 @@ members:
 - justaugustus
 - krabhishek8260
 - lavalamp
-- mbohlool
 - micw523
 - MoShitrit
 - nzoueidi
@@ -56,7 +55,6 @@ teams:
     description: ""
     members:
     - krabhishek8260
-    - mbohlool
     privacy: closed
   c-admins:
     description: Admin access to the c repo
@@ -80,7 +78,6 @@ teams:
     description: Admin access to gen repo
     members:
     - brendandburns
-    - mbohlool
     - roycaihw
     privacy: closed
   go-admins:
@@ -99,7 +96,6 @@ teams:
     description: Admin access to haskell repo
     members:
     - brendandburns
-    - mbohlool
     privacy: closed
   java-admins:
     description: Admin access to java repo
@@ -111,27 +107,23 @@ teams:
     description: Admin access to javascript repo
     members:
     - brendandburns
-    - mbohlool
     privacy: closed
   perl-admins:
     description: Admin access to perl repo
     members:
     - brendandburns
-    - mbohlool
     - yue9944882
     privacy: closed
   perl-maintainers:
     description: Write access to perl repo
     members:
     - brendandburns
-    - mbohlool
     - yue9944882
     privacy: closed
   python-admins:
     description: Admin access to python repo
     members:
     - brendandburns
-    - mbohlool
     - roycaihw
     - yliaog
     privacy: closed
@@ -139,7 +131,6 @@ teams:
     description: Admin access to python-base repo
     members:
     - brendandburns
-    - mbohlool
     - roycaihw
     - yliaog
     privacy: closed
@@ -147,5 +138,4 @@ teams:
     description: Admin access to ruby repo
     members:
     - brendandburns
-    - mbohlool
     privacy: closed

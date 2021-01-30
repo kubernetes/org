@@ -6,7 +6,6 @@ teams:
     - calebamiles
     - cheftako
     - hogepodge
-    - jagosan
     - jhorwit2
     - justaugustus
     - mcrute
@@ -59,7 +58,6 @@ teams:
         - andrewsykim
         - calebamiles
         - hogepodge
-        - jagosan
         privacy: closed
       sig-cloud-provider-bugs:
         description: ""
@@ -67,7 +65,6 @@ teams:
         - andrewsykim
         - calebamiles
         - hogepodge
-        - jagosan
         privacy: closed
       sig-cloud-provider-feature-requests:
         description: ""
@@ -75,7 +72,6 @@ teams:
         - andrewsykim
         - calebamiles
         - hogepodge
-        - jagosan
         privacy: closed
       sig-cloud-provider-misc:
         description: ""
@@ -83,7 +79,6 @@ teams:
         - andrewsykim
         - calebamiles
         - hogepodge
-        - jagosan
         privacy: closed
       sig-cloud-provider-pr-reviews:
         description: ""
@@ -91,7 +86,6 @@ teams:
         - andrewsykim
         - calebamiles
         - hogepodge
-        - jagosan
         - nckturner
         - Rajakavitha1
         privacy: closed
@@ -101,7 +95,6 @@ teams:
         - andrewsykim
         - calebamiles
         - hogepodge
-        - jagosan
         privacy: closed
       sig-cloud-provider-test-failures:
         description: ""
@@ -109,7 +102,6 @@ teams:
         - andrewsykim
         - calebamiles
         - hogepodge
-        - jagosan
         privacy: closed
   sig-cloud-provider-admins:
     description: ""

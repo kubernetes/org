@@ -63,7 +63,6 @@ members:
 - ams0
 - amwat
 - amy
-- amygdala
 - anastyakulyk
 - andrewrynhard
 - andrewsykim
@@ -1733,7 +1732,6 @@ teams:
     maintainers:
     - fejta
     members:
-    - amygdala
     - aronchick
     - kelseyhightower
     privacy: closed

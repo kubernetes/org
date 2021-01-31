@@ -2,37 +2,25 @@ teams:
   sig-multicluster-api-reviews:
     description: ""
     members:
-    - csbell
     - davidopp
-    - jianhuiz
-    - madhusudancs
     - mwielgus
-    - nikhiljindal
     - quinton-hoole
     - shashidharatd
     privacy: closed
   sig-multicluster-bugs:
     description: ""
     members:
-    - csbell
     - irfanurrehman
-    - jianhuiz
-    - madhusudancs
     - mwielgus
-    - nikhiljindal
     - quinton-hoole
     - shashidharatd
     privacy: closed
   sig-multicluster-feature-requests:
     description: ""
     members:
-    - csbell
     - davidopp
     - derekwaynecarr
-    - jianhuiz
-    - madhusudancs
     - mwielgus
-    - nikhiljindal
     - quinton-hoole
     - shashidharatd
     - smarterclayton
@@ -40,16 +28,12 @@ teams:
   sig-multicluster-misc:
     description: 'SIG for multi cluster: https://groups.google.com/forum/#!forum/kubernetes-sig-multicluster'
     members:
-    - csbell
     - davidopp
     - derekwaynecarr
     - huangyuqi
     - irfanurrehman
-    - jianhuiz
     - liggitt
-    - madhusudancs
     - mwielgus
-    - nikhiljindal
     - quinton-hoole
     - shashidharatd
     - smarterclayton
@@ -57,25 +41,17 @@ teams:
   sig-multicluster-pr-reviews:
     description: ""
     members:
-    - csbell
-    - jianhuiz
-    - madhusudancs
     - mwielgus
-    - nikhiljindal
     - quinton-hoole
     - shashidharatd
     privacy: closed
   sig-multicluster-proposals:
     description: ""
     members:
-    - csbell
     - davidopp
     - derekwaynecarr
-    - jianhuiz
     - liggitt
-    - madhusudancs
     - mwielgus
-    - nikhiljindal
     - quinton-hoole
     - shashidharatd
     - smarterclayton
@@ -85,11 +61,7 @@ teams:
   sig-multicluster-test-failures:
     description: ""
     members:
-    - csbell
     - irfanurrehman
-    - jianhuiz
-    - madhusudancs
-    - nikhiljindal
     - quinton-hoole
     - shashidharatd
     privacy: closed

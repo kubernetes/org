@@ -169,7 +169,6 @@ teams:
     - detiber
     - justinsb
     - krousey
-    - maisem
     - vincepri
     privacy: closed
   cluster-api-provider-kubemark-admins:
@@ -249,7 +248,6 @@ teams:
     - akutz
     - andrewsykim
     - frapposelli
-    - sflxn
     - yastij
     privacy: closed
   cluster-api-provider-vsphere-maintainers:
@@ -261,7 +259,6 @@ teams:
     - figo
     - frapposelli
     - randomvariable
-    - sflxn
     - sidharthsurana
     - vincepri
     - yastij

@@ -57,7 +57,6 @@ members:
 - awesomenix
 - ayberk
 - b01901143
-- balajismaniam
 - BaluDontu
 - barney-s
 - bartsmykla
@@ -91,7 +90,6 @@ members:
 - charleszheng44
 - cheftako
 - chendotjs
-- chenopis
 - chethanv28
 - chewong
 - childsb
@@ -147,7 +145,6 @@ members:
 - djzager
 - dkoshkin
 - dlipovetsky
-- dmatch01
 - dougm
 - draveness
 - droot
@@ -168,7 +165,6 @@ members:
 - Ethyling
 - f0rmiga
 - fabriziopandini
-- fanzhangio
 - Fei-Guo
 - feiskyer
 - feloy
@@ -255,7 +251,6 @@ members:
 - JimBugwadia
 - jimmidyson
 - jingxu97
-- jinzhejz
 - joelanford
 - JoelSpeed
 - johnharris85
@@ -318,13 +313,11 @@ members:
 - m00nf1sh
 - m1093782566
 - maciaszczykm
-- maisem
 - makkes
 - MarcusNoble
 - mariantalla
 - markyjackson-taulia
 - marosset
-- marpaia
 - marquiz
 - mars1024
 - marun
@@ -448,7 +441,6 @@ members:
 - rrati
 - rsmitty
 - rudoi
-- runcom
 - runyontr
 - s-ito-ts
 - s-urbaniak
@@ -475,7 +467,6 @@ members:
 - sethmccombs
 - sethp-nr
 - sethpollack
-- sflxn
 - sftim
 - sfzylad
 - Sh4d1
@@ -502,7 +493,6 @@ members:
 - steveperry-53
 - sttts
 - SyamSundarKirubakaran
-- syjabri
 - tabbysable
 - tahsinrahman
 - tallclair
@@ -668,12 +658,10 @@ teams:
   node-feature-discovery-admins:
     description: Admin access to the node-feature-discovery repo
     members:
-    - balajismaniam
     privacy: closed
   node-feature-discovery-maintainers:
     description: Write access to the node-feature-discovery repo
     members:
-    - balajismaniam
     - marquiz
     privacy: closed
   sig-storage-lib-external-provisioner-admins:

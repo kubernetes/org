@@ -42,3 +42,9 @@ teams:
     - JeremyOT
     - pmorie
     privacy: closed
+  work-api-admins:
+    description: Admin access for the work-api repo
+    members:
+    - jeremyot
+    - pmorie
+    privacy: closed

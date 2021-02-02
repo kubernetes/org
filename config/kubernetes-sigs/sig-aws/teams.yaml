@@ -4,6 +4,7 @@ teams:
     members:
     - d-nishi
     - leakingtapan
+    - wongma7
     privacy: closed
   aws-ebs-csi-driver-maintainers:
     description: ""

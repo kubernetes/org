@@ -97,14 +97,16 @@ teams:
     - dcbw
     - thockin
     privacy: closed
-  service-apis-admins:
-    description: Admin access to the service-apis repo
+  gateway-api-admins:
+    description: Admin access to the gateway-api repo
     members:
     - bowei
     - thockin
     privacy: closed
-  service-apis-maintainers:
-    description: Write access to the service-apis repo
+    previously:
+    - service-apis-admins
+  gateway-api-maintainers:
+    description: Write access to the gateway-api repo
     members:
     - bowei
     - danehans
@@ -114,4 +116,5 @@ teams:
     - thockin
     privacy: closed
     previously:
+    - service-apis-maintainers
     - service-apis-amintainers

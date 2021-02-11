@@ -1,155 +1,36 @@
 teams:
-  sig-instrumentation-api-reviews:
+  sig-instrumentation-leads:
     description: ""
     members:
-    - 44past4
-    - andyxning
     - brancz
-    - danielqsj
     - dashpole
-    - DirectXMan12
     - ehashman
-    - kawych
-    - lilic
-    - loburm
     - logicalhan
-    - piosz
-    - RainbowMango
-    - s-urbaniak
-    - serathius
-    - tariq1890
-    - x13n
-    - zouyee
     privacy: closed
-  sig-instrumentation-bugs:
+  sig-instrumentation-approvers:
+    description: ""
+    members:
+    - brancz
+    - dashpole
+    - ehashman
+    - logicalhan
+    - RainbowMango
+    - serathius
+    privacy: closed
+  sig-instrumentation-members:
     description: ""
     members:
     - 44past4
     - andyxning
     - brancz
     - coffeepac
-    - danielqsj
     - dashpole
     - DirectXMan12
     - ehashman
-    - kawych
     - lilic
-    - loburm
     - logicalhan
-    - piosz
     - RainbowMango
     - s-urbaniak
     - serathius
     - tariq1890
-    - x13n
-    - zouyee
-    privacy: closed
-  sig-instrumentation-feature-requests:
-    description: ""
-    members:
-    - 44past4
-    - andyxning
-    - brancz
-    - danielqsj
-    - dashpole
-    - DirectXMan12
-    - ehashman
-    - kawych
-    - lilic
-    - loburm
-    - logicalhan
-    - piosz
-    - RainbowMango
-    - s-urbaniak
-    - serathius
-    - tariq1890
-    - x13n
-    privacy: closed
-  sig-instrumentation-misc:
-    description: ""
-    members:
-    - 44past4
-    - andyxning
-    - brancz
-    - coffeepac
-    - danielqsj
-    - dashpole
-    - DirectXMan12
-    - ehashman
-    - kawych
-    - lilic
-    - loburm
-    - logicalhan
-    - piosz
-    - RainbowMango
-    - s-urbaniak
-    - serathius
-    - tariq1890
-    - x13n
-    privacy: closed
-  sig-instrumentation-pr-reviews:
-    description: ""
-    members:
-    - 44past4
-    - andyxning
-    - brancz
-    - coffeepac
-    - danielqsj
-    - dashpole
-    - DirectXMan12
-    - ehashman
-    - kawych
-    - lilic
-    - loburm
-    - logicalhan
-    - piosz
-    - RainbowMango
-    - s-urbaniak
-    - serathius
-    - tariq1890
-    - x13n
-    - zouyee
-    privacy: closed
-  sig-instrumentation-proposals:
-    description: ""
-    members:
-    - 44past4
-    - andyxning
-    - brancz
-    - danielqsj
-    - dashpole
-    - DirectXMan12
-    - ehashman
-    - kawych
-    - lilic
-    - loburm
-    - logicalhan
-    - piosz
-    - RainbowMango
-    - s-urbaniak
-    - serathius
-    - tariq1890
-    - x13n
-    privacy: closed
-  sig-instrumentation-test-failures:
-    description: ""
-    members:
-    - 44past4
-    - andyxning
-    - brancz
-    - coffeepac
-    - danielqsj
-    - dashpole
-    - DirectXMan12
-    - ehashman
-    - kawych
-    - lilic
-    - loburm
-    - logicalhan
-    - piosz
-    - RainbowMango
-    - s-urbaniak
-    - serathius
-    - tariq1890
-    - x13n
     privacy: closed

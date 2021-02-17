@@ -123,10 +123,10 @@ teams:
   cluster-api-provider-digitalocean-admins:
     description: Admin access to the cluster-api-provider-digitalocean repo
     members:
+    - cpanato
     - luxas
     - roberthbailey
     - timothysc
-    - xmudrii
     privacy: closed
   cluster-api-provider-digitalocean-maintainers:
     description: Write access to the cluster-api-provider-digitalocean repo
@@ -134,8 +134,8 @@ teams:
     - cpanato
     - MorrisLaw
     - prksu
+    - timoreimann
     - timothysc
-    - xmudrii
     privacy: closed
   cluster-api-provider-docker-admins:
     description: admin access to cluster-api-provider-docker repo

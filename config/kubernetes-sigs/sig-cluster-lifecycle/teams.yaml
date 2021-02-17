@@ -126,7 +126,6 @@ teams:
     - luxas
     - roberthbailey
     - timothysc
-    - xmudrii
     privacy: closed
   cluster-api-provider-digitalocean-maintainers:
     description: Write access to the cluster-api-provider-digitalocean repo
@@ -135,7 +134,6 @@ teams:
     - MorrisLaw
     - prksu
     - timothysc
-    - xmudrii
     privacy: closed
   cluster-api-provider-docker-admins:
     description: admin access to cluster-api-provider-docker repo

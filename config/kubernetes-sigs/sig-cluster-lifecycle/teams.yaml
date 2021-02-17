@@ -134,6 +134,7 @@ teams:
     - cpanato
     - MorrisLaw
     - prksu
+    - timoreimann
     - timothysc
     privacy: closed
   cluster-api-provider-docker-admins:

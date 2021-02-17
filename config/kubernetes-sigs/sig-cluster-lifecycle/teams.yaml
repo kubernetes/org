@@ -123,6 +123,7 @@ teams:
   cluster-api-provider-digitalocean-admins:
     description: Admin access to the cluster-api-provider-digitalocean repo
     members:
+    - cpanato
     - luxas
     - roberthbailey
     - timothysc

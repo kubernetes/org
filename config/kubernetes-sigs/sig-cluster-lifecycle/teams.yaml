@@ -93,31 +93,25 @@ teams:
   cluster-api-provider-azure-admins:
     description: ""
     members:
-    - awesomenix
     - CecileRobertMichon
     - devigned
-    - justaugustus
     - nader-ziada
     privacy: closed
   cluster-api-provider-azure-maintainers:
     description: ""
     members:
-    - awesomenix
     - CecileRobertMichon
     - devigned
-    - justaugustus
     - nader-ziada
     privacy: closed
   cluster-api-provider-azure-pms:
     description: ""
     members:
     - alexeldeib
-    - awesomenix
     - CecileRobertMichon
     - cpanato
     - devigned
     - juan-lee
-    - justaugustus
     - nader-ziada
     privacy: closed
   cluster-api-provider-digitalocean-admins:

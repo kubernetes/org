@@ -1,4 +1,18 @@
 teams:
+  hierarchical-namespaces-admins:
+    description: Admin access to hierarchical-namespaces repo
+    members:
+    - adrianludwin
+    - rjbez17
+    - srampal
+    - tashimi
+    privacy: closed
+  hierarchical-namespaces-maintainers:
+    description: Write access to hierarchical-namespaces repo
+    members:
+    - GinnyJI
+    - yiqigao217
+    privacy: closed
   multi-tenancy-admins:
     description: Admin access to multi-tenancy repo
     members:

@@ -51,13 +51,11 @@ teams:
   sig-docs-es-owners:
     description: Approvers for Spanish content
     members:
-    - alexbrand
     - raelga
     privacy: closed
   sig-docs-es-reviews:
     description: PR reviews for Spanish content
     members:
-    - alexbrand
     - electrocucaracha
     - emedina
     - glo-pena
@@ -313,7 +311,6 @@ teams:
     description: Write access to the website repo
     members:
     - aisonaku # L10n: Russian
-    - alexbrand # L10n: Spanish
     - Bradamant3 # L10n: English
     - bradtopol # L10n: English
     - ClaudiaJKang # L10n: Korean
@@ -357,7 +354,6 @@ teams:
     members:
     - abuisine
     - aisonaku
-    - alexbrand
     - annajung
     - awkif
     - bene2k1

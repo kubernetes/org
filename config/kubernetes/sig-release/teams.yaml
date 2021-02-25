@@ -16,9 +16,7 @@ teams:
     privacy: closed
   milestone-maintainers:
     description: Contributors who can use `/milestone` or `/status` commands on
-      issues/PRs. This team also grants write access to the
-      kubernetes/enhancements repo to allow editing of descriptions for
-      Enhancement tracking issues.
+      issues/PRs and have triage access to the kubernetes/enhancements repo
     maintainers:
     - cblecker # ContribEx
     - fejta # Testing

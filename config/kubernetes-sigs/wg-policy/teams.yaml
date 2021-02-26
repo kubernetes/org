@@ -9,4 +9,5 @@ teams:
     description: Write access to wg-policy-prototypes
     members:
     - JimBugwadia
+    - rficcaglia
     privacy: closed

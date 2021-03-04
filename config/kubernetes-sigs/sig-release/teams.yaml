@@ -99,6 +99,38 @@ teams:
     - saschagrunert # subproject owner
     - tpepper # subproject owner
     privacy: closed
+  release-sdk-admins:
+    description: admin access to release-sdk
+    members:
+    - hasheddan
+    - jeremyrickard
+    - justaugustus
+    - saschagrunert
+    privacy: closed
+  release-sdk-maintainers:
+    description: write access to release-sdk
+    members:
+    - hasheddan
+    - jeremyrickard
+    - justaugustus
+    - saschagrunert
+    privacy: closed
+  release-utils-admins:
+    description: admin access to release-utils
+    members:
+    - hasheddan
+    - jeremyrickard
+    - justaugustus
+    - saschagrunert
+    privacy: closed
+  release-utils-maintainers:
+    description: write access to release-utils
+    members:
+    - hasheddan
+    - jeremyrickard
+    - justaugustus
+    - saschagrunert
+    privacy: closed
   zeitgeist-admins:
     description: admin access to zeitgeist
     members:

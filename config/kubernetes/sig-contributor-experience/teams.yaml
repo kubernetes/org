@@ -48,6 +48,20 @@ teams:
     - Phillels
     - tpepper
     privacy: closed
+  contributor-site-admins:
+    description: admin access to contributor-site
+    maintainers:
+    - mrbobbytables
+    members:
+    - castrojo
+    privacy: closed
+  contributor-site-maintainers:
+    description: write access to contributor-site
+    maintainers:
+    - mrbobbytables
+    members:
+    - castrojo
+    privacy: closed
   ghas-subproject-board:
     description: Members who have access to edit the GitHub Administration
       Subproject Board

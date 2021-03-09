@@ -80,6 +80,7 @@ teams:
     - brendandburns
     - roycaihw
     - yliaog
+    - yue9944882
     privacy: closed
   go-admins:
     description: Admin access to go repo

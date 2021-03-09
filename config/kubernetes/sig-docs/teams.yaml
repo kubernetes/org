@@ -51,6 +51,7 @@ teams:
   sig-docs-es-owners:
     description: Approvers for Spanish content
     members:
+    - electrocucaracha
     - raelga
     privacy: closed
   sig-docs-es-reviews:

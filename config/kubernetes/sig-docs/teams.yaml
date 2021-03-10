@@ -230,14 +230,24 @@ teams:
   sig-docs-pt-owners:
     description: Approvers for Portuguese content
     members:
+    - devlware
     - femrtnz
+    - jailton
     - jcjesus
+    - jhonmike
+    - rikatz
+    - yagonobre
     privacy: closed
   sig-docs-pt-reviews:
     description: PR reviews for Portuguese content
     members:
+    - devlware
     - femrtnz
+    - jailton
     - jcjesus
+    - jhonmike
+    - rikatz
+    - yagonobre
     privacy: closed
   sig-docs-zh-owners:
     description: Approvers for Chinese content
@@ -308,6 +318,7 @@ teams:
     - bradtopol # L10n: English
     - ClaudiaJKang # L10n: Korean
     - cstoku # L10n: Japanese
+    - devlware # L10: Portuguese
     - dianaabv # L10n: Russian
     - femrtnz # L10n: Portuguese
     - girikuncoro # L10n: Indonesian
@@ -316,7 +327,9 @@ teams:
     - ianychoi # L10n: Korean
     - inductor # L10n: Japanese
     - irvifa # L10n: Indonesian
+    - jailton # L10n: Portuguese
     - jcjesus # L10n: Portuguese
+    - jhonmike # L10n: Portuguese
     - jimangel # L10n: English
     - kbarnard10 # L10n: English
     - mfilocha # L10n: Polish
@@ -328,12 +341,14 @@ teams:
     - potapy4 # L10n: Russian
     - raelga # L10n: Spanish
     - remyleone # L10n: French
+    - rikatz # L10n: Portuguese
     - rlenferink # L10n: German
     - SataQiu # L10n: Chinese
     - seokho-son # L10n: Korean
     - sftim # L10n: English
     - truongnh1992 # L10n: Vietnamese
     - xichengliudui # L10n: Chinese
+    - yagonobre # L10n: Portuguese
     - zacharysarah # L10n: English
     - zhangxiaoyu-zidif # L10n: Chinese
     privacy: closed

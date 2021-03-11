@@ -8,6 +8,7 @@ teams:
   custom-metrics-apiserver-maintainers:
     description: Write access to the custom-metrics-apiserver repo
     members:
+    - dgrisonnet
     - s-urbaniak
     - serathius
     privacy: closed
@@ -44,5 +45,11 @@ teams:
     members:
     - brancz
     - DirectXMan12
+    - s-urbaniak
+    privacy: closed
+  prometheus-adapter-maintainers:
+    description: Write access to the prometheus-adapter repo
+    members:
+    - dgrisonnet
     - s-urbaniak
     privacy: closed

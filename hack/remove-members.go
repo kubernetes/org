@@ -37,6 +37,7 @@ func main() {
 
 }
 
+//readMemberList reads the list of members to be removed from the given filepath
 func readMemberList(path string) ([]string, error) {
 	file, err := os.Open(path)
 	if err != nil {
@@ -52,6 +53,7 @@ func readMemberList(path string) ([]string, error) {
 	return members, scanner.Err()
 }
 
+//removeMembers walks through the config directory and removes the occurences of the given member name
 func removeMembers(memberList []string, configPath string) error {
 	for _, member := range memberList {
 		var orgs, teams []string
@@ -65,6 +67,7 @@ func removeMembers(memberList []string, configPath string) error {
 			if info.IsDir() {
 				return nil
 			}
+
 			if matched, err := filepath.Match("*.yaml", filepath.Base(path)); err != nil {
 				return err
 			} else if matched {
@@ -73,6 +76,7 @@ func removeMembers(memberList []string, configPath string) error {
 					return err
 				}
 
+				//Record the org/team name when a member is removed from it
 				if removed {
 					count++
 					if info.Name() == "org.yaml" {
@@ -94,6 +98,7 @@ func removeMembers(memberList []string, configPath string) error {
 
 		fmt.Printf("\n Orgs: %v\n Teams: %v\n Number of occurences: %d\n", orgs, teams, count)
 
+		//Proceed to committing changes if member is actually removed from somewhere
 		if count > 0 {
 			commitRemovedMembers(member, orgs, teams)
 		}
@@ -113,6 +118,7 @@ func removeMemberFromFile(member string, path string) (bool, error) {
 
 	if re.Match(content) {
 
+		//Mofify the file only if it's not a dry run
 		if dryrun == true {
 			return true, nil
 		}
@@ -161,6 +167,7 @@ func commitRemovedMembers(member string, orgs []string, teams []string) {
 
 	fmt.Printf("\nCommit Command: %q\n\n", strings.Join(cmd, " "))
 
+	//Execute the git command only if not a dry run
 	if !dryrun {
 		cmd := exec.Command("git", cmd...)
 		err := cmd.Run()

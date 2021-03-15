@@ -23,6 +23,11 @@ func main() {
 
 	flag.Parse()
 
+	if len(flag.Args()) < 1 {
+		fmt.Print("Usage: remove-members [flags] <file-containing-members-list>\n\nFlags:\n\t-root\tstring\tpath to root directory of the repository\n\t-dryrun\tboolean\tEnable/Disable dryrun (Default: Enabled)")
+		os.Exit(0)
+	}
+
 	memberList, err := readMemberList(flag.Args()[0])
 	if err != nil {
 		log.Fatal(err)

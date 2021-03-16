@@ -126,6 +126,7 @@ teams:
     - cpanato
     - luxas
     - roberthbailey
+    - timoreimann
     - timothysc
     privacy: closed
   cluster-api-provider-digitalocean-maintainers:

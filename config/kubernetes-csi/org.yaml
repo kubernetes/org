@@ -351,25 +351,6 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
-  drivers-admins:
-    description: Admin access to drivers repo
-    members:
-    - chakri-nelluri
-    - jsafrane
-    - lpabon
-    - msau42
-    - saad-ali
-    - xing-yang
-    privacy: closed
-  drivers-maintainers:
-    description: Write access to drivers repo
-    members:
-    - jsafrane
-    - msau42
-    - saad-ali
-    - sbezverk
-    - xing-yang
-    privacy: closed
   external-attacher-admins:
     description: Admin access to external-attacher repo
     members:

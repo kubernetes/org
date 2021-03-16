@@ -35,8 +35,7 @@ func main() {
 
 	configPath := repoRoot + "/config"
 
-	err = removeMembers(memberList, configPath)
-	if err != nil {
+	if err = removeMembers(memberList, configPath); err != nil {
 		log.Fatal(err)
 	}
 
@@ -65,7 +64,7 @@ func removeMembers(memberList []string, configPath string) error {
 		count := 0
 		fmt.Print(member)
 
-		err := filepath.Walk(configPath, func(path string, info os.FileInfo, err error) error {
+		if err := filepath.Walk(configPath, func(path string, info os.FileInfo, err error) error {
 			if err != nil {
 				return err
 			}
@@ -93,8 +92,7 @@ func removeMembers(memberList []string, configPath string) error {
 				}
 			}
 			return nil
-		})
-		if err != nil {
+		}); err != nil {
 			return err
 		}
 
@@ -129,16 +127,12 @@ func removeMemberFromFile(member string, path string) (bool, error) {
 		}
 
 		updatedContent := re.ReplaceAll(content, []byte(""))
-		err = ioutil.WriteFile(path, updatedContent, 0666)
-
-		if err != nil {
+		if err = ioutil.WriteFile(path, updatedContent, 0666); err != nil {
 			return false, err
 		}
 
 		cmd := exec.Command("git", "add", path)
-		err := cmd.Run()
-
-		if err != nil {
+		if err := cmd.Run(); err != nil {
 			log.Fatal(err)
 		}
 
@@ -175,9 +169,7 @@ func commitRemovedMembers(member string, orgs []string, teams []string) {
 	//Execute the git command only if not a dry run
 	if !dryrun {
 		cmd := exec.Command("git", cmd...)
-		err := cmd.Run()
-
-		if err != nil {
+		if err := cmd.Run(); err != nil {
 			log.Fatal(err)
 		}
 	}

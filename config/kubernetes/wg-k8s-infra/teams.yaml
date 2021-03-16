@@ -1,32 +1,58 @@
 teams:
-  k8s-infra-team:
+  wg-k8s-infra:
     description:
     maintainers:
     - cblecker
     - idvoretskyi
+    - nikhita
     - spiffxp
     members:
-    - amwat
+    - ameukam
     - BenTheElder
-    - brendandburns
+    - BobyMCbobs
+    - chewong
+    - claudiubelu
+    - cpanato
     - dims
+    - hasheddan
+    - hh
     - ixdy
-    - shyamjvs
+    - justinsb
+    - listx
+    - munnerz
+    - Riaankl
+    - rikatz
+    - stp-ip
     - thockin
     privacy: closed
+    teams:
+      wg-k8s-infra-leads:
+        description: wg-k8s-infra chairs and technical leads
+        maintainers:
+        - spiffxp
+        members:
+        - ameukam
+        - dims
+        privacy: closed
   k8s.io-admins:
     description: Admin access to the k8s.io repo
+    maintainers:
+    - cblecker
+    - nikhita
+    - spiffxp
     members:
+    - ameukam
     - dims
-    - ixdy
-    - lavalamp
     - thockin
     privacy: closed
   k8s.io-maintainers:
     description: Write access to the k8s.io repo
+    maintainers:
+    - cblecker
+    - nikhita
+    - spiffxp
     members:
+    - ameukam
     - dims
-    - ixdy
-    - lavalamp
     - thockin
     privacy: closed

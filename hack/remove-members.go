@@ -15,16 +15,21 @@ import (
 )
 
 var dryrun bool
-var repoRoot string
+var configPath string
 
 func main() {
-	flag.StringVar(&repoRoot, "root", ".", "Root of the repository")
-	flag.BoolVar(&dryrun, "dryrun", true, "Enable Dryrun or not")
+	flag.StringVar(&configPath, "path", ".", "Path to config directory/subdirectory")
+	flag.BoolVar(&dryrun, "dryrun", true, "Enable Dryrun or not. This flag controls whether the changes are simulated or live. If the changes are simulated it will only print the removal details and the commit message")
 
 	flag.Parse()
 
-	if len(flag.Args()) < 1 {
-		fmt.Print("Usage: remove-members [flags] <file-containing-members-list>\n\nFlags:\n\t-root\tstring\tpath to root directory of the repository\n\t-dryrun\tboolean\tEnable/Disable dryrun (Default: Enabled)")
+	flag.Usage = func() {
+		fmt.Fprintf(os.Stderr, "Usage: remove-members [flags] <file-containing-members-list>\n")
+		flag.PrintDefaults()
+	}
+
+	if len(flag.Args()) != 1 {
+		flag.Usage()
 		os.Exit(0)
 	}
 
@@ -32,8 +37,6 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-
-	configPath := repoRoot + "/config"
 
 	if err = removeMembers(memberList, configPath); err != nil {
 		log.Fatal(err)

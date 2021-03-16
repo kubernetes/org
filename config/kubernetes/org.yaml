@@ -1503,29 +1503,6 @@ teams:
     - davidopp
     - kad
     privacy: closed
-  k8s-infra-team:
-    description: ""
-    maintainers:
-    - cblecker
-    - idvoretskyi
-    - spiffxp
-    members:
-    - amwat
-    - BenTheElder
-    - brendandburns
-    - dims
-    - ixdy
-    - shyamjvs
-    - thockin
-    privacy: closed
-  k8s.io-maintainers:
-    description: Write access to the k8s.io repo
-    members:
-    - dims
-    - ixdy
-    - lavalamp
-    - thockin
-    privacy: closed
   klog-admins:
     description: Admin access to the klog repo
     members:

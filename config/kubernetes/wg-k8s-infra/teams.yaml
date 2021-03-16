@@ -14,6 +14,14 @@ teams:
     - shyamjvs
     - thockin
     privacy: closed
+  k8s.io-admins:
+    description: Admin access to the k8s.io repo
+    members:
+    - dims
+    - ixdy
+    - lavalamp
+    - thockin
+    privacy: closed
   k8s.io-maintainers:
     description: Write access to the k8s.io repo
     members:

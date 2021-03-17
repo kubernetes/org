@@ -14,7 +14,7 @@ import (
 	flag "github.com/spf13/pflag"
 )
 
-var dryrun bool
+var dryrun bool = true
 var configPath string
 
 func main() {

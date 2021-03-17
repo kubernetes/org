@@ -1,0 +1,15 @@
+teams:
+  test-team:
+    description: ""
+    members:
+    - loremipsum
+    - johndoe #some random comment
+    - foobar #some random comment 2
+    - janedoe
+  test-team-two:
+    description: ""
+    members:
+    - loremipsum
+    - johndoe
+    - foobar
+

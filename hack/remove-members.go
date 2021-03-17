@@ -19,12 +19,12 @@ var configPath string
 
 func main() {
 	flag.StringVar(&configPath, "path", ".", "Path to config directory/subdirectory")
-	flag.BoolVar(&dryrun, "dryrun", true, "Enable Dryrun or not. This flag controls whether the changes are simulated or live. If the changes are simulated it will only print the removal details and the commit message")
+	flag.BoolVar(&dryrun, "dryrun", true, "Enable Dryrun or not. Dryrun simulates changes to be applied and prints removal details")
 
 	flag.Parse()
 
 	flag.Usage = func() {
-		fmt.Fprintf(os.Stderr, "Usage: remove-members [flags] <file-containing-members-list>\n")
+		fmt.Fprintf(os.Stderr, "Usage: remove-members [--dryrun] [--path] member-file (file-containing-members-list)\n")
 		flag.PrintDefaults()
 	}
 

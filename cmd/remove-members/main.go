@@ -73,14 +73,14 @@ func removeMembers(memberList []string, configPath string) error {
 			if matched, err := filepath.Match("*.yaml", filepath.Base(path)); err != nil {
 				return err
 			} else if matched {
-				removed, err := removeMemberFromFile(member, path, info)
+				removed, removeCount, err := removeMemberFromFile(member, path, info)
 				if err != nil {
 					return err
 				}
 
 				//Record the org/team name when a member is removed from it
 				if removed {
-					count++
+					count += removeCount
 					if info.Name() == "org.yaml" {
 						orgs = append(orgs, filepath.Base(filepath.Dir(path)))
 					}
@@ -108,25 +108,27 @@ func removeMembers(memberList []string, configPath string) error {
 	return nil
 }
 
-func removeMemberFromFile(member string, path string, info os.FileInfo) (bool, error) {
+func removeMemberFromFile(member string, path string, info os.FileInfo) (bool, int, error) {
 
 	content, err := ioutil.ReadFile(path)
 	if err != nil {
-		return false, err
+		return false, 0, err
 	}
 
 	re := regexp.MustCompile(`(\s+)?- ` + member + `(.*)?`)
 
-	if re.Match(content) {
+	matches := re.FindAllIndex(content, -1)
+
+	if len(matches) >= 1 {
 
 		//Mofify the file only if it's not a dry run
 		if dryrun {
-			return true, nil
+			return true, len(matches), nil
 		}
 
 		updatedContent := re.ReplaceAll(content, []byte(""))
 		if err = ioutil.WriteFile(path, updatedContent, info.Mode()); err != nil {
-			return false, err
+			return false, len(matches), err
 		}
 
 		cmd := exec.Command("git", "add", path)
@@ -134,10 +136,10 @@ func removeMemberFromFile(member string, path string, info os.FileInfo) (bool, e
 			log.Fatal(err)
 		}
 
-		return true, nil
+		return true, len(matches), nil
 	}
 
-	return false, nil
+	return false, len(matches), nil
 
 }
 

@@ -1,8 +1,6 @@
 package main
 
 import (
-	"bufio"
-	"flag"
 	"fmt"
 	"io/ioutil"
 	"log"
@@ -12,6 +10,8 @@ import (
 	"regexp"
 	"sort"
 	"strings"
+
+	flag "github.com/spf13/pflag"
 )
 
 var dryrun bool
@@ -46,18 +46,13 @@ func main() {
 
 //readMemberList reads the list of members to be removed from the given filepath
 func readMemberList(path string) ([]string, error) {
-	file, err := os.Open(path)
+	file, err := ioutil.ReadFile(path)
 	if err != nil {
 		return nil, err
 	}
-	defer file.Close()
 
-	var members []string
-	scanner := bufio.NewScanner(file)
-	for scanner.Scan() {
-		members = append(members, scanner.Text())
-	}
-	return members, scanner.Err()
+	var members = strings.Split(string(file), "\n")
+	return members, nil
 }
 
 //removeMembers walks through the config directory and removes the occurences of the given member name
@@ -78,7 +73,7 @@ func removeMembers(memberList []string, configPath string) error {
 			if matched, err := filepath.Match("*.yaml", filepath.Base(path)); err != nil {
 				return err
 			} else if matched {
-				removed, err := removeMemberFromFile(member, path)
+				removed, err := removeMemberFromFile(member, path, info)
 				if err != nil {
 					return err
 				}
@@ -113,7 +108,7 @@ func removeMembers(memberList []string, configPath string) error {
 	return nil
 }
 
-func removeMemberFromFile(member string, path string) (bool, error) {
+func removeMemberFromFile(member string, path string, info os.FileInfo) (bool, error) {
 
 	content, err := ioutil.ReadFile(path)
 	if err != nil {
@@ -125,12 +120,12 @@ func removeMemberFromFile(member string, path string) (bool, error) {
 	if re.Match(content) {
 
 		//Mofify the file only if it's not a dry run
-		if dryrun == true {
+		if dryrun {
 			return true, nil
 		}
 
 		updatedContent := re.ReplaceAll(content, []byte(""))
-		if err = ioutil.WriteFile(path, updatedContent, 0666); err != nil {
+		if err = ioutil.WriteFile(path, updatedContent, info.Mode()); err != nil {
 			return false, err
 		}
 

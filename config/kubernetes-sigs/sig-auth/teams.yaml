@@ -29,6 +29,8 @@ teams:
     - rjbez17
     - srampal
     - tashimi
+    - adrianludwin
+    - yiqigao217
     privacy: closed
   secrets-store-csi-driver-admins:
     description: Admin access to secrets-store-csi-driver repo

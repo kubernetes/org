@@ -24,12 +24,12 @@ teams:
   multi-tenancy-maintainers:
     description: Write access to multi-tenancy repo
     members:
+    - adrianludwin
     - davidopp
     - easeway
     - rjbez17
     - srampal
     - tashimi
-    - adrianludwin
     - yiqigao217
     privacy: closed
   secrets-store-csi-driver-admins:

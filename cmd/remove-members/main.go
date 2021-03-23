@@ -14,31 +14,41 @@ import (
 	flag "github.com/spf13/pflag"
 )
 
-var dryrun bool = true
-var configPath string
+type options struct {
+	confirm    bool
+	configPath string
+}
 
-func main() {
-	flag.StringVar(&configPath, "path", ".", "Path to config directory/subdirectory")
-	flag.BoolVar(&dryrun, "dryrun", true, "Enable Dryrun or not. Dryrun simulates changes to be applied and prints removal details")
+func parseOptions() options {
+	var o options
+	flag.StringVar(&o.configPath, "path", ".", "Path to config directory/subdirectory")
+	flag.BoolVar(&o.confirm, "confirm", true, "Modify the actual files or just simulate changes")
 
 	flag.Parse()
 
 	flag.Usage = func() {
-		fmt.Fprintf(os.Stderr, "Usage: remove-members [--dryrun] [--path] member-file (file-containing-members-list)\n")
+		fmt.Fprintf(os.Stderr, "Usage: remove-members [--confirm] [--path] member-file (file-containing-members-list)\n")
 		flag.PrintDefaults()
 	}
 
 	if len(flag.Args()) != 1 {
 		flag.Usage()
-		os.Exit(0)
+		os.Exit(1)
 	}
+
+	return o
+}
+
+func main() {
+
+	o := parseOptions()
 
 	memberList, err := readMemberList(flag.Args()[0])
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	if err = removeMembers(memberList, configPath); err != nil {
+	if err = removeMembers(memberList, o); err != nil {
 		log.Fatal(err)
 	}
 
@@ -56,13 +66,13 @@ func readMemberList(path string) ([]string, error) {
 }
 
 //removeMembers walks through the config directory and removes the occurences of the given member name
-func removeMembers(memberList []string, configPath string) error {
+func removeMembers(memberList []string, o options) error {
 	for _, member := range memberList {
 		var orgs, teams []string
 		count := 0
 		fmt.Print(member)
 
-		if err := filepath.Walk(configPath, func(path string, info os.FileInfo, err error) error {
+		if err := filepath.Walk(o.configPath, func(path string, info os.FileInfo, err error) error {
 			if err != nil {
 				return err
 			}
@@ -70,25 +80,25 @@ func removeMembers(memberList []string, configPath string) error {
 				return nil
 			}
 
-			if matched, err := filepath.Match("*.yaml", filepath.Base(path)); err != nil {
+			if filepath.Ext(path) != ".yaml" {
+				return nil
+			}
+			removed, removeCount, err := removeMemberFromFile(member, path, info, o.confirm)
+			if err != nil {
 				return err
-			} else if matched {
-				removed, removeCount, err := removeMemberFromFile(member, path, info)
-				if err != nil {
-					return err
-				}
+			}
 
-				//Record the org/team name when a member is removed from it
-				if removed {
-					count += removeCount
-					if info.Name() == "org.yaml" {
-						orgs = append(orgs, filepath.Base(filepath.Dir(path)))
-					}
-					if info.Name() == "teams.yaml" {
-						teams = append(teams, filepath.Base(filepath.Dir(path)))
-					}
+			//Record the org/team name when a member is removed from it
+			if removed {
+				count += removeCount
+				if info.Name() == "org.yaml" {
+					orgs = append(orgs, filepath.Base(filepath.Dir(path)))
+				}
+				if info.Name() == "teams.yaml" {
+					teams = append(teams, filepath.Base(filepath.Dir(path)))
 				}
 			}
+
 			return nil
 		}); err != nil {
 			return err
@@ -101,14 +111,14 @@ func removeMembers(memberList []string, configPath string) error {
 
 		//Proceed to committing changes if member is actually removed from somewhere
 		if count > 0 {
-			commitRemovedMembers(member, orgs, teams)
+			commitRemovedMembers(member, orgs, teams, o.confirm)
 		}
 	}
 
 	return nil
 }
 
-func removeMemberFromFile(member string, path string, info os.FileInfo) (bool, int, error) {
+func removeMemberFromFile(member string, path string, info os.FileInfo, confirm bool) (bool, int, error) {
 
 	content, err := ioutil.ReadFile(path)
 	if err != nil {
@@ -121,19 +131,16 @@ func removeMemberFromFile(member string, path string, info os.FileInfo) (bool, i
 
 	if len(matches) >= 1 {
 
-		//Mofify the file only if it's not a dry run
-		if dryrun {
-			return true, len(matches), nil
-		}
+		if confirm {
+			updatedContent := re.ReplaceAll(content, []byte(""))
+			if err = ioutil.WriteFile(path, updatedContent, info.Mode()); err != nil {
+				return false, len(matches), err
+			}
 
-		updatedContent := re.ReplaceAll(content, []byte(""))
-		if err = ioutil.WriteFile(path, updatedContent, info.Mode()); err != nil {
-			return false, len(matches), err
-		}
-
-		cmd := exec.Command("git", "add", path)
-		if err := cmd.Run(); err != nil {
-			log.Fatal(err)
+			cmd := exec.Command("git", "add", path)
+			if err := cmd.Run(); err != nil {
+				log.Fatal(err)
+			}
 		}
 
 		return true, len(matches), nil
@@ -143,8 +150,11 @@ func removeMemberFromFile(member string, path string, info os.FileInfo) (bool, i
 
 }
 
-func commitRemovedMembers(member string, orgs []string, teams []string) {
-	cmd := []string{"commit"}
+func commitRemovedMembers(member string, orgs []string, teams []string, confirm bool) {
+	cmd := []string{"echo", "git", "commit"}
+	if confirm {
+		cmd = cmd[1:]
+	}
 
 	orgCommitMsg := "Remove " + member + " from the "
 	if len(orgs) == 1 {
@@ -164,13 +174,9 @@ func commitRemovedMembers(member string, orgs []string, teams []string) {
 		cmd = append(cmd, "-m", teamCommitMsg)
 	}
 
-	fmt.Printf("\nCommit Command: %q\n\n", strings.Join(cmd, " "))
-
-	//Execute the git command only if not a dry run
-	if !dryrun {
-		cmd := exec.Command("git", cmd...)
-		if err := cmd.Run(); err != nil {
-			log.Fatal(err)
-		}
+	e := exec.Command(cmd[0], cmd[1:]...)
+	if err := e.Run(); err != nil {
+		log.Fatal(err)
 	}
+
 }

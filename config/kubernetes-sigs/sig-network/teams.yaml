@@ -118,3 +118,9 @@ teams:
     previously:
     - service-apis-maintainers
     - service-apis-amintainers
+  kpng-admins:
+    description: Admin access to the kpng repo
+    members:
+    - mcluseau
+    - thockin
+    privacy: closed

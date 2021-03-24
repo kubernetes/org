@@ -8,10 +8,11 @@ import (
 	"os/exec"
 	"path/filepath"
 	"regexp"
-	"sort"
 	"strings"
 
 	flag "github.com/spf13/pflag"
+	"k8s.io/test-infra/prow/config/org"
+	"sigs.k8s.io/yaml"
 )
 
 type options struct {
@@ -22,7 +23,7 @@ type options struct {
 func parseOptions() options {
 	var o options
 	flag.StringVar(&o.configPath, "path", ".", "Path to config directory/subdirectory")
-	flag.BoolVar(&o.confirm, "confirm", true, "Modify the actual files or just simulate changes")
+	flag.BoolVar(&o.confirm, "confirm", false, "Modify the actual files or just simulate changes")
 
 	flag.Parse()
 
@@ -69,7 +70,6 @@ func readMemberList(path string) ([]string, error) {
 func removeMembers(memberList []string, o options) error {
 	for _, member := range memberList {
 		var orgs, teams []string
-		count := 0
 		fmt.Print(member)
 
 		if err := filepath.Walk(o.configPath, func(path string, info os.FileInfo, err error) error {
@@ -83,20 +83,15 @@ func removeMembers(memberList []string, o options) error {
 			if filepath.Ext(path) != ".yaml" {
 				return nil
 			}
-			removed, removeCount, err := removeMemberFromFile(member, path, info, o.confirm)
+			removed, removals, err := removeMemberFromFile(member, path, info, o.confirm)
 			if err != nil {
 				return err
 			}
 
 			//Record the org/team name when a member is removed from it
 			if removed {
-				count += removeCount
-				if info.Name() == "org.yaml" {
-					orgs = append(orgs, filepath.Base(filepath.Dir(path)))
-				}
-				if info.Name() == "teams.yaml" {
-					teams = append(teams, filepath.Base(filepath.Dir(path)))
-				}
+				orgs = append(orgs, removals["orgs"]...)
+				teams = append(teams, removals["teams"]...)
 			}
 
 			return nil
@@ -104,13 +99,22 @@ func removeMembers(memberList []string, o options) error {
 			return err
 		}
 
-		sort.Strings(orgs)
-		sort.Strings(teams)
+		if len(orgs) > 0 {
+			fmt.Printf("\n Found %s in %s org(s)", member, strings.Join(orgs, ", "))
+		} else {
+			fmt.Printf("\n Found %s in no org", member)
+		}
 
-		fmt.Printf("\n Orgs: %v\n Teams: %v\n Number of occurences: %d\n", orgs, teams, count)
+		if len(teams) > 0 {
+			fmt.Printf("\n Found %s in %s team(s)", member, strings.Join(teams, ", "))
+		} else {
+			fmt.Printf("\n Found %s in no team", member)
+		}
+
+		fmt.Printf("\n Total number of occurences: %d\n", len(orgs)+len(teams))
 
 		//Proceed to committing changes if member is actually removed from somewhere
-		if count > 0 {
+		if len(orgs)+len(teams) > 0 {
 			commitRemovedMembers(member, orgs, teams, o.confirm)
 		}
 	}
@@ -118,23 +122,37 @@ func removeMembers(memberList []string, o options) error {
 	return nil
 }
 
-func removeMemberFromFile(member string, path string, info os.FileInfo, confirm bool) (bool, int, error) {
+func removeMemberFromFile(member string, path string, info os.FileInfo, confirm bool) (bool, map[string][]string, error) {
 
 	content, err := ioutil.ReadFile(path)
 	if err != nil {
-		return false, 0, err
+		return false, nil, err
 	}
 
-	re := regexp.MustCompile(`(\s+)?- ` + member + `(.*)?`)
+	var cfg org.Config
+	if err := yaml.Unmarshal(content, &cfg); err != nil {
+		return false, nil, err
+	}
 
-	matches := re.FindAllIndex(content, -1)
+	removals := map[string][]string{
+		"orgs":  fetchOrgRemovals(cfg, []string{}, member),
+		"teams": fetchTeamRemovals(cfg.Teams, []string{}, member),
+	}
 
-	if len(matches) >= 1 {
+	if len(removals["orgs"])+len(removals["teams"]) > 0 {
+		re := regexp.MustCompile(`(\s+)?- ` + member + `(.*)?`)
+
+		matches := re.FindAllIndex(content, -1)
+
+		//Making Sure count from parsed config and regex matches are same
+		if len(matches) != len(removals["orgs"])+len(removals["teams"]) {
+			log.Printf("\n\n Mismatch in regex count and removal count at %s\n", path)
+		}
 
 		if confirm {
 			updatedContent := re.ReplaceAll(content, []byte(""))
 			if err = ioutil.WriteFile(path, updatedContent, info.Mode()); err != nil {
-				return false, len(matches), err
+				return false, removals, err
 			}
 
 			cmd := exec.Command("git", "add", path)
@@ -143,10 +161,10 @@ func removeMemberFromFile(member string, path string, info os.FileInfo, confirm 
 			}
 		}
 
-		return true, len(matches), nil
+		return true, removals, nil
 	}
 
-	return false, len(matches), nil
+	return false, removals, nil
 
 }
 
@@ -179,4 +197,37 @@ func commitRemovedMembers(member string, orgs []string, teams []string, confirm 
 		log.Fatal(err)
 	}
 
+}
+
+func fetchOrgRemovals(cfg org.Config, removals []string, member string) []string {
+	for _, i := range cfg.Members {
+		if i == member {
+			removals = append(removals, *cfg.Name)
+		}
+	}
+	for _, i := range cfg.Admins {
+		if i == member {
+			removals = append(removals, *cfg.Name)
+		}
+	}
+	return removals
+}
+
+func fetchTeamRemovals(teams map[string]org.Team, removals []string, member string) []string {
+	for teamName, v := range teams {
+		for _, i := range v.Members {
+			if i == member {
+				removals = append(removals, teamName)
+			}
+		}
+		for _, i := range v.Maintainers {
+			if i == member {
+				removals = append(removals, teamName)
+			}
+		}
+		if len(v.Children) > 0 {
+			removals = fetchTeamRemovals(v.Children, removals, member)
+		}
+	}
+	return removals
 }

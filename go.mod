@@ -8,6 +8,7 @@ require (
 	github.com/spf13/pflag v1.0.5
 	k8s.io/apimachinery v0.0.0-20190817020851-f2f3a405f61d
 	k8s.io/test-infra v0.0.0-20191222193732-de81526abe72
+	sigs.k8s.io/yaml v1.2.0 // indirect
 )
 
 // Pin all k8s.io staging repositories to kubernetes-1.15.3.

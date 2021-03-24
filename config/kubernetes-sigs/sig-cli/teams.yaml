@@ -71,6 +71,23 @@ teams:
     - seans3
     - soltysh
     privacy: closed
+  kui-admins:
+    description: admin access to kui
+    members:
+    - myan9
+    - starpit
+    privacy: closed
+  kui-maintainers:
+    description: write access to kui
+    members:
+    - eddiezane
+    - mark-nc
+    - myan9
+    - pwittrock
+    - seans3
+    - soltysh
+    - starpit
+    privacy: closed
   kustomize-admins:
     description: ""
     members:

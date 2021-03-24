@@ -135,7 +135,7 @@ func removeMemberFromFile(member string, path string, info os.FileInfo, confirm 
 	}
 
 	removals := map[string][]string{
-		"orgs":  fetchOrgRemovals(cfg, []string{}, member),
+		"orgs":  fetchOrgRemovals(cfg, []string{}, member, path),
 		"teams": fetchTeamRemovals(cfg.Teams, []string{}, member),
 	}
 
@@ -199,34 +199,29 @@ func commitRemovedMembers(member string, orgs []string, teams []string, confirm 
 
 }
 
-func fetchOrgRemovals(cfg org.Config, removals []string, member string) []string {
-	for _, i := range cfg.Members {
-		if i == member {
-			removals = append(removals, *cfg.Name)
-		}
-	}
-	for _, i := range cfg.Admins {
-		if i == member {
-			removals = append(removals, *cfg.Name)
-		}
+func fetchOrgRemovals(cfg org.Config, removals []string, member string, path string) []string {
+	if cfg.Name != nil {
+		removals = fetchRemovals(cfg.Members, removals, member, *cfg.Name)
+		removals = fetchRemovals(cfg.Admins, removals, member, *cfg.Name)
 	}
 	return removals
 }
 
 func fetchTeamRemovals(teams map[string]org.Team, removals []string, member string) []string {
 	for teamName, v := range teams {
-		for _, i := range v.Members {
-			if i == member {
-				removals = append(removals, teamName)
-			}
-		}
-		for _, i := range v.Maintainers {
-			if i == member {
-				removals = append(removals, teamName)
-			}
-		}
+		removals = fetchRemovals(v.Members, removals, member, teamName)
+		removals = fetchRemovals(v.Maintainers, removals, member, teamName)
 		if len(v.Children) > 0 {
 			removals = fetchTeamRemovals(v.Children, removals, member)
+		}
+	}
+	return removals
+}
+
+func fetchRemovals(list []string, removals []string, member string, name string) []string {
+	for _, i := range list {
+		if i == member {
+			removals = append(removals, name)
 		}
 	}
 	return removals

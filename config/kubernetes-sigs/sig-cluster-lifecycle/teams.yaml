@@ -208,6 +208,7 @@ teams:
     - dims
     - luxas
     - roberthbailey
+    - sbueringer
     - timothysc
     privacy: closed
   cluster-api-provider-openstack-maintainers:

@@ -15,6 +15,14 @@ teams:
     - jsturtevant
     - marosset
     privacy: closed
+  sig-windows-leads:
+    description: Special Interest Group Windows Leads
+    members:
+    - ddebroy
+    - jayunit100
+    - jsturtevant
+    - marosset
+    privacy: closed
   sig-windows-misc:
     description: Special Interest Group Windows
     members:

@@ -7,7 +7,7 @@ aliases:
     - janetkuo
     - kow3ns
     - mattfarina
-    - prydonius
+    - soltysh
   sig-architecture-leads:
     - derekwaynecarr
     - dims
@@ -62,8 +62,8 @@ aliases:
     - dchen1107
     - derekwaynecarr
   sig-release-leads:
-    - alejandrox1
     - hasheddan
+    - jeremyrickard
     - justaugustus
     - saschagrunert
   sig-scalability-leads:
@@ -96,10 +96,10 @@ aliases:
     - hpandeycodeit
     - tashimi
   sig-windows-leads:
-    - jsturtevant
     - ddebroy
-    - marosset
     - jayunit100
+    - jsturtevant
+    - marosset
   wg-api-expression-leads:
     - apelisse
     - kwiesmueller
@@ -149,7 +149,6 @@ aliases:
     - tpepper
   committee-product-security:
     - cjcullen
-    - cji
     - joelsmith
     - lukehinds
     - micahhausler

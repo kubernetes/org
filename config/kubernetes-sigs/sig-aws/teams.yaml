@@ -2,14 +2,13 @@ teams:
   aws-ebs-csi-driver-admins:
     description: ""
     members:
-    - d-nishi
     - leakingtapan
+    - wongma7
     privacy: closed
   aws-ebs-csi-driver-maintainers:
     description: ""
     members:
     - bertinatto
-    - d-nishi
     - gnufied
     - jsafrane
     - leakingtapan

@@ -1551,7 +1551,6 @@ teams:
   kube-state-metrics-admins:
     description: Admin access to the kube-state-metrics repo
     members:
-    - andyxning
     - brancz
     - lilic
     - tariq1890
@@ -1559,7 +1558,6 @@ teams:
   kube-state-metrics-maintainers:
     description: Write access to the kube-state-metrics repo
     members:
-    - andyxning
     - brancz
     - lilic
     - tariq1890

@@ -1269,18 +1269,6 @@ teams:
     - imkin
     - SandeepPissay
     privacy: closed
-  cluster-registry-admins:
-    description: Admin access to cluster-registry repo
-    members:
-    - font
-    - pmorie
-    privacy: closed
-  cluster-registry-maintainers:
-    description: Write access to the cluster-registry repo
-    members:
-    - font
-    - pmorie
-    privacy: closed
   cncf-conformance-wg:
     description: ""
     maintainers:

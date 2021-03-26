@@ -1313,10 +1313,10 @@ teams:
     description: Kubernetes Code of Conduct Committee
     members:
     - aevaonline
-    - tpepper
-    - karenhchu
     - celestehorgan
+    - karenhchu
     - tashimi
+    - tpepper
     privacy: closed
   csi-api-admins:
     description: Admin access to csi-api repo

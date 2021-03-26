@@ -1313,9 +1313,9 @@ teams:
     description: Kubernetes Code of Conduct Committee
     members:
     - aevaonline
-    - bradamant3
-    - carolynvs
-    - jdumars
+    - tpepper
+    - karenhchu
+    - celestehorgan
     - tashimi
     privacy: closed
   csi-api-admins:

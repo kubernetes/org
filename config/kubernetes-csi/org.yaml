@@ -445,6 +445,13 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
+  lib-volume-populator-admins:
+    description: Admin access to lib-volume-populator repo
+    members:
+    - bswartz
+    - saad-ali
+    - xing-yang
+    privacy: closed
   livenessprobe-admins:
     description: Admin access to livenessprobe repo
     members:
@@ -480,6 +487,13 @@ teams:
     - jsafrane
     - lpabon
     - msau42
+    - saad-ali
+    - xing-yang
+    privacy: closed
+  volume-data-source-validator-admins:
+    description: Admin access to kubernetes-csi.github.io repo
+    members:
+    - bswartz
     - saad-ali
     - xing-yang
     privacy: closed

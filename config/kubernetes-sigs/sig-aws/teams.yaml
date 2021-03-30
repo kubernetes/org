@@ -8,6 +8,7 @@ teams:
   aws-ebs-csi-driver-maintainers:
     description: ""
     members:
+    - AndyXiangLi
     - bertinatto
     - gnufied
     - jsafrane

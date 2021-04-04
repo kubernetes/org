@@ -305,6 +305,8 @@ teams:
     - natalisucks
     - reylejano
     privacy: closed
+    repos:
+      website: admin
   website-maintainers:
     description: Write access to the website repo
     members:
@@ -341,6 +343,8 @@ teams:
     - xichengliudui # L10n: Chinese
     - yagonobre # L10n: Portuguese
     privacy: closed
+    repos:
+      website: write
   website-milestone-maintainers:
     description: Contributors who can use `/milestone` in the website repo
     members:

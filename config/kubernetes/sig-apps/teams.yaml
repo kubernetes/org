@@ -10,6 +10,8 @@ teams:
     - ngtuna
     - sebgoa
     privacy: closed
+    repos:
+      kompose: admin
   kompose-maintainers:
     description: Write access to the kompose repo
     members:
@@ -21,6 +23,8 @@ teams:
     - ngtuna
     - sebgoa
     privacy: closed
+    repos:
+      kompose: write
   sig-apps-api-reviews:
     description: ""
     members:

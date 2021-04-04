@@ -8,6 +8,8 @@ teams:
     - spiffxp
     - thockin
     privacy: closed
+    repos:
+      k8s.io: admin
   sig-k8s-infra:
     description: sig-k8s-infra members
     maintainers:

@@ -39,6 +39,8 @@ teams:
         - pohly
         - xmcqueen
         privacy: closed
+        repos:
+          sig-testing: admin
       sig-testing-pr-reviews:
         description: sig-testing PR reviews
         members:
@@ -72,6 +74,9 @@ teams:
     - spiffxp
     - stevekuznetsov
     privacy: closed
+    repos:
+      publishing-bot: admin
+      test-infra: admin
   test-infra-maintainers:
     description: write access to test-infra
     members:
@@ -85,6 +90,9 @@ teams:
     - spiffxp
     - stevekuznetsov
     privacy: closed
+    repos:
+      publishing-bot: write
+      test-infra: write
   sig-testing-dummy-project-team:
     description: dummy team to test prow project plugin; no acl
     members:

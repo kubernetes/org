@@ -5,6 +5,8 @@ teams:
     - jeremyot
     - pmorie
     privacy: closed
+    repos:
+      about-api: admin
   federation-wg:
     description: Individuals who are part of sig-multicluster and working as federation
       workgroup.
@@ -25,6 +27,8 @@ teams:
     - JeremyOT
     - pmorie
     privacy: closed
+    repos:
+      mcs-api: admin
   sig-multicluster-site-admins:
     description: Admin access to the sig-multicluster-site repo
     members:
@@ -32,6 +36,8 @@ teams:
     - lauralorenz
     - pmorie
     privacy: closed
+    repos:
+      sig-multicluster-site: admin
   sig-multicluster-site-maintainers:
     description: Write access to the sig-multicluster-site repo
     members:
@@ -39,9 +45,13 @@ teams:
     - lauralorenz
     - pmorie
     privacy: closed
+    repos:
+      sig-multicluster-site: write
   work-api-admins:
     description: Admin access for the work-api repo
     members:
     - jeremyot
     - pmorie
     privacy: closed
+    repos:
+      work-api: admin

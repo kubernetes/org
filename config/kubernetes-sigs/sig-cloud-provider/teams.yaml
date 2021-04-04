@@ -8,6 +8,8 @@ teams:
     - jkh52
     - nckturner
     privacy: closed
+    repos:
+      apiserver-network-proxy: admin
   apiserver-network-proxy-maintainers:
     description: write access to apiserver-network-proxy
     members:
@@ -16,6 +18,8 @@ teams:
     - cheftako
     - jkh52
     privacy: closed
+    repos:
+      apiserver-network-proxy: write
   alibaba-cloud-csi-driver-admins:
    description: Admin access to alibaba-cloud-csi-driver repo
    members:
@@ -23,6 +27,8 @@ teams:
    - mowangdk
    - xianlubird
    privacy: closed
+   repos:
+    alibaba-cloud-csi-driver: admin
   alibaba-cloud-csi-driver-maintainers:
    description: Write access to alibaba-cloud-csi-driver repo
    members:
@@ -30,6 +36,8 @@ teams:
    - mowangdk
    - xianlubird
    privacy: closed
+   repos:
+     alibaba-cloud-csi-driver: write
   aws-file-cache-csi-driver-admins:
     description: Admin access to the aws-file-cache-csi-driver repo
     members:
@@ -38,6 +46,8 @@ teams:
       - khoang98
       - nckturner
     privacy: closed
+    repos:
+      aws-file-cache-csi-driver: admin
   aws-file-cache-csi-driver-maintainers:
     description: Write access to the aws-file-cache-csi-driver repo
     members:
@@ -45,6 +55,8 @@ teams:
       - khoang98
       - nckturner
     privacy: closed
+    repos:
+      aws-file-cache-csi-driver: write
   aws-fsx-openzfs-csi-driver-admins:
     description: Admin access to the aws-fsx-openzfs-csi-driver repo
     members:
@@ -52,12 +64,16 @@ teams:
       - jacobwolfaws
       - nckturner
     privacy: closed
+    repos:
+      aws-fsx-openzfs-csi-driver: admin
   aws-fsx-openzfs-csi-driver-maintainers:
     description: Write access to the aws-fsx-openzfs-csi-driver repo
     members:
       - jacobwolfaws
       - nckturner
     privacy: closed
+    repos:
+      aws-fsx-openzfs-csi-driver: write
   aws-iam-authenticator-admins:
    description: Admin access to the aws-iam-authenticator repo
    members:
@@ -67,6 +83,8 @@ teams:
    - nckturner
    - wongma7
    privacy: closed
+   repos:
+     aws-iam-authenticator: admin
   aws-iam-authenticator-maintainers:
    description: Write access to the aws-iam-authenticator repo
    members:
@@ -76,6 +94,8 @@ teams:
    - nckturner
    - wongma7
    privacy: closed
+   repos:
+     aws-iam-authenticator: write
   blobfuse-csi-driver-admins:
    description: Admin access to the blobfuse-csi-driver repo
    members:
@@ -85,6 +105,8 @@ teams:
    - khenidak
    - lachie83
    privacy: closed
+   repos:
+     blob-csi-driver: admin
   blobfuse-csi-driver-maintainers:
    description: Write access to the blobfuse-csi-driver repo
    members:
@@ -94,6 +116,8 @@ teams:
    - khenidak
    - lachie83
    privacy: closed
+   repos:
+     blob-csi-driver: write
   cloud-provider-baiducloud-admins:
    description: Admin access to the cloud-provider-baiducloud repo
    members:
@@ -101,6 +125,8 @@ teams:
    - tizhou86
    - ZP-AlwaysWin
    privacy: closed
+   repos:
+     cloud-provider-baiducloud: admin
   cloud-provider-baiducloud-maintainers:
    description: Write access to the cloud-provider-baiducloud repo
    members:
@@ -108,6 +134,8 @@ teams:
    - tizhou86
    - ZP-AlwaysWin
    privacy: closed
+   repos:
+     cloud-provider-baiducloud: write
   cloud-provider-huaweicloud-admins:
    description: Admin access to the cloud-provider-huaweicloud repo
    members:
@@ -116,6 +144,8 @@ teams:
    - niuzhenguo
    - RainbowMango
    privacy: closed
+   repos:
+     cloud-provider-huaweicloud: admin
   cloud-provider-huaweicloud-maintainers:
    description: Write access to the cloud-provider-huaweicloud repo
    members:
@@ -124,16 +154,22 @@ teams:
    - niuzhenguo
    - RainbowMango
    privacy: closed
+   repos:
+     cloud-provider-huaweicloud: write
   ibm-powervs-block-csi-driver-admins:
     description: Admin access to the ibm-powervs-block-csi-driver
     members:
     - mkumatag
     privacy: closed
+    repos:
+      ibm-powervs-block-csi-driver: admin
   ibm-powervs-block-csi-driver-maintainers:
     description: Write access to the ibm-powervs-block-csi-driver
     members:
     - mkumatag
     privacy: closed
+    repos:
+      ibm-powervs-block-csi-driver: write
   provider-aws-test-infra-admins:
    description: Admin access to the provider-aws-test-infra repo
    members:
@@ -141,3 +177,5 @@ teams:
    - nckturner
    - wongma7
    privacy: closed
+   repos:
+     provider-aws-test-infra: admin

@@ -7,6 +7,8 @@ teams:
     - jsturtevant
     - marosset
     privacy: closed
+    repos:
+      windows-gmsa: admin
   windows-gmsa-maintainers:
     description: Write access to windows-gmsa repo
     members:
@@ -15,6 +17,8 @@ teams:
     - jsturtevant
     - marosset
     privacy: closed
+    repos:
+      windows-gmsa: write
   sig-windows-samples-admins:
     description: Admin access to sig-windows-samples repo
     members:
@@ -25,6 +29,8 @@ teams:
     privacy: closed
     previously:
     - sig-windows-examples-admins
+    repos:
+      sig-windows-samples: admin
   sig-windows-samples-maintainers:
     description: Write access to sig-windows-samples repo
     members:
@@ -35,6 +41,8 @@ teams:
     privacy: closed
     previously:
     - sig-windows-examples-maintainers
+    repos:
+      sig-windows-samples: write
   sig-windows-dev-tools-admins:
     description: Admin access to sig-windows-dev-tools repo
     members:
@@ -45,6 +53,8 @@ teams:
     - marosset
     - sladyn98
     privacy: closed
+    repos:
+      sig-windows-dev-tools: admin
   sig-windows-tools-admins:
     description: Admin access to sig-windows-tools repo
     members:
@@ -54,6 +64,8 @@ teams:
     - jsturtevant
     - marosset
     privacy: closed
+    repos:
+      sig-windows-tools: admin
   sig-windows-tools-maintainers:
     description: Write access to sig-windows-tools repo
     members:
@@ -63,6 +75,8 @@ teams:
     - jsturtevant
     - marosset
     privacy: closed
+    repos:
+      sig-windows-tools: write
   windows-operational-readiness-admins:
     description: Admin access to the windows-operational-readiness repo
     members:
@@ -70,6 +84,8 @@ teams:
     - jayunit100
     - knabben
     privacy: closed
+    repos:
+      windows-operational-readiness: admin
   windows-operational-readiness-maintainers:
     description: Write access to the windows-operational-readiness repo
     members:
@@ -77,6 +93,8 @@ teams:
     - jayunit100
     - knabben
     privacy: closed
+    repos:
+      windows-operational-readiness: write
   windows-service-proxy-admins:
     description: Admin access to the windows-service-proxy repo
     members:
@@ -84,6 +102,8 @@ teams:
     - jsturtevant
     - marosset
     privacy: closed
+    repos:
+      windows-service-proxy: admin
   windows-service-proxy-maintainers:
     description: Write access to the windows-service-proxy repo
     members:
@@ -91,6 +111,8 @@ teams:
     - jsturtevant
     - marosset
     privacy: closed
+    repos:
+      windows-service-proxy: write
   windows-testing-admins:
     description: Admin access to the windows-testing repo
     members:
@@ -100,6 +122,8 @@ teams:
     - jsturtevant
     - marosset
     privacy: closed
+    repos:
+      windows-testing: admin
   windows-testing-maintainers:
     description: Write access to the windows-testing repo
     members:
@@ -109,3 +133,5 @@ teams:
     - jsturtevant
     - marosset
     privacy: closed
+    repos:
+      windows-testing: write

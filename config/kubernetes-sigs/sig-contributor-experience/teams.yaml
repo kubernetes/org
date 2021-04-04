@@ -9,6 +9,8 @@ teams:
     - chris-short
     - kaslin
     privacy: closed
+    repos:
+      contributor-tweets: admin
   contributor-tweets-maintainers:
     description: write access to contributor-tweets
     maintainers:
@@ -18,6 +20,8 @@ teams:
     members:
     - castrojo
     privacy: closed
+    repos:
+      contributor-tweets: write
   discuss-theme-admins:
     description: admin access to the discuss-theme repo
     maintainers:
@@ -25,6 +29,8 @@ teams:
     members:
     - castrojo
     privacy: closed
+    repos:
+      discuss-theme: admin
   discuss-theme-maintainers:
     description: write access to the discuss-theme repo
     maintainers:
@@ -32,18 +38,24 @@ teams:
     members:
     - castrojo
     privacy: closed
+    repos:
+      discuss-theme: write
   lwkd-admins:
     description: admin access to the lwkd repo
     members:
     - coderanger
     - jberkus
     privacy: closed
+    repos:
+      lkwd: admin
   lwkd-maintainers:
     description: write access to the lwkd repo
     members:
     - coderanger
     - jberkus
     privacy: closed
+    repos:
+      lkwd: write
   maintainers-admins:
     description: admin access to the maintainers repo
     maintainers:
@@ -51,6 +63,8 @@ teams:
     members:
     - dims
     privacy: closed
+    repos:
+      maintainers: admin
   maintainers-maintainers:
     description: write access to the maintainers repo
     maintainers:
@@ -80,9 +94,13 @@ teams:
     members:
     - Priyankasaggu11929
     privacy: closed
+    repos:
+      maintainers: write
   slack-infra-admins:
     description: admin access to slack-infra
     members:
     - jeefy
     - Katharine
     privacy: closed
+    repos:
+      slack-infra: admin

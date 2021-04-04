@@ -6,6 +6,8 @@ teams:
     - mtaufen
     - sttts
     privacy: closed
+    repos:
+      legacyflag: admin
   legacyflag-maintainers:
     description: write access to legacyflag
     members:
@@ -13,3 +15,5 @@ teams:
     - mtaufen
     - sttts
     privacy: closed
+    repos:
+      legacyflag: write

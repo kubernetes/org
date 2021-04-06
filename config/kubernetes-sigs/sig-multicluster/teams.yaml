@@ -1,4 +1,10 @@
 teams:
+  about-api-admins:
+    description: admin access for the about-api repo
+    members:
+    - jeremyot
+    - pmorie
+    privacy: closed
   kubefed-admins:
     description: admin access for the kubefed repo
     members:

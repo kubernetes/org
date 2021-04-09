@@ -339,7 +339,6 @@ teams:
     - potapy4 # L10n: Russian
     - raelga # L10n: Spanish
     - remyleone # L10n: French
-    - reylejano #1.21 Release Docs Lead
     - rikatz # L10n: Portuguese
     - rlenferink # L10n: German
     - SataQiu # L10n: Chinese
@@ -361,7 +360,6 @@ teams:
     - bene2k1
     - bradtopol
     - celestehorgan
-    - ChandaniM123 # 1.21 RT Docs Shadow
     - claudiajkang
     - cstoku
     - dianaabv
@@ -378,20 +376,19 @@ teams:
     - kbarnard10
     - lledru
     - msheldyakov
-    - mvortizr # 1.21 RT Docs Shadow
     - nasa9084
     - ngtuna
     - onlydole
     - oussemos
     - perriea
-    - pi-victor # 1.21 RT Docs Shadow
+    - pi-victor # 1.22 RT Docs Lead
     - potapy4
     - raelga
     - Rajakavitha1
     - rbenzair
     - rekcah78
     - remyleone
-    - reylejano # 1.21 RT Docs Lead
+    - reylejano
     - rlenferink
     - SataQiu
     - savitharaghunathan

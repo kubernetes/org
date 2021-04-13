@@ -119,6 +119,7 @@ teams:
     - juan-lee
     - justaugustus
     - nader-ziada
+    - shysank
     privacy: closed
   cluster-api-provider-digitalocean-admins:
     description: Admin access to the cluster-api-provider-digitalocean repo

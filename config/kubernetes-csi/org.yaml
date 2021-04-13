@@ -401,6 +401,7 @@ teams:
   external-provisioner-maintainers:
     description: Write access to external-provisioner repo
     members:
+    - chrishenzie
     - jsafrane
     - msau42
     - saad-ali

@@ -31,7 +31,7 @@ teams:
     - ameukam # Release Manager Associate
     - ams0 # 1.21 Bug Triage Shadow
     - andrewsykim # Cloud Provider
-    - annajung # 1.21 Enhancements Lead
+    - annajung # 1.22 RT Lead Shadow
     - arunmk # 1.21 Enhancements Shadow
     - bai # 1.21 RT Lead Shadow
     - BenTheElder # Testing
@@ -52,21 +52,22 @@ teams:
     - derekwaynecarr # Architecture / Node
     - desponda # 1.21 Bug Triage Shadow
     - dims # Architecture / Release
-    - divya-mohan0209 # 1.21 Communications Lead
+    - divya-mohan0209 # 1.22 RT Lead Shadow
     - eddiezane # CLI
     - ehashman # Instrumentation
     - enj # Auth
-    - erismaster # 1.21 Bug Triage Lead
+    - erismaster # 1.22 RT Lead Shadow
     - fabriziopandini # Cluster Lifecycle
     - feiskyer # Azure
     - floreks # UI
     - foxish # Big Data
     - frapposelli # VMware
+    - guineveresaenger # 1.22 Emeritus Advisor
     - hasheddan # Release
     - hpandeycodeit # Usability
     - Huang-Wei # Scheduling
     - idealhack # Release Manager
-    - jameslaverack # 1.21 Enhancements Shadow
+    - jameslaverack # 1.22 Enhancements Lead
     - janetkuo # Apps
     - jayunit100 # Windows
     - jberkhahn # Service Catalog
@@ -85,7 +86,7 @@ teams:
     - kcmartin # 1.21 Bug Triage Shadow
     - kendallroden # 1.21 Enhancements Shadow
     - khenidak # Azure
-    - kikisdeliveryservice # 1.21 RT Lead Shadow
+    - kikisdeliveryservice # 1.22 RT Lead Shadow
     - kow3ns # Apps
     - lavalamp # API Machinery
     - liggitt # Auth / Release
@@ -99,9 +100,9 @@ teams:
     - mattfarina # Apps / Architecture
     - mborsz # Scalability
     - mikedanese # Auth
-    - mkorbi # Release Manager Associate
+    - mkorbi # Release Manager Associate / 1.22 CI Signal Lead
     - mm4tt # Scalability
-    - monzelmasry # 1.21 Bug Triage Shadow
+    - monzelmasry # 1.22 Bug Triage Lead
     - msau42 # Storage
     - mszostok # Service Catalog
     - mwielgus # Autoscaling
@@ -111,7 +112,10 @@ teams:
     - oxddr # Scalability
     - palnabarun # 1.21 RT Lead
     - parispittman # ContribEx
+    - Pensu # 1.22 Release Comms Lead
     - phillels # ContribEx
+    - PI-Victor # 1.22 Docs Lead
+    - pmmalinov01 # 1.22 Release Notes Lead
     - pmorie # Multicluster
     - prydonius # Apps
     - puerco # Release Manager
@@ -123,7 +127,7 @@ teams:
     - saad-ali # Storage
     - saschagrunert # Release
     - SataQiu # Cluster Lifecycle
-    - savitharaghunathan # 1.20 RT Lead Shadow
+    - savitharaghunathan # 1.22 RT Lead
     - seans3 # CLI
     - serathius # Instrumentation
     - sethmccombs # Release Manager Associate
@@ -245,7 +249,7 @@ teams:
         members:
         - alejandrox1 # subproject owner
         - ams0 # 1.21 Bug Triage Shadow
-        - annajung # 1.21 Enhancements Lead
+        - annajung # 1.22 RT Lead Shadow
         - arunmk # 1.21 Enhancements Shadow
         - bai # 1.20 RT Lead Shadow
         - celestehorgan # 1.20 Release Notes Shadow
@@ -253,36 +257,38 @@ teams:
         - chris-short # 1.20 Communications Shadow
         - cpanato # Release Manager
         - desponda # 1.21 Bug Triage Shadow
-        - divya-mohan0209 # 1.20 Communications Lead
+        - divya-mohan0209 # 1.22 RT Lead Shadow
         - eagleusb # 1.20 Docs Shadow
-        - erismaster # 1.21 Bug Triage Lead
-        - guineveresaenger # subproject owner
+        - erismaster # 1.22 RT Lead Shadow
+        - guineveresaenger # subproject owner / 1.22 EA
         - hasheddan # subproject owner
-        - jameslaverack # 1.21 Enhancements Shadow
+        - jameslaverack # 1.22 Enhancements Lead
         - jeremyrickard # 1.20 RT Lead
         - jrsapi # 1.21 Enhancements Shadow
         - justaugustus # subproject owner
         - kcmartin # 1.21 Bug Triage Shadow
         - kendallroden # 1.21 Enhancements Shadow
-        - kikisdeliveryservice # 1.20 RT Lead Shadow
+        - kikisdeliveryservice # 1.22 RT Lead Shadow
         - kinarashah # 1.20 Enhancements Shadow
         - lachie83 # subproject owner / 1.20 Emeritus Advisor
         - mikejoh # 1.20 Enhancements Shadow
-        - mkorbi # 1.21 CI Signal Shadow
-        - monzelmasry # 1.21 Bug Triage Shadow
+        - mkorbi # 1.22 CI Signal Lead
+        - monzelmasry # 1.22 Bug Triage Lead
         - morrislaw # 1.20 Enhancements Shadow
         - mvortizr # 1.21 Docs Shadow
         - n3wscott # 1.21 CI Signal Shadow
         - onlydole # subproject owner / 1.21 Emeritus Advisor
         - palnabarun # 1.20 RT Lead Shadow
-        - pi-victor # 1.21 Docs Shadow
+        - Pensu # 1.22 Release Comms Lead
+        - PI-Victor # 1.22 Docs Lead
+        - pmmalinov01 # 1.22 Release Notes Lead
         - priyankah21 # 1.21 CI Signal Shadow
         - puerco # Release Manager
         - reylejano # 1.21 Docs Lead
         - s278gupt # 1.21 CI Signal Shadow
         - salaxander # 1.20 Communications Shadow
         - saschagrunert # subproject owner
-        - savitharaghunathan # 1.20 RT Lead Shadow
+        - savitharaghunathan # 1.22 RT Lead
         - scrapcodes # 1.20 CI Signal Shadow
         - sfotony # 1.20 Communications Shadow
         - somtochiama # 1.20 Docs Shadow
@@ -299,7 +305,7 @@ teams:
             description: Members of the CI Signal team for the current release
               cycle.
             members:
-            - mkorbi # 1.21 CI Signal Shadow
+            - mkorbi # 1.22 CI Signal Lead
             - n3wscott # 1.21 CI Signal Shadow
             - priyankah21 # 1.21 CI Signal Shadow
             - s278gupt # 1.21 CI Signal Shadow
@@ -312,11 +318,12 @@ teams:
               as a notification group. Remove org members who are not current
               Release Team Leads.
             members:
-            - bai # 1.21 RT Lead Shadow
-            - kikisdeliveryservice # 1.21 RT Lead Shadow
-            - onlydole # 1.21 Emeritus Advisor
-            - palnabarun # 1.21 RT Lead
-            - savitharaghunathan # 1.21 RT Lead Shadow
+            - annajung # 1.22 RT Lead Shadow
+            - divya-mohan0209 # 1.22 RT Lead Shadow
+            - erismaster # 1.22 RT Lead Shadow
+            - guineveresaenger # 1.22 Emeritus Advisor
+            - kikisdeliveryservice # 1.22 RT Lead Shadow
+            - savitharaghunathan # 1.22 RT Lead
             privacy: closed
       sig-release-admins:
         description: Admins for SIG Release repositories

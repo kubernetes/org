@@ -95,3 +95,16 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
+  sig-storage-image-build-admins:
+    # Members of this group can go to https://prow.k8s.io/
+    # search for a failed image build job and re-run it.
+    # That permission is granted in
+    # https://github.com/kubernetes/test-infra/blob/master/config/jobs/image-pushing/k8s-staging-sig-storage.sh
+    description: Admin access for https://testgrid.k8s.io/sig-storage-image-build jobs
+    members:
+    - jsafrane
+    - msau42
+    - pohly
+    - saad-ali
+    - xing-yang
+    privacy: closed

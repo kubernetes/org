@@ -8,6 +8,7 @@ assignees: ''
 ---
 
 ### New Repo, Staging Repo, or migrate existing
+<!-- Rules for migrating existing repos - https://git.k8s.io/community/github-management/kubernetes-repositories.md#rules-for-donated-repositories -->
 e.g. new repository
 
 ### Requested name for new repository

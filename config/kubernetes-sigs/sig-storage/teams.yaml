@@ -94,6 +94,24 @@ teams:
     - wlan0
     - xing-yang
     privacy: closed
+  cosi-driver-minio-admins:
+    description: Admin access to cosi-driver-minio
+    members:
+    - jsafrane
+    - msau42
+    - saad-ali
+    - xing-yang
+    privacy: closed
+  cosi-driver-minioc-maintainers:
+    description: Write access to cosi-driver-minio
+    members:
+    - brahmaroutu
+    - jsafrane
+    - msau42
+    - saad-ali
+    - wlan0
+    - xing-yang
+    privacy: closed
   gluster-block-external-provisioner-admins:
     description: Admin access to gluster-block-external-provisioner
     members:

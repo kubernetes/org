@@ -1,0 +1,11 @@
+teams:
+  depstat-admins:
+    description: Admin access to depstat repo
+    maintainers:
+    - nikhita
+    members:
+    - alenkacz
+    - dims
+    - navidshaikh
+    - RinkiyaKeDad
+    privacy: closed

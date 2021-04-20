@@ -5,7 +5,6 @@ teams:
     - celestehorgan
     - jdumars
     - justaugustus
-    - zacharysarah
     privacy: closed
     teams:
       wg-naming-leads:
@@ -14,5 +13,4 @@ teams:
         - celestehorgan
         - jdumars
         - justaugustus
-        - zacharysarah
         privacy: closed

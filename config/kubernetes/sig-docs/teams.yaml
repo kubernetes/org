@@ -26,7 +26,6 @@ teams:
     - onlydole
     - sftim
     - tengqm
-    - zacharysarah
     - zparnold
     privacy: closed
   sig-docs-en-reviews:
@@ -45,7 +44,6 @@ teams:
     - sftim
     - stewart-yu
     - tengqm
-    - zacharysarah
     - zparnold
     privacy: closed
   sig-docs-es-owners:
@@ -223,7 +221,6 @@ teams:
     - stewart-yu
     - tengqm
     - tfogo
-    - zacharysarah
     - zparnold
     privacy: closed
   sig-docs-pt-owners:
@@ -347,7 +344,6 @@ teams:
     - truongnh1992 # L10n: Vietnamese
     - xichengliudui # L10n: Chinese
     - yagonobre # L10n: Portuguese
-    - zacharysarah # L10n: English
     - zhangxiaoyu-zidif # L10n: Chinese
     privacy: closed
   website-milestone-maintainers:
@@ -403,7 +399,6 @@ teams:
     - xichengliudui
     - yastij
     - ysyukr
-    - zacharysarah
     - zhangxiaoyu-zidif
     - zparnold
     privacy: closed

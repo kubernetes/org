@@ -147,7 +147,6 @@ teams:
     - wojtek-t # Scalability
     - xing-yang # Storage
     - xmudrii # Release Manager
-    - zacharysarah # Docs
     privacy: closed
     previously:
     - kubernetes-milestone-maintainers

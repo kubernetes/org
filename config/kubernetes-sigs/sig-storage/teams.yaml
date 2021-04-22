@@ -102,7 +102,7 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
-  cosi-driver-minioc-maintainers:
+  cosi-driver-minio-maintainers:
     description: Write access to cosi-driver-minio
     members:
     - brahmaroutu
@@ -112,6 +112,8 @@ teams:
     - wlan0
     - xing-yang
     privacy: closed
+    previously:
+    - cosi-driver-minioc-maintainers
   gluster-block-external-provisioner-admins:
     description: Admin access to gluster-block-external-provisioner
     members:

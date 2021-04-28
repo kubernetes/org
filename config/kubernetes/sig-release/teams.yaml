@@ -258,6 +258,7 @@ teams:
         - desponda # 1.21 Bug Triage Shadow
         - divya-mohan0209 # 1.22 RT Lead Shadow
         - eagleusb # 1.20 Docs Shadow
+        - encodeflush # 1.22 CI Signal Shadow
         - erismaster # 1.22 RT Lead Shadow
         - guineveresaenger # subproject owner / 1.22 EA
         - hasheddan # subproject owner
@@ -270,31 +271,28 @@ teams:
         - kikisdeliveryservice # 1.22 RT Lead Shadow
         - kinarashah # 1.20 Enhancements Shadow
         - lachie83 # subproject owner / 1.20 Emeritus Advisor
+        - lambdanis # 1.22 CI Signal Shadow
         - mikejoh # 1.20 Enhancements Shadow
         - mkorbi # 1.22 CI Signal Lead
         - monzelmasry # 1.22 Bug Triage Lead
         - morrislaw # 1.20 Enhancements Shadow
         - mvortizr # 1.21 Docs Shadow
-        - n3wscott # 1.21 CI Signal Shadow
         - onlydole # subproject owner / 1.21 Emeritus Advisor
         - palnabarun # 1.20 RT Lead Shadow
         - Pensu # 1.22 Release Comms Lead
         - PI-Victor # 1.22 Docs Lead
         - pmmalinov01 # 1.22 Release Notes Lead
-        - priyankah21 # 1.21 CI Signal Shadow
         - puerco # Release Manager
+        - ramrodo # 1.22 CI Signal Shadow
         - reylejano # 1.21 Docs Lead
-        - s278gupt # 1.21 CI Signal Shadow
         - salaxander # 1.20 Communications Shadow
         - saschagrunert # subproject owner
         - savitharaghunathan # 1.22 RT Lead
-        - scrapcodes # 1.20 CI Signal Shadow
         - sfotony # 1.20 Communications Shadow
         - somtochiama # 1.20 Docs Shadow
-        - soniasingla # 1.20 Release Notes Shadow
+        - soniasingla # 1.22 CI Signal Shadow
         - tanjacky # 1.20 Release Notes Shadow
         - tengqm # 1.21 Docs Shadow
-        - thejoycekung # 1.21 CI Signal Lead
         - tpepper # subproject owner
         - wilsonehusin # 1.21 Release Notes Lead
         - xmudrii # Release Manager
@@ -304,11 +302,11 @@ teams:
             description: Members of the CI Signal team for the current release
               cycle.
             members:
+            - encodeflush # 1.22 CI Signal Shadow
+            - lambdanis # 1.22 CI Signal Shadow
             - mkorbi # 1.22 CI Signal Lead
-            - n3wscott # 1.21 CI Signal Shadow
-            - priyankah21 # 1.21 CI Signal Shadow
-            - s278gupt # 1.21 CI Signal Shadow
-            - thejoycekung # 1.21 CI Signal Lead
+            - ramrodo # 1.22 CI Signal Shadow
+            - soniasingla # 1.22 CI Signal Shadow
             privacy: closed
           release-team-leads:
             description: Release Team Leads for the current Kubernetes release

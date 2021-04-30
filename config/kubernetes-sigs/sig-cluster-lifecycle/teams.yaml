@@ -153,6 +153,7 @@ teams:
   cluster-api-provider-gcp-admins:
     description: admin access to cluster-api-provider-gcp
     members:
+    - cpanato
     - justinsb
     - luxas
     - roberthbailey

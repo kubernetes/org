@@ -29,11 +29,8 @@ teams:
     - ahg-g # Scheduling
     - alejandrox1 # Testing
     - ameukam # Release Manager Associate
-    - ams0 # 1.21 Bug Triage Shadow
     - andrewsykim # Cloud Provider
     - annajung # 1.22 RT Lead Shadow
-    - arunmk # 1.21 Enhancements Shadow
-    - bai # 1.21 RT Lead Shadow
     - BenTheElder # Testing
     - bgrant0607 # Architecture
     - bradamant3 # Docs
@@ -50,7 +47,6 @@ teams:
     - ddebroy # Windows
     - deads2k # API Machinery / Auth
     - derekwaynecarr # Architecture / Node
-    - desponda # 1.21 Bug Triage Shadow
     - dims # Architecture / Release
     - divya-mohan0209 # 1.22 RT Lead Shadow
     - eddiezane # CLI
@@ -62,6 +58,7 @@ teams:
     - floreks # UI
     - foxish # Big Data
     - frapposelli # VMware
+    - gracenng # 1.22 Enhancements Shadow
     - guineveresaenger # 1.22 Emeritus Advisor
     - hasheddan # Release
     - hpandeycodeit # Usability
@@ -75,16 +72,15 @@ teams:
     - jdumars # Architecture / PM
     - jeefy # UI
     - jeremyrickard # Release
+    - jgavinray # 1.22 Bug Triage Shadow
     - jimangel # Docs / Release Manager Associate
     - johnbelamaric # Architecture
-    - jrsapi # 1.21 Enhancements Shadow
+    - jrsapi # 1.22 Enhancements Shadow
     - jsafrane # Storage
     - jsturtevant # Windows
     - justaugustus # Azure / PM / Release
     - justinsb # AWS / Cluster Lifecycle
     - k8s-release-robot # Release
-    - kcmartin # 1.21 Bug Triage Shadow
-    - kendallroden # 1.21 Enhancements Shadow
     - khenidak # Azure
     - kikisdeliveryservice # 1.22 RT Lead Shadow
     - kow3ns # Apps
@@ -108,6 +104,7 @@ teams:
     - mwielgus # Autoscaling
     - nckturner # AWS
     - neolit123 # Cluster Lifecycle
+    - notchairmk # 1.22 Bug Triage Shadow
     - onlydole # Release Manager Associate / 1.21 Emeritus Advisor
     - oxddr # Scalability
     - palnabarun # 1.21 RT Lead
@@ -123,27 +120,29 @@ teams:
     - quinton-hoole # Multicluster
     - RainbowMango # Instrumentation
     - rajakavitha1 # Usability
-    - reylejano # 1.21 Docs Lead
+    - reylejano # 1.22 Enhancements Shadow
     - saad-ali # Storage
+    - salaxander # 1.22 Enhancements Shadow
     - saschagrunert # Release
     - SataQiu # Cluster Lifecycle
     - savitharaghunathan # 1.22 RT Lead
     - seans3 # CLI
     - serathius # Instrumentation
     - sethmccombs # Release Manager Associate
+    - sfotony # 1.22 Bug Triage Shadow
     - shyamjvs # Scalability
     - soltysh # CLI
     - spzala # IBM Cloud
     - stevekuznetsov # Testing
+    - supriya-premkumar # 1.22 Enhancements Shadow
     - tallclair # Auth
     - tashimi # Usability
-    - thejoycekung # 1.21 CI Signal Lead
     - thockin # Network
     - timothysc # Cluster Lifecycle / Testing
     - tpepper # Release
     - verolop # Release Manager Associate
     - vllry # Usability
-    - wilsonehusin # 1.21 Release Notes Lead
+    - voigt # 1.22 Bug Triage Shadow
     - wojtek-t # Scalability
     - xing-yang # Storage
     - xmudrii # Release Manager
@@ -247,58 +246,51 @@ teams:
         description: Members of the current Release Team and subproject owners.
         members:
         - alejandrox1 # subproject owner
-        - ams0 # 1.21 Bug Triage Shadow
         - annajung # 1.22 RT Lead Shadow
-        - arunmk # 1.21 Enhancements Shadow
         - ashnehete # 1.22 Release Docs Shadow
-        - bai # 1.20 RT Lead Shadow
         - carlisia # 1.22 Release Docs Shadow
-        - celestehorgan # 1.20 Release Notes Shadow
-        - ChandaniM123 # 1.21 Docs Shadow
-        - chris-short # 1.20 Communications Shadow
         - chrisnegus # 1.22 Release Docs Shadow
+        - cici37 # 1.22 Release Notes Shadow
         - cpanato # Release Manager
-        - desponda # 1.21 Bug Triage Shadow
+        - Damans227 # 1.22 Release Notes Shadow
         - divya-mohan0209 # 1.22 RT Lead Shadow
-        - eagleusb # 1.20 Docs Shadow
         - encodeflush # 1.22 CI Signal Shadow
         - erismaster # 1.22 RT Lead Shadow
+        - gracenng # 1.22 Enhancements Shadow
         - guineveresaenger # subproject owner / 1.22 EA
         - hasheddan # subproject owner
         - jameslaverack # 1.22 Enhancements Lead
-        - jeremyrickard # 1.20 RT Lead
-        - jrsapi # 1.21 Enhancements Shadow
+        - jeremyrickard # Tech Lead
+        - jgavinray # 1.22 Bug Triage Shadow
+        - jrsapi # 1.22 Enhancements Shadow
         - justaugustus # subproject owner
-        - kcmartin # 1.21 Bug Triage Shadow
-        - kendallroden # 1.21 Enhancements Shadow
         - kikisdeliveryservice # 1.22 RT Lead Shadow
-        - kinarashah # 1.20 Enhancements Shadow
+        - kunal-kushwaha # 1.22 Release Comms Shadow
         - lachie83 # subproject owner / 1.20 Emeritus Advisor
         - lambdanis # 1.22 CI Signal Shadow
-        - mikejoh # 1.20 Enhancements Shadow
         - mkorbi # 1.22 CI Signal Lead
         - monzelmasry # 1.22 Bug Triage Lead
-        - morrislaw # 1.20 Enhancements Shadow
-        - mvortizr # 1.21 Docs Shadow
-        - onlydole # subproject owner / 1.21 Emeritus Advisor
-        - palnabarun # 1.20 RT Lead Shadow
+        - notchairmk # 1.22 Bug Triage Shadow
+        - onlydole # subproject owner
+        - palnabarun # subproject owner
         - Pensu # 1.22 Release Comms Lead
         - PI-Victor # 1.22 Docs Lead
         - pmmalinov01 # 1.22 Release Notes Lead
         - puerco # Release Manager
+        - rajula96reddy # 1.22 Release Comms Shadow
         - ramrodo # 1.22 CI Signal Shadow
-        - reylejano # 1.21 Docs Lead
+        - reylejano # 1.22 Enhancements Shadow
         - ritpanjw # 1.22 Release Docs Shadow
-        - salaxander # 1.20 Communications Shadow
+        - salaxander # 1.22 Enhancements Shadow
         - saschagrunert # subproject owner
         - savitharaghunathan # 1.22 RT Lead
-        - sfotony # 1.20 Communications Shadow
-        - somtochiama # 1.20 Docs Shadow
+        - sfotony # 1.22 Bug Triage Shadow
+        - skrishna-unix # 1.22 Release Comms Shadow
+        - sladyn98 # 1.22 Release Notes Shadow
         - soniasingla # 1.22 CI Signal Shadow
-        - tanjacky # 1.20 Release Notes Shadow
-        - tengqm # 1.21 Docs Shadow
+        - supriya-premkumar # 1.22 Enhancements Shadow
         - tpepper # subproject owner
-        - wilsonehusin # 1.21 Release Notes Lead
+        - voigt # 1.22 Bug Triage Shadow
         - xmudrii # Release Manager
         privacy: closed
         teams:

@@ -250,10 +250,13 @@ teams:
         - ams0 # 1.21 Bug Triage Shadow
         - annajung # 1.22 RT Lead Shadow
         - arunmk # 1.21 Enhancements Shadow
+        - ashnehete # 1.22 Release Docs Shadow
         - bai # 1.20 RT Lead Shadow
+        - carlisia # 1.22 Release Docs Shadow
         - celestehorgan # 1.20 Release Notes Shadow
         - ChandaniM123 # 1.21 Docs Shadow
         - chris-short # 1.20 Communications Shadow
+        - chrisnegus # 1.22 Release Docs Shadow
         - cpanato # Release Manager
         - desponda # 1.21 Bug Triage Shadow
         - divya-mohan0209 # 1.22 RT Lead Shadow
@@ -285,6 +288,7 @@ teams:
         - puerco # Release Manager
         - ramrodo # 1.22 CI Signal Shadow
         - reylejano # 1.21 Docs Lead
+        - ritpanjw # 1.22 Release Docs Shadow
         - salaxander # 1.20 Communications Shadow
         - saschagrunert # subproject owner
         - savitharaghunathan # 1.22 RT Lead

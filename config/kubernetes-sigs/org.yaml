@@ -663,6 +663,22 @@ teams:
     - jeefy
     - maciaszczykm
     privacy: closed
+  gcp-compute-persistent-disk-csi-driver-admins:
+    description: Admin access to the gcp-compute-persistent-disk-csi-driver repo
+    members:
+    - mattcary
+    - msau42
+    - saad-ali
+    - saikat-royc
+    privacy: closed
+  gcp-compute-persistent-disk-csi-driver-maintainers:
+    description: Write access to the gcp-compute-persistent-disk-csi-driver repo
+    members:
+    - mattcary
+    - msau42
+    - saad-ali
+    - saikat-royc
+    privacy: closed
   gcp-filestore-csi-driver-admins:
     description: Admin access to the gcp-filestore-csi-driver repo
     members:

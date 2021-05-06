@@ -227,6 +227,7 @@ teams:
   csi-lib-utils-maintainers:
     description: Write access to csi-lib-utils repo
     members:
+    - Jiawei0227
     - jsafrane
     - msau42
     - saad-ali
@@ -367,6 +368,7 @@ teams:
   external-attacher-maintainers:
     description: Write access to external-attacher repo
     members:
+    - Jiawei0227
     - jsafrane
     - msau42
     - saad-ali
@@ -403,6 +405,7 @@ teams:
     description: Write access to external-provisioner repo
     members:
     - chrishenzie
+    - Jiawei0227
     - jsafrane
     - msau42
     - saad-ali
@@ -420,6 +423,7 @@ teams:
     description: Write access to external-resizer repo
     members:
     - gnufied
+    - Jiawei0227
     - jsafrane
     - msau42
     - saad-ali
@@ -437,6 +441,7 @@ teams:
   external-snapshotter-maintainers:
     description: Write access to external-snapshotter repo
     members:
+    - Jiawei0227
     - jsafrane
     - msau42
     - saad-ali

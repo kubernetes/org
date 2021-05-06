@@ -73,3 +73,20 @@ teams:
         previously:
         - features-maintainers
         privacy: closed
+  production-readiness:
+    description: Production Readiness Review Team
+    members:
+    - deads2k
+    - ehashman
+    - johnbelamaric
+    - wojtek-t
+    privacy: closed
+    teams:
+      prod-readiness-reviewers:
+        description: Production Readiness Reviewers
+        members:
+        - deads2k
+        - ehashman
+        - johnbelamaric
+        - wojtek-t
+        privacy: closed

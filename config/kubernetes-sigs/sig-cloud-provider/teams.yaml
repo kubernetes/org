@@ -89,3 +89,9 @@ teams:
    - kevin-wangzefeng
    - RainbowMango
    privacy: closed
+  provider-aws-test-infra-admins:
+   description: Admin access to the provider-aws-test-infra repo
+   members:
+   - nckturner
+   - wongma7
+   privacy: closed

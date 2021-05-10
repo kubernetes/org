@@ -124,3 +124,9 @@ teams:
     - mcluseau
     - thockin
     privacy: closed
+  network-policy-api-admins:
+    description: Admin access to the network-policy-api repo
+    members:
+    - abhiraut
+    - rikatz
+    privacy: closed

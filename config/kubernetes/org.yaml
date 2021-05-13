@@ -1602,9 +1602,7 @@ teams:
   kubectl-admins:
     description: Admin access to the kubectl repo
     members:
-    - adohe
     - eddiezane
-    - juanvallejo
     - monopole
     - pwittrock
     - seans3

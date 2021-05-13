@@ -1611,16 +1611,11 @@ teams:
   kubectl-maintainers:
     description: Write access to the kubectl repo
     members:
-    - adohe
-    - apelisse
-    - juanvallejo
-    - mengqiy
+    - eddiezane
     - monopole
     - pwittrock
     - seans3
-    - shiywang
     - soltysh
-    - yue9944882
     privacy: closed
   kubernetes-feature-branch-admins:
     description: Admin access to the kubernetes repo, for maintaining feature branches. Will deprecate when this access is no longer needed.

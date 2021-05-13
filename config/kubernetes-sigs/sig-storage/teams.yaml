@@ -114,6 +114,24 @@ teams:
     privacy: closed
     previously:
     - cosi-driver-minioc-maintainers
+  cosi-driver-sample-admins:
+    description: Admin access to cosi-driver-sample
+    members:
+    - jsafrane
+    - msau42
+    - saad-ali
+    - xing-yang
+    privacy: closed
+  cosi-driver-sample-maintainers:
+    description: Write access to cosi-driver-sample
+    members:
+    - jsafrane
+    - krishchow
+    - msau42
+    - saad-ali
+    - wlan0
+    - xing-yang
+    privacy: closed
   gluster-block-external-provisioner-admins:
     description: Admin access to gluster-block-external-provisioner
     members:

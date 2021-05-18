@@ -74,6 +74,7 @@ teams:
     - jeremyrickard # Release
     - jgavinray # 1.22 Bug Triage Shadow
     - jimangel # Docs / Release Manager Associate
+    - jlbutler # 1.22 Release Comms Shadow
     - johnbelamaric # Architecture
     - jrsapi # 1.22 Enhancements Shadow
     - jsafrane # Storage
@@ -131,6 +132,7 @@ teams:
     - sethmccombs # Release Manager Associate
     - sfotony # 1.22 Bug Triage Shadow
     - shyamjvs # Scalability
+    - simcard0000 # 1.22 Release Notes Shadow
     - soltysh # CLI
     - spzala # IBM Cloud
     - stevekuznetsov # Testing
@@ -262,6 +264,7 @@ teams:
         - jameslaverack # 1.22 Enhancements Lead
         - jeremyrickard # Tech Lead
         - jgavinray # 1.22 Bug Triage Shadow
+        - jlbutler # 1.22 Release Comms Shadow
         - jrsapi # 1.22 Enhancements Shadow
         - justaugustus # subproject owner
         - kikisdeliveryservice # 1.22 RT Lead Shadow
@@ -285,6 +288,7 @@ teams:
         - saschagrunert # subproject owner
         - savitharaghunathan # 1.22 RT Lead
         - sfotony # 1.22 Bug Triage Shadow
+        - simcard0000 # 1.22 Release Notes Shadow
         - skrishna-unix # 1.22 Release Comms Shadow
         - sladyn98 # 1.22 Release Notes Shadow
         - soniasingla # 1.22 CI Signal Shadow

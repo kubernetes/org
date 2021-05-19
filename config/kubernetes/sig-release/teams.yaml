@@ -214,15 +214,6 @@ teams:
     - tpepper
     privacy: closed
     teams:
-      licensing:
-        description: Members of the Licensing subproject.
-        maintainers:
-        - nikhita # subproject owner
-        members:
-        - dims # subproject owner
-        - justaugustus # subproject owner
-        - swinslow # subproject owner
-        privacy: closed
       release-engineering:
         description: Members of the Release Engineering subproject, including
           Release Managers, Release Manager Associates, and Build Admins.

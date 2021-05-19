@@ -84,6 +84,7 @@ teams:
     - k8s-release-robot # Release
     - khenidak # Azure
     - kikisdeliveryservice # 1.22 RT Lead Shadow
+    - KnVerey # CLI - Kustomize
     - kow3ns # Apps
     - lavalamp # API Machinery
     - liggitt # Auth / Release

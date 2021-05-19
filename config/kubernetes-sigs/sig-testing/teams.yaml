@@ -21,6 +21,7 @@ teams:
     - alejandrox1
     - andrewsykim
     - BenTheElder
+    - vladimirvivien
     privacy: closed
   e2e-framework-maintainers:
     description: write access to e2e-framework

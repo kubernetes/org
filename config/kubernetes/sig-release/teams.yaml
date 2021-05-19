@@ -78,7 +78,7 @@ teams:
     - jrsapi # 1.22 Enhancements Shadow
     - jsafrane # Storage
     - jsturtevant # Windows
-    - justaugustus # Azure / PM / Release
+    - justaugustus # Release
     - justinsb # AWS / Cluster Lifecycle
     - k8s-release-robot # Release
     - khenidak # Azure
@@ -170,7 +170,6 @@ teams:
     - nikhita
     - spiffxp
     members:
-    - alejandrox1 # Technical Lead
     - alenkacz
     - BenTheElder
     - castrojo
@@ -244,7 +243,6 @@ teams:
       release-team:
         description: Members of the current Release Team and subproject owners.
         members:
-        - alejandrox1 # subproject owner
         - annajung # 1.22 RT Lead Shadow
         - ashnehete # 1.22 Release Docs Shadow
         - carlisia # 1.22 Release Docs Shadow
@@ -323,7 +321,6 @@ teams:
       sig-release-admins:
         description: Admins for SIG Release repositories
         members:
-        - alejandrox1 # Technical Lead
         - hasheddan # Technical Lead
         - jeremyrickard # Technical Lead
         - justaugustus # Chair
@@ -333,7 +330,6 @@ teams:
         description: |
           Chairs, Technical Leads, and Program Managers for SIG Release
         members:
-        - alejandrox1 # Technical Lead
         - hasheddan # Technical Lead
         - jeremyrickard # Technical Lead
         - justaugustus # Chair
@@ -344,7 +340,6 @@ teams:
         description: |
           Grants access to maintain SIG Release project boards
         members:
-        - alejandrox1 # Technical Lead
         - hasheddan # Technical Lead
         - jeremyrickard # Technical Lead
         - justaugustus # Chair

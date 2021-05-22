@@ -39,8 +39,8 @@ teams:
   metrics-server-admins:
     description: Admin access to the metrics-server repo
     members:
-    - brancz
-    - piosz
+    - s-urbaniak
+    - serathius
     privacy: closed
   metrics-server-maintainers:
     description: Write access to the metrics-server repo

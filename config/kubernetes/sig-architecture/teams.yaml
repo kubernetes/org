@@ -38,17 +38,17 @@ teams:
     maintainers:
     - mrbobbytables # subproject owner
     members:
-    - annajung # 1.21 Enhancements Lead
-    - arunmk # 1.21 Enhancements Shadow
-    - jameslaverack # 1.21 Enhancements Shadow
+    - gracenng # 1.22 Enhancements Shadow
+    - jameslaverack # 1.22 Enhancements Lead
     - jeremyrickard # subproject owner
     - johnbelamaric # subproject owner
-    - jrsapi # 1.21 Enhancements Shadow
+    - jrsapi # 1.22 Enhancements Shadow
     - justaugustus # subproject owner
-    - kendallroden # 1.21 Enhancements Shadow
     - kikisdeliveryservice # subproject owner
     - LappleApple # subproject owner
-    - palnabarun
+    - reylejano # 1.22 Enhancements Shadow
+    - salaxander # 1.22 Enhancements Shadow
+    - supriya-premkumar # 1.22 Enhancements Shadow
     privacy: closed
     teams:
       enhancements-admins:

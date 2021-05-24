@@ -46,7 +46,7 @@ teams:
     - jrsapi # 1.21 Enhancements Shadow
     - justaugustus # subproject owner
     - kendallroden # 1.21 Enhancements Shadow
-    - kikisdeliveryservice # 1.20 Enhancements Lead
+    - kikisdeliveryservice # subproject owner
     - LappleApple # subproject owner
     - palnabarun
     privacy: closed
@@ -59,6 +59,7 @@ teams:
         - jeremyrickard # subproject owner
         - johnbelamaric # subproject owner
         - justaugustus # subproject owner
+        - kikisdeliveryservice # subproject owner
         - LappleApple # subproject owner
         privacy: closed
       enhancements-maintainers:
@@ -69,6 +70,7 @@ teams:
         - jeremyrickard # subproject owner
         - johnbelamaric # subproject owner
         - justaugustus # subproject owner
+        - kikisdeliveryservice # subproject owner
         - LappleApple # subproject owner
         previously:
         - features-maintainers

@@ -1,0 +1,15 @@
+teams:
+  wg-structured-logging-leads:
+    description: ""
+    members:
+      - serathius
+      - shubheksha
+    privacy: closed
+  wg-structured-logging-members:
+    description: ""
+    members: []
+    privacy: closed
+  wg-structured-logging-reviews:
+    description: ""
+    members: []
+    privacy: closed

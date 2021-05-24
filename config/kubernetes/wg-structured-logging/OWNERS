@@ -1,0 +1,6 @@
+# See the OWNERS docs at https://go.k8s.io/owners
+
+reviewers:
+  - wg-structured-logging-leads
+approvers:
+  - wg-structured-logging-leads

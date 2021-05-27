@@ -1,6 +1,31 @@
 teams:
+  k8s.io-admins:
+    description: Admin access to kubernetes/k8s.io
+    maintainers:
+    - cblecker
+    - nikhita
+    - spiffxp
+    members:
+    - ameukam
+    - dims
+    - thockin
+    privacy: closed
+  # TODO: consider getting rid of this in favor of k8s.io-admins if there's
+  # no meaningful distinction between "has write access", "has admin access",
+  # and "has root approval"
+  k8s.io-maintainers:
+    description: Write access to kubernetes/k8s.io
+    maintainers:
+    - cblecker
+    - nikhita
+    - spiffxp
+    members:
+    - ameukam
+    - dims
+    - thockin
+    privacy: closed
   wg-k8s-infra:
-    description:
+    description: wg-k8s-infra members
     maintainers:
     - cblecker
     - idvoretskyi
@@ -34,25 +59,43 @@ teams:
         - ameukam
         - dims
         privacy: closed
-  k8s.io-admins:
-    description: Admin access to the k8s.io repo
-    maintainers:
-    - cblecker
-    - nikhita
-    - spiffxp
-    members:
-    - ameukam
-    - dims
-    - thockin
-    privacy: closed
-  k8s.io-maintainers:
-    description: Write access to the k8s.io repo
-    maintainers:
-    - cblecker
-    - nikhita
-    - spiffxp
-    members:
-    - ameukam
-    - dims
-    - thockin
-    privacy: closed
+      k8s-infra-aws-admins:
+        description: granted access to the k8s-infra AWS account
+        maintainers:
+        - idvoretskyi
+        members:
+        - justinsb
+        - thockin
+        privacy: closed
+      k8s-infra-gcp-auditors:
+        description: granted read-only access to the k8s-infra GCP org (excluding secrets)
+        maintainers:
+        - cblecker
+        - idvoretskyi
+        - spiffxp
+        members:
+        - BobyMCbobs
+        - hh
+        - justinsb
+        - puerco
+        - Riaankl
+        - thockin
+        privacy: closed
+      k8s-infra-gcp-org-admins:
+        description: granted owner access to the k8s-infra GCP org
+        maintainers:
+        - spiffxp
+        members:
+        - ameukam
+        - dims
+        - thockin
+        privacy: closed
+      k8s-infra-group-admins:
+        description: granted run access to kubernetes.io groups reconciler
+        maintainers:
+        - cblecker
+        - spiffxp
+        members:
+        - dims
+        - thockin
+        privacy: closed

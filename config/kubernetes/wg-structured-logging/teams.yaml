@@ -7,9 +7,11 @@ teams:
     privacy: closed
   wg-structured-logging-members:
     description: ""
-    members: []
+    members: 
+      - andrewpollack
     privacy: closed
   wg-structured-logging-reviews:
     description: ""
-    members: []
+    members:
+      - andrewpollack
     privacy: closed

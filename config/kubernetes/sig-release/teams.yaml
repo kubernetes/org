@@ -107,7 +107,7 @@ teams:
     - notchairmk # 1.22 Bug Triage Shadow
     - onlydole # Release Manager Associate / 1.21 Emeritus Advisor
     - oxddr # Scalability
-    - palnabarun # 1.21 RT Lead
+    - palnabarun # Release Manager Associate
     - parispittman # ContribEx
     - Pensu # 1.22 Release Comms Lead
     - phillels # ContribEx
@@ -138,11 +138,13 @@ teams:
     - supriya-premkumar # 1.22 Enhancements Shadow
     - tallclair # Auth
     - tashimi # Usability
+    - thejoycekung # Release Manager Associate
     - thockin # Network
     - timothysc # Cluster Lifecycle / Testing
     - verolop # Release Manager Associate
     - vllry # Usability
     - voigt # 1.22 Bug Triage Shadow
+    - wilsonehusin # Release Manager Associate
     - wojtek-t # Scalability
     - xing-yang # Storage
     - xmudrii # Release Manager
@@ -213,10 +215,13 @@ teams:
         - justaugustus # subproject owner / Release Manager
         - mkorbi # Release Manager Associate
         - onlydole # Release Manager Associate
+        - palnabarun # Release Manager Associate
         - puerco # Release Manager
         - saschagrunert # subproject owner / Release Manager
         - sethmccombs # Release Manager Associate
+        - thejoycekung # Release Manager Associate
         - Verolop # Release Manager Associate
+        - wilsonehusin # Release Manager Associate
         - xmudrii # Release Manager
         privacy: closed
         teams:

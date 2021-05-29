@@ -64,19 +64,18 @@ teams:
     members:
     - ameukam # Release Manager Associate
     - cpanato # Release Manager
-    - feiskyer # Release Manager
     - hasheddan # subproject owner / Release Manager
-    - idealhack # Release Manager
     - jimangel # Release Manager Associate
     - justaugustus # subproject owner / Release Manager
-    - markyjackson-taulia # Release Manager Associate
     - mkorbi # Release Manager Associate
     - onlydole # Release Manager Associate
+    - palnabarun # Release Manager Associate
     - puerco # Release Manager
     - saschagrunert # subproject owner / Release Manager
     - sethmccombs # Release Manager Associate
-    - tpepper # subproject owner
+    - thejoycekung # Release Manager Associate
     - Verolop # Release Manager Associate
+    - wilsonehusin # Release Manager Associate
     - xmudrii # Release Manager
     privacy: closed
   release-notes-admins:

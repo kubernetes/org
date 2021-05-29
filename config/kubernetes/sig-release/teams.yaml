@@ -63,7 +63,6 @@ teams:
     - hasheddan # Release
     - hpandeycodeit # Usability
     - Huang-Wei # Scheduling
-    - idealhack # Release Manager
     - jameslaverack # 1.22 Enhancements Lead
     - janetkuo # Apps
     - jayunit100 # Windows
@@ -93,7 +92,6 @@ teams:
     - logicalhan # Instrumentation
     - luxas # Cluster Lifecycle
     - maciaszczykm # UI
-    - markyjackson-taulia # Release Manager Associate
     - marosset # Windows
     - mattfarina # Apps / Architecture
     - mborsz # Scalability
@@ -109,7 +107,7 @@ teams:
     - notchairmk # 1.22 Bug Triage Shadow
     - onlydole # Release Manager Associate / 1.21 Emeritus Advisor
     - oxddr # Scalability
-    - palnabarun # 1.21 RT Lead
+    - palnabarun # Release Manager Associate
     - parispittman # ContribEx
     - Pensu # 1.22 Release Comms Lead
     - phillels # ContribEx
@@ -140,12 +138,13 @@ teams:
     - supriya-premkumar # 1.22 Enhancements Shadow
     - tallclair # Auth
     - tashimi # Usability
+    - thejoycekung # Release Manager Associate
     - thockin # Network
     - timothysc # Cluster Lifecycle / Testing
-    - tpepper # Release
     - verolop # Release Manager Associate
     - vllry # Usability
     - voigt # 1.22 Bug Triage Shadow
+    - wilsonehusin # Release Manager Associate
     - wojtek-t # Scalability
     - xing-yang # Storage
     - xmudrii # Release Manager
@@ -211,19 +210,18 @@ teams:
         members:
         - ameukam # Release Manager Associate
         - cpanato # Release Manager
-        - feiskyer # Release Manager
         - hasheddan # subproject owner / Release Manager
-        - idealhack # Release Manager
         - jimangel # Release Manager Associate
         - justaugustus # subproject owner / Release Manager
-        - markyjackson-taulia # Release Manager Associate
         - mkorbi # Release Manager Associate
         - onlydole # Release Manager Associate
+        - palnabarun # Release Manager Associate
         - puerco # Release Manager
         - saschagrunert # subproject owner / Release Manager
         - sethmccombs # Release Manager Associate
-        - tpepper # subproject owner
+        - thejoycekung # Release Manager Associate
         - Verolop # Release Manager Associate
+        - wilsonehusin # Release Manager Associate
         - xmudrii # Release Manager
         privacy: closed
         teams:
@@ -234,9 +232,7 @@ teams:
               who are not actively doing this job.
             members:
             - cpanato
-            - feiskyer
             - hasheddan
-            - idealhack
             - justaugustus
             - k8s-release-robot
             - puerco
@@ -295,7 +291,6 @@ teams:
         - soniasingla # 1.22 CI Signal Shadow
         - supriya-premkumar # 1.22 Enhancements Shadow
         - thejoycekung # 1.22 Branch Manager Shadow
-        - tpepper # subproject owner
         - verolop # 1.22 Branch Manager Shadow
         - voigt # 1.22 Bug Triage Shadow
         - xmudrii # Release Manager

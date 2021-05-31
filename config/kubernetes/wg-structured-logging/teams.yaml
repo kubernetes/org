@@ -14,6 +14,7 @@ teams:
       - serathius
       - shubheksha
       - yangjunmyfm192085
+      - yuzhiquan
     privacy: closed
   wg-structured-logging-reviews:
     description: ""
@@ -22,4 +23,5 @@ teams:
       - serathius
       - shubheksha
       - yangjunmyfm192085
+      - yuzhiquan
     privacy: closed

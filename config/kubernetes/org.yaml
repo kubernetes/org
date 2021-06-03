@@ -1536,12 +1536,14 @@ teams:
     members:
     - aledbf
     - bowei
+    - rikatz
     privacy: closed
   ingress-nginx-maintainers:
     description: Write access to the ingress-nginx repo
     members:
     - aledbf
     - justinsb
+    - rikatz
     privacy: closed
   intel:
     description: ""

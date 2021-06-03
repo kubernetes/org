@@ -35,6 +35,15 @@ teams:
     privacy: closed
     previously:
     - sig-windows-examples-maintainers
+  sig-windows-dev-tools-admins:
+    description: Admin access to sig-windows-dev-tools repo
+    members:
+    - ddebroy
+    - jayunit100
+    - jsturtevant
+    - marosset
+    - sladyn98
+    privacy: closed
   sig-windows-tools-admins:
     description: Admin access to sig-windows-tools repo
     members:

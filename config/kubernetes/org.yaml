@@ -1301,13 +1301,11 @@ teams:
     description: Admin access to cloud-provider-vsphere repo
     members:
     - andrewsykim
-    - BaluDontu
-    - divyenpatel
-    - dougm
     - dvonthenen
     - frapposelli
-    - imkin
-    - SandeepPissay
+    - lubronzhan
+    - maplain
+    - nicolehanjing
     privacy: closed
   cloud-provider-vsphere-maintainers:
     description: Write access to the cloud-provider-vsphere repo

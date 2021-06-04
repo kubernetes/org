@@ -78,7 +78,7 @@ teams:
     - jrsapi # 1.22 Enhancements Shadow
     - jsafrane # Storage
     - jsturtevant # Windows
-    - justaugustus # Azure / PM / Release
+    - justaugustus # Release
     - justinsb # AWS / Cluster Lifecycle
     - k8s-release-robot # Release
     - khenidak # Azure
@@ -161,6 +161,26 @@ teams:
     - mfojtik
     - sttts
     privacy: closed
+  repo-infra-admins:
+    description: Admin access to the repo-infra repo
+    maintainers:
+    - fejta
+    members:
+    - BenTheElder
+    - clarketm
+    - justaugustus
+    - mikedanese
+    privacy: closed
+  repo-infra-maintainers:
+    description: Write access to the repo-infra repo
+    maintainers:
+    - fejta
+    members:
+    - BenTheElder
+    - clarketm
+    - justaugustus
+    - mikedanese
+    privacy: closed
   sig-release:
     description: SIG Release members. Explicitly lists SIG Release Chairs,
       Technical Leads, Program Managers, and any active SIG contributors that
@@ -170,7 +190,6 @@ teams:
     - nikhita
     - spiffxp
     members:
-    - alejandrox1 # Technical Lead
     - alenkacz
     - BenTheElder
     - castrojo
@@ -195,15 +214,6 @@ teams:
     - tpepper
     privacy: closed
     teams:
-      licensing:
-        description: Members of the Licensing subproject.
-        maintainers:
-        - nikhita # subproject owner
-        members:
-        - dims # subproject owner
-        - justaugustus # subproject owner
-        - swinslow # subproject owner
-        privacy: closed
       release-engineering:
         description: Members of the Release Engineering subproject, including
           Release Managers, Release Manager Associates, and Build Admins.
@@ -244,7 +254,6 @@ teams:
       release-team:
         description: Members of the current Release Team and subproject owners.
         members:
-        - alejandrox1 # subproject owner
         - annajung # 1.22 RT Lead Shadow
         - ashnehete # 1.22 Release Docs Shadow
         - carlisia # 1.22 Release Docs Shadow
@@ -323,7 +332,6 @@ teams:
       sig-release-admins:
         description: Admins for SIG Release repositories
         members:
-        - alejandrox1 # Technical Lead
         - hasheddan # Technical Lead
         - jeremyrickard # Technical Lead
         - justaugustus # Chair
@@ -333,7 +341,6 @@ teams:
         description: |
           Chairs, Technical Leads, and Program Managers for SIG Release
         members:
-        - alejandrox1 # Technical Lead
         - hasheddan # Technical Lead
         - jeremyrickard # Technical Lead
         - justaugustus # Chair
@@ -344,7 +351,6 @@ teams:
         description: |
           Grants access to maintain SIG Release project boards
         members:
-        - alejandrox1 # Technical Lead
         - hasheddan # Technical Lead
         - jeremyrickard # Technical Lead
         - justaugustus # Chair

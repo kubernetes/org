@@ -48,6 +48,7 @@ teams:
     members:
     - d-nishi
     - justinsb
+    - kbasv
     - leakingtapan
     privacy: closed
   aws-efs-csi-driver-maintainers:
@@ -56,6 +57,7 @@ teams:
     - d-nishi
     - jsafrane
     - justinsb
+    - kbasv
     - leakingtapan
     - wongma7
     privacy: closed

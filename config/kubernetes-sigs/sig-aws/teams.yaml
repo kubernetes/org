@@ -31,9 +31,9 @@ teams:
   aws-fsx-csi-driver-admins:
     description: admin access to aws-fsx-csi-driver
     members:
-    - d-nishi
     - justinsb
     - leakingtapan
+    - wongma7
     privacy: closed
   aws-fsx-csi-driver-maintainers:
     description: write access to aws-fsx-csi-driver
@@ -47,9 +47,9 @@ teams:
   aws-efs-csi-driver-admins:
     description: admin access to aws-efs-csi-driver
     members:
-    - d-nishi
     - justinsb
     - leakingtapan
+    - wongma7
     privacy: closed
   aws-efs-csi-driver-maintainers:
     description: write access to aws-efs-csi-driver

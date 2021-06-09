@@ -94,26 +94,6 @@ teams:
     - wlan0
     - xing-yang
     privacy: closed
-  cosi-driver-minio-admins:
-    description: Admin access to cosi-driver-minio
-    members:
-    - jsafrane
-    - msau42
-    - saad-ali
-    - xing-yang
-    privacy: closed
-  cosi-driver-minio-maintainers:
-    description: Write access to cosi-driver-minio
-    members:
-    - brahmaroutu
-    - jsafrane
-    - msau42
-    - saad-ali
-    - wlan0
-    - xing-yang
-    privacy: closed
-    previously:
-    - cosi-driver-minioc-maintainers
   cosi-driver-sample-admins:
     description: Admin access to cosi-driver-sample
     members:

@@ -91,18 +91,16 @@ teams:
   kustomize-admins:
     description: ""
     members:
-    - droot
-    - Liujingfang1
+    - knverey
     - monopole
     - pwittrock
     privacy: closed
   kustomize-maintainers:
     description: ""
     members:
-    - haiyanmeng
+    - justinsb
     - mortent
     - natasha41575
     - phanimarupaka
-    - pwittrock
     - Shell32-Natsu
     privacy: closed

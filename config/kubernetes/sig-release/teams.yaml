@@ -192,6 +192,7 @@ teams:
     - alenkacz
     - BenTheElder
     - castrojo
+    - cpanato # Technical Lead
     - dims
     - hasheddan # Technical Lead
     - ixdy
@@ -206,6 +207,7 @@ teams:
     - nikopen
     - onyiny-ang
     - palnabarun
+    - puerco # Technical Lead
     - rawkode
     - saschagrunert # Chair
     - savitharaghunathan
@@ -330,28 +332,34 @@ teams:
       sig-release-admins:
         description: Admins for SIG Release repositories
         members:
+        - cpanato # Technical Lead
         - hasheddan # Technical Lead
         - jeremyrickard # Technical Lead
         - justaugustus # Chair
+        - puerco # Technical Lead
         - saschagrunert # Chair
         privacy: closed
       sig-release-leads:
         description: |
           Chairs, Technical Leads, and Program Managers for SIG Release
         members:
+        - cpanato # Technical Lead
         - hasheddan # Technical Lead
         - jeremyrickard # Technical Lead
         - justaugustus # Chair
         - LappleApple # Program Manager
+        - puerco # Technical Lead
         - saschagrunert # Chair
         privacy: closed
       sig-release-pms:
         description: |
           Grants access to maintain SIG Release project boards
         members:
+        - cpanato # Technical Lead
         - hasheddan # Technical Lead
         - jeremyrickard # Technical Lead
         - justaugustus # Chair
         - LappleApple # Program Manager
+        - puerco # Technical Lead
         - saschagrunert # Chair
         privacy: closed

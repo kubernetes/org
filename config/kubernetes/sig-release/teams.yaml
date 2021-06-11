@@ -73,7 +73,7 @@ teams:
     - jeremyrickard # Release
     - jgavinray # 1.22 Bug Triage Shadow
     - jimangel # Docs / Release Manager Associate
-    - jlbutler # 1.22 Release Comms Shadow
+    - jlbutler # 1.22 Release Comms Lead
     - johnbelamaric # Architecture
     - jrsapi # 1.22 Enhancements Shadow
     - jsafrane # Storage
@@ -109,7 +109,6 @@ teams:
     - oxddr # Scalability
     - palnabarun # Release Manager Associate
     - parispittman # ContribEx
-    - Pensu # 1.22 Release Comms Lead
     - phillels # ContribEx
     - PI-Victor # 1.22 Docs Lead
     - pmmalinov01 # 1.22 Release Notes Lead
@@ -270,7 +269,7 @@ teams:
         - jameslaverack # 1.22 Enhancements Lead
         - jeremyrickard # Tech Lead
         - jgavinray # 1.22 Bug Triage Shadow
-        - jlbutler # 1.22 Release Comms Shadow
+        - jlbutler # 1.22 Release Comms Lead
         - jrsapi # 1.22 Enhancements Shadow
         - justaugustus # subproject owner
         - kikisdeliveryservice # 1.22 RT Lead Shadow
@@ -282,7 +281,6 @@ teams:
         - notchairmk # 1.22 Bug Triage Shadow
         - onlydole # subproject owner
         - palnabarun # subproject owner
-        - Pensu # 1.22 Release Comms Lead
         - PI-Victor # 1.22 Docs Lead
         - pmmalinov01 # 1.22 Release Notes Lead
         - puerco # Release Manager

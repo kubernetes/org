@@ -1388,7 +1388,6 @@ teams:
     description: Admins of the dashboard repo
     members:
     - floreks
-    - jeefy
     - maciaszczykm
     privacy: closed
   dashboard-maintainers:

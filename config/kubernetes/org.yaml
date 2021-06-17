@@ -1389,7 +1389,6 @@ teams:
     members:
     - floreks
     - maciaszczykm
-    - shu-mutou
     privacy: closed
   dashboard-maintainers:
     description: Write access to the dashboard repo

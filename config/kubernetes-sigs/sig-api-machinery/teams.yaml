@@ -74,6 +74,7 @@ teams:
   kubebuilder-admins:
     description: admin access to kubebuilder
     members:
+    - camilamacedo86
     - DirectXMan12
     - droot
     - grodrigues3

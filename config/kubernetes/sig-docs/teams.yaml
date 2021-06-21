@@ -16,17 +16,19 @@ teams:
   sig-docs-en-owners:
     description: Approvers for English content
     members:
+    - annajung
     - bradtopol
     - celestehorgan
-    - gochist
     - irvifa
     - jimangel
     - kbarnard10
     - kbhawkey
     - onlydole
+    - pi-victor
+    - reylejano
+    - savitharaghunathan
     - sftim
     - tengqm
-    - zparnold
     privacy: closed
   sig-docs-en-reviews:
     description: PR reviews for English content
@@ -34,17 +36,13 @@ teams:
     - bradtopol
     - celestehorgan
     - daminisatya
-    - gochist
-    - irvifa
     - jimangel
     - kbarnard10
     - kbhawkey
     - onlydole
-    - Rajakavitha1
+    - rajeshdeshpande02
     - sftim
-    - stewart-yu
     - tengqm
-    - zparnold
     privacy: closed
   sig-docs-es-owners:
     description: Approvers for Spanish content

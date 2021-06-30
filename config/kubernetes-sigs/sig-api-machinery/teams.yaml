@@ -198,8 +198,10 @@ teams:
     description: write access to structured-merge-diff
     members:
     - apelisse
-    - jennybuckley
+    - jpbetz
     - lavalamp
+    # emeritus
+    # - jennybuckley
     privacy: closed
   yaml-admins:
     description: ""

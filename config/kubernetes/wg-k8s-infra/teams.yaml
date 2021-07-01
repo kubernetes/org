@@ -8,6 +8,7 @@ teams:
     members:
     - ameukam
     - dims
+    - k8s-infra-ci-robot
     - thockin
     privacy: closed
   # TODO: consider getting rid of this in favor of k8s.io-admins if there's

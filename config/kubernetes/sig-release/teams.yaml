@@ -167,8 +167,11 @@ teams:
     members:
     - BenTheElder
     - clarketm
+    - cpanato
     - justaugustus
     - mikedanese
+    - puerco
+    - saschagrunert
     privacy: closed
   repo-infra-maintainers:
     description: Write access to the repo-infra repo
@@ -177,8 +180,12 @@ teams:
     members:
     - BenTheElder
     - clarketm
+    - cpanato
     - justaugustus
     - mikedanese
+    - puerco
+    - saschagrunert
+    - xmudrii
     privacy: closed
   sig-release:
     description: SIG Release members. Explicitly lists SIG Release Chairs,

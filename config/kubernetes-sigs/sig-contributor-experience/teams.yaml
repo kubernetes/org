@@ -31,6 +31,18 @@ teams:
     members:
     - castrojo
     privacy: closed
+  lwkd-admins:
+    description: admin access to the lwkd repo
+    members:
+    - coderanger
+    - jberkus
+    privacy: closed
+  lwkd-maintainers:
+    description: write access to the lwkd repo
+    members:
+    - coderanger
+    - jberkus
+    privacy: closed
   slack-infra-admins:
     description: admin access to slack-infra
     members:

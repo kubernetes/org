@@ -257,6 +257,7 @@ teams:
     description: PR reviews for Chinese content
     members:
     - chenrui333
+    - chenxuc
     - idealhack
     - pigletfly
     - SataQiu

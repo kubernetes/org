@@ -110,11 +110,11 @@ teams:
     description: Write access to the gateway-api repo
     members:
     - bowei
-    - danehans
     - hbagdi
     - jpeach
     - robscott
     - thockin
+    - youngnick
     privacy: closed
     previously:
     - service-apis-maintainers

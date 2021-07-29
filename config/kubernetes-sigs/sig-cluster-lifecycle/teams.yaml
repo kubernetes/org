@@ -1,14 +1,4 @@
 teams:
-  bootkube-admins:
-    description: admin access to bootkube repo
-    members:
-    - aaronlevy
-    privacy: closed
-  bootkube-maintainers:
-    description: write access to bootkube repo
-    members:
-    - aaronlevy
-    privacy: closed
   cluster-addons-admins:
     description: admin access to cluster-addons
     members:

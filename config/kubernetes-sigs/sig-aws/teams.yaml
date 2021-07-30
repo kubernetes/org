@@ -48,6 +48,7 @@ teams:
     description: admin access to aws-efs-csi-driver
     members:
     - justinsb
+    - kbasv
     - leakingtapan
     - wongma7
     privacy: closed
@@ -57,6 +58,7 @@ teams:
     - d-nishi
     - jsafrane
     - justinsb
+    - kbasv
     - leakingtapan
     - wongma7
     privacy: closed

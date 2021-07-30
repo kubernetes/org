@@ -1668,6 +1668,7 @@ teams:
     maintainers:
     - cblecker
     - fejta
+    - spiffxp
     - thelinuxfoundation
     members:
     - apelisse
@@ -1676,6 +1677,7 @@ teams:
     - brendandburns
     - bsalamat
     - caesarxuchao
+    - cheftako
     - childsb
     - cjcullen
     - davidopp

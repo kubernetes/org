@@ -38,25 +38,6 @@ teams:
     - timothysc
     - vincepri
     privacy: closed
-  cluster-api-bootstrap-provider-kubeadm-admins:
-    descrption: admin acccess to cluster-api-bootstrap-provider-kubeadm
-    members:
-    - chuckha
-    - justinsb
-    - luxas
-    - timothysc
-    - vincepri
-    privacy: closed
-  cluster-api-bootstrap-provider-kubeadm-maintainers:
-    descrption: write acccess to cluster-api-bootstrap-provider-kubeadm
-    members:
-    - chuckha
-    - detiber
-    - justinsb
-    - luxas
-    - SataQiu
-    - timothysc
-    privacy: closed
   cluster-api-provider-aws-admins:
     description: admin access to cluster-api-provider-aws
     members:

@@ -1,0 +1,33 @@
+name: Repository Archival
+description: Retire and archive a Kubernetes repository
+labels: [ "area/github-repo" ]
+title: "REQUEST: Archive repo <org or repo>"
+body:
+- id: repo
+  type: input
+  attributes:
+    label: Repository to archive
+    placeholder: e.g. kubernetes/old-project
+  validations:
+    required: true
+- id: owner
+  type: input
+  attributes:
+    label: Repository and/or sig subproject owners that are approving this archival
+    placeholder: e.g. @example_user
+  validations:
+    required: true
+- id: time
+  type: input
+  attributes:
+    label: When should this be done
+    placeholder: e.g. anytime
+  validations:
+    required: true
+- id: context
+  type: textarea
+  attributes:
+    label: Additional context for request
+    placeholder: Any additional information or context to describe the request.
+  validations:
+    required: false

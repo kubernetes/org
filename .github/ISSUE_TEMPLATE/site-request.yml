@@ -1,0 +1,27 @@
+name: Netlify site request
+description: Requests for sub-project websites
+labels: [ "area/github-integration" ]
+title: "REQUEST: Netlify site for <repo>"
+body:
+- id: repo
+  type: input
+  attributes:
+    label: Repository
+    placeholder: e.g. kubernetes/old-project
+  validations:
+    required: true
+- id: domain
+  type: input
+  attributes:
+    label: Project domain
+    description: "**NOTE:** Must match domain request. See the [subproject site request docs](http://git.k8s.io/community/github-management/subproject-site-requests.md#subproject-domain-request) for more information."
+    placeholder: e.g. foo.sigs.k8s.io
+  validations:
+    required: true
+- id: context
+  type: textarea
+  attributes:
+    label: Additional context for request
+    placeholder: Any additional information or context to describe the request.
+  validations:
+    required: false

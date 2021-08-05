@@ -497,6 +497,7 @@ teams:
   node-driver-registrar-maintainers:
     description: Write access to node-driver-registrar repo
     members:
+    - chrishenzie
     - Jiawei0227
     - jsafrane
     - lpabon

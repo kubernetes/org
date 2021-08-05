@@ -11,3 +11,13 @@ teams:
     - jichenjc
     - xunpan
     privacy: closed
+  ibm-vpc-block-csi-driver-admins:
+    description: Admin access to the ibm-vpc-block-csi-driver repo
+    members:
+    - arahamad
+    privacy: closed
+  ibm-vpc-block-csi-driver-maintainers:
+    description: Write access to the ibm-vpc-block-csi-driver repo
+    members:
+    - arahamad
+    privacy: closed

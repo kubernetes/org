@@ -109,7 +109,6 @@ teams:
     - palnabarun # Release Manager Associate
     - parispittman # ContribEx
     - phillels # ContribEx
-    - PI-Victor # 1.22 Docs Lead
     - pmmalinov01 # 1.22 Release Notes Lead
     - pmorie # Multicluster
     - prydonius # Apps
@@ -263,9 +262,6 @@ teams:
         description: Members of the current Release Team and subproject owners.
         members:
         - annajung # 1.22 RT Lead Shadow
-        - ashnehete # 1.22 Release Docs Shadow
-        - carlisia # 1.22 Release Docs Shadow
-        - chrisnegus # 1.22 Release Docs Shadow
         - cici37 # 1.22 Release Notes Shadow
         - cpanato # Release Manager
         - Damans227 # 1.22 Release Notes Shadow
@@ -290,13 +286,11 @@ teams:
         - notchairmk # 1.22 Bug Triage Shadow
         - onlydole # subproject owner
         - palnabarun # subproject owner
-        - PI-Victor # 1.22 Docs Lead
         - pmmalinov01 # 1.22 Release Notes Lead
         - puerco # Release Manager
         - rajula96reddy # 1.22 Release Comms Shadow
         - ramrodo # 1.22 CI Signal Shadow
         - reylejano # 1.22 Enhancements Shadow
-        - ritpanjw # 1.22 Release Docs Shadow
         - salaxander # 1.22 Enhancements Shadow
         - saschagrunert # subproject owner
         - savitharaghunathan # 1.22 RT Lead

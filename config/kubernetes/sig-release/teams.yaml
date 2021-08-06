@@ -37,6 +37,7 @@ teams:
     - brancz # Instrumentation
     - cantbewong # VMware
     - caseydavenport # Network
+    - CIPHERTron # 1.23 Docs Shadow
     - cheftako # Cloud Provider
     - chrigl # OpenStack
     - cpanato # Release Manager

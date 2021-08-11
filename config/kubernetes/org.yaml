@@ -1328,6 +1328,7 @@ teams:
     - cici37
     - jpbetz
     - mikedanese
+    - sdmodi
     privacy: closed
   cloud-provider-vsphere-admins:
     description: Admin access to cloud-provider-vsphere repo

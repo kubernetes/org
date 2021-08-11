@@ -231,6 +231,7 @@ teams:
   csi-lib-utils-maintainers:
     description: Write access to csi-lib-utils repo
     members:
+    - chrishenzie
     - Jiawei0227
     - jsafrane
     - msau42
@@ -286,6 +287,7 @@ teams:
   csi-release-tools-maintainers:
     description: Write access to csi-release-tools repo
     members:
+    - chrishenzie
     - jsafrane
     - msau42
     - saad-ali
@@ -305,6 +307,7 @@ teams:
   csi-test-maintainers:
     description: Write access to csi-test repo
     members:
+    - chrishenzie
     - jsafrane
     - msau42
     - pohly
@@ -372,6 +375,7 @@ teams:
   external-attacher-maintainers:
     description: Write access to external-attacher repo
     members:
+    - chrishenzie
     - Jiawei0227
     - jsafrane
     - msau42
@@ -389,6 +393,7 @@ teams:
   external-health-monitor-maintainers:
     description: Write access to external-health-monitor repo
     members:
+    - chrishenzie
     - jsafrane
     - msau42
     - NickrenREN
@@ -426,6 +431,7 @@ teams:
   external-resizer-maintainers:
     description: Write access to external-resizer repo
     members:
+    - chrishenzie
     - gnufied
     - Jiawei0227
     - jsafrane
@@ -445,6 +451,7 @@ teams:
   external-snapshotter-maintainers:
     description: Write access to external-snapshotter repo
     members:
+    - chrishenzie
     - Jiawei0227
     - jsafrane
     - msau42
@@ -478,6 +485,7 @@ teams:
   livenessprobe-maintainers:
     description: Write access to livenessprobe repo
     members:
+    - chrishenzie
     - Jiawei0227
     - jsafrane
     - msau42
@@ -497,6 +505,7 @@ teams:
   node-driver-registrar-maintainers:
     description: Write access to node-driver-registrar repo
     members:
+    - chrishenzie
     - Jiawei0227
     - jsafrane
     - lpabon

@@ -19,9 +19,7 @@ teams:
     - annajung
     - bradtopol
     - celestehorgan
-    - irvifa
     - jimangel
-    - kbarnard10
     - kbhawkey
     - onlydole
     - pi-victor
@@ -37,7 +35,6 @@ teams:
     - celestehorgan
     - daminisatya
     - jimangel
-    - kbarnard10
     - kbhawkey
     - onlydole
     - rajeshdeshpande02
@@ -104,7 +101,6 @@ teams:
     description: Approvers for Indonesian content
     members:
     - girikuncoro
-    - irvifa
     privacy: closed
   sig-docs-id-reviews:
     description: PR reviews for Indonesian content
@@ -112,7 +108,6 @@ teams:
     - danninov
     - girikuncoro
     - habibrosyad
-    - irvifa
     - phanama
     - wahyuoi
     privacy: closed
@@ -171,9 +166,7 @@ teams:
   sig-docs-leads:
     description: Chairs and tech leads for SIG Docs
     members:
-    - irvifa
     - jimangel
-    - kbarnard10
     - kbhawkey
     - onlydole
     - sftim
@@ -212,9 +205,7 @@ teams:
     - bradtopol
     - cody-clark
     - gochist
-    - irvifa
     - jimangel
-    - kbarnard10
     - kbhawkey
     - Rajakavitha1
     - stewart-yu
@@ -302,9 +293,7 @@ teams:
     previously:
     - kubernetes-website-admins
     members:
-    - irvifa
     - jimangel
-    - kbarnard10
     privacy: closed
   website-maintainers:
     description: Write access to the website repo
@@ -322,12 +311,10 @@ teams:
     - huynguyennovem # L10n: Vietnamese
     - ianychoi # L10n: Korean
     - inductor # L10n: Japanese
-    - irvifa # L10n: Indonesian
     - jailton # L10n: Portuguese
     - jcjesus # L10n: Portuguese
     - jhonmike # L10n: Portuguese
     - jimangel # L10n: English
-    - kbarnard10 # L10n: English
     - mfilocha # L10n: Polish
     - mittalyashu # L10n: Hindi
     - msheldyakov # L10n: Russian
@@ -369,12 +356,10 @@ teams:
     - gochist
     - huynguyennovem
     - inductor
-    - irvifa
     - jcjesus
     - jimangel
     - juandiegopalomino
     - jygastaud
-    - kbarnard10
     - lledru
     - msheldyakov
     - nasa9084

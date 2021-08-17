@@ -2,14 +2,11 @@ teams:
   reference-docs-admins:
     description: admin access to the reference-docs repo
     members:
-    - irvifa
     - jimangel
-    - kbarnard10
     privacy: closed
   reference-docs-maintainers:
     description: write access to the reference-docs repo
     members:
-    - irvifa
     - kbhawkey
     - onlydole
     - sftim

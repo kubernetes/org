@@ -125,6 +125,19 @@ teams:
     - mcluseau
     - thockin
     privacy: closed
+  kube-scheduler-simulator-admins:
+    description: Admin access to the kube-scheduler-simulator
+    members:
+    - adtac
+    - alculquicondor
+    - Huang-Wei
+    privacy: closed
+  kube-scheduler-simulator-maintainers:
+    description: Write access to the kube-scheduler-simulator
+    members:
+    # - sanposhiho # pending org membership
+    - Huang-Wei # team needs a member, can remove once sanposhito added
+    privacy: closed
   network-policy-api-admins:
     description: Admin access to the network-policy-api repo
     members:

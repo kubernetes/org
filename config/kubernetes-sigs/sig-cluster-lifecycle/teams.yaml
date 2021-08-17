@@ -66,6 +66,7 @@ teams:
   cluster-api-provider-azure-admins:
     description: ""
     members:
+    - alexeldeib
     - CecileRobertMichon
     - devigned
     - nader-ziada
@@ -73,6 +74,7 @@ teams:
   cluster-api-provider-azure-maintainers:
     description: ""
     members:
+    - alexeldeib
     - CecileRobertMichon
     - devigned
     - nader-ziada
@@ -85,6 +87,7 @@ teams:
     - cpanato
     - devigned
     - juan-lee
+    - mboersma
     - nader-ziada
     - shysank
     privacy: closed

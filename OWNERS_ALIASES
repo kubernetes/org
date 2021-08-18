@@ -6,7 +6,6 @@ aliases:
   sig-apps-leads:
     - janetkuo
     - kow3ns
-    - mattfarina
     - soltysh
   sig-architecture-leads:
     - derekwaynecarr
@@ -17,7 +16,7 @@ aliases:
     - enj
     - liggitt
     - mikedanese
-    - tallclair
+    - ritazh
   sig-autoscaling-leads:
     - gjtempleton
     - mwielgus
@@ -40,9 +39,7 @@ aliases:
     - mrbobbytables
     - nikhita
   sig-docs-leads:
-    - irvifa
     - jimangel
-    - kbarnard10
     - kbhawkey
     - onlydole
     - sftim
@@ -96,6 +93,7 @@ aliases:
     - shu-mutou
   sig-usability-leads:
     - hpandeycodeit
+    - morengab
     - tashimi
   sig-windows-leads:
     - ddebroy
@@ -127,8 +125,8 @@ aliases:
     - jdumars
     - justaugustus
   wg-policy-leads:
-    - ericavonb
-    - hannibalhuang
+    - JimBugwadia
+    - rficcaglia
   wg-reliability-leads:
     - deads2k
     - stevekuznetsov
@@ -151,12 +149,13 @@ aliases:
     - karenhchu
     - tashimi
     - tpepper
-  committee-product-security:
+  committee-security-response:
     - cjcullen
     - joelsmith
     - lukehinds
     - micahhausler
     - swamymsft
+    - tabbysable
     - tallclair
   committee-steering:
     - cblecker

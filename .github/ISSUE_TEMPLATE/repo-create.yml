@@ -1,0 +1,108 @@
+name: Repository creation/migration
+description: Create or migrate a repository into a Kubernetes Org
+labels: [ "area/github-repo" ]
+title: "REQUEST: <Create or Migrate> <github repo>"
+body:
+- id: repo
+  type: input
+  attributes:
+    label: New repo, staging repo, or migrate existing
+    description: If migrating a repo, see the [rules for migrating an existing repository](https://git.k8s.io/community/github-management/kubernetes-repositories.md#rules-for-donated-repositories).
+    placeholder: e.g. new repository
+  validations:
+    required: true
+- id: staging
+  type: dropdown
+  attributes:
+    label: Is it a staging repo?
+    multiple: false
+    options:
+    - "yes"
+    - "no"
+  validations:
+    required: true
+- id: repo_name
+  type: input
+  attributes:
+    label: Requested name for new repository
+    placeholder: e.g. cloud-provider-foo
+  validations:
+    required: true
+- id: org
+  type: dropdown
+  attributes:
+    label: Which Organization should it reside
+    multiple: false
+    options:
+    - kubernetes
+    - kubernetes-client
+    - kubernetes-csi
+    - kubernetes-sigs
+  validations:
+    required: true
+- id: admin_access
+  type: input
+  attributes:
+    label: Who should have admin access?
+    description: "**Note:** Not required for staging repos."
+    placeholder: e.g. alice, bob
+  validations:
+    required: false
+- id: write_access
+  type: input
+  attributes:
+    label: Who should have write access?
+    description: "**Note:** Not required for staging repos."
+    placeholder: e.g. chris, dianne
+  validations:
+    required: false
+- id: owners
+  type: input
+  attributes:
+    label: Who should be listed as approvers in OWNERS?
+    description: "**Note:** Not required for staging repos."
+    placeholder: e.g. alice, bob
+  validations:
+    required: false
+- id: security_contacts
+  type: input
+  attributes:
+    label: Who should be listed in SECURITY_CONTACTS?
+    description: "**Note:** Not required for staging repos."
+    placeholder: e.g. alice, bob
+  validations:
+    required: false
+- id: description
+  type: textarea
+  attributes:
+    label: What should the repo description be?
+    placeholder: |
+      By default we will set it to "created due to (link to this issue)"
+  validations:
+    required: false
+- id: sig
+  type: input
+  attributes:
+    label: What SIG and subproject does this fall under?
+    description: See [sigs.yaml](https://git.k8s.io/community/sigs.yaml) if you need a reference.
+    placeholder: e.g. this is a new subproject for sig-foo called bar-baz
+  validations:
+    required: true
+- id: approvals
+  type: textarea
+  attributes:
+    label: Please provide references to appropriate approval for this new repo
+    description: See the [authoritative requirements for repo creation](https://git.k8s.io/community/github-management/kubernetes-repositories.md) for more information.
+    placeholder: |
+      Links to the relevant approvals: meeting minutes, e-mail thread, etc.
+      - If this is a core repository, then sig-architecture must approve
+      - If this is a SIG repository, then this must follow the procedure spelled out in that SIG's charter
+  validations:
+    required: true
+- id: context
+  type: textarea
+  attributes:
+    label: Additional context for request
+    placeholder: Any additional information or context to describe the request.
+  validations:
+    required: false

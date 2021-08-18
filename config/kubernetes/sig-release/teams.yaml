@@ -39,6 +39,7 @@ teams:
     - caseydavenport # Network
     - cheftako # Cloud Provider
     - chrigl # OpenStack
+    - cici37 # 1.23 Release Notes Lead
     - cpanato # Release Manager
     - craiglpeters # Azure
     - dashpole # Instrumentation
@@ -51,6 +52,7 @@ teams:
     - divya-mohan0209 # 1.22 RT Lead Shadow
     - eddiezane # CLI
     - ehashman # Instrumentation
+    - encodeflush # 1.23 CI Signal Lead
     - enj # Auth
     - erismaster # 1.22 RT Lead Shadow
     - fabriziopandini # Cluster Lifecycle
@@ -63,23 +65,24 @@ teams:
     - hasheddan # Release
     - hpandeycodeit # Usability
     - Huang-Wei # Scheduling
-    - jameslaverack # 1.22 Enhancements Lead
+    - jameslaverack # 1.23 RT Lead Shadow
     - janetkuo # Apps
     - jayunit100 # Windows
     - jberkhahn # Service Catalog
     - jberkus # Release
     - jdumars # Architecture / PM
-    - jeremyrickard # Release
+    - jeremyrickard # Release / 1.23 Emeritus Adviser
     - jgavinray # 1.22 Bug Triage Shadow
     - jimangel # Docs / Release Manager Associate
-    - jlbutler # 1.22 Release Comms Lead
+    - jlbutler # 1.23 Docs Lead
     - johnbelamaric # Architecture
-    - jrsapi # 1.22 Enhancements Shadow
+    - jrsapi # 1.23 RT Lead Shadow
     - jsafrane # Storage
     - jsturtevant # Windows
     - justaugustus # Release
     - justinsb # AWS / Cluster Lifecycle
     - k8s-release-robot # Release
+    - karenhchu # 1.23 Release Comms Lead
     - khenidak # Azure
     - kikisdeliveryservice # 1.22 RT Lead Shadow
     - KnVerey # CLI - Kustomize
@@ -95,9 +98,9 @@ teams:
     - mattfarina # Apps / Architecture
     - mborsz # Scalability
     - mikedanese # Auth
-    - mkorbi # Release Manager Associate / 1.22 CI Signal Lead
+    - mkorbi # Release Manager Associate / 1.23 RT Lead Shadow
     - mm4tt # Scalability
-    - monzelmasry # 1.22 Bug Triage Lead
+    - monzelmasry # 1.23 Lead Shadow
     - msau42 # Storage
     - mszostok # Service Catalog
     - mwielgus # Autoscaling
@@ -117,9 +120,9 @@ teams:
     - quinton-hoole # Multicluster
     - RainbowMango # Instrumentation
     - rajakavitha1 # Usability
-    - reylejano # 1.22 Enhancements Shadow
+    - reylejano # 1.23 RT Lead
     - saad-ali # Storage
-    - salaxander # 1.22 Enhancements Shadow
+    - salaxander # 1.23 Enhancements Lead
     - saschagrunert # Release
     - SataQiu # Cluster Lifecycle
     - savitharaghunathan # 1.22 RT Lead
@@ -141,7 +144,7 @@ teams:
     - timothysc # Cluster Lifecycle / Testing
     - verolop # Release Manager Associate
     - vllry # Usability
-    - voigt # 1.22 Bug Triage Shadow
+    - voigt # 1.23 Bug Triage Lead
     - wilsonehusin # Release Manager Associate
     - wojtek-t # Scalability
     - xing-yang # Storage
@@ -215,6 +218,7 @@ teams:
     - palnabarun
     - puerco # Technical Lead
     - rawkode
+    - reylejano
     - saschagrunert # Chair
     - savitharaghunathan
     - soggiest
@@ -262,27 +266,28 @@ teams:
         description: Members of the current Release Team and subproject owners.
         members:
         - annajung # 1.22 RT Lead Shadow
-        - cici37 # 1.22 Release Notes Shadow
+        - cici37 # 1.23 Release Notes Lead
         - cpanato # Release Manager
         - Damans227 # 1.22 Release Notes Shadow
         - divya-mohan0209 # 1.22 RT Lead Shadow
-        - encodeflush # 1.22 CI Signal Shadow
+        - encodeflush # 1.23 CI Signal Lead
         - erismaster # 1.22 RT Lead Shadow
         - gracenng # 1.22 Enhancements Shadow
         - guineveresaenger # subproject owner / 1.22 EA
         - hasheddan # subproject owner
-        - jameslaverack # 1.22 Enhancements Lead
-        - jeremyrickard # Tech Lead
+        - jameslaverack # 1.23 RT Lead Shadow
+        - jeremyrickard # Tech Lead / 1.23 EA
         - jgavinray # 1.22 Bug Triage Shadow
-        - jlbutler # 1.22 Release Comms Lead
-        - jrsapi # 1.22 Enhancements Shadow
+        - jlbutler # 1.23 Docs Lead
+        - jrsapi # 1.23 RT Lead Shadow
         - justaugustus # subproject owner
+        - karenhchu # 1.23 Release Comms Lead
         - kikisdeliveryservice # 1.22 RT Lead Shadow
         - kunal-kushwaha # 1.22 Release Comms Shadow
         - lachie83 # subproject owner / 1.20 Emeritus Advisor
         - lambdanis # 1.22 CI Signal Shadow
-        - mkorbi # 1.22 CI Signal Lead
-        - monzelmasry # 1.22 Bug Triage Lead
+        - mkorbi # 1.23 RT Lead Shadow
+        - monzelmasry # 1.23 RT Lead Shadow
         - notchairmk # 1.22 Bug Triage Shadow
         - onlydole # subproject owner
         - palnabarun # subproject owner
@@ -290,8 +295,8 @@ teams:
         - puerco # Release Manager
         - rajula96reddy # 1.22 Release Comms Shadow
         - ramrodo # 1.22 CI Signal Shadow
-        - reylejano # 1.22 Enhancements Shadow
-        - salaxander # 1.22 Enhancements Shadow
+        - reylejano # 1.23 RT Lead
+        - salaxander # 1.23 Enhancements Lead
         - saschagrunert # subproject owner
         - savitharaghunathan # 1.22 RT Lead
         - sfotony # 1.22 Bug Triage Shadow
@@ -302,7 +307,7 @@ teams:
         - supriya-premkumar # 1.22 Enhancements Shadow
         - thejoycekung # 1.22 Branch Manager Shadow
         - verolop # 1.22 Branch Manager Shadow
-        - voigt # 1.22 Bug Triage Shadow
+        - voigt # 1.23 Bug Triage Lead
         - xmudrii # Release Manager
         privacy: closed
         teams:
@@ -310,7 +315,7 @@ teams:
             description: Members of the CI Signal team for the current release
               cycle.
             members:
-            - encodeflush # 1.22 CI Signal Shadow
+            - encodeflush # 1.23 CI Signal Lead
             - lambdanis # 1.22 CI Signal Shadow
             - mkorbi # 1.22 CI Signal Lead
             - ramrodo # 1.22 CI Signal Shadow
@@ -323,12 +328,12 @@ teams:
               as a notification group. Remove org members who are not current
               Release Team Leads.
             members:
-            - annajung # 1.22 RT Lead Shadow
-            - divya-mohan0209 # 1.22 RT Lead Shadow
-            - erismaster # 1.22 RT Lead Shadow
-            - guineveresaenger # 1.22 Emeritus Advisor
-            - kikisdeliveryservice # 1.22 RT Lead Shadow
-            - savitharaghunathan # 1.22 RT Lead
+            - jameslaverack # 1.23 RT Lead Shadow
+            - jeremyrickard # 1.23 Emeritus Advisor
+            - jrsapi # 1.23 RT Lead Shadow
+            - mkorbi # 1.23 RT Lead Shadow
+            - monzelmasry # 1.23 RT Lead Shadow
+            - reylejano # 1.23 RT Lead
             privacy: closed
       sig-release-admins:
         description: Admins for SIG Release repositories

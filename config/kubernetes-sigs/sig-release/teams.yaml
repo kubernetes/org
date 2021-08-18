@@ -2,23 +2,32 @@ teams:
   downloadkubernetes-admins:
     description: admin access to downloadkubernetes
     members:
+    - cpanato # subproject owner
+    - jeremyrickard # subproject owner
     - justaugustus # subproject owner
+    - puerco # subproject owner
     - saschagrunert # subproject owner
     privacy: closed
   downloadkubernetes-maintainers:
     description: write access to downloadkubernetes
     members:
     - chuckha
+    - cpanato # subproject owner
+    - jeremyrickard # subproject owner
     - justaugustus # subproject owner
     - mauilion
+    - puerco # subproject owner
     - saschagrunert # subproject owner
     privacy: closed
   image-promoter-admins:
     description: admin access to k8s-container-image-promoter
     members:
+    - cpanato # subproject owner
+    - jeremyrickard # subproject owner
     - justaugustus # subproject owner / maintainer
     - justinsb # maintainer
     - listx # maintainer
+    - puerco # subproject owner
     - saschagrunert # subproject owner
     privacy: closed
     previously:
@@ -29,10 +38,13 @@ teams:
     - spiffxp # WG K8s Infra Lead
     members:
     - ameukam # WG K8s Infra Lead
+    - cpanato # subproject owner
     - dims # WG K8s Infra Lead
+    - jeremyrickard # subproject owner
     - justaugustus # subproject owner / maintainer
     - justinsb # maintainer
     - listx # maintainer
+    - puerco # subproject owner
     - saschagrunert # subproject owner
     privacy: closed
     previously:
@@ -40,7 +52,10 @@ teams:
   mdtoc-admins:
     description: admin access to mdtoc
     members:
+    - cpanato # subproject owner
+    - jeremyrickard # subproject owner
     - justaugustus # subproject owner
+    - puerco # subproject owner
     - saschagrunert # subproject owner
     privacy: closed
   release-engineering:
@@ -48,13 +63,14 @@ teams:
       Release Managers and Release Manager Associates.
     members:
     - ameukam # Release Manager Associate
-    - cpanato # Release Manager
+    - cpanato # subproject owner / Release Manager
+    - jeremyrickard # subproject owner
     - jimangel # Release Manager Associate
     - justaugustus # subproject owner / Release Manager
     - mkorbi # Release Manager Associate
     - onlydole # Release Manager Associate
     - palnabarun # Release Manager Associate
-    - puerco # Release Manager
+    - puerco # subproject owner / Release Manager
     - saschagrunert # subproject owner / Release Manager
     - sethmccombs # Release Manager Associate
     - thejoycekung # Release Manager Associate
@@ -65,57 +81,77 @@ teams:
   release-notes-admins:
     description: admin access to release-notes
     members:
+    - cpanato # subproject owner
     - jeefy
+    - jeremyrickard # subproject owner
     - justaugustus # subproject owner
+    - puerco # subproject owner
     - saschagrunert # subproject owner
     privacy: closed
   release-notes-maintainers:
     description: write access to release-notes
     members:
+    - cpanato # subproject owner
     - jeefy
+    - jeremyrickard # subproject owner
     - justaugustus # subproject owner
+    - puerco # subproject owner
     - saschagrunert # subproject owner
     privacy: closed
   release-sdk-admins:
     description: admin access to release-sdk
     members:
-    - jeremyrickard
-    - justaugustus
-    - saschagrunert
+    - cpanato # subproject owner
+    - jeremyrickard # subproject owner
+    - justaugustus # subproject owner
+    - puerco # subproject owner
+    - saschagrunert # subproject owner
     privacy: closed
   release-sdk-maintainers:
     description: write access to release-sdk
     members:
-    - jeremyrickard
-    - justaugustus
-    - saschagrunert
+    - cpanato # subproject owner
+    - jeremyrickard # subproject owner
+    - justaugustus # subproject owner
+    - puerco # subproject owner
+    - saschagrunert # subproject owner
     privacy: closed
   release-utils-admins:
     description: admin access to release-utils
     members:
-    - jeremyrickard
-    - justaugustus
-    - saschagrunert
+    - cpanato # subproject owner
+    - jeremyrickard # subproject owner
+    - justaugustus # subproject owner
+    - puerco # subproject owner
+    - saschagrunert # subproject owner
     privacy: closed
   release-utils-maintainers:
     description: write access to release-utils
     members:
-    - jeremyrickard
-    - justaugustus
-    - saschagrunert
+    - cpanato # subproject owner
+    - jeremyrickard # subproject owner
+    - justaugustus # subproject owner
+    - puerco # subproject owner
+    - saschagrunert # subproject owner
     privacy: closed
   zeitgeist-admins:
     description: admin access to zeitgeist
     members:
+    - cpanato # subproject owner
+    - jeremyrickard # subproject owner
     - justaugustus # subproject owner
+    - puerco # subproject owner
     - saschagrunert # subproject owner
     privacy: closed
   zeitgeist-maintainers:
     description: write access to zeitgeist
     members:
+    - cpanato # subproject owner
+    - jeremyrickard # subproject owner
     - justaugustus # subproject owner
     - n3wscott
     - Pluies
+    - puerco # subproject owner
     - saschagrunert # subproject owner
     - yastij
     privacy: closed

@@ -2,7 +2,8 @@ teams:
   sig-scalability:
     description: SIG Scalability
     members:
-    - alejandrox1 # SIG Release Technical Lead
+    - cpanato # SIG Release Technical Lead / Release Manager
+    - jeremyrickard # SIG Release Technical Lead
     - jkaniuk
     - jprzychodzen
     - justaugustus # SIG Release Chair / Release Manager
@@ -11,10 +12,10 @@ teams:
     - mm4tt
     - onlydole # 1.19 Release Team Lead
     - oxddr
+    - puerco # SIG Release Technical Lead / Release Manager
     - saschagrunert # SIG Release Technical Lead / Release Manager
     - shyamjvs
     - tosi3k
-    - tpepper # SIG Release Chair / Release Manager
     - wojtek-t
     privacy: closed
     teams:

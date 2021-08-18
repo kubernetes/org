@@ -9,8 +9,10 @@ teams:
     members:
     - amwat
     - BenTheElder
+    - cpanato
     - justaugustus
     - MushuEE
+    - puerco
     - saschagrunert
     privacy: closed
   milestone-maintainers:
@@ -227,13 +229,13 @@ teams:
           Release Managers, Release Manager Associates, and Build Admins.
         members:
         - ameukam # Release Manager Associate
-        - cpanato # Release Manager
+        - cpanato # subproject owner / Release Manager
         - jimangel # Release Manager Associate
         - justaugustus # subproject owner / Release Manager
         - mkorbi # Release Manager Associate
         - onlydole # Release Manager Associate
         - palnabarun # Release Manager Associate
-        - puerco # Release Manager
+        - puerco # subproject owner / Release Manager
         - saschagrunert # subproject owner / Release Manager
         - sethmccombs # Release Manager Associate
         - thejoycekung # Release Manager Associate
@@ -262,7 +264,7 @@ teams:
         members:
         - annajung # 1.22 RT Lead Shadow
         - cici37 # 1.23 Release Notes Lead
-        - cpanato # Release Manager
+        - cpanato # subproject owner / Technical Lead
         - Damans227 # 1.22 Release Notes Shadow
         - divya-mohan0209 # 1.22 RT Lead Shadow
         - encodeflush # 1.23 CI Signal Lead
@@ -270,11 +272,11 @@ teams:
         - gracenng # 1.22 Enhancements Shadow
         - guineveresaenger # subproject owner / 1.22 EA
         - jameslaverack # 1.23 RT Lead Shadow
-        - jeremyrickard # Tech Lead / 1.23 EA
+        - jeremyrickard # subproject owner / Technical Lead
         - jgavinray # 1.22 Bug Triage Shadow
         - jlbutler # 1.23 Docs Lead
         - jrsapi # 1.23 RT Lead Shadow
-        - justaugustus # subproject owner
+        - justaugustus # subproject owner / Chair
         - karenhchu # 1.23 Release Comms Lead
         - kikisdeliveryservice # 1.22 RT Lead Shadow
         - kunal-kushwaha # 1.22 Release Comms Shadow
@@ -286,12 +288,12 @@ teams:
         - onlydole # subproject owner
         - palnabarun # subproject owner
         - pmmalinov01 # 1.22 Release Notes Lead
-        - puerco # Release Manager
+        - puerco # subproject owner / Technical Lead
         - rajula96reddy # 1.22 Release Comms Shadow
         - ramrodo # 1.22 CI Signal Shadow
         - reylejano # 1.23 RT Lead
         - salaxander # 1.23 Enhancements Lead
-        - saschagrunert # subproject owner
+        - saschagrunert # subproject owner / Chair
         - savitharaghunathan # 1.22 RT Lead
         - sfotony # 1.22 Bug Triage Shadow
         - simcard0000 # 1.22 Release Notes Shadow

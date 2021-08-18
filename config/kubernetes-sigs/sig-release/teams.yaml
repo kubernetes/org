@@ -11,11 +11,9 @@ teams:
   downloadkubernetes-maintainers:
     description: write access to downloadkubernetes
     members:
-    - chuckha
     - cpanato # subproject owner
     - jeremyrickard # subproject owner
     - justaugustus # subproject owner
-    - mauilion
     - puerco # subproject owner
     - saschagrunert # subproject owner
     privacy: closed
@@ -25,7 +23,6 @@ teams:
     - cpanato # subproject owner
     - jeremyrickard # subproject owner
     - justaugustus # subproject owner / maintainer
-    - justinsb # maintainer
     - listx # maintainer
     - puerco # subproject owner
     - saschagrunert # subproject owner
@@ -42,7 +39,6 @@ teams:
     - dims # WG K8s Infra Lead
     - jeremyrickard # subproject owner
     - justaugustus # subproject owner / maintainer
-    - justinsb # maintainer
     - listx # maintainer
     - puerco # subproject owner
     - saschagrunert # subproject owner
@@ -82,7 +78,6 @@ teams:
     description: admin access to release-notes
     members:
     - cpanato # subproject owner
-    - jeefy
     - jeremyrickard # subproject owner
     - justaugustus # subproject owner
     - puerco # subproject owner
@@ -92,7 +87,6 @@ teams:
     description: write access to release-notes
     members:
     - cpanato # subproject owner
-    - jeefy
     - jeremyrickard # subproject owner
     - justaugustus # subproject owner
     - puerco # subproject owner
@@ -153,5 +147,4 @@ teams:
     - Pluies
     - puerco # subproject owner
     - saschagrunert # subproject owner
-    - yastij
     privacy: closed

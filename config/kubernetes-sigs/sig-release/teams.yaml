@@ -31,12 +31,8 @@ teams:
     - k8s-container-image-promoter-admins
   image-promoter-maintainers:
     description: write access to k8s-container-image-promoter
-    maintainers:
-    - spiffxp # WG K8s Infra Lead
     members:
-    - ameukam # WG K8s Infra Lead
     - cpanato # subproject owner
-    - dims # WG K8s Infra Lead
     - jeremyrickard # subproject owner
     - justaugustus # subproject owner / maintainer
     - listx # maintainer

@@ -9,7 +9,6 @@ teams:
     members:
     - amwat
     - BenTheElder
-    - hasheddan
     - justaugustus
     - MushuEE
     - saschagrunert
@@ -62,7 +61,6 @@ teams:
     - frapposelli # VMware
     - gracenng # 1.22 Enhancements Shadow
     - guineveresaenger # 1.22 Emeritus Advisor
-    - hasheddan # Release
     - hpandeycodeit # Usability
     - Huang-Wei # Scheduling
     - jameslaverack # 1.23 RT Lead Shadow
@@ -203,7 +201,6 @@ teams:
     - castrojo
     - cpanato # Technical Lead
     - dims
-    - hasheddan # Technical Lead
     - ixdy
     - jberkus
     - jdumars
@@ -231,7 +228,6 @@ teams:
         members:
         - ameukam # Release Manager Associate
         - cpanato # Release Manager
-        - hasheddan # subproject owner / Release Manager
         - jimangel # Release Manager Associate
         - justaugustus # subproject owner / Release Manager
         - mkorbi # Release Manager Associate
@@ -253,7 +249,6 @@ teams:
               who are not actively doing this job.
             members:
             - cpanato
-            - hasheddan
             - justaugustus
             - k8s-release-robot
             - puerco
@@ -274,7 +269,6 @@ teams:
         - erismaster # 1.22 RT Lead Shadow
         - gracenng # 1.22 Enhancements Shadow
         - guineveresaenger # subproject owner / 1.22 EA
-        - hasheddan # subproject owner
         - jameslaverack # 1.23 RT Lead Shadow
         - jeremyrickard # Tech Lead / 1.23 EA
         - jgavinray # 1.22 Bug Triage Shadow
@@ -339,7 +333,6 @@ teams:
         description: Admins for SIG Release repositories
         members:
         - cpanato # Technical Lead
-        - hasheddan # Technical Lead
         - jeremyrickard # Technical Lead
         - justaugustus # Chair
         - puerco # Technical Lead
@@ -350,7 +343,6 @@ teams:
           Chairs, Technical Leads, and Program Managers for SIG Release
         members:
         - cpanato # Technical Lead
-        - hasheddan # Technical Lead
         - jeremyrickard # Technical Lead
         - justaugustus # Chair
         - LappleApple # Program Manager
@@ -362,7 +354,6 @@ teams:
           Grants access to maintain SIG Release project boards
         members:
         - cpanato # Technical Lead
-        - hasheddan # Technical Lead
         - jeremyrickard # Technical Lead
         - justaugustus # Chair
         - LappleApple # Program Manager

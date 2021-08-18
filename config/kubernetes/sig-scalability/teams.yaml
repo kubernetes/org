@@ -3,7 +3,6 @@ teams:
     description: SIG Scalability
     members:
     - alejandrox1 # SIG Release Technical Lead
-    - hasheddan # 1.19 CI Signal Lead / Release Manager
     - jkaniuk
     - jprzychodzen
     - justaugustus # SIG Release Chair / Release Manager

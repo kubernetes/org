@@ -9,9 +9,10 @@ teams:
     members:
     - amwat
     - BenTheElder
-    - hasheddan
+    - cpanato
     - justaugustus
     - MushuEE
+    - puerco
     - saschagrunert
     privacy: closed
   milestone-maintainers:
@@ -30,7 +31,6 @@ teams:
     - alejandrox1 # Testing
     - ameukam # Release Manager Associate
     - andrewsykim # Cloud Provider
-    - annajung # 1.22 RT Lead Shadow
     - BenTheElder # Testing
     - bgrant0607 # Architecture
     - bradamant3 # Docs
@@ -49,20 +49,15 @@ teams:
     - deads2k # API Machinery / Auth
     - derekwaynecarr # Architecture / Node
     - dims # Architecture / Release
-    - divya-mohan0209 # 1.22 RT Lead Shadow
     - eddiezane # CLI
     - ehashman # Instrumentation
     - encodeflush # 1.23 CI Signal Lead
     - enj # Auth
-    - erismaster # 1.22 RT Lead Shadow
     - fabriziopandini # Cluster Lifecycle
     - feiskyer # Azure
     - floreks # UI
     - foxish # Big Data
     - frapposelli # VMware
-    - gracenng # 1.22 Enhancements Shadow
-    - guineveresaenger # 1.22 Emeritus Advisor
-    - hasheddan # Release
     - hpandeycodeit # Usability
     - Huang-Wei # Scheduling
     - jameslaverack # 1.23 RT Lead Shadow
@@ -72,7 +67,6 @@ teams:
     - jberkus # Release
     - jdumars # Architecture / PM
     - jeremyrickard # Release / 1.23 Emeritus Adviser
-    - jgavinray # 1.22 Bug Triage Shadow
     - jimangel # Docs / Release Manager Associate
     - jlbutler # 1.23 Docs Lead
     - johnbelamaric # Architecture
@@ -84,7 +78,6 @@ teams:
     - k8s-release-robot # Release
     - karenhchu # 1.23 Release Comms Lead
     - khenidak # Azure
-    - kikisdeliveryservice # 1.22 RT Lead Shadow
     - KnVerey # CLI - Kustomize
     - kow3ns # Apps
     - lavalamp # API Machinery
@@ -106,13 +99,11 @@ teams:
     - mwielgus # Autoscaling
     - nckturner # AWS
     - neolit123 # Cluster Lifecycle
-    - notchairmk # 1.22 Bug Triage Shadow
-    - onlydole # Release Manager Associate / 1.21 Emeritus Advisor
+    - onlydole # Release Manager Associate
     - oxddr # Scalability
     - palnabarun # Release Manager Associate
     - parispittman # ContribEx
     - phillels # ContribEx
-    - pmmalinov01 # 1.22 Release Notes Lead
     - pmorie # Multicluster
     - prydonius # Apps
     - puerco # Release Manager
@@ -125,18 +116,14 @@ teams:
     - salaxander # 1.23 Enhancements Lead
     - saschagrunert # Release
     - SataQiu # Cluster Lifecycle
-    - savitharaghunathan # 1.22 RT Lead
     - seans3 # CLI
     - serathius # Instrumentation
     - sethmccombs # Release Manager Associate
-    - sfotony # 1.22 Bug Triage Shadow
     - shu-mutou # UI
     - shyamjvs # Scalability
-    - simcard0000 # 1.22 Release Notes Shadow
     - soltysh # CLI
     - spzala # IBM Cloud
     - stevekuznetsov # Testing
-    - supriya-premkumar # 1.22 Enhancements Shadow
     - tallclair # Auth
     - tashimi # Usability
     - thejoycekung # Release Manager Associate
@@ -203,7 +190,6 @@ teams:
     - castrojo
     - cpanato # Technical Lead
     - dims
-    - hasheddan # Technical Lead
     - ixdy
     - jberkus
     - jdumars
@@ -230,14 +216,13 @@ teams:
           Release Managers, Release Manager Associates, and Build Admins.
         members:
         - ameukam # Release Manager Associate
-        - cpanato # Release Manager
-        - hasheddan # subproject owner / Release Manager
+        - cpanato # subproject owner / Release Manager
         - jimangel # Release Manager Associate
         - justaugustus # subproject owner / Release Manager
         - mkorbi # Release Manager Associate
         - onlydole # Release Manager Associate
         - palnabarun # Release Manager Associate
-        - puerco # Release Manager
+        - puerco # subproject owner / Release Manager
         - saschagrunert # subproject owner / Release Manager
         - sethmccombs # Release Manager Associate
         - thejoycekung # Release Manager Associate
@@ -253,7 +238,6 @@ teams:
               who are not actively doing this job.
             members:
             - cpanato
-            - hasheddan
             - justaugustus
             - k8s-release-robot
             - puerco
@@ -265,48 +249,24 @@ teams:
       release-team:
         description: Members of the current Release Team and subproject owners.
         members:
-        - annajung # 1.22 RT Lead Shadow
         - cici37 # 1.23 Release Notes Lead
-        - cpanato # Release Manager
-        - Damans227 # 1.22 Release Notes Shadow
-        - divya-mohan0209 # 1.22 RT Lead Shadow
+        - cpanato # subproject owner / Technical Lead
         - encodeflush # 1.23 CI Signal Lead
-        - erismaster # 1.22 RT Lead Shadow
-        - gracenng # 1.22 Enhancements Shadow
-        - guineveresaenger # subproject owner / 1.22 EA
-        - hasheddan # subproject owner
         - jameslaverack # 1.23 RT Lead Shadow
-        - jeremyrickard # Tech Lead / 1.23 EA
-        - jgavinray # 1.22 Bug Triage Shadow
+        - jeremyrickard # subproject owner / Technical Lead
         - jlbutler # 1.23 Docs Lead
         - jrsapi # 1.23 RT Lead Shadow
-        - justaugustus # subproject owner
+        - justaugustus # subproject owner / Chair
         - karenhchu # 1.23 Release Comms Lead
-        - kikisdeliveryservice # 1.22 RT Lead Shadow
-        - kunal-kushwaha # 1.22 Release Comms Shadow
-        - lachie83 # subproject owner / 1.20 Emeritus Advisor
-        - lambdanis # 1.22 CI Signal Shadow
         - mkorbi # 1.23 RT Lead Shadow
         - monzelmasry # 1.23 RT Lead Shadow
-        - notchairmk # 1.22 Bug Triage Shadow
-        - onlydole # subproject owner
-        - palnabarun # subproject owner
-        - pmmalinov01 # 1.22 Release Notes Lead
-        - puerco # Release Manager
-        - rajula96reddy # 1.22 Release Comms Shadow
-        - ramrodo # 1.22 CI Signal Shadow
-        - reylejano # 1.23 RT Lead
+        - onlydole # subproject owner (1.19 RT Lead)
+        - palnabarun # subproject owner (1.21 RT Lead)
+        - puerco # subproject owner / Technical Lead
+        - reylejano # subproject owner (1.23 RT Lead)
         - salaxander # 1.23 Enhancements Lead
-        - saschagrunert # subproject owner
-        - savitharaghunathan # 1.22 RT Lead
-        - sfotony # 1.22 Bug Triage Shadow
-        - simcard0000 # 1.22 Release Notes Shadow
-        - skrishna-unix # 1.22 Release Comms Shadow
-        - sladyn98 # 1.22 Release Notes Shadow
-        - soniasingla # 1.22 CI Signal Shadow
-        - supriya-premkumar # 1.22 Enhancements Shadow
-        - thejoycekung # 1.22 Branch Manager Shadow
-        - verolop # 1.22 Branch Manager Shadow
+        - saschagrunert # subproject owner / Chair
+        - savitharaghunathan # subproject owner (1.22 RT Lead)
         - voigt # 1.23 Bug Triage Lead
         - xmudrii # Release Manager
         privacy: closed
@@ -316,10 +276,6 @@ teams:
               cycle.
             members:
             - encodeflush # 1.23 CI Signal Lead
-            - lambdanis # 1.22 CI Signal Shadow
-            - mkorbi # 1.22 CI Signal Lead
-            - ramrodo # 1.22 CI Signal Shadow
-            - soniasingla # 1.22 CI Signal Shadow
             privacy: closed
           release-team-leads:
             description: Release Team Leads for the current Kubernetes release
@@ -339,7 +295,6 @@ teams:
         description: Admins for SIG Release repositories
         members:
         - cpanato # Technical Lead
-        - hasheddan # Technical Lead
         - jeremyrickard # Technical Lead
         - justaugustus # Chair
         - puerco # Technical Lead
@@ -350,7 +305,6 @@ teams:
           Chairs, Technical Leads, and Program Managers for SIG Release
         members:
         - cpanato # Technical Lead
-        - hasheddan # Technical Lead
         - jeremyrickard # Technical Lead
         - justaugustus # Chair
         - LappleApple # Program Manager
@@ -362,7 +316,6 @@ teams:
           Grants access to maintain SIG Release project boards
         members:
         - cpanato # Technical Lead
-        - hasheddan # Technical Lead
         - jeremyrickard # Technical Lead
         - justaugustus # Chair
         - LappleApple # Program Manager

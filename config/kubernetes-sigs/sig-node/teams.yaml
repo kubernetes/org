@@ -16,7 +16,6 @@ teams:
   security-profiles-operator-admins:
     description: Admin access to security-profiles-operator repo
     members:
-    - hasheddan
     - pjbgf
     - saschagrunert
     privacy: closed
@@ -25,7 +24,6 @@ teams:
   security-profiles-operator-maintainers:
     description: Write access to security-profiles-operator repo
     members:
-    - hasheddan
     - pjbgf
     - saschagrunert
     privacy: closed

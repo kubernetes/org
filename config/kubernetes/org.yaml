@@ -1808,7 +1808,7 @@ teams:
     - timothysc
     - wojtek-t
     privacy: closed
-  product-security-committee:
+  security-response-committee:
     description: Please report security issues to https://kubernetes.io/security
     members:
     - cjcullen
@@ -1820,6 +1820,7 @@ teams:
     - tallclair
     previously:
     - product-security-team
+    - product-security-committee
     privacy: closed
   sample-apiserver-admins:
     description: Admin access to the sample-apiserver repo

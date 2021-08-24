@@ -135,8 +135,7 @@ teams:
   kube-scheduler-simulator-maintainers:
     description: Write access to the kube-scheduler-simulator
     members:
-    # - sanposhiho # pending org membership
-    - Huang-Wei # team needs a member, can remove once sanposhito added
+    - sanposhiho
     privacy: closed
   network-policy-api-admins:
     description: Admin access to the network-policy-api repo

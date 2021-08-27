@@ -29,7 +29,7 @@ readonly gh_api_cmd=(
 )
 
 function ensure_dependencies() {
-  if ! command -f gh >/dev/null; then
+  if ! command -v gh >/dev/null; then
       >&2 echo "gh not found. Please install: https://cli.github.com/manual/installation"
       exit 1
   fi
@@ -50,7 +50,7 @@ function main() {
 }
 
 args=("${@:1}")
-if [ ${#args[@]} -eq 0 ]; then 
+if [ ${#args[@]} -eq 0 ]; then
   args=("${kubernetes_orgs[@]}")
 fi
 

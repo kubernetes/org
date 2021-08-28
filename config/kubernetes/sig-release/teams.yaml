@@ -35,9 +35,9 @@ teams:
     - bgrant0607 # Architecture
     - bradamant3 # Docs
     - brancz # Instrumentation
+    - CIPHERTron # 1.23 Docs Shadow
     - cantbewong # VMware
     - caseydavenport # Network
-    - CIPHERTron # 1.23 Docs Shadow
     - cheftako # Cloud Provider
     - chrigl # OpenStack
     - cpanato # Release Manager

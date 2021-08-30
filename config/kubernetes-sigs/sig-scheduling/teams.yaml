@@ -47,6 +47,7 @@ teams:
   kube-scheduler-simulator-maintainers:
     description: Write access to the kube-scheduler-simulator
     members:
+    - adtac
     - sanposhiho
     privacy: closed
   poseidon-admins:

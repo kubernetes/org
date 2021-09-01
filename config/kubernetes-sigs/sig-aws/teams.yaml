@@ -15,6 +15,7 @@ teams:
     - leakingtapan
     - vdhanan
     - wongma7
+    - nirmalaagash
     privacy: closed
   aws-encryption-provider-admins:
     description: admin access to aws_encryption-provider repo

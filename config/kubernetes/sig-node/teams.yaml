@@ -16,6 +16,7 @@ teams:
   sig-node-bugs:
     description: Bugs for Kubernetes Node Special-Interest-Group
     members:
+    - 249043822
     - ConnorDoyle
     - dchen1107
     - derekwaynecarr

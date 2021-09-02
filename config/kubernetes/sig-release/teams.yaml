@@ -76,14 +76,14 @@ teams:
     - jsturtevant # Windows
     - justaugustus # Release
     - justinsb # AWS / Cluster Lifecycle
-    - jyotimahapatra # 1.23 Bug Triage Shadow
+    # - jyotimahapatra # 1.23 Bug Triage Shadow (not in K8s org)
     - k8s-release-robot # Release
     - karenhchu # 1.23 Release Comms Lead
     - kevindelgado # 1.23 Enhancements Shadow
     - khenidak # Azure
     - KnVerey # CLI - Kustomize
     - kow3ns # Apps
-    - lauralorenz # 1.23 Enhancements Shadow
+    # - lauralorenz # 1.23 Enhancements Shadow (not in K8s org)
     - lavalamp # API Machinery
     - liggitt # Auth / Release
     - lingxiankong # OpenStack
@@ -101,10 +101,10 @@ teams:
     - msau42 # Storage
     - mszostok # Service Catalog
     - mwielgus # Autoscaling
-    - nannancy # 1.23 Bug Triage Shadow
+    # - nannancy # 1.23 Bug Triage Shadow (not in K8s org)
     - nckturner # AWS
     - neolit123 # Cluster Lifecycle
-    - NilimaC04 # 1.23 Bug Triage Shadow
+    # - NilimaC04 # 1.23 Bug Triage Shadow (not in K8s org)
     - onlydole # Release Manager Associate
     - oxddr # Scalability
     - palnabarun # Release Manager Associate
@@ -138,7 +138,7 @@ teams:
     - thejoycekung # Release Manager Associate
     - thockin # Network
     - timothysc # Cluster Lifecycle / Testing
-    - varshaprasad96 # 1.23 Bug Triage Shadow
+    # - varshaprasad96 # 1.23 Bug Triage Shadow (not in K8s org)
     - verolop # Release Manager Associate
     - vllry # Usability
     - voigt # 1.23 Bug Triage Lead
@@ -259,9 +259,9 @@ teams:
       release-team:
         description: Members of the current Release Team and subproject owners.
         members:
-        - AuraSinis # 1.23 Release Notes Shadow
-        - calvh # 1.23 CI Signal Shadow
-        - cccswann # 1.23 Release Comms Shadow
+        # - AuraSinis # 1.23 Release Notes Shadow (not in K8s org)
+        # - calvh # 1.23 CI Signal Shadow (not in K8s org)
+        # - cccswann # 1.23 Release Comms Shadow (not in K8s org)
         - chrisnegus # 1.23 Docs Shadow
         - cici37 # 1.23 Release Notes Lead
         - cpanato # subproject owner / Technical Lead
@@ -273,23 +273,23 @@ teams:
         - jlbutler # 1.23 Docs Lead
         - jrsapi # 1.23 RT Lead Shadow
         - justaugustus # subproject owner / Chair
-        - jyotimahapatra # 1.23 Bug Triage Shadow
+        # - jyotimahapatra # 1.23 Bug Triage Shadow (not in K8s org)
         - karenhchu # 1.23 Release Comms Lead
         - kaslin # 1.23 Release Comms Shadow 
-        - katcosgrove # 1.23 Release Comms Shadow
+        # - katcosgrove # 1.23 Release Comms Shadow (not in K8s org)
         - kevindelgado # 1.23 Enhancements Shadow
-        - lauralorenz # 1.23 Enhancements Shadow
-        - leonardpahlke # 1.23 CI Signal Shadow
-        - mehabhalodiya # 1.23 Docs Shadow
-        - mickeyboxell # 1.23 Release Comms Shadow
+        # - lauralorenz # 1.23 Enhancements Shadow (not in K8s org)
+        # - leonardpahlke # 1.23 CI Signal Shadow (not in K8s org)
+        # - mehabhalodiya # 1.23 Docs Shadow (not in K8s org)
+        # - mickeyboxell # 1.23 Release Comms Shadow (not in K8s org)
         - mkorbi # 1.23 RT Lead Shadow
         - monzelmasry # 1.23 RT Lead Shadow
-        - nannancy # 1.23 Bug Triage Shadow
+        # - nannancy # 1.23 Bug Triage Shadow (not in K8s org)
         - nate-double-u # 1.23 Docs Shadow
-        - NilimaC04 # 1.23 Bug Triage Shadow
+        # - NilimaC04 # 1.23 Bug Triage Shadow (not in K8s org)
         - onlydole # subproject owner (1.19 RT Lead)
         - palnabarun # subproject owner (1.21 RT Lead)
-        - parul5sahoo # 1.23 Release Notes Shadow
+        # - parul5sahoo # 1.23 Release Notes Shadow (not in K8s org)
         - Priyankasaggu11929 # 1.23 Enhancements Shadow
         - puerco # subproject owner / Technical Lead
         - rajula96reddy # 1.23 CI Signal Shadow
@@ -298,12 +298,12 @@ teams:
         - RinkiyaKeDad # 1.23 CI Signal Shadow
         - ritpanjw # 1.23 Bug Triage Shadow
         - salaxander # 1.23 Enhancements Lead
-        - sam-cogan # 1.23 Release Notes Shadow
+        # - sam-cogan # 1.23 Release Notes Shadow (not in K8s org)
         - saschagrunert # subproject owner / Chair
         - savitharaghunathan # subproject owner (1.22 RT Lead)
-        - simrangupta234 # 1.23 CI Signal Shadow
+        # - simrangupta234 # 1.23 CI Signal Shadow (not in K8s org)
         - supriya-premkumar # 1.23 Enhancements Shadow
-        - varshaprasad96 # 1.23 Bug Triage Shadow
+        # - varshaprasad96 # 1.23 Bug Triage Shadow (not in K8s org)
         - voigt # 1.23 Bug Triage Lead
         - xmudrii # Release Manager
         privacy: closed
@@ -312,12 +312,12 @@ teams:
             description: Members of the CI Signal team for the current release
               cycle.
             members:
-            - calvh # 1.23 CI Signal Shadow
+            # - calvh # 1.23 CI Signal Shadow (not in K8s org)
             - encodeflush # 1.23 CI Signal Lead
-            - leonardpahlke # 1.23 CI Signal Shadow
+            # - leonardpahlke # 1.23 CI Signal Shadow (not in K8s org)
             - rajula96reddy # 1.23 CI Signal Shadow
             - RinkiyaKeDad # 1.23 CI Signal Shadow
-            - simrangupta234 # 1.23 CI Signal Shadow
+            # - simrangupta234 # 1.23 CI Signal Shadow (not in K8s org)
             privacy: closed
           release-team-leads:
             description: Release Team Leads for the current Kubernetes release

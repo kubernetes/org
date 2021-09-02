@@ -1646,6 +1646,7 @@ teams:
     members:
     - brancz
     - lilic
+    - mrueg
     - tariq1890
     privacy: closed
   kube-state-metrics-maintainers:

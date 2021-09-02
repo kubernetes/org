@@ -37,6 +37,19 @@ teams:
     members:
     - k82cn
     privacy: closed
+  kube-scheduler-simulator-admins:
+    description: Admin access to the kube-scheduler-simulator
+    members:
+    - adtac
+    - alculquicondor
+    - Huang-Wei
+    privacy: closed
+  kube-scheduler-simulator-maintainers:
+    description: Write access to the kube-scheduler-simulator
+    members:
+    - adtac
+    - sanposhiho
+    privacy: closed
   poseidon-admins:
     description: Admin access to the poseidon repo
     members:

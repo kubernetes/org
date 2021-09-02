@@ -1652,6 +1652,7 @@ teams:
     description: Write access to the kube-state-metrics repo
     members:
     - brancz
+    - fpetkovski
     - lilic
     - mrueg
     - tariq1890

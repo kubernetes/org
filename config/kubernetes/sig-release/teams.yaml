@@ -58,6 +58,7 @@ teams:
     - floreks # UI
     - foxish # Big Data
     - frapposelli # VMware
+    - gracenng # 1.23 Enhancements Shadow
     - hpandeycodeit # Usability
     - Huang-Wei # Scheduling
     - jameslaverack # 1.23 RT Lead Shadow
@@ -75,11 +76,14 @@ teams:
     - jsturtevant # Windows
     - justaugustus # Release
     - justinsb # AWS / Cluster Lifecycle
+    - jyotimahapatra # 1.23 Bug Triage Shadow
     - k8s-release-robot # Release
     - karenhchu # 1.23 Release Comms Lead
+    - kevindelgado # 1.23 Enhancements Shadow
     - khenidak # Azure
     - KnVerey # CLI - Kustomize
     - kow3ns # Apps
+    - lauralorenz # 1.23 Enhancements Shadow
     - lavalamp # API Machinery
     - liggitt # Auth / Release
     - lingxiankong # OpenStack
@@ -97,14 +101,17 @@ teams:
     - msau42 # Storage
     - mszostok # Service Catalog
     - mwielgus # Autoscaling
+    - nannancy # 1.23 Bug Triage Shadow
     - nckturner # AWS
     - neolit123 # Cluster Lifecycle
+    - NilimaC04 # 1.23 Bug Triage Shadow
     - onlydole # Release Manager Associate
     - oxddr # Scalability
     - palnabarun # Release Manager Associate
     - parispittman # ContribEx
     - phillels # ContribEx
     - pmorie # Multicluster
+    - Priyankasaggu11929 # 1.23 Enhancements Shadow
     - prydonius # Apps
     - puerco # Release Manager
     - pwittrock # CLI
@@ -112,6 +119,7 @@ teams:
     - RainbowMango # Instrumentation
     - rajakavitha1 # Usability
     - reylejano # 1.23 RT Lead
+    - ritpanjw # 1.23 Bug Triage Shadow
     - saad-ali # Storage
     - salaxander # 1.23 Enhancements Lead
     - saschagrunert # Release
@@ -124,11 +132,13 @@ teams:
     - soltysh # CLI
     - spzala # IBM Cloud
     - stevekuznetsov # Testing
+    - supriya-premkumar # 1.23 Enhancements Shadow
     - tallclair # Auth
     - tashimi # Usability
     - thejoycekung # Release Manager Associate
     - thockin # Network
     - timothysc # Cluster Lifecycle / Testing
+    - varshaprasad96 # 1.23 Bug Triage Shadow
     - verolop # Release Manager Associate
     - vllry # Usability
     - voigt # 1.23 Bug Triage Lead
@@ -249,24 +259,51 @@ teams:
       release-team:
         description: Members of the current Release Team and subproject owners.
         members:
+        - AuraSinis # 1.23 Release Notes Shadow
+        - calvh # 1.23 CI Signal Shadow
+        - cccswann # 1.23 Release Comms Shadow
+        - chrisnegus # 1.23 Docs Shadow
         - cici37 # 1.23 Release Notes Lead
         - cpanato # subproject owner / Technical Lead
+        - Damans227 # 1.23 Release Notes Shadow
         - encodeflush # 1.23 CI Signal Lead
+        - gracenng # 1.23 Enhancements Shadow
         - jameslaverack # 1.23 RT Lead Shadow
         - jeremyrickard # subproject owner / Technical Lead
         - jlbutler # 1.23 Docs Lead
         - jrsapi # 1.23 RT Lead Shadow
         - justaugustus # subproject owner / Chair
+        - jyotimahapatra # 1.23 Bug Triage Shadow
         - karenhchu # 1.23 Release Comms Lead
+        - katcosgrove # 1.23 Release Comms Shadow
+        - kaslin # 1.23 Release Comms Shadow 
+        - kevindelgado # 1.23 Enhancements Shadow
+        - lauralorenz # 1.23 Enhancements Shadow
+        - mehabhalodiya # 1.23 Docs Shadow
+        - mickeyboxell # 1.23 Release Comms Shadow
         - mkorbi # 1.23 RT Lead Shadow
         - monzelmasry # 1.23 RT Lead Shadow
+        - leonardpahlke # 1.23 CI Signal Shadow
+        - nannancy # 1.23 Bug Triage Shadow
+        - nate-double-u # 1.23 Docs Shadow
+        - NilimaC04 # 1.23 Bug Triage Shadow
         - onlydole # subproject owner (1.19 RT Lead)
         - palnabarun # subproject owner (1.21 RT Lead)
+        - parul5sahoo # 1.23 Release Notes Shadow
+        - Priyankasaggu11929 # 1.23 Enhancements Shadow
         - puerco # subproject owner / Technical Lead
+        - rajula96reddy # 1.23 CI Signal Shadow
+        - ramrodo # 1.23 Docs Shadow
+        - ritpanjw # 1.23 Bug Triage Shadow
         - reylejano # subproject owner (1.23 RT Lead)
+        - RinkiyaKeDad # 1.23 CI Signal Shadow
         - salaxander # 1.23 Enhancements Lead
+        - sam-cogan # 1.23 Release Notes Shadow
         - saschagrunert # subproject owner / Chair
         - savitharaghunathan # subproject owner (1.22 RT Lead)
+        - simrangupta234 # 1.23 CI Signal Shadow
+        - supriya-premkumar # 1.23 Enhancements Shadow
+        - varshaprasad96 # 1.23 Bug Triage Shadow
         - voigt # 1.23 Bug Triage Lead
         - xmudrii # Release Manager
         privacy: closed
@@ -275,7 +312,12 @@ teams:
             description: Members of the CI Signal team for the current release
               cycle.
             members:
+            - calvh # 1.23 CI Signal Shadow
             - encodeflush # 1.23 CI Signal Lead
+            - leonardpahlke # 1.23 CI Signal Shadow
+            - rajula96reddy # 1.23 CI Signal Shadow
+            - RinkiyaKeDad # 1.23 CI Signal Shadow
+            - simrangupta234 # 1.23 CI Signal Shadow
             privacy: closed
           release-team-leads:
             description: Release Team Leads for the current Kubernetes release

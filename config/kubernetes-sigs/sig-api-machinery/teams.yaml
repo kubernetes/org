@@ -141,6 +141,7 @@ teams:
   kubebuilder-release-tools-admins:
     description: Admin access to kubebuilder-release-tools
     members:
+    - Adirio
     - DirectXMan12
     - droot
     - mengqiy

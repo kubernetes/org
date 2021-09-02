@@ -261,7 +261,7 @@ teams:
         members:
         # - AuraSinis # 1.23 Release Notes Shadow (not in K8s org)
         # - calvh # 1.23 CI Signal Shadow (not in K8s org)
-        # - cccswann # 1.23 Release Comms Shadow (not in K8s org)
+        - cccswann # 1.23 Release Comms Shadow
         - chrisnegus # 1.23 Docs Shadow
         - cici37 # 1.23 Release Notes Lead
         - cpanato # subproject owner / Technical Lead
@@ -276,12 +276,12 @@ teams:
         # - jyotimahapatra # 1.23 Bug Triage Shadow (not in K8s org)
         - karenhchu # 1.23 Release Comms Lead
         - kaslin # 1.23 Release Comms Shadow 
-        # - katcosgrove # 1.23 Release Comms Shadow (not in K8s org)
+        - katcosgrove # 1.23 Release Comms Shadow
         - kevindelgado # 1.23 Enhancements Shadow
         # - lauralorenz # 1.23 Enhancements Shadow (not in K8s org)
         # - leonardpahlke # 1.23 CI Signal Shadow (not in K8s org)
         # - mehabhalodiya # 1.23 Docs Shadow (not in K8s org)
-        # - mickeyboxell # 1.23 Release Comms Shadow (not in K8s org)
+        - mickeyboxell # 1.23 Release Comms Shadow
         - mkorbi # 1.23 RT Lead Shadow
         - monzelmasry # 1.23 RT Lead Shadow
         # - nannancy # 1.23 Bug Triage Shadow (not in K8s org)

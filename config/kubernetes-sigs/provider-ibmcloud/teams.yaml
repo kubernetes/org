@@ -3,12 +3,14 @@ teams:
     description: Admin access to cluster-api-provider-ibmcloud repo
     members:
     - gyliu513
+    - mkumatag
     privacy: closed
   cluster-api-provider-ibmcloud-maintainers:
     description: Write access to the cluster-api-provider-ibmcloud repo
     members:
     - gyliu513
     - jichenjc
+    - mkumatag
     - xunpan
     privacy: closed
   ibm-vpc-block-csi-driver-admins:

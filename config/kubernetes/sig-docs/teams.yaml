@@ -344,6 +344,7 @@ teams:
     - bene2k1
     - bradtopol
     - celestehorgan
+    - chrisnegus # 1.23 RT Docs Shadow
     - claudiajkang
     - cstoku
     - dianaabv
@@ -354,11 +355,14 @@ teams:
     - inductor
     - jcjesus
     - jimangel
+    - jlbutler # 1.23 RT Docs Lead
     - juandiegopalomino
     - jygastaud
     - lledru
+    # - mehabhalodiya # 1.23 Docs Shadow (not in K8s org)
     - msheldyakov
     - nasa9084
+    - nate-double-u # 1.23 RT Docs Shadow
     - ngtuna
     - onlydole
     - oussemos
@@ -367,6 +371,7 @@ teams:
     - potapy4
     - raelga
     - Rajakavitha1
+    - ramrodo # 1.23 RT Docs Shadow
     - rbenzair
     - rekcah78
     - remyleone

@@ -586,6 +586,7 @@ members:
 - jyotimahapatra
 - k-toyoda-pi
 - k82cn
+- k8s-infra-cherrypick-robot
 - k8s-infra-ci-robot
 - k8s-publishing-bot
 - k8s-release-robot

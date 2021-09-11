@@ -83,18 +83,18 @@ teams:
     - yastij
     privacy: closed
   sig-docs-hi-owners:
-    description: Owners for Hindi content
+    description: Approvers for Hindi content
     members:
-    - daminisatya
+    - anubha-v-ardhan
+    - divya-mohan0209
     - mittalyashu
-    - Rajakavitha1
     privacy: closed
   sig-docs-hi-reviews:
     description: PR reviews for Hindi content
-    members:
-    - daminisatya
+    members: 
+    - anubha-v-ardhan
+    - divya-mohan0209
     - mittalyashu
-    - Rajakavitha1
     privacy: closed
   sig-docs-id-owners:
     description: Approvers for Indonesian content

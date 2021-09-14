@@ -18,3 +18,15 @@ teams:
         - IanColdwater
         - tabbysable
         privacy: closed
+  sig-security-admins:
+    description: Admin access to sig-security repo
+    members:
+    - IanColdwater
+    - tabbysable
+    privacy: closed
+  sig-security-maintainers:
+    description: Write access to sig-security repo
+    members:
+    - IanColdwater
+    - tabbysable
+    privacy: closed

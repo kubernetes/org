@@ -24,5 +24,3 @@ To report any sensitive information, please email the private github@kubernetes.
 
 Participation in the Kubernetes community is governed by the
 [Kubernetes Code of Conduct](code-of-conduct.md).
-
-<!-- To be reverted: EasyCLA commit test. -->

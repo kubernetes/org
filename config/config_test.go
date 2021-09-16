@@ -17,6 +17,7 @@ limitations under the License.
 package config
 
 import (
+	"flag"
 	"fmt"
 	"io/ioutil"
 	"os"
@@ -30,6 +31,31 @@ import (
 
 	"github.com/ghodss/yaml"
 )
+
+var configPath = flag.String("config", "config.yaml", "Path to generated config")
+
+var cfg org.FullConfig
+
+func TestMain(m *testing.M) {
+	flag.Parse()
+	if *configPath == "" {
+		fmt.Println("--config must be set")
+		os.Exit(1)
+	}
+
+	raw, err := ioutil.ReadFile(*configPath)
+	if err != nil {
+		fmt.Printf("cannot read generated config.yaml from %s: %v\n", *configPath, err)
+		os.Exit(1)
+	}
+
+	if err := yaml.Unmarshal(raw, &cfg); err != nil {
+		fmt.Printf("cannot unmarshal generated config.yaml from %s: %v\n", *configPath, err)
+		os.Exit(1)
+	}
+
+	os.Exit(m.Run())
+}
 
 type owners struct {
 	Reviewers []string `json:"reviewers,omitempty"`
@@ -191,11 +217,6 @@ func testOrg(targetDir string, t *testing.T) {
 }
 
 func TestAllOrgs(t *testing.T) {
-	raw, err := ioutil.ReadFile("config.yaml")
-	var cfg org.FullConfig
-	if err := yaml.Unmarshal(raw, &cfg); err != nil {
-		t.Fatalf("cannot read config.yaml from //config:gen-config.yaml: %v", err)
-	}
 	f, err := os.Open(".")
 	if err != nil {
 		t.Fatalf("cannot read config: %v", err)

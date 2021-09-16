@@ -40,3 +40,20 @@ teams:
     - YoyinZyc
     - yuzhiquan
     privacy: closed
+  kube-state-metrics-admins:
+    description: Admin access to the kube-state-metrics repo
+    members:
+    - brancz
+    - lilic
+    - mrueg
+    - tariq1890
+    privacy: closed
+  kube-state-metrics-maintainers:
+    description: Write access to the kube-state-metrics repo
+    members:
+    - brancz
+    - fpetkovski
+    - lilic
+    - mrueg
+    - tariq1890
+    privacy: closed

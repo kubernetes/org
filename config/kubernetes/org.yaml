@@ -103,8 +103,10 @@ members:
 - ashnehete
 - astoycos
 - astrieanna
+- Atharva-Shinde
 - atoato88
 - Atoms
+- AuraSinis
 - Aut0R3V
 - aveshagarwal
 - avidLearnerInProgress
@@ -129,6 +131,7 @@ members:
 - bg-chun
 - bgrant0607
 - bharath-123
+- bhumijgupta
 - bigkraig
 - BinacsLee
 - blakebarnett
@@ -160,6 +163,7 @@ members:
 - cadmuxe
 - caesarxuchao
 - calebamiles
+- calvh
 - caniszczyk
 - cantbewong
 - CaoDonghui123
@@ -170,6 +174,7 @@ members:
 - cartyc
 - caseydavenport
 - castrojo
+- cccswann
 - ccojocar
 - cdrage
 - CecileRobertMichon
@@ -261,6 +266,7 @@ members:
 - dchen1107
 - ddebroy
 - deads2k
+- Debanitrkl
 - debgiles
 - deepak-vij
 - deitch
@@ -381,6 +387,7 @@ members:
 - gautierdelorme
 - gavinfish
 - geekygirldawn
+- geoffcline
 - geojaz
 - gerred
 - ggriffiths
@@ -540,6 +547,7 @@ members:
 - jingxu97
 - jingyih
 - jkaniuk
+- jkh52
 - jlbutler
 - jlewi
 - jluk
@@ -573,12 +581,15 @@ members:
 - juandiegopalomino
 - juanvallejo
 - julianvmodesto
+- jupblb
 - justaugustus
 - justinsb
 - jwforres
 - jygastaud
+- jyotimahapatra
 - k-toyoda-pi
 - k82cn
+- k8s-infra-cherrypick-robot
 - k8s-infra-ci-robot
 - k8s-publishing-bot
 - k8s-release-robot
@@ -595,6 +606,7 @@ members:
 - Kashomon
 - kaslin
 - kasramp
+- katcosgrove
 - Katharine
 - kawych
 - kbarnard10
@@ -646,10 +658,12 @@ members:
 - lapee79
 - LappleApple
 - lauchokyip
+- lauralorenz
 - lavalamp
 - lbernail
 - leakingtapan
 - leilajal
+- leonardpahlke
 - lex111
 - lianghao208
 - lichuqiang
@@ -728,6 +742,7 @@ members:
 - mcrute
 - mcshooter
 - medyagh
+- mehabhalodiya
 - melodychn
 - mengjiao-liu
 - mengqiy
@@ -745,6 +760,7 @@ members:
 - michelle192837
 - michelleN
 - michmike
+- mickeyboxell
 - micw523
 - mikebrow
 - mikedanese
@@ -764,6 +780,7 @@ members:
 - mkumatag
 - mlmhl
 - mm4tt
+- mmiranda96
 - mml
 - mohamedsgap
 - mohammedzee1000
@@ -802,7 +819,9 @@ members:
 - n4j
 - nader-ziada
 - nan-yu
+- nannancy
 - nasa9084
+- natalisucks
 - natasha41575
 - nate-double-u
 - navidshaikh
@@ -816,6 +835,7 @@ members:
 - nicolehanjing
 - nikopen
 - nilebox
+- NilimaC04
 - nilo19
 - nimbinatus
 - njuettner
@@ -846,6 +866,7 @@ members:
 - pancernik
 - pandaamanda
 - parispittman
+- parul5sahoo
 - pasqualet
 - PatrickLang
 - paulbouwer
@@ -921,6 +942,7 @@ members:
 - Rajat-0
 - rajatchopra
 - rajeshdeshpande02
+- rajibmitra
 - rajula96reddy
 - ramineni
 - ramrodo
@@ -983,6 +1005,7 @@ members:
 - sakshamsharma
 - salaxander
 - sallyom
+- sam-cogan
 - sambdavidson
 - samudralavamshi54
 - sanchezl
@@ -1035,6 +1058,7 @@ members:
 - simcard0000
 - simonswine
 - simplytunde
+- simrangupta234
 - siwyd
 - sjenning
 - sjpotter
@@ -1126,6 +1150,7 @@ members:
 - unguiculus
 - v-pap
 - vagababov
+- varshaprasad96
 - verb
 - Verolop
 - verult
@@ -1640,21 +1665,6 @@ teams:
     - apelisse
     - lavalamp
     - roycaihw
-    privacy: closed
-  kube-state-metrics-admins:
-    description: Admin access to the kube-state-metrics repo
-    members:
-    - brancz
-    - lilic
-    - tariq1890
-    privacy: closed
-  kube-state-metrics-maintainers:
-    description: Write access to the kube-state-metrics repo
-    members:
-    - brancz
-    - lilic
-    - mrueg
-    - tariq1890
     privacy: closed
   kubectl-admins:
     description: Admin access to the kubectl repo

@@ -17,8 +17,8 @@ teams:
     - puerco # subproject owner
     - saschagrunert # subproject owner
     privacy: closed
-  image-promoter-admins:
-    description: admin access to k8s-container-image-promoter
+  promo-tools-admins:
+    description: admin access to promo-tools
     members:
     - cpanato # subproject owner
     - jeremyrickard # subproject owner
@@ -28,9 +28,10 @@ teams:
     - saschagrunert # subproject owner
     privacy: closed
     previously:
+    - image-promoter-admins
     - k8s-container-image-promoter-admins
-  image-promoter-maintainers:
-    description: write access to k8s-container-image-promoter
+  promo-tools-maintainers:
+    description: write access to promo-tools
     members:
     - cpanato # subproject owner
     - jeremyrickard # subproject owner
@@ -40,6 +41,7 @@ teams:
     - saschagrunert # subproject owner
     privacy: closed
     previously:
+    - image-promoter-maintainers
     - k8s-container-image-promoter-maintainers
   mdtoc-admins:
     description: admin access to mdtoc

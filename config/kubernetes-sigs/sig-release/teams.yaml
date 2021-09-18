@@ -17,30 +17,6 @@ teams:
     - puerco # subproject owner
     - saschagrunert # subproject owner
     privacy: closed
-  image-promoter-admins:
-    description: admin access to k8s-container-image-promoter
-    members:
-    - cpanato # subproject owner
-    - jeremyrickard # subproject owner
-    - justaugustus # subproject owner / maintainer
-    - listx # maintainer
-    - puerco # subproject owner
-    - saschagrunert # subproject owner
-    privacy: closed
-    previously:
-    - k8s-container-image-promoter-admins
-  image-promoter-maintainers:
-    description: write access to k8s-container-image-promoter
-    members:
-    - cpanato # subproject owner
-    - jeremyrickard # subproject owner
-    - justaugustus # subproject owner / maintainer
-    - listx # maintainer
-    - puerco # subproject owner
-    - saschagrunert # subproject owner
-    privacy: closed
-    previously:
-    - k8s-container-image-promoter-maintainers
   mdtoc-admins:
     description: admin access to mdtoc
     members:
@@ -50,6 +26,41 @@ teams:
     - puerco # subproject owner
     - saschagrunert # subproject owner
     privacy: closed
+  mdtoc-maintainers:
+    description: write access to mdtoc
+    members:
+    - cpanato # subproject owner
+    - jeremyrickard # subproject owner
+    - justaugustus # subproject owner
+    - puerco # subproject owner
+    - saschagrunert # subproject owner
+    privacy: closed
+  promo-tools-admins:
+    description: admin access to promo-tools
+    members:
+    - cpanato # subproject owner
+    - jeremyrickard # subproject owner
+    - justaugustus # subproject owner / maintainer
+    - listx # maintainer
+    - puerco # subproject owner
+    - saschagrunert # subproject owner
+    privacy: closed
+    previously:
+    - image-promoter-admins
+    - k8s-container-image-promoter-admins
+  promo-tools-maintainers:
+    description: write access to promo-tools
+    members:
+    - cpanato # subproject owner
+    - jeremyrickard # subproject owner
+    - justaugustus # subproject owner / maintainer
+    - listx # maintainer
+    - puerco # subproject owner
+    - saschagrunert # subproject owner
+    privacy: closed
+    previously:
+    - image-promoter-maintainers
+    - k8s-container-image-promoter-maintainers
   release-engineering:
     description: Members of the Release Engineering subproject, including
       Release Managers and Release Manager Associates.

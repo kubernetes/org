@@ -26,6 +26,15 @@ teams:
     - puerco # subproject owner
     - saschagrunert # subproject owner
     privacy: closed
+  mdtoc-maintainers:
+    description: write access to mdtoc
+    members:
+    - cpanato # subproject owner
+    - jeremyrickard # subproject owner
+    - justaugustus # subproject owner
+    - puerco # subproject owner
+    - saschagrunert # subproject owner
+    privacy: closed
   promo-tools-admins:
     description: admin access to promo-tools
     members:

@@ -25,8 +25,8 @@ teams:
     - dims
     - thockin
     privacy: closed
-  wg-k8s-infra:
-    description: wg-k8s-infra members
+  sig-k8s-infra:
+    description: sig-k8s-infra members
     maintainers:
     - cblecker
     - idvoretskyi
@@ -51,13 +51,14 @@ teams:
     - thockin
     privacy: closed
     teams:
-      wg-k8s-infra-leads:
-        description: wg-k8s-infra chairs and technical leads
+      sig-k8s-infra-leads:
+        description: sig-k8s-infra chairs and technical leads
         maintainers:
         - spiffxp
         members:
         - ameukam
         - dims
+        - thockin
         privacy: closed
       k8s-infra-aws-admins:
         description: granted access to the k8s-infra AWS account

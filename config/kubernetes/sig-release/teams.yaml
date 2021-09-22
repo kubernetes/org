@@ -40,12 +40,12 @@ teams:
     - cheftako # Cloud Provider
     - chrigl # OpenStack
     - cici37 # 1.23 Release Notes Lead
+    - claudiubelu # Windows
     - cpanato # Release Manager
     - craiglpeters # Azure
     - dashpole # Instrumentation
     - dcbw # Network
     - dchen1107 # Node
-    - ddebroy # Windows
     - deads2k # API Machinery / Auth
     - derekwaynecarr # Architecture / Node
     - dims # Architecture / Release

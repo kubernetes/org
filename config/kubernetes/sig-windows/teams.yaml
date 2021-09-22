@@ -2,7 +2,7 @@ teams:
   sig-windows-bugs:
     description: For reporting and investigating bugs for sig-windows
     members:
-    - ddebroy
+    - claudiubelu
     - jayunit100
     - jsturtevant
     - marosset
@@ -10,7 +10,7 @@ teams:
   sig-windows-feature-requests:
     description: Feature requests for sig-windows
     members:
-    - ddebroy
+    - claudiubelu
     - jayunit100
     - jsturtevant
     - marosset
@@ -18,7 +18,7 @@ teams:
   sig-windows-leads:
     description: Special Interest Group Windows Leads
     members:
-    - ddebroy
+    - claudiubelu
     - jayunit100
     - jsturtevant
     - marosset
@@ -26,7 +26,7 @@ teams:
   sig-windows-misc:
     description: Special Interest Group Windows
     members:
-    - ddebroy
+    - claudiubelu
     - jayunit100
     - jsturtevant
     - marosset

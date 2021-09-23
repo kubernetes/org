@@ -1,8 +1,0 @@
-# See the OWNERS docs at https://go.k8s.io/owners
-
-reviewers:
-  - wg-component-standard-leads
-approvers:
-  - wg-component-standard-leads
-labels:
-  - wg/component-standard

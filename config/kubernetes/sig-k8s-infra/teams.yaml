@@ -9,20 +9,6 @@ teams:
     - k8s-infra-ci-robot
     - thockin
     privacy: closed
-  # TODO: consider getting rid of this in favor of k8s.io-admins if there's
-  # no meaningful distinction between "has write access", "has admin access",
-  # and "has root approval"
-  k8s.io-maintainers:
-    description: Write access to kubernetes/k8s.io
-    maintainers:
-    - cblecker
-    - nikhita
-    - spiffxp
-    members:
-    - ameukam
-    - dims
-    - thockin
-    privacy: closed
   sig-k8s-infra:
     description: sig-k8s-infra members
     maintainers:

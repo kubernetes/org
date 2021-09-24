@@ -102,22 +102,6 @@ teams:
     - timoreimann
     - timothysc
     privacy: closed
-  cluster-api-provider-docker-admins:
-    description: admin access to cluster-api-provider-docker repo
-    members:
-    - chuckha
-    - justinsb
-    - luxas
-    - timothysc
-    privacy: closed
-  cluster-api-provider-docker-maintainers:
-    description: write access to cluster-api-provider-docker repo
-    members:
-    - chuckha
-    - justinsb
-    - luxas
-    - timothysc
-    privacy: closed
   cluster-api-provider-gcp-admins:
     description: admin access to cluster-api-provider-gcp
     members:

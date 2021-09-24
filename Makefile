@@ -15,7 +15,7 @@
 SHELL := /bin/bash
 
 # available for override
-GITHUB_TOKEN_PATH ?= /etc/github-token/token
+GITHUB_TOKEN_PATH ?=
 TEST_INFRA_PATH ?= $(OUTPUT_DIR)/tmp/test-infra
 
 # intentionally hardcoded list to ensure it's high friction to remove someone
@@ -65,7 +65,7 @@ deploy: config test peribolos
 		--fix-org-members \
 		--fix-teams \
 		--fix-team-members \
-		--github-token-path=$(GITHUB_TOKEN_PATH) \
+		$(shell [ -n "${GITHUB_TOKEN_PATH}" ] && echo "--github-token-path=${GITHUB_TOKEN_PATH}") \
 		$(patsubst %, --required-admins=%, $(ADMINS)) \
 		$@
 

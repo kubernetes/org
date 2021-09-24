@@ -53,6 +53,10 @@ peribolos: $(PERIBOLOS_CMD)
 test: config
 	go test ./... --config=$(MERGED_CONFIG)
 
+.PHONY: verify
+verify:
+	./hack/verify.sh
+
 .PHONY: deploy # --confirm
 deploy: config test peribolos
 	$(PERIBOLOS_CMD) \

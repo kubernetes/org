@@ -2,8 +2,6 @@ teams:
   k8s.io-admins:
     description: Admin access to kubernetes/k8s.io
     maintainers:
-    - cblecker
-    - nikhita
     - spiffxp
     members:
     - ameukam

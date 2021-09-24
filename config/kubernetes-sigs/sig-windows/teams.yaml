@@ -2,7 +2,7 @@ teams:
   windows-gmsa-admins:
     description: Admin access to windows-gmsa repo
     members:
-    - ddebroy
+    - claudiubelu
     - jayunit100
     - jsturtevant
     - marosset
@@ -10,7 +10,7 @@ teams:
   windows-gmsa-maintainers:
     description: Write access to windows-gmsa repo
     members:
-    - ddebroy
+    - claudiubelu
     - jayunit100
     - jsturtevant
     - marosset
@@ -18,7 +18,7 @@ teams:
   sig-windows-samples-admins:
     description: Admin access to sig-windows-samples repo
     members:
-    - ddebroy
+    - claudiubelu
     - jayunit100
     - jsturtevant
     - marosset
@@ -28,7 +28,7 @@ teams:
   sig-windows-samples-maintainers:
     description: Write access to sig-windows-samples repo
     members:
-    - ddebroy
+    - claudiubelu
     - jayunit100
     - jsturtevant
     - marosset
@@ -38,7 +38,7 @@ teams:
   sig-windows-dev-tools-admins:
     description: Admin access to sig-windows-dev-tools repo
     members:
-    - ddebroy
+    - claudiubelu
     - jayunit100
     - jsturtevant
     - marosset
@@ -47,7 +47,7 @@ teams:
   sig-windows-tools-admins:
     description: Admin access to sig-windows-tools repo
     members:
-    - ddebroy
+    - claudiubelu
     - jayunit100
     - jsturtevant
     - marosset
@@ -55,7 +55,7 @@ teams:
   sig-windows-tools-maintainers:
     description: Write access to sig-windows-tools repo
     members:
-    - ddebroy
+    - claudiubelu
     - jayunit100
     - jsturtevant
     - marosset
@@ -64,7 +64,7 @@ teams:
     description: Admin access to the windows-testing repo
     members:
     - adelina-t
-    - ddebroy
+    - claudiubelu
     - jayunit100
     - jsturtevant
     - marosset
@@ -73,7 +73,7 @@ teams:
     description: Write access to the windows-testing repo
     members:
     - adelina-t
-    - ddebroy
+    - claudiubelu
     - jayunit100
     - jsturtevant
     - marosset

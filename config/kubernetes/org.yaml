@@ -1529,18 +1529,6 @@ teams:
     members:
     - irfanurrehman
     privacy: closed
-  frakti-admins:
-    description: Admin access to the frakti repo
-    members:
-    - dchen1107
-    - feiskyer
-    - resouer
-    privacy: closed
-  frakti-maintainers:
-    description: Write access to the frakti repo
-    members:
-    - feiskyer
-    privacy: closed
   gengo-admins:
     description: Admin access to the gengo repo
     members:

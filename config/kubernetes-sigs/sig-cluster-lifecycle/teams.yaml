@@ -21,21 +21,14 @@ teams:
   cluster-api-admins:
     description: ""
     members:
-    - davidewatson
-    - detiber
-    - justinsb
-    - luxas
-    - timothysc
+    - CecileRobertMichon
     - vincepri
     privacy: closed
   cluster-api-maintainers:
     description: ""
     members:
     - CecileRobertMichon
-    - davidewatson
-    - detiber
     - fabriziopandini
-    - timothysc
     - vincepri
     privacy: closed
   cluster-api-provider-aws-admins:

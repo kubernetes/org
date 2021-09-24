@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-SHELL := /bin/bash
+SHELL := /usr/bin/env bash
 
 # available for override
 GITHUB_TOKEN_PATH ?=
@@ -67,7 +67,7 @@ deploy: config test peribolos
 		--fix-team-members \
 		$(shell [ -n "${GITHUB_TOKEN_PATH}" ] && echo "--github-token-path=${GITHUB_TOKEN_PATH}") \
 		$(patsubst %, --required-admins=%, $(ADMINS)) \
-		$@
+		$(-*-command-variables-*-) $(filter-out $@,$(MAKECMDGOALS))
 
 # actual targets that only get built if they don't already exist
 $(MERGE_CMD):

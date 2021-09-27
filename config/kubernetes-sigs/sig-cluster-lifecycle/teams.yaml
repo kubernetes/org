@@ -137,6 +137,22 @@ teams:
     - benmoss
     - elmiko
     privacy: closed
+  cluster-api-provider-kubevirt-admins:
+    description: admin access to cluster-api-provider-kubevirt
+    members:
+    - agradouski
+    - cchengleo
+    - justinsb
+    - neolit123
+    - timothysc
+    - vincepri
+    privacy: closed
+  cluster-api-provider-kubevirt-maintainers:
+    description: write access to cluster-api-provider-kubevirt
+    members:
+    - agradouski
+    - cchengleo
+    privacy: closed
   cluster-api-provider-nested-admins:
     description: admin access to cluster-api-provider-nested
     members:

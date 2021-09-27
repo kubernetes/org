@@ -57,16 +57,12 @@ test: config
 verify:
 	./hack/verify.sh
 
+.PHONY: update-prep
+update-prep: config test peribolos
+
 .PHONY: deploy # --confirm
-deploy: config test peribolos
-	$(PERIBOLOS_CMD) \
-		--config-path $(MERGED_CONFIG) \
-		--fix-org \
-		--fix-org-members \
-		--fix-teams \
-		--fix-team-members \
-		$(shell [ -n "${GITHUB_TOKEN_PATH}" ] && echo "--github-token-path=${GITHUB_TOKEN_PATH}") \
-		$(patsubst %, --required-admins=%, $(ADMINS)) \
+deploy:
+	./admin-update.sh
 		$(-*-command-variables-*-) $(filter-out $@,$(MAKECMDGOALS))
 
 # actual targets that only get built if they don't already exist

@@ -29,6 +29,7 @@ OUTPUT_BIN_DIR := $(OUTPUT_DIR)/bin
 MERGE_CMD := $(OUTPUT_BIN_DIR)/merge
 PERIBOLOS_CMD := $(OUTPUT_BIN_DIR)/peribolos
 
+CONFIG_FILES = $(shell find config/ -type f -name '*.yaml')
 MERGED_CONFIG := $(OUTPUT_DIR)/gen-config.yaml
 
 # convenience targets for humans
@@ -70,7 +71,7 @@ $(MERGE_CMD):
 	mkdir -p "$(OUTPUT_BIN_DIR)"
 	go build -v -o "$(OUTPUT_BIN_DIR)" ./cmd/merge
 
-$(MERGED_CONFIG): $(MERGE_CMD) config/**/*.yaml
+$(MERGED_CONFIG): $(MERGE_CMD) $(CONFIG_FILES)
 	mkdir -p "$(OUTPUT_DIR)"
 	$(MERGE_CMD) \
 		--merge-teams \

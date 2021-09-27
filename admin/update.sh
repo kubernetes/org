@@ -13,20 +13,33 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-if [[ $# -lt 6 ]]; then
-  echo "Usage: bazel run //admin:update -- --github-token-path ~/my/github/token # --confirm" >&2
-  exit 1
-fi
-
 set -o errexit
 set -o nounset
 set -o pipefail
-set -o xtrace
+set -x
 
-pushd "$(dirname "$(realpath "$BASH_SOURCE")")"
-bazel test //config:all
-popd
-peribolos="$1"
-shift
-echo $@
-"$peribolos" $@
+REPO_ROOT=$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd -P)
+readonly REPO_ROOT
+
+readonly admins=(
+  cblecker
+  fejta
+  idvoretskyi
+  mrbobbytables
+  nikhita
+  spiffxp
+)
+
+cd "${REPO_ROOT}"
+make update-prep
+cmd="${REPO_ROOT}/_output/bin/peribolos"
+args=(
+  --config-path="${REPO_ROOT}/_output/gen-config.yaml"
+  --fix-org
+  --fix-org-members
+  --fix-teams
+  --fix-team-members
+  "${admins[@]/#/--required-admins=}"
+)
+
+"${cmd}" "${args[@]}" "${@}"

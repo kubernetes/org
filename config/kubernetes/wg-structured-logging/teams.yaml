@@ -1,0 +1,29 @@
+teams:
+  wg-structured-logging-leads:
+    description: ""
+    members:
+      - serathius
+      - shubheksha
+    privacy: closed
+  wg-structured-logging-members:
+    description: ""
+    members:
+      - MadhavJivrajani
+      - navidshaikh
+      - Priyankasaggu11929
+      - serathius
+      - shivanshu1333
+      - shubheksha
+      - yangjunmyfm192085
+      - yuzhiquan
+    privacy: closed
+  wg-structured-logging-reviews:
+    description: ""
+    members:
+      - navidshaikh
+      - serathius
+      - shivanshu1333
+      - shubheksha
+      - yangjunmyfm192085
+      - yuzhiquan
+    privacy: closed

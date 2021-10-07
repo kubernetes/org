@@ -93,6 +93,13 @@ teams:
     - seans3
     - vincepri
     privacy: closed
+  json-admins:
+    description: Admin access to the json repo
+    members:
+    - deads2k
+    - lavalamp
+    - liggitt
+    privacy: closed
   kubebuilder-admins:
     description: admin access to kubebuilder
     members:

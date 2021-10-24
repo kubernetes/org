@@ -43,12 +43,12 @@ teams:
     - adtac
     - alculquicondor
     - Huang-Wei
+    - sanposhiho
     privacy: closed
   kube-scheduler-simulator-maintainers:
     description: Write access to the kube-scheduler-simulator
     members:
     - adtac
-    - sanposhiho
     privacy: closed
   poseidon-admins:
     description: Admin access to the poseidon repo

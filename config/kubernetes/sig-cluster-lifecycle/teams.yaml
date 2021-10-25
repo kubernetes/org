@@ -24,19 +24,16 @@ teams:
   kubeadm-admins:
     description: Admin access to the kubeadm repo
     members:
-    - luxas
-    - timothysc
+    - fabriziopandini
+    - neolit123
+    - SataQiu
     privacy: closed
   kubeadm-maintainers:
     description: Write access to the kubeadm repo
     members:
-    - detiber
     - fabriziopandini
-    - luxas
     - neolit123
-    - rosti
     - SataQiu
-    - timothysc
     privacy: closed
   minikube-admins:
     description: Admin access to the minikube repo

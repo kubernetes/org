@@ -1611,8 +1611,9 @@ teams:
     description: Write access to the ingress-nginx repo
     members:
     - aledbf
-    - justinsb
+    - cpanato
     - rikatz
+    - strongjz
     privacy: closed
   intel:
     description: ""

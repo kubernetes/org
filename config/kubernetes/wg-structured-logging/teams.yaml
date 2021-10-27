@@ -2,18 +2,18 @@ teams:
   wg-structured-logging-leads:
     description: ""
     members:
+      - pohly
       - serathius
-      - shubheksha
     privacy: closed
   wg-structured-logging-members:
     description: ""
     members:
       - MadhavJivrajani
       - navidshaikh
+      - pohly
       - Priyankasaggu11929
       - serathius
       - shivanshu1333
-      - shubheksha
       - yangjunmyfm192085
       - yuzhiquan
     privacy: closed
@@ -21,9 +21,9 @@ teams:
     description: ""
     members:
       - navidshaikh
+      - pohly
       - serathius
       - shivanshu1333
-      - shubheksha
       - yangjunmyfm192085
       - yuzhiquan
     privacy: closed

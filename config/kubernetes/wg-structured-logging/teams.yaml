@@ -9,6 +9,7 @@ teams:
     description: ""
     members:
       - MadhavJivrajani
+      - mengjiao-liu
       - navidshaikh
       - pohly
       - Priyankasaggu11929
@@ -20,6 +21,7 @@ teams:
   wg-structured-logging-reviews:
     description: ""
     members:
+      - mengjiao-liu
       - navidshaikh
       - pohly
       - serathius

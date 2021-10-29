@@ -178,6 +178,24 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
+  csi-driver-nvmf-admins:
+    description: Admin access to csi-driver-nvmf repo
+    members:
+    - jsafrane
+    - MeinhardZhou
+    - msau42
+    - saad-ali
+    - xing-yang
+    privacy: closed
+  csi-driver-nvmf-maintainers:
+    description: Write access to csi-driver-nvmf repo
+    members:
+    - jsafrane
+    - MeinhardZhou
+    - msau42
+    - saad-ali
+    - xing-yang
+    privacy: closed
   csi-driver-smb-admins:
     description: Admin access to csi-driver-smb repo
     members:

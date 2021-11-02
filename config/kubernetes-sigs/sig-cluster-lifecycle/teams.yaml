@@ -175,19 +175,12 @@ teams:
   cluster-api-provider-openstack-admins:
     description: admin access to cluster-api-provider-openstack
     members:
-    - chaosaffe
-    - dims
-    - luxas
-    - roberthbailey
+    - jichenjc
     - sbueringer
-    - timothysc
     privacy: closed
   cluster-api-provider-openstack-maintainers:
     description: write access to cluster-api-provider-openstack
     members:
-    - chaosaffe
-    - chrigl
-    - dims
     - hidekazuna
     - jichenjc
     - sbueringer

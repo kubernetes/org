@@ -18,19 +18,18 @@ teams:
   cli-utils-admins:
     description: admin access to cli-utils
     members:
-    - Liujingfang1
-    - mortent
-    - phanimarupaka
-    - pwittrock
+    - eddiezane
+    - knverey
     - seans3
     - soltysh
     privacy: closed
   cli-utils-maintainers:
     description: write access to cli-utils
     members:
+    - karlkfi
     - liggitt
     - Liujingfang1
-    - monopole
+    - mortent
     privacy: closed
   krew-admins:
     description: admin access to krew

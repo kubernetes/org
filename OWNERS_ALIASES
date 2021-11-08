@@ -21,8 +21,8 @@ aliases:
     - gjtempleton
     - mwielgus
   sig-cli-leads:
-    - eddiezane
     - KnVerey
+    - eddiezane
     - seans3
     - soltysh
   sig-cloud-provider-leads:
@@ -39,8 +39,8 @@ aliases:
     - mrbobbytables
     - nikhita
   sig-docs-leads:
-    - jimangel
     - divya-mohan0209
+    - jimangel
     - kbhawkey
     - onlydole
     - sftim
@@ -52,8 +52,8 @@ aliases:
   sig-k8s-infra-leads:
     - ameukam
     - dims
-    - thockin
     - spiffxp
+    - thockin
   sig-multicluster-leads:
     - jeremyot
     - pmorie
@@ -77,6 +77,7 @@ aliases:
   sig-scheduling-leads:
     - Huang-Wei
     - ahg-g
+    - alculquicondor
   sig-security-leads:
     - IanColdwater
     - tabbysable
@@ -120,10 +121,6 @@ aliases:
   wg-multitenancy-leads:
     - srampal
     - tashimi
-  wg-naming-leads:
-    - celestehorgan
-    - jdumars
-    - justaugustus
   wg-policy-leads:
     - JimBugwadia
     - rficcaglia
@@ -132,8 +129,8 @@ aliases:
     - stevekuznetsov
     - wojtek-t
   wg-structured-logging-leads:
+    - pohly
     - serathius
-    - shubheksha
   ug-big-data-leads:
     - erikerlandson
     - foxish
@@ -144,11 +141,11 @@ aliases:
     - mylesagray
     - phenixblue
   committee-code-of-conduct:
-    - AevaOnline
     - celestehorgan
     - karenhchu
-    - tashimi
+    - palnabarun
     - tpepper
+    - vllry
   committee-security-response:
     - cjcullen
     - joelsmith
@@ -159,17 +156,16 @@ aliases:
     - tallclair
   committee-steering:
     - cblecker
-    - derekwaynecarr
     - dims
+    - justaugustus
     - liggitt
     - mrbobbytables
-    - nikhita
     - parispittman
+    - tpepper
 ## BEGIN CUSTOM CONTENT
   provider-aws:
     - justinsb
     - nckturner
-    - jaypipes
     - wongma7
   provider-azure:
     - craiglpeters

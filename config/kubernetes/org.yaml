@@ -1877,12 +1877,12 @@ teams:
     maintainers:
     - cblecker
     - mrbobbytables
-    - nikhita
     members:
-    - derekwaynecarr
     - dims
+    - justaugustus
     - liggitt
     - parispittman
+    - tpepper
     privacy: closed
   ubuntu-image:
     description: ""

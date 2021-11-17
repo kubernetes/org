@@ -17,6 +17,7 @@ teams:
       - shivanshu1333
       - yangjunmyfm192085
       - yuzhiquan
+      - pchan
     privacy: closed
   wg-structured-logging-reviews:
     description: ""
@@ -28,4 +29,5 @@ teams:
       - shivanshu1333
       - yangjunmyfm192085
       - yuzhiquan
+      - pchan
     privacy: closed

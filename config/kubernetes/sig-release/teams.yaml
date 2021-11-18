@@ -64,10 +64,10 @@ teams:
     - jameslaverack # 1.23 RT Lead Shadow
     - janetkuo # Apps
     - jayunit100 # Windows
-    - jberkhahn # Service Catalog
     - jberkus # Release
     - jdumars # Architecture / PM
     - jeremyrickard # Release / 1.23 Emeritus Adviser
+    - jhvhs # Service Catalog
     - jimangel # Docs / Release Manager Associate
     - jlbutler # 1.23 Docs Lead
     - johnbelamaric # Architecture
@@ -99,7 +99,6 @@ teams:
     - mm4tt # Scalability
     - monzelmasry # 1.23 Lead Shadow
     - msau42 # Storage
-    - mszostok # Service Catalog
     - mwielgus # Autoscaling
     - nannancy # 1.23 Bug Triage Shadow
     - nckturner # AWS

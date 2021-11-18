@@ -3,7 +3,6 @@ teams:
     description: Notifications for SIG service-catalog
     members:
     - carolynvs
-    - jberkhahn
     - jhvhs
     - mhbauer
     previously:

@@ -2,7 +2,6 @@ teams:
   service-catalog-admins:
     description: Admin access to the service-catalog repo
     members:
-    - jberkhahn
     - jhvhs
     privacy: closed
   service-catalog-maintainers:

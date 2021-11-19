@@ -1,4 +1,22 @@
 teams:
+  bom-admins:
+    description: admin access to the bom repo
+    members:
+    - cpanato # subproject owner
+    - jeremyrickard # subproject owner
+    - justaugustus # subproject owner
+    - puerco # subproject owner
+    - saschagrunert # subproject owner
+    privacy: closed
+  bom-maintainers:
+    description: write access to the bom repo
+    members:
+    - cpanato # subproject owner
+    - jeremyrickard # subproject owner
+    - justaugustus # subproject owner
+    - puerco # subproject owner
+    - saschagrunert # subproject owner
+    privacy: closed
   downloadkubernetes-admins:
     description: admin access to downloadkubernetes
     members:

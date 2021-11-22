@@ -37,6 +37,8 @@ var (
 	defaultRestriction = Restriction{Path: "*", AllowedReposRe: []*regexp.Regexp{emptyRegexp}}
 )
 
+var errRestrictionViolation = errors.New("restriction violated")
+
 type Config struct {
 	Restrictions []Restriction `json:"restrictions"`
 }
@@ -72,6 +74,7 @@ func main() {
 		logrus.Fatalf("Failed to compile regexp for restrictions config: %v", err)
 	}
 
+	var restrictionViolated bool
 	for name, path := range o.orgs {
 		logrus.Infof("Validating restrictions for %s org", name)
 		prefix := filepath.Dir(path)
@@ -86,6 +89,9 @@ func main() {
 				return nil // Ignore prefix/foo files
 			case filepath.Base(path) == "teams.yaml" || filepath.Base(path) == "org.yaml":
 				if err := resolveRestriction(restrictions, path); err != nil {
+					if errors.Is(err, errRestrictionViolation) {
+						restrictionViolated = true
+					}
 					logrus.Error(err)
 				}
 			}
@@ -95,7 +101,9 @@ func main() {
 			logrus.Fatalf("Failed to walk through files at %s", path)
 		}
 	}
-
+	if restrictionViolated {
+		logrus.Fatal("restriction violation(s) detected.")
+	}
 }
 
 func unmarshalPathToRestrictionsConfig(path string) (*Config, error) {
@@ -137,9 +145,7 @@ func resolveRestriction(restrictions []Restriction, path string) error {
 	for teamName, team := range orgCfg.Teams {
 		for repo := range team.Repos {
 			if !matchesRegexList(repo, r.AllowedReposRe) {
-				if err2 == nil {
-					err2 = errors.New("") // needed to ensure %w is not nil below
-				}
+				err2 = errRestrictionViolation
 				err2 = fmt.Errorf("%w\n%q: cannot define repo %q for team %q", err2, path, repo, teamName)
 			}
 		}

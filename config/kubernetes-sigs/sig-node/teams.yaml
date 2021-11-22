@@ -16,16 +16,18 @@ teams:
   security-profiles-operator-admins:
     description: Admin access to security-profiles-operator repo
     members:
-    - pjbgf
-    - saschagrunert
     - JAORMX
     - jhrozek
+    - pjbgf
+    - saschagrunert
     privacy: closed
     previously:
     - seccomp-operator-admins
   security-profiles-operator-maintainers:
     description: Write access to security-profiles-operator repo
     members:
+    - JAORMX
+    - jhrozek
     - pjbgf
     - saschagrunert
     privacy: closed

@@ -18,6 +18,8 @@ teams:
     members:
     - pjbgf
     - saschagrunert
+    - JAORMX
+    - jhrozek
     privacy: closed
     previously:
     - seccomp-operator-admins

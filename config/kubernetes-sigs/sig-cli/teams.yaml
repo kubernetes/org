@@ -71,6 +71,20 @@ teams:
     - seans3
     - soltysh
     privacy: closed
+  krm-functions-registry-admins:
+    description: admin access to krm-functions-registry
+    members:
+    - jeremyrickard
+    - KnVerey
+    - mengqiy
+    privacy: closed
+  krm-functions-registry-maintainers:
+    description: write access to krm-functions-registry
+    members:
+    - jeremyrickard
+    - KnVerey
+    - mengqiy
+    privacy: closed
   kui-admins:
     description: admin access to kui
     members:

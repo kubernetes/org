@@ -163,6 +163,21 @@ teams:
     privacy: closed
     previously:
     - publishing-bot-reviewers
+  publishing-bot-maintainers:
+    description: Write access to the publishing-bot repo
+    maintainers:
+    - nikhita
+    members:
+    - cpanato
+    - dims
+    - jeremyrickard
+    - justaugustus
+    - puerco
+    - saschagrunert
+    - sttts
+    - Verolop
+    - xmudrii
+    privacy: closed
   repo-infra-admins:
     description: Admin access to the repo-infra repo
     maintainers:

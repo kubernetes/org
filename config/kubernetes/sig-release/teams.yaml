@@ -148,8 +148,8 @@ teams:
     privacy: closed
     previously:
     - kubernetes-milestone-maintainers
-  publishing-bot-reviewers:
-    description: Reviews for publishing-bot
+  publishing-bot-admins:
+    description: Admin access to the publishing-bot repo
     maintainers:
     - nikhita
     members:
@@ -158,6 +158,8 @@ teams:
     - mfojtik
     - sttts
     privacy: closed
+    previously:
+    - publishing-bot-reviewers
   repo-infra-admins:
     description: Admin access to the repo-infra repo
     maintainers:

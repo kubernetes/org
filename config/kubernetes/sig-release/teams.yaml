@@ -153,7 +153,12 @@ teams:
     maintainers:
     - nikhita
     members:
+    - cpanato
     - dims
+    - jeremyrickard
+    - justaugustus
+    - puerco
+    - saschagrunert
     - sttts
     privacy: closed
     previously:

@@ -16,6 +16,9 @@ admins:
 - spiffxp
 - thelinuxfoundation
 members:
+- ameukam
+- palnabarun
+- savitharaghunathan
 teams:
   bots:
     description: Bot service accounts in the kubernetes-nightly org

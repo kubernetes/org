@@ -17,8 +17,17 @@ admins:
 - thelinuxfoundation
 members:
 - ameukam
+- cpanato
+- dims
+- jeremyrickard
+- justaugustus
 - palnabarun
+- puerco
+- saschagrunert
 - savitharaghunathan
+- sttts
+- Verolop
+- xmudrii
 teams:
   bots:
     description: Bot service accounts in the kubernetes-nightly org

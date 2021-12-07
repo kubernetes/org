@@ -2,12 +2,11 @@ teams:
   publishing-bot-admins:
     description: Admin access to publishing repositories
     maintainers:
-    - nikhita
-    members:
     - cpanato
     - dims
     - jeremyrickard
     - justaugustus
+    - nikhita
     - puerco
     - saschagrunert
     - sttts
@@ -17,15 +16,15 @@ teams:
   publishing-bot-maintainers:
     description: Write access to publishing repositories
     maintainers:
-    - nikhita
-    members:
     - cpanato
     - dims
     - jeremyrickard
     - justaugustus
+    - nikhita
     - puerco
     - saschagrunert
     - sttts
+    members:
     - Verolop
     - xmudrii
     privacy: closed

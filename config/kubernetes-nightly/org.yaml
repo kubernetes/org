@@ -7,25 +7,25 @@ members_can_create_repositories: false
 billing_email: github@kubernetes.io
 admins:
 - cblecker
+- cpanato
+- dims
 - fejta
 - idvoretskyi
+- jeremyrickard
+- justaugustus
 - k8s-ci-robot
 - k8s-github-robot
 - mrbobbytables
 - nikhita
+- puerco
+- saschagrunert
 - spiffxp
+- sttts
 - thelinuxfoundation
 members:
 - ameukam
-- cpanato
-- dims
-- jeremyrickard
-- justaugustus
 - palnabarun
-- puerco
-- saschagrunert
 - savitharaghunathan
-- sttts
 - Verolop
 - xmudrii
 teams:

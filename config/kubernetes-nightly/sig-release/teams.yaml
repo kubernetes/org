@@ -1,0 +1,30 @@
+teams:
+  publishing-bot-admins:
+    description: Admin access to publishing repositories
+    maintainers:
+    - cpanato
+    - dims
+    - jeremyrickard
+    - justaugustus
+    - nikhita
+    - puerco
+    - saschagrunert
+    - sttts
+    privacy: closed
+    previously:
+    - publishing-bot-reviewers
+  publishing-bot-maintainers:
+    description: Write access to publishing repositories
+    maintainers:
+    - cpanato
+    - dims
+    - jeremyrickard
+    - justaugustus
+    - nikhita
+    - puerco
+    - saschagrunert
+    - sttts
+    members:
+    - Verolop
+    - xmudrii
+    privacy: closed

@@ -1,0 +1,41 @@
+name: Kubernetes Nightly
+description: Org for Kubernetes publishing-bot work
+default_repository_permission: read
+has_organization_projects: true
+has_repository_projects: true
+members_can_create_repositories: false
+billing_email: github@kubernetes.io
+admins:
+- cblecker
+- cpanato
+- dims
+- fejta
+- idvoretskyi
+- jeremyrickard
+- justaugustus
+- k8s-ci-robot
+- k8s-github-robot
+- mrbobbytables
+- nikhita
+- puerco
+- saschagrunert
+- spiffxp
+- sttts
+- thelinuxfoundation
+members:
+- ameukam
+- k8s-publishing-bot
+- palnabarun
+- savitharaghunathan
+- Verolop
+- xmudrii
+teams:
+  bots:
+    description: Bot service accounts in the kubernetes-nightly org
+    maintainers:
+    - k8s-ci-robot
+    - k8s-github-robot
+    - thelinuxfoundation
+    members:
+    - k8s-publishing-bot
+    privacy: closed

@@ -24,6 +24,7 @@ admins:
 - thelinuxfoundation
 members:
 - ameukam
+- k8s-publishing-bot
 - palnabarun
 - savitharaghunathan
 - Verolop
@@ -35,4 +36,6 @@ teams:
     - k8s-ci-robot
     - k8s-github-robot
     - thelinuxfoundation
+    members:
+    - k8s-publishing-bot
     privacy: closed

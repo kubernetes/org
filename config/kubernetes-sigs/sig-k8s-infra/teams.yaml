@@ -1,0 +1,19 @@
+teams:
+  oci-proxy-admins:
+    description: Admin access to kubernetes-sigs/oci-proxy
+    maintainers:
+    - spiffxp
+    members:
+    - ameukam
+    - dims
+    - thockin
+    privacy: closed
+  oci-proxy-maintainers:
+    description: Write access to kubernetes-sigs/oci-proxy
+    maintainers:
+    - spiffxp
+    members:
+    - ameukam
+    - dims
+    - thockin
+    privacy: closed

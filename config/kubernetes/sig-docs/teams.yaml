@@ -317,7 +317,6 @@ teams:
     - jcjesus # L10n: Portuguese
     - jhonmike # L10n: Portuguese
     - jimangel # L10n: English
-    - jlbutler # 1.23 RT Docs Lead temporary access for release
     - mfilocha # L10n: Polish
     - mittalyashu # L10n: Hindi
     - msheldyakov # L10n: Russian
@@ -347,7 +346,6 @@ teams:
     - bene2k1
     - bradtopol
     - celestehorgan
-    - chrisnegus # 1.23 RT Docs Shadow
     - claudiajkang
     - cstoku
     - dianaabv
@@ -358,14 +356,12 @@ teams:
     - inductor
     - jcjesus
     - jimangel
-    - jlbutler # 1.23 RT Docs Lead
     - juandiegopalomino
     - jygastaud
     - lledru
-    # - mehabhalodiya # 1.23 Docs Shadow (not in K8s org)
     - msheldyakov
     - nasa9084
-    - nate-double-u # 1.23 RT Docs Shadow
+    - nate-double-u # 1.24 RT Docs Lead
     - ngtuna
     - onlydole
     - oussemos
@@ -373,7 +369,6 @@ teams:
     - potapy4
     - raelga
     - Rajakavitha1
-    - ramrodo # 1.23 RT Docs Shadow
     - rbenzair
     - rekcah78
     - remyleone

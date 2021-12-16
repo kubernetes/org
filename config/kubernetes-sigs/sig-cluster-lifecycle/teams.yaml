@@ -208,20 +208,19 @@ teams:
     description: Admin access to the cluster-api-provider-vsphere repo
     members:
     - akutz
-    - andrewsykim
     - frapposelli
+    - srm09
     - yastij
     privacy: closed
   cluster-api-provider-vsphere-maintainers:
     description: Write access to the cluster-api-provider-vsphere repo
     members:
     - akutz
-    - andrewsykim
-    - detiber
     - figo
     - frapposelli
     - randomvariable
     - sidharthsurana
+    - srm09
     - vincepri
     - yastij
     privacy: closed

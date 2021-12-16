@@ -106,7 +106,7 @@ teams:
     - NilimaC04 # 1.23 Bug Triage Shadow
     - onlydole # Release Manager Associate
     - oxddr # Scalability
-    - palnabarun # Release Manager Associate
+    - palnabarun # Release Manager
     - parispittman # ContribEx
     - phillels # ContribEx
     - pmorie # Multicluster
@@ -172,6 +172,7 @@ teams:
     - dims
     - jeremyrickard
     - justaugustus
+    - palnabarun
     - puerco
     - saschagrunert
     - sttts
@@ -251,7 +252,7 @@ teams:
         - justaugustus # subproject owner / Release Manager
         - mkorbi # Release Manager Associate
         - onlydole # Release Manager Associate
-        - palnabarun # Release Manager Associate
+        - palnabarun # Release Manager
         - puerco # subproject owner / Release Manager
         - saschagrunert # subproject owner / Release Manager
         - sethmccombs # Release Manager Associate
@@ -270,6 +271,7 @@ teams:
             - cpanato
             - justaugustus
             - k8s-release-robot
+            - palnabarun
             - puerco
             - saschagrunert
             - Verolop

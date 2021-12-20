@@ -32,6 +32,12 @@ teams:
     - fabriziopandini
     - vincepri
     privacy: closed
+  cluster-api-operator-admins:
+    description: "admin access to cluster-api-operator"
+    members:
+    - alexander-demichev
+    - JoelSpeed
+    privacy: closed
   cluster-api-provider-aws-admins:
     description: admin access to cluster-api-provider-aws
     members:

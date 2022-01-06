@@ -6,7 +6,8 @@ teams:
     - mrbobbytables
     - nikhita
     members:
-    - castrojo
+    - chris-short
+    - kaslin
     privacy: closed
   contributor-tweets-maintainers:
     description: write access to contributor-tweets

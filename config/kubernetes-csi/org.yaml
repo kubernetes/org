@@ -150,6 +150,7 @@ teams:
   csi-driver-iscsi-admins:
     description: Admin access to csi-driver-iscsi repo
     members:
+    - andyzhangx
     - jsafrane
     - msau42
     - saad-ali
@@ -158,6 +159,7 @@ teams:
   csi-driver-iscsi-maintainers:
     description: Write access to csi-driver-iscsi repo
     members:
+    - andyzhangx
     - jsafrane
     - msau42
     - saad-ali
@@ -234,6 +236,7 @@ teams:
   csi-lib-iscsi-admins:
     description: Admin access to csi-lib-iscsi repo
     members:
+    - andyzhangx
     - jsafrane
     - msau42
     - saad-ali
@@ -242,6 +245,7 @@ teams:
   csi-lib-iscsi-maintainers:
     description: Write access to csi-lib-iscsi repo
     members:
+    - andyzhangx
     - jsafrane
     - msau42
     - saad-ali

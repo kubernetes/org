@@ -283,53 +283,52 @@ teams:
       release-team:
         description: Members of the current Release Team and subproject owners.
         members:
-        - AuraSinis # 1.23 Release Notes Shadow
-        - calvh # 1.23 CI Signal Shadow
-        - cccswann # 1.23 Release Comms Shadow
-        - chrisnegus # 1.23 Docs Shadow
-        - cici37 # 1.23 Release Notes Lead
+        - AuraSinis # 1.24 Release Notes Lead
+        - chrisnegus # 1.24 Docs Shadow
+        - cici37 # 1.24 RT Lead Shadow
         - cpanato # subproject owner / Technical Lead
-        - Damans227 # 1.23 Release Notes Shadow
-        - encodeflush # 1.23 CI Signal Lead
-        - gracenng # 1.23 Enhancements Shadow
-        - jameslaverack # 1.23 RT Lead Shadow
+        - csantanapr # 1.24 Release Notes Shadow
+        - encodeflush # 1.24 Enhancements Shadow
+        - Debanitrkl # 1.24 Comms Shadow
+        - didicodes # 1.24 Docs Shadow
+        - DiptoChakrabarty # 1.24 Bug Triage Shadow
+        - doshyt # 1.24 Bug Triage Shadow
+        - gracenng # 1.24 Enhancements Lead
+        - helayoty # 1.24 Bug Triage Shadow
+        - jameslaverack # subproject owner (1.24 RT Lead)
         - jeremyrickard # subproject owner / Technical Lead
-        - jlbutler # 1.23 Docs Lead
-        - jrsapi # 1.23 RT Lead Shadow
+        - jiahuif # 1.24 Enhancements Shadow
+        - jlbutler # 1.24 RT Lead Shadow
+        - jrsapi # 1.24 EA
         - justaugustus # subproject owner / Chair
-        - jyotimahapatra # 1.23 Bug Triage Shadow
-        - karenhchu # 1.23 Release Comms Lead
-        - kaslin # 1.23 Release Comms Shadow 
-        - katcosgrove # 1.23 Release Comms Shadow
-        - kevindelgado # 1.23 Enhancements Shadow
-        - lauralorenz # 1.23 Enhancements Shadow
-        - leonardpahlke # 1.23 CI Signal Shadow
-        - mehabhalodiya # 1.23 Docs Shadow
-        - mickeyboxell # 1.23 Release Comms Shadow
-        - mkorbi # 1.23 RT Lead Shadow
-        - monzelmasry # 1.23 RT Lead Shadow
-        - nannancy # 1.23 Bug Triage Shadow
-        - nate-double-u # 1.23 Docs Shadow
-        - NilimaC04 # 1.23 Bug Triage Shadow
+        - jyotimahapatra # 1.24 Bug Triage Lead
+        - katcosgrove # 1.24 Release Comms Shadow
+        - lauralorenz # 1.24 CI Signal Shadow
+        - leonardpahlke # 1.24 CI Signal Lead
+        - Lp-Francois # 1.24 Release Notes Shadow
+        - mehabhalodiya # 1.24 Docs Shadow
+        - mickeyboxell # 1.24 Comms Lead
+        - mkorbi # 1.24 RT Lead Shadow
+        - nate-double-u # 1.24 Docs Lead
+        - Nivedita-coder # 1.24 CI Signal Shadow
         - onlydole # subproject owner (1.19 RT Lead)
         - palnabarun # subproject owner (1.21 RT Lead)
-        - parul5sahoo # 1.23 Release Notes Shadow
-        - Priyankasaggu11929 # 1.23 Enhancements Shadow
+        - parul5sahoo # 1.24 Release Notes Shadow
+        - pi-victor # 1.24 Docs Shadow
+        - Priyankasaggu11929 # 1.24 Enhancements Shadow
         - puerco # subproject owner / Technical Lead
-        - rajula96reddy # 1.23 CI Signal Shadow
-        - ramrodo # 1.23 Docs Shadow
         - reylejano # subproject owner (1.23 RT Lead)
-        - RinkiyaKeDad # 1.23 CI Signal Shadow
-        - ritpanjw # 1.23 Bug Triage Shadow
-        - salaxander # 1.23 Enhancements Lead
-        - sam-cogan # 1.23 Release Notes Shadow
+        - rhockenbury # 1.24 Enhancements Shadow
+        - RinkiyaKeDad # 1.24 Release Notes Shadow
+        - ritpanjw # 1.24 Bug Triage Shadow
+        - s04 # 1.24 Comms Shadow
+        - salaxander # 1.24 RT Lead Shadow
         - saschagrunert # subproject owner / Chair
         - savitharaghunathan # subproject owner (1.22 RT Lead)
-        - simrangupta234 # 1.23 CI Signal Shadow
-        - supriya-premkumar # 1.23 Enhancements Shadow
-        - varshaprasad96 # 1.23 Bug Triage Shadow
+        - shuheiktgw # 1.24 CI Signal Shadow
+        - valaparthvi # 1.24 Comms Shadow
         - Verolop # Release Manager
-        - voigt # 1.23 Bug Triage Lead
+        - voigt # 1.24 CI Signal Shadow
         - xmudrii # Release Manager
         privacy: closed
         teams:

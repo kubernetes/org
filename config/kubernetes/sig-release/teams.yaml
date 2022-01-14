@@ -349,12 +349,12 @@ teams:
               as a notification group. Remove org members who are not current
               Release Team Leads.
             members:
-            - jameslaverack # 1.23 RT Lead Shadow
-            - jeremyrickard # 1.23 Emeritus Advisor
-            - jrsapi # 1.23 RT Lead Shadow
-            - mkorbi # 1.23 RT Lead Shadow
-            - monzelmasry # 1.23 RT Lead Shadow
-            - reylejano # 1.23 RT Lead
+            - cici37 # 1.24 RT Lead Shadow
+            - jameslaverack # 1.24 RT Lead
+            - jlbutler # 1.24 RT Lead Shadow
+            - jrsapi # 1.24 EA
+            - mkorbi # 1.24 RT Lead Shadow
+            - salaxander # 1.24 RT Lead Shadow
             privacy: closed
       sig-release-admins:
         description: Admins for SIG Release repositories

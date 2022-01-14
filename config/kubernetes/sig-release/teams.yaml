@@ -336,12 +336,11 @@ teams:
             description: Members of the CI Signal team for the current release
               cycle.
             members:
-            - calvh # 1.23 CI Signal Shadow
-            - encodeflush # 1.23 CI Signal Lead
-            - leonardpahlke # 1.23 CI Signal Shadow
-            - rajula96reddy # 1.23 CI Signal Shadow
-            - RinkiyaKeDad # 1.23 CI Signal Shadow
-            - simrangupta234 # 1.23 CI Signal Shadow
+            - lauralorenz # 1.24 CI Signal Shadow
+            - leonardpahlke # 1.24 CI Signal Lead
+            - Nivedita-coder # 1.24 CI Signal Shadow
+            - shuheiktgw # 1.24 CI Signal Shadow
+            - voigt # 1.24 CI Signal Shadow
             privacy: closed
           release-team-leads:
             description: Release Team Leads for the current Kubernetes release

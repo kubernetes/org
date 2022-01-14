@@ -39,7 +39,7 @@ teams:
     - caseydavenport # Network
     - cheftako # Cloud Provider
     - chrigl # OpenStack
-    - cici37 # 1.23 Release Notes Lead
+    - cici37 # 1.24 Release Lead Shadow
     - claudiubelu # Windows
     - cpanato # Release Manager
     - craiglpeters # Azure
@@ -49,43 +49,46 @@ teams:
     - deads2k # API Machinery / Auth
     - derekwaynecarr # Architecture / Node
     - dims # Architecture / Release
+    - DiptoChakrabarty # 1.24 Bug Triage Shadow
+    - doshyt # 1.24 Bug Triage Shadow
     - eddiezane # CLI
     - ehashman # Instrumentation
-    - encodeflush # 1.23 CI Signal Lead
+    - encodeflush # 1.24 Enhancements Shadow
     - enj # Auth
     - fabriziopandini # Cluster Lifecycle
     - feiskyer # Azure
     - floreks # UI
     - foxish # Big Data
     - frapposelli # VMware
-    - gracenng # 1.23 Enhancements Shadow
+    - gracenng # 1.24 Enhancements Lead
+    - helayoty # 1.24 Bug Triage Shadow
     - hpandeycodeit # Usability
     - Huang-Wei # Scheduling
-    - jameslaverack # 1.23 RT Lead Shadow
+    - jameslaverack # 1.24 RT Lead
     - janetkuo # Apps
     - jayunit100 # Windows
     - jberkus # Release
     - jdumars # Architecture / PM
-    - jeremyrickard # Release / 1.23 Emeritus Adviser
+    - jeremyrickard # Release
     - jhvhs # Service Catalog
+    - jiahuif # 1.24 Enhancements Shadow
     - jimangel # Docs / Release Manager Associate
-    - jlbutler # 1.23 Docs Lead
+    - jlbutler # 1.24 RT Lead Shadow
     - johnbelamaric # Architecture
-    - jrsapi # 1.23 RT Lead Shadow
+    - jrsapi # 1.24 EA
     - jsafrane # Storage
     - jsturtevant # Windows
     - justaugustus # Release
     - justinsb # AWS / Cluster Lifecycle
-    - jyotimahapatra # 1.23 Bug Triage Shadow
+    - jyotimahapatra # 1.24 Bug Triage Lead
     - k8s-release-robot # Release
     - karenhchu # 1.23 Release Comms Lead
-    - kevindelgado # 1.23 Enhancements Shadow
     - khenidak # Azure
     - KnVerey # CLI
     - kow3ns # Apps
-    - lauralorenz # 1.23 Enhancements Shadow
     - lavalamp # API Machinery
     - liggitt # Auth / Release
+    - leonardpahlke # 1.24 CI Signal Lead
     - lingxiankong # OpenStack
     - liyinan926 # Big Data
     - logicalhan # Instrumentation
@@ -94,33 +97,32 @@ teams:
     - marosset # Windows
     - mattfarina # Apps / Architecture
     - mborsz # Scalability
+    - mickeyboxell # 1.24 Comms Lead
     - mikedanese # Auth
-    - mkorbi # Release Manager Associate / 1.23 RT Lead Shadow
+    - mkorbi # Release Manager Associate / 1.24 RT Lead Shadow
     - mm4tt # Scalability
-    - monzelmasry # 1.23 Lead Shadow
     - msau42 # Storage
     - mwielgus # Autoscaling
-    - nannancy # 1.23 Bug Triage Shadow
+    - nate-double-u # 1.24 Docs Lead
     - nckturner # AWS
     - neolit123 # Cluster Lifecycle
-    - NilimaC04 # 1.23 Bug Triage Shadow
     - onlydole # Release Manager Associate
     - oxddr # Scalability
     - palnabarun # Release Manager
     - parispittman # ContribEx
     - phillels # ContribEx
     - pmorie # Multicluster
-    - Priyankasaggu11929 # 1.23 Enhancements Shadow
+    - Priyankasaggu11929 # 1.24 Enhancements Shadow
     - prydonius # Apps
     - puerco # Release Manager
     - pwittrock # CLI
     - quinton-hoole # Multicluster
     - RainbowMango # Instrumentation
     - rajakavitha1 # Usability
-    - reylejano # 1.23 RT Lead
-    - ritpanjw # 1.23 Bug Triage Shadow
+    - rhockenbury # 1.24 Enhancements Shadow
+    - ritpanjw # 1.24 Bug Triage Shadow
     - saad-ali # Storage
-    - salaxander # 1.23 Enhancements Lead
+    - salaxander # 1.24 RT Lead Shadow
     - saschagrunert # Release
     - SataQiu # Cluster Lifecycle
     - seans3 # CLI
@@ -131,16 +133,14 @@ teams:
     - soltysh # CLI
     - spzala # IBM Cloud
     - stevekuznetsov # Testing
-    - supriya-premkumar # 1.23 Enhancements Shadow
     - tallclair # Auth
     - tashimi # Usability
     - thejoycekung # Release Manager Associate
     - thockin # Network
     - timothysc # Cluster Lifecycle / Testing
-    - varshaprasad96 # 1.23 Bug Triage Shadow
     - Verolop # Release Manager
     - vllry # Usability
-    - voigt # 1.23 Bug Triage Lead
+    - voigt # 1.24 CI Signal Shadow
     - wilsonehusin # Release Manager Associate
     - wojtek-t # Scalability
     - xing-yang # Storage

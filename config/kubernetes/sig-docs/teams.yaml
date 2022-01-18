@@ -22,6 +22,7 @@ teams:
     - divya-mohan0209
     - jimangel
     - kbhawkey
+    - natalisucks
     - onlydole
     - reylejano
     - savitharaghunathan
@@ -38,8 +39,10 @@ teams:
     - jimangel
     - kbhawkey
     - mehabhalodiya
+    - natalisucks
     - onlydole
     - rajeshdeshpande02
+    - reylejano
     - sftim
     - shannonxtreme
     - tengqm
@@ -172,10 +175,13 @@ teams:
   sig-docs-leads:
     description: Chairs and tech leads for SIG Docs
     members:
-    - jimangel
+    - divya-mohan0209
     - kbhawkey
+    - natalisucks
     - onlydole
+    - reylejano
     - sftim
+    - tengqm
     privacy: closed
   sig-docs-pl-owners:
     description: Approvers for Polish content
@@ -299,7 +305,9 @@ teams:
     previously:
     - kubernetes-website-admins
     members:
-    - jimangel
+    - divya-mohan0209
+    - natalisucks
+    - reylejano
     privacy: closed
   website-maintainers:
     description: Write access to the website repo

@@ -87,8 +87,8 @@ teams:
     - KnVerey # CLI
     - kow3ns # Apps
     - lavalamp # API Machinery
-    - liggitt # Auth / Release
     - leonardpahlke # 1.24 CI Signal Lead
+    - liggitt # Auth / Release
     - lingxiankong # OpenStack
     - liyinan926 # Big Data
     - logicalhan # Instrumentation
@@ -288,11 +288,11 @@ teams:
         - cici37 # 1.24 RT Lead Shadow
         - cpanato # subproject owner / Technical Lead
         - csantanapr # 1.24 Release Notes Shadow
-        - encodeflush # 1.24 Enhancements Shadow
         - Debanitrkl # 1.24 Comms Shadow
         - didicodes # 1.24 Docs Shadow
         - DiptoChakrabarty # 1.24 Bug Triage Shadow
         - doshyt # 1.24 Bug Triage Shadow
+        - encodeflush # 1.24 Enhancements Shadow
         - gracenng # 1.24 Enhancements Lead
         - helayoty # 1.24 Bug Triage Shadow
         - jameslaverack # subproject owner (1.24 RT Lead)

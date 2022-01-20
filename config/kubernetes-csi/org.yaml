@@ -151,6 +151,7 @@ teams:
     description: Admin access to csi-driver-iscsi repo
     members:
     - andyzhangx
+    - humblec
     - jsafrane
     - msau42
     - saad-ali
@@ -160,6 +161,7 @@ teams:
     description: Write access to csi-driver-iscsi repo
     members:
     - andyzhangx
+    - humblec
     - jsafrane
     - msau42
     - saad-ali
@@ -237,6 +239,7 @@ teams:
     description: Admin access to csi-lib-iscsi repo
     members:
     - andyzhangx
+    - humblec
     - jsafrane
     - msau42
     - saad-ali
@@ -246,6 +249,7 @@ teams:
     description: Write access to csi-lib-iscsi repo
     members:
     - andyzhangx
+    - humblec
     - jsafrane
     - msau42
     - saad-ali
@@ -351,6 +355,7 @@ teams:
     members:
     - chakri-nelluri
     - davidz627
+    - humblec
     - jsafrane
     - lpabon
     - msau42

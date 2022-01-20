@@ -5,6 +5,7 @@ teams:
     - andyzhangx
     - feiskyer
     - justaugustus
+    - MartinForReal
     - nilo19
     privacy: closed
   cloud-provider-azure-maintainers:
@@ -13,6 +14,8 @@ teams:
     - andyzhangx
     - feiskyer
     - justaugustus
+    - MartinForReal
+    - nilo19
     - ritazh
     privacy: closed
   azuredisk-csi-driver-admins:

@@ -209,6 +209,7 @@ teams:
     description: write access to structured-merge-diff
     members:
     - apelisse
+    - jiahuif
     - jpbetz
     - lavalamp
     # emeritus

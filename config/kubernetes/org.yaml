@@ -53,6 +53,7 @@ members:
 - alejandrox1
 - aleksandra-malinowska
 - alenkacz
+- alexander-demichev
 - alexbrand
 - alexeldeib
 - AlexeyPerevalov
@@ -212,6 +213,7 @@ members:
 - chris-short
 - chrischdi
 - chrishenzie
+- chriskim06
 - chrislovecnm
 - chrisnegus
 - chrisohaver
@@ -246,6 +248,7 @@ members:
 - cpanato
 - craigbox
 - craiglpeters
+- csantanapr
 - cstoku
 - cwdsuzhou
 - Cweiping
@@ -295,9 +298,11 @@ members:
 - dgrisonnet
 - dholbach
 - dianaabv
+- didicodes
 - dims
 - dineshgovindasamy
 - Dingshujie
+- DiptoChakrabarty
 - DirectXMan12
 - displague
 - diversario
@@ -308,6 +313,7 @@ members:
 - dlipovetsky
 - dlorenc
 - dobsonj
+- doshyt
 - dougm
 - dougsland
 - dprotaso
@@ -456,6 +462,7 @@ members:
 - hello2mao
 - heqg
 - hex108
+- heybronson
 - heyste
 - hh
 - hi-rustin
@@ -569,6 +576,7 @@ members:
 - jkh52
 - jlbutler
 - jlewi
+- jlsong01
 - jluk
 - jmyung
 - joadavis-g
@@ -599,6 +607,7 @@ members:
 - jtslear
 - juan-lee
 - juandiegopalomino
+- juanfescobar
 - juanvallejo
 - julianvmodesto
 - jupblb
@@ -713,6 +722,7 @@ members:
 - lojies
 - longwuyuan
 - losipiuk
+- Lp-Francois
 - lpabon
 - ltupin
 - lubinsz
@@ -870,6 +880,7 @@ members:
 - NilimaC04
 - nilo19
 - nimbinatus
+- Nivedita-coder
 - njuettner
 - njuptlzf
 - nodo
@@ -950,6 +961,7 @@ members:
 - prydonius
 - ps882
 - pswica
+- ptux
 - puerco
 - puja108
 - pupapaik
@@ -999,6 +1011,7 @@ members:
 - reylejano
 - rf232
 - rficcaglia
+- rhockenbury
 - Riaankl
 - richardcase
 - ricolin
@@ -1035,6 +1048,7 @@ members:
 - s-ito-ts
 - s-kawamura-w664
 - s-urbaniak
+- s04
 - s278gupt
 - saad-ali
 - sahilvv
@@ -1096,6 +1110,7 @@ members:
 - shu-mutou
 - shuaijinchao
 - shubheksha
+- shuheiktgw
 - shyamjvs
 - shysank
 - sidharthsurana
@@ -1198,6 +1213,7 @@ members:
 - unguiculus
 - v-pap
 - vagababov
+- valaparthvi
 - varshaprasad96
 - vedant-kakde
 - verb
@@ -1309,6 +1325,7 @@ members:
 - ZP-AlwaysWin
 - zparnold
 - zshihang
+- zvonkok
 teams:
   api-approvers:
     description: Approve changes to stable Kubernetes APIs and addition of new beta/stable

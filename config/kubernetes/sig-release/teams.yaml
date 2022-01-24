@@ -49,8 +49,8 @@ teams:
     - deads2k # API Machinery / Auth
     - derekwaynecarr # Architecture / Node
     - dims # Architecture / Release
-    # - DiptoChakrabarty # 1.24 Bug Triage Shadow
-    # - doshyt # 1.24 Bug Triage Shadow
+    - DiptoChakrabarty # 1.24 Bug Triage Shadow
+    - doshyt # 1.24 Bug Triage Shadow
     - eddiezane # CLI
     - ehashman # Instrumentation
     - encodeflush # 1.24 Enhancements Shadow
@@ -119,7 +119,7 @@ teams:
     - quinton-hoole # Multicluster
     - RainbowMango # Instrumentation
     - rajakavitha1 # Usability
-    # - rhockenbury # 1.24 Enhancements Shadow
+    - rhockenbury # 1.24 Enhancements Shadow
     - ritpanjw # 1.24 Bug Triage Shadow
     - saad-ali # Storage
     - salaxander # 1.24 RT Lead Shadow
@@ -287,11 +287,11 @@ teams:
         - chrisnegus # 1.24 Docs Shadow
         - cici37 # 1.24 RT Lead Shadow
         - cpanato # subproject owner / Technical Lead
-        # - csantanapr # 1.24 Release Notes Shadow
+        - csantanapr # 1.24 Release Notes Shadow
         - Debanitrkl # 1.24 Comms Shadow
-        # - didicodes # 1.24 Docs Shadow
-        # - DiptoChakrabarty # 1.24 Bug Triage Shadow
-        # - doshyt # 1.24 Bug Triage Shadow
+        - didicodes # 1.24 Docs Shadow
+        - DiptoChakrabarty # 1.24 Bug Triage Shadow
+        - doshyt # 1.24 Bug Triage Shadow
         - encodeflush # 1.24 Enhancements Shadow
         - gracenng # 1.24 Enhancements Lead
         - helayoty # 1.24 Bug Triage Shadow
@@ -305,7 +305,7 @@ teams:
         - katcosgrove # 1.24 Release Comms Shadow
         - lauralorenz # 1.24 CI Signal Shadow
         - leonardpahlke # 1.24 CI Signal Lead
-        # - Lp-Francois # 1.24 Release Notes Shadow
+        - Lp-Francois # 1.24 Release Notes Shadow
         - mehabhalodiya # 1.24 Docs Shadow
         - mickeyboxell # 1.24 Comms Lead
         - mkorbi # 1.24 RT Lead Shadow
@@ -318,15 +318,15 @@ teams:
         - Priyankasaggu11929 # 1.24 Enhancements Shadow
         - puerco # subproject owner / Technical Lead
         - reylejano # subproject owner (1.23 RT Lead)
-        # - rhockenbury # 1.24 Enhancements Shadow
+        - rhockenbury # 1.24 Enhancements Shadow
         - RinkiyaKeDad # 1.24 Release Notes Shadow
         - ritpanjw # 1.24 Bug Triage Shadow
-        # - s04 # 1.24 Comms Shadow
+        - s04 # 1.24 Comms Shadow
         - salaxander # 1.24 RT Lead Shadow
         - saschagrunert # subproject owner / Chair
         - savitharaghunathan # subproject owner (1.22 RT Lead)
         - shuheiktgw # 1.24 CI Signal Shadow
-        # - valaparthvi # 1.24 Comms Shadow
+        - valaparthvi # 1.24 Comms Shadow
         - Verolop # Release Manager
         - voigt # 1.24 CI Signal Shadow
         - xmudrii # Release Manager

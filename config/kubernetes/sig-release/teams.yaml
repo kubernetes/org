@@ -310,7 +310,7 @@ teams:
         - mickeyboxell # 1.24 Comms Lead
         - mkorbi # 1.24 RT Lead Shadow
         - nate-double-u # 1.24 Docs Lead
-        # - Nivedita-coder # 1.24 CI Signal Shadow
+        - Nivedita-coder # 1.24 CI Signal Shadow
         - onlydole # subproject owner (1.19 RT Lead)
         - palnabarun # subproject owner (1.21 RT Lead)
         - parul5sahoo # 1.24 Release Notes Shadow
@@ -325,7 +325,7 @@ teams:
         - salaxander # 1.24 RT Lead Shadow
         - saschagrunert # subproject owner / Chair
         - savitharaghunathan # subproject owner (1.22 RT Lead)
-        # - shuheiktgw # 1.24 CI Signal Shadow
+        - shuheiktgw # 1.24 CI Signal Shadow
         # - valaparthvi # 1.24 Comms Shadow
         - Verolop # Release Manager
         - voigt # 1.24 CI Signal Shadow
@@ -338,8 +338,8 @@ teams:
             members:
             - lauralorenz # 1.24 CI Signal Shadow
             - leonardpahlke # 1.24 CI Signal Lead
-            # - Nivedita-coder # 1.24 CI Signal Shadow
-            # - shuheiktgw # 1.24 CI Signal Shadow
+            - Nivedita-coder # 1.24 CI Signal Shadow
+            - shuheiktgw # 1.24 CI Signal Shadow
             - voigt # 1.24 CI Signal Shadow
             privacy: closed
           release-team-leads:

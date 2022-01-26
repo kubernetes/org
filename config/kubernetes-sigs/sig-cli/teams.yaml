@@ -106,15 +106,9 @@ teams:
     description: ""
     members:
     - knverey
-    - monopole
-    - pwittrock
+    - natasha41575
     privacy: closed
   kustomize-maintainers:
     description: ""
-    members:
-    - justinsb
-    - mortent
-    - natasha41575
-    - phanimarupaka
-    - Shell32-Natsu
+    members: [] # there are currently no maintainers besides the owners
     privacy: closed

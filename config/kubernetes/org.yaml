@@ -1551,7 +1551,9 @@ teams:
     description: Write access to the dns repo
     members:
     - bowei
+    - cezarygerard
     - MrHohn
+    - mag-kol
     - prameshj
     - thockin
     privacy: closed

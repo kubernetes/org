@@ -1894,10 +1894,10 @@ teams:
     description: Please report security issues to https://kubernetes.io/security
     members:
     - cjcullen
+    - enj
     - joelsmith
     - lukehinds
     - micahhausler
-    - swamymsft
     - tabbysable
     - tallclair
     previously:

@@ -1,5 +1,7 @@
 # Kubernetes Github Organization
 
+EasyCLA Test
+
 This repository contains the metadata [configuration](/config) for the Kubernetes Github
 Organizations. The data here is consumed by the
 [peribolos](https://git.k8s.io/test-infra/prow/cmd/peribolos)

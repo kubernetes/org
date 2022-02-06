@@ -301,14 +301,14 @@ teams:
     - Potapy4
     privacy: closed
   sig-docs-bn-owners:
-    description: Admins for Spanish content
+    description: Admins for Bengali content
     members:
     - mitul3737
     - Mouly22
     - ikramulkayes
     privacy: closed
   sig-docs-es-reviews:
-    description: PR reviews for Spanish content
+    description: PR reviews for Bengali content
     members:
     - mitul3737
     - Mouly22

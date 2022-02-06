@@ -300,6 +300,20 @@ teams:
     - MaxymVlasov
     - Potapy4
     privacy: closed
+  sig-docs-bn-owners:
+    description: Admins for Spanish content
+    members:
+    - mitul3737
+    - Mouly22
+    - ikramulkayes
+    privacy: closed
+  sig-docs-es-reviews:
+    description: PR reviews for Spanish content
+    members:
+    - mitul3737
+    - Mouly22
+    - ikramulkayes
+    privacy: closed   
   website-admins:
     description: Admin access to the website repo
     previously:

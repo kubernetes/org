@@ -303,16 +303,16 @@ teams:
   sig-docs-bn-owners:
     description: Admins for Bengali content
     members:
+    - ikramulkayes
     - mitul3737
     - Mouly22
-    - ikramulkayes
     privacy: closed
-  sig-docs-es-reviews:
+  sig-docs-bn-reviews:
     description: PR reviews for Bengali content
     members:
+    - ikramulkayes
     - mitul3737
     - Mouly22
-    - ikramulkayes
     privacy: closed   
   website-admins:
     description: Admin access to the website repo

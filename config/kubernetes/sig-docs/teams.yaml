@@ -1,4 +1,18 @@
 teams:
+  sig-docs-bn-owners:
+    description: Admins for Bengali content
+    members:
+    - ikramulkayes
+    - mitul3737
+    - Mouly22
+    privacy: closed
+  sig-docs-bn-reviews:
+    description: PR reviews for Bengali content
+    members:
+    - ikramulkayes
+    - mitul3737
+    - Mouly22
+    privacy: closed   
   sig-docs-de-owners:
     description: Approvers for German content
     members:
@@ -300,20 +314,6 @@ teams:
     - MaxymVlasov
     - Potapy4
     privacy: closed
-  sig-docs-bn-owners:
-    description: Admins for Bengali content
-    members:
-    - ikramulkayes
-    - mitul3737
-    - Mouly22
-    privacy: closed
-  sig-docs-bn-reviews:
-    description: PR reviews for Bengali content
-    members:
-    - ikramulkayes
-    - mitul3737
-    - Mouly22
-    privacy: closed   
   website-admins:
     description: Admin access to the website repo
     previously:

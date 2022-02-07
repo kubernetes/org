@@ -1,6 +1,6 @@
 teams:
   sig-docs-bn-owners:
-    description: Admins for Bengali content
+    description: Approvers for Bengali content
     members:
     - ikramulkayes
     - mitul3737

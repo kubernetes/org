@@ -82,3 +82,25 @@ teams:
     privacy: closed
     previously:
     - secret-sync-rotation-maintainers
+  prow-admins:
+    description: Admin access to prow
+    maintainers:
+    - cblecker
+    - fejta
+    members:
+    - alvaroaleman
+    - cjwagner
+    - petr-muller
+    - stevekuznetsov
+    privacy: closed
+  prow-maintainers:
+    description: Write access to prow
+    maintainers:
+    - cblecker
+    - fejta
+    members:
+    - alvaroaleman
+    - cjwagner
+    - petr-muller
+    - stevekuznetsov
+    privacy: closed

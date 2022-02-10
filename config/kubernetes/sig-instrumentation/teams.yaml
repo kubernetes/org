@@ -2,8 +2,8 @@ teams:
   sig-instrumentation-leads:
     description: ""
     members:
-    - brancz
     - dashpole
+    - dgrisonnet
     - ehashman
     - logicalhan
     privacy: closed
@@ -12,6 +12,7 @@ teams:
     members:
     - brancz
     - dashpole
+    - dgrisonnet
     - ehashman
     - logicalhan
     - RainbowMango

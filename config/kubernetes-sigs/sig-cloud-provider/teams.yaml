@@ -89,6 +89,16 @@ teams:
    - kevin-wangzefeng
    - RainbowMango
    privacy: closed
+  ibm-powervs-block-csi-driver-admins:
+    description: Admin access to the ibm-powervs-block-csi-driver
+    members:
+    - mkumatag
+    privacy: closed
+  ibm-powervs-block-csi-driver-maintainers:
+    description: Write access to the ibm-powervs-block-csi-driver
+    members:
+    - mkumatag
+    privacy: closed
   provider-aws-test-infra-admins:
    description: Admin access to the provider-aws-test-infra repo
    members:

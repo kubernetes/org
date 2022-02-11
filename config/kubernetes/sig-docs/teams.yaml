@@ -176,6 +176,7 @@ teams:
     description: Chairs and tech leads for SIG Docs
     members:
     - divya-mohan0209
+    - jimangel
     - kbhawkey
     - natalisucks
     - onlydole
@@ -306,6 +307,7 @@ teams:
     - kubernetes-website-admins
     members:
     - divya-mohan0209
+    - jimangel
     - natalisucks
     - reylejano
     privacy: closed

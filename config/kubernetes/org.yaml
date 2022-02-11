@@ -1741,8 +1741,7 @@ teams:
     description: Admin access to the kubectl repo
     members:
     - eddiezane
-    - monopole
-    - pwittrock
+    - KnVerey
     - seans3
     - soltysh
     privacy: closed
@@ -1750,8 +1749,7 @@ teams:
     description: Write access to the kubectl repo
     members:
     - eddiezane
-    - monopole
-    - pwittrock
+    - KnVerey
     - seans3
     - soltysh
     privacy: closed

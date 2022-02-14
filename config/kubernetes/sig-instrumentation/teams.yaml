@@ -21,14 +21,11 @@ teams:
   sig-instrumentation-members:
     description: ""
     members:
-    - 44past4
-    - andyxning
     - brancz
     - coffeepac
     - dashpole
     - dgrisonnet
     - dims
-    - DirectXMan12
     - ehashman
     - erain
     - lilic

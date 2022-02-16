@@ -1445,7 +1445,9 @@ teams:
     - cheftako
     - cici37
     - jpbetz
+    - jprzychodzen
     - mikedanese
+    - wojtek-t
     privacy: closed
   cloud-provider-vsphere-admins:
     description: Admin access to cloud-provider-vsphere repo

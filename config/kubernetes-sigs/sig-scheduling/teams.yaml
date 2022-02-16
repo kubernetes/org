@@ -50,6 +50,18 @@ teams:
     - adtac
     - sanposhiho
     privacy: closed
+  kueue-admins:
+    description: Admin access to the kueue repo
+    members:
+    - ahg-g
+    - alculquicondor
+    privacy: closed
+  kueue-maintainers:
+    description: Write access to the kueue repo
+    members:
+    - ahg-g
+    - alculquicondor
+    privacy: closed
   poseidon-admins:
     description: Admin access to the poseidon repo
     members:

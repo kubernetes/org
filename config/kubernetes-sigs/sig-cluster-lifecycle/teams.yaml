@@ -30,6 +30,7 @@ teams:
     - CecileRobertMichon
     - enxebre
     - fabriziopandini
+    - sbueringer
     - vincepri
     privacy: closed
   cluster-api-operator-admins:

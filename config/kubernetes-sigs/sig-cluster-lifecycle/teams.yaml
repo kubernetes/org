@@ -183,15 +183,22 @@ teams:
   cluster-api-provider-openstack-admins:
     description: admin access to cluster-api-provider-openstack
     members:
+    - chrischdi
+    - hidekazuna
     - jichenjc
-    - sbueringer
+    - mdbooth
+    - seanschneeweiss
+    - tobiasgiese
     privacy: closed
   cluster-api-provider-openstack-maintainers:
     description: write access to cluster-api-provider-openstack
     members:
+    - chrischdi
     - hidekazuna
     - jichenjc
-    - sbueringer
+    - mdbooth
+    - seanschneeweiss
+    - tobiasgiese
     privacy: closed
   cluster-api-provider-packet-admins:
     description: Admin access to cluster-api-provider-packet repo

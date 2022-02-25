@@ -272,6 +272,7 @@ teams:
     members:
     - ant31
     - chadswen
+    - floryut
     - mattymo
     privacy: closed
   kubespray-maintainers:

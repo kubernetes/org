@@ -279,12 +279,10 @@ teams:
     description: Write access to the kubespray repo
     members:
     - ant31
-    - Atoms
     - chadswen
+    - cristicalin
     - floryut
     - mattymo
     - miouge1
-    - mirwan
-    - riverzhang
-    - woopstar
+    - oomichi
     privacy: closed

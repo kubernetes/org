@@ -44,6 +44,23 @@ teams:
     - coderanger
     - jberkus
     privacy: closed
+  maintainers-admins:
+    description: admin access to the maintainers repo
+    maintainers:
+    - nikhita
+    members:
+    - dims
+    privacy: closed
+  maintainers-maintainers:
+    description: write access to the maintainers repo
+    maintainers:
+    - mrbobbytables
+    - nikhita
+    members:
+    - dims
+    - MadhavJivrajani
+    - palnabarun
+    privacy: closed
   slack-infra-admins:
     description: admin access to slack-infra
     members:

@@ -8,10 +8,8 @@ teams:
     - nikhita
     members:
     - alisondy
-    - calebamiles
     - jdumars
     - parispittman
-    - Phillels
     privacy: closed
   community-maintainers:
     description: ""
@@ -34,18 +32,13 @@ teams:
     - spiffxp
     members:
     - alisondy
-    - calebamiles
-    - castrojo
     - dims
-    - grodrigues3
     - guineveresaenger
     - jberkus
     - jdumars
     - jeefy
     - justaugustus
-    - lukaszgryglicki
     - parispittman
-    - Phillels
     - tpepper
     privacy: closed
   contributor-site-admins:
@@ -53,14 +46,14 @@ teams:
     maintainers:
     - mrbobbytables
     members:
-    - castrojo
+    - jberkus
     privacy: closed
   contributor-site-maintainers:
     description: write access to contributor-site
     maintainers:
     - mrbobbytables
     members:
-    - castrojo
+    - jberkus
     privacy: closed
   ghas-subproject-board:
     description: Members who have access to edit the GitHub Administration
@@ -73,9 +66,6 @@ teams:
     - nikhita
     - spiffxp
     members:
-    - idealhack
-    - justaugustus
-    - nzoueidi
     privacy: closed
   project-board-maintainers:
     description: Contributors with access to groom issues on org-level project boards.
@@ -88,51 +78,8 @@ teams:
     - justaugustus
     - lachie83
     - LappleApple
-    - mattfarina
     privacy: closed
-  sig-contributor-experience:
-    description: Improve contributor productivity
-    maintainers:
-    - cblecker
-    - idvoretskyi
-    - mrbobbytables
-    - nikhita
-    members:
-    - alisondy
-    - castrojo
-    - dims
-    - eparis
-    - foxish
-    - grodrigues3
-    - hongchaodeng
-    - idealhack
-    - jessfraz
-    - Kashomon
-    - lavalamp
-    - monopole
-    - parispittman
-    - philips
-    - Phillels
-    - pigmej
-    - pwittrock
-    - thockin
-    - xiang90
-    privacy: closed
-    previously:
-      - sig-contributor-experience-misc-use-only-as-a-last-resort
     teams:
-      sig-contributor-experience-apac-coordinators:
-        description: Contributor Experience APAC Coordinator team
-        maintainers:
-        - nikhita
-        members:
-        - alisondy
-        - aravindputrevu
-        - idealhack
-        - Pensu
-        - saiyam1814
-        - tao12345666333
-        privacy: closed
       sig-contributor-experience-leads:
         description: Chairs and Technical Leads for SIG Contributor Experience
         maintainers:
@@ -150,23 +97,5 @@ teams:
         - idvoretskyi
         - nikhita
         members:
-        - idealhack
+        - alisondy
         privacy: closed
-  youtube-admins:
-    description: Members who have admin access to the Kubernetes Community
-      YouTube channel.
-    maintainers:
-    - idvoretskyi
-    - mrbobbytables
-    members:
-    - alejandrox1
-    - castrojo
-    - jbeda
-    - jdumars
-    - jeefy
-    - markyjackson-taulia
-    - nzoueidi
-    - onlydole
-    - parispittman
-    - sarahnovotny
-    privacy: closed

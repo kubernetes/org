@@ -1,4 +1,14 @@
-teams:
+teams: 
+  sig-docs-bn-owners:
+    description: Approvers for Bengali content
+    members:
+    - mitul3737
+    privacy: closed
+  sig-docs-bn-reviews:
+    description: PR reviews for Bengali content
+    members: 
+    - mitul3737
+    privacy: closed
   sig-docs-de-owners:
     description: Approvers for German content
     members:

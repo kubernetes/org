@@ -12,6 +12,9 @@ teams:
     description: Write access to kubernetes-sigs/oci-proxy
     maintainers:
     - spiffxp
+    - bobyMCbobs
+    - riaankl
+    - hh
     members:
     - ameukam
     - dims

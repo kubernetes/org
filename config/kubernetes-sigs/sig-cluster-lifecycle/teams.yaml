@@ -70,7 +70,7 @@ teams:
     - alexeldeib
     - CecileRobertMichon
     - devigned
-    - nader-ziada
+    - shysank
     privacy: closed
   cluster-api-provider-azure-maintainers:
     description: ""
@@ -78,7 +78,7 @@ teams:
     - alexeldeib
     - CecileRobertMichon
     - devigned
-    - nader-ziada
+    - shysank
     privacy: closed
   cluster-api-provider-azure-pms:
     description: ""
@@ -87,9 +87,9 @@ teams:
     - CecileRobertMichon
     - cpanato
     - devigned
-    - juan-lee
+    - jackfrancis
+    - jsturtevant
     - mboersma
-    - nader-ziada
     - shysank
     privacy: closed
   cluster-api-provider-digitalocean-admins:

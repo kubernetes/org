@@ -62,6 +62,15 @@ teams:
     members:
     - castrojo
     privacy: closed
+  events-subproject-board:
+    description: Members who have access to edit the Events Administration
+      Subproject Board
+    maintainers:
+    - alisondy
+    members:
+    - puja108
+    - tokt
+    privacy: closed
   ghas-subproject-board:
     description: Members who have access to edit the GitHub Administration
       Subproject Board

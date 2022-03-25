@@ -48,6 +48,21 @@ teams:
     - Phillels
     - tpepper
     privacy: closed
+  contributor-comms:
+    description: alert members of new issues labeled with contributor comms
+    maintainers:
+    - chris-short
+    - mbbroberg
+    - parispittman
+    members:
+    - Atharva-Shinde
+    - rajula96reddy
+    - kaslin
+    - Debanitrkl
+    - JasonMorgan 
+    - AvineshTripathi
+    - PurneswarPrasad
+    privacy: closed
   contributor-site-admins:
     description: admin access to contributor-site
     maintainers:

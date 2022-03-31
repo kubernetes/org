@@ -43,18 +43,14 @@ teams:
   kube-state-metrics-admins:
     description: Admin access to the kube-state-metrics repo
     members:
-    - brancz
-    - lilic
+    - dgrisonnet
+    - fpetkovski
     - mrueg
-    - tariq1890
     privacy: closed
   kube-state-metrics-maintainers:
     description: Write access to the kube-state-metrics repo
     members:
-    - brancz
     - dgrisonnet
     - fpetkovski
-    - lilic
     - mrueg
-    - tariq1890
     privacy: closed

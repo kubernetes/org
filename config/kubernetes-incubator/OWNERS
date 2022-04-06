@@ -2,10 +2,12 @@
 
 approvers:
   - cblecker
-  - fejta
   - idvoretskyi
   - mrbobbytables
   - nikhita
-  - spiffxp
+  - ameukam
+  - palnabarun
 emeritus_approvers:
   - calebamiles
+  - fejta
+  - spiffxp

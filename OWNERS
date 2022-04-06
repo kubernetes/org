@@ -1,21 +1,23 @@
 # See the OWNERS docs at https://go.k8s.io/owners
 
 reviewers:
+  - ameukam
   - cblecker
-  - fejta
   - idvoretskyi
   - mrbobbytables
   - nikhita
-  - spiffxp
+  - palnabarun
 approvers:
+  - ameukam
   - cblecker
-  - fejta
   - idvoretskyi
   - mrbobbytables
   - nikhita
-  - spiffxp
+  - palnabarun
 emeritus_approvers:
   - calebamiles
+  - fejta
+  - spiffxp
 
 labels:
   - area/github-management

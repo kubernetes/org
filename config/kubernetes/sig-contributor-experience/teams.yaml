@@ -27,16 +27,15 @@ teams:
     description: Contributors who can use `/milestone` in the community repo. Defined by an entry in an OWNERS file for a contribex subproject.
     maintainers:
     - cblecker
-    - fejta
     - idvoretskyi
     - mrbobbytables
     - nikhita
-    - spiffxp
     members:
     - alisondy
     - calebamiles
     - castrojo
     - dims
+    - fejta
     - grodrigues3
     - guineveresaenger
     - jberkus
@@ -46,6 +45,7 @@ teams:
     - lukaszgryglicki
     - parispittman
     - Phillels
+    - spiffxp
     - tpepper
     privacy: closed
   contributor-site-admins:
@@ -66,12 +66,12 @@ teams:
     description: Members who have access to edit the GitHub Administration
       Subproject Board
     maintainers:
+    - ameukam
     - cblecker
-    - fejta
     - idvoretskyi
     - mrbobbytables
     - nikhita
-    - spiffxp
+    - palnabarun
     members:
     - idealhack
     - justaugustus

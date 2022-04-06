@@ -6,14 +6,14 @@ has_repository_projects: true
 members_can_create_repositories: false
 billing_email: github@kubernetes.io
 admins:
+- ameukam
 - cblecker
-- fejta
 - idvoretskyi
 - k8s-ci-robot
 - k8s-github-robot
 - mrbobbytables
 - nikhita
-- spiffxp
+- palnabarun
 - thelinuxfoundation
 members:
 - 249043822
@@ -48,7 +48,6 @@ members:
 - alvaroaleman
 - amacaskill
 - ambiknai
-- ameukam
 - amwat
 - amy
 - andrewrynhard
@@ -229,6 +228,7 @@ members:
 - Fedosin
 - Fei-Guo
 - feiskyer
+- fejta
 - feloy
 - figo
 - FillZpp
@@ -530,7 +530,6 @@ members:
 - onyiny-ang
 - oomichi
 - pacoxu
-- palnabarun
 - parispittman
 - pasqualet
 - PatrickLang
@@ -677,6 +676,7 @@ members:
 - sonasingh46
 - soniasingla
 - sophieliu15
+- spiffxp
 - spurin
 - spzala
 - srampal

@@ -82,15 +82,16 @@ teams:
   release-engineering:
     description: Members of the Release Engineering subproject, including
       Release Managers and Release Manager Associates.
-    members:
+    maintainers:
     - ameukam # Release Manager Associate
+    - palnabarun # Release Manager
+    members:
     - cpanato # subproject owner / Release Manager
     - jeremyrickard # subproject owner
     - jimangel # Release Manager Associate
     - justaugustus # subproject owner / Release Manager
     - mkorbi # Release Manager Associate
     - onlydole # Release Manager Associate
-    - palnabarun # Release Manager
     - puerco # subproject owner / Release Manager
     - saschagrunert # subproject owner / Release Manager
     - sethmccombs # Release Manager Associate

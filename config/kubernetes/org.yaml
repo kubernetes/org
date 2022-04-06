@@ -1414,12 +1414,12 @@ teams:
     description: Folks with expertise in bash reviews
     maintainers:
     - cblecker
-    - fejta
-    - spiffxp
     members:
     - BenTheElder
     - cjwagner
+    - fejta
     - ixdy
+    - spiffxp
     - stevekuznetsov
     - sttts
     privacy: closed
@@ -1486,8 +1486,6 @@ teams:
     privacy: closed
   cncf-conformance-wg:
     description: ""
-    maintainers:
-    - spiffxp
     members:
     - bgrant0607
     - bradtopol
@@ -1499,6 +1497,7 @@ teams:
     - mgdevstack
     - rjbez17
     - smarterclayton
+    - spiffxp
     - timothysc
     - WilliamDenniss
     privacy: closed
@@ -1526,10 +1525,11 @@ teams:
     privacy: closed
   code-of-conduct-committee:
     description: Kubernetes Code of Conduct Committee
+    maintainers:
+    - palnabarun
     members:
     - celestehorgan
     - karenhchu
-    - palnabarun
     - tpepper
     - vllry
     privacy: closed
@@ -1780,8 +1780,6 @@ teams:
     description: Write access to the kubernetes repo. Follow the process in https://github.com/kubernetes/community/blob/master/community-membership.md
     maintainers:
     - cblecker
-    - fejta
-    - spiffxp
     - thelinuxfoundation
     members:
     - apelisse
@@ -1801,6 +1799,7 @@ teams:
     - eparis
     - erictune
     - feiskyer
+    - fejta
     - freehan
     - grodrigues3
     - ingvagabund
@@ -1832,6 +1831,7 @@ teams:
     - saad-ali
     - smarterclayton
     - soltysh
+    - spiffxp
     - sttts
     - tallclair
     - thockin
@@ -1854,10 +1854,9 @@ teams:
     privacy: closed
   maintainer-test-exemptions:
     description: Maintainers who for whatever random reason should not own tests.
-    maintainers:
-    - fejta
     members:
     - aronchick
+    - fejta
     - kelseyhightower
     privacy: closed
   metrics-admins:
@@ -1891,12 +1890,12 @@ teams:
   owners:
     description: Kubernetes GitHub Owners
     maintainers:
+    - ameukam
     - cblecker
-    - fejta
     - idvoretskyi
     - mrbobbytables
     - nikhita
-    - spiffxp
+    - palnabarun
     privacy: closed
   perf-tests-admins:
     description: Admin access to the perf-tests repo

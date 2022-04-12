@@ -163,6 +163,24 @@ teams:
     - puerco # subproject owner
     - saschagrunert # subproject owner
     privacy: closed
+  testgrid-json-exporter-admins:
+    description: admin access to testgrid-json-exporter
+    members:
+    - cpanato
+    - jeremyrickard
+    - justaugustus
+    - puerco
+    - saschagrunert
+    privacy: closed
+  testgrid-json-exporter-maintainers:
+    description: write access to testgrid-json-exporter
+    members:
+    - cpanato
+    - jeremyrickard
+    - justaugustus
+    - puerco
+    - saschagrunert
+    privacy: closed
   zeitgeist-admins:
     description: admin access to zeitgeist
     members:

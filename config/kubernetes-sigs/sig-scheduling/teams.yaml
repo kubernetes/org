@@ -62,20 +62,6 @@ teams:
     - ahg-g
     - alculquicondor
     privacy: closed
-  poseidon-admins:
-    description: Admin access to the poseidon repo
-    members:
-    - ahg-g
-    - deepak-vij
-    - k82cn
-    privacy: closed
-  poseidon-maintainers:
-    description: Write access to the poseidon repo
-    members:
-    - ahg-g
-    - deepak-vij
-    - k82cn
-    privacy: closed
   scheduler-plugins-admins:
     description: Admin access to the scheduler-plugins repo
     members:

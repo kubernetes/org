@@ -180,6 +180,7 @@ aliases:
     - spzala
   provider-openstack:
     - chrigl
+    - jichenjc
     - lingxiankong
     - ramineni
   provider-vmware:

@@ -148,6 +148,7 @@ teams:
     - kakts
     - makocchi-git
     - nasa9084
+    - ptux
     privacy: closed
   sig-docs-ko-owners:
     description: Approvers for Korean content

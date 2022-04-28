@@ -928,6 +928,7 @@ teams:
   sig-storage-local-static-provisioner-admins:
     description: Admin access to the sig-storage-local-static-provisioner repo
     members:
+    - andyzhangx
     - cofyc
     - jsafrane
     - mauriciopoppe
@@ -937,6 +938,7 @@ teams:
   sig-storage-local-static-provisioner-maintainers:
     description: Write access to the sig-storage-local-static-provisioner repo
     members:
+    - andyzhangx
     - cofyc
     - jsafrane
     - mauriciopoppe

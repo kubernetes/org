@@ -183,7 +183,6 @@ teams:
   cluster-api-provider-openstack-admins:
     description: admin access to cluster-api-provider-openstack
     members:
-    - chrischdi
     - hidekazuna
     - jichenjc
     - mdbooth
@@ -193,7 +192,6 @@ teams:
   cluster-api-provider-openstack-maintainers:
     description: write access to cluster-api-provider-openstack
     members:
-    - chrischdi
     - hidekazuna
     - jichenjc
     - mdbooth

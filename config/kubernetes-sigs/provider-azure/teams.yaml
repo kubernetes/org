@@ -42,4 +42,14 @@ teams:
     - andyzhangx
     - feiskyer
     privacy: closed
+  azurelustre-csi-driver-admins:
+    description: "Admin access to the azurelustre-csi-driver repo"
+    members:
+    - andyzhangx
+    privacy: closed
+  azurelustre-csi-driver-maintainers:
+    description: "Write access to the azurelustre-csi-driver repo"
+    members:
+    - andyzhangx
+    privacy: closed
 

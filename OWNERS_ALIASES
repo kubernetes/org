@@ -171,7 +171,6 @@ aliases:
     - wongma7
   provider-azure:
     - andyzhangx
-    - justaugustus
     - feiskyer
     - khenidak
   provider-gcp:

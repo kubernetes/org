@@ -170,8 +170,7 @@ aliases:
     - nckturner
     - wongma7
   provider-azure:
-    - craiglpeters
-    - justaugustus
+    - andyzhangx
     - feiskyer
     - khenidak
   provider-gcp:

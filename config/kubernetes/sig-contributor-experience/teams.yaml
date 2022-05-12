@@ -51,21 +51,15 @@ teams:
   contributor-comms:
     description: alert members of new issues labeled with contributor comms
     maintainers:
-    - ameukam
-    - cblecker
-    - idvoretskyi
-    - mrbobbytables
-    - nikhita
-    - palnabarun
     members:
     - Atharva-Shinde
-    - rajula96reddy
-    - kaslin
-    - Debanitrkl
     - AvineshTripathi
-    - PurneswarPrasad
     - chris-short
+    - Debanitrkl
+    - kaslin
     - parispittman
+    - PurneswarPrasad
+    - rajula96reddy
     privacy: closed
   contributor-site-admins:
     description: admin access to contributor-site

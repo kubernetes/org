@@ -4,8 +4,6 @@ teams:
       access to publish packages (debs/rpms) on behalf of the Kubernetes
       project. This team is a notification-only group, which includes the SIG
       Release Chairs/TLs for continuity.
-    maintainers:
-    - spiffxp
     members:
     - BenTheElder
     - cpanato
@@ -14,22 +12,22 @@ teams:
     - MushuEE
     - puerco
     - saschagrunert
+    - spiffxp
     privacy: closed
   milestone-maintainers:
     description: Contributors who can use `/milestone` or `/status` commands on
       issues/PRs and have triage access to the kubernetes/enhancements repo
     maintainers:
+    - ameukam # Release Manager Associate
     - cblecker # ContribEx
-    - fejta # Testing
     - mrbobbytables # ContribEx
     - nikhita # ContribEx
-    - spiffxp # Testing
+    - palnabarun # Release Manager
     members:
     - abgworrall # GCP
     - adisky # OpenStack
     - ahg-g # Scheduling
     - alejandrox1 # Testing
-    - ameukam # Release Manager Associate
     - andrewsykim # Cloud Provider
     - BenTheElder # Testing
     - bgrant0607 # Architecture
@@ -57,6 +55,7 @@ teams:
     - enj # Auth
     - fabriziopandini # Cluster Lifecycle
     - feiskyer # Azure
+    - fejta # Testing
     - floreks # UI
     - foxish # Big Data
     - frapposelli # VMware
@@ -108,7 +107,6 @@ teams:
     - neolit123 # Cluster Lifecycle
     - onlydole # Release Manager Associate
     - oxddr # Scalability
-    - palnabarun # Release Manager
     - parispittman # ContribEx
     - phillels # ContribEx
     - pmorie # Multicluster
@@ -131,6 +129,7 @@ teams:
     - shu-mutou # UI
     - shyamjvs # Scalability
     - soltysh # CLI
+    - spiffxp # Testing
     - spzala # IBM Cloud
     - stevekuznetsov # Testing
     - tallclair # Auth
@@ -167,12 +166,12 @@ teams:
     description: Write access to the publishing-bot repo
     maintainers:
     - nikhita
+    - palnabarun
     members:
     - cpanato
     - dims
     - jeremyrickard
     - justaugustus
-    - palnabarun
     - puerco
     - saschagrunert
     - sttts
@@ -181,12 +180,11 @@ teams:
     privacy: closed
   repo-infra-admins:
     description: Admin access to the repo-infra repo
-    maintainers:
-    - fejta
     members:
     - BenTheElder
     - clarketm
     - cpanato
+    - fejta
     - justaugustus
     - mikedanese
     - puerco
@@ -194,12 +192,11 @@ teams:
     privacy: closed
   repo-infra-maintainers:
     description: Write access to the repo-infra repo
-    maintainers:
-    - fejta
     members:
     - BenTheElder
     - clarketm
     - cpanato
+    - fejta
     - justaugustus
     - mikedanese
     - puerco
@@ -214,7 +211,7 @@ teams:
     maintainers:
     - mrbobbytables
     - nikhita
-    - spiffxp
+    - palnabarun
     members:
     - alenkacz
     - BenTheElder
@@ -233,27 +230,28 @@ teams:
     - mariantalla
     - nikopen
     - onyiny-ang
-    - palnabarun
     - puerco # Technical Lead
     - rawkode
     - reylejano
     - saschagrunert # Chair
     - savitharaghunathan
     - soggiest
+    - spiffxp
     - tpepper
     privacy: closed
     teams:
       release-engineering:
         description: Members of the Release Engineering subproject, including
           Release Managers, Release Manager Associates, and Build Admins.
-        members:
+        maintainers:
         - ameukam # Release Manager Associate
+        - palnabarun # Release Manager
+        members:
         - cpanato # subproject owner / Release Manager
         - jimangel # Release Manager Associate
         - justaugustus # subproject owner / Release Manager
         - mkorbi # Release Manager Associate
         - onlydole # Release Manager Associate
-        - palnabarun # Release Manager
         - puerco # subproject owner / Release Manager
         - saschagrunert # subproject owner / Release Manager
         - sethmccombs # Release Manager Associate
@@ -268,11 +266,12 @@ teams:
               admin access to repos where branches must be created and write
               access to ones where label/PR management is needed. Remove users
               who are not actively doing this job.
+            maintainers:
+            - palnabarun
             members:
             - cpanato
             - justaugustus
             - k8s-release-robot
-            - palnabarun
             - puerco
             - saschagrunert
             - Verolop
@@ -282,6 +281,8 @@ teams:
             - kubernetes-release-managers
       release-team:
         description: Members of the current Release Team and subproject owners.
+        maintainers:
+        - palnabarun # subproject owner (1.21 RT Lead)
         members:
         - AuraSinis # 1.24 Release Notes Lead
         - chrisnegus # 1.24 Docs Shadow
@@ -312,7 +313,6 @@ teams:
         - nate-double-u # 1.24 Docs Lead
         - Nivedita-coder # 1.24 CI Signal Shadow
         - onlydole # subproject owner (1.19 RT Lead)
-        - palnabarun # subproject owner (1.21 RT Lead)
         - parul5sahoo # 1.24 Release Notes Shadow
         - pi-victor # 1.24 Docs Shadow
         - Priyankasaggu11929 # 1.24 Enhancements Shadow

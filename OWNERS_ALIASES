@@ -84,8 +84,6 @@ aliases:
   sig-security-leads:
     - IanColdwater
     - tabbysable
-  sig-service-catalog-leads:
-    - jhvhs
   sig-storage-leads:
     - jsafrane
     - msau42
@@ -170,8 +168,7 @@ aliases:
     - nckturner
     - wongma7
   provider-azure:
-    - craiglpeters
-    - justaugustus
+    - andyzhangx
     - feiskyer
     - khenidak
   provider-gcp:
@@ -180,6 +177,7 @@ aliases:
     - spzala
   provider-openstack:
     - chrigl
+    - jichenjc
     - lingxiankong
     - ramineni
   provider-vmware:

@@ -6,16 +6,17 @@ has_repository_projects: true
 members_can_create_repositories: false
 billing_email: github@kubernetes.io
 admins:
+- ameukam
 - cblecker
-- fejta
 - idvoretskyi
 - k8s-ci-robot
 - k8s-github-robot
 - mrbobbytables
 - nikhita
-- spiffxp
+- palnabarun
 - thelinuxfoundation
 members:
+- 196Ikuchil
 - 249043822
 - 27149chen
 - 44past4
@@ -60,14 +61,16 @@ members:
 - alexeldeib
 - AlexeyPerevalov
 - AlexNPavel
+- alexzielenski
 - alisondy
+- AlmogBaku
 - alonyb
 - alrs
 - alvaroaleman
 - amacaskill
 - ambiknai
-- ameukam
 - ams0
+- Amulyam24
 - amwat
 - amy
 - anastyakulyk
@@ -91,6 +94,7 @@ members:
 - aojea
 - aoxn
 - apelisse
+- apricote
 - arahamad
 - aramase
 - ArangoGutierrez
@@ -116,7 +120,6 @@ members:
 - atoato88
 - Atoms
 - AuraSinis
-- Aut0R3V
 - aveshagarwal
 - avidLearnerInProgress
 - AvineshTripathi
@@ -126,6 +129,7 @@ members:
 - ayberk
 - azhao155
 - b01901143
+- Babapool
 - bai
 - balopat
 - BaluDontu
@@ -255,6 +259,7 @@ members:
 - copejon
 - countspongebob
 - cpanato
+- cprivitere
 - craigbox
 - craiglpeters
 - csantanapr
@@ -275,7 +280,6 @@ members:
 - danielqsj
 - Danil-Grigorev
 - danninov
-- danpopnyc
 - danwinship
 - DanyC97
 - dashpole
@@ -290,6 +294,7 @@ members:
 - deads2k
 - Debanitrkl
 - debgiles
+- deejross
 - deepak-vij
 - deepakkinni
 - deitch
@@ -332,6 +337,7 @@ members:
 - droslean
 - drubin
 - dstrebel
+- dsu-igeek
 - dtaniwaki
 - duglin
 - dvonthenen
@@ -347,6 +353,7 @@ members:
 - eduartua
 - egernst
 - ehashman
+- Elbehery
 - electrocucaracha
 - ellistarn
 - elmiko
@@ -380,12 +387,12 @@ members:
 - evillgenius75
 - fabianvf
 - fabriziopandini
-- FaezeAzimi
 - Fale
 - fedebongio
 - Fedosin
 - Fei-Guo
 - feiskyer
+- fejta
 - feloy
 - femrtnz
 - fenglixa
@@ -506,6 +513,7 @@ members:
 - ibzib
 - Iceber
 - idealhack
+- ihcsim
 - iheanyi1
 - ihmccreery
 - ilya-zuyev
@@ -513,6 +521,7 @@ members:
 - immutableT
 - immuzz
 - imroc
+- Imtiaz1234
 - inductor
 - ingvagabund
 - invidian
@@ -588,12 +597,14 @@ members:
 - jlewi
 - jlsong01
 - jluk
+- jmguzik
 - jmyung
 - joadavis-g
 - joao-luna-98
 - joelanford
 - joelsmith
 - JoelSpeed
+- johannesfrey
 - johnbelamaric
 - johngmyers
 - johnSchnake
@@ -646,7 +657,6 @@ members:
 - karlkfi
 - Karthik-K-N
 - KashifSaadat
-- Kashomon
 - kaslin
 - kasramp
 - katcosgrove
@@ -703,6 +713,7 @@ members:
 - lachie83
 - lala123912
 - lambdanis
+- landreasyan
 - lapee79
 - LappleApple
 - lauchokyip
@@ -751,7 +762,6 @@ members:
 - lyzs90
 - lzhecheng
 - m00nf1sh
-- m1093782566
 - m1kola
 - m3ngyang
 - maciaszczykm
@@ -765,6 +775,7 @@ members:
 - marckhouzam
 - marcoceppi
 - mariantalla
+- markmc
 - markthink
 - markyjackson-taulia
 - marosset
@@ -859,6 +870,7 @@ members:
 - mr-linus
 - mrajashree
 - MrHohn
+- mritunjaysharma394
 - mrkm4ntr
 - mrueg
 - mrunalp
@@ -867,6 +879,7 @@ members:
 - msheldyakov
 - mszostok
 - mtanino
+- mtardy
 - mtaufen
 - mucahitkurt
 - munnerz
@@ -874,11 +887,13 @@ members:
 - mvortizr
 - mwielgus
 - mxinden
+- my-git9
 - mylesagray
 - mysunshine92
 - n3wscott
 - n4j
 - nader-ziada
+- Namanl2001
 - nan-yu
 - nannancy
 - nasa9084
@@ -928,7 +943,6 @@ members:
 - oxddr
 - p0lyn0mial
 - pacoxu
-- palnabarun
 - pancernik
 - pandaamanda
 - parispittman
@@ -980,6 +994,7 @@ members:
 - prezha
 - PriyankaH21
 - Priyankasaggu11929
+- PriyanshuAhlawat
 - priyawadhwa
 - prksu
 - prydonius
@@ -990,6 +1005,7 @@ members:
 - puja108
 - pupapaik
 - PurelyApplied
+- PurneswarPrasad
 - PushkarJ
 - pweil-
 - pwittrock
@@ -1154,6 +1170,7 @@ members:
 - SlickNik
 - Smana
 - smarterclayton
+- smg247
 - smourapina
 - soggiest
 - soltysh
@@ -1161,6 +1178,7 @@ members:
 - soniasingla
 - soulxu
 - spew
+- spiffxp
 - spowelljr
 - spurin
 - spzala
@@ -1175,19 +1193,20 @@ members:
 - steveperry-53
 - stevesloka
 - stewart-yu
+- stlaz
 - stormqueen1990
 - stp-ip
 - strongjz
 - sttts
 - sujaypillai
 - sumitranr
+- sunpa93
 - superbrothers
 - supriya-premkumar
 - surajssd
 - swamymsft
 - swatisehgal
 - swetharepakula
-- swinslow
 - sxllwx
 - SyamSundarKirubakaran
 - szuecs
@@ -1414,12 +1433,12 @@ teams:
     description: Folks with expertise in bash reviews
     maintainers:
     - cblecker
-    - fejta
-    - spiffxp
     members:
     - BenTheElder
     - cjwagner
+    - fejta
     - ixdy
+    - spiffxp
     - stevekuznetsov
     - sttts
     privacy: closed
@@ -1486,8 +1505,6 @@ teams:
     privacy: closed
   cncf-conformance-wg:
     description: ""
-    maintainers:
-    - spiffxp
     members:
     - bgrant0607
     - bradtopol
@@ -1499,6 +1516,7 @@ teams:
     - mgdevstack
     - rjbez17
     - smarterclayton
+    - spiffxp
     - timothysc
     - WilliamDenniss
     privacy: closed
@@ -1526,10 +1544,11 @@ teams:
     privacy: closed
   code-of-conduct-committee:
     description: Kubernetes Code of Conduct Committee
+    maintainers:
+    - palnabarun
     members:
     - celestehorgan
     - karenhchu
-    - palnabarun
     - tpepper
     - vllry
     privacy: closed
@@ -1780,8 +1799,6 @@ teams:
     description: Write access to the kubernetes repo. Follow the process in https://github.com/kubernetes/community/blob/master/community-membership.md
     maintainers:
     - cblecker
-    - fejta
-    - spiffxp
     - thelinuxfoundation
     members:
     - apelisse
@@ -1801,6 +1818,7 @@ teams:
     - eparis
     - erictune
     - feiskyer
+    - fejta
     - freehan
     - grodrigues3
     - ingvagabund
@@ -1813,7 +1831,6 @@ teams:
     - justinsb
     - k82cn
     - kargakis
-    - Kashomon
     - kevin-wangzefeng
     - krousey
     - lavalamp
@@ -1832,6 +1849,7 @@ teams:
     - saad-ali
     - smarterclayton
     - soltysh
+    - spiffxp
     - sttts
     - tallclair
     - thockin
@@ -1854,10 +1872,9 @@ teams:
     privacy: closed
   maintainer-test-exemptions:
     description: Maintainers who for whatever random reason should not own tests.
-    maintainers:
-    - fejta
     members:
     - aronchick
+    - fejta
     - kelseyhightower
     privacy: closed
   metrics-admins:
@@ -1891,12 +1908,12 @@ teams:
   owners:
     description: Kubernetes GitHub Owners
     maintainers:
+    - ameukam
     - cblecker
-    - fejta
     - idvoretskyi
     - mrbobbytables
     - nikhita
-    - spiffxp
+    - palnabarun
     privacy: closed
   perf-tests-admins:
     description: Admin access to the perf-tests repo

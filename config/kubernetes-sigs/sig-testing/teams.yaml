@@ -15,22 +15,20 @@ teams:
     privacy: closed
   e2e-framework-admins:
     description: admin access to e2e-framework
-    maintainers:
-    - spiffxp
     members:
     - alejandrox1
     - andrewsykim
     - BenTheElder
+    - spiffxp
     - vladimirvivien
     privacy: closed
   e2e-framework-maintainers:
     description: write access to e2e-framework
-    maintainers:
-    - spiffxp
     members:
     - alejandrox1
     - andrewsykim
     - BenTheElder
+    - spiffxp
     privacy: closed
   kind-admins:
     description: Admin access to the kind repo
@@ -50,35 +48,31 @@ teams:
     privacy: closed
   kubetest2-admins:
     description: Admin access to kubetest2
-    maintainers:
-    - spiffxp
     members:
     - amwat
     - BenTheElder
+    - spiffxp
     privacy: closed
   kubetest2-maintainers:
     description: Write access to kubetest2
-    maintainers:
-    - spiffxp
     members:
     - amwat
     - BenTheElder
+    - spiffxp
     privacy: closed
   k8s-gsm-tools-admins:
     description: Admin access to k8s-gsm-tools
-    maintainers:
-    - spiffxp
     members:
     - BenTheElder
+    - spiffxp
     privacy: closed
     previously:
     - secret-sync-rotation-admins
   k8s-gsm-tools-maintainers:
     description: Write access to k8s-gsm-tools
-    maintainers:
-    - spiffxp
     members:
     - BenTheElder
+    - spiffxp
     privacy: closed
     previously:
     - secret-sync-rotation-maintainers
@@ -86,10 +80,10 @@ teams:
     description: Admin access to prow
     maintainers:
     - cblecker
-    - fejta
     members:
     - alvaroaleman
     - cjwagner
+    - fejta
     - petr-muller
     - stevekuznetsov
     privacy: closed
@@ -97,10 +91,10 @@ teams:
     description: Write access to prow
     maintainers:
     - cblecker
-    - fejta
     members:
     - alvaroaleman
     - cjwagner
+    - fejta
     - petr-muller
     - stevekuznetsov
     privacy: closed

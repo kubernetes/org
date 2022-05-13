@@ -3,8 +3,6 @@ teams:
     description: sig-testing
     maintainers:
     - cblecker
-    - fejta
-    - spiffxp
     members:
     - akutz
     - BenTheElder
@@ -12,6 +10,7 @@ teams:
     - chases2
     - cjwagner
     - clarketm
+    - fejta
     - ixdy
     - jayunit100
     - jdef
@@ -22,6 +21,7 @@ teams:
     - michelle192837
     - mkumatag
     - pigmej
+    - spiffxp
     - stevekuznetsov
     - timothysc
     - xiangpengzhao
@@ -29,17 +29,13 @@ teams:
     teams:
       sig-testing-leads:
         description: sig-testing chairs and technical leads
-        maintainers:
-        - spiffxp
         members:
         - BenTheElder
+        - spiffxp
         - stevekuznetsov
         privacy: closed
       sig-testing-pr-reviews:
         description: sig-testing PR reviews
-        maintainers:
-        - fejta
-        - spiffxp
         members:
         - akutz
         - amwat
@@ -47,41 +43,41 @@ teams:
         - chases2
         - cjwagner
         - clarketm
+        - fejta
         - ixdy
         - Katharine
         - krzyzacy
         - michelle192837
         - mkumatag
+        - spiffxp
         - stevekuznetsov
         privacy: closed
   test-infra-admins:
     description: admin access to test-infra
-    maintainers:
-    - fejta
-    - spiffxp
     members:
     - BenTheElder
     - chaodaiG
     - chases2
     - cjwagner
+    - fejta
     - k8s-infra-ci-robot
     - listx
     - michelle192837
     - mpherman2
+    - spiffxp
     - stevekuznetsov
     privacy: closed
   test-infra-maintainers:
     description: write access to test-infra
-    maintainers:
-    - fejta
-    - spiffxp
     members:
     - amwat
     - BenTheElder
     - cjwagner
+    - fejta
     - ixdy
     - krzyzacy
     - michelle192837
+    - spiffxp
     - stevekuznetsov
     privacy: closed
   sig-testing-dummy-project-team:

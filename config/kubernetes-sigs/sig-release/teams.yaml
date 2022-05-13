@@ -82,15 +82,16 @@ teams:
   release-engineering:
     description: Members of the Release Engineering subproject, including
       Release Managers and Release Manager Associates.
-    members:
+    maintainers:
     - ameukam # Release Manager Associate
+    - palnabarun # Release Manager
+    members:
     - cpanato # subproject owner / Release Manager
     - jeremyrickard # subproject owner
     - jimangel # Release Manager Associate
     - justaugustus # subproject owner / Release Manager
     - mkorbi # Release Manager Associate
     - onlydole # Release Manager Associate
-    - palnabarun # Release Manager
     - puerco # subproject owner / Release Manager
     - saschagrunert # subproject owner / Release Manager
     - sethmccombs # Release Manager Associate
@@ -161,6 +162,24 @@ teams:
     - justaugustus # subproject owner
     - puerco # subproject owner
     - saschagrunert # subproject owner
+    privacy: closed
+  testgrid-json-exporter-admins:
+    description: admin access to testgrid-json-exporter
+    members:
+    - cpanato
+    - jeremyrickard
+    - justaugustus
+    - puerco
+    - saschagrunert
+    privacy: closed
+  testgrid-json-exporter-maintainers:
+    description: write access to testgrid-json-exporter
+    members:
+    - cpanato
+    - jeremyrickard
+    - justaugustus
+    - puerco
+    - saschagrunert
     privacy: closed
   zeitgeist-admins:
     description: admin access to zeitgeist

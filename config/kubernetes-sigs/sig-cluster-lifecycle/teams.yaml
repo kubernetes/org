@@ -183,7 +183,6 @@ teams:
   cluster-api-provider-openstack-admins:
     description: admin access to cluster-api-provider-openstack
     members:
-    - chrischdi
     - hidekazuna
     - jichenjc
     - mdbooth
@@ -193,7 +192,6 @@ teams:
   cluster-api-provider-openstack-maintainers:
     description: write access to cluster-api-provider-openstack
     members:
-    - chrischdi
     - hidekazuna
     - jichenjc
     - mdbooth
@@ -205,18 +203,17 @@ teams:
     members:
     - deitch
     - detiber
-    - mrmrcoleman
-    - thebsdbox
+    - displague
+    - jacobsmith928
     privacy: closed
   cluster-api-provider-packet-maintainers:
     description: Write access to the cluster-api-provider-packet repo
     members:
+    - cprivitere
     - deitch
     - detiber
-    - gianarb
+    - displague
     - jacobsmith928
-    - mrmrcoleman
-    - thebsdbox
     privacy: closed
   cluster-api-provider-vsphere-admins:
     description: Admin access to the cluster-api-provider-vsphere repo

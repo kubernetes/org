@@ -2,22 +2,21 @@ teams:
   k8s.io-admins:
     description: Admin access to kubernetes/k8s.io
     maintainers:
-    - spiffxp
-    members:
     - ameukam
+    members:
     - dims
     - k8s-infra-ci-robot
+    - spiffxp
     - thockin
     privacy: closed
   sig-k8s-infra:
     description: sig-k8s-infra members
     maintainers:
+    - ameukam
     - cblecker
     - idvoretskyi
     - nikhita
-    - spiffxp
     members:
-    - ameukam
     - BenTheElder
     - BobyMCbobs
     - chewong
@@ -31,6 +30,7 @@ teams:
     - munnerz
     - Riaankl
     - rikatz
+    - spiffxp
     - stp-ip
     - thockin
     privacy: closed
@@ -38,10 +38,10 @@ teams:
       sig-k8s-infra-leads:
         description: sig-k8s-infra chairs and technical leads
         maintainers:
-        - spiffxp
-        members:
         - ameukam
+        members:
         - dims
+        - spiffxp
         - thockin
         privacy: closed
       k8s-infra-aws-admins:
@@ -57,30 +57,30 @@ teams:
         maintainers:
         - cblecker
         - idvoretskyi
-        - spiffxp
         members:
         - BobyMCbobs
         - hh
         - justinsb
         - puerco
         - Riaankl
+        - spiffxp
         - thockin
         privacy: closed
       k8s-infra-gcp-org-admins:
         description: granted owner access to the k8s-infra GCP org
         maintainers:
-        - spiffxp
-        members:
         - ameukam
+        members:
         - dims
+        - spiffxp
         - thockin
         privacy: closed
       k8s-infra-group-admins:
         description: granted run access to kubernetes.io groups reconciler
         maintainers:
         - cblecker
-        - spiffxp
         members:
         - dims
+        - spiffxp
         - thockin
         privacy: closed

@@ -6,16 +6,17 @@ has_repository_projects: true
 members_can_create_repositories: false
 billing_email: github@kubernetes.io
 admins:
+- ameukam
 - cblecker
-- fejta
 - idvoretskyi
 - k8s-ci-robot
 - k8s-github-robot
 - mrbobbytables
 - nikhita
-- spiffxp
+- palnabarun
 - thelinuxfoundation
 members:
+- 196Ikuchil
 - 249043822
 - a7i
 - aaroniscode
@@ -43,12 +44,14 @@ members:
 - alexander-demichev
 - alexeldeib
 - alexgervais
+- alexzielenski
 - alijahnas
 - alisondy
+- AlmogBaku
 - alvaroaleman
 - amacaskill
 - ambiknai
-- ameukam
+- Amulyam24
 - amwat
 - amy
 - andrewrynhard
@@ -153,6 +156,7 @@ members:
 - copejon
 - corneliusweig
 - cpanato
+- cprivitere
 - craiglpeters
 - cristicalin
 - csantanapr
@@ -168,6 +172,7 @@ members:
 - danwinship
 - dashpole
 - davidewatson
+- davidjumani
 - davidopp
 - davidvossel
 - davidz627
@@ -177,6 +182,7 @@ members:
 - ddebroy
 - deads2k
 - Debanitrkl
+- deejross
 - deepak-vij
 - deepakkinni
 - deitch
@@ -189,6 +195,7 @@ members:
 - dhellmann
 - dholbach
 - dims
+- DiptoChakrabarty
 - DirectXMan12
 - displague
 - divya-mohan0209
@@ -223,11 +230,13 @@ members:
 - erikgb
 - estroz
 - Ethyling
+- everpeace
 - f0rmiga
 - fabriziopandini
 - Fedosin
 - Fei-Guo
 - feiskyer
+- fejta
 - feloy
 - figo
 - FillZpp
@@ -253,6 +262,7 @@ members:
 - gjkim42
 - gkarthiks
 - gnufied
+- gohilankit
 - grodrigues3
 - gtxu
 - guineveresaenger
@@ -265,7 +275,6 @@ members:
 - hannibalhuang
 - hantaowang
 - haosdent
-- haoshuwei
 - hardikdr
 - hasbro17
 - hasheddan
@@ -295,6 +304,7 @@ members:
 - invidian
 - irfanurrehman
 - irvifa
+- isaacdorfman
 - ixdy
 - jackfrancis
 - jackielii
@@ -334,10 +344,12 @@ members:
 - jinsongo
 - jkh52
 - jlsong01
+- jmrodri
 - jmwurst
 - joelanford
 - JoelSpeed
 - johananl
+- johannesfrey
 - johngmyers
 - johnharris85
 - johnSchnake
@@ -372,6 +384,7 @@ members:
 - kbhawkey
 - kendallnelson
 - kensipe
+- kerthcet
 - kevin-wangzefeng
 - kevindelgado
 - kfox1111
@@ -388,6 +401,7 @@ members:
 - kris-nova
 - krishchow
 - krmayankk
+- krol3
 - krousey
 - krzyzacy
 - ksubrmnn
@@ -396,6 +410,7 @@ members:
 - kwiesmueller
 - lachie83
 - lafh
+- landreasyan
 - lauralorenz
 - lavalamp
 - leakingtapan
@@ -405,6 +420,7 @@ members:
 - liggitt
 - linki
 - Lion-Wei
+- lipingxue
 - listx
 - Liujingfang1
 - liupeng0518
@@ -421,18 +437,19 @@ members:
 - luxas
 - lzhecheng
 - m00nf1sh
-- m1093782566
 - macaptain
 - maciaszczykm
 - Madhan-SWE
 - MadhavJivrajani
 - Madhur97
+- maelvls
 - makkes
 - maplain
 - MarcelMue
 - MarcusNoble
 - mariantalla
 - mark-nc
+- markmc
 - markyjackson-taulia
 - marosset
 - marquiz
@@ -485,6 +502,7 @@ members:
 - mowangdk
 - mpherman2
 - MrHohn
+- mritunjaysharma394
 - mrmrcoleman
 - mrunalp
 - msau42
@@ -498,6 +516,7 @@ members:
 - n3wscott
 - nader-ziada
 - nak3
+- Namanl2001
 - nan-yu
 - natalisucks
 - natasha41575
@@ -529,7 +548,6 @@ members:
 - onyiny-ang
 - oomichi
 - pacoxu
-- palnabarun
 - parispittman
 - pasqualet
 - PatrickLang
@@ -563,6 +581,7 @@ members:
 - ps882
 - puerco
 - puja108
+- PurneswarPrasad
 - PushkarJ
 - pwittrock
 - pydctw
@@ -584,6 +603,7 @@ members:
 - RaunakShah
 - ravisantoshgudimetla
 - rbitia
+- rdpsin
 - relyt0925
 - resouer
 - reylejano
@@ -604,6 +624,7 @@ members:
 - roberthbailey
 - robinpercy
 - robscott
+- rohityadavcloud
 - rolfedh
 - roycaihw
 - rrati
@@ -675,6 +696,7 @@ members:
 - sonasingh46
 - soniasingla
 - sophieliu15
+- spiffxp
 - spurin
 - spzala
 - srampal
@@ -686,6 +708,7 @@ members:
 - steveperry-53
 - stmcginnis
 - sttts
+- sunpa93
 - swatisehgal
 - SyamSundarKirubakaran
 - t-inu
@@ -713,6 +736,7 @@ members:
 - tobiasgiese
 - tomassedovic
 - TommyLike
+- torredil
 - tpepper
 - truongnh1992
 - trutx
@@ -742,6 +766,7 @@ members:
 - wlan0
 - wongma7
 - woopstar
+- wzshiming
 - x13n
 - Xenwar
 - xiangpengzhao
@@ -914,16 +939,20 @@ teams:
   sig-storage-local-static-provisioner-admins:
     description: Admin access to the sig-storage-local-static-provisioner repo
     members:
+    - andyzhangx
     - cofyc
     - jsafrane
+    - mauriciopoppe
     - msau42
     - saad-ali
     privacy: closed
   sig-storage-local-static-provisioner-maintainers:
     description: Write access to the sig-storage-local-static-provisioner repo
     members:
+    - andyzhangx
     - cofyc
     - jsafrane
+    - mauriciopoppe
     - msau42
     - saad-ali
     privacy: closed

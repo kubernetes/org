@@ -161,6 +161,7 @@ teams:
     description: Write access to kubebuilder-release-tools
     members:
     - Adirio
+    - camilamacedo86
     - DirectXMan12
     - droot
     - mengqiy

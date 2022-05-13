@@ -48,19 +48,6 @@ teams:
     - spiffxp
     - tpepper
     privacy: closed
-  contributor-comms:
-    description: alert members of new issues labeled with contributor comms
-    maintainers:
-    members:
-    - Atharva-Shinde
-    - AvineshTripathi
-    - chris-short
-    - Debanitrkl
-    - kaslin
-    - parispittman
-    - PurneswarPrasad
-    - rajula96reddy
-    privacy: closed
   contributor-site-admins:
     description: admin access to contributor-site
     maintainers:

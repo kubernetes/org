@@ -104,14 +104,6 @@ teams:
     description: admin access to kubebuilder
     members:
     - camilamacedo86
-    - DirectXMan12
-    - droot
-    - estroz
-    - grodrigues3
-    - Liujingfang1
-    - mengqiy
-    - monopole
-    - pmorie
     - pwittrock
     privacy: closed
   kubebuilder-contributors:

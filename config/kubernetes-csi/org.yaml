@@ -1,10 +1,3 @@
-name: Kubernetes CSI
-description: Kubernetes specific Container-Storage-Interface (CSI) components
-default_repository_permission: read
-has_organization_projects: true
-has_repository_projects: true
-members_can_create_repositories: false
-billing_email: github@kubernetes.io
 admins:
 - ameukam
 - cblecker
@@ -15,6 +8,11 @@ admins:
 - nikhita
 - palnabarun
 - thelinuxfoundation
+billing_email: github@kubernetes.io
+default_repository_permission: read
+description: Kubernetes specific Container-Storage-Interface (CSI) components
+has_organization_projects: true
+has_repository_projects: true
 members:
 - 27149chen
 - andrewsykim
@@ -96,6 +94,8 @@ members:
 - yuxiangqian
 - ZeroMagic
 - zhucan
+members_can_create_repositories: false
+name: Kubernetes CSI
 teams:
   cluster-driver-registrar-admins:
     description: Admin access to cluster-driver-registrar repo

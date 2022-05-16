@@ -1,10 +1,3 @@
-name: Kubernetes
-description: Kubernetes
-default_repository_permission: read
-has_organization_projects: true
-has_repository_projects: true
-members_can_create_repositories: false
-billing_email: github@kubernetes.io
 admins:
 - ameukam
 - cblecker
@@ -15,9 +8,14 @@ admins:
 - nikhita
 - palnabarun
 - thelinuxfoundation
+billing_email: github@kubernetes.io
+default_repository_permission: read
+description: Kubernetes
+has_organization_projects: true
+has_repository_projects: true
 members:
 - 196Ikuchil
-- 249043822
+- "249043822"
 - 27149chen
 - 44past4
 - a-mccarthy
@@ -1374,10 +1372,11 @@ members:
 - zparnold
 - zshihang
 - zvonkok
+members_can_create_repositories: false
+name: Kubernetes
 teams:
   api-approvers:
-    description: Approve changes to stable Kubernetes APIs and addition of new beta/stable
-      APIs
+    description: Approve changes to stable Kubernetes APIs and addition of new beta/stable APIs
     members:
     - bgrant0607
     - erictune
@@ -1862,8 +1861,7 @@ teams:
     - zmerlynn
     privacy: closed
   kubernetes-staging-publish-cops:
-    description: will be notified if the robot fails to publish the staging folder
-      to repos
+    description: will be notified if the robot fails to publish the staging folder to repos
     members:
     - caesarxuchao
     - deads2k
@@ -1929,6 +1927,16 @@ teams:
     - timothysc
     - wojtek-t
     privacy: closed
+  sample-apiserver-admins:
+    description: Admin access to the sample-apiserver repo
+    members:
+    - bgrant0607
+    privacy: closed
+  sample-controller-admins:
+    description: Admin access to the sample-controller repo
+    members:
+    - bgrant0607
+    privacy: closed
   security-response-committee:
     description: Please report security issues to https://kubernetes.io/security
     members:
@@ -1943,20 +1951,8 @@ teams:
     - product-security-team
     - product-security-committee
     privacy: closed
-  sample-apiserver-admins:
-    description: Admin access to the sample-apiserver repo
-    members:
-    - bgrant0607
-    privacy: closed
-  sample-controller-admins:
-    description: Admin access to the sample-controller repo
-    members:
-    - bgrant0607
-    privacy: closed
   stage-bots:
-    description: Bots that only have admin access to staged repositories. Giving admin
-      access to other repositories may allow the bot to automatically unintentionally
-      close issues in those repositories.
+    description: Bots that only have admin access to staged repositories. Giving admin access to other repositories may allow the bot to automatically unintentionally close issues in those repositories.
     members:
     - k8s-publishing-bot
     privacy: closed

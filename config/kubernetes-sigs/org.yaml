@@ -1,10 +1,3 @@
-name: Kubernetes SIGs
-description: Org for Kubernetes SIG-related work
-default_repository_permission: read
-has_organization_projects: true
-has_repository_projects: true
-members_can_create_repositories: false
-billing_email: github@kubernetes.io
 admins:
 - ameukam
 - cblecker
@@ -15,9 +8,14 @@ admins:
 - nikhita
 - palnabarun
 - thelinuxfoundation
+billing_email: github@kubernetes.io
+default_repository_permission: read
+description: Org for Kubernetes SIG-related work
+has_organization_projects: true
+has_repository_projects: true
 members:
 - 196Ikuchil
-- 249043822
+- "249043822"
 - a7i
 - aaroniscode
 - aaronlevy
@@ -809,6 +807,8 @@ members:
 - zshihang
 - zulandar
 - zvonkok
+members_can_create_repositories: false
+name: Kubernetes SIGs
 teams:
   application-admins:
     description: Admin access to the application repo
@@ -915,7 +915,6 @@ teams:
     privacy: closed
   node-feature-discovery-admins:
     description: Admin access to the node-feature-discovery repo
-    members:
     privacy: closed
   node-feature-discovery-maintainers:
     description: Write access to the node-feature-discovery repo

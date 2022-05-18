@@ -80,7 +80,7 @@ teams:
     description: Admin access to csharp repo
     members:
     - brendandburns
-    - krabhishek8260
+    - tg123
     privacy: closed
   gen-admins:
     description: Admin access to gen repo

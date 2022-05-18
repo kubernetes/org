@@ -70,6 +70,7 @@ teams:
     - alexeldeib
     - CecileRobertMichon
     - devigned
+    - mboersma
     - shysank
     privacy: closed
   cluster-api-provider-azure-maintainers:
@@ -78,6 +79,7 @@ teams:
     - alexeldeib
     - CecileRobertMichon
     - devigned
+    - mboersma
     - shysank
     privacy: closed
   cluster-api-provider-azure-pms:
@@ -85,9 +87,9 @@ teams:
     members:
     - alexeldeib
     - CecileRobertMichon
-    - cpanato
     - devigned
     - jackfrancis
+    - Jont828
     - jsturtevant
     - mboersma
     - shysank

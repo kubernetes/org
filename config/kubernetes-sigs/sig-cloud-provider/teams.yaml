@@ -44,6 +44,7 @@ teams:
    - micahhausler
    - nckturner
    - wongma7
+   - jyotimahapatra
    privacy: closed
   blobfuse-csi-driver-admins:
    description: Admin access to the blobfuse-csi-driver repo

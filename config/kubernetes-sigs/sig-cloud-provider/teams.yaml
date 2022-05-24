@@ -40,6 +40,7 @@ teams:
   aws-iam-authenticator-maintainers:
    description: Write access to the aws-iam-authenticator repo
    members:
+   - jyotimahapatra
    - m00nf1sh
    - micahhausler
    - nckturner

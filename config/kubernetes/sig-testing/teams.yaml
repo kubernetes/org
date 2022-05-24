@@ -56,6 +56,7 @@ teams:
     description: admin access to test-infra
     members:
     - BenTheElder
+    - carolinar7
     - chaodaiG
     - chases2
     - cjwagner

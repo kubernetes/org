@@ -33,6 +33,18 @@ teams:
     - sbueringer
     - vincepri
     privacy: closed
+  cluster-api-cloudstack-admins:
+    description: ""
+    members:
+    - davidjumani
+    - rohityadavcloud
+    privacy: closed
+  cluster-api-cloudstack-maintainers:
+    description: ""
+    members:
+    - davidjumani
+    - rohityadavcloud
+    privacy: closed
   cluster-api-operator-admins:
     description: "admin access to cluster-api-operator"
     members:

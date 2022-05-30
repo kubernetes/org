@@ -1,5 +1,3 @@
-// FROM https://github.com/knative/community/blob/main/mechanics/tools/gen-aliases/main.go
-
 /*
 Copyright 2022 The Kubernetes Authors.
 
@@ -15,6 +13,8 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 */
+
+// FROM https://github.com/knative/community/blob/main/mechanics/tools/gen-aliases/main.go
 
 package main
 

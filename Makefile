@@ -49,10 +49,7 @@ merge: $(MERGE_CMD)
 merge: $(ALIASES_CMD)
 
 .PHONY: config
-config: $(MERGED_CONFIG)
-
-.PHONY: config-aliases
-config-aliases: merge aliases
+config: merge aliases $(MERGED_CONFIG)
 	for o in $(ORGS) ; do \
 		$(MERGE_CMD) \
 			--merge-teams \

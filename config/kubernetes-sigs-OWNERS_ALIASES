@@ -1,0 +1,1311 @@
+# This file is auto-generated from peribolos.
+# Do not modify this file, instead modify the peribolos config in k/org repository.
+
+aliases:
+  about-api-admins:
+  - jeremyot
+  - pmorie
+  alibaba-cloud-csi-driver-admins:
+  - fredkan
+  - xianlubird
+  alibaba-cloud-csi-driver-maintainers:
+  - fredkan
+  - xianlubird
+  apiserver-builder-alpha-admins:
+  - DirectXMan12
+  - pwittrock
+  - yue9944882
+  apiserver-builder-alpha-maintainers:
+  - DirectXMan12
+  - pwittrock
+  - yue9944882
+  apiserver-network-proxy-admins:
+  - andrewsykim
+  - anfernee
+  - caesarxuchao
+  - cheftako
+  - mcrute
+  apiserver-network-proxy-maintainers:
+  - andrewsykim
+  - anfernee
+  - caesarxuchao
+  - cheftako
+  - mcrute
+  apiserver-runtime-admins:
+  - DirectXMan12
+  - gabbifish
+  - pwittrock
+  - yue9944882
+  apiserver-runtime-maintainers:
+  - DirectXMan12
+  - gabbifish
+  - pwittrock
+  - yue9944882
+  application-admins:
+  - barney-s
+  - janetkuo
+  - kow3ns
+  - mattfarina
+  - mortent
+  - nan-yu
+  - prydonius
+  aws-ebs-csi-driver-admins:
+  - leakingtapan
+  - wongma7
+  aws-ebs-csi-driver-maintainers:
+  - AndyXiangLi
+  - bertinatto
+  - gnufied
+  - gtxu
+  - jsafrane
+  - leakingtapan
+  - nirmalaagash
+  - rdpsin
+  - torredil
+  - vdhanan
+  - wongma7
+  aws-efs-csi-driver-admins:
+  - justinsb
+  - kbasv
+  - leakingtapan
+  - wongma7
+  aws-efs-csi-driver-maintainers:
+  - d-nishi
+  - jsafrane
+  - justinsb
+  - kbasv
+  - leakingtapan
+  - wongma7
+  aws-encryption-provider-admins:
+  - justinsb
+  - robinpercy
+  aws-encryption-provider-maintainers:
+  - justinsb
+  - robinpercy
+  aws-fsx-csi-driver-admins:
+  - justinsb
+  - leakingtapan
+  - wongma7
+  aws-fsx-csi-driver-maintainers:
+  - d-nishi
+  - jsafrane
+  - justinsb
+  - leakingtapan
+  - wongma7
+  aws-iam-authenticator-admins:
+  - m00nf1sh
+  - micahhausler
+  - nckturner
+  - wongma7
+  aws-iam-authenticator-maintainers:
+  - jyotimahapatra
+  - m00nf1sh
+  - micahhausler
+  - nckturner
+  - wongma7
+  azuredisk-csi-driver-admins:
+  - andyzhangx
+  azuredisk-csi-driver-maintainers:
+  - andyzhangx
+  - feiskyer
+  azurefile-csi-driver-admins:
+  - andyzhangx
+  azurefile-csi-driver-maintainers:
+  - andyzhangx
+  - feiskyer
+  azurelustre-csi-driver-admins:
+  - andyzhangx
+  azurelustre-csi-driver-maintainers:
+  - andyzhangx
+  blobfuse-csi-driver-admins:
+  - andyzhangx
+  - feiskyer
+  - justaugustus
+  - khenidak
+  - lachie83
+  blobfuse-csi-driver-maintainers:
+  - andyzhangx
+  - feiskyer
+  - justaugustus
+  - khenidak
+  - lachie83
+  bom-admins:
+  - cpanato
+  - jeremyrickard
+  - justaugustus
+  - puerco
+  - saschagrunert
+  bom-maintainers:
+  - cpanato
+  - jeremyrickard
+  - justaugustus
+  - puerco
+  - saschagrunert
+  boskos-admins:
+  - alvaroaleman
+  - ixdy
+  - stevekuznetsov
+  boskos-maintainers:
+  - alvaroaleman
+  - ixdy
+  - stevekuznetsov
+  bots:
+  - k8s-ci-robot
+  - k8s-github-robot
+  - thelinuxfoundation
+  cli-experimental-admins:
+  - KnVerey
+  - Liujingfang1
+  - pwittrock
+  - seans3
+  - soltysh
+  cli-experimental-maintainers:
+  - Liujingfang1
+  - liggitt
+  - monopole
+  cli-utils-admins:
+  - eddiezane
+  - knverey
+  - seans3
+  - soltysh
+  cli-utils-maintainers:
+  - Liujingfang1
+  - karlkfi
+  - liggitt
+  - mortent
+  clientgofix-admins:
+  - liggitt
+  - mikedanese
+  clientgofix-maintainers:
+  - liggitt
+  - mikedanese
+  cloud-provider-azure-admins:
+  - MartinForReal
+  - andyzhangx
+  - feiskyer
+  - justaugustus
+  - lzhecheng
+  - nilo19
+  cloud-provider-azure-maintainers:
+  - MartinForReal
+  - andyzhangx
+  - feiskyer
+  - justaugustus
+  - lzhecheng
+  - nilo19
+  - ritazh
+  cloud-provider-baiducloud-admins:
+  - ZP-AlwaysWin
+  - hello2mao
+  - tizhou86
+  cloud-provider-baiducloud-maintainers:
+  - ZP-AlwaysWin
+  - hello2mao
+  - tizhou86
+  cloud-provider-huaweicloud-admins:
+  - RainbowMango
+  - kevin-wangzefeng
+  cloud-provider-huaweicloud-maintainers:
+  - RainbowMango
+  - kevin-wangzefeng
+  cluster-addons-admins:
+  - justinsb
+  - luxas
+  - roberthbailey
+  - timothysc
+  cluster-addons-maintainers:
+  - dholbach
+  - justinsb
+  - stealthybox
+  cluster-api-admins:
+  - CecileRobertMichon
+  - vincepri
+  cluster-api-maintainers:
+  - CecileRobertMichon
+  - enxebre
+  - fabriziopandini
+  - sbueringer
+  - vincepri
+  cluster-api-operator-admins:
+  - JoelSpeed
+  - alexander-demichev
+  cluster-api-provider-aws-admins:
+  - detiber
+  - justinsb
+  - luxas
+  - randomvariable
+  - richardcase
+  - sedefsavas
+  - timothysc
+  - vincepri
+  cluster-api-provider-aws-maintainers:
+  - chuckha
+  - davidewatson
+  - detiber
+  - ingvagabund
+  - randomvariable
+  - richardcase
+  - sedefsavas
+  - timothysc
+  - vincepri
+  cluster-api-provider-azure-admins:
+  - CecileRobertMichon
+  - alexeldeib
+  - devigned
+  - mboersma
+  - shysank
+  cluster-api-provider-azure-maintainers:
+  - CecileRobertMichon
+  - alexeldeib
+  - devigned
+  - mboersma
+  - shysank
+  cluster-api-provider-azure-pms:
+  - CecileRobertMichon
+  - Jont828
+  - alexeldeib
+  - devigned
+  - jackfrancis
+  - jsturtevant
+  - mboersma
+  - shysank
+  cluster-api-provider-digitalocean-admins:
+  - cpanato
+  - luxas
+  - roberthbailey
+  - timoreimann
+  - timothysc
+  cluster-api-provider-digitalocean-maintainers:
+  - MorrisLaw
+  - cpanato
+  - prksu
+  - timoreimann
+  - timothysc
+  cluster-api-provider-gcp-admins:
+  - cpanato
+  - justinsb
+  - luxas
+  - roberthbailey
+  - timothysc
+  - vincepri
+  cluster-api-provider-gcp-maintainers:
+  - cpanato
+  - detiber
+  - justinsb
+  - krousey
+  - vincepri
+  cluster-api-provider-ibmcloud-admins:
+  - gyliu513
+  - mkumatag
+  cluster-api-provider-ibmcloud-maintainers:
+  - gyliu513
+  - jichenjc
+  - mkumatag
+  - xunpan
+  cluster-api-provider-kubemark-admins:
+  - benmoss
+  - elmiko
+  - justinsb
+  - neolit123
+  - timothysc
+  - vincepri
+  cluster-api-provider-kubemark-maintainers:
+  - benmoss
+  - elmiko
+  cluster-api-provider-kubevirt-admins:
+  - agradouski
+  - cchengleo
+  - justinsb
+  - neolit123
+  - timothysc
+  - vincepri
+  cluster-api-provider-kubevirt-maintainers:
+  - agradouski
+  - cchengleo
+  cluster-api-provider-nested-admins:
+  - Fei-Guo
+  - christopherhein
+  - fabriziopandini
+  - justinsb
+  - neolit123
+  - timothysc
+  - vincepri
+  cluster-api-provider-nested-maintainers:
+  - Fei-Guo
+  - christopherhein
+  - resouer
+  - zhuangqh
+  cluster-api-provider-openstack-admins:
+  - hidekazuna
+  - jichenjc
+  - mdbooth
+  - seanschneeweiss
+  - tobiasgiese
+  cluster-api-provider-openstack-maintainers:
+  - hidekazuna
+  - jichenjc
+  - mdbooth
+  - seanschneeweiss
+  - tobiasgiese
+  cluster-api-provider-packet-admins:
+  - deitch
+  - detiber
+  - displague
+  - jacobsmith928
+  cluster-api-provider-packet-maintainers:
+  - cprivitere
+  - deitch
+  - detiber
+  - displague
+  - jacobsmith928
+  cluster-api-provider-vsphere-admins:
+  - akutz
+  - frapposelli
+  - srm09
+  - yastij
+  cluster-api-provider-vsphere-maintainers:
+  - akutz
+  - figo
+  - frapposelli
+  - randomvariable
+  - sidharthsurana
+  - srm09
+  - vincepri
+  - yastij
+  cluster-capacity-admins:
+  - ingvagabund
+  cluster-capacity-maintainers:
+  - ingvagabund
+  cluster-proportional-autoscaler-admins:
+  - MrHohn
+  - bowei
+  - thockin
+  cluster-proportional-autoscaler-maintainers:
+  - MrHohn
+  - bowei
+  - thockin
+  cluster-proportional-vertical-autoscaler-admins:
+  - MrHohn
+  - bowei
+  - thockin
+  cluster-proportional-vertical-autoscaler-maintainers:
+  - MrHohn
+  - bowei
+  - thockin
+  container-object-storage-interface-api-admins:
+  - jsafrane
+  - msau42
+  - saad-ali
+  - xing-yang
+  container-object-storage-interface-api-maintainers:
+  - brahmaroutu
+  - jsafrane
+  - msau42
+  - rrati
+  - saad-ali
+  - wlan0
+  - xing-yang
+  container-object-storage-interface-controller-admins:
+  - jsafrane
+  - msau42
+  - saad-ali
+  - xing-yang
+  container-object-storage-interface-controller-maintainers:
+  - brahmaroutu
+  - jsafrane
+  - msau42
+  - rrati
+  - saad-ali
+  - wlan0
+  - xing-yang
+  container-object-storage-interface-csi-adapter-admins:
+  - jsafrane
+  - msau42
+  - saad-ali
+  - xing-yang
+  container-object-storage-interface-csi-adapter-maintainers:
+  - brahmaroutu
+  - copejon
+  - jsafrane
+  - msau42
+  - saad-ali
+  - wlan0
+  - xing-yang
+  container-object-storage-interface-provisioner-sidecar-admins:
+  - jsafrane
+  - msau42
+  - saad-ali
+  - xing-yang
+  container-object-storage-interface-provisioner-sidecar-maintainers:
+  - brahmaroutu
+  - jsafrane
+  - msau42
+  - rrati
+  - saad-ali
+  - wlan0
+  - xing-yang
+  container-object-storage-interface-spec-admins:
+  - jsafrane
+  - msau42
+  - saad-ali
+  - xing-yang
+  container-object-storage-interface-spec-maintainers:
+  - brahmaroutu
+  - copejon
+  - jsafrane
+  - msau42
+  - saad-ali
+  - wlan0
+  - xing-yang
+  contributor-tweets-admins:
+  - cblecker
+  - chris-short
+  - kaslin
+  - mrbobbytables
+  - nikhita
+  contributor-tweets-maintainers:
+  - castrojo
+  - cblecker
+  - mrbobbytables
+  - nikhita
+  controller-runtime-admins:
+  - DirectXMan12
+  - droot
+  - pwittrock
+  controller-runtime-contributors:
+  - lichuqiang
+  - pwittrock
+  controller-runtime-maintainers:
+  - Liujingfang1
+  - alvaroaleman
+  - camilamacedo86
+  - gabbifish
+  - joelanford
+  - mengqiy
+  - pwittrock
+  - seans3
+  - vincepri
+  controller-tools-admins:
+  - DirectXMan12
+  - droot
+  - pwittrock
+  - seans3
+  controller-tools-contributors:
+  - Birdrock
+  - pwittrock
+  controller-tools-maintainers:
+  - camilamacedo86
+  - droot
+  - gabbifish
+  - joelanford
+  - mengqiy
+  - pwittrock
+  - seans3
+  - vincepri
+  cosi-driver-sample-admins:
+  - jsafrane
+  - msau42
+  - saad-ali
+  - xing-yang
+  cosi-driver-sample-maintainers:
+  - jsafrane
+  - krishchow
+  - msau42
+  - saad-ali
+  - wlan0
+  - xing-yang
+  cri-tools-admins:
+  - Random-Liu
+  - feiskyer
+  - mrunalp
+  - saschagrunert
+  - yujuhong
+  cri-tools-maintainers:
+  - Random-Liu
+  - feiskyer
+  - mrunalp
+  - saschagrunert
+  - yujuhong
+  custom-metrics-apiserver-admins:
+  - brancz
+  - piosz
+  custom-metrics-apiserver-maintainers:
+  - dgrisonnet
+  - s-urbaniak
+  - serathius
+  dashboard-metrics-scraper-admins:
+  - floreks
+  - jeefy
+  - maciaszczykm
+  dashboard-metrics-scraper-maintainers:
+  - floreks
+  - jeefy
+  - maciaszczykm
+  depstat-admins:
+  - RinkiyaKeDad
+  - alenkacz
+  - dims
+  - navidshaikh
+  - nikhita
+  descheduler-admins:
+  - aveshagarwal
+  - damemi
+  - k82cn
+  - ravisantoshgudimetla
+  descheduler-maintainers:
+  - aveshagarwal
+  - damemi
+  - k82cn
+  - ravisantoshgudimetla
+  discuss-theme-admins:
+  - castrojo
+  - mrbobbytables
+  discuss-theme-maintainers:
+  - castrojo
+  - mrbobbytables
+  downloadkubernetes-admins:
+  - cpanato
+  - jeremyrickard
+  - justaugustus
+  - puerco
+  - saschagrunert
+  downloadkubernetes-maintainers:
+  - cpanato
+  - jeremyrickard
+  - justaugustus
+  - puerco
+  - saschagrunert
+  e2e-framework-admins:
+  - BenTheElder
+  - alejandrox1
+  - andrewsykim
+  - spiffxp
+  - vladimirvivien
+  e2e-framework-maintainers:
+  - BenTheElder
+  - alejandrox1
+  - andrewsykim
+  - spiffxp
+  etcdadm-admins:
+  - dlipovetsky
+  - justinsb
+  etcdadm-maintainers:
+  - dlipovetsky
+  - justinsb
+  execution-hook-admins:
+  - kow3ns
+  - liyinan926
+  execution-hook-maintainers:
+  - jingxu97
+  - kow3ns
+  - liyinan926
+  - xing-yang
+  external-dns-admins:
+  - Raffo
+  - hjacobs
+  - linki
+  - njuettner
+  external-dns-maintainers:
+  - Raffo
+  - hjacobs
+  - linki
+  - njuettner
+  - seanmalloy
+  federation-wg:
+  - font
+  - gyliu513
+  - hectorj2f
+  - irfanurrehman
+  - jimmidyson
+  - onyiny-ang
+  - pmorie
+  - quinton-hoole
+  - shashidharatd
+  gateway-api-admins:
+  - bowei
+  - thockin
+  gateway-api-maintainers:
+  - bowei
+  - hbagdi
+  - jpeach
+  - robscott
+  - thockin
+  - youngnick
+  gcp-compute-persistent-disk-csi-driver-admins:
+  - mattcary
+  - msau42
+  - saad-ali
+  - saikat-royc
+  gcp-compute-persistent-disk-csi-driver-maintainers:
+  - mattcary
+  - msau42
+  - saad-ali
+  - saikat-royc
+  gcp-filestore-csi-driver-admins:
+  - mattcary
+  - msau42
+  - saad-ali
+  - saikat-royc
+  gcp-filestore-csi-driver-maintainers:
+  - mattcary
+  - msau42
+  - saad-ali
+  - saikat-royc
+  gluster-block-external-provisioner-admins:
+  - jsafrane
+  - msau42
+  - saad-ali
+  - xing-yang
+  gluster-file-external-provisioner-admins:
+  - jsafrane
+  - msau42
+  - saad-ali
+  - xing-yang
+  hierarchical-namespaces-admins:
+  - adrianludwin
+  - rjbez17
+  - srampal
+  - tashimi
+  hierarchical-namespaces-maintainers:
+  - GinnyJI
+  - yiqigao217
+  ibm-powervs-block-csi-driver-admins:
+  - mkumatag
+  ibm-powervs-block-csi-driver-maintainers:
+  - mkumatag
+  ibm-vpc-block-csi-driver-admins:
+  - arahamad
+  ibm-vpc-block-csi-driver-maintainers:
+  - arahamad
+  image-builder-admins:
+  - codenrhoden
+  - justinsb
+  - luxas
+  - timothysc
+  image-builder-maintainers:
+  - codenrhoden
+  - justinsb
+  - luxas
+  - moshloop
+  - timothysc
+  ingress-controller-conformance-admins:
+  - alexgervais
+  - bowei
+  - thockin
+  ingress-controller-conformance-maintainers:
+  - alexgervais
+  - bowei
+  - thockin
+  instrumentation-admins:
+  - brancz
+  - dashpole
+  - ehashman
+  - logicalhan
+  instrumentation-tools-admins:
+  - brancz
+  - dashpole
+  - ehashman
+  - logicalhan
+  instrumentation-tools-maintainers:
+  - brancz
+  - dashpole
+  - ehashman
+  - logicalhan
+  ip-masq-agent-admins:
+  - MrHohn
+  - bowei
+  ip-masq-agent-maintainers:
+  - MrHohn
+  - bowei
+  iptables-wrappers-admins:
+  - caseydavenport
+  - danwinship
+  - dcbw
+  - thockin
+  iptables-wrappers-maintainers:
+  - caseydavenport
+  - danwinship
+  - dcbw
+  - thockin
+  json-admins:
+  - deads2k
+  - lavalamp
+  - liggitt
+  k8s-gsm-tools-admins:
+  - BenTheElder
+  - spiffxp
+  k8s-gsm-tools-maintainers:
+  - BenTheElder
+  - spiffxp
+  kind-admins:
+  - BenTheElder
+  - amwat
+  - aojea
+  - munnerz
+  kind-maintainers:
+  - BenTheElder
+  - amwat
+  - aojea
+  - munnerz
+  kpng-admins:
+  - mcluseau
+  - thockin
+  krew-admins:
+  - ahmetb
+  - chriskim06
+  - corneliusweig
+  - pwittrock
+  - seans3
+  - soltysh
+  krew-index-admins:
+  - ahmetb
+  - chriskim06
+  - corneliusweig
+  - pwittrock
+  - seans3
+  - soltysh
+  krew-index-maintainers:
+  - ahmetb
+  - chriskim06
+  - corneliusweig
+  - pwittrock
+  - seans3
+  - soltysh
+  krew-maintainers:
+  - ahmetb
+  - chriskim06
+  - corneliusweig
+  - pwittrock
+  - seans3
+  - soltysh
+  krm-functions-registry-admins:
+  - KnVerey
+  - jeremyrickard
+  - mengqiy
+  krm-functions-registry-maintainers:
+  - KnVerey
+  - jeremyrickard
+  - mengqiy
+  - natasha41575
+  kube-batch-admins:
+  - k82cn
+  kube-batch-maintainers:
+  - k82cn
+  kube-scheduler-simulator-admins:
+  - Huang-Wei
+  - adtac
+  - alculquicondor
+  kube-scheduler-simulator-maintainers:
+  - adtac
+  - sanposhiho
+  kubebuilder-admins:
+  - DirectXMan12
+  - Liujingfang1
+  - camilamacedo86
+  - droot
+  - estroz
+  - grodrigues3
+  - mengqiy
+  - monopole
+  - pmorie
+  - pwittrock
+  kubebuilder-contributors:
+  - DirectXMan12
+  - lichuqiang
+  - pwittrock
+  kubebuilder-declarative-pattern-admins:
+  - johnsonj
+  - justinsb
+  kubebuilder-declarative-pattern-maintainers:
+  - johnsonj
+  - justinsb
+  kubebuilder-maintainers:
+  - Adirio
+  - DirectXMan12
+  - apelisse
+  - camilamacedo86
+  - droot
+  - gabbifish
+  - mengqiy
+  - monopole
+  - pmorie
+  - pwittrock
+  - seans3
+  kubebuilder-release-tools-admins:
+  - Adirio
+  - DirectXMan12
+  - droot
+  - mengqiy
+  - vincepri
+  kubebuilder-release-tools-maintainers:
+  - Adirio
+  - DirectXMan12
+  - camilamacedo86
+  - droot
+  - mengqiy
+  - vincepri
+  kubectl-check-ownerreferences-admins:
+  - caesarxuchao
+  - deads2k
+  - liggitt
+  kubefed-admins:
+  - font
+  - hectorj2f
+  - irfanurrehman
+  - jimmidyson
+  - pmorie
+  - shashidharatd
+  kubefed-maintainers:
+  - font
+  - hectorj2f
+  - irfanurrehman
+  - jimmidyson
+  - shashidharatd
+  kubernetes-sig-api-machinery:
+  - deads2k
+  - lavalamp
+  kubernetes-sig-api-machinery-admins:
+  - deads2k
+  - lavalamp
+  kubernetes-sig-api-machinery-approvers:
+  - deads2k
+  - lavalamp
+  kubernetes-sig-api-machinery-reviewers:
+  - deads2k
+  - lavalamp
+  kubernetes-sig-apps:
+  - kow3ns
+  - prydonius
+  kubernetes-sig-apps-admins: []
+  kubernetes-sig-apps-approvers: []
+  kubernetes-sig-apps-reviewers: []
+  kubernetes-sig-scheduling:
+  - timothysc
+  kubespray-admins:
+  - ant31
+  - chadswen
+  - floryut
+  - mattymo
+  kubespray-maintainers:
+  - ant31
+  - chadswen
+  - cristicalin
+  - floryut
+  - mattymo
+  - miouge1
+  - oomichi
+  kubetest2-admins:
+  - BenTheElder
+  - amwat
+  - spiffxp
+  kubetest2-maintainers:
+  - BenTheElder
+  - amwat
+  - spiffxp
+  kueue-admins:
+  - ahg-g
+  - alculquicondor
+  kueue-maintainers:
+  - ahg-g
+  - alculquicondor
+  kui-admins:
+  - myan9
+  - starpit
+  kui-maintainers:
+  - eddiezane
+  - mark-nc
+  - myan9
+  - pwittrock
+  - seans3
+  - soltysh
+  - starpit
+  kustomize-admins:
+  - knverey
+  - natasha41575
+  kustomize-maintainers: []
+  legacyflag-admins:
+  - luxas
+  - mtaufen
+  - sttts
+  legacyflag-maintainers:
+  - luxas
+  - mtaufen
+  - sttts
+  lwkd-admins:
+  - coderanger
+  - jberkus
+  lwkd-maintainers:
+  - coderanger
+  - jberkus
+  maintainers-admins:
+  - dims
+  - nikhita
+  maintainers-maintainers:
+  - MadhavJivrajani
+  - dims
+  - mrbobbytables
+  - nikhita
+  - palnabarun
+  mcs-api-admins:
+  - JeremyOT
+  - pmorie
+  mdtoc-admins:
+  - cpanato
+  - jeremyrickard
+  - justaugustus
+  - puerco
+  - saschagrunert
+  mdtoc-maintainers:
+  - cpanato
+  - jeremyrickard
+  - justaugustus
+  - puerco
+  - saschagrunert
+  metrics-server-admins:
+  - s-urbaniak
+  - serathius
+  metrics-server-maintainers:
+  - s-urbaniak
+  - serathius
+  multi-tenancy-admins:
+  - davidopp
+  - easeway
+  - srampal
+  - tashimi
+  multi-tenancy-maintainers:
+  - adrianludwin
+  - davidopp
+  - easeway
+  - rjbez17
+  - srampal
+  - tashimi
+  - yiqigao217
+  network-policy-api-admins:
+  - abhiraut
+  - rikatz
+  nfs-ganesha-server-and-external-provisioner-admins:
+  - jsafrane
+  - kmova
+  - msau42
+  - saad-ali
+  - xing-yang
+  nfs-subdir-external-provisioner-admins:
+  - jsafrane
+  - kmova
+  - msau42
+  - saad-ali
+  - xing-yang
+  node-feature-discovery-admins: []
+  node-feature-discovery-maintainers:
+  - marquiz
+  node-feature-discovery-operator-admins:
+  - ArangoGutierrez
+  - marquiz
+  - zvonkok
+  node-feature-discovery-operator-maintainers:
+  - ArangoGutierrez
+  - marquiz
+  - zvonkok
+  oci-proxy-admins:
+  - ameukam
+  - bentheelder
+  - dims
+  - spiffxp
+  - thockin
+  oci-proxy-maintainers:
+  - ameukam
+  - bentheelder
+  - dims
+  - spiffxp
+  - thockin
+  prometheus-adapter-admins:
+  - DirectXMan12
+  - brancz
+  - s-urbaniak
+  prometheus-adapter-maintainers:
+  - dgrisonnet
+  - s-urbaniak
+  promo-tools-admins:
+  - cpanato
+  - jeremyrickard
+  - justaugustus
+  - listx
+  - puerco
+  - saschagrunert
+  promo-tools-maintainers:
+  - cpanato
+  - jeremyrickard
+  - justaugustus
+  - listx
+  - puerco
+  - saschagrunert
+  provider-aws-test-infra-admins:
+  - nckturner
+  - wongma7
+  prow-admins:
+  - alvaroaleman
+  - cblecker
+  - cjwagner
+  - fejta
+  - petr-muller
+  - stevekuznetsov
+  prow-maintainers:
+  - alvaroaleman
+  - cblecker
+  - cjwagner
+  - fejta
+  - petr-muller
+  - stevekuznetsov
+  reference-docs-admins:
+  - jimangel
+  reference-docs-maintainers:
+  - kbhawkey
+  - onlydole
+  - sftim
+  - tengqm
+  release-engineering:
+  - Verolop
+  - ameukam
+  - cpanato
+  - jeremyrickard
+  - jimangel
+  - justaugustus
+  - mkorbi
+  - onlydole
+  - palnabarun
+  - puerco
+  - saschagrunert
+  - sethmccombs
+  - thejoycekung
+  - wilsonehusin
+  - xmudrii
+  release-notes-admins:
+  - cpanato
+  - jeremyrickard
+  - justaugustus
+  - puerco
+  - saschagrunert
+  release-notes-maintainers:
+  - cpanato
+  - jeremyrickard
+  - justaugustus
+  - puerco
+  - saschagrunert
+  release-sdk-admins:
+  - cpanato
+  - jeremyrickard
+  - justaugustus
+  - puerco
+  - saschagrunert
+  release-sdk-maintainers:
+  - cpanato
+  - jeremyrickard
+  - justaugustus
+  - puerco
+  - saschagrunert
+  release-team-shadow-stats-admins:
+  - cpanato
+  - jeremyrickard
+  - justaugustus
+  - puerco
+  - saschagrunert
+  release-utils-admins:
+  - cpanato
+  - jeremyrickard
+  - justaugustus
+  - puerco
+  - saschagrunert
+  release-utils-maintainers:
+  - cpanato
+  - jeremyrickard
+  - justaugustus
+  - puerco
+  - saschagrunert
+  scheduler-plugins-admins:
+  - Huang-Wei
+  - ahg-g
+  scheduler-plugins-maintainers:
+  - Huang-Wei
+  - ahg-g
+  secrets-store-csi-driver-admins:
+  - aramase
+  - ritazh
+  secrets-store-csi-driver-maintainers:
+  - aramase
+  - ritazh
+  - tam7t
+  security-profiles-operator-admins:
+  - pjbgf
+  - saschagrunert
+  security-profiles-operator-maintainers:
+  - pjbgf
+  - saschagrunert
+  sig-security:
+  - IanColdwater
+  - tabbysable
+  sig-security-leads:
+  - IanColdwater
+  - tabbysable
+  sig-security-pr-reviews:
+  - IanColdwater
+  - tabbysable
+  sig-storage-lib-external-provisioner-admins:
+  - childsb
+  - jsafrane
+  - wongma7
+  sig-storage-lib-external-provisioner-maintainers:
+  - childsb
+  - jsafrane
+  - wongma7
+  sig-storage-local-static-provisioner-admins:
+  - andyzhangx
+  - cofyc
+  - jsafrane
+  - mauriciopoppe
+  - msau42
+  - saad-ali
+  sig-storage-local-static-provisioner-maintainers:
+  - andyzhangx
+  - cofyc
+  - jsafrane
+  - mauriciopoppe
+  - msau42
+  - saad-ali
+  sig-usability-admins:
+  - Rajakavitha1
+  - hpandeycodeit
+  - tashimi
+  - vllry
+  sig-usability-maintainers:
+  - Rajakavitha1
+  - hpandeycodeit
+  - tashimi
+  - vllry
+  sig-windows-dev-tools-admins:
+  - claudiubelu
+  - jayunit100
+  - jsturtevant
+  - marosset
+  - sladyn98
+  sig-windows-samples-admins:
+  - claudiubelu
+  - jayunit100
+  - jsturtevant
+  - marosset
+  sig-windows-samples-maintainers:
+  - claudiubelu
+  - jayunit100
+  - jsturtevant
+  - marosset
+  sig-windows-tools-admins:
+  - claudiubelu
+  - jayunit100
+  - jsturtevant
+  - marosset
+  sig-windows-tools-maintainers:
+  - claudiubelu
+  - jayunit100
+  - jsturtevant
+  - marosset
+  slack-infra-admins:
+  - Katharine
+  - jeefy
+  special-resource-operator-admins:
+  - adrianchiris
+  - zvonkok
+  special-resource-operator-maintainers:
+  - adrianchiris
+  - zvonkok
+  structured-merge-diff-admins:
+  - apelisse
+  - lavalamp
+  structured-merge-diff-maintainers:
+  - apelisse
+  - jiahuif
+  - jpbetz
+  - lavalamp
+  testgrid-json-exporter-admins:
+  - cpanato
+  - jeremyrickard
+  - justaugustus
+  - puerco
+  - saschagrunert
+  testgrid-json-exporter-maintainers:
+  - cpanato
+  - jeremyrickard
+  - justaugustus
+  - puerco
+  - saschagrunert
+  vsphere-csi-driver-admins:
+  - codenrhoden
+  - divyenpatel
+  - frapposelli
+  vsphere-csi-driver-maintainers:
+  - SandeepPissay
+  - codenrhoden
+  - divyenpatel
+  - frapposelli
+  - xing-yang
+  wg-naming:
+  - celestehorgan
+  - jdumars
+  - justaugustus
+  wg-naming-leads:
+  - celestehorgan
+  - jdumars
+  - justaugustus
+  wg-policy-prototypes-admins:
+  - ericavonb
+  - hannibalhuang
+  wg-policy-prototypes-maintainers:
+  - JimBugwadia
+  - rficcaglia
+  windows-gmsa-admins:
+  - claudiubelu
+  - jayunit100
+  - jsturtevant
+  - marosset
+  windows-gmsa-maintainers:
+  - claudiubelu
+  - jayunit100
+  - jsturtevant
+  - marosset
+  windows-testing-admins:
+  - adelina-t
+  - claudiubelu
+  - jayunit100
+  - jsturtevant
+  - marosset
+  windows-testing-maintainers:
+  - adelina-t
+  - claudiubelu
+  - jayunit100
+  - jsturtevant
+  - marosset
+  work-api-admins:
+  - jeremyot
+  - pmorie
+  yaml-admins:
+  - deads2k
+  - dims
+  - lavalamp
+  - liggitt
+  yaml-maintainers:
+  - deads2k
+  - dims
+  - lavalamp
+  - liggitt
+  zeitgeist-admins:
+  - cpanato
+  - jeremyrickard
+  - justaugustus
+  - puerco
+  - saschagrunert
+  zeitgeist-maintainers:
+  - Pluies
+  - cpanato
+  - jeremyrickard
+  - justaugustus
+  - n3wscott
+  - puerco
+  - saschagrunert

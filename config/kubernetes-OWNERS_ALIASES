@@ -1,0 +1,2390 @@
+# This file is auto-generated from peribolos.
+# Do not modify this file, instead modify the peribolos config in k/org repository.
+
+aliases:
+  api-approvers:
+  - bgrant0607
+  - erictune
+  - lavalamp
+  - liggitt
+  - smarterclayton
+  - thockin
+  api-reviewers:
+  - davidopp
+  - deads2k
+  - derekwaynecarr
+  - erictune
+  - lavalamp
+  - liggitt
+  - mikedanese
+  - pwittrock
+  - smarterclayton
+  - thockin
+  - vishh
+  autoscaler-admins:
+  - MaciekPytel
+  - mwielgus
+  autoscaler-maintainers:
+  - DirectXMan12
+  - MaciekPytel
+  - aleksandra-malinowska
+  - bskiba
+  - losipiuk
+  - mwielgus
+  - piosz
+  autoscaler-reviewers:
+  - DirectXMan12
+  - MaciekPytel
+  - aleksandra-malinowska
+  - bskiba
+  - feiskyer
+  - mwielgus
+  - piosz
+  bash-firefighters:
+  - BenTheElder
+  - cblecker
+  - cjwagner
+  - fejta
+  - ixdy
+  - spiffxp
+  - stevekuznetsov
+  - sttts
+  bots:
+  - k8s-ci-robot
+  - k8s-github-robot
+  - k8s-publishing-bot
+  - k8s-release-robot
+  - thelinuxfoundation
+  build-admins:
+  - BenTheElder
+  - MushuEE
+  - cpanato
+  - juanfescobar
+  - justaugustus
+  - puerco
+  - saschagrunert
+  - spiffxp
+  ci-signal:
+  - Nivedita-coder
+  - lauralorenz
+  - leonardpahlke
+  - shuheiktgw
+  - voigt
+  client-go-admins:
+  - caesarxuchao
+  - lavalamp
+  client-go-maintainers:
+  - caesarxuchao
+  - lavalamp
+  - sttts
+  cloud-provider-gcp-admins:
+  - awly
+  - calebamiles
+  - mikedanese
+  cloud-provider-gcp-maintainers:
+  - awly
+  - calebamiles
+  - cheftako
+  - cici37
+  - jpbetz
+  - mikedanese
+  cloud-provider-openstack-admins:
+  - adisky
+  - chrigl
+  - dims
+  - jichenjc
+  - lingxiankong
+  - ramineni
+  cloud-provider-openstack-maintainers:
+  - adisky
+  - chrigl
+  - dims
+  - jichenjc
+  - lingxiankong
+  - ramineni
+  cloud-provider-openstack-members:
+  - adisky
+  - chrigl
+  - dims
+  - jichenjc
+  - lingxiankong
+  - ramineni
+  cloud-provider-sample-admins:
+  - andrewsykim
+  - calebamiles
+  - cheftako
+  - mcrute
+  cloud-provider-sample-maintainers:
+  - andrewsykim
+  - calebamiles
+  - cheftako
+  - mcrute
+  cloud-provider-vsphere-admins:
+  - andrewsykim
+  - dvonthenen
+  - frapposelli
+  - lubronzhan
+  - maplain
+  - nicolehanjing
+  cloud-provider-vsphere-maintainers:
+  - BaluDontu
+  - SandeepPissay
+  - andrewsykim
+  - divyenpatel
+  - dougm
+  - frapposelli
+  - imkin
+  cncf-conformance-wg:
+  - WilliamDenniss
+  - bgrant0607
+  - bradtopol
+  - brahmaroutu
+  - deepak-vij
+  - dims
+  - hh
+  - johnbelamaric
+  - mgdevstack
+  - rjbez17
+  - smarterclayton
+  - spiffxp
+  - timothysc
+  cncf-wg:
+  - caniszczyk
+  - foxish
+  - thelinuxfoundation
+  code-generator-admins:
+  - deads2k
+  - eparis
+  - sttts
+  code-generator-maintainers:
+  - deads2k
+  - eparis
+  - sttts
+  code-of-conduct-committee:
+  - celestehorgan
+  - karenhchu
+  - palnabarun
+  - tpepper
+  - vllry
+  code-organization-project-admins:
+  - dims
+  community-admins:
+  - Phillels
+  - alisondy
+  - calebamiles
+  - cblecker
+  - idvoretskyi
+  - jdumars
+  - mrbobbytables
+  - nikhita
+  - parispittman
+  community-maintainers:
+  - alisondy
+  - cblecker
+  - mrbobbytables
+  - nikhita
+  - parispittman
+  community-milestone-maintainers:
+  - Phillels
+  - alisondy
+  - calebamiles
+  - castrojo
+  - cblecker
+  - dims
+  - fejta
+  - grodrigues3
+  - guineveresaenger
+  - idvoretskyi
+  - jberkus
+  - jdumars
+  - jeefy
+  - justaugustus
+  - lukaszgryglicki
+  - mrbobbytables
+  - nikhita
+  - parispittman
+  - spiffxp
+  - tpepper
+  contributor-comms:
+  - Atharva-Shinde
+  - AvineshTripathi
+  - Debanitrkl
+  - PurneswarPrasad
+  - chris-short
+  - kaslin
+  - parispittman
+  - rajula96reddy
+  contributor-site-admins:
+  - castrojo
+  - mrbobbytables
+  contributor-site-maintainers:
+  - castrojo
+  - mrbobbytables
+  csi-api-admins:
+  - saad-ali
+  csi-api-maintainers:
+  - saad-ali
+  dashboard-admins:
+  - floreks
+  - maciaszczykm
+  dashboard-maintainers:
+  - floreks
+  - ianlewis
+  - jeefy
+  - maciaszczykm
+  - shu-mutou
+  dep-approvers:
+  - BenTheElder
+  - cblecker
+  - dims
+  - soltysh
+  - sttts
+  - thockin
+  dns-admins:
+  - MrHohn
+  - bowei
+  - thockin
+  dns-maintainers:
+  - MrHohn
+  - bowei
+  - prameshj
+  - thockin
+  enhancements:
+  - LappleApple
+  - gracenng
+  - jameslaverack
+  - jeremyrickard
+  - johnbelamaric
+  - jrsapi
+  - justaugustus
+  - kikisdeliveryservice
+  - mrbobbytables
+  - reylejano
+  - salaxander
+  - supriya-premkumar
+  enhancements-admins:
+  - LappleApple
+  - jeremyrickard
+  - johnbelamaric
+  - justaugustus
+  - kikisdeliveryservice
+  - mrbobbytables
+  enhancements-maintainers:
+  - LappleApple
+  - jeremyrickard
+  - johnbelamaric
+  - justaugustus
+  - kikisdeliveryservice
+  - mrbobbytables
+  examples:
+  - ahmetb
+  - chrislovecnm
+  - erictune
+  - foxish
+  - idvoretskyi
+  - janetkuo
+  - jaredbhatti
+  - jayunit100
+  - pwittrock
+  - steveperry-53
+  examples-admins:
+  - idvoretskyi
+  - sebgoa
+  examples-maintainers:
+  - ahmetb
+  - idvoretskyi
+  - sebgoa
+  federation-admins:
+  - irfanurrehman
+  federation-maintainers:
+  - irfanurrehman
+  gengo-admins:
+  - lavalamp
+  - smarterclayton
+  - thockin
+  - wojtek-t
+  gengo-maintainers:
+  - thockin
+  ghas-subproject-board:
+  - ameukam
+  - cblecker
+  - idealhack
+  - idvoretskyi
+  - justaugustus
+  - mrbobbytables
+  - nikhita
+  - nzoueidi
+  - palnabarun
+  git-sync-admins:
+  - mikedanese
+  - thockin
+  git-sync-maintainers:
+  - mikedanese
+  - stp-ip
+  - thockin
+  goog-gke:
+  - cjcullen
+  - destijl
+  - ihmccreery
+  - jessicaochen
+  - zmerlynn
+  goog-image:
+  - dchen1107
+  - wonderfly
+  ingress-gce-admins:
+  - bowei
+  - thockin
+  ingress-gce-maintainers:
+  - MrHohn
+  - bowei
+  - freehan
+  - prameshj
+  - rramkumar1
+  - swetharepakula
+  - thockin
+  ingress-nginx-admins:
+  - aledbf
+  - bowei
+  - rikatz
+  ingress-nginx-maintainers:
+  - aledbf
+  - cpanato
+  - rikatz
+  - strongjz
+  intel:
+  - ConnorDoyle
+  - bart0sh
+  - davidopp
+  - kad
+  k8s-infra-aws-admins:
+  - idvoretskyi
+  - justinsb
+  - thockin
+  k8s-infra-gcp-auditors:
+  - BobyMCbobs
+  - Riaankl
+  - cblecker
+  - hh
+  - idvoretskyi
+  - justinsb
+  - puerco
+  - spiffxp
+  - thockin
+  k8s-infra-gcp-org-admins:
+  - ameukam
+  - dims
+  - spiffxp
+  - thockin
+  k8s-infra-group-admins:
+  - cblecker
+  - dims
+  - spiffxp
+  - thockin
+  k8s-io-admins:
+  - ameukam
+  - dims
+  - k8s-infra-ci-robot
+  - spiffxp
+  - thockin
+  klog-admins:
+  - dims
+  - thockin
+  klog-maintainers:
+  - dims
+  - erictune
+  - justinsb
+  - lavalamp
+  - tallclair
+  - thockin
+  kompose-admins:
+  - cdrage
+  - hangyan
+  - janetkuo
+  - kadel
+  - ngtuna
+  - sebgoa
+  kompose-maintainers:
+  - cdrage
+  - hangyan
+  - janetkuo
+  - kadel
+  - ngtuna
+  - sebgoa
+  kops-admins:
+  - justinsb
+  - mikedanese
+  - zmerlynn
+  kops-maintainers:
+  - geojaz
+  - hakman
+  - johngmyers
+  - justinsb
+  - kashifsaadat
+  - mikedanese
+  - mikesplain
+  - olemarkus
+  - rdrgmnzs
+  - rifelpet
+  - zetaab
+  kube-openapi-admins:
+  - apelisse
+  - deads2k
+  - lavalamp
+  kube-openapi-maintainers:
+  - apelisse
+  - lavalamp
+  - roycaihw
+  kube-state-metrics-admins:
+  - dgrisonnet
+  - fpetkovski
+  - mrueg
+  kube-state-metrics-maintainers:
+  - dgrisonnet
+  - fpetkovski
+  - mrueg
+  kubeadm-admins:
+  - SataQiu
+  - fabriziopandini
+  - neolit123
+  kubeadm-maintainers:
+  - SataQiu
+  - fabriziopandini
+  - neolit123
+  kubectl-admins:
+  - KnVerey
+  - eddiezane
+  - seans3
+  - soltysh
+  kubectl-maintainers:
+  - KnVerey
+  - eddiezane
+  - seans3
+  - soltysh
+  kubernetes-feature-branch-admins:
+  - lavalamp
+  kubernetes-maintainers:
+  - BenTheElder
+  - Random-Liu
+  - apelisse
+  - bgrant0607
+  - brendandburns
+  - bsalamat
+  - caesarxuchao
+  - cblecker
+  - cheftako
+  - childsb
+  - cjcullen
+  - davidopp
+  - dchen1107
+  - deads2k
+  - derekwaynecarr
+  - dims
+  - eparis
+  - erictune
+  - feiskyer
+  - fejta
+  - freehan
+  - grodrigues3
+  - ingvagabund
+  - ixdy
+  - janetkuo
+  - jbeda
+  - jessfraz
+  - jingxu97
+  - jsafrane
+  - justinsb
+  - k82cn
+  - kargakis
+  - kevin-wangzefeng
+  - krousey
+  - lavalamp
+  - liggitt
+  - luxas
+  - mikedanese
+  - mml
+  - mtaufen
+  - mwielgus
+  - ncdc
+  - piosz
+  - pmorie
+  - pwittrock
+  - quinton-hoole
+  - saad-ali
+  - smarterclayton
+  - soltysh
+  - spiffxp
+  - sttts
+  - tallclair
+  - thelinuxfoundation
+  - thockin
+  - timothysc
+  - vishh
+  - wojtek-t
+  - xiang90
+  - yifan-gu
+  - yujuhong
+  - zmerlynn
+  kubernetes-staging-publish-cops:
+  - caesarxuchao
+  - deads2k
+  - lavalamp
+  - sttts
+  maintainer-test-exemptions:
+  - aronchick
+  - fejta
+  - kelseyhightower
+  metrics-admins:
+  - DirectXMan12
+  - piosz
+  - sarahnovotny
+  metrics-maintainers:
+  - DirectXMan12
+  - piosz
+  - sarahnovotny
+  milestone-maintainers:
+  - BenTheElder
+  - DiptoChakrabarty
+  - Huang-Wei
+  - KnVerey
+  - Priyankasaggu11929
+  - RainbowMango
+  - SataQiu
+  - Verolop
+  - abgworrall
+  - adisky
+  - ahg-g
+  - alejandrox1
+  - ameukam
+  - andrewsykim
+  - bgrant0607
+  - bradamant3
+  - brancz
+  - cantbewong
+  - caseydavenport
+  - cblecker
+  - cheftako
+  - chrigl
+  - cici37
+  - claudiubelu
+  - cpanato
+  - craiglpeters
+  - dashpole
+  - dcbw
+  - dchen1107
+  - deads2k
+  - derekwaynecarr
+  - dims
+  - doshyt
+  - eddiezane
+  - ehashman
+  - encodeflush
+  - enj
+  - fabriziopandini
+  - feiskyer
+  - fejta
+  - floreks
+  - foxish
+  - frapposelli
+  - gracenng
+  - helayoty
+  - hpandeycodeit
+  - jameslaverack
+  - janetkuo
+  - jayunit100
+  - jberkus
+  - jdumars
+  - jeremyrickard
+  - jhvhs
+  - jiahuif
+  - jimangel
+  - jlbutler
+  - johnbelamaric
+  - jrsapi
+  - jsafrane
+  - jsturtevant
+  - justaugustus
+  - justinsb
+  - jyotimahapatra
+  - k8s-release-robot
+  - karenhchu
+  - khenidak
+  - kow3ns
+  - lavalamp
+  - leonardpahlke
+  - liggitt
+  - lingxiankong
+  - liyinan926
+  - logicalhan
+  - luxas
+  - maciaszczykm
+  - marosset
+  - mattfarina
+  - mborsz
+  - mickeyboxell
+  - mikedanese
+  - mkorbi
+  - mm4tt
+  - mrbobbytables
+  - msau42
+  - mwielgus
+  - nate-double-u
+  - nckturner
+  - neolit123
+  - nikhita
+  - onlydole
+  - oxddr
+  - palnabarun
+  - parispittman
+  - phillels
+  - pmorie
+  - prydonius
+  - puerco
+  - pwittrock
+  - quinton-hoole
+  - rajakavitha1
+  - rhockenbury
+  - ritpanjw
+  - saad-ali
+  - salaxander
+  - saschagrunert
+  - seans3
+  - serathius
+  - sethmccombs
+  - shu-mutou
+  - shyamjvs
+  - soltysh
+  - spiffxp
+  - spzala
+  - stevekuznetsov
+  - tallclair
+  - tashimi
+  - thejoycekung
+  - thockin
+  - timothysc
+  - vllry
+  - voigt
+  - wilsonehusin
+  - wojtek-t
+  - xing-yang
+  - xmudrii
+  minikube-admins:
+  - balopat
+  - dlorenc
+  - tstromberg
+  - vishh
+  minikube-maintainers:
+  - afbjorklund
+  - balopat
+  - ethernetdan
+  - jimmidyson
+  - sharifelgamal
+  - tstromberg
+  node-problem-detector-admins:
+  - Random-Liu
+  - dchen1107
+  node-problem-detector-maintainers:
+  - Random-Liu
+  - andyxning
+  - dchen1107
+  - wangzhen127
+  owners:
+  - ameukam
+  - cblecker
+  - idvoretskyi
+  - mrbobbytables
+  - nikhita
+  - palnabarun
+  perf-tests-admins:
+  - bowei
+  - wojtek-t
+  perf-tests-maintainers:
+  - bowei
+  - shyamjvs
+  - timothysc
+  - wojtek-t
+  prod-readiness-reviewers:
+  - deads2k
+  - ehashman
+  - johnbelamaric
+  - wojtek-t
+  production-readiness:
+  - deads2k
+  - ehashman
+  - johnbelamaric
+  - wojtek-t
+  project-board-maintainers:
+  - LappleApple
+  - idvoretskyi
+  - jdumars
+  - justaugustus
+  - lachie83
+  - mattfarina
+  provider-aws-misc:
+  - andrewsykim
+  - justinsb
+  - micahhausler
+  - nckturner
+  - wongma7
+  provider-azure:
+  - MartinForReal
+  - andyzhangx
+  - brendandburns
+  - craiglpeters
+  - dstrebel
+  - feiskyer
+  - justaugustus
+  - karataliu
+  - khenidak
+  - lachie83
+  - lzhecheng
+  - nilo19
+  - ritazh
+  - soggiest
+  provider-gcp-api-reviews:
+  - abgworrall
+  provider-gcp-bugs:
+  - abgworrall
+  provider-gcp-feature-requests:
+  - abgworrall
+  provider-gcp-misc:
+  - abgworrall
+  provider-gcp-pr-reviews:
+  - abgworrall
+  provider-gcp-proposals:
+  - abgworrall
+  provider-gcp-test-failures:
+  - abgworrall
+  provider-ibmcloud-misc:
+  - k82cn
+  - spzala
+  provider-openstack-api-reviews:
+  - adisky
+  - chrigl
+  - jichenjc
+  - lingxiankong
+  - ramineni
+  provider-openstack-bugs:
+  - adisky
+  - chrigl
+  - jichenjc
+  - lingxiankong
+  - ramineni
+  provider-openstack-feature-requests:
+  - adisky
+  - chrigl
+  - jichenjc
+  - lingxiankong
+  - ramineni
+  provider-openstack-misc:
+  - NickrenREN
+  - adisky
+  - anguslees
+  - chrigl
+  - dims
+  - feiskyer
+  - flaper87
+  - harlowja
+  - jichenjc
+  - kragniz
+  - lingxiankong
+  - pigmej
+  - ramineni
+  - rootfs
+  - russellb
+  - stevemcquaid
+  provider-openstack-pr-reviews:
+  - adisky
+  - chrigl
+  - jichenjc
+  - lingxiankong
+  - ramineni
+  provider-openstack-proposals:
+  - adisky
+  - chrigl
+  - jichenjc
+  - lingxiankong
+  - ramineni
+  provider-openstack-test-failures:
+  - adisky
+  - chrigl
+  - jichenjc
+  - lingxiankong
+  - ramineni
+  publishing-bot-admins:
+  - cpanato
+  - dims
+  - jeremyrickard
+  - justaugustus
+  - nikhita
+  - puerco
+  - saschagrunert
+  - sttts
+  publishing-bot-maintainers:
+  - Verolop
+  - cpanato
+  - dims
+  - jeremyrickard
+  - justaugustus
+  - nikhita
+  - palnabarun
+  - puerco
+  - saschagrunert
+  - sttts
+  - xmudrii
+  release-engineering:
+  - Verolop
+  - ameukam
+  - cpanato
+  - jimangel
+  - justaugustus
+  - k8s-release-robot
+  - mkorbi
+  - onlydole
+  - palnabarun
+  - puerco
+  - saschagrunert
+  - sethmccombs
+  - thejoycekung
+  - wilsonehusin
+  - xmudrii
+  release-managers:
+  - Verolop
+  - cpanato
+  - justaugustus
+  - k8s-release-robot
+  - palnabarun
+  - puerco
+  - saschagrunert
+  - xmudrii
+  release-team:
+  - AuraSinis
+  - Debanitrkl
+  - DiptoChakrabarty
+  - Lp-Francois
+  - Nivedita-coder
+  - Priyankasaggu11929
+  - RinkiyaKeDad
+  - Verolop
+  - chrisnegus
+  - cici37
+  - cpanato
+  - csantanapr
+  - didicodes
+  - doshyt
+  - encodeflush
+  - gracenng
+  - helayoty
+  - jameslaverack
+  - jeremyrickard
+  - jiahuif
+  - jlbutler
+  - jrsapi
+  - justaugustus
+  - jyotimahapatra
+  - katcosgrove
+  - lauralorenz
+  - leonardpahlke
+  - mehabhalodiya
+  - mickeyboxell
+  - mkorbi
+  - nate-double-u
+  - onlydole
+  - palnabarun
+  - parul5sahoo
+  - pi-victor
+  - puerco
+  - reylejano
+  - rhockenbury
+  - ritpanjw
+  - s04
+  - salaxander
+  - saschagrunert
+  - savitharaghunathan
+  - shuheiktgw
+  - valaparthvi
+  - voigt
+  - xmudrii
+  release-team-leads:
+  - cici37
+  - jameslaverack
+  - jlbutler
+  - jrsapi
+  - mkorbi
+  - salaxander
+  repo-infra-admins:
+  - BenTheElder
+  - clarketm
+  - cpanato
+  - fejta
+  - justaugustus
+  - mikedanese
+  - puerco
+  - saschagrunert
+  repo-infra-maintainers:
+  - BenTheElder
+  - Verolop
+  - clarketm
+  - cpanato
+  - fejta
+  - justaugustus
+  - mikedanese
+  - puerco
+  - saschagrunert
+  - xmudrii
+  sample-apiserver-admins:
+  - bgrant0607
+  sample-controller-admins:
+  - bgrant0607
+  security-response-committee:
+  - cjcullen
+  - enj
+  - joelsmith
+  - lukehinds
+  - micahhausler
+  - tabbysable
+  - tallclair
+  sig-api-machinery-api-reviews:
+  - lavalamp
+  - liggitt
+  sig-api-machinery-bugs:
+  - lavalamp
+  sig-api-machinery-feature-requests:
+  - lavalamp
+  - liggitt
+  sig-api-machinery-misc:
+  - deads2k
+  - derekwaynecarr
+  - enj
+  - ironcladlou
+  - lavalamp
+  - liggitt
+  - smarterclayton
+  - soltysh
+  - sttts
+  - yue9944882
+  sig-api-machinery-pr-reviews:
+  - deads2k
+  - lavalamp
+  - liggitt
+  - smarterclayton
+  - sttts
+  sig-api-machinery-proposals:
+  - lavalamp
+  - liggitt
+  sig-api-machinery-test-failures:
+  - lavalamp
+  sig-apps-api-reviews:
+  - davidopp
+  - dixudx
+  - enisoc
+  - foxish
+  - janetkuo
+  - kow3ns
+  - lukaszo
+  - mattfarina
+  - mfojtik
+  - smarterclayton
+  - soltysh
+  - tnozicka
+  - zouyee
+  sig-apps-bugs:
+  - davidopp
+  - enisoc
+  - foxish
+  - janetkuo
+  - kow3ns
+  - lukaszo
+  - mattfarina
+  - mfojtik
+  - resouer
+  - smarterclayton
+  - soltysh
+  - tnozicka
+  - wanghaoran1988
+  sig-apps-feature-requests:
+  - ant31
+  - davidopp
+  - enisoc
+  - foxish
+  - janetkuo
+  - kow3ns
+  - lukaszo
+  - mattfarina
+  - mfojtik
+  - prydonius
+  - resouer
+  - smarterclayton
+  - soltysh
+  - tnozicka
+  sig-apps-misc:
+  - davidopp
+  - enisoc
+  - foxish
+  - janetkuo
+  - kow3ns
+  - lukaszo
+  - mattfarina
+  - mfojtik
+  - prydonius
+  - resouer
+  - smarterclayton
+  - soltysh
+  - tnozicka
+  sig-apps-pr-reviews:
+  - davidopp
+  - enisoc
+  - foxish
+  - janetkuo
+  - kow3ns
+  - lukaszo
+  - mattfarina
+  - mfojtik
+  - resouer
+  - smarterclayton
+  - soltysh
+  - tnozicka
+  sig-apps-proposals:
+  - davidopp
+  - enisoc
+  - foxish
+  - janetkuo
+  - kow3ns
+  - lukaszo
+  - mattfarina
+  - mfojtik
+  - prydonius
+  - smarterclayton
+  - soltysh
+  - tnozicka
+  sig-apps-test-failures:
+  - davidopp
+  - enisoc
+  - foxish
+  - janetkuo
+  - kow3ns
+  - lukaszo
+  - mattfarina
+  - mfojtik
+  - prydonius
+  - smarterclayton
+  - soltysh
+  - tnozicka
+  sig-architecture:
+  - derekwaynecarr
+  - dims
+  - johnbelamaric
+  - liggitt
+  - smarterclayton
+  - thockin
+  sig-architecture-leads:
+  - derekwaynecarr
+  - dims
+  - johnbelamaric
+  sig-architecture-pr-reviews:
+  - derekwaynecarr
+  - dims
+  - johnbelamaric
+  - liggitt
+  - smarterclayton
+  - thockin
+  sig-auth-api-reviews:
+  - davidopp
+  - deads2k
+  - enj
+  - liggitt
+  - mattmoyer
+  - mikedanese
+  - tallclair
+  sig-auth-bugs:
+  - davidopp
+  - deads2k
+  - enj
+  - liggitt
+  - mattmoyer
+  - mikedanese
+  - tallclair
+  sig-auth-feature-requests:
+  - davidopp
+  - deads2k
+  - destijl
+  - enj
+  - liggitt
+  - mattmoyer
+  - mikedanese
+  - smarterclayton
+  - tallclair
+  sig-auth-misc:
+  - cjcullen
+  - davidopp
+  - deads2k
+  - destijl
+  - enj
+  - erictune
+  - liggitt
+  - mattmoyer
+  - mikedanese
+  - pmorie
+  - smarterclayton
+  - tallclair
+  sig-auth-pr-reviews:
+  - davidopp
+  - deads2k
+  - enj
+  - liggitt
+  - mattmoyer
+  - mikedanese
+  - tallclair
+  sig-auth-proposals:
+  - davidopp
+  - deads2k
+  - destijl
+  - enj
+  - liggitt
+  - mattmoyer
+  - mikedanese
+  - smarterclayton
+  - tallclair
+  sig-auth-test-failures:
+  - davidopp
+  - deads2k
+  - enj
+  - liggitt
+  - mattmoyer
+  - mikedanese
+  - tallclair
+  sig-autoscaling-api-reviews:
+  - DirectXMan12
+  - MaciekPytel
+  - aleksandra-malinowska
+  - bskiba
+  - davidopp
+  - mwielgus
+  sig-autoscaling-bugs:
+  - DirectXMan12
+  - MaciekPytel
+  - aleksandra-malinowska
+  - bskiba
+  - davidopp
+  - mwielgus
+  sig-autoscaling-feature-requests:
+  - DirectXMan12
+  - MaciekPytel
+  - aleksandra-malinowska
+  - bskiba
+  - davidopp
+  - mwielgus
+  sig-autoscaling-misc:
+  - DirectXMan12
+  - MaciekPytel
+  - aleksandra-malinowska
+  - bskiba
+  - davidopp
+  - mwielgus
+  sig-autoscaling-pr-reviews:
+  - DirectXMan12
+  - MaciekPytel
+  - aleksandra-malinowska
+  - bskiba
+  - davidopp
+  - mwielgus
+  sig-autoscaling-proposals:
+  - DirectXMan12
+  - MaciekPytel
+  - aleksandra-malinowska
+  - bskiba
+  - davidopp
+  - mwielgus
+  sig-autoscaling-test-failures:
+  - DirectXMan12
+  - MaciekPytel
+  - aleksandra-malinowska
+  - bskiba
+  - davidopp
+  - mwielgus
+  sig-cli-kubectl-maintainers:
+  - KnVerey
+  - brianpursley
+  - eddiezane
+  - seans3
+  - soltysh
+  sig-cli-leads:
+  - KnVerey
+  - eddiezane
+  - seans3
+  - soltysh
+  sig-cloud-provider:
+  - Rajakavitha1
+  - andrewsykim
+  - aoxn
+  - calebamiles
+  - cheftako
+  - cheyang
+  - gujingit
+  - hogepodge
+  - jhorwit2
+  - justaugustus
+  - justinsb
+  - mcrute
+  - nckturner
+  - xlgao-zju
+  - yastij
+  sig-cloud-provider-admins:
+  - andrewsykim
+  - calebamiles
+  sig-cloud-provider-alibaba-admins:
+  - aoxn
+  - cheyang
+  - gujingit
+  - xlgao-zju
+  sig-cloud-provider-api-reviews:
+  - andrewsykim
+  - calebamiles
+  - hogepodge
+  sig-cloud-provider-aws-admins:
+  - andrewsykim
+  - justinsb
+  - nckturner
+  sig-cloud-provider-aws-maintainers:
+  - andrewsykim
+  - justinsb
+  - nckturner
+  sig-cloud-provider-bugs:
+  - andrewsykim
+  - calebamiles
+  - hogepodge
+  sig-cloud-provider-feature-requests:
+  - andrewsykim
+  - calebamiles
+  - hogepodge
+  sig-cloud-provider-misc:
+  - andrewsykim
+  - calebamiles
+  - hogepodge
+  sig-cloud-provider-pr-reviews:
+  - Rajakavitha1
+  - andrewsykim
+  - calebamiles
+  - hogepodge
+  - nckturner
+  sig-cloud-provider-proposals:
+  - andrewsykim
+  - calebamiles
+  - hogepodge
+  sig-cloud-provider-test-failures:
+  - andrewsykim
+  - calebamiles
+  - hogepodge
+  sig-cluster-lifecycle:
+  - SataQiu
+  - cpanato
+  - detiber
+  - dixudx
+  - ereslibre
+  - fabriziopandini
+  - kad
+  - luxas
+  - neolit123
+  - rosti
+  - stealthybox
+  - timothysc
+  - yagonobre
+  sig-contributor-experience:
+  - Pensu
+  - Phillels
+  - alisondy
+  - aravindputrevu
+  - castrojo
+  - cblecker
+  - dims
+  - eparis
+  - foxish
+  - grodrigues3
+  - hongchaodeng
+  - idealhack
+  - idvoretskyi
+  - jessfraz
+  - lavalamp
+  - monopole
+  - mrbobbytables
+  - nikhita
+  - parispittman
+  - philips
+  - pigmej
+  - pwittrock
+  - saiyam1814
+  - tao12345666333
+  - thockin
+  - xiang90
+  sig-contributor-experience-apac-coordinators:
+  - Pensu
+  - alisondy
+  - aravindputrevu
+  - idealhack
+  - nikhita
+  - saiyam1814
+  - tao12345666333
+  sig-contributor-experience-leads:
+  - alisondy
+  - cblecker
+  - mrbobbytables
+  - nikhita
+  sig-contributor-experience-pr-reviews:
+  - cblecker
+  - idealhack
+  - idvoretskyi
+  - nikhita
+  sig-docs-de-owners:
+  - bene2k1
+  - mkorbi
+  - rlenferink
+  sig-docs-de-reviews:
+  - bene2k1
+  - mkorbi
+  - rlenferink
+  sig-docs-en-owners:
+  - annajung
+  - bradtopol
+  - celestehorgan
+  - divya-mohan0209
+  - jimangel
+  - kbhawkey
+  - natalisucks
+  - onlydole
+  - reylejano
+  - savitharaghunathan
+  - sftim
+  - tengqm
+  sig-docs-en-reviews:
+  - bradtopol
+  - celestehorgan
+  - daminisatya
+  - divya-mohan0209
+  - jimangel
+  - kbhawkey
+  - mehabhalodiya
+  - natalisucks
+  - onlydole
+  - rajeshdeshpande02
+  - reylejano
+  - sftim
+  - shannonxtreme
+  - tengqm
+  sig-docs-es-owners:
+  - electrocucaracha
+  - raelga
+  sig-docs-es-reviews:
+  - electrocucaracha
+  - emedina
+  - glo-pena
+  - raelga
+  sig-docs-fr-owners:
+  - abuisine
+  - awkif
+  - jygastaud
+  - oussemos
+  - perriea
+  - rbenzair
+  - rekcah78
+  - remyleone
+  - smana
+  - yastij
+  sig-docs-fr-reviews:
+  - abuisine
+  - awkif
+  - jygastaud
+  - oussemos
+  - perriea
+  - rbenzair
+  - rekcah78
+  - remyleone
+  - smana
+  - yastij
+  sig-docs-hi-owners:
+  - anubha-v-ardhan
+  - divya-mohan0209
+  - mittalyashu
+  sig-docs-hi-reviews:
+  - anubha-v-ardhan
+  - divya-mohan0209
+  - mittalyashu
+  - verma-kunal
+  sig-docs-id-owners:
+  - girikuncoro
+  sig-docs-id-reviews:
+  - danninov
+  - girikuncoro
+  - habibrosyad
+  - phanama
+  - wahyuoi
+  sig-docs-it-owners:
+  - Fale
+  - fabriziopandini
+  - mattiaperi
+  - micheleberardi
+  sig-docs-it-reviews:
+  - Fale
+  - fabriziopandini
+  - mattiaperi
+  - micheleberardi
+  sig-docs-ja-owners:
+  - inductor
+  - nasa9084
+  sig-docs-ja-reviews:
+  - bells17
+  - inductor
+  - kakts
+  - makocchi-git
+  - nasa9084
+  - ptux
+  sig-docs-ko-owners:
+  - claudiajkang
+  - gochist
+  - ianychoi
+  - jihoon-seo
+  - seokho-son
+  - ysyukr
+  sig-docs-ko-reviews:
+  - ClaudiaJKang
+  - gochist
+  - ianychoi
+  - jihoon-seo
+  - jmyung
+  - pjhwa
+  - seokho-son
+  - yoonian
+  - ysyukr
+  sig-docs-leads:
+  - divya-mohan0209
+  - jimangel
+  - kbhawkey
+  - natalisucks
+  - onlydole
+  - reylejano
+  - sftim
+  - tengqm
+  sig-docs-pl-owners:
+  - mfilocha
+  - nvtkaszpir
+  sig-docs-pl-reviews:
+  - mfilocha
+  - nvtkaszpir
+  sig-docs-pr-reviews:
+  - Rajakavitha1
+  - bradtopol
+  - cody-clark
+  - gochist
+  - jimangel
+  - kbhawkey
+  - stewart-yu
+  - tengqm
+  - tfogo
+  - zparnold
+  sig-docs-pt-owners:
+  - devlware
+  - femrtnz
+  - jailton
+  - jcjesus
+  - jhonmike
+  - rikatz
+  - yagonobre
+  sig-docs-pt-reviews:
+  - devlware
+  - femrtnz
+  - jailton
+  - jcjesus
+  - jhonmike
+  - rikatz
+  - yagonobre
+  sig-docs-ru-owners:
+  - aisonaku
+  - dianaabv
+  - msheldyakov
+  - potapy4
+  sig-docs-ru-reviews:
+  - aisonaku
+  - dianaabv
+  - msheldyakov
+  - potapy4
+  sig-docs-uk-owners:
+  - MaxymVlasov
+  - anastyakulyk
+  - butuzov
+  sig-docs-uk-reviews:
+  - Arhell
+  - MaxymVlasov
+  - Potapy4
+  - anastyakulyk
+  - butuzov
+  sig-docs-vi-owners:
+  - huynguyennovem
+  - ngtuna
+  - truongnh1992
+  sig-docs-vi-reviews:
+  - huynguyennovem
+  - ngtuna
+  - truongnh1992
+  sig-docs-zh-owners:
+  - SataQiu
+  - tanjunchen
+  - tengqm
+  - xichengliudui
+  - zhangxiaoyu-zidif
+  sig-docs-zh-reviews:
+  - SataQiu
+  - chenrui333
+  - chenxuc
+  - idealhack
+  - mengjiao-liu
+  - pigletfly
+  - tanjunchen
+  - tengqm
+  - xichengliudui
+  - zhangxiaoyu-zidif
+  sig-instrumentation-approvers:
+  - RainbowMango
+  - brancz
+  - dashpole
+  - dgrisonnet
+  - ehashman
+  - logicalhan
+  - serathius
+  sig-instrumentation-leads:
+  - dashpole
+  - dgrisonnet
+  - ehashman
+  - logicalhan
+  sig-instrumentation-members:
+  - CatherineF-dev
+  - RainbowMango
+  - YoyinZyc
+  - brancz
+  - coffeepac
+  - dashpole
+  - dgrisonnet
+  - dims
+  - ehashman
+  - erain
+  - lilic
+  - logicalhan
+  - pohly
+  - s-urbaniak
+  - serathius
+  - tariq1890
+  - yangjunmyfm192085
+  - yuzhiquan
+  sig-k8s-infra:
+  - BenTheElder
+  - BobyMCbobs
+  - Riaankl
+  - ameukam
+  - cblecker
+  - chewong
+  - claudiubelu
+  - cpanato
+  - dims
+  - hh
+  - idvoretskyi
+  - ixdy
+  - justinsb
+  - listx
+  - munnerz
+  - nikhita
+  - puerco
+  - rikatz
+  - spiffxp
+  - stp-ip
+  - thockin
+  sig-k8s-infra-leads:
+  - ameukam
+  - dims
+  - spiffxp
+  - thockin
+  sig-multicluster-api-reviews:
+  - davidopp
+  - mwielgus
+  - quinton-hoole
+  - shashidharatd
+  sig-multicluster-bugs:
+  - irfanurrehman
+  - mwielgus
+  - quinton-hoole
+  - shashidharatd
+  sig-multicluster-feature-requests:
+  - davidopp
+  - derekwaynecarr
+  - mwielgus
+  - quinton-hoole
+  - shashidharatd
+  - smarterclayton
+  sig-multicluster-misc:
+  - davidopp
+  - derekwaynecarr
+  - huangyuqi
+  - irfanurrehman
+  - liggitt
+  - mwielgus
+  - quinton-hoole
+  - shashidharatd
+  - smarterclayton
+  sig-multicluster-pr-reviews:
+  - mwielgus
+  - quinton-hoole
+  - shashidharatd
+  sig-multicluster-proposals:
+  - davidopp
+  - derekwaynecarr
+  - liggitt
+  - mwielgus
+  - quinton-hoole
+  - shashidharatd
+  - smarterclayton
+  sig-multicluster-test-failures:
+  - irfanurrehman
+  - quinton-hoole
+  - shashidharatd
+  sig-network-api-reviews:
+  - caseydavenport
+  - davidopp
+  - thockin
+  sig-network-bugs:
+  - caseydavenport
+  - cmluciano
+  - thockin
+  sig-network-feature-requests:
+  - caseydavenport
+  - cmluciano
+  - davidopp
+  - smarterclayton
+  - thockin
+  sig-network-misc:
+  - MrHohn
+  - aanm
+  - bowei
+  - caseydavenport
+  - danwinship
+  - davidopp
+  - dcbw
+  - eparis
+  - feiskyer
+  - freehan
+  - jeremyeder
+  - smarterclayton
+  - thockin
+  sig-network-pr-reviews:
+  - bowei
+  - caseydavenport
+  - cmluciano
+  - dcbw
+  - feiskyer
+  - thockin
+  sig-network-proposals:
+  - caseydavenport
+  - cmluciano
+  - davidopp
+  - dcbw
+  - feiskyer
+  - smarterclayton
+  - thockin
+  sig-network-test-failures:
+  - caseydavenport
+  - cmluciano
+  - thockin
+  sig-node-api-reviews:
+  - ConnorDoyle
+  - davidopp
+  - dchen1107
+  - derekwaynecarr
+  - feiskyer
+  - resouer
+  - tallclair
+  - vikaschoudhary16
+  - vishh
+  - yujuhong
+  sig-node-bugs:
+  - ConnorDoyle
+  - dchen1107
+  - derekwaynecarr
+  - feiskyer
+  - resouer
+  - tallclair
+  - vikaschoudhary16
+  - vishh
+  - yguo0905
+  - yujuhong
+  sig-node-feature-requests:
+  - ConnorDoyle
+  - Random-Liu
+  - davidopp
+  - dchen1107
+  - derekwaynecarr
+  - feiskyer
+  - resouer
+  - smarterclayton
+  - tallclair
+  - vikaschoudhary16
+  - vishh
+  - yguo0905
+  - yujuhong
+  sig-node-pr-reviews:
+  - ConnorDoyle
+  - dchen1107
+  - derekwaynecarr
+  - feiskyer
+  - resouer
+  - tallclair
+  - vikaschoudhary16
+  - vishh
+  - yujuhong
+  sig-node-proposals:
+  - ConnorDoyle
+  - Random-Liu
+  - dashpole
+  - davidopp
+  - dchen1107
+  - derekwaynecarr
+  - feiskyer
+  - mtaufen
+  - resouer
+  - smarterclayton
+  - tallclair
+  - vikaschoudhary16
+  - vishh
+  - yujuhong
+  sig-node-test-failures:
+  - ConnorDoyle
+  - MHBauer
+  - Random-Liu
+  - alejandrox1
+  - bobbypage
+  - bsdnet
+  - dashpole
+  - dchen1107
+  - derekwaynecarr
+  - feiskyer
+  - karan
+  - mtaufen
+  - resouer
+  - sjenning
+  - tallclair
+  - vikaschoudhary16
+  - vishh
+  - vpickard
+  - yguo0905
+  - yujuhong
+  sig-release:
+  - AuraSinis
+  - BenTheElder
+  - Debanitrkl
+  - DiptoChakrabarty
+  - JamesLaverack
+  - Lp-Francois
+  - Nivedita-coder
+  - Priyankasaggu11929
+  - RinkiyaKeDad
+  - Verolop
+  - alenkacz
+  - ameukam
+  - castrojo
+  - chrisnegus
+  - cici37
+  - cpanato
+  - csantanapr
+  - didicodes
+  - dims
+  - doshyt
+  - encodeflush
+  - gracenng
+  - helayoty
+  - ixdy
+  - jameslaverack
+  - jberkus
+  - jdumars
+  - jeefy
+  - jeremyrickard
+  - jiahuif
+  - jimangel
+  - jlbutler
+  - jrsapi
+  - justaugustus
+  - jyotimahapatra
+  - k8s-release-robot
+  - katcosgrove
+  - lauralorenz
+  - leonardpahlke
+  - liggitt
+  - mariantalla
+  - mehabhalodiya
+  - mickeyboxell
+  - mkorbi
+  - mrbobbytables
+  - nate-double-u
+  - nikhita
+  - nikopen
+  - onlydole
+  - onyiny-ang
+  - palnabarun
+  - parul5sahoo
+  - pi-victor
+  - puerco
+  - rawkode
+  - reylejano
+  - rhockenbury
+  - ritpanjw
+  - s04
+  - salaxander
+  - saschagrunert
+  - savitharaghunathan
+  - sethmccombs
+  - shuheiktgw
+  - soggiest
+  - spiffxp
+  - thejoycekung
+  - tpepper
+  - valaparthvi
+  - voigt
+  - wilsonehusin
+  - xmudrii
+  sig-release-admins:
+  - cpanato
+  - jeremyrickard
+  - justaugustus
+  - puerco
+  - saschagrunert
+  sig-release-leads:
+  - cpanato
+  - jeremyrickard
+  - justaugustus
+  - puerco
+  - saschagrunert
+  sig-release-pms:
+  - cpanato
+  - jeremyrickard
+  - justaugustus
+  - puerco
+  - saschagrunert
+  sig-scalability:
+  - cpanato
+  - jeremyrickard
+  - jkaniuk
+  - jprzychodzen
+  - justaugustus
+  - krzysied
+  - mborsz
+  - mm4tt
+  - onlydole
+  - oxddr
+  - puerco
+  - saschagrunert
+  - shyamjvs
+  - tosi3k
+  - wojtek-t
+  sig-scalability-leads:
+  - mm4tt
+  - shyamjvs
+  - wojtek-t
+  sig-scalability-pr-reviews:
+  - jkaniuk
+  - jprzychodzen
+  - mborsz
+  - mm4tt
+  - shyamjvs
+  - tosi3k
+  - wojtek-t
+  sig-scheduling-api-reviews:
+  - ConnorDoyle
+  - aveshagarwal
+  - bsalamat
+  - davidopp
+  - derekwaynecarr
+  - hongchaodeng
+  - ingvagabund
+  - jayunit100
+  - k82cn
+  - kevin-wangzefeng
+  - pigmej
+  - quinton-hoole
+  - resouer
+  - rrati
+  - timothysc
+  - vishh
+  - xiang90
+  sig-scheduling-bugs:
+  - ConnorDoyle
+  - aveshagarwal
+  - bsalamat
+  - davidopp
+  - derekwaynecarr
+  - gyliu513
+  - hongchaodeng
+  - ingvagabund
+  - jayunit100
+  - k82cn
+  - kevin-wangzefeng
+  - pigmej
+  - quinton-hoole
+  - ravisantoshgudimetla
+  - resouer
+  - rrati
+  - timothysc
+  - vikaschoudhary16
+  - vishh
+  - wanghaoran1988
+  - xiang90
+  sig-scheduling-feature-requests:
+  - ConnorDoyle
+  - aveshagarwal
+  - bsalamat
+  - davidopp
+  - derekwaynecarr
+  - gyliu513
+  - hongchaodeng
+  - ingvagabund
+  - jayunit100
+  - k82cn
+  - kevin-wangzefeng
+  - pigmej
+  - quinton-hoole
+  - ravisantoshgudimetla
+  - resouer
+  - rrati
+  - smarterclayton
+  - timothysc
+  - vikaschoudhary16
+  - vishh
+  - xiang90
+  - yastij
+  sig-scheduling-misc:
+  - ConnorDoyle
+  - aveshagarwal
+  - bsalamat
+  - davidopp
+  - derekwaynecarr
+  - gyliu513
+  - hongchaodeng
+  - ingvagabund
+  - jayunit100
+  - k82cn
+  - kevin-wangzefeng
+  - pigmej
+  - quinton-hoole
+  - ravisantoshgudimetla
+  - resouer
+  - rrati
+  - smarterclayton
+  - timothysc
+  - wanghaoran1988
+  - xiang90
+  sig-scheduling-pr-reviews:
+  - ConnorDoyle
+  - aveshagarwal
+  - bsalamat
+  - davidopp
+  - derekwaynecarr
+  - gyliu513
+  - hongchaodeng
+  - ingvagabund
+  - jayunit100
+  - k82cn
+  - kevin-wangzefeng
+  - pigmej
+  - quinton-hoole
+  - ravisantoshgudimetla
+  - resouer
+  - rrati
+  - timothysc
+  - vikaschoudhary16
+  - vishh
+  - wanghaoran1988
+  - xiang90
+  - yastij
+  sig-scheduling-proposals:
+  - ConnorDoyle
+  - aveshagarwal
+  - bsalamat
+  - davidopp
+  - derekwaynecarr
+  - gyliu513
+  - hongchaodeng
+  - ingvagabund
+  - jayunit100
+  - k82cn
+  - kevin-wangzefeng
+  - pigmej
+  - quinton-hoole
+  - resouer
+  - rrati
+  - smarterclayton
+  - timothysc
+  - vikaschoudhary16
+  - vishh
+  - xiang90
+  sig-scheduling-test-failures:
+  - ConnorDoyle
+  - aveshagarwal
+  - bsalamat
+  - davidopp
+  - derekwaynecarr
+  - gyliu513
+  - hongchaodeng
+  - ingvagabund
+  - jayunit100
+  - k82cn
+  - kevin-wangzefeng
+  - pigmej
+  - quinton-hoole
+  - ravisantoshgudimetla
+  - resouer
+  - rrati
+  - timothysc
+  - xiang90
+  sig-security:
+  - IanColdwater
+  - tabbysable
+  sig-security-admins:
+  - IanColdwater
+  - tabbysable
+  sig-security-leads:
+  - IanColdwater
+  - tabbysable
+  sig-security-maintainers:
+  - IanColdwater
+  - tabbysable
+  sig-security-pr-reviews:
+  - IanColdwater
+  - tabbysable
+  sig-storage-api-reviews:
+  - davidopp
+  - jsafrane
+  - msau42
+  - rootfs
+  - saad-ali
+  - thockin
+  - wattsteve
+  - xing-yang
+  sig-storage-bugs:
+  - NickrenREN
+  - gnufied
+  - jeffvance
+  - jingxu97
+  - jsafrane
+  - msau42
+  - rootfs
+  - saad-ali
+  - wattsteve
+  - xing-yang
+  sig-storage-feature-requests:
+  - NickrenREN
+  - davidopp
+  - jingxu97
+  - jsafrane
+  - msau42
+  - rootfs
+  - saad-ali
+  - smarterclayton
+  - thockin
+  - wattsteve
+  - xing-yang
+  sig-storage-image-build-admins:
+  - jsafrane
+  - msau42
+  - pohly
+  - saad-ali
+  - xing-yang
+  sig-storage-misc:
+  - NickrenREN
+  - davidopp
+  - gnufied
+  - jeffvance
+  - jingxu97
+  - jsafrane
+  - msau42
+  - rootfs
+  - saad-ali
+  - smarterclayton
+  - thockin
+  - wattsteve
+  - xing-yang
+  sig-storage-pr-reviews:
+  - jsafrane
+  - msau42
+  - rootfs
+  - saad-ali
+  - xing-yang
+  sig-storage-proposals:
+  - davidopp
+  - jingxu97
+  - jsafrane
+  - msau42
+  - rootfs
+  - saad-ali
+  - smarterclayton
+  - thockin
+  - vishh
+  - wattsteve
+  - xing-yang
+  sig-storage-test-failures:
+  - jeffvance
+  - jingxu97
+  - jsafrane
+  - msau42
+  - rootfs
+  - saad-ali
+  - xing-yang
+  sig-testing:
+  - BenTheElder
+  - Katharine
+  - akutz
+  - amwat
+  - bowei
+  - cblecker
+  - chases2
+  - cjwagner
+  - clarketm
+  - fejta
+  - ixdy
+  - jayunit100
+  - jdef
+  - justaugustus
+  - justinsb
+  - krzyzacy
+  - marun
+  - michelle192837
+  - mkumatag
+  - pigmej
+  - spiffxp
+  - stevekuznetsov
+  - timothysc
+  - xiangpengzhao
+  sig-testing-dummy-project-team:
+  - taragu
+  sig-testing-leads:
+  - BenTheElder
+  - spiffxp
+  - stevekuznetsov
+  sig-testing-pr-reviews:
+  - BenTheElder
+  - Katharine
+  - akutz
+  - amwat
+  - chases2
+  - cjwagner
+  - clarketm
+  - fejta
+  - ixdy
+  - krzyzacy
+  - michelle192837
+  - mkumatag
+  - spiffxp
+  - stevekuznetsov
+  sig-windows-bugs:
+  - claudiubelu
+  - jayunit100
+  - jsturtevant
+  - marosset
+  sig-windows-feature-requests:
+  - claudiubelu
+  - jayunit100
+  - jsturtevant
+  - marosset
+  sig-windows-leads:
+  - claudiubelu
+  - jayunit100
+  - jsturtevant
+  - marosset
+  sig-windows-misc:
+  - claudiubelu
+  - jayunit100
+  - jsturtevant
+  - marosset
+  stage-bots:
+  - k8s-publishing-bot
+  steering-committee:
+  - cblecker
+  - dims
+  - justaugustus
+  - liggitt
+  - mrbobbytables
+  - parispittman
+  - tpepper
+  system-validators-admins:
+  - neolit123
+  - timothysc
+  system-validators-maintainers:
+  - neolit123
+  - timothysc
+  test-infra-admins:
+  - BenTheElder
+  - chaodaiG
+  - chases2
+  - cjwagner
+  - fejta
+  - k8s-infra-ci-robot
+  - listx
+  - michelle192837
+  - mpherman2
+  - spiffxp
+  - stevekuznetsov
+  test-infra-maintainers:
+  - BenTheElder
+  - amwat
+  - cjwagner
+  - fejta
+  - ixdy
+  - krzyzacy
+  - michelle192837
+  - spiffxp
+  - stevekuznetsov
+  ubuntu-image:
+  - OddBloke
+  - dchen1107
+  ug-big-data:
+  - erikerlandson
+  - foxish
+  - liyinan926
+  utils-admins:
+  - apelisse
+  - dims
+  - mengqiy
+  - monopole
+  - pwittrock
+  - thockin
+  utils-maintainers:
+  - apelisse
+  - dims
+  - mengqiy
+  - monopole
+  - pwittrock
+  - thockin
+  website-admins:
+  - divya-mohan0209
+  - jimangel
+  - natalisucks
+  - reylejano
+  website-maintainers:
+  - Bradamant3
+  - ClaudiaJKang
+  - SataQiu
+  - aisonaku
+  - bradtopol
+  - cstoku
+  - devlware
+  - dianaabv
+  - femrtnz
+  - girikuncoro
+  - gochist
+  - huynguyennovem
+  - ianychoi
+  - inductor
+  - jailton
+  - jcjesus
+  - jhonmike
+  - jimangel
+  - mfilocha
+  - mittalyashu
+  - msheldyakov
+  - nasa9084
+  - ngtuna
+  - nvtkaszpir
+  - potapy4
+  - raelga
+  - remyleone
+  - rikatz
+  - rlenferink
+  - seokho-son
+  - sftim
+  - truongnh1992
+  - xichengliudui
+  - yagonobre
+  - zhangxiaoyu-zidif
+  website-milestone-maintainers:
+  - Rajakavitha1
+  - SataQiu
+  - abuisine
+  - aisonaku
+  - annajung
+  - awkif
+  - bene2k1
+  - bradtopol
+  - celestehorgan
+  - claudiajkang
+  - cstoku
+  - dianaabv
+  - femrtnz
+  - girikuncoro
+  - gochist
+  - huynguyennovem
+  - inductor
+  - jcjesus
+  - jimangel
+  - juandiegopalomino
+  - jygastaud
+  - lledru
+  - msheldyakov
+  - nasa9084
+  - ngtuna
+  - onlydole
+  - oussemos
+  - perriea
+  - potapy4
+  - raelga
+  - rbenzair
+  - rekcah78
+  - remyleone
+  - reylejano
+  - rlenferink
+  - savitharaghunathan
+  - seokho-son
+  - sftim
+  - smana
+  - tanjunchen
+  - tengqm
+  - tfogo
+  - truongnh1992
+  - vineethreddy02
+  - xichengliudui
+  - yastij
+  - ysyukr
+  - zhangxiaoyu-zidif
+  - zparnold
+  wg-naming:
+  - celestehorgan
+  - jdumars
+  - justaugustus
+  wg-naming-leads:
+  - celestehorgan
+  - jdumars
+  - justaugustus
+  wg-structured-logging-leads:
+  - pohly
+  - serathius
+  wg-structured-logging-members:
+  - MadhavJivrajani
+  - Priyankasaggu11929
+  - mengjiao-liu
+  - navidshaikh
+  - pohly
+  - serathius
+  - shivanshu1333
+  - yangjunmyfm192085
+  - yuzhiquan
+  wg-structured-logging-reviews:
+  - mengjiao-liu
+  - navidshaikh
+  - pohly
+  - serathius
+  - shivanshu1333
+  - yangjunmyfm192085
+  - yuzhiquan
+  youtube-admins:
+  - alejandrox1
+  - castrojo
+  - idvoretskyi
+  - jbeda
+  - jdumars
+  - jeefy
+  - markyjackson-taulia
+  - mrbobbytables
+  - nzoueidi
+  - onlydole
+  - parispittman
+  - sarahnovotny

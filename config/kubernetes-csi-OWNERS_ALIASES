@@ -1,0 +1,323 @@
+# This file is auto-generated from peribolos.
+# Do not modify this file, instead modify the peribolos config in k/org repository.
+
+aliases:
+  cluster-driver-registrar-admins:
+  - jsafrane
+  - lpabon
+  - msau42
+  - saad-ali
+  - xing-yang
+  cluster-driver-registrar-maintainers:
+  - jsafrane
+  - lpabon
+  - msau42
+  - saad-ali
+  - xing-yang
+  csi-driver-host-path-admins:
+  - jsafrane
+  - msau42
+  - pohly
+  - saad-ali
+  - xing-yang
+  csi-driver-host-path-maintainers:
+  - jsafrane
+  - msau42
+  - pohly
+  - saad-ali
+  - verult
+  - xing-yang
+  csi-driver-image-populator-admins:
+  - jsafrane
+  - msau42
+  - saad-ali
+  - xing-yang
+  csi-driver-image-populator-maintainers:
+  - jsafrane
+  - msau42
+  - saad-ali
+  - xing-yang
+  csi-driver-iscsi-admins:
+  - andyzhangx
+  - humblec
+  - jsafrane
+  - msau42
+  - saad-ali
+  - xing-yang
+  csi-driver-iscsi-maintainers:
+  - andyzhangx
+  - humblec
+  - jsafrane
+  - msau42
+  - saad-ali
+  - xing-yang
+  csi-driver-nfs-admins:
+  - andyzhangx
+  - jsafrane
+  - msau42
+  - saad-ali
+  - xing-yang
+  csi-driver-nfs-maintainers:
+  - andyzhangx
+  - jsafrane
+  - msau42
+  - saad-ali
+  - xing-yang
+  csi-driver-nvmf-admins:
+  - MeinhardZhou
+  - jsafrane
+  - msau42
+  - saad-ali
+  - xing-yang
+  csi-driver-nvmf-maintainers:
+  - MeinhardZhou
+  - jsafrane
+  - msau42
+  - saad-ali
+  - xing-yang
+  csi-driver-smb-admins:
+  - andyzhangx
+  - jsafrane
+  - msau42
+  - saad-ali
+  - xing-yang
+  csi-driver-smb-maintainers:
+  - andyzhangx
+  - jingxu97
+  - msau42
+  csi-lib-fc-admins:
+  - jsafrane
+  - msau42
+  - saad-ali
+  - xing-yang
+  csi-lib-fc-maintainers:
+  - jsafrane
+  - msau42
+  - saad-ali
+  - xing-yang
+  csi-lib-iscsi-admins:
+  - andyzhangx
+  - humblec
+  - jsafrane
+  - msau42
+  - saad-ali
+  - xing-yang
+  csi-lib-iscsi-maintainers:
+  - andyzhangx
+  - humblec
+  - jsafrane
+  - msau42
+  - saad-ali
+  - xing-yang
+  csi-lib-utils-admins:
+  - jsafrane
+  - msau42
+  - saad-ali
+  - xing-yang
+  csi-lib-utils-maintainers:
+  - Jiawei0227
+  - chrishenzie
+  - jsafrane
+  - msau42
+  - saad-ali
+  - xing-yang
+  csi-misc:
+  - chakri-nelluri
+  - davidz627
+  - gnufied
+  - jsafrane
+  - lpabon
+  - msau42
+  - pohly
+  - rootfs
+  - saad-ali
+  - sbezverk
+  - vladimirvivien
+  - xing-yang
+  csi-proxy-admins:
+  - PatrickLang
+  - andyzhangx
+  - ddebroy
+  - jsafrane
+  - msau42
+  - saad-ali
+  - xing-yang
+  csi-proxy-maintainers:
+  - PatrickLang
+  - andyzhangx
+  - ddebroy
+  - jsafrane
+  - msau42
+  - saad-ali
+  - xing-yang
+  csi-release-tools-admins:
+  - jsafrane
+  - msau42
+  - saad-ali
+  - xing-yang
+  csi-release-tools-maintainers:
+  - chrishenzie
+  - jsafrane
+  - msau42
+  - saad-ali
+  - xing-yang
+  csi-test-admins:
+  - davidz627
+  - jsafrane
+  - lpabon
+  - msau42
+  - pohly
+  - saad-ali
+  - xing-yang
+  csi-test-maintainers:
+  - chrishenzie
+  - jsafrane
+  - msau42
+  - pohly
+  - saad-ali
+  - sbezverk
+  - xing-yang
+  developers:
+  - chakri-nelluri
+  - davidz627
+  - humblec
+  - jsafrane
+  - lpabon
+  - msau42
+  - rootfs
+  - saad-ali
+  - sbezverk
+  - vladimirvivien
+  - xing-yang
+  docs-admins:
+  - jsafrane
+  - lpabon
+  - msau42
+  - saad-ali
+  - xing-yang
+  docs-maintainers:
+  - jsafrane
+  - msau42
+  - saad-ali
+  - xing-yang
+  driver-registrar-admins:
+  - davidz627
+  - jsafrane
+  - lpabon
+  - msau42
+  - saad-ali
+  - xing-yang
+  driver-registrar-maintainers:
+  - jsafrane
+  - msau42
+  - saad-ali
+  - xing-yang
+  external-attacher-admins:
+  - jsafrane
+  - msau42
+  - saad-ali
+  - xing-yang
+  external-attacher-maintainers:
+  - Jiawei0227
+  - chrishenzie
+  - jsafrane
+  - msau42
+  - saad-ali
+  - xing-yang
+  external-health-monitor-admins:
+  - jsafrane
+  - msau42
+  - saad-ali
+  - xing-yang
+  external-health-monitor-maintainers:
+  - NickrenREN
+  - chrishenzie
+  - jsafrane
+  - msau42
+  - saad-ali
+  - xing-yang
+  external-provisioner-admins:
+  - davidz627
+  - jsafrane
+  - lpabon
+  - msau42
+  - saad-ali
+  - xing-yang
+  external-provisioner-maintainers:
+  - Jiawei0227
+  - chrishenzie
+  - jsafrane
+  - msau42
+  - saad-ali
+  - xing-yang
+  external-resizer-admins:
+  - jsafrane
+  - msau42
+  - saad-ali
+  - xing-yang
+  external-resizer-maintainers:
+  - Jiawei0227
+  - chrishenzie
+  - gnufied
+  - jsafrane
+  - msau42
+  - saad-ali
+  - xing-yang
+  external-snapshotter-admins:
+  - jsafrane
+  - lpabon
+  - msau42
+  - saad-ali
+  - xing-yang
+  external-snapshotter-maintainers:
+  - Jiawei0227
+  - chrishenzie
+  - jsafrane
+  - msau42
+  - saad-ali
+  - xing-yang
+  kubernetes-csi-github-io-admins:
+  - jsafrane
+  - msau42
+  - saad-ali
+  - xing-yang
+  lib-volume-populator-admins:
+  - bswartz
+  - saad-ali
+  - xing-yang
+  livenessprobe-admins:
+  - jsafrane
+  - lpabon
+  - msau42
+  - saad-ali
+  - xing-yang
+  livenessprobe-maintainers:
+  - Jiawei0227
+  - chrishenzie
+  - jsafrane
+  - mauriciopoppe
+  - msau42
+  - saad-ali
+  - sbezverk
+  - verult
+  - xing-yang
+  node-driver-registrar-admins:
+  - jsafrane
+  - lpabon
+  - msau42
+  - saad-ali
+  - xing-yang
+  node-driver-registrar-maintainers:
+  - Jiawei0227
+  - chrishenzie
+  - jsafrane
+  - lpabon
+  - mauriciopoppe
+  - msau42
+  - saad-ali
+  - verult
+  - xing-yang
+  volume-data-source-validator-admins:
+  - bswartz
+  - saad-ali
+  - xing-yang

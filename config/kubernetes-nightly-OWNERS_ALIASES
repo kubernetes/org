@@ -1,0 +1,30 @@
+# This file is auto-generated from peribolos.
+# Do not modify this file, instead modify the peribolos config in k/org repository.
+
+aliases:
+  bots:
+  - k8s-ci-robot
+  - k8s-github-robot
+  - k8s-publishing-bot
+  - thelinuxfoundation
+  publishing-bot-admins:
+  - cpanato
+  - dims
+  - jeremyrickard
+  - justaugustus
+  - nikhita
+  - puerco
+  - saschagrunert
+  - sttts
+  publishing-bot-maintainers:
+  - Verolop
+  - cpanato
+  - dims
+  - jeremyrickard
+  - justaugustus
+  - nikhita
+  - palnabarun
+  - puerco
+  - saschagrunert
+  - sttts
+  - xmudrii

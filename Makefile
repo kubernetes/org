@@ -26,6 +26,7 @@ ORGS = $(shell find ./config -type d -mindepth 1 -maxdepth 1 | cut -d/ -f3)
 OUTPUT_DIR := $(shell pwd)/_output
 OUTPUT_BIN_DIR := $(OUTPUT_DIR)/bin
 
+ALIASES_CMD := $(OUTPUT_BIN_DIR)/aliases
 MERGE_CMD := $(OUTPUT_BIN_DIR)/merge
 PERIBOLOS_CMD := $(OUTPUT_BIN_DIR)/peribolos
 
@@ -44,8 +45,24 @@ build:
 .PHONY: merge
 merge: $(MERGE_CMD)
 
+.PHONY: aliases
+merge: $(ALIASES_CMD)
+
 .PHONY: config
 config: $(MERGED_CONFIG)
+
+.PHONY: config-aliases
+config-aliases: merge aliases
+	for o in $(ORGS) ; do \
+		$(MERGE_CMD) \
+			--merge-teams \
+			"--org-part=$$o=config/$$o/org.yaml" \
+			> $(OUTPUT_DIR)/$$o.yaml; \
+		$(ALIASES_CMD) \
+			$$o \
+			$(OUTPUT_DIR)/$$o.yaml \
+			config/$$o-OWNERS_ALIASES; \
+    done
 
 .PHONY: peribolos
 peribolos: $(PERIBOLOS_CMD)
@@ -70,6 +87,10 @@ deploy:
 $(MERGE_CMD):
 	mkdir -p "$(OUTPUT_BIN_DIR)"
 	go build -v -o "$(OUTPUT_BIN_DIR)" ./cmd/merge
+
+$(ALIASES_CMD):
+	mkdir -p "$(OUTPUT_BIN_DIR)"
+	go build -v -o "$(OUTPUT_BIN_DIR)" ./cmd/aliases
 
 $(MERGED_CONFIG): $(MERGE_CMD) $(CONFIG_FILES)
 	mkdir -p "$(OUTPUT_DIR)"

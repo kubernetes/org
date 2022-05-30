@@ -59,7 +59,7 @@ config: merge aliases $(MERGED_CONFIG)
 			$$o \
 			$(OUTPUT_DIR)/$$o.yaml \
 			config/$$o-OWNERS_ALIASES; \
-    done
+	done
 
 .PHONY: peribolos
 peribolos: $(PERIBOLOS_CMD)

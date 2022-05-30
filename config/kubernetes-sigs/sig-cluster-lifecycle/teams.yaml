@@ -33,18 +33,6 @@ teams:
     - sbueringer
     - vincepri
     privacy: closed
-  cluster-api-cloudstack-admins:
-    description: ""
-    members:
-    - davidjumani
-    - rohityadavcloud
-    privacy: closed
-  cluster-api-cloudstack-maintainers:
-    description: ""
-    members:
-    - davidjumani
-    - rohityadavcloud
-    privacy: closed
   cluster-api-operator-admins:
     description: "admin access to cluster-api-operator"
     members:
@@ -106,6 +94,22 @@ teams:
     - mboersma
     - shysank
     privacy: closed
+  cluster-api-provider-cloudstack-admins:
+    description: ""
+    members:
+    - davidjumani
+    - rohityadavcloud
+    privacy: closed
+    previously:
+    - cluster-api-cloudstack-admins
+  cluster-api-provider-cloudstack-maintainers:
+    description: ""
+    members:
+    - davidjumani
+    - rohityadavcloud
+    privacy: closed
+    previously:
+    - cluster-api-cloudstack-maintainers
   cluster-api-provider-digitalocean-admins:
     description: Admin access to the cluster-api-provider-digitalocean repo
     members:

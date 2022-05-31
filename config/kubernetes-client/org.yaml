@@ -15,6 +15,7 @@ has_organization_projects: true
 has_repository_projects: true
 members:
 - akshaymankar
+- alberthuang24
 - ambiknai
 - arahamad
 - bgrant0607
@@ -26,7 +27,6 @@ members:
 - fabianvf
 - fejta
 - grodrigues3
-- HongjiangHuang
 - iamneha
 - idealhack
 - irvifa

@@ -29,6 +29,7 @@ teams:
     - ahg-g # Scheduling
     - alejandrox1 # Testing
     - andrewsykim # Cloud Provider
+    - Atharva-Shinde # 1.25 Enhancements Shadow
     - BenTheElder # Testing
     - bgrant0607 # Architecture
     - bradamant3 # Docs
@@ -37,21 +38,19 @@ teams:
     - caseydavenport # Network
     - cheftako # Cloud Provider
     - chrigl # OpenStack
-    - cici37 # 1.24 Release Lead Shadow
+    - cici37 # 1.25 Release Lead
     - claudiubelu # Windows
     - cpanato # Release Manager
     - craiglpeters # Azure
+    - csantanapr # 1.25 Release Notes Lead
     - dashpole # Instrumentation
     - dcbw # Network
     - dchen1107 # Node
     - deads2k # API Machinery / Auth
     - derekwaynecarr # Architecture / Node
     - dims # Architecture / Release
-    - DiptoChakrabarty # 1.24 Bug Triage Shadow
-    - doshyt # 1.24 Bug Triage Shadow
     - eddiezane # CLI
     - ehashman # Instrumentation
-    - encodeflush # 1.24 Enhancements Shadow
     - enj # Auth
     - fabriziopandini # Cluster Lifecycle
     - feiskyer # Azure
@@ -59,68 +58,71 @@ teams:
     - floreks # UI
     - foxish # Big Data
     - frapposelli # VMware
-    - gracenng # 1.24 Enhancements Lead
-    - helayoty # 1.24 Bug Triage Shadow
+    - gracenng # 1.25 RT Lead Shadow
+    - harshitasao # 1.25 Bug Triage Shadow
+    - helayoty # 1.25 Bug Triage Lead
+    - hkamel # 1.25 Bug Triage Shadow
     - hpandeycodeit # Usability
     - Huang-Wei # Scheduling
-    - jameslaverack # 1.24 RT Lead
     - janetkuo # Apps
+    - jasonbraganza # 1.25 Enhancements Shadow
     - jayunit100 # Windows
     - jberkus # Release
     - jdumars # Architecture / PM
     - jeremyrickard # Release
     - jhvhs # Service Catalog
-    - jiahuif # 1.24 Enhancements Shadow
     - jimangel # Docs / Release Manager Associate
-    - jlbutler # 1.24 RT Lead Shadow
+    - jlbutler # 1.25 RT Lead Shadow
     - johnbelamaric # Architecture
-    - jrsapi # 1.24 EA
     - jsafrane # Storage
     - jsturtevant # Windows
     - justaugustus # Release
+    # - justin-chizer # 1.25 Bug Triage Shadow
     - justinsb # AWS / Cluster Lifecycle
-    - jyotimahapatra # 1.24 Bug Triage Lead
     - k8s-release-robot # Release
-    - karenhchu # 1.23 Release Comms Lead
+    - katcosgrove # 1.25 Comms Lead
+    - kcmartin # 1.25 Docs Lead
     - khenidak # Azure
     - KnVerey # CLI
     - kow3ns # Apps
     - lavalamp # API Machinery
-    - leonardpahlke # 1.24 CI Signal Lead
+    - leonardpahlke # 1.25 RT Lead Shadow
     - liggitt # Auth / Release
     - lingxiankong # OpenStack
     - liyinan926 # Big Data
     - logicalhan # Instrumentation
     - luxas # Cluster Lifecycle
     - maciaszczykm # UI
+    - markyjackson-taulia # 1.25 Bug Triage Shadow
+    - marosset # 1.25 Enhancements Shadow
     - marosset # Windows
     - mattfarina # Apps / Architecture
     - mborsz # Scalability
-    - mickeyboxell # 1.24 Comms Lead
     - mikedanese # Auth
     - mkorbi # Release Manager Associate / 1.24 RT Lead Shadow
     - mm4tt # Scalability
     - msau42 # Storage
     - mwielgus # Autoscaling
-    - nate-double-u # 1.24 Docs Lead
     - nckturner # AWS
     - neolit123 # Cluster Lifecycle
     - onlydole # Release Manager Associate
     - oxddr # Scalability
     - parispittman # ContribEx
+    - parul5sahoo # 1.25 Enhancements Shadow
     - phillels # ContribEx
     - pmorie # Multicluster
-    - Priyankasaggu11929 # 1.24 Enhancements Shadow
+    - Priyankasaggu11929 # 1.25 Enhancements Lead
     - prydonius # Apps
     - puerco # Release Manager
     - pwittrock # CLI
     - quinton-hoole # Multicluster
-    - RainbowMango # Instrumentation
     - rajakavitha1 # Usability
-    - rhockenbury # 1.24 Enhancements Shadow
-    - ritpanjw # 1.24 Bug Triage Shadow
+    - RainbowMango # Instrumentation
+    - reylejano # 1.25 EA
+    - rhockenbury # 1.25 Enhancements Shadow
+    - RinkiyaKeDad # 1.25 CI Signal Lead
     - saad-ali # Storage
-    - salaxander # 1.24 RT Lead Shadow
+    - salaxander # 1.25 RT Lead Shadow
     - saschagrunert # Release
     - SataQiu # Cluster Lifecycle
     - seans3 # CLI
@@ -139,7 +141,6 @@ teams:
     - timothysc # Cluster Lifecycle / Testing
     - Verolop # Release Manager
     - vllry # Usability
-    - voigt # 1.24 CI Signal Shadow
     - wilsonehusin # Release Manager Associate
     - wojtek-t # Scalability
     - xing-yang # Storage
@@ -283,51 +284,54 @@ teams:
         maintainers:
         - palnabarun # subproject owner (1.21 RT Lead)
         members:
-        - AuraSinis # 1.24 Release Notes Lead
-        - chrisnegus # 1.24 Docs Shadow
-        - cici37 # 1.24 RT Lead Shadow
+        # - AnaMMedina21 # 1.25 Comms Shadow
+        - Atharva-Shinde # 1.25 Enhancements Shadow
+        # - cathchu # 1.25 Docs Shadow
+        - cici37 # 1.25 RT Lead
         - cpanato # subproject owner / Technical Lead
-        - csantanapr # 1.24 Release Notes Shadow
-        - Debanitrkl # 1.24 Comms Shadow
-        - didicodes # 1.24 Docs Shadow
-        - DiptoChakrabarty # 1.24 Bug Triage Shadow
-        - doshyt # 1.24 Bug Triage Shadow
-        - encodeflush # 1.24 Enhancements Shadow
-        - gracenng # 1.24 Enhancements Lead
-        - helayoty # 1.24 Bug Triage Shadow
+        - csantanapr # 1.25 Release Notes Lead
+        - Debanitrkl # 1.25 Comms Shadow
+        - didicodes # 1.25 Docs Shadow
+        - DiptoChakrabarty # 1.25 Release Notes Shadow
+        # - Divya063 # 1.25 Release Notes Shadow
+        # - fsmunoz # 1.25 Comms Shadow
+        - Garima-Negi # 1.25 Comms Shadow
+        # - gnoam # 1.25 CI Signal Shadow
+        - gracenng # 1.25 RT Lead Shadow
+        - harshitasao # 1.25 Bug Triage Shadow
+        - helayoty # 1.25 Bug Triage Lead
+        - hkamel # 1.25 Bug Triage Shadow
         - jameslaverack # subproject owner (1.24 RT Lead)
+        - jasonbraganza # 1.25 Enhancements Shadow
         - jeremyrickard # subproject owner / Technical Lead
-        - jiahuif # 1.24 Enhancements Shadow
-        - jlbutler # 1.24 RT Lead Shadow
-        - jrsapi # 1.24 EA
+        - jlbutler # 1.25 RT Lead Shadow
         - justaugustus # subproject owner / Chair
-        - jyotimahapatra # 1.24 Bug Triage Lead
-        - katcosgrove # 1.24 Release Comms Shadow
-        - lauralorenz # 1.24 CI Signal Shadow
-        - leonardpahlke # 1.24 CI Signal Lead
-        - Lp-Francois # 1.24 Release Notes Shadow
+        # - justin-chizer # 1.25 Bug Triage Shadow
+        - jyotimahapatra # 1.25 CI Signal Shadow
+        - katcosgrove # 1.25 Comms Lead
+        - kcmartin # 1.25 Docs Lead
+        # - krol3 # 1.25 Docs Shadow
+        - leonardpahlke # 1.25 RT Lead Shadow
+        - markyjackson-taulia # 1.25 Bug Triage Shadow
+        - marosset # 1.25 Enhancements Shadow
         - mehabhalodiya # 1.24 Docs Shadow
-        - mickeyboxell # 1.24 Comms Lead
-        - mkorbi # 1.24 RT Lead Shadow
-        - nate-double-u # 1.24 Docs Lead
-        - Nivedita-coder # 1.24 CI Signal Shadow
+        - Nivedita-coder # 1.25 CI Signal Shadow
         - onlydole # subproject owner (1.19 RT Lead)
-        - parul5sahoo # 1.24 Release Notes Shadow
-        - pi-victor # 1.24 Docs Shadow
-        - Priyankasaggu11929 # 1.24 Enhancements Shadow
+        # - orsenthil # 1.25 Release Notes Shadow
+        - parul5sahoo # 1.25 Enhancements Shadow
+        - Priyankasaggu11929 # 1.25 Enhancements Lead
         - puerco # subproject owner / Technical Lead
+        - ramrodo # 1.25 Release Notes Shadow
+        - reylejano # 1.25 EA
         - reylejano # subproject owner (1.23 RT Lead)
-        - rhockenbury # 1.24 Enhancements Shadow
-        - RinkiyaKeDad # 1.24 Release Notes Shadow
-        - ritpanjw # 1.24 Bug Triage Shadow
-        - s04 # 1.24 Comms Shadow
-        - salaxander # 1.24 RT Lead Shadow
+        - rhockenbury # 1.25 Enhancements Shadow
+        - RinkiyaKeDad # 1.25 CI Signal Lead
+        - salaxander # 1.25 RT Lead Shadow
         - saschagrunert # subproject owner / Chair
         - savitharaghunathan # subproject owner (1.22 RT Lead)
-        - shuheiktgw # 1.24 CI Signal Shadow
-        - valaparthvi # 1.24 Comms Shadow
+        - sethmccombs # 1.25 Docs Shadow
+        - shuheiktgw # 1.25 CI Signal Shadow
         - Verolop # Release Manager
-        - voigt # 1.24 CI Signal Shadow
         - xmudrii # Release Manager
         privacy: closed
         teams:
@@ -335,7 +339,11 @@ teams:
             description: Members of the CI Signal team for the current release
               cycle.
             members:
+            # - gnoam # 1.25 CI Signal Shadow
+            - jyotimahapatra # 1.25 CI Signal Shadow
+            - Nivedita-coder # 1.25 CI Signal Shadow
             - RinkiyaKeDad # 1.25 CI Signal Lead
+            - shuheiktgw # 1.25 CI Signal Shadow
             privacy: closed
           release-team-leads:
             description: Release Team Leads for the current Kubernetes release

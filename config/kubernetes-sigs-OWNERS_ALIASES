@@ -269,6 +269,12 @@ aliases:
   - jsturtevant
   - mboersma
   - shysank
+  cluster-api-provider-cloudstack-admins:
+  - davidjumani
+  - rohityadavcloud
+  cluster-api-provider-cloudstack-maintainers:
+  - davidjumani
+  - rohityadavcloud
   cluster-api-provider-digitalocean-admins:
   - cpanato
   - luxas

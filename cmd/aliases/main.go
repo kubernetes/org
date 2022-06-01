@@ -50,7 +50,7 @@ func main() {
 	}
 	var cfg peribolos.FullConfig
 	if err := yaml.Unmarshal(f, &cfg); err != nil {
-		log.Printf("Unable to parse ", err)
+		log.Print("Unable to parse ", err)
 		os.Exit(1)
 	}
 	out := AliasConfig{
@@ -72,7 +72,7 @@ func main() {
 
 	output, err := yaml.Marshal(out)
 	if err != nil {
-		log.Printf("Could not serialize: ", err)
+		log.Print("Could not serialize: ", err)
 		os.Exit(1)
 	}
 	preamble := `# This file is auto-generated from peribolos.

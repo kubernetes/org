@@ -252,6 +252,7 @@ teams:
   sig-docs-zh-owners:
     description: Approvers for Chinese content
     members:
+    - howieyuen
     - SataQiu
     - tanjunchen
     - tengqm
@@ -263,6 +264,7 @@ teams:
     members:
     - chenrui333
     - chenxuc
+    - howieyuen
     - idealhack
     - mengjiao-liu
     - pigletfly

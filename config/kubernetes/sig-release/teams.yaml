@@ -24,6 +24,7 @@ teams:
     - nikhita # ContribEx
     - palnabarun # Release Manager
     members:
+    # - justin-chizer # 1.25 Bug Triage Shadow
     - abgworrall # GCP
     - adisky # OpenStack
     - ahg-g # Scheduling
@@ -77,7 +78,6 @@ teams:
     - jsafrane # Storage
     - jsturtevant # Windows
     - justaugustus # Release
-    # - justin-chizer # 1.25 Bug Triage Shadow
     - justinsb # AWS / Cluster Lifecycle
     - k8s-release-robot # Release
     - katcosgrove # 1.25 Comms Lead
@@ -116,8 +116,8 @@ teams:
     - puerco # Release Manager
     - pwittrock # CLI
     - quinton-hoole # Multicluster
-    - rajakavitha1 # Usability
     - RainbowMango # Instrumentation
+    - rajakavitha1 # Usability
     - reylejano # 1.25 EA
     - rhockenbury # 1.25 Enhancements Shadow
     - RinkiyaKeDad # 1.25 CI Signal Lead

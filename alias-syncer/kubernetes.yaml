@@ -1,0 +1,9 @@
+# This is a config file passed to the alias-syncer.sh
+
+repos:
+ - name: release
+   organization: kubernetes
+   enabled: true
+ - name: sig-release
+   organization: kubernetes
+   enabled: true

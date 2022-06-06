@@ -21,16 +21,24 @@ set -x
 # CI Specific Steps
 [[ -v PROW_JOB_ID ]] && IS_PROW=1 || IS_PROW=0
 if (( IS_PROW )); then
+    VERSION=v4.25.2
+    BINARY=yq_linux_amd64
     gh auth login --with-token < ${GITHUB_TOKEN_PATH}
     git config --global user.name "Kubernetes Prow Robot"
     git config --global user.email "k8s.ci.robot@gmail.com"
+    curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
+    echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | tee /etc/apt/sources.list.d/github-cli.list > /dev/null
+    apt update
+    apt install gh
+    wget https://github.com/mikefarah/yq/releases/download/${VERSION}/${BINARY} -O /usr/bin/yq && chmod +x /usr/bin/yq
 fi
-
-cd /tmp
 
 org=$1
 
 echo "Working on the $org organization"
+
+# List all the repos in the organization
+REPOS=$(yq '.[] | .[] | select(select(.enabled=="true")).name' alias-syncer/$org.yaml)
 
 # Clone k/org
 rm -rf /tmp/repos
@@ -42,8 +50,7 @@ if test [! -f "repos/org/config/$1-OWNERS_ALIASES"]; then
     exit 1
 fi
 
-# List all the repos in the organization
-REPOS=$(gh repo list $org -L 1000 --json name | jq .[].name -r)
+cd /tmp
 
 # For each repo, we need to do the following:
 # 1. Clone it to /tmp

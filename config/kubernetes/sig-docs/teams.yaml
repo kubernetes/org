@@ -253,6 +253,7 @@ teams:
     description: Approvers for Chinese content
     members:
     - howieyuen
+    - mengjiao-liu
     - SataQiu
     - tanjunchen
     - tengqm

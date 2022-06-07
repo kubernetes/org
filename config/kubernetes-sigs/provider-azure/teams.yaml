@@ -5,10 +5,10 @@ teams:
     - andyzhangx
     - feiskyer
     - justaugustus
+    - jwtty
     - lzhecheng
     - MartinForReal
     - nilo19
-    - jwtty
     privacy: closed
   cloud-provider-azure-maintainers:
     description: ""
@@ -16,10 +16,10 @@ teams:
     - andyzhangx
     - feiskyer
     - justaugustus
+    - jwtty
     - lzhecheng
     - MartinForReal
     - nilo19
-    - jwtty
     - ritazh
     privacy: closed
   azuredisk-csi-driver-admins:

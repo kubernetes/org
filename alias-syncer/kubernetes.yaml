@@ -3,7 +3,7 @@
 repos:
  - name: release
    organization: kubernetes
-   enabled: true
+   enabled: false
  - name: sig-release
    organization: kubernetes
-   enabled: true
+   enabled: false

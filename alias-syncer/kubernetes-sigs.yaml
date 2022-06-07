@@ -1,0 +1,6 @@
+# This is a config file passed to the alias-syncer.sh
+
+repos:
+ - name: bom
+   organization: kubernetes-sigs
+   enabled: false

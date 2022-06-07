@@ -44,9 +44,11 @@ REPOS=$(yq '.[] | .[] | select(select(.enabled=="true")).name' alias-syncer/$org
 rm -rf /tmp/repos
 gh repo clone kubernetes/org /tmp/repos/org
 
+cd /tmp/repos/org && make config
+
 #Check if the OWNERS_ALIASES file exists
-if test [! -f "repos/org/config/$1-OWNERS_ALIASES"]; then
-    echo "OWNERS_ALIASES hasn't been created in k/org repo for $org. Please create that file and rerun this job."
+if test [! -f "/tmp/repos/org/_output/$1-OWNERS_ALIASES"]; then
+    echo "OWNERS_ALIASES hasn't been generated correctly by make config. Please review the configuration of that make target."
     exit 1
 fi
 
@@ -62,7 +64,7 @@ cd /tmp
 for repo in ${REPOS}; do
     gh repo clone $org/$repo repos/$repo
     pushd repos/$repo
-    cp /tmp/repos/org/config/$1-OWNERS_ALIASES OWNERS_ALIASES
+    cp /tmp/repos/org/_output/$1-OWNERS_ALIASES OWNERS_ALIASES
     if [[ -z "$(git status --porcelain)" ]]; then
         echo "OWNERS_ALIASES is up to date. Moving on"
         break

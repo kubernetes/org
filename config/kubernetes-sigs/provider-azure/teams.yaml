@@ -8,6 +8,7 @@ teams:
     - lzhecheng
     - MartinForReal
     - nilo19
+    - jwtty
     privacy: closed
   cloud-provider-azure-maintainers:
     description: ""
@@ -18,6 +19,7 @@ teams:
     - lzhecheng
     - MartinForReal
     - nilo19
+    - jwtty
     - ritazh
     privacy: closed
   azuredisk-csi-driver-admins:

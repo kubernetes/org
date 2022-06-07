@@ -47,8 +47,8 @@ gh repo clone kubernetes/org /tmp/repos/org
 cd /tmp/repos/org && make config
 
 #Check if the OWNERS_ALIASES file exists
-if test [! -f "/tmp/repos/org/_output/$1-OWNERS_ALIASES"]; then
-    echo "OWNERS_ALIASES hasn't been generated correctly by make config. Please review the configuration of that make target."
+if [[ ! -f "/tmp/repos/org/_output/$1-OWNERS_ALIASES" ]]; then
+    echo "OWNERS_ALIASES haven't been generated correctly by make config. Please review the configuration of that make target."
     exit 1
 fi
 

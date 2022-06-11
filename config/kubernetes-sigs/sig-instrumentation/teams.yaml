@@ -36,6 +36,22 @@ teams:
     - ehashman
     - logicalhan
     privacy: closed
+  logtools-admins:
+    description: Admin access to the logtools repo
+    members:
+      - ehashman
+      - logicalhan
+      - pohly
+      - serathius
+    privacy: closed
+  logtools-maintainers:
+    description: Write access to the logtools repo
+    members:
+      - ehashman
+      - logicalhan
+      - pohly
+      - serathius
+    privacy: closed
   metrics-server-admins:
     description: Admin access to the metrics-server repo
     members:

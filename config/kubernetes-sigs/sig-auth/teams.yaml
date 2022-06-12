@@ -32,6 +32,16 @@ teams:
     - tashimi
     - yiqigao217
     privacy: closed
+  pspmigrator-admins:
+    description: Admin access to the pspmigrator repo
+    members:
+    - tallclair
+    privacy: closed
+  pspmigrator-maintainers:
+    description: Write access to the pspmigrator repo
+    members:
+    - tallclair
+    privacy: closed
   secrets-store-csi-driver-admins:
     description: Admin access to secrets-store-csi-driver repo
     members:

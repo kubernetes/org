@@ -24,7 +24,6 @@ teams:
     - nikhita # ContribEx
     - palnabarun # Release Manager
     members:
-    # - justin-chizer # 1.25 Bug Triage Shadow
     - abgworrall # GCP
     - adisky # OpenStack
     - ahg-g # Scheduling
@@ -78,6 +77,7 @@ teams:
     - jsafrane # Storage
     - jsturtevant # Windows
     - justaugustus # Release
+    - justin-chizer # 1.25 Bug Triage Shadow
     - justinsb # AWS / Cluster Lifecycle
     - k8s-release-robot # Release
     - katcosgrove # 1.25 Comms Lead
@@ -284,19 +284,19 @@ teams:
         maintainers:
         - palnabarun # subproject owner (1.21 RT Lead)
         members:
-        # - AnaMMedina21 # 1.25 Comms Shadow
+        - AnaMMedina21 # 1.25 Comms Shadow
         - Atharva-Shinde # 1.25 Enhancements Shadow
-        # - cathchu # 1.25 Docs Shadow
+        - cathchu # 1.25 Docs Shadow
         - cici37 # 1.25 RT Lead
         - cpanato # subproject owner / Technical Lead
         - csantanapr # 1.25 Release Notes Lead
         - Debanitrkl # 1.25 Comms Shadow
         - didicodes # 1.25 Docs Shadow
         - DiptoChakrabarty # 1.25 Release Notes Shadow
-        # - Divya063 # 1.25 Release Notes Shadow
-        # - fsmunoz # 1.25 Comms Shadow
+        - Divya063 # 1.25 Release Notes Shadow
+        - fsmunoz # 1.25 Comms Shadow
         - Garima-Negi # 1.25 Comms Shadow
-        # - gnoam # 1.25 CI Signal Shadow
+        - gnoam # 1.25 CI Signal Shadow
         - gracenng # 1.25 RT Lead Shadow
         - harshitasao # 1.25 Bug Triage Shadow
         - helayoty # 1.25 Bug Triage Lead
@@ -306,18 +306,18 @@ teams:
         - jeremyrickard # subproject owner / Technical Lead
         - jlbutler # 1.25 RT Lead Shadow
         - justaugustus # subproject owner / Chair
-        # - justin-chizer # 1.25 Bug Triage Shadow
+        - justin-chizer # 1.25 Bug Triage Shadow
         - jyotimahapatra # 1.25 CI Signal Shadow
         - katcosgrove # 1.25 Comms Lead
         - kcmartin # 1.25 Docs Lead
-        # - krol3 # 1.25 Docs Shadow
+        - krol3 # 1.25 Docs Shadow
         - leonardpahlke # 1.25 RT Lead Shadow
         - markyjackson-taulia # 1.25 Bug Triage Shadow
         - marosset # 1.25 Enhancements Shadow
         - mehabhalodiya # 1.24 Docs Shadow
         - Nivedita-coder # 1.25 CI Signal Shadow
         - onlydole # subproject owner (1.19 RT Lead)
-        # - orsenthil # 1.25 Release Notes Shadow
+        - orsenthil # 1.25 Release Notes Shadow
         - parul5sahoo # 1.25 Enhancements Shadow
         - Priyankasaggu11929 # 1.25 Enhancements Lead
         - puerco # subproject owner / Technical Lead
@@ -339,7 +339,7 @@ teams:
             description: Members of the CI Signal team for the current release
               cycle.
             members:
-            # - gnoam # 1.25 CI Signal Shadow
+            - gnoam # 1.25 CI Signal Shadow
             - jyotimahapatra # 1.25 CI Signal Shadow
             - Nivedita-coder # 1.25 CI Signal Shadow
             - RinkiyaKeDad # 1.25 CI Signal Lead

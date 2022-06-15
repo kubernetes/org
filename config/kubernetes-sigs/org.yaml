@@ -891,6 +891,8 @@ teams:
   gcp-compute-persistent-disk-csi-driver-admins:
     description: Admin access to the gcp-compute-persistent-disk-csi-driver repo
     members:
+    - amacaskill
+    - leiyiz
     - mattcary
     - msau42
     - saad-ali
@@ -899,6 +901,8 @@ teams:
   gcp-compute-persistent-disk-csi-driver-maintainers:
     description: Write access to the gcp-compute-persistent-disk-csi-driver repo
     members:
+    - amacaskill
+    - leiyiz
     - mattcary
     - msau42
     - saad-ali
@@ -907,6 +911,7 @@ teams:
   gcp-filestore-csi-driver-admins:
     description: Admin access to the gcp-filestore-csi-driver repo
     members:
+    - leiyiz
     - mattcary
     - msau42
     - saad-ali
@@ -915,6 +920,7 @@ teams:
   gcp-filestore-csi-driver-maintainers:
     description: Write access to the gcp-filestore-csi-driver repo
     members:
+    - leiyiz
     - mattcary
     - msau42
     - saad-ali

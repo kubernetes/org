@@ -2,7 +2,10 @@ teams:
   aws-ebs-csi-driver-admins:
     description: ""
     members:
+    - gtxu
     - leakingtapan
+    - rdpsin
+    - torredil
     - wongma7
     privacy: closed
   aws-ebs-csi-driver-maintainers:

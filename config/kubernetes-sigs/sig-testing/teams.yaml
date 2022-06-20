@@ -60,22 +60,6 @@ teams:
     - BenTheElder
     - spiffxp
     privacy: closed
-  k8s-gsm-tools-admins:
-    description: Admin access to k8s-gsm-tools
-    members:
-    - BenTheElder
-    - spiffxp
-    privacy: closed
-    previously:
-    - secret-sync-rotation-admins
-  k8s-gsm-tools-maintainers:
-    description: Write access to k8s-gsm-tools
-    members:
-    - BenTheElder
-    - spiffxp
-    privacy: closed
-    previously:
-    - secret-sync-rotation-maintainers
   prow-admins:
     description: Admin access to prow
     maintainers:

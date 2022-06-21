@@ -1748,6 +1748,7 @@ teams:
     - aledbf
     - bowei
     - rikatz
+    - strongjz
     privacy: closed
   ingress-nginx-maintainers:
     description: Write access to the ingress-nginx repo

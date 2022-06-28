@@ -108,10 +108,10 @@ teams:
     description: ""
     members:
     - davidjumani
-    - rohityadavcloud
+    - jweite-amazon
     - maxdrib
     - rejoshed
-    - jweite-amazon
+    - rohityadavcloud
     privacy: closed
     previously:
     - cluster-api-cloudstack-maintainers

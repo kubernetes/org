@@ -109,6 +109,8 @@ teams:
     members:
     - davidjumani
     - rohityadavcloud
+    - maxdrib
+    - rejoshed
     privacy: closed
     previously:
     - cluster-api-cloudstack-maintainers

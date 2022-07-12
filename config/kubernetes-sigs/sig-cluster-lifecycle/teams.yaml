@@ -170,6 +170,7 @@ teams:
     members:
     - agradouski
     - cchengleo
+    - davidvossel
     - justinsb
     - neolit123
     - timothysc
@@ -180,6 +181,7 @@ teams:
     members:
     - agradouski
     - cchengleo
+    - davidvossel
     privacy: closed
   cluster-api-provider-nested-admins:
     description: admin access to cluster-api-provider-nested

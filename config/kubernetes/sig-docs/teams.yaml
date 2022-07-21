@@ -249,6 +249,19 @@ teams:
     - rikatz
     - yagonobre
     privacy: closed
+  sig-docs-tr-owners:
+    description: Approvers for Turkish content
+    members:
+      - mkaramuk
+      - rasnesakam
+    privacy: closed
+  sig-docs-tr-reviews:
+    description: PR reviews for Turkish content
+    members:
+      - mkaramuk
+      - rasnesakam
+      - saozcan
+    privacy: closed
   sig-docs-zh-owners:
     description: Approvers for Chinese content
     members:
@@ -382,6 +395,7 @@ teams:
     - kcmartin
     - krol3
     - lledru
+    - mkaramuk
     - msheldyakov
     - nasa9084
     - ngtuna
@@ -390,6 +404,7 @@ teams:
     - perriea
     - potapy4
     - raelga
+    - rasnesakam
     - Rajakavitha1
     - rbenzair
     - rekcah78

@@ -74,6 +74,7 @@ teams:
     - jimangel # Docs / Release Manager Associate
     - jlbutler # 1.25 RT Lead Shadow
     - johnbelamaric # Architecture
+    - jrsapi # Release Manager Associate
     - jsafrane # Storage
     - jsturtevant # Windows
     - justaugustus # Release
@@ -248,7 +249,9 @@ teams:
         - palnabarun # Release Manager
         members:
         - cpanato # subproject owner / Release Manager
+        - jeremyrickard # Release Manager Associate
         - jimangel # Release Manager Associate
+        - jrsapi # Release Manager Associate
         - justaugustus # subproject owner / Release Manager
         - mkorbi # Release Manager Associate
         - onlydole # Release Manager Associate

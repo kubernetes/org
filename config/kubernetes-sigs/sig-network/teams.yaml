@@ -118,6 +118,13 @@ teams:
     previously:
     - service-apis-maintainers
     - service-apis-amintainers
+  gateway-api-mesh-leads:
+    description: Write access to the gateway-api repo
+    members:
+    - howardjohn
+    - keithmattix
+    - mikemorris
+    privacy: closed
   kpng-admins:
     description: Admin access to the kpng repo
     members:

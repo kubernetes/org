@@ -121,6 +121,7 @@ teams:
   csi-driver-host-path-admins:
     description: Admin access to csi-driver-host-path repo
     members:
+    - jingxu97
     - jsafrane
     - msau42
     - pohly
@@ -130,6 +131,7 @@ teams:
   csi-driver-host-path-maintainers:
     description: Write access to csi-driver-host-path repo
     members:
+    - jingxu97
     - jsafrane
     - msau42
     - pohly

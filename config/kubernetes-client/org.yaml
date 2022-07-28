@@ -57,6 +57,7 @@ members:
 - webwurst
 - yliaog
 - yue9944882
+- zqzten
 members_can_create_repositories: false
 name: Kubernetes Clients
 teams:

@@ -64,6 +64,18 @@ teams:
     - ahg-g
     - alculquicondor
     privacy: closed
+  kwok-admins:
+    description: Admin access to the kwok repo
+    members:
+    - Huang-Wei
+    - wzshiming
+    privacy: closed
+  kwok-maintainers:
+    description: Write access to the kwok repo
+    members:
+    - Huang-Wei
+    - wzshiming
+    privacy: closed
   scheduler-plugins-admins:
     description: Admin access to the scheduler-plugins repo
     members:

@@ -1,4 +1,13 @@
 teams:
+  sig-docs-blog-owners:
+    description: Approvers for blog content
+    maintainers:
+    - mrbobbytables
+    members:
+    - nate-double-u 
+    - onlydole
+    - sftim
+    privacy: closed
   sig-docs-de-owners:
     description: Approvers for German content
     members:

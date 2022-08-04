@@ -261,13 +261,14 @@ teams:
   sig-docs-zh-owners:
     description: Approvers for Chinese content
     members:
+    - chenrui333
     - howieyuen
     - mengjiao-liu
     - SataQiu
+    - Sea-n
     - tanjunchen
     - tengqm
     - xichengliudui
-    - zhangxiaoyu-zidif
     privacy: closed
   sig-docs-zh-reviews:
     description: PR reviews for Chinese content
@@ -275,15 +276,14 @@ teams:
     - chenrui333
     - chenxuc
     - howieyuen
-    - idealhack
     - mengjiao-liu
-    - pigletfly
     - SataQiu
+    - Sea-n
     - tanjunchen
     - tengqm
+    - windsonsea
     - xichengliudui
     - ydFu
-    - zhangxiaoyu-zidif
     privacy: closed
   sig-docs-vi-owners:
     description: Admins for Vietnamese content

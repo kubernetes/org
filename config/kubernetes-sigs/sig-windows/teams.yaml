@@ -60,6 +60,20 @@ teams:
     - jsturtevant
     - marosset
     privacy: closed
+  windows-operational-readiness-admins:
+    description: Admin access to the windows-operational-readiness repo
+    members:
+    - iXinqi
+    - jayunit100
+    - knabben
+    privacy: closed
+  windows-operational-readiness-maintainers:
+    description: Write access to the windows-operational-readiness repo
+    members:
+    - iXinqi
+    - jayunit100
+    - knabben
+    privacy: closed
   windows-testing-admins:
     description: Admin access to the windows-testing repo
     members:

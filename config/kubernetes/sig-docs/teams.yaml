@@ -103,14 +103,13 @@ teams:
     members:
     - anubha-v-ardhan
     - divya-mohan0209
-    - mittalyashu
     privacy: closed
   sig-docs-hi-reviews:
     description: PR reviews for Hindi content
     members: 
     - anubha-v-ardhan
     - divya-mohan0209
-    - mittalyashu
+    - Garima-Negi 
     - verma-kunal
     privacy: closed
   sig-docs-id-owners:

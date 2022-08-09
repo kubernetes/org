@@ -59,6 +59,7 @@ teams:
     - chaodaiG
     - chases2
     - cjwagner
+    - dims
     - fejta
     - k8s-infra-ci-robot
     - listx
@@ -73,6 +74,7 @@ teams:
     - amwat
     - BenTheElder
     - cjwagner
+    - dims
     - fejta
     - ixdy
     - krzyzacy

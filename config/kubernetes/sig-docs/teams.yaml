@@ -157,6 +157,7 @@ teams:
     - makocchi-git
     - nasa9084
     - ptux
+    - t-inu
     privacy: closed
   sig-docs-ko-owners:
     description: Approvers for Korean content

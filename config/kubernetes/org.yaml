@@ -1621,10 +1621,10 @@ teams:
     maintainers:
     - palnabarun
     members:
-    - celestehorgan
-    - karenhchu
-    - tpepper
-    - vllry
+    - endocrimes
+    - hlipsig
+    - jeremyrickard
+    - salaxander
     privacy: closed
   csi-api-admins:
     description: Admin access to csi-api repo

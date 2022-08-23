@@ -51,13 +51,10 @@ teams:
   prometheus-adapter-admins:
     description: Admin access to the prometheus-adapter repo
     members:
-    - brancz
-    - DirectXMan12
-    - s-urbaniak
+    - dgrisonnet
     privacy: closed
   prometheus-adapter-maintainers:
     description: Write access to the prometheus-adapter repo
     members:
     - dgrisonnet
-    - s-urbaniak
     privacy: closed

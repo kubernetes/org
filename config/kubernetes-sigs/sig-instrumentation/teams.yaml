@@ -2,15 +2,12 @@ teams:
   custom-metrics-apiserver-admins:
     description: Admin access to the custom-metrics-apiserver repo
     members:
-    - brancz
-    - piosz
+    - dgrisonnet
     privacy: closed
   custom-metrics-apiserver-maintainers:
     description: Write access to the custom-metrics-apiserver repo
     members:
     - dgrisonnet
-    - s-urbaniak
-    - serathius
     privacy: closed
   instrumentation-admins:
     description: Admin access to the instrumentation repo

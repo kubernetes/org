@@ -2,170 +2,86 @@ teams:
   sig-scheduling-api-reviews:
     description: ""
     members:
-    - aveshagarwal
-    - bsalamat
-    - ConnorDoyle
-    - davidopp
-    - derekwaynecarr
-    - hongchaodeng
-    - ingvagabund
-    - jayunit100
-    - k82cn
-    - kevin-wangzefeng
-    - pigmej
-    - quinton-hoole
-    - resouer
-    - rrati
-    - timothysc
-    - vishh
-    - xiang90
+    - ahg-g
+    - alculquicondor
+    - chendave
+    - damemi
+    - denkensk
+    - Huang-Wei
+    - kerthcet
+    - sanposhiho
     privacy: closed
   sig-scheduling-bugs:
     description: ""
     members:
-    - aveshagarwal
-    - bsalamat
-    - ConnorDoyle
-    - davidopp
-    - derekwaynecarr
-    - gyliu513
-    - hongchaodeng
-    - ingvagabund
-    - jayunit100
-    - k82cn
-    - kevin-wangzefeng
-    - pigmej
-    - quinton-hoole
-    - ravisantoshgudimetla
-    - resouer
-    - rrati
-    - timothysc
-    - vikaschoudhary16
-    - vishh
-    - wanghaoran1988
-    - xiang90
+    - ahg-g
+    - alculquicondor
+    - chendave
+    - damemi
+    - denkensk
+    - Huang-Wei
+    - kerthcet
+    - sanposhiho
     privacy: closed
   sig-scheduling-feature-requests:
     description: ""
     members:
-    - aveshagarwal
-    - bsalamat
-    - ConnorDoyle
-    - davidopp
-    - derekwaynecarr
-    - gyliu513
-    - hongchaodeng
-    - ingvagabund
-    - jayunit100
-    - k82cn
-    - kevin-wangzefeng
-    - pigmej
-    - quinton-hoole
-    - ravisantoshgudimetla
-    - resouer
-    - rrati
-    - smarterclayton
-    - timothysc
-    - vikaschoudhary16
-    - vishh
-    - xiang90
-    - yastij
+    - ahg-g
+    - alculquicondor
+    - chendave
+    - damemi
+    - denkensk
+    - Huang-Wei
+    - kerthcet
+    - sanposhiho
     privacy: closed
   sig-scheduling-misc:
     description: Scheduling algorithms, scheduling/scheduler architecture and extensibility,
       rescheduling/continuous re-optimization, cluster-level resource allocation and
       resource management
     members:
-    - aveshagarwal
-    - bsalamat
-    - ConnorDoyle
-    - davidopp
-    - derekwaynecarr
-    - gyliu513
-    - hongchaodeng
-    - ingvagabund
-    - jayunit100
-    - k82cn
-    - kevin-wangzefeng
-    - pigmej
-    - quinton-hoole
-    - ravisantoshgudimetla
-    - resouer
-    - rrati
-    - smarterclayton
-    - timothysc
-    - wanghaoran1988
-    - xiang90
+    - ahg-g
+    - alculquicondor
+    - chendave
+    - damemi
+    - denkensk
+    - Huang-Wei
+    - kerthcet
+    - sanposhiho
     privacy: closed
   sig-scheduling-pr-reviews:
     description: ""
     members:
-    - aveshagarwal
-    - bsalamat
-    - ConnorDoyle
-    - davidopp
-    - derekwaynecarr
-    - gyliu513
-    - hongchaodeng
-    - ingvagabund
-    - jayunit100
-    - k82cn
-    - kevin-wangzefeng
-    - pigmej
-    - quinton-hoole
-    - ravisantoshgudimetla
-    - resouer
-    - rrati
-    - timothysc
-    - vikaschoudhary16
-    - vishh
-    - wanghaoran1988
-    - xiang90
-    - yastij
+    - ahg-g
+    - alculquicondor
+    - chendave
+    - damemi
+    - denkensk
+    - Huang-Wei
+    - kerthcet
+    - sanposhiho
     privacy: closed
   sig-scheduling-proposals:
     description: ""
     members:
-    - aveshagarwal
-    - bsalamat
-    - ConnorDoyle
-    - davidopp
-    - derekwaynecarr
-    - gyliu513
-    - hongchaodeng
-    - ingvagabund
-    - jayunit100
-    - k82cn
-    - kevin-wangzefeng
-    - pigmej
-    - quinton-hoole
-    - resouer
-    - rrati
-    - smarterclayton
-    - timothysc
-    - vikaschoudhary16
-    - vishh
-    - xiang90
+    - ahg-g
+    - alculquicondor
+    - chendave
+    - damemi
+    - denkensk
+    - Huang-Wei
+    - kerthcet
+    - sanposhiho
     privacy: closed
   sig-scheduling-test-failures:
     description: ""
     members:
-    - aveshagarwal
-    - bsalamat
-    - ConnorDoyle
-    - davidopp
-    - derekwaynecarr
-    - gyliu513
-    - hongchaodeng
-    - ingvagabund
-    - jayunit100
-    - k82cn
-    - kevin-wangzefeng
-    - pigmej
-    - quinton-hoole
-    - ravisantoshgudimetla
-    - resouer
-    - rrati
-    - timothysc
-    - xiang90
+    - ahg-g
+    - alculquicondor
+    - chendave
+    - damemi
+    - denkensk
+    - Huang-Wei
+    - kerthcet
+    - sanposhiho
     privacy: closed

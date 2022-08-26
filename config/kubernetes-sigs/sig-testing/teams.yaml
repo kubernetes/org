@@ -49,15 +49,13 @@ teams:
   kubetest2-admins:
     description: Admin access to kubetest2
     members:
-    - amwat
-    - BenTheElder
+    - MushuEE
     - spiffxp
     privacy: closed
   kubetest2-maintainers:
     description: Write access to kubetest2
     members:
-    - amwat
-    - BenTheElder
+    - MushuEE
     - spiffxp
     privacy: closed
   prow-admins:

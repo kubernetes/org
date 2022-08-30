@@ -1,4 +1,14 @@
 teams:
+  kernel-module-management-admins:
+    description: Admin access to kernel-module-management repo
+    members:
+    - qbarrand
+    privacy: closed
+  kernel-module-management-maintainers:
+    description: Write access to kernel-module-management repo
+    members:
+    - qbarrand
+    privacy: closed
   node-feature-discovery-operator-admins:
     description: Admin access to node-feature-discovery-operator repo
     members:

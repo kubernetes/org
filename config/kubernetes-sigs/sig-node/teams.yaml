@@ -33,16 +33,20 @@ teams:
     privacy: closed
     previously:
     - seccomp-operator-maintainers
-  special-resource-operator-admins:
-    description: Admin access to special-resource-operator repo
+  kernel-module-management-admins:
+    description: Admin access to kernel-module-management repo
     members:
     - adrianchiris
     - zvonkok
     privacy: closed
-  special-resource-operator-maintainers:
-    description: Write access to special-resource-operator repo
+    previously:
+    - special-resource-operator-admins
+  kernel-module-management-maintainers:
+    description: Write access to kernel-module-management repo
     members:
     - adrianchiris
     - qbarrand
     - zvonkok
     privacy: closed
+    previously:
+    - kernel-module-management-maintainers

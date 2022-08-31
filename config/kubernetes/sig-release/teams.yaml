@@ -58,8 +58,8 @@ teams:
     - frapposelli # VMware
     - fsmunoz # 1.26 Communications Lead
     - gracenng # 1.26 RT Lead Shadow
-    - hpandeycodeit # Usability
     - hosseinsalahi # 1.26 Bug Triage Lead
+    - hpandeycodeit # Usability
     - Huang-Wei # Scheduling
     - janetkuo # Apps
     - jayunit100 # Windows
@@ -96,8 +96,8 @@ teams:
     - mm4tt # Scalability
     - msau42 # Storage
     - mwielgus # Autoscaling
-    - nckturner # AWS
     - nate-double-u # 1.26 RT Lead Shadow
+    - nckturner # AWS
     - neolit123 # Cluster Lifecycle
     - Nivedita-coder # 1.26 CI Signal Lead
     - onlydole # Release Manager Associate

@@ -327,7 +327,7 @@ teams:
             - katcosgrove # 1.26 RT Lead Shadow
             - leonardpahlke # 1.26 RT Lead
             - nate-double-u # 1.26 RT Lead Shadow
-            - palnabarun # 1.26 EA
+            #- palnabarun # 1.26 EA (nabarun is already admin cannot be a member at the same time)
             - Priyankasaggu11929 # 1.26 RT Lead Shadow
             privacy: closed
       sig-release-admins:

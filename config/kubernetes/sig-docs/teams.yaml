@@ -346,7 +346,6 @@ teams:
     - jcjesus # L10n: Portuguese
     - jhonmike # L10n: Portuguese
     - jimangel # L10n: English
-    - kcmartin # 1.25 RT Docs Lead temporary access for the release
     - mfilocha # L10n: Polish
     - mittalyashu # L10n: Hindi
     - msheldyakov # L10n: Russian
@@ -356,6 +355,7 @@ teams:
     - potapy4 # L10n: Russian
     - raelga # L10n: Spanish
     - remyleone # L10n: French
+    - reylejano # L10n: English
     - rikatz # L10n: Portuguese
     - rlenferink # L10n: German
     - SataQiu # L10n: Chinese
@@ -375,12 +375,10 @@ teams:
     - awkif
     - bene2k1
     - bradtopol
-    - cathchu
     - celestehorgan
     - claudiajkang
     - cstoku
     - dianaabv
-    - didicodes
     - femrtnz
     - girikuncoro
     - gochist
@@ -390,8 +388,7 @@ teams:
     - jimangel
     - juandiegopalomino
     - jygastaud
-    - kcmartin
-    - krol3
+    - krol3 # 1.26 RT Docs lead
     - lledru
     - msheldyakov
     - nasa9084
@@ -410,7 +407,6 @@ teams:
     - SataQiu
     - savitharaghunathan
     - seokho-son
-    - sethmccombs
     - sftim
     - smana
     - tanjunchen

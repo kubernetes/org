@@ -316,6 +316,25 @@ teams:
             #- X # 1.26 CI Signal Shadow
             - Nivedita-coder # 1.26 CI Signal Lead
             privacy: closed
+          release-team-docs:
+            description: Members of the Docs team for the current release cycle.
+            members:
+            - cathchu # 1.26 Docs Shadow
+            - mickeyboxell # 1.26 Docs Shadow
+            - Rishit-dagli # 1.26 Docs Shadow
+            - katmutua # 1.26 Docs Shadow
+            - krol3 # 1.26 Docs Lead
+            privacy: closed
+          release-team-enhancements:
+            description: Members of the Enhancments team for the current release
+              cycle.
+            members:
+            - marosset # 1.26 Enhancements Shadow
+            - parul5sahoo # 1.26 Enhancements Shadow
+            - Atharva-Shinde # 1.26 Enhancements Shadow
+            - ruheenaansari34 # 1.26 Enhancements Shadow
+            - rhockenbury # 1.26 Enhancements lead
+            privacy: closed
           release-team-leads:
             description: Release Team Leads for the current Kubernetes release
               cycle. Grants write access to kubernetes/kubernetes,

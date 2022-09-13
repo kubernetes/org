@@ -67,3 +67,10 @@ teams:
     - cmluciano
     - thockin
     privacy: closed
+  sig-network-leads:
+    description: ""
+    members:
+    - caseydavenport
+    - dcbw
+    - thockin
+    privacy: closed

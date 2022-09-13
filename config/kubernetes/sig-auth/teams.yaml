@@ -85,3 +85,12 @@ teams:
     - mikedanese
     - tallclair
     privacy: closed
+  sig-auth-leads:
+    description: ""
+    members:
+    - deads2k
+    - enj
+    - liggitt
+    - mikedanese
+    - ritazh
+    privacy: closed

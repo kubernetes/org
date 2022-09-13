@@ -109,3 +109,10 @@ teams:
     - andrewsykim
     - calebamiles
     privacy: closed
+  sig-cloud-provider-leads:
+    description: ""
+    members:
+    - andrewsykim
+    - cheftako
+    - nckturner
+    privacy: closed

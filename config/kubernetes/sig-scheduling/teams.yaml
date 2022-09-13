@@ -85,3 +85,10 @@ teams:
     - kerthcet
     - sanposhiho
     privacy: closed
+  sig-scheduling-leads:
+    description: ""
+    members:
+    - ahg-g
+    - alculquicondor
+    - Huang-Wei
+    privacy: closed

@@ -326,7 +326,7 @@ teams:
         - savitharaghunathan # subproject owner (1.22 RT Lead)
         - sayantani11 # 1.26 Release Notes Shadow
         - shuheiktgw # 1.26 CI Signal Shadow
-        - subhasmitasw 1.26 Bug Triage Shadow
+        - subhasmitasw # 1.26 Bug Triage Shadow
         - Verolop # Release Manager
         - xmudrii # Release Manager
         privacy: closed

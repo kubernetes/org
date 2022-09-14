@@ -288,9 +288,9 @@ teams:
         - cici37 # subproject owner (1.25 RT Lead)
         - cpanato # subproject owner / Technical Lead
         - bharitwal # 1.26 CI Signal Shadow
-        - bradmccoydev # 1.26 Comms Lead
-        - davidmirror-ops # 1.26 Comms Lead
-        - Debanitrkl # 1.26 Comms Lead
+        - bradmccoydev # 1.26 Comms Shadow
+        - davidmirror-ops # 1.26 Comms Shadow
+        - Debanitrkl # 1.26 Comms Shadow
         - fsmunoz # 1.26 Comms Lead
         - gracenng # 1.26 RT Lead Shadow
         - harshanarayana # 1.26 Release Notes Shadow

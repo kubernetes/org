@@ -84,3 +84,23 @@ teams:
         - spiffxp
         - thockin
         privacy: closed
+      registry.k8s.io-admins:
+        description: Admin access to kubernetes/registry.k8s.io
+        maintainers:
+        - ameukam
+        members:
+        - bentheelder
+        - dims
+        - spiffxp
+        - thockin
+        privacy: closed
+      registry.k8s.io-maintainers:
+        description: Write access to kubernetes/registry.k8s.io
+        maintainers:
+        - ameukam
+        members:
+        - bentheelder
+        - dims
+        - spiffxp
+        - thockin
+        privacy: closed

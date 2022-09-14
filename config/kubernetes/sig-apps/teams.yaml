@@ -116,3 +116,10 @@ teams:
     - soltysh
     - tnozicka
     privacy: closed
+  sig-apps-leads:
+    description: ""
+    members:
+    - janetkuo
+    - kow3ns
+    - soltysh
+    privacy: closed

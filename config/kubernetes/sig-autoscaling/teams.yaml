@@ -69,3 +69,9 @@ teams:
     - MaciekPytel
     - mwielgus
     privacy: closed
+  sig-autoscaling-leads:
+    description: ""
+    members:
+    - gjtempleton
+    - mwielgus
+    privacy: closed

@@ -50,3 +50,10 @@ teams:
     members:
     - lavalamp
     privacy: closed
+  sig-api-machinery-leads:
+    description: ""
+    members:
+    - deads2k
+    - fedebongio
+    - lavalamp
+    privacy: closed

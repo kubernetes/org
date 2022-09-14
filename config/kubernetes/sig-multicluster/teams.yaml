@@ -65,3 +65,9 @@ teams:
     - quinton-hoole
     - shashidharatd
     privacy: closed
+  sig-multicluster-leads:
+    description: ""
+    members:
+    - jeremyot
+    - pmorie
+    privacy: closed

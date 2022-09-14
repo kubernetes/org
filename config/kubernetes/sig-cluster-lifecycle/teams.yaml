@@ -82,3 +82,10 @@ teams:
     - neolit123
     - timothysc
     privacy: closed
+  sig-cluster-lifecycle-leads:
+    members:
+    - fabriziopandini
+    - justinsb
+    - neolit123
+    - vincepri
+    privacy: closed

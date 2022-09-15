@@ -333,6 +333,7 @@ teams:
               - davidmirror-ops # 1.26 Communications Shadow
               - harshitasao # 1.26 Communications Shadow
               - Debanitrkl # 1.26 Communications Shadow
+              privacy: closed
           release-team-enhancements:
             description: Members of the Enhancments team for the current release
               cycle.

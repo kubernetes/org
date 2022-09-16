@@ -325,6 +325,15 @@ teams:
             - mickeyboxell # 1.26 Docs Shadow
             - Rishit-dagli # 1.26 Docs Shadow
             privacy: closed
+          release-team-comms:
+            description: Members of the Comms team for the current release cycle.
+            members:
+            - bradmccoydev # 1.26 Communications Shadow
+            - davidmirror-ops # 1.26 Communications Shadow
+            - Debanitrkl # 1.26 Communications Shadow
+            - fsmunoz # 1.26 Communications Lead
+            - harshitasao # 1.26 Communications Shadow
+            privacy: closed
           release-team-enhancements:
             description: Members of the Enhancments team for the current release
               cycle.

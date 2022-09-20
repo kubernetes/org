@@ -5,6 +5,7 @@ teams:
       project. This team is a notification-only group, which includes the SIG
       Release Chairs/TLs for continuity.
     members:
+    - BenjaminKazemi
     - BenTheElder
     - cpanato
     - juanfescobar

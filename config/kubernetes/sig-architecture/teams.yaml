@@ -82,15 +82,15 @@ teams:
       prod-readiness-reviewers:
         description: Production Readiness Reviewers
         members:
-        - deads2k       # approver
-        - ehashman      # approver
-        - johnbelamaric # approver
-        - wojtek-t      # approver
-        - jeremyrickard # shadow
-        - tallclair     # shadow
+        - andrewsykim   # shadow
         - bentheelder   # shadow
         - cici37        # shadow
+        - deads2k       # approver
+        - ehashman      # approver
+        - jeremyrickard # shadow
+        - johnbelamaric # approver
         - jpbetz        # shadow
         - spiffxp       # shadow
-        - andrewsykim   # shadow
+        - tallclair     # shadow
+        - wojtek-t      # approver
         privacy: closed

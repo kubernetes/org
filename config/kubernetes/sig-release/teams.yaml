@@ -355,6 +355,16 @@ teams:
             - mickeyboxell # 1.26 Docs Shadow
             - Rishit-dagli # 1.26 Docs Shadow
             privacy: closed
+          release-team-bug-triage:
+            description: Members of the Bug Triage team for the current release cycle.
+            members:
+            - cailynse # 1.26 Bug Triage Shadow
+            - heshamaboelmagd # 1.26 Bug Triage Shadow
+            - hosseinsalahi # 1.26 Bug Triage Lead
+            - neoaggelos # 1.26 Bug Triage Shadow
+            - salaxander # 1.26 Bug Triage Shadow
+            - subhasmitasw # 1.26 Bug Triage Shadow
+            privacy: closed
           release-team-comms:
             description: Members of the Comms team for the current release cycle.
             members:

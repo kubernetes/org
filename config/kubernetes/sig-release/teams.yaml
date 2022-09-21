@@ -283,12 +283,12 @@ teams:
         members:
         - AnaMMedina21 # 1.26 Release Notes Shadow
         - Atharva-Shinde # 1.26 Enhancements Shadow
+        - bharitwal # 1.26 CI Signal Shadow
+        - bradmccoydev # 1.26 Comms Shadow
         - cailynse # 1.26 Bug Triage Shadow
         - cathchu # 1.26 Docs Shadow
         - cici37 # subproject owner (1.25 RT Lead)
         - cpanato # subproject owner / Technical Lead
-        - bharitwal # 1.26 CI Signal Shadow
-        - bradmccoydev # 1.26 Comms Shadow
         - davidmirror-ops # 1.26 Comms Shadow
         - Debanitrkl # 1.26 Comms Shadow
         - fsmunoz # 1.26 Comms Lead

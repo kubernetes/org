@@ -286,27 +286,52 @@ teams:
         maintainers:
         - palnabarun # subproject owner (1.21 RT Lead)
         members:
+        - AnaMMedina21 # 1.26 Release Notes Shadow
+        - Atharva-Shinde # 1.26 Enhancements Shadow
+        - bharitwal # 1.26 CI Signal Shadow
+        - bradmccoydev # 1.26 Comms Shadow
+        - cailynse # 1.26 Bug Triage Shadow
+        - cathchu # 1.26 Docs Shadow
         - cici37 # subproject owner (1.25 RT Lead)
         - cpanato # subproject owner / Technical Lead
+        - davidmirror-ops # 1.26 Comms Shadow
+        - Debanitrkl # 1.26 Comms Shadow
         - fsmunoz # 1.26 Comms Lead
         - gracenng # 1.26 RT Lead Shadow
+        - harshanarayana # 1.26 Release Notes Shadow
+        - harshitasao # 1.26 Comms Shadow
+        - heshamaboelmagd # 1.26 Bug Triage Shadow
         - hosseinsalahi # 1.26 Bug Triage Lead
         - jameslaverack # subproject owner (1.24 RT Lead)
         - jeremyrickard # subproject owner / Technical Lead
         - justaugustus # subproject owner / Chair
         - katcosgrove # 1.26 RT Lead Shadow
+        - katmutua # 1.26 Docs Shadow
         - krol3 # 1.26 Docs Lead
+        - laxmikantbpandhare # 1.26 Release Notes Shadow
         - leonardpahlke # 1.26 RT Lead
+        - marosset # 1.26 Enhancements Shadow
+        - mehabhalodiya # 1.26 CI Signal Shadow
+        - mickeyboxell # 1.26 Docs Shadow
+        - Namanl2001 # 1.26 CI Signal Shadow
         - nate-double-u # 1.26 RT Lead Shadow
+        - neoaggelos # 1.26 Bug Triage Shadow
         - Nivedita-coder # 1.26 CI Signal Lead
         - onlydole # subproject owner (1.19 RT Lead)
+        - parul5sahoo # 1.26 Enhancements Shadow
         - Priyankasaggu11929 # 1.26 RT Lead Shadow
         - puerco # subproject owner / Technical Lead
         - ramrodo # 1.26 Release Notes Lead
         - reylejano # subproject owner (1.23 RT Lead)
         - rhockenbury # 1.26 Enhancements Lead
+        - rishit-dagli # 1.26 Docs Shadow
+        - ruheenaansari34 # 1.26 Enhancements Shadow
+        - salaxander # 1.26 Bug Triage Shadow
         - saschagrunert # subproject owner / Chair
         - savitharaghunathan # subproject owner (1.22 RT Lead)
+        - sayantani11 # 1.26 Release Notes Shadow
+        - shuheiktgw # 1.26 CI Signal Shadow
+        - subhasmitasw # 1.26 Bug Triage Shadow
         - Verolop # Release Manager
         - xmudrii # Release Manager
         privacy: closed
@@ -315,11 +340,11 @@ teams:
             description: Members of the CI Signal team for the current release
               cycle.
             members:
-            #- X # 1.26 CI Signal Shadow
-            #- X # 1.26 CI Signal Shadow
-            #- X # 1.26 CI Signal Shadow
-            #- X # 1.26 CI Signal Shadow
+            - bharitwal  # 1.26 CI Signal Shadow
+            - mehabhalodiya # 1.26 CI Signal Shadow
+            - Namanl2001 # 1.26 CI Signal Shadow
             - Nivedita-coder # 1.26 CI Signal Lead
+            - shuheiktgw # 1.26 CI Signal Shadow
             privacy: closed
           release-team-docs:
             description: Members of the Docs team for the current release cycle.

@@ -1605,23 +1605,16 @@ teams:
   cloud-provider-vsphere-admins:
     description: Admin access to cloud-provider-vsphere repo
     members:
-    - andrewsykim
-    - dvonthenen
-    - frapposelli
+    - HanFa
     - lubronzhan
-    - maplain
-    - nicolehanjing
+    - XudongLiuHarold
     privacy: closed
   cloud-provider-vsphere-maintainers:
     description: Write access to the cloud-provider-vsphere repo
     members:
-    - andrewsykim
-    - BaluDontu
-    - divyenpatel
-    - dougm
-    - frapposelli
-    - imkin
-    - SandeepPissay
+    - HanFa
+    - lubronzhan
+    - XudongLiuHarold
     privacy: closed
   cncf-conformance-wg:
     description: ""

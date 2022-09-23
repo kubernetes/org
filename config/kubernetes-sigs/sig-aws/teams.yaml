@@ -53,18 +53,18 @@ teams:
   aws-efs-csi-driver-admins:
     description: admin access to aws-efs-csi-driver
     members:
+    - Ashley-wenyizha
     - justinsb
-    - kbasv
     - leakingtapan
     - wongma7
     privacy: closed
   aws-efs-csi-driver-maintainers:
     description: write access to aws-efs-csi-driver
     members:
+    - Ashley-wenyizha
     - d-nishi
     - jsafrane
     - justinsb
-    - kbasv
     - leakingtapan
     - wongma7
     privacy: closed

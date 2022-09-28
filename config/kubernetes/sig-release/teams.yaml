@@ -48,6 +48,7 @@ teams:
     - dchen1107 # Node
     - deads2k # API Machinery / Auth
     - derekwaynecarr # Architecture / Node
+    - dgrisonnet # Instrumentation
     - dims # Architecture / Release
     - eddiezane # CLI
     - ehashman # Instrumentation

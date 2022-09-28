@@ -152,7 +152,7 @@ teams:
         - mrbobbytables
         - nikhita
         members:
-        - alisondy
+        - jberkus
         privacy: closed
       sig-contributor-experience-pr-reviews:
         description: PR reviews for contributor-experience infrastructure, such as the

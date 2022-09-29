@@ -336,7 +336,7 @@ teams:
         - xmudrii # Release Manager
         privacy: closed
         teams:
-          ci-signal:
+          release-team-ci-signal:
             description: Members of the CI Signal team for the current release
               cycle.
             members:

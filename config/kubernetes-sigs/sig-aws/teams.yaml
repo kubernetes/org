@@ -2,6 +2,7 @@ teams:
   aws-ebs-csi-driver-admins:
     description: ""
     members:
+    - ConnorJC3
     - gtxu
     - leakingtapan
     - rdpsin
@@ -13,6 +14,7 @@ teams:
     members:
     - AndyXiangLi
     - bertinatto
+    - ConnorJC3
     - gnufied
     - gtxu
     - jsafrane

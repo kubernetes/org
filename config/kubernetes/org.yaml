@@ -2093,10 +2093,10 @@ teams:
     maintainers:
     - cblecker
     - mrbobbytables
+    - palnabarun
     members:
-    - dims
+    - BenTheElder
     - justaugustus
-    - liggitt
     - parispittman
     - tpepper
     privacy: closed

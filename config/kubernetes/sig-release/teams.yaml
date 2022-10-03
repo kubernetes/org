@@ -384,6 +384,16 @@ teams:
             - rhockenbury # 1.26 Enhancements lead
             - ruheenaansari34 # 1.26 Enhancements Shadow
             privacy: closed
+          release-team-release-notes:
+            description: Members of the Release Notes team for the current release
+              cycle.
+            members:
+            - AnaMMedina21 # 1.26 Release Notes Shadow
+            - harshanarayana # 1.26 Release Notes Shadow
+            - laxmikantbpandhare # 1.26 Release Notes Shadow
+            - ramrodo # 1.26 Release Notes Lead
+            - sayantani11 # 1.26 Release Notes Shadow
+            privacy: closed
           release-team-leads:
             description: Release Team Leads for the current Kubernetes release
               cycle. Grants write access to kubernetes/kubernetes,

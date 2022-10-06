@@ -275,16 +275,22 @@ teams:
   image-builder-admins:
     description: admin access to image-builder
     members:
+    - CecileRobertMichon
     - codenrhoden
+    - jsturtevant
     - justinsb
+    - kkeshavamurthy
     - luxas
     - timothysc
     privacy: closed
   image-builder-maintainers:
     description: write access to image-builder
     members:
+    - CecileRobertMichon
     - codenrhoden
+    - jsturtevant
     - justinsb
+    - kkeshavamurthy
     - luxas
     - moshloop
     - timothysc

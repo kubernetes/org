@@ -64,6 +64,22 @@ teams:
     privacy: closed
     previously:
     - maintainers-external-dns
+  ingress2gateway-admins:
+    description: Admin access to the ingress2gateway repo
+    members:
+    - bowei
+    - robscott
+    - shaneutt
+    - youngnick
+    privacy: closed
+  ingress2gateway-maintainers:
+    description: Write access to the ingress2gateway repo
+    members:
+    - bowei
+    - robscott
+    - shaneutt
+    - youngnick
+    privacy: closed
   ingress-controller-conformance-admins:
     description: Admin access to the ingress-controller-conformance repo
     members:

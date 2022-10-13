@@ -1678,11 +1678,11 @@ teams:
   code-of-conduct-committee:
     description: Kubernetes Code of Conduct Committee
     maintainers:
-    - palnabarun
+    - jeremyrickard
     members:
+    - detiber
     - endocrimes
     - hlipsig
-    - jeremyrickard
     - salaxander
     privacy: closed
   csi-api-admins:

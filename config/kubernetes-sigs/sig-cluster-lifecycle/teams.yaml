@@ -42,27 +42,17 @@ teams:
   cluster-api-provider-aws-admins:
     description: admin access to cluster-api-provider-aws
     members:
-    - detiber
-    - justinsb
-    - luxas
-    - randomvariable
     - richardcase
     - sedefsavas
-    - timothysc
-    - vincepri
     privacy: closed
   cluster-api-provider-aws-maintainers:
     description: write access to cluster-api-provider-aws
     members:
-    - chuckha
-    - davidewatson
-    - detiber
-    - ingvagabund
-    - randomvariable
+    - Ankitasw
+    - dlipovetsky
     - richardcase
     - sedefsavas
-    - timothysc
-    - vincepri
+    - Skarlso
     privacy: closed
   cluster-api-provider-azure-admins:
     description: ""

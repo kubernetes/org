@@ -55,3 +55,15 @@ teams:
     - ritazh
     - tam7t
     privacy: closed
+  sig-auth-tools-admins:
+    description: Admin access to sig-auth-tools repo
+    members:
+    - enj
+    - ritazh
+    privacy: closed
+  sig-auth-tools-maintainers:
+    description: Write access to sig-auth-tools repo
+    members:
+    - enj
+    - ritazh
+    privacy: closed

@@ -144,12 +144,12 @@ aliases:
     - mylesagray
     - phenixblue
   committee-code-of-conduct:
+    - detiber
     - endocrimes
     - hlipsig
     - jeremyrickard
-    - palnabarun
     - salaxander
-  committee-security-response:
+  committee-product-security:
     - cjcullen
     - joelsmith
     - lukehinds

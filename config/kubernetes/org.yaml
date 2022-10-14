@@ -1677,8 +1677,6 @@ teams:
     privacy: closed
   code-of-conduct-committee:
     description: Kubernetes Code of Conduct Committee
-    maintainers:
-    - palnabarun
     members:
     - detiber
     - endocrimes

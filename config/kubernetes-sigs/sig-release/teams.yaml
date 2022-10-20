@@ -163,6 +163,24 @@ teams:
     - puerco # subproject owner
     - saschagrunert # subproject owner
     privacy: closed
+  tejolote-admins:
+    description: admin access to tejolote
+    members:
+    - cpanato
+    - jeremyrickard
+    - justaugustus
+    - puerco
+    - saschagrunert
+    privacy: closed
+  tejolote-maintainers:
+    description: write access to tejolote
+    members:
+    - cpanato
+    - jeremyrickard
+    - justaugustus
+    - puerco
+    - saschagrunert
+    privacy: closed
   testgrid-json-exporter-admins:
     description: admin access to testgrid-json-exporter
     members:

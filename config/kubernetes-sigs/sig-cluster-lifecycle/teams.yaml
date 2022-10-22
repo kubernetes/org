@@ -36,7 +36,7 @@ teams:
   cluster-api-operator-admins:
     description: "admin access to cluster-api-operator"
     members:
-    - alexander-demichev
+    - alexander-demicev
     - JoelSpeed
     privacy: closed
   cluster-api-provider-aws-admins:

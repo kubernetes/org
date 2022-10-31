@@ -330,6 +330,7 @@ teams:
   website-maintainers:
     description: Write access to the website repo
     members:
+    - a-mccarthy # Localization subproject owner
     - aisonaku # L10n: Russian
     - Bradamant3 # L10n: English
     - bradtopol # L10n: English
@@ -337,6 +338,7 @@ teams:
     - cstoku # L10n: Japanese
     - devlware # L10: Portuguese
     - dianaabv # L10n: Russian
+    - divya-mohan0209 # L10n: English
     - femrtnz # L10n: Portuguese
     - girikuncoro # L10n: Indonesian
     - gochist # L10n: Korean
@@ -351,6 +353,8 @@ teams:
     - mittalyashu # L10n: Hindi
     - msheldyakov # L10n: Russian
     - nasa9084 # L10n: Japanese
+    - natalisucks # L10n: English
+    - nate-double-u # L10n: English
     - ngtuna # L10n: Vietnamese
     - nvtkaszpir # L10n: Polish
     - potapy4 # L10n: Russian
@@ -370,6 +374,7 @@ teams:
   website-milestone-maintainers:
     description: Contributors who can use `/milestone` in the website repo
     members:
+    - a-mccarthy
     - abuisine
     - aisonaku
     - annajung
@@ -380,6 +385,7 @@ teams:
     - claudiajkang
     - cstoku
     - dianaabv
+    - divya-mohan0209
     - femrtnz
     - girikuncoro
     - gochist
@@ -393,6 +399,8 @@ teams:
     - lledru
     - msheldyakov
     - nasa9084
+    - natalisucks
+    - nate-double-u
     - ngtuna
     - onlydole
     - oussemos

@@ -57,7 +57,7 @@ members:
 - alejandrox1
 - aleksandra-malinowska
 - alenkacz
-- alexander-demichev
+- alexander-demicev
 - alexanderConstantinescu
 - alexbrand
 - alexeldeib
@@ -180,6 +180,7 @@ members:
 - bradtopol
 - brahmaroutu
 - brancz
+- brasmith-ms
 - brendandburns
 - brett-elliott
 - brianpursley
@@ -301,6 +302,7 @@ members:
 - DangerOnTheRanger
 - danielqsj
 - Danil-Grigorev
+- danilo-gemoli
 - danninov
 - danwinship
 - DanyC97
@@ -491,6 +493,7 @@ members:
 - gyuho
 - h4ghhh
 - habibrosyad
+- hackeramitkumar
 - haibinxie
 - haircommander
 - hakman
@@ -559,11 +562,11 @@ members:
 - idealhack
 - ihcsim
 - iheanyi1
-- ihmccreery
 - ilya-zuyev
 - imkin
 - immutableT
 - immuzz
+- imnmo
 - imroc
 - Imtiaz1234
 - inductor
@@ -730,6 +733,7 @@ members:
 - kerthcet
 - kevin-wangzefeng
 - kevindelgado
+- kgolab
 - kgroschoff
 - khenidak
 - kikisdeliveryservice
@@ -821,6 +825,7 @@ members:
 - lukehinds
 - luksa
 - lunhuijie
+- luthermonson
 - luxas
 - lyzs90
 - lzhecheng
@@ -921,6 +926,7 @@ members:
 - mm4tt
 - mmiranda96
 - mml
+- moadqassem
 - mohamedsgap
 - mohammedzee1000
 - Monokaix
@@ -1272,6 +1278,7 @@ members:
 - sjenning
 - sjpotter
 - sjug
+- Skarlso
 - skrishna-unix
 - sladyn98
 - slaskawi
@@ -1293,6 +1300,7 @@ members:
 - spzala
 - squeed
 - srampal
+- sreekaransrinath
 - srikiz
 - srm09
 - stealthybox
@@ -1677,9 +1685,8 @@ teams:
     privacy: closed
   code-of-conduct-committee:
     description: Kubernetes Code of Conduct Committee
-    maintainers:
-    - palnabarun
     members:
+    - detiber
     - endocrimes
     - hlipsig
     - jeremyrickard
@@ -1807,7 +1814,6 @@ teams:
     members:
     - cjcullen
     - destijl
-    - ihmccreery
     - jessicaochen
     - zmerlynn
     privacy: closed

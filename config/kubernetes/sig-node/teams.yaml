@@ -26,6 +26,7 @@ teams:
     - vishh
     - yguo0905
     - yujuhong
+    - pacoxu
     privacy: closed
   sig-node-feature-requests:
     description: Feature Requests for Kubernetes Node Special-Interest-Group
@@ -35,6 +36,7 @@ teams:
     - dchen1107
     - derekwaynecarr
     - feiskyer
+    - pacoxu
     - Random-Liu
     - resouer
     - smarterclayton
@@ -52,6 +54,7 @@ teams:
     - derekwaynecarr
     - endocrimes
     - feiskyer
+    - pacoxu
     - resouer
     - tallclair
     - vikaschoudhary16
@@ -91,6 +94,7 @@ teams:
     - karan
     - MHBauer
     - mtaufen
+    - pacoxu
     - Random-Liu
     - resouer
     - sjenning

@@ -43,11 +43,11 @@ teams:
   kube-state-metrics-admins:
     description: Admin access to the kube-state-metrics repo
     members:
-    - logicalhan
-    - ehashman
     - dashpole
     - dgrisonnet
+    - ehashman
     - fpetkovski
+    - logicalhan
     - mrueg
     privacy: closed
   kube-state-metrics-maintainers:

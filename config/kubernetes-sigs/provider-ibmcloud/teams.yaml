@@ -17,11 +17,11 @@ teams:
     description: Admin access to the ibm-vpc-block-csi-driver repo
     members:
     - ambiknai
-    - arahamad-zz
+    - arahamad
     privacy: closed
   ibm-vpc-block-csi-driver-maintainers:
     description: Write access to the ibm-vpc-block-csi-driver repo
     members:
     - ambiknai
-    - arahamad-zz
+    - arahamad
     privacy: closed

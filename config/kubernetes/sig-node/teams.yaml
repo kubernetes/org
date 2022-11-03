@@ -20,13 +20,13 @@ teams:
     - dchen1107
     - derekwaynecarr
     - feiskyer
+    - pacoxu
     - resouer
     - tallclair
     - vikaschoudhary16
     - vishh
     - yguo0905
     - yujuhong
-    - pacoxu
     privacy: closed
   sig-node-feature-requests:
     description: Feature Requests for Kubernetes Node Special-Interest-Group

@@ -215,6 +215,7 @@ teams:
     - dianaabv
     - msheldyakov
     - potapy4
+    - shurup
     privacy: closed
   sig-docs-ru-reviews:
     description: Reviews for Russian docs PRs
@@ -223,6 +224,7 @@ teams:
     - dianaabv
     - msheldyakov
     - potapy4
+    - shurup
     privacy: closed
   sig-docs-pr-reviews:
     description: PR reviews for docs-related issues
@@ -366,6 +368,7 @@ teams:
     - SataQiu # L10n: Chinese
     - seokho-son # L10n: Korean
     - sftim # L10n: English
+    - shurup # L10n: Russian
     - truongnh1992 # L10n: Vietnamese
     - xichengliudui # L10n: Chinese
     - yagonobre # L10n: Portuguese
@@ -417,6 +420,7 @@ teams:
     - savitharaghunathan
     - seokho-son
     - sftim
+    - shurup
     - smana
     - tanjunchen
     - tengqm

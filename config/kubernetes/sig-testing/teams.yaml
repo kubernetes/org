@@ -5,6 +5,7 @@ teams:
     - cblecker
     members:
     - akutz
+    - aojea
     - BenTheElder
     - bowei
     - chases2
@@ -30,6 +31,7 @@ teams:
       sig-testing-leads:
         description: sig-testing chairs and technical leads
         members:
+        - aojea
         - BenTheElder
         - spiffxp
         - stevekuznetsov
@@ -39,6 +41,7 @@ teams:
         members:
         - akutz
         - amwat
+        - aojea
         - BenTheElder
         - chases2
         - cjwagner

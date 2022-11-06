@@ -30,7 +30,10 @@ teams:
       sig-testing-leads:
         description: sig-testing chairs and technical leads
         members:
+        - aojea
         - BenTheElder
+        - michelle192837
+        - pohly
         - spiffxp
         - stevekuznetsov
         privacy: closed

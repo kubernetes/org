@@ -1042,6 +1042,8 @@ teams:
     privacy: closed
   node-feature-discovery-admins:
     description: Admin access to the node-feature-discovery repo
+    members:
+    - marquiz
     privacy: closed
   node-feature-discovery-maintainers:
     description: Write access to the node-feature-discovery repo

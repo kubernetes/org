@@ -1,0 +1,23 @@
+teams:
+  porche-admins:
+    description: admins access to porche
+    maintainers:
+    - ameukam
+    members:
+    - bentheelder
+    - dims
+    - justinsb
+    - spiffxp
+    - thockin
+    privacy: closed
+  porche-writers:
+    description: write access to porche
+    maintainers:
+    - ameukam
+    members:
+    - bentheelder
+    - dims
+    - justinsb
+    - spiffxp
+    - thockin
+    privacy: closed

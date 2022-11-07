@@ -1833,12 +1833,14 @@ teams:
   ingress-gce-admins:
     description: Admin access to the ingress-gce repo
     members:
+    - aojea
     - bowei
     - thockin
     privacy: closed
   ingress-gce-maintainers:
     description: Write access to the ingress-gce repo
     members:
+    - aojea
     - bowei
     - freehan
     - MrHohn

@@ -259,6 +259,23 @@ teams:
     - vincepri
     - yastij
     privacy: closed
+  cluster-api-release-team:
+    description: Release team of Cluster API
+    members:
+    - alexander-demicev
+    - aniruddha2000
+    - CecileRobertMichon
+    - cpanato
+    - dntosas
+    - furkatgofurov7
+    - hackeramitkumar
+    - nawazkh
+    - oscr
+    - sayantani11
+    - sbueringer
+    - VibhorChinda
+    - ykakarap
+    privacy: closed
   etcdadm-admins:
     description: Admin access to the etcdadm repo
     members:

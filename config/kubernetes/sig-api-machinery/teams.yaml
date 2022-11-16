@@ -16,6 +16,21 @@ teams:
     - lavalamp
     - liggitt
     privacy: closed
+  sig-api-machinery-members:
+    description: Members of sig-api-machinery
+    members:
+    - deads2k
+    - derekwaynecarr
+    - enj
+    - fedebongio
+    - ironcladlou
+    - lavalamp
+    - liggitt
+    - logicalhan
+    - smarterclayton
+    - soltysh
+    - sttts
+    - yue9944882
   sig-api-machinery-misc:
     description: Use only if you can't figure out a better category
     members:
@@ -25,6 +40,7 @@ teams:
     - ironcladlou
     - lavalamp
     - liggitt
+    - logicalhan
     - smarterclayton
     - soltysh
     - sttts
@@ -36,6 +52,7 @@ teams:
     - deads2k
     - lavalamp
     - liggitt
+    - logicalhan
     - smarterclayton
     - sttts
     privacy: closed

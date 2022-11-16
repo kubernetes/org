@@ -19,8 +19,8 @@ teams:
   sig-api-machinery-members:
     description: Members of sig-api-machinery
     members:
-    - andrewsykim
     - alexzielenski
+    - andrewsykim
     - apelisse
     - deads2k
     - derekwaynecarr

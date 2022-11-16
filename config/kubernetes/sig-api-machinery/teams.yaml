@@ -31,6 +31,7 @@ teams:
     - soltysh
     - sttts
     - yue9944882
+    privacy: closed
   sig-api-machinery-misc:
     description: Use only if you can't figure out a better category
     members:

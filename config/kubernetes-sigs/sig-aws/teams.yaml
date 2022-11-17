@@ -40,6 +40,7 @@ teams:
     description: admin access to aws-fsx-csi-driver
     members:
     - justinsb
+    - khoang98
     - leakingtapan
     - wongma7
     privacy: closed
@@ -49,6 +50,7 @@ teams:
     - d-nishi
     - jsafrane
     - justinsb
+    - khoang98
     - leakingtapan
     - wongma7
     privacy: closed

@@ -16,6 +16,10 @@ teams:
     - lavalamp
     - liggitt
     privacy: closed
+  sig-api-machinery-emeritus:
+    description: Emeritus members of sig-api-machinery
+    members:
+    - derekwaynecarr
   sig-api-machinery-members:
     description: Members of sig-api-machinery
     members:
@@ -27,13 +31,13 @@ teams:
     - cici37
     - DangerOnTheRanger
     - deads2k
-    - derekwaynecarr
     - enj
     - fedebongio
     - ironcladlou
     - jefftree
     - jiahuif
     - jpbetz
+    - kwiesmueller
     - lavalamp
     - liggitt
     - logicalhan
@@ -46,7 +50,6 @@ teams:
     - tallclair
     - thockin
     - tkashem
-    - kwiesmueller
     - yliaog
     - yue9944882
     privacy: closed

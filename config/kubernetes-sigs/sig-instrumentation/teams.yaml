@@ -71,3 +71,19 @@ teams:
     members:
     - dgrisonnet
     privacy: closed
+  usage-metrics-collector-admins:
+    description: Admin access to the usage-metrics-collector repo
+    members:
+    - ehashman
+    - KnVerey
+    - pmorie
+    - pwittrock
+    privacy: closed
+  usage-metrics-collector-maintainers:
+    description: Write access to the usage-metrics-collector repo
+    members:
+    - ehashman
+    - KnVerey
+    - pmorie
+    - pwittrock
+    privacy: closed

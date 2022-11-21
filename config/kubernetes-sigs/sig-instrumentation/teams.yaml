@@ -52,13 +52,13 @@ teams:
   metrics-server-admins:
     description: Admin access to the metrics-server repo
     members:
-    - s-urbaniak
+    - dgrisonnet
     - serathius
     privacy: closed
   metrics-server-maintainers:
     description: Write access to the metrics-server repo
     members:
-    - s-urbaniak
+    - dgrisonnet
     - serathius
     privacy: closed
   prometheus-adapter-admins:

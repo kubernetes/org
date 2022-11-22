@@ -107,11 +107,13 @@ teams:
     - droot
     - estroz
     - grodrigues3
+    - jmrodri
     - Liujingfang1
     - mengqiy
     - monopole
     - pmorie
     - pwittrock
+    - varshaprasad96
     privacy: closed
   kubebuilder-contributors:
     description: read access to kubebuilder

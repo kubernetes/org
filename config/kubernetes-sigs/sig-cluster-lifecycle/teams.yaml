@@ -331,3 +331,15 @@ teams:
     - miouge1
     - oomichi
     privacy: closed
+  minikube-gui-admins:
+    description: Admin access to the minikube-gui repo
+    members:
+    - medyagh
+    - spowelljr
+    privacy: closed
+  minikube-gui-maintainers:
+    description: Write access to the minikube-gui repo
+    members:
+    - medyagh
+    - spowelljr
+    privacy: closed

@@ -59,3 +59,29 @@ teams:
     - fpetkovski
     - mrueg
     privacy: closed
+  klog-admins:
+    description: Admin access to the klog repo
+    members:
+    - dims
+    - serathius
+    - thockin
+    privacy: closed
+  klog-maintainers:
+    description: Write access to the klog repo
+    members:
+    - dims
+    - serathius
+    - thockin
+    privacy: closed
+  metrics-admins:
+    description: Admin access to the metrics repo
+    members:
+    - dgrisonnet
+    - serathius
+    privacy: closed
+  metrics-maintainers:
+    description: Write access to the metrics repo
+    members:
+    - dgrisonnet
+    - serathius
+    privacy: closed

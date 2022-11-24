@@ -1884,22 +1884,6 @@ teams:
     - davidopp
     - kad
     privacy: closed
-  klog-admins:
-    description: Admin access to the klog repo
-    members:
-    - dims
-    - thockin
-    privacy: closed
-  klog-maintainers:
-    description: Write access to the klog repo
-    members:
-    - dims
-    - erictune
-    - justinsb
-    - lavalamp
-    - tallclair
-    - thockin
-    privacy: closed
   kompose-admins:
     description: Admin access to the kompose repo
     members:
@@ -2034,20 +2018,6 @@ teams:
     - aronchick
     - fejta
     - kelseyhightower
-    privacy: closed
-  metrics-admins:
-    description: Admin access to the metrics repo
-    members:
-    - DirectXMan12
-    - piosz
-    - sarahnovotny
-    privacy: closed
-  metrics-maintainers:
-    description: Write access to the metrics repo
-    members:
-    - DirectXMan12
-    - piosz
-    - sarahnovotny
     privacy: closed
   node-problem-detector-admins:
     description: Admin access to the node-problem-detector repo

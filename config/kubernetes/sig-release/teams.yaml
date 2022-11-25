@@ -246,7 +246,7 @@ teams:
         members:
         - cici37 # Release Manager Associate
         - cpanato # subproject owner / Release Manager
-        - jeremyrickard # Release Manager Associate
+        - jeremyrickard # subproject owner / Release Manager
         - jimangel # Release Manager Associate
         - jrsapi # Release Manager Associate
         - justaugustus # subproject owner / Release Manager
@@ -257,7 +257,7 @@ teams:
         - saschagrunert # subproject owner / Release Manager
         - sethmccombs # Release Manager Associate
         - thejoycekung # Release Manager Associate
-        - Verolop # Release Manager
+        - Verolop # subproject owner / Release Manager
         - wilsonehusin # Release Manager Associate
         - xmudrii # Release Manager
         privacy: closed
@@ -271,6 +271,7 @@ teams:
             - palnabarun
             members:
             - cpanato
+            - jeremyrickard
             - justaugustus
             - k8s-release-robot
             - puerco
@@ -411,28 +412,31 @@ teams:
         description: Admins for SIG Release repositories
         members:
         - cpanato # Technical Lead
-        - jeremyrickard # Technical Lead
+        - jeremyrickard # Chair
         - justaugustus # Chair
         - puerco # Technical Lead
         - saschagrunert # Chair
+        - Verolop # Technical Lead
         privacy: closed
       sig-release-leads:
         description: |
           Chairs, Technical Leads, and Program Managers for SIG Release
         members:
         - cpanato # Technical Lead
-        - jeremyrickard # Technical Lead
+        - jeremyrickard # Chair
         - justaugustus # Chair
         - puerco # Technical Lead
         - saschagrunert # Chair
+        - Verolop # Technical Lead
         privacy: closed
       sig-release-pms:
         description: |
           Grants access to maintain SIG Release project boards
         members:
         - cpanato # Technical Lead
-        - jeremyrickard # Technical Lead
+        - jeremyrickard # Chair
         - justaugustus # Chair
         - puerco # Technical Lead
         - saschagrunert # Chair
+        - Verolop # Technical Lead
         privacy: closed

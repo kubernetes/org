@@ -12,24 +12,24 @@ teams:
   instrumentation-admins:
     description: Admin access to the instrumentation repo
     members:
-    - brancz
     - dashpole
+    - dgrisonnet
     - ehashman
     - logicalhan
     privacy: closed
   instrumentation-tools-admins:
     description: Admin access to the instrumentation-tools repo
     members:
-    - brancz
     - dashpole
+    - dgrisonnet
     - ehashman
     - logicalhan
     privacy: closed
   instrumentation-tools-maintainers:
     description: Write access to the instrumentation-tools repo
     members:
-    - brancz
     - dashpole
+    - dgrisonnet
     - ehashman
     - logicalhan
     privacy: closed

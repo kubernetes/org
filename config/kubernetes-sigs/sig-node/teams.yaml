@@ -1,4 +1,15 @@
 teams:
+  dra-example-driver-admins:
+    description: Admin access to dra-example-driver repo
+    members:
+    - klueska
+    - pohly
+    privacy: closed
+  dra-example-driver-maintainers:
+    description: Write access to dra-example-driver repo
+    members:
+    - bart0sh
+    privacy: closed
   node-feature-discovery-operator-admins:
     description: Admin access to node-feature-discovery-operator repo
     members:

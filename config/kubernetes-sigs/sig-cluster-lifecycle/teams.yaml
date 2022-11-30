@@ -22,6 +22,8 @@ teams:
     description: ""
     members:
     - CecileRobertMichon
+    - fabriziopandini
+    - sbueringer
     - vincepri
     privacy: closed
   cluster-api-maintainers:

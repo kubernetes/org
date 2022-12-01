@@ -1713,16 +1713,6 @@ teams:
     - jeremyrickard
     - salaxander
     privacy: closed
-  csi-api-admins:
-    description: Admin access to csi-api repo
-    members:
-    - saad-ali
-    privacy: closed
-  csi-api-maintainers:
-    description: Write access to csi-api repo
-    members:
-    - saad-ali
-    privacy: closed
   dashboard-admins:
     description: Admins of the dashboard repo
     members:

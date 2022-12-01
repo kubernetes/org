@@ -142,22 +142,6 @@ teams:
     - verult
     - xing-yang
     privacy: closed
-  csi-driver-image-populator-admins:
-    description: Admin access to csi-driver-image-populator repo
-    members:
-    - jsafrane
-    - msau42
-    - saad-ali
-    - xing-yang
-    privacy: closed
-  csi-driver-image-populator-maintainers:
-    description: Write access to csi-driver-image-populator repo
-    members:
-    - jsafrane
-    - msau42
-    - saad-ali
-    - xing-yang
-    privacy: closed
   csi-driver-iscsi-admins:
     description: Admin access to csi-driver-iscsi repo
     members:
@@ -229,22 +213,6 @@ teams:
     - andyzhangx
     - jingxu97
     - msau42
-    privacy: closed
-  csi-lib-fc-admins:
-    description: Admin access to csi-lib-fc repo
-    members:
-    - jsafrane
-    - msau42
-    - saad-ali
-    - xing-yang
-    privacy: closed
-  csi-lib-fc-maintainers:
-    description: Write access to csi-lib-fc repo
-    members:
-    - jsafrane
-    - msau42
-    - saad-ali
-    - xing-yang
     privacy: closed
   csi-lib-iscsi-admins:
     description: Admin access to csi-lib-iscsi repo

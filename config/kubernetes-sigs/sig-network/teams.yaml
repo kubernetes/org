@@ -118,7 +118,9 @@ teams:
     description: Admin access to the gateway-api repo
     members:
     - bowei
-    - thockin
+    - robscott
+    - shaneutt
+    - youngnick
     privacy: closed
     previously:
     - service-apis-admins
@@ -126,7 +128,6 @@ teams:
     description: Write access to the gateway-api repo
     members:
     - bowei
-    - hbagdi
     - robscott
     - shaneutt
     - youngnick

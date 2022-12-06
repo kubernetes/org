@@ -51,6 +51,7 @@ teams:
         - andrewsykim
         - justinsb
         - nckturner
+        - olemarkus
         privacy: closed
       sig-cloud-provider-api-reviews:
         description: ""

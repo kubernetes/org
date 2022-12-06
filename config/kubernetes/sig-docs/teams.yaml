@@ -370,10 +370,10 @@ teams:
     - seokho-son # L10n: Korean
     - sftim # L10n: English
     - shurup # L10n: Russian
+    - tengqm # L10n: Chinese
     - truongnh1992 # L10n: Vietnamese
     - xichengliudui # L10n: Chinese
     - yagonobre # L10n: Portuguese
-    - zhangxiaoyu-zidif # L10n: Chinese
     privacy: closed
   website-milestone-maintainers:
     description: Contributors who can use `/milestone` in the website repo

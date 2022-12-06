@@ -113,6 +113,7 @@ teams:
     - jweite-amazon
     - maxdrib
     - rohityadavcloud
+    - wanyufe
     privacy: closed
     previously:
     - cluster-api-cloudstack-maintainers

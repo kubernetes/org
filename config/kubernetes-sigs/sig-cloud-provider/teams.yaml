@@ -4,18 +4,17 @@ teams:
     members:
     - andrewsykim
     - anfernee
-    - caesarxuchao
     - cheftako
-    - mcrute
+    - jkh52
+    - nckturner
     privacy: closed
   apiserver-network-proxy-maintainers:
     description: write access to apiserver-network-proxy
     members:
     - andrewsykim
     - anfernee
-    - caesarxuchao
     - cheftako
-    - mcrute
+    - jkh52
     privacy: closed
   alibaba-cloud-csi-driver-admins:
    description: Admin access to alibaba-cloud-csi-driver repo

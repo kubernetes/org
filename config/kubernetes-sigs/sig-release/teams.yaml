@@ -62,12 +62,15 @@ teams:
     - listx # maintainer
     - puerco # subproject owner
     - saschagrunert # subproject owner
+    - Verolop # subproject owner / Release Manager
     privacy: closed
     previously:
     - image-promoter-admins
     - k8s-container-image-promoter-admins
   promo-tools-maintainers:
     description: write access to promo-tools
+    maintainers:
+    - palnabarun # Release Manager
     members:
     - cpanato # subproject owner
     - jeremyrickard # subproject owner
@@ -75,6 +78,8 @@ teams:
     - listx # maintainer
     - puerco # subproject owner
     - saschagrunert # subproject owner
+    - Verolop # subproject owner / Release Manager
+    - xmudrii # Release Manager
     privacy: closed
     previously:
     - image-promoter-maintainers
@@ -92,7 +97,7 @@ teams:
     - justaugustus # subproject owner / Release Manager
     - puerco # subproject owner / Release Manager
     - saschagrunert # subproject owner / Release Manager
-    - Verolop # Release Manager Associate
+    - Verolop # subproject owner / Release Manager
     - xmudrii # Release Manager
     privacy: closed
   release-notes-admins:

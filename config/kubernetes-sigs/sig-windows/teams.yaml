@@ -39,6 +39,7 @@ teams:
     description: Admin access to sig-windows-dev-tools repo
     members:
     - claudiubelu
+    - dougsland
     - jayunit100
     - jsturtevant
     - marosset
@@ -48,6 +49,7 @@ teams:
     description: Admin access to sig-windows-tools repo
     members:
     - claudiubelu
+    - dougsland
     - jayunit100
     - jsturtevant
     - marosset
@@ -56,6 +58,7 @@ teams:
     description: Write access to sig-windows-tools repo
     members:
     - claudiubelu
+    - dougsland
     - jayunit100
     - jsturtevant
     - marosset

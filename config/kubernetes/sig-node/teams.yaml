@@ -2,102 +2,117 @@ teams:
   sig-node-api-reviews:
     description: API Reviews for Kubernetes Node Special-Interest-Group
     members:
-    - ConnorDoyle
-    - davidopp
     - dchen1107
     - derekwaynecarr
-    - feiskyer
-    - resouer
+    - smarterclayton
     - tallclair
-    - vikaschoudhary16
-    - vishh
+    - thockin
     - yujuhong
     privacy: closed
   sig-node-bugs:
     description: Bugs for Kubernetes Node Special-Interest-Group
     members:
-    - ConnorDoyle
+    - andrewsykim
+    - bobbypage
     - dchen1107
     - derekwaynecarr
+    - dims
+    - endocrimes
     - feiskyer
-    - resouer
-    - tallclair
-    - vikaschoudhary16
-    - vishh
-    - yguo0905
+    - klueska
+    - krmayankk
+    - matthyx
+    - mrunalp
+    - mtaufen
+    - odinuge
+    - pacoxu
+    - Random-Liu
+    - SergeyKanzhelev
+    - sjenning
+    - wzshiming
     - yujuhong
     privacy: closed
   sig-node-feature-requests:
     description: Feature Requests for Kubernetes Node Special-Interest-Group
     members:
-    - ConnorDoyle
-    - davidopp
+    - andrewsykim
+    - bobbypage
     - dchen1107
     - derekwaynecarr
+    - dims
+    - endocrimes
     - feiskyer
+    - klueska
+    - krmayankk
+    - matthyx
+    - mrunalp
+    - mtaufen
+    - odinuge
+    - pacoxu
     - Random-Liu
-    - resouer
-    - smarterclayton
-    - tallclair
-    - vikaschoudhary16
-    - vishh
-    - yguo0905
+    - SergeyKanzhelev
+    - sjenning
+    - wzshiming
     - yujuhong
     privacy: closed
   sig-node-pr-reviews:
     description: PR Reviews for Kubernetes Node Special-Interest-Group
     members:
-    - ConnorDoyle
+    - andrewsykim
+    - bobbypage
     - dchen1107
     - derekwaynecarr
+    - dims
     - endocrimes
     - feiskyer
-    - resouer
-    - tallclair
-    - vikaschoudhary16
-    - vishh
+    - klueska
+    - krmayankk
+    - matthyx
+    - mrunalp
+    - mtaufen
+    - odinuge
+    - pacoxu
+    - Random-Liu
+    - SergeyKanzhelev
+    - sjenning
+    - wzshiming
     - yujuhong
     privacy: closed
   sig-node-proposals:
     description: Proposals for Kubernetes Node Special-Interest-Group
     members:
-    - ConnorDoyle
-    - dashpole
-    - davidopp
+    - andrewsykim
+    - bobbypage
     - dchen1107
     - derekwaynecarr
+    - dims
+    - endocrimes
     - feiskyer
+    - klueska
+    - krmayankk
+    - matthyx
+    - mrunalp
     - mtaufen
+    - odinuge
+    - pacoxu
     - Random-Liu
-    - resouer
-    - smarterclayton
-    - tallclair
-    - vikaschoudhary16
-    - vishh
+    - SergeyKanzhelev
+    - sjenning
+    - wzshiming
     - yujuhong
     privacy: closed
   sig-node-test-failures:
     description: Test Failures for Kubernetes Node Special-Interest-Group
     members:
-    - alejandrox1
+    - bart0sh
     - bobbypage
-    - bsdnet
-    - ConnorDoyle
-    - dashpole
     - dchen1107
     - derekwaynecarr
     - endocrimes
-    - feiskyer
-    - karan
-    - MHBauer
-    - mtaufen
+    - klueska
+    - mrunalp
     - Random-Liu
-    - resouer
+    - SergeyKanzhelev
     - sjenning
-    - tallclair
-    - vikaschoudhary16
-    - vishh
-    - vpickard
-    - yguo0905
     - yujuhong
     privacy: closed

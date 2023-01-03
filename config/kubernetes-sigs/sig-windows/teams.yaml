@@ -77,6 +77,20 @@ teams:
     - jayunit100
     - knabben
     privacy: closed
+  windows-service-proxy-admins:
+    description: Admin access to the windows-service-proxy repo
+    members:
+    - jayunit100
+    - jsturtevant
+    - marosset
+    privacy: closed
+  windows-service-proxy-maintainers:
+    description: Write access to the windows-service-proxy repo
+    members:
+    - jayunit100
+    - jsturtevant
+    - marosset
+    privacy: closed
   windows-testing-admins:
     description: Admin access to the windows-testing repo
     members:

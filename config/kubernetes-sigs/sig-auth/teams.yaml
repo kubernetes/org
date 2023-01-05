@@ -52,7 +52,9 @@ teams:
     description: Write access to secrets-store-csi-driver repo
     members:
     - aramase
+    - nilekhc
     - ritazh
+    - salaxander
     - tam7t
     privacy: closed
   sig-auth-tools-admins:

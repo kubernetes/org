@@ -80,13 +80,17 @@ teams:
   cloud-provider-huaweicloud-admins:
    description: Admin access to the cloud-provider-huaweicloud repo
    members:
+   - chengxiangdong
    - kevin-wangzefeng
+   - niuzhenguo
    - RainbowMango
    privacy: closed
   cloud-provider-huaweicloud-maintainers:
    description: Write access to the cloud-provider-huaweicloud repo
    members:
+   - chengxiangdong
    - kevin-wangzefeng
+   - niuzhenguo
    - RainbowMango
    privacy: closed
   ibm-powervs-block-csi-driver-admins:

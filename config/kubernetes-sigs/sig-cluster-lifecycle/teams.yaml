@@ -128,20 +128,15 @@ teams:
     description: admin access to cluster-api-provider-gcp
     members:
     - cpanato
-    - justinsb
-    - luxas
-    - roberthbailey
-    - timothysc
-    - vincepri
+    - dims
+    - richardcase
     privacy: closed
   cluster-api-provider-gcp-maintainers:
     description: write access to cluster-api-provider-gcp-maintainers
     members:
     - cpanato
-    - detiber
-    - justinsb
-    - krousey
-    - vincepri
+    - dims
+    - richardcase
     privacy: closed
   cluster-api-provider-kubemark-admins:
     description: admin access to cluster-api-provider-kubemark

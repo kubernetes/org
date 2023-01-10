@@ -60,6 +60,7 @@ teams:
     - Ashley-wenyizha
     - justinsb
     - leakingtapan
+    - mskanth972
     - wongma7
     privacy: closed
   aws-efs-csi-driver-maintainers:
@@ -70,5 +71,6 @@ teams:
     - jsafrane
     - justinsb
     - leakingtapan
+    - mskanth972
     - wongma7
     privacy: closed

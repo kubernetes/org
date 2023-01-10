@@ -28,6 +28,16 @@ teams:
    - fredkan
    - xianlubird
    privacy: closed
+  aws-file-cache-csi-driver-admins:
+    description: Admin access to the aws-file-cache-csi-driver repo
+    members:
+    - nckturner
+    privacy: closed
+  aws-file-cache-csi-driver-maintainers:
+    description: Write access to the aws-file-cache-csi-driver repo
+    members:
+    - nckturner
+    privacy: closed
   aws-iam-authenticator-admins:
    description: Admin access to the aws-iam-authenticator repo
    members:

@@ -16,9 +16,9 @@ Requirements
 
 * Add only one new member per commit (if you add two members separate it in two commits
 * Commit message format `Add <USERNAME> to <kubernetes, kubernetes-sigs, ...> org`. 
- 
-You can also use the tool [korg](https://github.com/kubernetes/org/tree/main/cmd/korg) to make theses changes described for.
 
+You can use `make add-members WHO=username1,username2 REPOS=kubernetes-sigs,kubernetes` to add usernames
+to the config with the requirements listed above.
 
 ## Community, discussion, contribution, and support
 

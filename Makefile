@@ -66,6 +66,9 @@ deploy:
 	./admin-update.sh
 		$(-*-command-variables-*-) $(filter-out $@,$(MAKECMDGOALS))
 
+add-members:
+	./hack/add-members.sh
+
 # actual targets that only get built if they don't already exist
 $(MERGE_CMD):
 	mkdir -p "$(OUTPUT_BIN_DIR)"

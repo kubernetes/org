@@ -16,6 +16,28 @@
 
 set -euo pipefail
 
-cd "$(dirname "${BASH_SOURCE[0]}")"
+SCRIPT_ROOT=$(dirname "${BASH_SOURCE[0]}")/..
 
-go install ../cmd/korg
+go install "$SCRIPT_ROOT"/cmd/korg
+
+DRY_RUN=${DRY_RUN:-false}
+
+if [[ -z ${WHO:-} ]]; then
+   echo "No users specified. Specify the users you would like to add with WHO=user1,user2"
+   exit 1
+fi
+
+[ -z ${REPOS+x} ] && echo "No repos specified. Defaulting to kubernetes."
+REPOS=${REPOS:-"kubernetes"}
+
+cd "$SCRIPT_ROOT"
+for username in ${WHO//,/ }
+do
+    echo "Adding $username to $REPOS"
+   if [ "$DRY_RUN" = true ]; then
+     echo "Running in dry run mode."
+     korg add "$username" --org "$REPOS"
+   else
+     korg add "$username" --org "$REPOS" --confirm
+   fi
+done

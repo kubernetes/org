@@ -18,6 +18,22 @@ teams:
     privacy: closed
     previously:
     - addon-operators-maintainers
+  cluster-api-addon-provider-helm-admins:
+    description:  Admin access to cluster-api-addon-provider-helm repo
+    members:
+    - CecileRobertMichon
+    - fabriziopandini
+    - jackfrancis
+    - Jont828
+    privacy: closed
+  cluster-api-addon-provider-helm-maintainers:
+    description: Write access to cluster-api-addon-provider-helm repo
+    members:
+    - CecileRobertMichon
+    - fabriziopandini
+    - jackfrancis
+    - Jont828
+    privacy: closed
   cluster-api-admins:
     description: ""
     members:

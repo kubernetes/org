@@ -28,13 +28,17 @@ teams:
     description: admin access to aws_encryption-provider repo
     members:
     - justinsb
-    - robinpercy
+    - micahhausler
+    - nckturner
+    - wongma7
     privacy: closed
   aws-encryption-provider-maintainers:
     description: write access to aws_encryption-provider
     members:
     - justinsb
-    - robinpercy
+    - micahhausler
+    - nckturner
+    - wongma7
     privacy: closed
   aws-fsx-csi-driver-admins:
     description: admin access to aws-fsx-csi-driver

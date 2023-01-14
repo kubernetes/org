@@ -48,6 +48,20 @@ teams:
     - JeremyOT
     - pmorie
     privacy: closed
+  sig-multicluster-site-admins:
+    description: Admin access to the sig-multicluster-site repo
+    members:
+    - jeremyot
+    - lauralorenz
+    - pmorie
+    privacy: closed
+  sig-multicluster-site-maintainers:
+    description: Write access to the sig-multicluster-site repo
+    members:
+    - jeremyot
+    - lauralorenz
+    - pmorie
+    privacy: closed
   work-api-admins:
     description: Admin access for the work-api repo
     members:

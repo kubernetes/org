@@ -331,6 +331,7 @@ teams:
               cycle.
             members:
             - harshanarayana # 1.27 Release Notes Lead
+            - yrs147 # 1.27 Release Notes Shadow
             privacy: closed
           release-team-leads:
             description: Release Team Leads for the current Kubernetes release

@@ -65,10 +65,11 @@ teams:
   sig-docs-es-reviews:
     description: PR reviews for Spanish content
     members:
+    - 92nqb
     - electrocucaracha
-    - emedina
-    - glo-pena
+    - krol3
     - raelga
+    - ramrodo
     privacy: closed
   sig-docs-fr-owners:
     description: Approvers for French content

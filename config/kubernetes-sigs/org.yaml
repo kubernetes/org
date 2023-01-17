@@ -1003,6 +1003,7 @@ teams:
     description: Write access to the cri-tools repo
     members:
     - feiskyer
+    - haircommander
     - mrunalp
     - Random-Liu
     - saschagrunert

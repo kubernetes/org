@@ -43,7 +43,7 @@ teams:
     - justaugustus # subproject owner
     - kikisdeliveryservice # subproject owner
     - LappleApple # subproject owner
-    - rhockenbury # 1.26 RT Enhancements Lead
+    - marosset # 1.27 RT Enhancements Lead
     privacy: closed
     teams:
       enhancements-admins:

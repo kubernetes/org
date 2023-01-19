@@ -29,6 +29,7 @@ teams:
     - alejandrox1 # Testing
     - andrewsykim # Cloud Provider
     - aojea # Testing / Network
+    - Atharva-Shinde # 1.27 Enhancements Shadow
     - BenTheElder # Testing
     - bgrant0607 # Architecture
     - bradamant3 # Docs
@@ -57,6 +58,7 @@ teams:
     - floreks # UI
     - foxish # Big Data
     - frapposelli # VMware
+    - fsmunoz # 1.27 Enhancements Shadow
     - harshanarayana # 1.27 Release Notes Lead
     - harshitasao # 1.27 Comms Lead
     - helayoty # 1.27 Lead Shadow
@@ -99,6 +101,7 @@ teams:
     - mwielgus # Autoscaling
     - nckturner # AWS
     - neolit123 # Cluster Lifecycle
+    - npolshakova # 1.27 Enhancements Shadow
     - oxddr # Scalability
     - parispittman # ContribEx
     - phillels # ContribEx
@@ -117,6 +120,7 @@ teams:
     - SataQiu # Cluster Lifecycle
     - seans3 # CLI
     - serathius # Instrumentation
+    - shatoboar # 1.27 Enhancements Shadow
     - shu-mutou # UI
     - shyamjvs # Scalability
     - soltysh # CLI
@@ -274,8 +278,10 @@ teams:
         maintainers:
         - palnabarun # subproject owner (1.21 RT Lead)
         members:
+        - Atharva-Shinde # 1.27 Enhancements Shadow
         - cici37 # subproject owner (1.25 RT Lead)
         - cpanato # subproject owner / Technical Lead
+        - fsmunoz # 1.27 Enhancements Shadow
         - harshanarayana # 1.27 Release Notes Lead
         - harshitasao # 1.27 Comms Lead
         - helayoty # 1.27 RT Lead Shadow
@@ -289,12 +295,14 @@ teams:
         - marosset # 1.27 Enhancements Lead
         - mickeyboxell # 1.27 Docs Lead
         - neoaggelos # 1.27 Bug Triage Lead
+        - npolshakova # 1.27 Enhancements Shadow
         - Priyankasaggu11929 # 1.27 RT Lead Shadow
         - puerco # subproject owner / Technical Lead
         - reylejano # subproject owner (1.23 RT Lead)
         - salaxander # subproject owner (1.27 RT Lead)
         - saschagrunert # subproject owner / Chair
         - savitharaghunathan # subproject owner (1.22 RT Lead)
+        - shatoboar # 1.27 Enhancements Shadow
         - Verolop # Release Manager
         - xmudrii # Release Manager
         privacy: closed
@@ -324,7 +332,11 @@ teams:
             description: Members of the Enhancments team for the current release
               cycle.
             members:
+            - Atharva-Shinde # 1.27 Enhancements Shadow
+            - fsmunoz # 1.27 Enhancements Shadow
             - marosset # 1.27 Enhancements Lead
+            - npolshakova # 1.27 Enhancements Shadow
+            - shatoboar # 1.27 Enhancements Shadow
             privacy: closed
           release-team-release-notes:
             description: Members of the Release Notes team for the current release

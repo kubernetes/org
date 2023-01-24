@@ -42,6 +42,7 @@ teams:
     - claudiubelu # Windows
     - cpanato # Release Manager
     - craiglpeters # Azure
+    - csantanapr # 1.27 Bug Triage Shadow
     - dashpole # Instrumentation
     - dcbw # Network
     - dchen1107 # Node
@@ -59,6 +60,7 @@ teams:
     - foxish # Big Data
     - frapposelli # VMware
     - fsmunoz # 1.27 Enhancements Shadow
+    - furkatgofurov7 # 1.27 Bug Triage Shadow
     - gracenng # Release Manager Associate
     - harshanarayana # 1.27 Release Notes Lead
     - harshitasao # 1.27 Comms Lead
@@ -101,6 +103,7 @@ teams:
     - msau42 # Storage
     - mwielgus # Autoscaling
     - nckturner # AWS
+    - neoaggelos # 1.27 Bug Triage Lead
     - neolit123 # Cluster Lifecycle
     - npolshakova # 1.27 Enhancements Shadow
     - oxddr # Scalability
@@ -126,6 +129,7 @@ teams:
     - shu-mutou # UI
     - shyamjvs # Scalability
     - soltysh # CLI
+    - sowmyav27 # 1.27 Bug Triage Shadow
     - spiffxp # Testing
     - spzala # IBM Cloud
     - stevekuznetsov # Testing
@@ -133,6 +137,7 @@ teams:
     - tashimi # Usability
     - thockin # Network
     - timothysc # Cluster Lifecycle / Testing
+    - valaparthvi # 1.27 Bug Triage Shadow
     - Verolop # Release Manager
     - vllry # Usability
     - wojtek-t # Scalability
@@ -285,7 +290,9 @@ teams:
         - Atharva-Shinde # 1.27 Enhancements Shadow
         - cici37 # subproject owner (1.25 RT Lead)
         - cpanato # subproject owner / Technical Lead
+        - csantanapr # 1.27 Bug Triage Shadow
         - fsmunoz # 1.27 Enhancements Shadow
+        - furkatgofurov7 # 1.27 Bug Triage Shadow
         - harshanarayana # 1.27 Release Notes Lead
         - harshitasao # 1.27 Comms Lead
         - helayoty # 1.27 RT Lead Shadow
@@ -307,6 +314,8 @@ teams:
         - saschagrunert # subproject owner / Chair
         - savitharaghunathan # subproject owner (1.22 RT Lead)
         - shatoboar # 1.27 Enhancements Shadow
+        - sowmyav27 # 1.27 Bug Triage Shadow
+        - valaparthvi # 1.27 Bug Triage Shadow
         - Verolop # Release Manager
         - xmudrii # Release Manager
         privacy: closed
@@ -325,7 +334,11 @@ teams:
           release-team-bug-triage:
             description: Members of the Bug Triage team for the current release cycle.
             members:
+            - csantanapr # 1.27 Bug Triage Shadow
+            - furkatgofurov7 # 1.27 Bug Triage Shadow
             - neoaggelos # 1.27 Bug Triage Lead
+            - sowmyav27 # 1.27 Bug Triage Shadow
+            - valaparthvi # 1.27 Bug Triage Shadow
             privacy: closed
           release-team-comms:
             description: Members of the Comms team for the current release cycle.

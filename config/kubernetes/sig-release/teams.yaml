@@ -349,7 +349,11 @@ teams:
           release-team-comms:
             description: Members of the Comms team for the current release cycle.
             members:
+            - bradmccoydev # 1.27 Comms Shadow 
             - harshitasao # 1.27 Comms Lead
+            - jaehnri # 1.27 Comms Shadow
+            - Nancy-Chauhan # 1.27 Comms Shadow
+            - sfotony # 1.27 Comms Shadow
             privacy: closed
           release-team-enhancements:
             description: Members of the Enhancments team for the current release

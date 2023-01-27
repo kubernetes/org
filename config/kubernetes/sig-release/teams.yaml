@@ -59,6 +59,7 @@ teams:
     - foxish # Big Data
     - frapposelli # VMware
     - fsmunoz # 1.27 Enhancements Shadow
+    - gracenng # Release Manager Associate
     - harshanarayana # 1.27 Release Notes Lead
     - harshitasao # 1.27 Comms Lead
     - helayoty # 1.27 Lead Shadow
@@ -113,6 +114,7 @@ teams:
     - quinton-hoole # Multicluster
     - RainbowMango # Instrumentation
     - rajakavitha1 # Usability
+    - ramrodo # Release Manager Associate
     - ritazh # Auth
     - saad-ali # Storage
     - salaxander # Release Manager Associate
@@ -243,11 +245,13 @@ teams:
         members:
         - cici37 # Release Manager Associate
         - cpanato # subproject owner / Release Manager
+        - gracenng # Release Manager Associate
         - jeremyrickard # subproject owner / Release Manager
         - jimangel # Release Manager Associate
         - jrsapi # Release Manager Associate
         - justaugustus # subproject owner / Release Manager
         - puerco # subproject owner / Release Manager
+        - ramrodo # Release Manager Associate
         - salaxander # Release Manager Associate
         - saschagrunert # subproject owner / Release Manager
         - Verolop # subproject owner / Release Manager

@@ -312,6 +312,10 @@ teams:
               cycle.
             members:
             - lauralorenz # 1.27 CI Signal Lead
+            - Vyom-Yada # 1.27 CI Signal Shadow
+            - drewhagen # 1.27 CI Signal Shadow
+            - mehabhalodiya # 1.27 CI Signal Shadow
+            - gracenng # 1.27 CI Signal Shadow
             privacy: closed
           release-team-docs:
             description: Members of the Docs team for the current release cycle.

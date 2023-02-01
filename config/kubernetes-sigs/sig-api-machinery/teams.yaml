@@ -44,26 +44,16 @@ teams:
   controller-runtime-admins:
     description: admin access to controller-runtime
     members:
-    - DirectXMan12
-    - droot
-    - pwittrock
-    privacy: closed
-  controller-runtime-contributors:
-    description: read access to controller-runtime
-    members:
-    - lichuqiang
-    - pwittrock
+    - joelanford
+    - vincepri
     privacy: closed
   controller-runtime-maintainers:
     description: write access to controller-runtime
     members:
     - alvaroaleman
-    - camilamacedo86
+    - fillzpp
     - joelanford
-    - Liujingfang1
-    - mengqiy
-    - pwittrock
-    - seans3
+    - sbueringer
     - vincepri
     privacy: closed
   controller-tools-admins:

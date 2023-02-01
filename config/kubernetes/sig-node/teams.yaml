@@ -9,6 +9,14 @@ teams:
     - thockin
     - yujuhong
     privacy: closed
+  sig-node-leads:
+    description: Chairs and Technical Leads for SIG Node
+    members:
+    - dchen1107
+    - derekwaynecarr
+    - mrunalp
+    - SergeyKanzhelev
+    privacy: closed
   sig-node-bugs:
     description: Bugs for Kubernetes Node Special-Interest-Group
     members:

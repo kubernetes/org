@@ -98,6 +98,7 @@ teams:
     - mborsz # Scalability
     - mikedanese # Auth
     - mm4tt # Scalability
+    - mrunalp # Node
     - msau42 # Storage
     - mwielgus # Autoscaling
     - nckturner # AWS
@@ -122,6 +123,7 @@ teams:
     - SataQiu # Cluster Lifecycle
     - seans3 # CLI
     - serathius # Instrumentation
+    - SergeyKanzhelev # Node
     - shatoboar # 1.27 Enhancements Shadow
     - shu-mutou # UI
     - shyamjvs # Scalability

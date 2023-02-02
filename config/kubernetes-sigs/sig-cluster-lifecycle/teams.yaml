@@ -334,6 +334,18 @@ teams:
     - miouge1
     - oomichi
     privacy: closed
+  logical-cluster-admins:
+    description: Admin access to the logical-cluster repo
+    members:
+    - fabriziopandini
+    - vincepri
+    privacy: closed
+  logical-cluster-maintainers:
+    description: Write access to the logical-cluster repo
+    members:
+    - fabriziopandini
+    - vincepri
+    privacy: closed
   minikube-gui-admins:
     description: Admin access to the minikube-gui repo
     members:

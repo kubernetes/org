@@ -317,7 +317,11 @@ teams:
             description: Members of the CI Signal team for the current release
               cycle.
             members:
+            - drewhagen # 1.27 CI Signal Shadow
+            - gracenng # 1.27 CI Signal Shadow
             - lauralorenz # 1.27 CI Signal Lead
+            - mehabhalodiya # 1.27 CI Signal Shadow
+            - Vyom-Yadav # 1.27 CI Signal Shadow
             privacy: closed
           release-team-docs:
             description: Members of the Docs team for the current release cycle.

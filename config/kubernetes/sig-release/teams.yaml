@@ -365,7 +365,11 @@ teams:
             description: Members of the Release Notes team for the current release
               cycle.
             members:
+            - AnaMMedina21 # 1.27 Release Notes Shadow
             - harshanarayana # 1.27 Release Notes Lead
+            - rjsadow # 1.27 Release Notes Shadow
+            - sanchita-07 # 1.27 Release Notes Shadow
+            - yrs147 # 1.27 Release Notes Shadow
             privacy: closed
           release-team-leads:
             description: Release Team Leads for the current Kubernetes release

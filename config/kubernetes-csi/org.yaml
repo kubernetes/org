@@ -122,6 +122,7 @@ teams:
     - lpabon
     - msau42
     - saad-ali
+    - sunnylovestiramisu
     - xing-yang
     privacy: closed
   csi-driver-host-path-admins:
@@ -142,6 +143,7 @@ teams:
     - msau42
     - pohly
     - saad-ali
+    - sunnylovestiramisu
     - verult
     - xing-yang
     privacy: closed
@@ -163,6 +165,7 @@ teams:
     - jsafrane
     - msau42
     - saad-ali
+    - sunnylovestiramisu
     - xing-yang
     privacy: closed
   csi-driver-nfs-admins:
@@ -181,6 +184,7 @@ teams:
     - jsafrane
     - msau42
     - saad-ali
+    - sunnylovestiramisu
     - xing-yang
     privacy: closed
   csi-driver-nvmf-admins:
@@ -199,6 +203,7 @@ teams:
     - MeinhardZhou
     - msau42
     - saad-ali
+    - sunnylovestiramisu
     - xing-yang
     privacy: closed
   csi-driver-smb-admins:
@@ -216,6 +221,7 @@ teams:
     - andyzhangx
     - jingxu97
     - msau42
+    - sunnylovestiramisu
     privacy: closed
   csi-lib-iscsi-admins:
     description: Admin access to csi-lib-iscsi repo
@@ -235,6 +241,7 @@ teams:
     - jsafrane
     - msau42
     - saad-ali
+    - sunnylovestiramisu
     - xing-yang
     privacy: closed
   csi-lib-utils-admins:
@@ -255,6 +262,7 @@ teams:
     - msau42
     - pohly
     - saad-ali
+    - sunnylovestiramisu
     - xing-yang
     privacy: closed
   csi-misc:
@@ -295,6 +303,7 @@ teams:
     - msau42
     - PatrickLang
     - saad-ali
+    - sunnylovestiramisu
     - xing-yang
     privacy: closed
   csi-release-tools-admins:
@@ -312,6 +321,7 @@ teams:
     - jsafrane
     - msau42
     - saad-ali
+    - sunnylovestiramisu
     - xing-yang
     privacy: closed
   csi-test-admins:
@@ -334,6 +344,7 @@ teams:
     - pohly
     - saad-ali
     - sbezverk
+    - sunnylovestiramisu
     - xing-yang
     privacy: closed
   developers:
@@ -384,6 +395,7 @@ teams:
     - jsafrane
     - msau42
     - saad-ali
+    - sunnylovestiramisu
     - xing-yang
     privacy: closed
   external-attacher-admins:
@@ -402,6 +414,7 @@ teams:
     - jsafrane
     - msau42
     - saad-ali
+    - sunnylovestiramisu
     - xing-yang
     privacy: closed
   external-health-monitor-admins:
@@ -420,6 +433,7 @@ teams:
     - msau42
     - NickrenREN
     - saad-ali
+    - sunnylovestiramisu
     - xing-yang
     privacy: closed
   external-provisioner-admins:
@@ -442,6 +456,7 @@ teams:
     - msau42
     - pohly
     - saad-ali
+    - sunnylovestiramisu
     - xing-yang
     privacy: closed
   external-resizer-admins:
@@ -461,6 +476,7 @@ teams:
     - jsafrane
     - msau42
     - saad-ali
+    - sunnylovestiramisu
     - xing-yang
     privacy: closed
   external-snapshotter-admins:
@@ -480,6 +496,7 @@ teams:
     - jsafrane
     - msau42
     - saad-ali
+    - sunnylovestiramisu
     - xing-yang
     privacy: closed
   kubernetes-csi-github-io-admins:
@@ -516,6 +533,7 @@ teams:
     - msau42
     - saad-ali
     - sbezverk
+    - sunnylovestiramisu
     - verult
     - xing-yang
     privacy: closed
@@ -538,6 +556,7 @@ teams:
     - mauriciopoppe
     - msau42
     - saad-ali
+    - sunnylovestiramisu
     - verult
     - xing-yang
     privacy: closed

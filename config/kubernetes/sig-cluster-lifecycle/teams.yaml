@@ -40,7 +40,6 @@ teams:
     members:
     - afbjorklund
     - medyagh
-    - prezha
     - spowelljr
     privacy: closed
   minikube-maintainers:

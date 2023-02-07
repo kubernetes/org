@@ -40,6 +40,7 @@ teams:
     members:
     - afbjorklund
     - medyagh
+    - prezha
     - spowelljr
     privacy: closed
   minikube-maintainers:
@@ -47,6 +48,7 @@ teams:
     members:
     - afbjorklund
     - medyagh
+    - prezha
     - spowelljr
     privacy: closed
   sig-cluster-lifecycle:

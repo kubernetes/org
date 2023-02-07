@@ -38,20 +38,16 @@ teams:
   minikube-admins:
     description: Admin access to the minikube repo
     members:
-    - balopat
-    - dlorenc
-    - tstromberg
-    - vishh
+    - afbjorklund
+    - medyagh
+    - spowelljr
     privacy: closed
   minikube-maintainers:
     description: Write access to the minikube repo
     members:
     - afbjorklund
-    - balopat
-    - ethernetdan
-    - jimmidyson
-    - sharifelgamal
-    - tstromberg
+    - medyagh
+    - spowelljr
     privacy: closed
   sig-cluster-lifecycle:
     description: For discussing SIG Cluster Lifecycle topics

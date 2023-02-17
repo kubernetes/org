@@ -28,6 +28,7 @@ teams:
     - annajung
     - bradtopol
     - divya-mohan0209
+    - jimangel
     - kbhawkey
     - krol3
     - natalisucks
@@ -42,6 +43,7 @@ teams:
     members:
     - bradtopol
     - divya-mohan0209
+    - jimangel
     - kbhawkey
     - mehabhalodiya
     - natalisucks
@@ -72,6 +74,7 @@ teams:
     members:
     - awkif
     - feloy
+    - oussemos
     - perriea
     - rekcah78
     - remyleone
@@ -81,6 +84,7 @@ teams:
     members:
     - awkif
     - feloy
+    - oussemos
     - perriea
     - rekcah78
     - remyleone
@@ -123,6 +127,7 @@ teams:
     - fabriziopandini
     - Fale
     - mattiaperi
+    - micheleberardi
     privacy: closed
   sig-docs-it-reviews:
     description: PR reviews for Italian content
@@ -130,6 +135,7 @@ teams:
     - fabriziopandini
     - Fale
     - mattiaperi
+    - micheleberardi
     privacy: closed
   sig-docs-ja-owners:
     description: Approvers for Japanese content
@@ -173,6 +179,7 @@ teams:
     description: Chairs and tech leads for SIG Docs
     members:
     - divya-mohan0209
+    - jimangel
     - kbhawkey
     - natalisucks
     - onlydole
@@ -226,6 +233,7 @@ teams:
     - edsoncelio
     - femrtnz
     - jcjesus
+    - jhonmike
     - rikatz
     - stormqueen1990
     - yagonobre
@@ -237,6 +245,7 @@ teams:
     - edsoncelio
     - femrtnz
     - jcjesus
+    - jhonmike
     - rikatz
     - stormqueen1990
     - yagonobre
@@ -320,9 +329,11 @@ teams:
     - ianychoi # L10n: Korean
     - inductor # L10n: Japanese
     - jcjesus # L10n: Portuguese
+    - jhonmike # L10n: Portuguese
     - jimangel # L10n: English
     - krol3 # 1.26 RT Docs lead
     - mfilocha # L10n: Polish
+    - mittalyashu # L10n: Hindi
     - nasa9084 # L10n: Japanese
     - natalisucks # L10n: English
     - nate-double-u # L10n: English
@@ -365,6 +376,7 @@ teams:
     - natalisucks
     - nate-double-u
     - onlydole
+    - oussemos
     - perriea
     - potapy4
     - raelga

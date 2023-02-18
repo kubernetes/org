@@ -4,7 +4,7 @@ teams:
     maintainers:
     - mrbobbytables
     members:
-    - nate-double-u 
+    - nate-double-u
     - onlydole
     - sftim
     privacy: closed
@@ -27,14 +27,14 @@ teams:
     members:
     - annajung
     - bradtopol
-    - celestehorgan
     - divya-mohan0209
     - jimangel
     - kbhawkey
+    - krol3
     - natalisucks
+    - nate-double-u
     - onlydole
     - reylejano
-    - savitharaghunathan
     - sftim
     - tengqm
     privacy: closed
@@ -42,16 +42,14 @@ teams:
     description: PR reviews for English content
     members:
     - bradtopol
-    - celestehorgan
-    - daminisatya
     - divya-mohan0209
     - jimangel
     - kbhawkey
     - mehabhalodiya
     - mengjiao-liu
     - natalisucks
+    - nate-double-u
     - onlydole
-    - rajeshdeshpande02
     - reylejano
     - sftim
     - shannonxtreme
@@ -75,30 +73,22 @@ teams:
   sig-docs-fr-owners:
     description: Approvers for French content
     members:
-    - abuisine
     - awkif
-    - jygastaud
+    - feloy
     - oussemos
     - perriea
-    - rbenzair
     - rekcah78
     - remyleone
-    - smana
-    - yastij
     privacy: closed
   sig-docs-fr-reviews:
     description: PR reviews for French content
     members:
-    - abuisine
     - awkif
-    - jygastaud
+    - feloy
     - oussemos
     - perriea
-    - rbenzair
     - rekcah78
     - remyleone
-    - smana
-    - yastij
     privacy: closed
   sig-docs-hi-owners:
     description: Approvers for Hindi content
@@ -108,27 +98,29 @@ teams:
     privacy: closed
   sig-docs-hi-reviews:
     description: PR reviews for Hindi content
-    members: 
+    members:
     - anubha-v-ardhan
     - Babapool
     - bishal7679
     - divya-mohan0209
-    - Garima-Negi 
+    - Garima-Negi
     - verma-kunal
     privacy: closed
   sig-docs-id-owners:
     description: Approvers for Indonesian content
     members:
+    - ariscahyadi
+    - danninov
     - girikuncoro
+    - habibrosyad
     privacy: closed
   sig-docs-id-reviews:
     description: PR reviews for Indonesian content
     members:
+    - ariscahyadi
     - danninov
     - girikuncoro
     - habibrosyad
-    - phanama
-    - wahyuoi
     privacy: closed
   sig-docs-it-owners:
     description: Approvers for Italian content
@@ -159,7 +151,6 @@ teams:
     - bells17
     - inductor
     - kakts
-    - makocchi-git
     - nasa9084
     - ptux
     - t-inu
@@ -167,7 +158,6 @@ teams:
   sig-docs-ko-owners:
     description: Approvers for Korean content
     members:
-    - claudiajkang
     - gochist
     - ianychoi
     - jihoon-seo
@@ -178,12 +168,10 @@ teams:
   sig-docs-ko-reviews:
     description: Reviews for Korean docs PRs
     members:
-    - ClaudiaJKang
     - gochist
     - ianychoi
     - jihoon-seo
     - jmyung
-    - pjhwa
     - seokho-son
     - yoonian
     - ysyukr
@@ -209,25 +197,20 @@ teams:
   sig-docs-pl-reviews:
     description: Reviews for Polish docs PRs
     members:
+    - kpucynski
     - mfilocha
     - nvtkaszpir
     privacy: closed
   sig-docs-ru-owners:
     description: Approvers for Russian content
     members:
-    - aisonaku
-    - dianaabv
-    - msheldyakov
-    - potapy4
+    - Arhell
     - shurup
     privacy: closed
   sig-docs-ru-reviews:
     description: Reviews for Russian docs PRs
     members:
-    - aisonaku
-    - dianaabv
-    - msheldyakov
-    - potapy4
+    - Arhell
     - shurup
     privacy: closed
   sig-docs-pr-reviews:
@@ -248,22 +231,24 @@ teams:
     description: Approvers for Portuguese content
     members:
     - devlware
+    - edsoncelio
     - femrtnz
-    - jailton
     - jcjesus
     - jhonmike
     - rikatz
+    - stormqueen1990
     - yagonobre
     privacy: closed
   sig-docs-pt-reviews:
     description: PR reviews for Portuguese content
     members:
     - devlware
+    - edsoncelio
     - femrtnz
-    - jailton
     - jcjesus
     - jhonmike
     - rikatz
+    - stormqueen1990
     - yagonobre
     privacy: closed
   sig-docs-zh-owners:
@@ -299,29 +284,26 @@ teams:
     description: Admins for Vietnamese content
     members:
     - huynguyennovem
-    - ngtuna
     - truongnh1992
     privacy: closed
   sig-docs-vi-reviews:
     description: PR reviews for Vietnamese content
     members:
     - huynguyennovem
-    - ngtuna
     - truongnh1992
     privacy: closed
   sig-docs-uk-owners:
     description: Approvers for Ukrainian content
     members:
-    - anastyakulyk
-    - butuzov
+    - Arhell
     - MaxymVlasov
     privacy: closed
   sig-docs-uk-reviews:
     description: PR reviews for Ukrainian content
+    maintainers:
+    - idvoretskyi
     members:
-    - anastyakulyk
     - Arhell
-    - butuzov
     - MaxymVlasov
     - Potapy4
     privacy: closed
@@ -339,13 +321,8 @@ teams:
     description: Write access to the website repo
     members:
     - a-mccarthy # Localization subproject owner
-    - aisonaku # L10n: Russian
-    - Bradamant3 # L10n: English
     - bradtopol # L10n: English
-    - ClaudiaJKang # L10n: Korean
-    - cstoku # L10n: Japanese
     - devlware # L10: Portuguese
-    - dianaabv # L10n: Russian
     - divya-mohan0209 # L10n: English
     - femrtnz # L10n: Portuguese
     - girikuncoro # L10n: Indonesian
@@ -353,18 +330,15 @@ teams:
     - huynguyennovem # L10n: Vietnamese
     - ianychoi # L10n: Korean
     - inductor # L10n: Japanese
-    - jailton # L10n: Portuguese
     - jcjesus # L10n: Portuguese
     - jhonmike # L10n: Portuguese
     - jimangel # L10n: English
     - krol3 # 1.26 RT Docs lead
     - mfilocha # L10n: Polish
     - mittalyashu # L10n: Hindi
-    - msheldyakov # L10n: Russian
     - nasa9084 # L10n: Japanese
     - natalisucks # L10n: English
     - nate-double-u # L10n: English
-    - ngtuna # L10n: Vietnamese
     - nvtkaszpir # L10n: Polish
     - onlydole # L10n: English
     - potapy4 # L10n: Russian
@@ -386,16 +360,11 @@ teams:
     description: Contributors who can use `/milestone` in the website repo
     members:
     - a-mccarthy
-    - abuisine
-    - aisonaku
     - annajung
     - awkif
     - bene2k1
     - bradtopol
     - celestehorgan
-    - claudiajkang
-    - cstoku
-    - dianaabv
     - divya-mohan0209
     - femrtnz
     - girikuncoro
@@ -404,22 +373,16 @@ teams:
     - inductor
     - jcjesus
     - jimangel
-    - juandiegopalomino
-    - jygastaud
     - krol3 # 1.26 RT Docs lead
-    - lledru
-    - msheldyakov
     - nasa9084
     - natalisucks
     - nate-double-u
-    - ngtuna
     - onlydole
     - oussemos
     - perriea
     - potapy4
     - raelga
     - Rajakavitha1
-    - rbenzair
     - rekcah78
     - remyleone
     - reylejano
@@ -429,15 +392,11 @@ teams:
     - seokho-son
     - sftim
     - shurup
-    - smana
     - tanjunchen
     - tengqm
     - tfogo
     - truongnh1992
-    - vineethreddy02
     - xichengliudui
-    - yastij
     - ysyukr
-    - zhangxiaoyu-zidif
     - zparnold
     privacy: closed

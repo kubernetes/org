@@ -81,6 +81,7 @@ teams:
     privacy: closed
   sig-cluster-lifecycle-leads:
     members:
+    - CecileRobertMichon
     - fabriziopandini
     - justinsb
     - neolit123

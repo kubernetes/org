@@ -53,6 +53,7 @@ teams:
     - fpetkovski
     - logicalhan
     - mrueg
+    - rexagod
     privacy: closed
   kube-state-metrics-maintainers:
     description: Write access to the kube-state-metrics repo
@@ -60,6 +61,7 @@ teams:
     - dgrisonnet
     - fpetkovski
     - mrueg
+    - rexagod
     privacy: closed
   klog-admins:
     description: Admin access to the klog repo

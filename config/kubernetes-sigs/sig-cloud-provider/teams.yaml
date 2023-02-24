@@ -20,14 +20,12 @@ teams:
    description: Admin access to alibaba-cloud-csi-driver repo
    members:
    - fredkan
-   - mowangdk
    - JiaoDean
    privacy: closed
   alibaba-cloud-csi-driver-maintainers:
    description: Write access to alibaba-cloud-csi-driver repo
    members:
    - fredkan
-   - mowangdk
    - JiaoDean
    privacy: closed
   aws-file-cache-csi-driver-admins:

@@ -36,7 +36,6 @@ teams:
         - aoxn
         - cheyang
         - gujingit
-        - xlgao-zju
         privacy: closed
       sig-cloud-provider-aws-admins:
         description: "Admin access to k8s.io/cloud-provider-aws"

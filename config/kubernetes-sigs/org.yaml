@@ -1071,6 +1071,7 @@ teams:
     - saad-ali
     - saikat-royc
     - sunnylovestiramisu
+    - tyuchn
     privacy: closed
   gcp-filestore-csi-driver-admins:
     description: Admin access to the gcp-filestore-csi-driver repo
@@ -1090,6 +1091,7 @@ teams:
     - saad-ali
     - saikat-royc
     - sunnylovestiramisu
+    - tyuchn
     privacy: closed
   kubernetes/sig-apps:
     description: Parent team for all SIG Apps subteams (approvers, reviewers, admins)

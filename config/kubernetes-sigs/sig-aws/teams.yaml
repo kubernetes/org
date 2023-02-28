@@ -58,6 +58,20 @@ teams:
     - leakingtapan
     - wongma7
     privacy: closed
+  aws-file-cache-csi-driver-admins:
+    description: Admin access to the aws-file-cache-csi-driver repo
+    members:
+      - jacobwolfaws
+      - khoang98
+      - nckturner
+    privacy: closed
+  aws-file-cache-csi-driver-maintainers:
+    description: Write access to the aws-file-cache-csi-driver repo
+    members:
+      - jacobwolfaws
+      - khoang98
+      - nckturner
+    privacy: closed
   aws-efs-csi-driver-admins:
     description: admin access to aws-efs-csi-driver
     members:

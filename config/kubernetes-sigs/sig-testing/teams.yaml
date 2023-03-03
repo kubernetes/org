@@ -13,6 +13,18 @@ teams:
     - ixdy
     - stevekuznetsov
     privacy: closed
+  cloud-provider-kind-admins:
+    description: Admin access to the cloud-provider-kind repo
+    members:
+    - aojea
+    - BenTheElder
+    privacy: closed
+  cloud-provider-kind-maintainers:
+    description: Write access to the cloud-provider-kind repo
+    members:
+    - aojea
+    - BenTheElder
+    privacy: closed
   e2e-framework-admins:
     description: admin access to e2e-framework
     members:

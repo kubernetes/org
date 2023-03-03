@@ -1944,6 +1944,7 @@ teams:
   kompose-admins:
     description: Admin access to the kompose repo
     members:
+    - AhmedGrati
     - cdrage
     - hangyan
     - janetkuo
@@ -1954,6 +1955,7 @@ teams:
   kompose-maintainers:
     description: Write access to the kompose repo
     members:
+    - AhmedGrati
     - cdrage
     - hangyan
     - janetkuo

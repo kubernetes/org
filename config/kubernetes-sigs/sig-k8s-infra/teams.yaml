@@ -1,4 +1,22 @@
 teams:
+  community-images-admins:
+    description: admins access to community-images
+    maintainers:
+    - ameukam
+    members:
+    - dims
+    - spiffxp
+    - thockin
+    privacy: closed
+  community-images-writers:
+    description: write access to community-images
+    maintainers:
+    - ameukam
+    members:
+    - dims
+    - spiffxp
+    - thockin
+    privacy: closed
   porche-admins:
     description: admins access to porche
     maintainers:

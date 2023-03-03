@@ -997,6 +997,7 @@ members:
 - zshihang
 - zulandar
 - zvonkok
+- zwpaper
 members_can_create_repositories: false
 name: Kubernetes SIGs
 teams:

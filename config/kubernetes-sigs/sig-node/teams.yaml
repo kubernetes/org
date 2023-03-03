@@ -27,6 +27,7 @@ teams:
   security-profiles-operator-admins:
     description: Admin access to security-profiles-operator repo
     members:
+    - ccojocar
     - JAORMX
     - jhrozek
     - pjbgf
@@ -37,6 +38,7 @@ teams:
   security-profiles-operator-maintainers:
     description: Write access to security-profiles-operator repo
     members:
+    - ccojocar
     - JAORMX
     - jhrozek
     - pjbgf

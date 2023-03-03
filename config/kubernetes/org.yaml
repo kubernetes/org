@@ -1941,28 +1941,6 @@ teams:
     - davidopp
     - kad
     privacy: closed
-  kompose-admins:
-    description: Admin access to the kompose repo
-    members:
-    - AhmedGrati
-    - cdrage
-    - hangyan
-    - janetkuo
-    - kadel
-    - ngtuna
-    - sebgoa
-    privacy: closed
-  kompose-maintainers:
-    description: Write access to the kompose repo
-    members:
-    - AhmedGrati
-    - cdrage
-    - hangyan
-    - janetkuo
-    - kadel
-    - ngtuna
-    - sebgoa
-    privacy: closed
   kube-openapi-admins:
     description: Admin access to the kube-openapi repo
     members:

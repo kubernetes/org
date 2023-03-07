@@ -47,6 +47,7 @@ def get_args():
             'third_party',
             'vendor',
             'verify/boilerplate/test',
+            'cmd/k-license/testdata',
         ],
         action='append',
         help='Customize paths to avoid',

@@ -49,17 +49,16 @@ teams:
   kernel-module-management-admins:
     description: Admin access to kernel-module-management repo
     members:
-    - adrianchiris
-    - zvonkok
+    - qbarrand
+    - yevgeny-shnaidman
     privacy: closed
     previously:
     - special-resource-operator-admins
   kernel-module-management-maintainers:
     description: Write access to kernel-module-management repo
     members:
-    - adrianchiris
     - qbarrand
-    - zvonkok
+    - yevgeny-shnaidman
     privacy: closed
     previously:
     - special-resource-operator-maintainers

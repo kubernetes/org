@@ -336,7 +336,11 @@ teams:
           release-team-docs:
             description: Members of the Docs team for the current release cycle.
             members:
+            - katmutua # 1.27 Docs Shadow
+            - LukeMwila # 1.27 Docs Shadow
             - mickeyboxell # 1.27 Docs Lead
+            - Rishit-dagli # 1.27 Docs Shadow
+            - taniaduggal # 1.27 Docs Shadow
             privacy: closed
           release-team-bug-triage:
             description: Members of the Bug Triage team for the current release cycle.

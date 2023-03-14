@@ -39,7 +39,7 @@ teams:
     - caseydavenport # Network
     - cheftako # Cloud Provider
     - chrigl # OpenStack
-    - cici37 # Release Manager Associate
+    - cici37 # Release Manager
     - claudiubelu # Windows
     - cpanato # Release Manager
     - craiglpeters # Azure
@@ -251,7 +251,7 @@ teams:
         - ameukam # Release Manager Associate
         - palnabarun # Release Manager
         members:
-        - cici37 # Release Manager Associate
+        - cici37 # Release Manager
         - cpanato # subproject owner / Release Manager
         - gracenng # Release Manager Associate
         - jeremyrickard # subproject owner / Release Manager
@@ -274,6 +274,7 @@ teams:
             maintainers:
             - palnabarun
             members:
+            - cici37
             - cpanato
             - jeremyrickard
             - justaugustus
@@ -291,7 +292,7 @@ teams:
         - palnabarun # subproject owner (1.21 RT Lead)
         members:
         - Atharva-Shinde # 1.27 Enhancements Shadow
-        - cici37 # subproject owner (1.25 RT Lead)
+        - cici37 # Release Manager
         - cpanato # subproject owner / Technical Lead
         - csantanapr # 1.27 Bug Triage Shadow
         - fsmunoz # 1.27 Enhancements Shadow

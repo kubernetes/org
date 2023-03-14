@@ -241,7 +241,7 @@ teams:
         - ameukam # Release Manager Associate
         - palnabarun # Release Manager
         members:
-        - cici37 # subproject owner / Release Manager
+        - cici37 # Release Manager
         - cpanato # subproject owner / Release Manager
         - jeremyrickard # subproject owner / Release Manager
         - jimangel # Release Manager Associate
@@ -280,7 +280,7 @@ teams:
         - palnabarun # subproject owner (1.21 RT Lead)
         members:
         - Atharva-Shinde # 1.27 Enhancements Shadow
-        - cici37 # subproject owner / Release Manager
+        - cici37 # Release Manager
         - cpanato # subproject owner / Technical Lead
         - fsmunoz # 1.27 Enhancements Shadow
         - harshanarayana # 1.27 Release Notes Lead

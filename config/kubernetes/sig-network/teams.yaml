@@ -70,7 +70,7 @@ teams:
   sig-network-leads:
     description: ""
     members:
-    - caseydavenport
     - dcbw
+    - shaneutt
     - thockin
     privacy: closed

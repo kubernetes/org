@@ -8,6 +8,19 @@ teams:
     - onlydole
     - sftim
     privacy: closed
+  sig-docs-bg-owners:
+    description: Approvers for Bulgarian content
+    members:
+    - OrlinVasilev
+    - iliyan-s-petkov
+    privacy: closed
+  sig-docs-bg-reviews:
+    description: PR reviews for Bulgarian content
+    members:
+    - OrlinVasilev
+    - iliyan-s-petkov
+    - atsonkov
+    privacy: closed
   sig-docs-de-owners:
     description: Approvers for German content
     members:
@@ -342,6 +355,7 @@ teams:
     - nate-double-u # L10n: English
     - nvtkaszpir # L10n: Polish
     - onlydole # L10n: English
+    - OrlinVasilev # L10n: Bulgarian
     - potapy4 # L10n: Russian
     - raelga # L10n: Spanish
     - remyleone # L10n: French
@@ -379,6 +393,7 @@ teams:
     - natalisucks
     - nate-double-u
     - onlydole
+    - OrlinVasilev
     - oussemos
     - perriea
     - potapy4

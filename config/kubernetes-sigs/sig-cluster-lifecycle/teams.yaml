@@ -96,14 +96,18 @@ teams:
   cluster-api-provider-azure-pms:
     description: ""
     members:
-    - alexeldeib
     - CecileRobertMichon
     - devigned
+    - dtzar
     - jackfrancis
     - Jont828
     - jsturtevant
+    - marosset
     - mboersma
-    - shysank
+    - nawazkh
+    - nojnhuh
+    - sonasingh46
+    - willie-yao
     privacy: closed
   cluster-api-provider-cloudstack-admins:
     description: ""

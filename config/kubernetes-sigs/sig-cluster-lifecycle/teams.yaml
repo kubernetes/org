@@ -104,6 +104,7 @@ teams:
     - jsturtevant
     - mboersma
     - shysank
+    - nojnhuh
     privacy: closed
   cluster-api-provider-cloudstack-admins:
     description: ""

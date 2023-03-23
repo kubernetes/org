@@ -44,6 +44,18 @@ teams:
       - khoang98
       - nckturner
     privacy: closed
+  aws-fsx-openzfs-csi-driver-admins:
+    description: Admin access to the aws-fsx-openzfs-csi-driver repo
+    members:
+      - jacobwolfaws
+      - nckturner
+    privacy: closed
+  aws-fsx-openzfs-csi-driver-maintainers:
+    description: Write access to the aws-fsx-openzfs-csi-driver repo
+    members:
+      - jacobwolfaws
+      - nckturner
+    privacy: closed
   aws-iam-authenticator-admins:
    description: Admin access to the aws-iam-authenticator repo
    members:

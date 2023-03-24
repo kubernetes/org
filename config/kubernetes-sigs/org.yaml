@@ -569,14 +569,20 @@ teams:
     members:
     - childsb
     - jsafrane
+    - msau42
+    - saad-ali
     - wongma7
+    - xing-yang
     privacy: closed
   sig-storage-lib-external-provisioner-maintainers:
     description: Write access to the sig-storage-lib-external-provisioner repo
     members:
     - childsb
     - jsafrane
+    - msau42
+    - saad-ali
     - wongma7
+    - xing-yang
     privacy: closed
   sig-storage-local-static-provisioner-admins:
     description: Admin access to the sig-storage-local-static-provisioner repo
@@ -585,6 +591,7 @@ teams:
     - jsafrane
     - msau42
     - saad-ali
+    - xing-yang
     privacy: closed
   sig-storage-local-static-provisioner-maintainers:
     description: Write access to the sig-storage-local-static-provisioner repo
@@ -593,6 +600,7 @@ teams:
     - jsafrane
     - msau42
     - saad-ali
+    - xing-yang
     privacy: closed
   windows-testing-admins:
     description: Admin access to the windows-testing repo

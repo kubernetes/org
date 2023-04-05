@@ -21,10 +21,10 @@ teams:
     - michelle192837
     - mkumatag
     - pigmej
-    - xmcqueen
     - stevekuznetsov
     - timothysc
     - xiangpengzhao
+    - xmcqueen
     privacy: closed
     teams:
       sig-testing-leads:
@@ -34,8 +34,8 @@ teams:
         - BenTheElder
         - michelle192837
         - pohly
-        - xmcqueen
         - stevekuznetsov
+        - xmcqueen
         privacy: closed
       sig-testing-pr-reviews:
         description: sig-testing PR reviews
@@ -52,8 +52,8 @@ teams:
         - krzyzacy
         - michelle192837
         - mkumatag
-        - xmcqueen
         - stevekuznetsov
+        - xmcqueen
         privacy: closed
   test-infra-admins:
     description: admin access to test-infra
@@ -67,8 +67,8 @@ teams:
     - listx
     - michelle192837
     - mpherman2
-    - xmcqueen
     - stevekuznetsov
+    - xmcqueen
     privacy: closed
   test-infra-maintainers:
     description: write access to test-infra
@@ -80,8 +80,8 @@ teams:
     - ixdy
     - krzyzacy
     - michelle192837
-    - xmcqueen
     - stevekuznetsov
+    - xmcqueen
     privacy: closed
   sig-testing-dummy-project-team:
     description: dummy team to test prow project plugin; no acl

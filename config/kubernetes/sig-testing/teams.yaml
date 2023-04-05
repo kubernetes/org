@@ -21,7 +21,7 @@ teams:
     - michelle192837
     - mkumatag
     - pigmej
-    - spiffxp
+    - xmcqueen
     - stevekuznetsov
     - timothysc
     - xiangpengzhao
@@ -34,7 +34,7 @@ teams:
         - BenTheElder
         - michelle192837
         - pohly
-        - spiffxp
+        - xmcqueen
         - stevekuznetsov
         privacy: closed
       sig-testing-pr-reviews:
@@ -52,7 +52,7 @@ teams:
         - krzyzacy
         - michelle192837
         - mkumatag
-        - spiffxp
+        - xmcqueen
         - stevekuznetsov
         privacy: closed
   test-infra-admins:
@@ -67,7 +67,7 @@ teams:
     - listx
     - michelle192837
     - mpherman2
-    - spiffxp
+    - xmcqueen
     - stevekuznetsov
     privacy: closed
   test-infra-maintainers:
@@ -80,7 +80,7 @@ teams:
     - ixdy
     - krzyzacy
     - michelle192837
-    - spiffxp
+    - xmcqueen
     - stevekuznetsov
     privacy: closed
   sig-testing-dummy-project-team:

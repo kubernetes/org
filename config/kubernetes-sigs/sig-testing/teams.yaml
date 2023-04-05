@@ -31,7 +31,7 @@ teams:
     - alejandrox1
     - andrewsykim
     - BenTheElder
-    - spiffxp
+    - xmcqueen
     - vladimirvivien
     privacy: closed
   e2e-framework-maintainers:
@@ -40,7 +40,7 @@ teams:
     - alejandrox1
     - andrewsykim
     - BenTheElder
-    - spiffxp
+    - xmcqueen
     privacy: closed
   kind-admins:
     description: Admin access to the kind repo
@@ -62,13 +62,13 @@ teams:
     description: Admin access to kubetest2
     members:
     - MushuEE
-    - spiffxp
+    - xmcqueen
     privacy: closed
   kubetest2-maintainers:
     description: Write access to kubetest2
     members:
     - MushuEE
-    - spiffxp
+    - xmcqueen
     privacy: closed
   prow-admins:
     description: Admin access to prow

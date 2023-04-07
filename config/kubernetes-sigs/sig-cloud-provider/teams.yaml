@@ -19,7 +19,6 @@ teams:
   alibaba-cloud-csi-driver-admins:
    description: Admin access to alibaba-cloud-csi-driver repo
    members:
-   - fredkan
    - JiaoDean
    - mowangdk
    - xianlubird
@@ -27,7 +26,6 @@ teams:
   alibaba-cloud-csi-driver-maintainers:
    description: Write access to alibaba-cloud-csi-driver repo
    members:
-   - fredkan
    - JiaoDean
    - mowangdk
    - xianlubird

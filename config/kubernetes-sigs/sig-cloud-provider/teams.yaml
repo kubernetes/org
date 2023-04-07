@@ -134,6 +134,7 @@ teams:
   provider-aws-test-infra-admins:
    description: Admin access to the provider-aws-test-infra repo
    members:
+   - dims
    - nckturner
    - wongma7
    privacy: closed

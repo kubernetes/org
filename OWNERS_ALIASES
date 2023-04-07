@@ -28,6 +28,7 @@ aliases:
   sig-cloud-provider-leads:
     - andrewsykim
     - cheftako
+    - nckturner
   sig-cluster-lifecycle-leads:
     - CecileRobertMichon
     - fabriziopandini
@@ -41,6 +42,7 @@ aliases:
     - nikhita
   sig-docs-leads:
     - divya-mohan0209
+    - jimangel
     - kbhawkey
     - natalisucks
     - onlydole
@@ -61,23 +63,23 @@ aliases:
     - jeremyot
     - pmorie
   sig-network-leads:
-    - MikeZappa87
+    - mikezappa87
     - shaneutt
     - thockin
   sig-node-leads:
+    - SergeyKanzhelev
     - dchen1107
     - derekwaynecarr
     - mrunalp
-    - SergeyKanzhelev
   sig-release-leads:
+    - Verolop
     - cpanato
     - jeremyrickard
     - justaugustus
     - puerco
     - saschagrunert
-    - Verolop
   sig-scalability-leads:
-    - mm4tt
+    - marseel
     - shyamjvs
     - wojtek-t
   sig-scheduling-leads:
@@ -99,8 +101,8 @@ aliases:
     - cjwagner
     - michelle192837
     - pohly
-    - spiffxp
     - stevekuznetsov
+    - xmcqueen
   sig-ui-leads:
     - floreks
     - maciaszczykm
@@ -118,6 +120,12 @@ aliases:
   wg-api-expression-leads:
     - apelisse
     - kwiesmueller
+  wg-batch-leads:
+    - Huang-Wei
+    - ahg-g
+    - endocrimes
+    - soltysh
+    - swatisehgal
   wg-data-protection-leads:
     - xing-yang
     - yuxiangqian
@@ -138,10 +146,6 @@ aliases:
   wg-structured-logging-leads:
     - pohly
     - serathius
-  ug-big-data-leads:
-    - erikerlandson
-    - foxish
-    - liyinan926
   ug-vmware-users-leads:
     - brysonshepherd
     - cantbewong
@@ -153,14 +157,15 @@ aliases:
     - hlipsig
     - jeremyrickard
     - salaxander
-  committee-product-security:
+  committee-security-response:
+    - SaranBalaji90
     - cjcullen
+    - enj
     - joelsmith
     - lukehinds
     - micahhausler
-    - swamymsft
+    - ritazh
     - tabbysable
-    - tallclair
   committee-steering:
     - BenTheElder
     - cblecker
@@ -175,7 +180,7 @@ aliases:
     - nckturner
     - wongma7
   provider-azure:
-    - andyzhangx
+    - craiglpeters
     - feiskyer
     - khenidak
   provider-gcp:
@@ -184,7 +189,6 @@ aliases:
     - spzala
   provider-openstack:
     - chrigl
-    - jichenjc
     - lingxiankong
     - ramineni
   provider-vmware:

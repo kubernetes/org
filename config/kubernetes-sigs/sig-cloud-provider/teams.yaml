@@ -21,6 +21,7 @@ teams:
    members:
    - fredkan
    - JiaoDean
+   - mowangdk
    - xianlubird
    privacy: closed
   alibaba-cloud-csi-driver-maintainers:
@@ -28,6 +29,7 @@ teams:
    members:
    - fredkan
    - JiaoDean
+   - mowangdk
    - xianlubird
    privacy: closed
   aws-file-cache-csi-driver-admins:

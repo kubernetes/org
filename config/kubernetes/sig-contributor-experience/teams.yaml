@@ -6,12 +6,11 @@ teams:
     - idvoretskyi
     - mrbobbytables
     - nikhita
+    - palnabarun
     members:
-    - alisondy
-    - calebamiles
-    - jdumars
-    - parispittman
-    - Phillels
+    - kaslin
+    - MadhavJivrajani
+    - Priyankasaggu11929
     privacy: closed
   community-maintainers:
     description: ""
@@ -20,8 +19,9 @@ teams:
     - mrbobbytables
     - nikhita
     members:
-    - alisondy
-    - parispittman
+    - kaslin
+    - MadhavJivrajani
+    - Priyankasaggu11929
     privacy: closed
   community-milestone-maintainers:
     description: Contributors who can use `/milestone` in the community repo. Defined by an entry in an OWNERS file for a contribex subproject.
@@ -30,9 +30,8 @@ teams:
     - idvoretskyi
     - mrbobbytables
     - nikhita
+    - palnabarun
     members:
-    - alisondy
-    - calebamiles
     - castrojo
     - dims
     - fejta
@@ -42,9 +41,12 @@ teams:
     - jdumars
     - jeefy
     - justaugustus
+    - kaslin
     - lukaszgryglicki
+    - MadhavJivrajani
     - parispittman
     - Phillels
+    - Priyankasaggu11929
     - spiffxp
     - tpepper
     privacy: closed
@@ -110,6 +112,7 @@ teams:
     - idvoretskyi
     - mrbobbytables
     - nikhita
+    - palnabarun
     members:
     - alisondy
     - castrojo
@@ -120,12 +123,15 @@ teams:
     - hongchaodeng
     - idealhack
     - jessfraz
+    - kaslin
     - lavalamp
+    - MadhavJivrajani
     - monopole
     - parispittman
     - philips
     - Phillels
     - pigmej
+    - Priyankasaggu11929
     - pwittrock
     - thockin
     - xiang90
@@ -151,8 +157,12 @@ teams:
         - cblecker
         - mrbobbytables
         - nikhita
+        - palnabarun
         members:
         - jberkus
+        - kaslin
+        - MadhavJivrajani
+        - Priyankasaggu11929
         privacy: closed
       sig-contributor-experience-pr-reviews:
         description: PR reviews for contributor-experience infrastructure, such as the
@@ -161,8 +171,12 @@ teams:
         - cblecker
         - idvoretskyi
         - nikhita
+        - palnabarun
         members:
         - idealhack
+        - kaslin
+        - MadhavJivrajani
+        - Priyankasaggu11929
         privacy: closed
   youtube-admins:
     description: Members who have admin access to the Kubernetes Community

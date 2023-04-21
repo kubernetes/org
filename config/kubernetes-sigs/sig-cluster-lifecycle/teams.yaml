@@ -12,7 +12,6 @@ teams:
   cluster-addons-maintainers:
     description: write access to cluster-addons
     members:
-    - dholbach
     - justinsb
     - stealthybox
     privacy: closed

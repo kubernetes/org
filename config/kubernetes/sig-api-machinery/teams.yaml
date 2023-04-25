@@ -1,4 +1,16 @@
 teams:
+  cel-admission-webhook-admins:
+    description: admin access to cel-admission-webhook
+    members:
+    - cici37
+    - jpbetz
+    privacy: closed
+  cel-admission-webhook-maintainers:
+    description: write access to cel-admission-webhook
+    members:
+    - cici37
+    - jpbetz
+    privacy: closed
   sig-api-machinery-api-reviews:
     description: ""
     members:

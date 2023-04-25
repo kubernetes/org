@@ -5,29 +5,6 @@ teams:
     - jeremyot
     - pmorie
     privacy: closed
-  kubefed-admins:
-    description: admin access for the kubefed repo
-    members:
-    - font
-    - hectorj2f
-    - irfanurrehman
-    - jimmidyson
-    - pmorie
-    - shashidharatd
-    privacy: closed
-    previously:
-    - federation-v2-admins
-  kubefed-maintainers:
-    description: write access to the kubefed repo
-    members:
-    - font
-    - hectorj2f
-    - irfanurrehman
-    - jimmidyson
-    - shashidharatd
-    privacy: closed
-    previously:
-    - federation-v2-maintainers
   federation-wg:
     description: Individuals who are part of sig-multicluster and working as federation
       workgroup.

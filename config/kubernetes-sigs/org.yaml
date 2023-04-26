@@ -1148,11 +1148,13 @@ teams:
   node-feature-discovery-admins:
     description: Admin access to the node-feature-discovery repo
     members:
+    - ArangoGutierrez
     - marquiz
     privacy: closed
   node-feature-discovery-maintainers:
     description: Write access to the node-feature-discovery repo
     members:
+    - ArangoGutierrez
     - marquiz
     privacy: closed
   sig-storage-lib-external-provisioner-admins:

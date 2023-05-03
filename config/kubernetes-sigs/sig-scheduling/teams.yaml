@@ -12,20 +12,24 @@ teams:
   descheduler-admins:
     description: Admin access to the descheduler repo
     members:
-    - aveshagarwal
     - damemi
-    - k82cn
-    - ravisantoshgudimetla
+    - ingvagabund
+    # Emeritus:
+    # - aveshagarwal
+    # - k82cn
+    # - ravisantoshgudimetla
     privacy: closed
   descheduler-maintainers:
     description: Write access to the descheduler repo
     members:
-    - aveshagarwal
+    - a7i
     - damemi
     - ingvagabund
-    - k82cn
-    - ravisantoshgudimetla
     - seanmalloy
+    # Emeritus:
+    # - aveshagarwal
+    # - k82cn
+    # - ravisantoshgudimetla
     privacy: closed
     previously:
     - descehduler-maintainers

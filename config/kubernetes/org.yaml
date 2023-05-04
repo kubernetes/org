@@ -1720,20 +1720,19 @@ teams:
   cloud-provider-gcp-admins:
     description: Admin access to cloud-provider-gcp repo
     members:
-    - awly
-    - calebamiles
+    - aojea
     - mikedanese
     privacy: closed
   cloud-provider-gcp-maintainers:
     description: Write access to cloud-provider-gcp repo
     members:
-    - awly
-    - calebamiles
+    - aojea
     - cheftako
     - cici37
     - jpbetz
     - jprzychodzen
     - mikedanese
+    - mskrocki
     privacy: closed
   cloud-provider-vsphere-admins:
     description: Admin access to cloud-provider-vsphere repo

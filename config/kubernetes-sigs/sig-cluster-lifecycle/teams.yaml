@@ -214,8 +214,8 @@ teams:
   cluster-api-provider-openstack-admins:
     description: admin access to cluster-api-provider-openstack
     members:
-    - hidekazuna
     - jichenjc
+    - lentzi90
     - mdbooth
     - seanschneeweiss
     - tobiasgiese

@@ -112,6 +112,7 @@ teams:
     description: ""
     members:
     - davidjumani
+    - dims
     - rohityadavcloud
     privacy: closed
     previously:
@@ -120,6 +121,7 @@ teams:
     description: ""
     members:
     - davidjumani
+    - dims
     - jweite-amazon
     - maxdrib
     - rohityadavcloud

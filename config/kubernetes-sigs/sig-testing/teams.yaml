@@ -68,7 +68,7 @@ teams:
     description: Write access to kubetest2
     members:
     - MushuEE
-    - xmcqueen
+    - spiffxp
     privacy: closed
   prow-admins:
     description: Admin access to prow

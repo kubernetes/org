@@ -133,7 +133,6 @@ teams:
     - shyamjvs # Scalability
     - soltysh # CLI
     - sowmyav27 # 1.27 Bug Triage Shadow
-    - spiffxp # Testing
     - spzala # IBM Cloud
     - stevekuznetsov # Testing
     - tallclair # Auth
@@ -145,6 +144,7 @@ teams:
     - vllry # Usability
     - wojtek-t # Scalability
     - xing-yang # Storage
+    - xmcqueen # Testing
     - xmudrii # Release Manager
     privacy: closed
     previously:

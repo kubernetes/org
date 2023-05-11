@@ -21,10 +21,10 @@ teams:
     - michelle192837
     - mkumatag
     - pigmej
-    - spiffxp
     - stevekuznetsov
     - timothysc
     - xiangpengzhao
+    - xmcqueen
     privacy: closed
     teams:
       sig-testing-leads:
@@ -34,8 +34,8 @@ teams:
         - BenTheElder
         - michelle192837
         - pohly
-        - spiffxp
         - stevekuznetsov
+        - xmcqueen
         privacy: closed
       sig-testing-pr-reviews:
         description: sig-testing PR reviews
@@ -52,8 +52,8 @@ teams:
         - krzyzacy
         - michelle192837
         - mkumatag
-        - spiffxp
         - stevekuznetsov
+        - xmcqueen
         privacy: closed
   test-infra-admins:
     description: admin access to test-infra

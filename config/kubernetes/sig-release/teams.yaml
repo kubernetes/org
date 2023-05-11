@@ -27,13 +27,16 @@ teams:
     - adisky # OpenStack
     - ahg-g # Scheduling
     - alejandrox1 # Testing
+    - ameukam # Release Manager
     - andrewsykim # Cloud Provider
     - aojea # Testing / Network
+    - aramase # 1.28 Enhancements Shadow
     - aravindhp # Windows
-    - Atharva-Shinde # 1.27 Enhancements Shadow
+    - Atharva-Shinde # 1.28 Enhancements Lead
     - BenTheElder # Testing
     - bgrant0607 # Architecture
     - bradamant3 # Docs
+    - bradmccoydev # 1.28 Comms Lead
     - brancz # Instrumentation
     - cantbewong # VMware
     - caseydavenport # Network
@@ -43,7 +46,6 @@ teams:
     - claudiubelu # Windows
     - cpanato # Release Manager
     - craiglpeters # Azure
-    - csantanapr # 1.27 Bug Triage Shadow
     - dashpole # Instrumentation
     - dcbw # Network
     - dchen1107 # Node
@@ -60,16 +62,11 @@ teams:
     - floreks # UI
     - foxish # Big Data
     - frapposelli # VMware
-    - fsmunoz # 1.27 Enhancements Shadow
-    - furkatgofurov7 # 1.27 Bug Triage Shadow
+    - furkatgofurov7 # 1.28 Bug Triage Lead
     - gracenng # Release Manager Associate
-    - harshanarayana # 1.27 Release Notes Lead
-    - harshitasao # 1.27 Comms Lead
-    - helayoty # 1.27 Lead Shadow
-    - hosseinsalahi # 1.27 Lead Shadow
+    - helayoty # 1.28 Lead Shadow
     - hpandeycodeit # Usability
     - Huang-Wei # Scheduling
-    - jameslaverack # 1.27 Emeritus Advisor
     - janetkuo # Apps
     - jayunit100 # Windows
     - jberkus # Release
@@ -83,13 +80,13 @@ teams:
     - jsturtevant # Windows
     - justaugustus # Release
     - justinsb # AWS / Cluster Lifecycle
+    - Kasambx # 1.28 Enhancements Shadow
     - k8s-release-robot # Release
-    - katcosgrove # 1.27 RT Lead Shadow
     - khenidak # Azure
     - KnVerey # CLI
     - kow3ns # Apps
-    - krol3 # 1.26 Docs Lead
     - lavalamp # API Machinery
+    - leonardpahlke # 1.28 EA
     - liggitt # Auth / Release
     - lingxiankong # OpenStack
     - liyinan926 # Big Data
@@ -99,20 +96,21 @@ teams:
     - marosset # Windows
     - mattfarina # Apps / Architecture
     - mborsz # Scalability
+    - mehabhalodiya # 1.28 CI Signal Lead
+    - mickeyboxell # 1.28 Lead Shadow
     - mikedanese # Auth
     - mm4tt # Scalability
     - mrunalp # Node
     - msau42 # Storage
     - mwielgus # Autoscaling
     - nckturner # AWS
-    - neoaggelos # 1.27 Bug Triage Lead
+    - neoaggelos # 1.28 Lead Shadow
     - neolit123 # Cluster Lifecycle
-    - npolshakova # 1.27 Enhancements Shadow
+    - npolshakova # 1.28 Enhancements Shadow
     - oxddr # Scalability
     - parispittman # ContribEx
     - phillels # ContribEx
     - pmorie # Multicluster
-    - Priyankasaggu11929 # 1.27 RT Lead Shadow
     - prydonius # Apps
     - puerco # Release Manager
     - pwittrock # CLI
@@ -121,18 +119,20 @@ teams:
     - rajakavitha1 # Usability
     - ramrodo # Release Manager Associate
     - ritazh # Auth
+    - Rishit-dagli # 1.28 Docs Lead
+    - ruheenaansari34 # 1.28 Enhancements Shadow
     - saad-ali # Storage
     - salaxander # Release Manager Associate
+    - salehsedghpour # 1.28 Enhancements Shadow
+    - sanchita-07 # 1.28 Release Notes Lead
     - saschagrunert # Release
     - SataQiu # Cluster Lifecycle
     - seans3 # CLI
     - serathius # Instrumentation
     - SergeyKanzhelev # Node
-    - shatoboar # 1.27 Enhancements Shadow
     - shu-mutou # UI
     - shyamjvs # Scalability
     - soltysh # CLI
-    - sowmyav27 # 1.27 Bug Triage Shadow
     - spiffxp # Testing
     - spzala # IBM Cloud
     - stevekuznetsov # Testing
@@ -140,7 +140,6 @@ teams:
     - tashimi # Usability
     - thockin # Network
     - timothysc # Cluster Lifecycle / Testing
-    - valaparthvi # 1.27 Bug Triage Shadow
     - Verolop # Release Manager
     - vllry # Usability
     - wojtek-t # Scalability
@@ -221,6 +220,7 @@ teams:
     - cici37
     - cpanato # Technical Lead
     - dims
+    - gracenng
     - ixdy
     - JamesLaverack
     - jberkus
@@ -291,95 +291,93 @@ teams:
         maintainers:
         - palnabarun # subproject owner (1.21 RT Lead)
         members:
-        - Atharva-Shinde # 1.27 Enhancements Shadow
-        - cici37 # Release Manager
+        - aramase # 1.28 Enhancements Shadow
+        - Atharva-Shinde # 1.28 Enhancements Lead
         - cpanato # subproject owner / Technical Lead
-        - csantanapr # 1.27 Bug Triage Shadow
-        - fsmunoz # 1.27 Enhancements Shadow
-        - furkatgofurov7 # 1.27 Bug Triage Shadow
-        - harshanarayana # 1.27 Release Notes Lead
-        - harshitasao # 1.27 Comms Lead
-        - helayoty # 1.27 RT Lead Shadow
-        - hosseinsalahi # 1.27 RT Lead Shadow
+        - furkatgofurov7 # 1.27 Bug Triage Lead
+        - gracenng # 1.28 RT Lead
+        - hailkomputer # 1.28 Bug Triage Shadow
+        - helayoty # 1.28 RT Lead Shadow
         - jameslaverack # subproject owner (1.24 RT Lead)
         - jeremyrickard # subproject owner / Technical Lead
         - justaugustus # subproject owner / Chair
-        - katcosgrove # 1.27 RT Lead Shadow
-        - lauralorenz # 1.27 CI Signal Lead
+        - Kasambx # 1.28 Enhancements Shadow
         - leonardpahlke # subproject owner (1.26 RT Lead)
-        - marosset # 1.27 Enhancements Lead
-        - mickeyboxell # 1.27 Docs Lead
-        - neoaggelos # 1.27 Bug Triage Lead
-        - npolshakova # 1.27 Enhancements Shadow
-        - Priyankasaggu11929 # 1.27 RT Lead Shadow
+        - marosset # 1.28 RT Lead Shadow
+        - mickeyboxell # 1.28 RT Lead Shadow
+        - moficodes # 1.28 Bug Triage Shadow
+        - neoaggelos # 1.28 RT Lead Shadow
+        - npolshakova # 1.28 Enhancements Shadow
         - puerco # subproject owner / Technical Lead
         - reylejano # subproject owner (1.23 RT Lead)
+        - ruheenaansari34 # 1.28 Enhancements Shadow
         - salaxander # subproject owner (1.27 RT Lead)
+        - salehsedghpour # 1.28 Enhancements Shadow
         - saschagrunert # subproject owner / Chair
         - savitharaghunathan # subproject owner (1.22 RT Lead)
-        - shatoboar # 1.27 Enhancements Shadow
-        - sowmyav27 # 1.27 Bug Triage Shadow
-        - valaparthvi # 1.27 Bug Triage Shadow
+        - valaparthvi # 1.28 Bug Triage Shadow
         - Verolop # Release Manager
         - xmudrii # Release Manager
+        - zelenushechka # 1.28 Bug Triage Shadow
         privacy: closed
         teams:
           ci-signal:
             description: Members of the CI Signal team for the current release
               cycle.
             members:
-            - drewhagen # 1.27 CI Signal Shadow
-            - gracenng # 1.27 CI Signal Shadow
-            - lauralorenz # 1.27 CI Signal Lead
-            - mehabhalodiya # 1.27 CI Signal Shadow
-            - Vyom-Yadav # 1.27 CI Signal Shadow
+            - Amotul-raheem # 1.28 CI Signal Shadow
+            - chewong # 1.28 CI Signal Shadow
+            - mehabhalodiya # 1.28 CI Signal Lead
+            - mansikulkarni96 # 1.28 CI Signal Shadow
+            - Vyom-Yadav # 1.28 CI Signal Shadow
             privacy: closed
           release-team-docs:
             description: Members of the Docs team for the current release cycle.
             members:
-            - katmutua # 1.27 Docs Shadow
-            - LukeMwila # 1.27 Docs Shadow
-            - mickeyboxell # 1.27 Docs Lead
-            - Rishit-dagli # 1.27 Docs Shadow
-            - taniaduggal # 1.27 Docs Shadow
+            - AdminTurnedDevOps # 1.28 Docs Shadow
+            - katcosgrove # 1.28 Docs Shadow
+            - Rishit-dagli # 1.28 Docs Lead
+            - taniaduggal # 1.28 Docs Shadow
+            - VibhorChinda # 1.28 Docs Shadow
             privacy: closed
           release-team-bug-triage:
             description: Members of the Bug Triage team for the current release cycle.
             members:
-            - csantanapr # 1.27 Bug Triage Shadow
-            - furkatgofurov7 # 1.27 Bug Triage Shadow
-            - neoaggelos # 1.27 Bug Triage Lead
-            - sowmyav27 # 1.27 Bug Triage Shadow
-            - valaparthvi # 1.27 Bug Triage Shadow
+            - furkatgofurov7 # 1.28 Bug Triage lead
+            - hailkomputer # 1.28 Bug Triage Shadow
+            - moficodes # 1.28 Bug Triage Shadow
+            - valaparthvi # 1.28 Bug Triage Shadow
+            - zelenushechka # 1.28 Bug Triage Shadow
             privacy: closed
           release-team-comms:
             description: Members of the Comms team for the current release cycle.
             members:
-            - bradmccoydev # 1.27 Comms Shadow 
-            - harshitasao # 1.27 Comms Lead
-            - jaehnri # 1.27 Comms Shadow
-            - Nancy-Chauhan # 1.27 Comms Shadow
-            - sfotony # 1.27 Comms Shadow
+            - bradmccoydev # 1.28 Comms Lead 
+            - krol # 1.28 Comms Shadow
+            - mashby2022 # 1.28 Comms Shadow
+            - ramrodo # 1.28 Comms Shadow
+            - thschue # 1.28 Comms Shadow
             privacy: closed
           release-team-enhancements:
             description: Members of the Enhancments team for the current release
               cycle.
             members:
-            - Atharva-Shinde # 1.27 Enhancements Shadow
-            - fsmunoz # 1.27 Enhancements Shadow
-            - marosset # 1.27 Enhancements Lead
-            - npolshakova # 1.27 Enhancements Shadow
-            - shatoboar # 1.27 Enhancements Shadow
+            - aramase # 1.28 Enhancements Shadow
+            - Atharva-Shinde # 1.28 Enhancements Lead
+            - Kasambx # 1.28 Enhancements Shadow
+            - npolshakova # 1.28 Enhancements Shadow
+            - ruheenaansari34 # 1.28 Enhancements Shadow
+            - salehsedghpour # 1.28 Enhancements Shadow
             privacy: closed
           release-team-release-notes:
             description: Members of the Release Notes team for the current release
               cycle.
             members:
-            - AnaMMedina21 # 1.27 Release Notes Shadow
-            - harshanarayana # 1.27 Release Notes Lead
-            - rjsadow # 1.27 Release Notes Shadow
-            - sanchita-07 # 1.27 Release Notes Shadow
-            - yrs147 # 1.27 Release Notes Shadow
+            - AnaMMedina21 # 1.28 Release Notes Shadow
+            - fsmunoz # 1.28 Release Notes Lead
+            - muddapu # 1.28 Release Notes Shadow
+            - rashansmith # 1.28 Release Notes Shadow
+            - sanchita-07 # 1.28 Release Notes Lead
             privacy: closed
           release-team-leads:
             description: Release Team Leads for the current Kubernetes release
@@ -388,12 +386,12 @@ teams:
               as a notification group. Remove org members who are not current
               Release Team Leads.
             members:
-            - helayoty # 1.27 RT Lead Shadow
-            - hosseinsalahi # 1.27 RT Lead Shadow
-            - jameslaverack # 1.27 Emeritus Advisor
-            - katcosgrove # 1.26 RT Lead Shadow
-            - Priyankasaggu11929 # 1.26 RT Lead Shadow
-            - salaxander # 1.27 RT Lead
+            - leonardpahlke # 1.28 Emeritus Advisor
+            - gracenng # 1.28 Release Team Lead
+            - helayoty # 1.28 Lead Shadow
+            - marosset # 1.28 Lead Shadow
+            - mickeyboxell # 1.28 Lead Shadow
+            - neoaggelos # 1.28 Lead Shadow
             privacy: closed
       sig-release-admins:
         description: Admins for SIG Release repositories

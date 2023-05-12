@@ -27,7 +27,6 @@ teams:
     - adisky # OpenStack
     - ahg-g # Scheduling
     - alejandrox1 # Testing
-    - ameukam # Release Manager
     - andrewsykim # Cloud Provider
     - aojea # Testing / Network
     - aramase # 1.28 Enhancements Shadow
@@ -80,8 +79,8 @@ teams:
     - jsturtevant # Windows
     - justaugustus # Release
     - justinsb # AWS / Cluster Lifecycle
-    - Kasambx # 1.28 Enhancements Shadow
     - k8s-release-robot # Release
+    - Kasambx # 1.28 Enhancements Shadow
     - khenidak # Azure
     - KnVerey # CLI
     - kow3ns # Apps
@@ -118,8 +117,8 @@ teams:
     - RainbowMango # Instrumentation
     - rajakavitha1 # Usability
     - ramrodo # Release Manager Associate
-    - ritazh # Auth
     - Rishit-dagli # 1.28 Docs Lead
+    - ritazh # Auth
     - ruheenaansari34 # 1.28 Enhancements Shadow
     - saad-ali # Storage
     - salaxander # Release Manager Associate
@@ -328,8 +327,8 @@ teams:
             members:
             - Amotul-raheem # 1.28 CI Signal Shadow
             - chewong # 1.28 CI Signal Shadow
-            - mehabhalodiya # 1.28 CI Signal Lead
             - mansikulkarni96 # 1.28 CI Signal Shadow
+            - mehabhalodiya # 1.28 CI Signal Lead
             - Vyom-Yadav # 1.28 CI Signal Shadow
             privacy: closed
           release-team-docs:
@@ -387,9 +386,9 @@ teams:
               as a notification group. Remove org members who are not current
               Release Team Leads.
             members:
-            - leonardpahlke # 1.28 Emeritus Advisor
             - gracenng # 1.28 Release Team Lead
             - helayoty # 1.28 Lead Shadow
+            - leonardpahlke # 1.28 Emeritus Advisor
             - marosset # 1.28 Lead Shadow
             - mickeyboxell # 1.28 Lead Shadow
             - neoaggelos # 1.28 Lead Shadow

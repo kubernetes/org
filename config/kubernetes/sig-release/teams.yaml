@@ -43,7 +43,6 @@ teams:
     - claudiubelu # Windows
     - cpanato # Release Manager
     - craiglpeters # Azure
-    - csantanapr # 1.27 Bug Triage Shadow
     - dashpole # Instrumentation
     - dcbw # Network
     - dchen1107 # Node
@@ -61,7 +60,7 @@ teams:
     - foxish # Big Data
     - frapposelli # VMware
     - fsmunoz # 1.27 Enhancements Shadow
-    - furkatgofurov7 # 1.27 Bug Triage Shadow
+    - furkatgofurov7 # 1.28 Bug Triage Lead
     - gracenng # Release Manager Associate
     - harshanarayana # 1.27 Release Notes Lead
     - harshitasao # 1.27 Comms Lead
@@ -105,7 +104,6 @@ teams:
     - msau42 # Storage
     - mwielgus # Autoscaling
     - nckturner # AWS
-    - neoaggelos # 1.27 Bug Triage Lead
     - neolit123 # Cluster Lifecycle
     - npolshakova # 1.27 Enhancements Shadow
     - oxddr # Scalability
@@ -132,14 +130,12 @@ teams:
     - shu-mutou # UI
     - shyamjvs # Scalability
     - soltysh # CLI
-    - sowmyav27 # 1.27 Bug Triage Shadow
     - spzala # IBM Cloud
     - stevekuznetsov # Testing
     - tallclair # Auth
     - tashimi # Usability
     - thockin # Network
     - timothysc # Cluster Lifecycle / Testing
-    - valaparthvi # 1.27 Bug Triage Shadow
     - Verolop # Release Manager
     - vllry # Usability
     - wojtek-t # Scalability
@@ -294,9 +290,9 @@ teams:
         - Atharva-Shinde # 1.27 Enhancements Shadow
         - cici37 # Release Manager
         - cpanato # subproject owner / Technical Lead
-        - csantanapr # 1.27 Bug Triage Shadow
         - fsmunoz # 1.27 Enhancements Shadow
-        - furkatgofurov7 # 1.27 Bug Triage Shadow
+        - furkatgofurov7 # 1.28 Bug Triage Lead
+        - hailkomputer # 1.28 Bug Triage Shadow
         - harshanarayana # 1.27 Release Notes Lead
         - harshitasao # 1.27 Comms Lead
         - helayoty # 1.27 RT Lead Shadow
@@ -309,7 +305,7 @@ teams:
         - leonardpahlke # subproject owner (1.26 RT Lead)
         - marosset # 1.27 Enhancements Lead
         - mickeyboxell # 1.27 Docs Lead
-        - neoaggelos # 1.27 Bug Triage Lead
+        - moficodes # 1.28 Bug Triage Shadow
         - npolshakova # 1.27 Enhancements Shadow
         - Priyankasaggu11929 # 1.27 RT Lead Shadow
         - puerco # subproject owner / Technical Lead
@@ -318,10 +314,10 @@ teams:
         - saschagrunert # subproject owner / Chair
         - savitharaghunathan # subproject owner (1.22 RT Lead)
         - shatoboar # 1.27 Enhancements Shadow
-        - sowmyav27 # 1.27 Bug Triage Shadow
-        - valaparthvi # 1.27 Bug Triage Shadow
+        - valaparthvi # 1.28 Bug Triage Shadow
         - Verolop # Release Manager
         - xmudrii # Release Manager
+        - zelenushechka # 1.28 Bug Triage Shadow
         privacy: closed
         teams:
           ci-signal:
@@ -346,11 +342,11 @@ teams:
           release-team-bug-triage:
             description: Members of the Bug Triage team for the current release cycle.
             members:
-            - csantanapr # 1.27 Bug Triage Shadow
-            - furkatgofurov7 # 1.27 Bug Triage Shadow
-            - neoaggelos # 1.27 Bug Triage Lead
-            - sowmyav27 # 1.27 Bug Triage Shadow
-            - valaparthvi # 1.27 Bug Triage Shadow
+            - furkatgofurov7 # 1.28 Bug Triage Lead
+            - hailkomputer # 1.28 Bug Triage Shadow
+            - moficodes # 1.28 Bug Triage Shadow
+            - valaparthvi # 1.28 Bug Triage Shadow
+            - zelenushechka # 1.28 Bug Triage Shadow
             privacy: closed
           release-team-comms:
             description: Members of the Comms team for the current release cycle.

@@ -62,6 +62,7 @@ teams:
     - floreks # UI
     - foxish # Big Data
     - frapposelli # VMware
+    - fsmunoz # 1.28 Release Notes Shadow
     - furkatgofurov7 # 1.28 Bug Triage Lead
     - gracenng # Release Manager Associate
     - helayoty # 1.28 Lead Shadow
@@ -84,6 +85,7 @@ teams:
     - k8s-release-robot # Release
     - Kasambx # 1.28 Enhancements Shadow
     - khenidak # Azure
+    - Kasambx # 1.28 Enhancements Shadow
     - KnVerey # CLI
     - kow3ns # Apps
     - lavalamp # API Machinery
@@ -302,6 +304,7 @@ teams:
         - jameslaverack # subproject owner (1.24 RT Lead)
         - jeremyrickard # subproject owner / Technical Lead
         - justaugustus # subproject owner / Chair
+        - katcosgrove # 1.28 RT Lead Shadow
         - Kasambx # 1.28 Enhancements Shadow
         - leonardpahlke # subproject owner (1.26 RT Lead)
         - marosset # 1.28 RT Lead Shadow
@@ -369,6 +372,7 @@ teams:
             - npolshakova # 1.28 Enhancements Shadow
             - ruheenaansari34 # 1.28 Enhancements Shadow
             - salehsedghpour # 1.28 Enhancements Shadow
+
             privacy: closed
           release-team-release-notes:
             description: Members of the Release Notes team for the current release

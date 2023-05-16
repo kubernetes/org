@@ -38,12 +38,12 @@ teams:
     maintainers:
     - mrbobbytables # subproject owner
     members:
+    - Atharva-Shinde # 1.28 RT Enhancements Lead
     - jeremyrickard # subproject owner
     - johnbelamaric # subproject owner
     - justaugustus # subproject owner
     - kikisdeliveryservice # subproject owner
     - LappleApple # subproject owner
-    - marosset # 1.27 RT Enhancements Lead
     privacy: closed
     teams:
       enhancements-admins:

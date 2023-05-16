@@ -50,6 +50,12 @@ teams:
     - Huang-Wei
     - sanposhiho
     privacy: closed
+  kube-scheduler-wasm-extension-admins:
+    description: Admin access to the kube-scheduler-wasm-extension
+    members:
+    - kerthcet
+    - sanposhiho
+    privacy: closed
   kueue-admins:
     description: Admin access to the kueue repo
     members:

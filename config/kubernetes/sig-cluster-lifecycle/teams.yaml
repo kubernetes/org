@@ -9,15 +9,11 @@ teams:
   kops-maintainers:
     description: Write access to the kops repo
     members:
-    - geojaz
     - hakman
     - johngmyers
     - justinsb
-    - kashifsaadat
     - mikedanese
-    - mikesplain
     - olemarkus
-    - rdrgmnzs
     - rifelpet
     - zetaab
     privacy: closed

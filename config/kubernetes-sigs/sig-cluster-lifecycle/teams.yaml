@@ -330,6 +330,7 @@ teams:
     - mattymo
     - miouge1
     - oomichi
+    - yankay
     privacy: closed
   logical-cluster-admins:
     description: Admin access to the logical-cluster repo

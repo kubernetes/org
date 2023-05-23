@@ -45,6 +45,7 @@ teams:
   aws-fsx-csi-driver-admins:
     description: admin access to aws-fsx-csi-driver
     members:
+    - jacobwolfaws
     - justinsb
     - khoang98
     - leakingtapan
@@ -54,6 +55,7 @@ teams:
     description: write access to aws-fsx-csi-driver
     members:
     - d-nishi
+    - jacobwolfaws
     - jsafrane
     - justinsb
     - khoang98

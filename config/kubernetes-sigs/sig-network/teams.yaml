@@ -151,7 +151,6 @@ teams:
   network-policy-api-admins:
     description: Admin access to the network-policy-api repo
     members:
-    - abhiraut
     - astoycos
-    - rikatz
+    - Dyanngg
     privacy: closed

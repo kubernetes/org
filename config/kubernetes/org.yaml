@@ -1659,27 +1659,25 @@ teams:
   api-approvers:
     description: Approve changes to stable Kubernetes APIs and addition of new beta/stable APIs
     members:
-    - bgrant0607
-    - erictune
+    - deads2k
     - lavalamp
     - liggitt
+    - msau42
     - smarterclayton
     - thockin
     privacy: closed
   api-reviewers:
     description: See also api-approvers.
     members:
-    - davidopp
     - deads2k
     - derekwaynecarr
-    - erictune
     - lavalamp
     - liggitt
     - mikedanese
+    - msau42
     - pwittrock
     - smarterclayton
     - thockin
-    - vishh
     privacy: closed
   autoscaler-admins:
     description: Admin access to the autoscaler repo

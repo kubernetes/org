@@ -33,16 +33,6 @@ teams:
     privacy: closed
     previously:
     - descehduler-maintainers
-  kube-batch-admins:
-    description: Admin access to the kube-batch repo
-    members:
-    - k82cn
-    privacy: closed
-  kube-batch-maintainers:
-    description: Write access to the kube-batch repo
-    members:
-    - k82cn
-    privacy: closed
   kube-scheduler-simulator-admins:
     description: Admin access to the kube-scheduler-simulator
     members:

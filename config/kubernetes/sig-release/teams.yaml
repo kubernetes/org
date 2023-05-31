@@ -102,6 +102,7 @@ teams:
     - mrunalp # Node
     - msau42 # Storage
     - mwielgus # Autoscaling
+    - natasha41575 # CLI
     - nckturner # AWS
     - neoaggelos # 1.28 Lead Shadow
     - neolit123 # Cluster Lifecycle
@@ -126,7 +127,6 @@ teams:
     - sanchita-07 # 1.28 Release Notes Lead
     - saschagrunert # Release
     - SataQiu # Cluster Lifecycle
-    - seans3 # CLI
     - serathius # Instrumentation
     - SergeyKanzhelev # Node
     - shu-mutou # UI
@@ -352,7 +352,7 @@ teams:
           release-team-comms:
             description: Members of the Comms team for the current release cycle.
             members:
-            - bradmccoydev # 1.28 Comms Lead 
+            - bradmccoydev # 1.28 Comms Lead
             - krol3 # 1.28 Comms Shadow
             - mashby2022 # 1.28 Comms Shadow
             - ramrodo # 1.28 Comms Shadow

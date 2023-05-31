@@ -234,10 +234,10 @@ teams:
   cluster-api-provider-packet-admins:
     description: Admin access to cluster-api-provider-packet repo
     members:
+    - cprivitere
     - deitch
     - detiber
     - displague
-    - jacobsmith928
     privacy: closed
   cluster-api-provider-packet-maintainers:
     description: Write access to the cluster-api-provider-packet repo
@@ -246,7 +246,6 @@ teams:
     - deitch
     - detiber
     - displague
-    - jacobsmith928
     privacy: closed
   cluster-api-provider-vsphere-admins:
     description: Admin access to the cluster-api-provider-vsphere repo

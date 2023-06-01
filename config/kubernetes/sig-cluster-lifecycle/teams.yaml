@@ -22,6 +22,7 @@ teams:
     members:
     - fabriziopandini
     - neolit123
+    - pacoxu
     - SataQiu
     privacy: closed
   kubeadm-maintainers:
@@ -29,6 +30,7 @@ teams:
     members:
     - fabriziopandini
     - neolit123
+    - pacoxu
     - SataQiu
     privacy: closed
   minikube-admins:

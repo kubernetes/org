@@ -51,6 +51,13 @@ teams:
     - sbueringer
     - vincepri
     privacy: closed
+  cluster-api-ipam-provider-in-cluster-admins:
+    description: "admin access to cluster-api-ipam-provider-in-cluster"
+    members:
+    - CecileRobertMichon
+    - fabriziopandini
+    - schrej
+    privacy: closed
   cluster-api-operator-admins:
     description: "admin access to cluster-api-operator"
     members:

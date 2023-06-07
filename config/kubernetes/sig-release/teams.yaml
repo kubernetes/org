@@ -37,6 +37,7 @@ teams:
     - bradamant3 # Docs
     - bradmccoydev # 1.28 Comms Lead
     - brancz # Instrumentation
+    - bridgetkromhout # Cloud Provider
     - cantbewong # VMware
     - caseydavenport # Network
     - cheftako # Cloud Provider
@@ -54,6 +55,7 @@ teams:
     - dims # Architecture / Release
     - eddiezane # CLI
     - ehashman # Instrumentation
+    - elmiko # Cloud Provider
     - enj # Auth
     - fabriziopandini # Cluster Lifecycle
     - feiskyer # Azure

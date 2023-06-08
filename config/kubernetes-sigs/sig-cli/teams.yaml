@@ -123,5 +123,6 @@ teams:
     privacy: closed
   kustomize-maintainers:
     description: ""
-    members: [] # there are currently no maintainers besides the owners
+    members:
+      - annasong20
     privacy: closed

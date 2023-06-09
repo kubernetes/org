@@ -74,7 +74,6 @@ teams:
     description: Production Readiness Review Team
     members:
     - deads2k
-    - ehashman
     - johnbelamaric
     - wojtek-t
     privacy: closed
@@ -86,7 +85,7 @@ teams:
         - bentheelder   # shadow
         - cici37        # shadow
         - deads2k       # approver
-        - ehashman      # approver
+        - enj           # shadow
         - jeremyrickard # shadow
         - johnbelamaric # approver
         - jpbetz        # shadow

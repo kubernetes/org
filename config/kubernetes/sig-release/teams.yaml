@@ -346,6 +346,8 @@ teams:
             - Nivedita-coder # 1.26 CI Signal Lead
             - shuheiktgw # 1.26 CI Signal Shadow
             privacy: closed
+            previously:
+            - ci-signal
           release-team-docs:
             description: Members of the Docs team for the current release cycle.
             members:

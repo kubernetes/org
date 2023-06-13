@@ -62,6 +62,8 @@ teams:
     description: "admin access to cluster-api-operator"
     members:
     - alexander-demicev
+    - damdo
+    - Fedosin
     - JoelSpeed
     privacy: closed
   cluster-api-provider-aws-admins:

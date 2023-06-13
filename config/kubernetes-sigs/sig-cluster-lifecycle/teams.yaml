@@ -309,6 +309,7 @@ teams:
   image-builder-admins:
     description: admin access to image-builder
     members:
+    - AverageMarcus
     - jsturtevant
     - kkeshavamurthy
     - mboersma
@@ -316,6 +317,7 @@ teams:
   image-builder-maintainers:
     description: write access to image-builder
     members:
+    - AverageMarcus
     - jsturtevant
     - kkeshavamurthy
     - mboersma

@@ -3,11 +3,12 @@
 approvers:
   - cblecker
   - idvoretskyi
+  - MadhavJivrajani
   - mrbobbytables
   - nikhita
-  - ameukam
   - palnabarun
 emeritus_approvers:
+  - ameukam
   - calebamiles
   - fejta
   - spiffxp

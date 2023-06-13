@@ -1,18 +1,19 @@
 # See the OWNERS docs at https://go.k8s.io/owners
 
 reviewers:
-  - ameukam
+  - MadhavJivrajani
   - palnabarun
   - savitharaghunathan
 approvers:
   - cblecker
   - idvoretskyi
+  - MadhavJivrajani
   - mrbobbytables
   - nikhita
-  - ameukam
   - palnabarun
   - savitharaghunathan
 emeritus_approvers:
+  - ameukam
   - calebamiles
   - fejta
   - spiffxp

@@ -4,23 +4,23 @@ teams:
     maintainers:
     - cblecker
     - idvoretskyi
+    - MadhavJivrajani
     - mrbobbytables
     - nikhita
     - palnabarun
     members:
     - kaslin
-    - MadhavJivrajani
     - Priyankasaggu11929
     privacy: closed
   community-maintainers:
     description: ""
     maintainers:
     - cblecker
+    - MadhavJivrajani
     - mrbobbytables
     - nikhita
     members:
     - kaslin
-    - MadhavJivrajani
     - Priyankasaggu11929
     privacy: closed
   community-milestone-maintainers:
@@ -28,6 +28,7 @@ teams:
     maintainers:
     - cblecker
     - idvoretskyi
+    - MadhavJivrajani
     - mrbobbytables
     - nikhita
     - palnabarun
@@ -43,7 +44,6 @@ teams:
     - justaugustus
     - kaslin
     - lukaszgryglicki
-    - MadhavJivrajani
     - parispittman
     - Phillels
     - Priyankasaggu11929
@@ -81,9 +81,9 @@ teams:
     description: Members who have access to edit the GitHub Administration
       Subproject Board
     maintainers:
-    - ameukam
     - cblecker
     - idvoretskyi
+    - MadhavJivrajani
     - mrbobbytables
     - nikhita
     - palnabarun
@@ -110,6 +110,7 @@ teams:
     maintainers:
     - cblecker
     - idvoretskyi
+    - MadhavJivrajani
     - mrbobbytables
     - nikhita
     - palnabarun
@@ -125,7 +126,6 @@ teams:
     - jessfraz
     - kaslin
     - lavalamp
-    - MadhavJivrajani
     - monopole
     - parispittman
     - philips
@@ -155,13 +155,13 @@ teams:
         description: Chairs and Technical Leads for SIG Contributor Experience
         maintainers:
         - cblecker
+        - MadhavJivrajani
         - mrbobbytables
         - nikhita
         - palnabarun
         members:
         - jberkus
         - kaslin
-        - MadhavJivrajani
         - Priyankasaggu11929
         privacy: closed
       sig-contributor-experience-pr-reviews:
@@ -170,12 +170,12 @@ teams:
         maintainers:
         - cblecker
         - idvoretskyi
+        - MadhavJivrajani
         - nikhita
         - palnabarun
         members:
         - idealhack
         - kaslin
-        - MadhavJivrajani
         - Priyankasaggu11929
         privacy: closed
   youtube-admins:

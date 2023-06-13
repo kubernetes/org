@@ -2107,9 +2107,9 @@ teams:
   owners:
     description: Kubernetes GitHub Owners
     maintainers:
-    - ameukam
     - cblecker
     - idvoretskyi
+    - MadhavJivrajani
     - mrbobbytables
     - nikhita
     - palnabarun

@@ -88,9 +88,9 @@ teams:
     description: Members of the Release Engineering subproject, including
       Release Managers and Release Manager Associates.
     maintainers:
-    - ameukam # Release Manager Associate
     - palnabarun # Release Manager
     members:
+    - ameukam # Release Manager Associate
     - cpanato # subproject owner / Release Manager
     - jeremyrickard # subproject owner
     - jimangel # Release Manager Associate

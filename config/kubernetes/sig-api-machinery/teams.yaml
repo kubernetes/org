@@ -36,6 +36,8 @@ teams:
     privacy: closed
   sig-api-machinery-members:
     description: Members of sig-api-machinery
+    maintainers:
+    - MadhavJivrajani
     members:
     - alexzielenski
     - andrewsykim
@@ -54,7 +56,6 @@ teams:
     - lavalamp
     - liggitt
     - logicalhan
-    - MadhavJivrajani
     - munnerz
     - seans3
     - smarterclayton
@@ -84,12 +85,13 @@ teams:
     privacy: closed
   sig-api-machinery-pr-reviews:
     description: ""
+    maintainers:
+    - MadhavJivrajani
     members:
     - deads2k
     - lavalamp
     - liggitt
     - logicalhan
-    - MadhavJivrajani
     - smarterclayton
     - sttts
     privacy: closed

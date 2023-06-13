@@ -17,7 +17,6 @@ teams:
     description: Contributors who can use `/milestone` or `/status` commands on
       issues/PRs and have triage access to the kubernetes/enhancements repo
     maintainers:
-    - ameukam # Release Manager Associate
     - cblecker # ContribEx
     - mrbobbytables # ContribEx
     - nikhita # ContribEx
@@ -27,6 +26,7 @@ teams:
     - adisky # OpenStack
     - ahg-g # Scheduling
     - alejandrox1 # Testing
+    - ameukam # Release Manager Associate
     - andrewsykim # Cloud Provider
     - aojea # Testing / Network
     - aramase # 1.28 Enhancements Shadow
@@ -250,9 +250,9 @@ teams:
         description: Members of the Release Engineering subproject, including
           Release Managers, Release Manager Associates, and Build Admins.
         maintainers:
-        - ameukam # Release Manager Associate
         - palnabarun # Release Manager
         members:
+        - ameukam # Release Manager Associate
         - cici37 # Release Manager
         - cpanato # subproject owner / Release Manager
         - gracenng # Release Manager Associate

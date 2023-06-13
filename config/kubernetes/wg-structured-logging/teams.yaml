@@ -8,7 +8,6 @@ teams:
   wg-structured-logging-members:
     description: ""
     members:
-      - MadhavJivrajani
       - mengjiao-liu
       - navidshaikh
       - pohly

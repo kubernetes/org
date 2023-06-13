@@ -1,36 +1,32 @@
 teams:
   community-images-admins:
     description: admins access to community-images
-    maintainers:
-    - ameukam
     members:
+    - ameukam
     - dims
     - spiffxp
     - thockin
     privacy: closed
   community-images-writers:
     description: write access to community-images
-    maintainers:
-      - ameukam
     members:
+      - ameukam
       - dims
       - spiffxp
       - thockin
     privacy: closed
   community-images-maintainers:
     description: write access to community-images
-    maintainers:
-    - ameukam
     members:
+    - ameukam
     - dims
     - spiffxp
     - thockin
     privacy: closed
   porche-admins:
     description: admins access to porche
-    maintainers:
-    - ameukam
     members:
+    - ameukam
     - bentheelder
     - dims
     - justinsb
@@ -39,9 +35,8 @@ teams:
     privacy: closed
   porche-writers:
     description: write access to porche
-    maintainers:
-      - ameukam
     members:
+      - ameukam
       - bentheelder
       - dims
       - justinsb
@@ -50,9 +45,8 @@ teams:
     privacy: closed
   porche-maintainers:
     description: write access to porche
-    maintainers:
-    - ameukam
     members:
+    - ameukam
     - bentheelder
     - dims
     - justinsb

@@ -1,9 +1,9 @@
 admins:
-- ameukam
 - cblecker
 - idvoretskyi
 - k8s-ci-robot
 - k8s-github-robot
+- MadhavJivrajani
 - mrbobbytables
 - nikhita
 - palnabarun
@@ -16,6 +16,7 @@ has_repository_projects: true
 members:
 - akshaymankar
 - ambiknai
+- ameukam
 - arahamad
 - bgrant0607
 - brendandburns

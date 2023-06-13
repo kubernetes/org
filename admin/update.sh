@@ -22,9 +22,9 @@ REPO_ROOT=$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd -P)
 readonly REPO_ROOT
 
 readonly admins=(
-  ameukam
   cblecker
   idvoretskyi
+  MadhavJivrajani
   mrbobbytables
   nikhita
   palnabarun

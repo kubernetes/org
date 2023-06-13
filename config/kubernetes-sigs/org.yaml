@@ -1,9 +1,9 @@
 admins:
-- ameukam
 - cblecker
 - idvoretskyi
 - k8s-ci-robot
 - k8s-github-robot
+- MadhavJivrajani
 - mrbobbytables
 - nikhita
 - palnabarun
@@ -55,6 +55,7 @@ members:
 - alvaroaleman
 - amacaskill
 - ambiknai
+- ameukam
 - amolmote
 - Amulyam24
 - amwat
@@ -562,7 +563,6 @@ members:
 - macaptain
 - maciaszczykm
 - Madhan-SWE
-- MadhavJivrajani
 - Madhur97
 - maelvls
 - makkes

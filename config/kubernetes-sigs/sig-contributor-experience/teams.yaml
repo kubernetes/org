@@ -61,6 +61,25 @@ teams:
     members:
     - dims
     privacy: closed
+  sigs-github-actions-admins:
+    description: admin access to the sigs-github-actions repo
+    maintainers:
+    - cblecker
+    - idvoretskyi
+    - MadhavJivrajani
+    - mrbobbytables
+    - nikhita
+    - palnabarun
+    privacy: closed
+  sigs-github-actions-maintainers:
+    description: write access to the sigs-github-actions repo
+    maintainers:
+    - cblecker
+    - MadhavJivrajani
+    - nikhita
+    members:
+    - Priyankasaggu11929
+    privacy: closed
   slack-infra-admins:
     description: admin access to slack-infra
     members:

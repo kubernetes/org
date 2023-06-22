@@ -45,6 +45,7 @@ teams:
     members:
     - kerthcet
     - sanposhiho
+    - codefromthecrypt
     privacy: closed
   kueue-admins:
     description: Admin access to the kueue repo

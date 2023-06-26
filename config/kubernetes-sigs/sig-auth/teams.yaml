@@ -13,25 +13,6 @@ teams:
     - GinnyJI
     - yiqigao217
     privacy: closed
-  multi-tenancy-admins:
-    description: Admin access to multi-tenancy repo
-    members:
-    - davidopp
-    - easeway
-    - srampal
-    - tashimi
-    privacy: closed
-  multi-tenancy-maintainers:
-    description: Write access to multi-tenancy repo
-    members:
-    - adrianludwin
-    - davidopp
-    - easeway
-    - rjbez17
-    - srampal
-    - tashimi
-    - yiqigao217
-    privacy: closed
   pspmigrator-admins:
     description: Admin access to the pspmigrator repo
     members:

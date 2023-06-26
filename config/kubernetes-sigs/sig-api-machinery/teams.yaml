@@ -59,27 +59,15 @@ teams:
   controller-tools-admins:
     description: admin access to controller-tools
     members:
-    - DirectXMan12
-    - droot
-    - pwittrock
-    - seans3
-    privacy: closed
-  controller-tools-contributors:
-    description: read access to controller-tools
-    members:
-    - Birdrock
-    - pwittrock
+    - joelanford
+    - vincepri
     privacy: closed
   controller-tools-maintainers:
     description: write access to controller-tools
     members:
     - alvaroaleman
-    - camilamacedo86
-    - droot
     - joelanford
-    - mengqiy
-    - pwittrock
-    - seans3
+    - sbueringer
     - vincepri
     privacy: closed
   json-admins:

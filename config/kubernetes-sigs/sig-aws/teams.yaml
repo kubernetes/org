@@ -3,6 +3,7 @@ teams:
     description: ""
     members:
     - ConnorJC3
+    - dims
     - gtxu
     - hanyuel
     - leakingtapan
@@ -29,6 +30,7 @@ teams:
   aws-encryption-provider-admins:
     description: admin access to aws_encryption-provider repo
     members:
+    - dims
     - justinsb
     - micahhausler
     - nckturner
@@ -45,6 +47,7 @@ teams:
   aws-fsx-csi-driver-admins:
     description: admin access to aws-fsx-csi-driver
     members:
+    - dims
     - jacobwolfaws
     - justinsb
     - khoang98
@@ -66,6 +69,7 @@ teams:
     description: admin access to aws-efs-csi-driver
     members:
     - Ashley-wenyizha
+    - dims
     - justinsb
     - leakingtapan
     - wongma7

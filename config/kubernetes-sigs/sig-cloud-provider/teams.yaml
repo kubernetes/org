@@ -33,6 +33,7 @@ teams:
   aws-file-cache-csi-driver-admins:
     description: Admin access to the aws-file-cache-csi-driver repo
     members:
+      - dims
       - jacobwolfaws
       - khoang98
       - nckturner
@@ -47,6 +48,7 @@ teams:
   aws-fsx-openzfs-csi-driver-admins:
     description: Admin access to the aws-fsx-openzfs-csi-driver repo
     members:
+      - dims
       - jacobwolfaws
       - nckturner
     privacy: closed
@@ -59,6 +61,7 @@ teams:
   aws-iam-authenticator-admins:
    description: Admin access to the aws-iam-authenticator repo
    members:
+   - dims
    - m00nf1sh
    - micahhausler
    - nckturner

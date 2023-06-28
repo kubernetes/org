@@ -41,6 +41,7 @@ teams:
         description: "Admin access to k8s.io/cloud-provider-aws"
         members:
         - andrewsykim
+        - dims
         - justinsb
         - nckturner
         privacy: closed

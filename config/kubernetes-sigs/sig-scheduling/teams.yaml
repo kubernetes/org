@@ -43,6 +43,7 @@ teams:
   kube-scheduler-wasm-extension-admins:
     description: Admin access to the kube-scheduler-wasm-extension
     members:
+    - codefromthecrypt
     - kerthcet
     - sanposhiho
     privacy: closed

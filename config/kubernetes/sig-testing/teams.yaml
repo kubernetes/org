@@ -69,6 +69,7 @@ teams:
     - mpherman2
     - spiffxp
     - stevekuznetsov
+    - sultan-duisenbay
     privacy: closed
   test-infra-maintainers:
     description: write access to test-infra

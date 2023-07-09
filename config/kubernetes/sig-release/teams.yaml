@@ -59,7 +59,6 @@ teams:
     - enj # Auth
     - fabriziopandini # Cluster Lifecycle
     - feiskyer # Azure
-    - fejta # Testing
     - floreks # UI
     - foxish # Big Data
     - frapposelli # VMware
@@ -71,6 +70,7 @@ teams:
     - janetkuo # Apps
     - jayunit100 # Windows
     - jberkus # Release
+    - jbpratt # Testing
     - jdumars # Architecture / PM
     - jeremyrickard # Release
     - jhvhs # Service Catalog
@@ -98,6 +98,7 @@ teams:
     - mattfarina # Apps / Architecture
     - mborsz # Scalability
     - mehabhalodiya # 1.28 CI Signal Lead
+    - michelle192837 # Testing
     - mickeyboxell # 1.28 Lead Shadow
     - mikedanese # Auth
     - mm4tt # Scalability
@@ -134,9 +135,7 @@ teams:
     - shu-mutou # UI
     - shyamjvs # Scalability
     - soltysh # CLI
-    - spiffxp # Testing
     - spzala # IBM Cloud
-    - stevekuznetsov # Testing
     - tallclair # Auth
     - tashimi # Usability
     - thockin # Network

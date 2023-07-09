@@ -13,6 +13,7 @@ teams:
     - fejta
     - ixdy
     - jayunit100
+    - jbpratt
     - jdef
     - justaugustus
     - justinsb
@@ -32,9 +33,10 @@ teams:
         members:
         - aojea
         - BenTheElder
+        - cjwagner
+        - jbpratt
         - michelle192837
         - pohly
-        - stevekuznetsov
         - xmcqueen
         privacy: closed
       sig-testing-pr-reviews:

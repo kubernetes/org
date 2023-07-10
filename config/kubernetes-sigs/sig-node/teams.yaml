@@ -24,6 +24,17 @@ teams:
     - marquiz
     - zvonkok
     privacy: closed
+  noderesourcetopology-api-admins:
+    description: Admin access to noderesourcetopology-api repo
+    members:
+    - ffromani
+    - swatisehgal
+    privacy: closed
+  noderesourcetopology-api-maintainers:
+    description: Write access to noderesourcetopology-api repo
+    members:
+    - marquiz
+    privacy: closed
   security-profiles-operator-admins:
     description: Admin access to security-profiles-operator repo
     members:

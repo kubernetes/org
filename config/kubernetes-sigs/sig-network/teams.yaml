@@ -152,5 +152,6 @@ teams:
     description: Admin access to the network-policy-api repo
     members:
     - astoycos
+    - danwinship
     - Dyanngg
     privacy: closed

@@ -372,7 +372,6 @@ teams:
             - npolshakova # 1.28 Enhancements Shadow
             - ruheenaansari34 # 1.28 Enhancements Shadow
             - salehsedghpour # 1.28 Enhancements Shadow
-
             privacy: closed
           release-team-release-notes:
             description: Members of the Release Notes team for the current release

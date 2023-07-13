@@ -62,6 +62,7 @@ teams:
     - floreks # UI
     - foxish # Big Data
     - frapposelli # VMware
+    - fsmunoz # 1.28 Release Notes Shadow
     - furkatgofurov7 # 1.28 Bug Triage Lead
     - gracenng # Release Manager Associate
     - helayoty # 1.28 Lead Shadow
@@ -83,6 +84,7 @@ teams:
     - justinsb # AWS / Cluster Lifecycle
     - k8s-release-robot # Release
     - Kasambx # 1.28 Enhancements Shadow
+    - katcosgrove # 1.28 RT Lead Shadow
     - khenidak # Azure
     - KnVerey # CLI
     - kow3ns # Apps
@@ -303,6 +305,7 @@ teams:
         - jeremyrickard # subproject owner / Technical Lead
         - justaugustus # subproject owner / Chair
         - Kasambx # 1.28 Enhancements Shadow
+        - katcosgrove # 1.28 RT Lead Shadow
         - leonardpahlke # subproject owner (1.26 RT Lead)
         - marosset # 1.28 RT Lead Shadow
         - mickeyboxell # 1.28 RT Lead Shadow

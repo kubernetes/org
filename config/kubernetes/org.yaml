@@ -2024,6 +2024,7 @@ teams:
     description: Write access to the kube-openapi repo
     members:
     - apelisse
+    - jefftree
     - lavalamp
     - roycaihw
     privacy: closed

@@ -2,42 +2,49 @@ teams:
   sig-autoscaling-api-reviews:
     description: ""
     members:
+    - gjtempleton
     - MaciekPytel
     - mwielgus
     privacy: closed
   sig-autoscaling-bugs:
     description: ""
     members:
+    - gjtempleton
     - MaciekPytel
     - mwielgus
     privacy: closed
   sig-autoscaling-feature-requests:
     description: ""
     members:
+    - gjtempleton
     - MaciekPytel
     - mwielgus
     privacy: closed
   sig-autoscaling-misc:
     description: ""
     members:
+    - gjtempleton
     - MaciekPytel
     - mwielgus
     privacy: closed
   sig-autoscaling-pr-reviews:
     description: ""
     members:
+    - gjtempleton
     - MaciekPytel
     - mwielgus
     privacy: closed
   sig-autoscaling-proposals:
     description: ""
     members:
+    - gjtempleton
     - MaciekPytel
     - mwielgus
     privacy: closed
   sig-autoscaling-test-failures:
     description: ""
     members:
+    - gjtempleton
     - MaciekPytel
     - mwielgus
     privacy: closed

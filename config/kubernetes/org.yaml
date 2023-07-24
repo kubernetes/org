@@ -1711,6 +1711,7 @@ teams:
   autoscaler-admins:
     description: Admin access to the autoscaler repo
     members:
+    - gjtempleton
     - MaciekPytel
     - mwielgus
     privacy: closed
@@ -1719,6 +1720,7 @@ teams:
   autoscaler-maintainers:
     description: ""
     members:
+    - gjtempleton
     - MaciekPytel
     - mwielgus
     privacy: closed
@@ -1728,6 +1730,7 @@ teams:
     description: ""
     members:
     - feiskyer
+    - gjtempleton
     - MaciekPytel
     - mwielgus
     privacy: closed

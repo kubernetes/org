@@ -1711,6 +1711,7 @@ teams:
   autoscaler-admins:
     description: Admin access to the autoscaler repo
     members:
+    - bigdarkclown
     - gjtempleton
     - MaciekPytel
     - mwielgus
@@ -1721,6 +1722,7 @@ teams:
   autoscaler-maintainers:
     description: ""
     members:
+    - bigdarkclown
     - gjtempleton
     - MaciekPytel
     - mwielgus
@@ -1731,6 +1733,7 @@ teams:
   autoscaler-reviewers:
     description: ""
     members:
+    - bigdarkclown
     - feiskyer
     - gjtempleton
     - MaciekPytel

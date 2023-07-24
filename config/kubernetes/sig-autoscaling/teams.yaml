@@ -23,6 +23,7 @@ teams:
   sig-autoscaling-misc:
     description: ""
     members:
+    - bigdarkclown
     - gjtempleton
     - MaciekPytel
     - mwielgus

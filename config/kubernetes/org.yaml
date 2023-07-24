@@ -1719,26 +1719,17 @@ teams:
   autoscaler-maintainers:
     description: ""
     members:
-    - aleksandra-malinowska
-    - bskiba
-    - DirectXMan12
-    - losipiuk
     - MaciekPytel
     - mwielgus
-    - piosz
     privacy: closed
     repos:
       autoscaler: write
   autoscaler-reviewers:
     description: ""
     members:
-    - aleksandra-malinowska
-    - bskiba
-    - DirectXMan12
     - feiskyer
     - MaciekPytel
     - mwielgus
-    - piosz
     privacy: closed
     repos:
       autoscaler: read

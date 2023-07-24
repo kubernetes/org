@@ -1721,7 +1721,7 @@ teams:
     repos:
       autoscaler: admin
   autoscaler-maintainers:
-    description: ""
+    description: "Maintainers of sub-projects in the autoscaler repo"
     members:
     - bigdarkclown
     - gjtempleton
@@ -1733,7 +1733,7 @@ teams:
     repos:
       autoscaler: write
   autoscaler-reviewers:
-    description: ""
+    description: "Reviewers of PRs in the autoscaler repo"
     members:
     - bigdarkclown
     - feiskyer

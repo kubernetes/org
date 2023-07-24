@@ -28,6 +28,7 @@ teams:
     - MaciekPytel
     - mwielgus
     - towca
+    - x13n
     privacy: closed
   sig-autoscaling-pr-reviews:
     description: ""

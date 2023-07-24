@@ -1716,6 +1716,7 @@ teams:
     - MaciekPytel
     - mwielgus
     - towca
+    - x13n
     privacy: closed
     repos:
       autoscaler: admin
@@ -1727,6 +1728,7 @@ teams:
     - MaciekPytel
     - mwielgus
     - towca
+    - x13n
     privacy: closed
     repos:
       autoscaler: write
@@ -1738,7 +1740,7 @@ teams:
     - gjtempleton
     - MaciekPytel
     - mwielgus
-    - towca
+    - x13n
     privacy: closed
     repos:
       autoscaler: read

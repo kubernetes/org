@@ -1708,42 +1708,6 @@ teams:
     privacy: closed
     repos:
       api: read
-  autoscaler-admins:
-    description: Admin access to the autoscaler repo
-    members:
-    - bigdarkclown
-    - gjtempleton
-    - MaciekPytel
-    - mwielgus
-    - towca
-    - x13n
-    privacy: closed
-    repos:
-      autoscaler: admin
-  autoscaler-maintainers:
-    description: "Maintainers of sub-projects in the autoscaler repo"
-    members:
-    - bigdarkclown
-    - gjtempleton
-    - MaciekPytel
-    - mwielgus
-    - towca
-    - x13n
-    privacy: closed
-    repos:
-      autoscaler: write
-  autoscaler-reviewers:
-    description: "Reviewers of PRs in the autoscaler repo"
-    members:
-    - bigdarkclown
-    - feiskyer
-    - gjtempleton
-    - MaciekPytel
-    - mwielgus
-    - x13n
-    privacy: closed
-    repos:
-      autoscaler: read
   bash-firefighters:
     description: Folks with expertise in bash reviews
     maintainers:

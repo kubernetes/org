@@ -5,9 +5,13 @@ teams:
     - ericavonb
     - hannibalhuang
     privacy: closed
+    repos:
+      wg-policy-prototypes: admin
   wg-policy-prototypes-maintainers:
     description: Write access to wg-policy-prototypes
     members:
     - JimBugwadia
     - rficcaglia
     privacy: closed
+    repos:
+      wg-policy-prototypes: write

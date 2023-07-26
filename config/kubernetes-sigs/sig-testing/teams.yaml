@@ -6,6 +6,8 @@ teams:
     - ixdy
     - stevekuznetsov
     privacy: closed
+    repos:
+      boskos: admin
   boskos-maintainers:
     description: write access to kubernetes-sigs/boksos
     members:
@@ -13,18 +15,24 @@ teams:
     - ixdy
     - stevekuznetsov
     privacy: closed
+    repos:
+      boskos: write
   cloud-provider-kind-admins:
     description: Admin access to the cloud-provider-kind repo
     members:
     - aojea
     - BenTheElder
     privacy: closed
+    repos:
+      cloud-provider-kind: admin
   cloud-provider-kind-maintainers:
     description: Write access to the cloud-provider-kind repo
     members:
     - aojea
     - BenTheElder
     privacy: closed
+    repos:
+      cloud-provider-kind: write
   e2e-framework-admins:
     description: admin access to e2e-framework
     members:
@@ -34,6 +42,8 @@ teams:
     - spiffxp
     - vladimirvivien
     privacy: closed
+    repos:
+      e2e-framework: admin
   e2e-framework-maintainers:
     description: write access to e2e-framework
     members:
@@ -42,6 +52,8 @@ teams:
     - BenTheElder
     - spiffxp
     privacy: closed
+    repos:
+      e2e-framework: write
   kind-admins:
     description: Admin access to the kind repo
     members:
@@ -50,6 +62,8 @@ teams:
     - BenTheElder
     - munnerz
     privacy: closed
+    repos:
+      kind: admin
   kind-maintainers:
     description: Write access to the kind repo
     members:
@@ -58,18 +72,24 @@ teams:
     - BenTheElder
     - munnerz
     privacy: closed
+    repos:
+      kind: write
   kubetest2-admins:
     description: Admin access to kubetest2
     members:
     - MushuEE
     - spiffxp
     privacy: closed
+    repos:
+      kubetest2: admin
   kubetest2-maintainers:
     description: Write access to kubetest2
     members:
     - MushuEE
     - spiffxp
     privacy: closed
+    repos:
+      kubetest2: write
   prow-admins:
     description: Admin access to prow
     maintainers:
@@ -81,6 +101,8 @@ teams:
     - petr-muller
     - stevekuznetsov
     privacy: closed
+    repos:
+      prow: admin
   prow-maintainers:
     description: Write access to prow
     maintainers:
@@ -92,3 +114,5 @@ teams:
     - petr-muller
     - stevekuznetsov
     privacy: closed
+    repos:
+      prow: write

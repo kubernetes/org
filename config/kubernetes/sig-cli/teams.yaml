@@ -16,3 +16,5 @@ teams:
     - seans3
     - soltysh
     privacy: closed
+    repos:
+      kubectl: write

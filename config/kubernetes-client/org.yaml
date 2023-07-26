@@ -68,24 +68,32 @@ teams:
     members:
     - krabhishek8260
     privacy: closed
+    repos:
+      python: read
   c-admins:
     description: Admin access to the c repo
     members:
     - brendandburns
     - ityuhui
     privacy: closed
+    repos:
+      c: admin
   c-maintainers:
     description: Write access to the c repo
     members:
     - brendandburns
     - ityuhui
     privacy: closed
+    repos:
+      c: write
   csharp-admins:
     description: Admin access to csharp repo
     members:
     - brendandburns
     - tg123
     privacy: closed
+    repos:
+      csharp: admin
   gen-admins:
     description: Admin access to gen repo
     members:
@@ -94,6 +102,8 @@ teams:
     - yliaog
     - yue9944882
     privacy: closed
+    repos:
+      gen: admin
   go-admins:
     description: Admin access to go repo
     members:
@@ -101,6 +111,8 @@ teams:
     - roycaihw
     - yliaog
     privacy: closed
+    repos:
+      go: admin
   go-base-admins:
     description: Admin access to go-base repo
     members:
@@ -108,11 +120,15 @@ teams:
     - roycaihw
     - yliaog
     privacy: closed
+    repos:
+      go-base: admin
   haskell-admins:
     description: Admin access to haskell repo
     members:
     - brendandburns
     privacy: closed
+    repos:
+      haskell: admin
   java-admins:
     description: Admin access to java repo
     members:
@@ -120,23 +136,31 @@ teams:
     - yliaog
     - yue9944882
     privacy: closed
+    repos:
+      java: admin
   javascript-admins:
     description: Admin access to javascript repo
     members:
     - brendandburns
     privacy: closed
+    repos:
+      javascript: admin
   perl-admins:
     description: Admin access to perl repo
     members:
     - brendandburns
     - yue9944882
     privacy: closed
+    repos:
+      perl: admin
   perl-maintainers:
     description: Write access to perl repo
     members:
     - brendandburns
     - yue9944882
     privacy: closed
+    repos:
+      perl: write
   python-admins:
     description: Admin access to python repo
     members:
@@ -144,6 +168,8 @@ teams:
     - roycaihw
     - yliaog
     privacy: closed
+    repos:
+      python: admin
   python-base-admins:
     description: Admin access to python-base repo
     members:
@@ -151,8 +177,12 @@ teams:
     - roycaihw
     - yliaog
     privacy: closed
+    repos:
+      python-base: admin
   ruby-admins:
     description: Admin access to ruby repo
     members:
     - brendandburns
     privacy: closed
+    repos:
+      ruby: admin

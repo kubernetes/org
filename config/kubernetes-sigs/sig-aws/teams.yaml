@@ -11,6 +11,8 @@ teams:
     - torredil
     - wongma7
     privacy: closed
+    repos:
+      aws-ebs-csi-driver: admin
   aws-ebs-csi-driver-maintainers:
     description: ""
     members:
@@ -27,6 +29,8 @@ teams:
     - torredil
     - wongma7
     privacy: closed
+    repos:
+      aws-ebs-csi-driver: write
   aws-encryption-provider-admins:
     description: admin access to aws_encryption-provider repo
     members:
@@ -36,6 +40,8 @@ teams:
     - nckturner
     - wongma7
     privacy: closed
+    repos:
+      aws-encryption-provider: admin
   aws-encryption-provider-maintainers:
     description: write access to aws_encryption-provider
     members:
@@ -44,6 +50,8 @@ teams:
     - nckturner
     - wongma7
     privacy: closed
+    repos:
+      aws-encryption-provider: write
   aws-fsx-csi-driver-admins:
     description: admin access to aws-fsx-csi-driver
     members:
@@ -54,6 +62,8 @@ teams:
     - leakingtapan
     - wongma7
     privacy: closed
+    repos:
+      aws-fsx-csi-driver: admin
   aws-fsx-csi-driver-maintainers:
     description: write access to aws-fsx-csi-driver
     members:
@@ -65,6 +75,8 @@ teams:
     - leakingtapan
     - wongma7
     privacy: closed
+    repos:
+      aws-fsx-csi-driver: write
   aws-efs-csi-driver-admins:
     description: admin access to aws-efs-csi-driver
     members:
@@ -74,6 +86,8 @@ teams:
     - leakingtapan
     - wongma7
     privacy: closed
+    repos:
+      aws-efs-csi-driver: admin
   aws-efs-csi-driver-maintainers:
     description: write access to aws-efs-csi-driver
     members:
@@ -84,3 +98,5 @@ teams:
     - leakingtapan
     - wongma7
     privacy: closed
+    repos:
+      aws-efs-csi-driver: write

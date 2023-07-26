@@ -7,6 +7,8 @@ teams:
     - spiffxp
     - thockin
     privacy: closed
+    repos:
+      community-images: admin
   community-images-writers:
     description: write access to community-images
     members:
@@ -15,6 +17,8 @@ teams:
       - spiffxp
       - thockin
     privacy: closed
+    repos:
+      community-images: write
   community-images-maintainers:
     description: write access to community-images
     members:
@@ -23,6 +27,8 @@ teams:
     - spiffxp
     - thockin
     privacy: closed
+    repos:
+      community-images: write
   porche-admins:
     description: admins access to porche
     members:
@@ -33,6 +39,8 @@ teams:
     - spiffxp
     - thockin
     privacy: closed
+    repos:
+      porche: admin
   porche-writers:
     description: write access to porche
     members:
@@ -43,6 +51,8 @@ teams:
       - spiffxp
       - thockin
     privacy: closed
+    repos:
+      porche: write
   porche-maintainers:
     description: write access to porche
     members:
@@ -53,3 +63,5 @@ teams:
     - spiffxp
     - thockin
     privacy: closed
+    repos:
+      porche: write

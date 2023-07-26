@@ -55,6 +55,8 @@ teams:
     - mrueg
     - rexagod
     privacy: closed
+    repos:
+      kube-state-metrics: admin
   kube-state-metrics-maintainers:
     description: Write access to the kube-state-metrics repo
     members:
@@ -63,6 +65,8 @@ teams:
     - mrueg
     - rexagod
     privacy: closed
+    repos:
+      kube-state-metrics: write
   klog-admins:
     description: Admin access to the klog repo
     members:
@@ -70,6 +74,8 @@ teams:
     - serathius
     - thockin
     privacy: closed
+    repos:
+      klog: admin
   klog-maintainers:
     description: Write access to the klog repo
     members:
@@ -77,15 +83,21 @@ teams:
     - serathius
     - thockin
     privacy: closed
+    repos:
+      klog: write
   metrics-admins:
     description: Admin access to the metrics repo
     members:
     - dgrisonnet
     - serathius
     privacy: closed
+    repos:
+      metrics: admin
   metrics-maintainers:
     description: Write access to the metrics repo
     members:
     - dgrisonnet
     - serathius
     privacy: closed
+    repos:
+      metrics: write

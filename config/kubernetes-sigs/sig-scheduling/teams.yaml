@@ -4,11 +4,15 @@ teams:
     members:
     - ingvagabund
     privacy: closed
+    repos:
+      cluster-capacity: admin
   cluster-capacity-maintainers:
     description: Write access to the cluster-capacity repo
     members:
     - ingvagabund
     privacy: closed
+    repos:
+      cluster-capacity: write
   descheduler-admins:
     description: Admin access to the descheduler repo
     members:
@@ -19,6 +23,8 @@ teams:
     # - k82cn
     # - ravisantoshgudimetla
     privacy: closed
+    repos:
+      descheduler: admin
   descheduler-maintainers:
     description: Write access to the descheduler repo
     members:
@@ -33,6 +39,8 @@ teams:
     privacy: closed
     previously:
     - descehduler-maintainers
+    repos:
+      descheduler: write
   kube-scheduler-simulator-admins:
     description: Admin access to the kube-scheduler-simulator
     members:
@@ -40,6 +48,8 @@ teams:
     - Huang-Wei
     - sanposhiho
     privacy: closed
+    repos:
+      kube-scheduler-simulator: admin
   kube-scheduler-wasm-extension-admins:
     description: Admin access to the kube-scheduler-wasm-extension
     members:
@@ -53,33 +63,45 @@ teams:
     - ahg-g
     - alculquicondor
     privacy: closed
+    repos:
+      kueue: admin
   kueue-maintainers:
     description: Write access to the kueue repo
     members:
     - ahg-g
     - alculquicondor
     privacy: closed
+    repos:
+      kueue: write
   kwok-admins:
     description: Admin access to the kwok repo
     members:
     - Huang-Wei
     - wzshiming
     privacy: closed
+    repos:
+      kwok: admin
   kwok-maintainers:
     description: Write access to the kwok repo
     members:
     - Huang-Wei
     - wzshiming
     privacy: closed
+    repos:
+      kwok: write
   scheduler-plugins-admins:
     description: Admin access to the scheduler-plugins repo
     members:
     - ahg-g
     - Huang-Wei
     privacy: closed
+    repos:
+      scheduler-plugins: admin
   scheduler-plugins-maintainers:
     description: Write access to the scheduler-plugins repo
     members:
     - ahg-g
     - Huang-Wei
     privacy: closed
+    repos:
+      scheduler-plugins: write

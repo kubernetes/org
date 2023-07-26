@@ -1088,6 +1088,8 @@ teams:
     - nan-yu
     - prydonius
     privacy: closed
+    repos:
+      application: admin
   bots:
     description: Bot Service Accounts in the Kubernetes-SIGs org
     maintainers:
@@ -1104,6 +1106,8 @@ teams:
     - saschagrunert
     - yujuhong
     privacy: closed
+    repos:
+      cri-tools: admin
   cri-tools-maintainers:
     description: Write access to the cri-tools repo
     members:
@@ -1114,6 +1118,8 @@ teams:
     - saschagrunert
     - yujuhong
     privacy: closed
+    repos:
+      cri-tools: write
   dashboard-metrics-scraper-admins:
     description: Admin access to the dashboard-metrics-scraper repo
     members:
@@ -1121,6 +1127,8 @@ teams:
     - jeefy
     - maciaszczykm
     privacy: closed
+    repos:
+      dashboard-metrics-scraper: admin
   dashboard-metrics-scraper-maintainers:
     description: Write access to the dashboard-metrics-scraper
     members:
@@ -1128,6 +1136,8 @@ teams:
     - jeefy
     - maciaszczykm
     privacy: closed
+    repos:
+      dashboard-metrics-scraper: write
   gcp-compute-persistent-disk-csi-driver-admins:
     description: Admin access to the gcp-compute-persistent-disk-csi-driver repo
     members:
@@ -1138,6 +1148,8 @@ teams:
     - saad-ali
     - saikat-royc
     privacy: closed
+    repos:
+      gcp-compute-persistent-disk-csi-driver: admin
   gcp-compute-persistent-disk-csi-driver-maintainers:
     description: Write access to the gcp-compute-persistent-disk-csi-driver repo
     members:
@@ -1150,6 +1162,8 @@ teams:
     - sunnylovestiramisu
     - tyuchn
     privacy: closed
+    repos:
+      gcp-compute-persistent-disk-csi-driver: write
   gcp-filestore-csi-driver-admins:
     description: Admin access to the gcp-filestore-csi-driver repo
     members:
@@ -1159,6 +1173,8 @@ teams:
     - saad-ali
     - saikat-royc
     privacy: closed
+    repos:
+      gcp-filestore-csi-driver: admin
   gcp-filestore-csi-driver-maintainers:
     description: Write access to the gcp-filestore-csi-driver repo
     members:
@@ -1170,6 +1186,8 @@ teams:
     - sunnylovestiramisu
     - tyuchn
     privacy: closed
+    repos:
+      gcp-filestore-csi-driver: write
   kubernetes/sig-apps:
     description: Parent team for all SIG Apps subteams (approvers, reviewers, admins)
     members:
@@ -1197,12 +1215,16 @@ teams:
     - ArangoGutierrez
     - marquiz
     privacy: closed
+    repos:
+      node-feature-discovery: admin
   node-feature-discovery-maintainers:
     description: Write access to the node-feature-discovery repo
     members:
     - ArangoGutierrez
     - marquiz
     privacy: closed
+    repos:
+      node-feature-discovery: write
   sig-storage-lib-external-provisioner-admins:
     description: Admin access to the sig-storage-lib-external-provisioner repo
     members:
@@ -1213,6 +1235,8 @@ teams:
     - wongma7
     - xing-yang
     privacy: closed
+    repos:
+      sig-storage-lib-external-provisioner: admin
   sig-storage-lib-external-provisioner-maintainers:
     description: Write access to the sig-storage-lib-external-provisioner repo
     members:
@@ -1223,6 +1247,8 @@ teams:
     - wongma7
     - xing-yang
     privacy: closed
+    repos:
+      sig-storage-lib-external-provisioner: write
   sig-storage-local-static-provisioner-admins:
     description: Admin access to the sig-storage-local-static-provisioner repo
     members:
@@ -1234,6 +1260,8 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
+    repos:
+      sig-storage-local-static-provisioner: admin
   sig-storage-local-static-provisioner-maintainers:
     description: Write access to the sig-storage-local-static-provisioner repo
     members:
@@ -1245,3 +1273,5 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
+    repos:
+      sig-storage-local-static-provisioner: write

@@ -151,6 +151,8 @@ teams:
     privacy: closed
     previously:
     - kubernetes-milestone-maintainers
+    repos:
+      enhancements: write
   publishing-bot-admins:
     description: Admin access to the publishing-bot repo
     maintainers:
@@ -166,6 +168,8 @@ teams:
     privacy: closed
     previously:
     - publishing-bot-reviewers
+    repos:
+      publishing-bot: admin
   publishing-bot-maintainers:
     description: Write access to the publishing-bot repo
     maintainers:
@@ -182,6 +186,8 @@ teams:
     - Verolop
     - xmudrii
     privacy: closed
+    repos:
+      publishing-bot: write
   repo-infra-admins:
     description: Admin access to the repo-infra repo
     members:
@@ -194,6 +200,8 @@ teams:
     - puerco
     - saschagrunert
     privacy: closed
+    repos:
+      repo-infra: admin
   repo-infra-maintainers:
     description: Write access to the repo-infra repo
     members:
@@ -208,6 +216,8 @@ teams:
     - Verolop
     - xmudrii
     privacy: closed
+    repos:
+      repo-infra: write
   sig-release:
     description: SIG Release members. Explicitly lists SIG Release Chairs,
       Technical Leads, Program Managers, and any active SIG contributors that
@@ -268,6 +278,9 @@ teams:
         - Verolop # subproject owner / Release Manager
         - xmudrii # Release Manager
         privacy: closed
+        repos:
+          release: triage
+          sig-release: triage
         teams:
           release-managers:
             description: People actively pushing Kubernetes releases. Gives
@@ -289,6 +302,10 @@ teams:
             privacy: closed
             previously:
             - kubernetes-release-managers
+            repos:
+              kubernetes: admin
+              release: write
+              sig-release: write
       release-team:
         description: Members of the current Release Team and subproject owners.
         maintainers:
@@ -397,6 +414,10 @@ teams:
             - mickeyboxell # 1.28 Lead Shadow
             - neoaggelos # 1.28 Lead Shadow
             privacy: closed
+            repos:
+              kubernetes: write
+              release: triage
+              sig-release: write
       sig-release-admins:
         description: Admins for SIG Release repositories
         members:
@@ -407,6 +428,9 @@ teams:
         - saschagrunert # Chair
         - Verolop # Technical Lead
         privacy: closed
+        repos:
+          release: admin
+          sig-release: admin
       sig-release-leads:
         description: |
           Chairs, Technical Leads, and Program Managers for SIG Release
@@ -429,3 +453,6 @@ teams:
         - saschagrunert # Chair
         - Verolop # Technical Lead
         privacy: closed
+        repos:
+          release: triage
+          sig-release: maintain

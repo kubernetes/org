@@ -122,6 +122,8 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
+    repos:
+      cluster-driver-registrar: admin
   cluster-driver-registrar-maintainers:
     description: Write access to cluster-driver-registrar repo
     members:
@@ -132,6 +134,8 @@ teams:
     - sunnylovestiramisu
     - xing-yang
     privacy: closed
+    repos:
+      cluster-driver-registrar: write
   csi-driver-host-path-admins:
     description: Admin access to csi-driver-host-path repo
     members:
@@ -142,6 +146,8 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
+    repos:
+      csi-driver-host-path: admin
   csi-driver-host-path-maintainers:
     description: Write access to csi-driver-host-path repo
     members:
@@ -154,6 +160,8 @@ teams:
     - verult
     - xing-yang
     privacy: closed
+    repos:
+      csi-driver-host-path: write
   csi-driver-iscsi-admins:
     description: Admin access to csi-driver-iscsi repo
     members:
@@ -164,6 +172,8 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
+    repos:
+      csi-driver-iscsi: admin
   csi-driver-iscsi-maintainers:
     description: Write access to csi-driver-iscsi repo
     members:
@@ -175,6 +185,8 @@ teams:
     - sunnylovestiramisu
     - xing-yang
     privacy: closed
+    repos:
+      csi-driver-iscsi: write
   csi-driver-nfs-admins:
     description: Admin access to csi-driver-nfs repo
     members:
@@ -184,6 +196,8 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
+    repos:
+      csi-driver-nfs: admin
   csi-driver-nfs-maintainers:
     description: Write access to csi-driver-nfs repo
     members:
@@ -194,6 +208,8 @@ teams:
     - sunnylovestiramisu
     - xing-yang
     privacy: closed
+    repos:
+      csi-driver-nfs: write
   csi-driver-nvmf-admins:
     description: Admin access to csi-driver-nvmf repo
     members:
@@ -203,6 +219,8 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
+    repos:
+      csi-driver-nvmf: admin
   csi-driver-nvmf-maintainers:
     description: Write access to csi-driver-nvmf repo
     members:
@@ -213,6 +231,8 @@ teams:
     - sunnylovestiramisu
     - xing-yang
     privacy: closed
+    repos:
+      csi-driver-nvmf: write
   csi-driver-smb-admins:
     description: Admin access to csi-driver-smb repo
     members:
@@ -222,6 +242,8 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
+    repos:
+      csi-driver-smb: admin
   csi-driver-smb-maintainers:
     description: Write access to csi-driver-smb repo
     members:
@@ -230,6 +252,8 @@ teams:
     - msau42
     - sunnylovestiramisu
     privacy: closed
+    repos:
+      csi-driver-smb: write
   csi-lib-iscsi-admins:
     description: Admin access to csi-lib-iscsi repo
     members:
@@ -240,6 +264,8 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
+    repos:
+      csi-lib-iscsi: admin
   csi-lib-iscsi-maintainers:
     description: Write access to csi-lib-iscsi repo
     members:
@@ -251,6 +277,8 @@ teams:
     - sunnylovestiramisu
     - xing-yang
     privacy: closed
+    repos:
+      csi-lib-iscsi: write
   csi-lib-utils-admins:
     description: Admin access to csi-lib-utils repo
     members:
@@ -260,6 +288,8 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
+    repos:
+      csi-lib-utils: admin
   csi-lib-utils-maintainers:
     description: Write access to csi-lib-utils repo
     members:
@@ -272,6 +302,8 @@ teams:
     - sunnylovestiramisu
     - xing-yang
     privacy: closed
+    repos:
+      csi-lib-utils: write
   csi-misc:
     description: Miscellaneous Discussions for Kubernetes CSI Working Group
     members:
@@ -299,6 +331,8 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
+    repo:
+      csi-proxy: admin
   csi-proxy-maintainers:
     description: Write access to csi-proxy repo
     members:
@@ -312,6 +346,8 @@ teams:
     - sunnylovestiramisu
     - xing-yang
     privacy: closed
+    repo:
+      csi-proxy: write
   csi-release-tools-admins:
     description: Admin access to csi-release-tools repo
     members:
@@ -320,6 +356,8 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
+    repos:
+      csi-release-tools: admin
   csi-release-tools-maintainers:
     description: Write access to csi-release-tools repo
     members:
@@ -330,6 +368,8 @@ teams:
     - sunnylovestiramisu
     - xing-yang
     privacy: closed
+    repos:
+      csi-release-tools: write
   csi-test-admins:
     description: Admin access to csi-test repo
     members:
@@ -341,6 +381,8 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
+    repos:
+      csi-test: admin
   csi-test-maintainers:
     description: Write access to csi-test repo
     members:
@@ -352,6 +394,8 @@ teams:
     - sunnylovestiramisu
     - xing-yang
     privacy: closed
+    repos:
+      csi-test: write
   developers:
     description: ""
     members:
@@ -366,6 +410,10 @@ teams:
     - vladimirvivien
     - xing-yang
     privacy: closed
+    repos:
+      external-attacher: write
+      external-provisioner: write
+      livenessprobe: write
   docs-admins:
     description: Admin access to docs repo
     members:
@@ -375,6 +423,8 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
+    repos:
+      docs: admin
   docs-maintainers:
     description: Write access to docs repo
     members:
@@ -383,6 +433,8 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
+    repos:
+      docs: write
   driver-registrar-admins:
     description: Admin access to driver-registrar repo
     members:
@@ -393,6 +445,8 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
+    repos:
+      driver-registrar: admin
   driver-registrar-maintainers:
     description: Write access to driver-registrar repo
     members:
@@ -402,6 +456,8 @@ teams:
     - sunnylovestiramisu
     - xing-yang
     privacy: closed
+    repos:
+      driver-registrar: write
   external-attacher-admins:
     description: Admin access to external-attacher repo
     members:
@@ -410,6 +466,8 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
+    repos:
+      external-attacher: admin
   external-attacher-maintainers:
     description: Write access to external-attacher repo
     members:
@@ -421,6 +479,8 @@ teams:
     - sunnylovestiramisu
     - xing-yang
     privacy: closed
+    repos:
+      external-attacher: write
   external-health-monitor-admins:
     description: Admin access to external-health-monitor repo
     members:
@@ -429,6 +489,8 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
+    repos:
+      external-health-monitor: admin
   external-health-monitor-maintainers:
     description: Write access to external-health-monitor repo
     members:
@@ -440,6 +502,8 @@ teams:
     - sunnylovestiramisu
     - xing-yang
     privacy: closed
+    repos:
+      external-health-monitor: write
   external-provisioner-admins:
     description: Admin access to external-provisioner repo
     members:
@@ -451,6 +515,8 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
+    repos:
+      external-provisioner: admin
   external-provisioner-maintainers:
     description: Write access to external-provisioner repo
     members:
@@ -463,6 +529,8 @@ teams:
     - sunnylovestiramisu
     - xing-yang
     privacy: closed
+    repos:
+      external-provisioner: write
   external-resizer-admins:
     description: Admin access to external-resizer repo
     members:
@@ -471,6 +539,8 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
+    repos:
+      external-resizer: admin
   external-resizer-maintainers:
     description: Write access to external-resizer repo
     members:
@@ -483,6 +553,8 @@ teams:
     - sunnylovestiramisu
     - xing-yang
     privacy: closed
+    repos:
+      external-resizer: write
   external-snapshotter-admins:
     description: Admin access to external-snapshotter repo
     members:
@@ -492,6 +564,8 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
+    repos:
+      external-snapshotter: admin
   external-snapshotter-maintainers:
     description: Write access to external-snapshotter repo
     members:
@@ -503,6 +577,8 @@ teams:
     - sunnylovestiramisu
     - xing-yang
     privacy: closed
+    repos:
+      external-snapshotter: write
   kubernetes-csi-github-io-admins:
     description: Admin access to kubernetes-csi.github.io repo
     members:
@@ -511,6 +587,8 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
+    repos:
+      kubernetes-csi.github.io: admin
   lib-volume-populator-admins:
     description: Admin access to lib-volume-populator repo
     members:
@@ -518,6 +596,8 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
+    repos:
+      lib-volume-populator: admin
   livenessprobe-admins:
     description: Admin access to livenessprobe repo
     members:
@@ -527,6 +607,8 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
+    repos:
+      livenessprobe: admin
   livenessprobe-maintainers:
     description: Write access to livenessprobe repo
     members:
@@ -540,6 +622,8 @@ teams:
     - verult
     - xing-yang
     privacy: closed
+    repos:
+      livenessprobe: write
   node-driver-registrar-admins:
     description: Admin access to node-driver-registrar repo
     members:
@@ -549,6 +633,8 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
+    repos:
+      node-driver-registrar: admin
   node-driver-registrar-maintainers:
     description: Write access to node-driver-registrar repo
     members:
@@ -563,6 +649,8 @@ teams:
     - verult
     - xing-yang
     privacy: closed
+    repos:
+      node-driver-registrar: write
   volume-data-source-validator-admins:
     description: Admin access to kubernetes-csi.github.io repo
     members:
@@ -570,3 +658,5 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
+    repos:
+      volume-data-source-validator: admin

@@ -22,6 +22,8 @@ teams:
         - cheftako
         - mcrute
         privacy: closed
+        repos:
+          cloud-provider-sample: admin
       cloud-provider-sample-maintainers:
         description: ""
         members:
@@ -30,6 +32,8 @@ teams:
         - cheftako
         - mcrute
         privacy: closed
+        repos:
+          cloud-provider-sample: write
       sig-cloud-provider-alibaba-admins:
         description: ""
         members:
@@ -37,6 +41,8 @@ teams:
         - cheyang
         - gujingit
         privacy: closed
+        repos:
+          cloud-provider-alibaba-cloud: admin
       sig-cloud-provider-aws-admins:
         description: "Admin access to k8s.io/cloud-provider-aws"
         members:
@@ -45,6 +51,8 @@ teams:
         - justinsb
         - nckturner
         privacy: closed
+        repos:
+          cloud-provider-aws: admin
       sig-cloud-provider-aws-maintainers:
         description: "Write access to k8s.io/cloud-provider-aws"
         members:
@@ -53,6 +61,8 @@ teams:
         - nckturner
         - olemarkus
         privacy: closed
+        repos:
+          cloud-provider-aws: write
       sig-cloud-provider-api-reviews:
         description: ""
         members:
@@ -110,6 +120,9 @@ teams:
     - andrewsykim
     - calebamiles
     privacy: closed
+    repos:
+      cloud-provider: admin
+      cloud-provider-alibaba-cloud: admin
   sig-cloud-provider-leads:
     description: ""
     members:

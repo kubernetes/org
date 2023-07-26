@@ -250,6 +250,7 @@ teams:
     - tengqm
     - windsonsea
     - xichengliudui
+    - ydFu
     privacy: closed
   sig-docs-zh-reviews:
     description: PR reviews for Chinese content

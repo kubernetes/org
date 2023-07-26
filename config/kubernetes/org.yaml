@@ -1708,40 +1708,6 @@ teams:
     privacy: closed
     repos:
       api: read
-  autoscaler-admins:
-    description: Admin access to the autoscaler repo
-    members:
-    - MaciekPytel
-    - mwielgus
-    privacy: closed
-    repos:
-      autoscaler: admin
-  autoscaler-maintainers:
-    description: ""
-    members:
-    - aleksandra-malinowska
-    - bskiba
-    - DirectXMan12
-    - losipiuk
-    - MaciekPytel
-    - mwielgus
-    - piosz
-    privacy: closed
-    repos:
-      autoscaler: write
-  autoscaler-reviewers:
-    description: ""
-    members:
-    - aleksandra-malinowska
-    - bskiba
-    - DirectXMan12
-    - feiskyer
-    - MaciekPytel
-    - mwielgus
-    - piosz
-    privacy: closed
-    repos:
-      autoscaler: read
   bash-firefighters:
     description: Folks with expertise in bash reviews
     maintainers:

@@ -171,6 +171,7 @@ restrictions:
     - "^aws-iam-authenticator"
     - "^blob-csi-driver"
     - "^cloud-provider-baiducloud"
+    - "^cloud-provider-equinix-metal"
     - "^cloud-provider-huaweicloud"
     - "^ibm-powervs-block-csi-driver"
     - "^provider-aws-test-infra"

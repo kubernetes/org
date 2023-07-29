@@ -136,6 +136,15 @@ teams:
    privacy: closed
    repos:
      cloud-provider-baiducloud: write
+  cloud-provider-equinix-metal-admins:
+   description: Admin access to the cloud-provider-equinix-metal repo
+   members:
+    - cprivitere
+    - deitch
+    - displague
+   privacy: closed
+   repos:
+    cloud-provider-equinix-metal: admin
   cloud-provider-huaweicloud-admins:
    description: Admin access to the cloud-provider-huaweicloud repo
    members:

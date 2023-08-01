@@ -317,7 +317,9 @@ teams:
   cluster-api-provider-vsphere-admins:
     description: Admin access to the cluster-api-provider-vsphere repo
     members:
+    - akutz
     - chrischdi
+    - frapposelli
     - gab-satchi
     - killianmuldoon
     - randomvariable
@@ -330,12 +332,17 @@ teams:
   cluster-api-provider-vsphere-maintainers:
     description: Write access to the cluster-api-provider-vsphere repo
     members:
+    - akutz
     - chrischdi
+    - figo
+    - frapposelli
     - gab-satchi
     - killianmuldoon
     - randomvariable
     - sbueringer
+    - sidharthsurana
     - srm09
+    - vincepri
     - yastij
     privacy: closed
     repos:

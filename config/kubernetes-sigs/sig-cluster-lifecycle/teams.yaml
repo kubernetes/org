@@ -102,7 +102,7 @@ teams:
     repos:
       cluster-api-provider-aws: write
   cluster-api-provider-azure-admins:
-    description: ""
+    description: admin access to cluster-api-provider-azure
     members:
     - alexeldeib
     - CecileRobertMichon
@@ -114,7 +114,7 @@ teams:
     repos:
       cluster-api-provider-azure: admin
   cluster-api-provider-azure-maintainers:
-    description: ""
+    description: write access to cluster-api-provider-azure
     members:
     - alexeldeib
     - CecileRobertMichon

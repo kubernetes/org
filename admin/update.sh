@@ -39,6 +39,7 @@ args=(
   --fix-org-members
   --fix-teams
   --fix-team-members
+  --fix-team-repos
   "${admins[@]/#/--required-admins=}"
 )
 

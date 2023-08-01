@@ -2255,6 +2255,9 @@ teams:
       controller-manager: admin
       cri-api: admin
       csi-translation-lib: admin
+      dynamic-resource-allocation: admin
+      endpointslice: admin
+      kms: admin
       kube-aggregator: admin
       kube-controller-manager: admin
       kube-proxy: admin
@@ -2265,7 +2268,7 @@ teams:
       metrics: admin
       mount-utils: admin
       node-api: admin
-      noderesourcetopology-api: admin
+      pod-security-admission: admin
       sample-apiserver: admin
       sample-cli-plugin: admin
       sample-controller: admin

@@ -104,24 +104,22 @@ teams:
   cluster-api-provider-azure-admins:
     description: ""
     members:
-    - alexeldeib
     - CecileRobertMichon
-    - devigned
     - jackfrancis
     - mboersma
-    - shysank
+    - nojnhuh
+    - sonasingh46
     privacy: closed
     repos:
       cluster-api-provider-azure: admin
   cluster-api-provider-azure-maintainers:
     description: ""
     members:
-    - alexeldeib
     - CecileRobertMichon
-    - devigned
     - jackfrancis
     - mboersma
-    - shysank
+    - nojnhuh
+    - sonasingh46
     privacy: closed
     repos:
       cluster-api-provider-azure: write

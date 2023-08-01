@@ -343,20 +343,23 @@ teams:
   cluster-api-release-team:
     description: Release team of Cluster API
     members:
-    - aniruddha2000
-    - CecileRobertMichon
+    # members added in commented lines have a pending membership
+    # and will be added back once it is acquired.
+    # - adilGhaffarDev
+    - cahillsf
     - chiukapoor
-    - chrischdi
     - furkatgofurov7
     - g-gaston
     - hackeramitkumar
-    - joekr
-    - johannesfrey
-    - killianmuldoon
+    # - kranurag7
+    # - mjlshen
     - nawazkh
+    - nprokopic
     - Prajyot-Parab
-    - sbueringer
-    - tobiasgiese
+    # - razashahid107
+    # - Sunnatillo
+    - vincepri
+    - willie-yao
     privacy: closed
   etcdadm-admins:
     description: Admin access to the etcdadm repo

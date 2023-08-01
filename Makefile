@@ -85,6 +85,6 @@ $(TEST_INFRA_PATH):
 	mkdir -p $(TEST_INFRA_PATH)
 	git clone --depth=1 https://github.com/kubernetes/test-infra $(TEST_INFRA_PATH)
 
-$(PERIBOLOS_CMD): $(TEST_INFRA_PATH)
+$(PERIBOLOS_CMD): clean $(TEST_INFRA_PATH)
 	cd $(TEST_INFRA_PATH) && \
 		go build -v -o $(PERIBOLOS_CMD) ./prow/cmd/peribolos

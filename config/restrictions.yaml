@@ -201,7 +201,7 @@ restrictions:
     allowedRepos:
     - "^contributor-tweets"
     - "^discuss-theme"
-    - "^lkwd"
+    - "^lwkd"
     - "^maintainers"
     - "^slack-infra"
   - path: "kubernetes-sigs/sig-docs/teams.yaml"

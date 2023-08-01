@@ -47,7 +47,7 @@ teams:
     - jberkus
     privacy: closed
     repos:
-      lkwd: admin
+      lwkd: admin
   lwkd-maintainers:
     description: write access to the lwkd repo
     members:
@@ -55,7 +55,7 @@ teams:
     - jberkus
     privacy: closed
     repos:
-      lkwd: write
+      lwkd: write
   maintainers-admins:
     description: admin access to the maintainers repo
     maintainers:

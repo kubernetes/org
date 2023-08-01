@@ -63,7 +63,7 @@ update-prep: config test peribolos
 
 .PHONY: deploy # --confirm
 deploy:
-	./admin-update.sh
+	./admin/update.sh
 		$(-*-command-variables-*-) $(filter-out $@,$(MAKECMDGOALS))
 
 add-members:

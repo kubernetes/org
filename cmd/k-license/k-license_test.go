@@ -19,6 +19,7 @@ package main
 import (
 	"fmt"
 	"io"
+	"io/fs"
 	"os"
 	"path/filepath"
 	"strings"
@@ -53,9 +54,39 @@ func TestAddLicense(t *testing.T) {
 			if err := optTest.Run(); err != nil {
 				t.Errorf("error running test case %s: %v", c.desc, err)
 			}
+			if err := checkLicense(); err != nil {
+				t.Fatalf("error Check License on Files Failed %s: %v", c.desc, err)
+			}
 			defer os.RemoveAll(tmpTestDir)
 		})
 	}
+}
+
+func checkLicense() error {
+	err := filepath.WalkDir(optTest.path, func(path string, info fs.DirEntry, err error) error {
+		if info.IsDir() && containsExcluded(optTest.excludeDirs, info.Name()) {
+			return filepath.SkipDir
+		}
+		if !info.IsDir() && (isCodeFile(path) || isBuildFile(path)) && !isGenerateFile(path) {
+			hasLic, err := hasLicense(path)
+			if !hasLic {
+				if optTest.confirm {
+					fmt.Printf("Modified %s file\n", path)
+					return nil
+				}
+			}
+			if err != nil {
+
+				return fmt.Errorf("Error Adding Header/verifying Files")
+			}
+
+		}
+		if err != nil {
+			return err
+		}
+		return nil
+	})
+	return err
 }
 
 func createTmpDir() string {

@@ -272,6 +272,7 @@ restrictions:
     - "^descheduler"
     - "^kube-batch"
     - "^kube-scheduler-simulator"
+    - "^kube-scheduler-wasm-extension"
     - "^kueue"
     - "^kwok"
     - "^scheduler-plugins"

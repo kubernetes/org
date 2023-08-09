@@ -94,13 +94,16 @@ restrictions:
     - "^kube-state-metrics"
     - "^klog"
     - "^metrics"
+  - path: "kubernetes/sig-k8s-infra/teams.yaml"
+    allowedRepos:
+    - "^k8s.io"
+  - path: "kubernetes/sig-security/teams.yaml"
+    allowedRepos:
+    - "^sig-security"
   - path: "kubernetes/sig-testing/teams.yaml"
     allowedRepos:
     - "^test-infra"
     - "^publishing-bot"
-  - path: "kubernetes/sig-k8s-infra/teams.yaml"
-    allowedRepos:
-    - "^k8s.io"
   - path: "kubernetes-sigs/org.yaml"
     allowedRepos:
     - "^application"

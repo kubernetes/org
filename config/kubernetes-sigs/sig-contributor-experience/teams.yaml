@@ -75,6 +75,8 @@ teams:
     members:
     - dims
     privacy: closed
+    repos:
+      maintainers: write
   sigs-github-actions-admins:
     description: admin access to the sigs-github-actions repo
     maintainers:
@@ -85,6 +87,8 @@ teams:
     - nikhita
     - palnabarun
     privacy: closed
+    repos:
+      sigs-github-actions: admin
   sigs-github-actions-maintainers:
     description: write access to the sigs-github-actions repo
     maintainers:
@@ -95,7 +99,7 @@ teams:
     - Priyankasaggu11929
     privacy: closed
     repos:
-      maintainers: write
+      sigs-github-actions: write
   slack-infra-admins:
     description: admin access to slack-infra
     members:

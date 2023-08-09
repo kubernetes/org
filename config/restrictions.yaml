@@ -59,6 +59,9 @@ restrictions:
   - path: "kubernetes/sig-apps/teams.yaml"
     allowedRepos:
     - "^kompose"
+  - path: "kubernetes/sig-api-machinery/teams.yaml"
+    allowedRepos:
+    - "^cel-admission-webhook"
   - path: "kubernetes/sig-architecture/teams.yaml"
     allowedRepos:
     - "^enhancements"

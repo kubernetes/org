@@ -46,6 +46,7 @@ teams:
   sig-windows-dev-tools-admins:
     description: Admin access to sig-windows-dev-tools repo
     members:
+    - aroradaman
     - claudiubelu
     - dougsland
     - jayunit100

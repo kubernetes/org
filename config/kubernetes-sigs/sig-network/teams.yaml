@@ -84,10 +84,10 @@ teams:
     description: Admin access to the ingress2gateway repo
     members:
     - bowei
+    - LiorLieberman
     - robscott
     - shaneutt
     - youngnick
-    - LiorLieberman
     privacy: closed
     repos:
       ingress2gateway: admin
@@ -95,10 +95,10 @@ teams:
     description: Write access to the ingress2gateway repo
     members:
     - bowei
+    - LiorLieberman
     - robscott
     - shaneutt
     - youngnick
-    - LiorLieberman
     privacy: closed
     repos:
       ingress2gateway: write

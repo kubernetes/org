@@ -87,6 +87,7 @@ teams:
     - robscott
     - shaneutt
     - youngnick
+    - LiorLieberman
     privacy: closed
     repos:
       ingress2gateway: admin
@@ -97,6 +98,7 @@ teams:
     - robscott
     - shaneutt
     - youngnick
+    - LiorLieberman
     privacy: closed
     repos:
       ingress2gateway: write

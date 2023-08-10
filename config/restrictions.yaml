@@ -98,6 +98,7 @@ restrictions:
   - path: "kubernetes/sig-k8s-infra/teams.yaml"
     allowedRepos:
     - "^k8s.io"
+    - "^registry.k8s.io"
   - path: "kubernetes/sig-security/teams.yaml"
     allowedRepos:
     - "^sig-security"

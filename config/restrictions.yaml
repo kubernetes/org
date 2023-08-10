@@ -64,6 +64,7 @@ restrictions:
     - "^cel-admission-webhook"
   - path: "kubernetes/sig-architecture/teams.yaml"
     allowedRepos:
+    - "^design-proposals-archive"
     - "^enhancements"
   - path: "kubernetes/sig-autoscaling/teams.yaml"
     allowedRepos:

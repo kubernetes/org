@@ -17,6 +17,8 @@ teams:
         - dims
         - johnbelamaric
         privacy: closed
+        repos:
+          design-proposals-archive: admin
       sig-architecture-pr-reviews:
         description: SIG Architecture PR review notifications
         members:

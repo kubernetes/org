@@ -84,6 +84,7 @@ teams:
     description: Admin access to the ingress2gateway repo
     members:
     - bowei
+    - LiorLieberman
     - robscott
     - shaneutt
     - youngnick
@@ -94,6 +95,7 @@ teams:
     description: Write access to the ingress2gateway repo
     members:
     - bowei
+    - LiorLieberman
     - robscott
     - shaneutt
     - youngnick

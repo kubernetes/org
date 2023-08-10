@@ -312,6 +312,7 @@ teams:
         - jrsapi # Release Manager Associate
         - justaugustus # subproject owner / Release Manager
         - k8s-release-robot
+        - marosset # Release Manager Associate
         - puerco # subproject owner / Release Manager
         - ramrodo # Release Manager Associate
         - salaxander # Release Manager Associate

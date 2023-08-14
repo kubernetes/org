@@ -189,9 +189,10 @@ aliases:
   provider-ibmcloud:
     - spzala
   provider-openstack:
-    - chrigl
-    - lingxiankong
-    - ramineni
+    - dulek
+    - jichenjc
+    - kayrus
+    - zetaab
   provider-vmware:
     - cantbewong
     - frapposelli

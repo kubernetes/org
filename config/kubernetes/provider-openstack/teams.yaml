@@ -25,10 +25,14 @@ teams:
     - dulek
     - jichenjc
     - kayrus
+    - mdbooth
     - zetaab
     privacy: closed
     repos:
       cloud-provider-openstack: read
+
+  # NOTE(mdbooth): The purpose of the teams below is not clear. Membership is
+  # not actively maintained.
   provider-openstack-api-reviews:
     description: ""
     members:

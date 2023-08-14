@@ -284,8 +284,8 @@ teams:
   cluster-api-provider-openstack-maintainers:
     description: write access to cluster-api-provider-openstack
     members:
-    - hidekazuna
     - jichenjc
+    - lentzi90
     - mdbooth
     - seanschneeweiss
     - tobiasgiese

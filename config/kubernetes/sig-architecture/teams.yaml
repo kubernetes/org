@@ -79,17 +79,8 @@ teams:
   production-readiness:
     description: Production Readiness Review Team
     members:
-    - andrewsykim
-    - bentheelder
-    - cici37
     - deads2k
-    - enj
-    - jeremyrickard
     - johnbelamaric
-    - jpbetz
-    - logicalhan
-    - spiffxp
-    - tallclair
     - wojtek-t
     privacy: closed
     teams:

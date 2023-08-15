@@ -24,9 +24,13 @@ teams:
     - IanColdwater
     - tabbysable
     privacy: closed
+    repos:
+      sig-security: admin
   sig-security-maintainers:
     description: Write access to sig-security repo
     members:
     - IanColdwater
     - tabbysable
     privacy: closed
+    repos:
+      sig-security: write

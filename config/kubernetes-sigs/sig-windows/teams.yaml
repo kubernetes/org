@@ -46,6 +46,7 @@ teams:
   sig-windows-dev-tools-admins:
     description: Admin access to sig-windows-dev-tools repo
     members:
+    - aroradaman
     - claudiubelu
     - dougsland
     - jayunit100
@@ -55,6 +56,7 @@ teams:
     privacy: closed
     repos:
       sig-windows-dev-tools: admin
+      windows-service-proxy: admin
   sig-windows-tools-admins:
     description: Admin access to sig-windows-tools repo
     members:

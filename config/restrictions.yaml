@@ -59,8 +59,12 @@ restrictions:
   - path: "kubernetes/sig-apps/teams.yaml"
     allowedRepos:
     - "^kompose"
+  - path: "kubernetes/sig-api-machinery/teams.yaml"
+    allowedRepos:
+    - "^cel-admission-webhook"
   - path: "kubernetes/sig-architecture/teams.yaml"
     allowedRepos:
+    - "^design-proposals-archive"
     - "^enhancements"
   - path: "kubernetes/sig-autoscaling/teams.yaml"
     allowedRepos:
@@ -91,13 +95,17 @@ restrictions:
     - "^kube-state-metrics"
     - "^klog"
     - "^metrics"
+  - path: "kubernetes/sig-k8s-infra/teams.yaml"
+    allowedRepos:
+    - "^k8s.io"
+    - "^registry.k8s.io"
+  - path: "kubernetes/sig-security/teams.yaml"
+    allowedRepos:
+    - "^sig-security"
   - path: "kubernetes/sig-testing/teams.yaml"
     allowedRepos:
     - "^test-infra"
     - "^publishing-bot"
-  - path: "kubernetes/sig-k8s-infra/teams.yaml"
-    allowedRepos:
-    - "^k8s.io"
   - path: "kubernetes-sigs/org.yaml"
     allowedRepos:
     - "^application"
@@ -206,6 +214,7 @@ restrictions:
     - "^discuss-theme"
     - "^lwkd"
     - "^maintainers"
+    - "^sigs-github-actions"
     - "^slack-infra"
   - path: "kubernetes-sigs/sig-docs/teams.yaml"
     allowedRepos:
@@ -272,6 +281,7 @@ restrictions:
     - "^descheduler"
     - "^kube-batch"
     - "^kube-scheduler-simulator"
+    - "^kube-scheduler-wasm-extension"
     - "^kueue"
     - "^kwok"
     - "^scheduler-plugins"

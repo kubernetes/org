@@ -5,12 +5,16 @@ teams:
     - cici37
     - jpbetz
     privacy: closed
+    repos:
+      cel-admission-webhook: admin
   cel-admission-webhook-maintainers:
     description: write access to cel-admission-webhook
     members:
     - cici37
     - jpbetz
     privacy: closed
+    repos:
+      cel-admission-webhook: write
   sig-api-machinery-api-reviews:
     description: ""
     members:

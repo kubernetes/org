@@ -57,6 +57,8 @@ teams:
     - kerthcet
     - sanposhiho
     privacy: closed
+    repos:
+      kube-scheduler-wasm-extension: admin
   kueue-admins:
     description: Admin access to the kueue repo
     members:

@@ -1,12 +1,12 @@
 admins:
 - cblecker
-- idvoretskyi
 - k8s-ci-robot
 - k8s-github-robot
 - MadhavJivrajani
 - mrbobbytables
 - nikhita
 - palnabarun
+- Priyankasaggu11929
 - thelinuxfoundation
 billing_email: github@kubernetes.io
 default_repository_permission: read
@@ -386,6 +386,7 @@ members:
 - ibabou
 - ibzib
 - idealhack
+- idvoretskyi
 - imnmo
 - ingvagabund
 - inteon
@@ -755,7 +756,6 @@ members:
 - prankul88
 - prankulmahajan
 - pravarag
-- Priyankasaggu11929
 - prksu
 - Promaethius
 - prydonius

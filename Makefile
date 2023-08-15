@@ -19,7 +19,7 @@ GITHUB_TOKEN_PATH ?=
 TEST_INFRA_PATH ?= $(OUTPUT_DIR)/tmp/test-infra
 
 # intentionally hardcoded list to ensure it's high friction to remove someone
-ADMINS = cblecker idvoretskyi MadhavJivrajani mrbobbytables nikhita palnabarun
+ADMINS = cblecker MadhavJivrajani mrbobbytables nikhita palnabarun Priyankasaggu11931
 ORGS = $(shell find ./config -type d -mindepth 1 -maxdepth 1 | cut -d/ -f3)
 
 # use absolute path to ./_output, which is .gitignored

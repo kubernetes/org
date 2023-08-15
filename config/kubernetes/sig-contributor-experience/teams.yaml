@@ -3,14 +3,13 @@ teams:
     description: ""
     maintainers:
     - cblecker
-    - idvoretskyi
     - MadhavJivrajani
     - mrbobbytables
     - nikhita
     - palnabarun
+    - Priyankasaggu11929
     members:
     - kaslin
-    - Priyankasaggu11929
     privacy: closed
     repos:
       community: admin
@@ -21,9 +20,9 @@ teams:
     - MadhavJivrajani
     - mrbobbytables
     - nikhita
+    - Priyankasaggu11929
     members:
     - kaslin
-    - Priyankasaggu11929
     privacy: closed
     repos:
       community: write
@@ -31,17 +30,18 @@ teams:
     description: Contributors who can use `/milestone` in the community repo. Defined by an entry in an OWNERS file for a contribex subproject.
     maintainers:
     - cblecker
-    - idvoretskyi
     - MadhavJivrajani
     - mrbobbytables
     - nikhita
     - palnabarun
+    - Priyankasaggu11929
     members:
     - castrojo
     - dims
     - fejta
     - grodrigues3
     - guineveresaenger
+    - idvoretskyi
     - jberkus
     - jdumars
     - jeefy
@@ -50,7 +50,6 @@ teams:
     - lukaszgryglicki
     - parispittman
     - Phillels
-    - Priyankasaggu11929
     - spiffxp
     - tpepper
     privacy: closed
@@ -90,11 +89,11 @@ teams:
       Subproject Board
     maintainers:
     - cblecker
-    - idvoretskyi
     - MadhavJivrajani
     - mrbobbytables
     - nikhita
     - palnabarun
+    - Priyankasaggu11929
     members:
     - ezzoueidi
     - idealhack
@@ -104,9 +103,8 @@ teams:
     description: Contributors with access to groom issues on org-level project boards.
       Groups can opt-in to assistance with grooming by adding this team to their project
       board with admin permissions.
-    maintainers:
-    - idvoretskyi
     members:
+    - idvoretskyi
     - jdumars
     - justaugustus
     - lachie83
@@ -117,11 +115,11 @@ teams:
     description: Improve contributor productivity
     maintainers:
     - cblecker
-    - idvoretskyi
     - MadhavJivrajani
     - mrbobbytables
     - nikhita
     - palnabarun
+    - Priyankasaggu11929
     members:
     - alisondy
     - castrojo
@@ -131,6 +129,7 @@ teams:
     - grodrigues3
     - hongchaodeng
     - idealhack
+    - idvoretskyi
     - jessfraz
     - kaslin
     - lavalamp
@@ -139,7 +138,6 @@ teams:
     - philips
     - Phillels
     - pigmej
-    - Priyankasaggu11929
     - pwittrock
     - thockin
     - xiang90
@@ -167,35 +165,34 @@ teams:
         - mrbobbytables
         - nikhita
         - palnabarun
+        - Priyankasaggu11929
         members:
         - jberkus
         - kaslin
-        - Priyankasaggu11929
         privacy: closed
       sig-contributor-experience-pr-reviews:
         description: PR reviews for contributor-experience infrastructure, such as the
           PR bot, etc.
         maintainers:
         - cblecker
-        - idvoretskyi
         - MadhavJivrajani
         - nikhita
         - palnabarun
+        - Priyankasaggu11929
         members:
         - idealhack
         - kaslin
-        - Priyankasaggu11929
         privacy: closed
   youtube-admins:
     description: Members who have admin access to the Kubernetes Community
       YouTube channel.
     maintainers:
-    - idvoretskyi
     - mrbobbytables
     members:
     - alejandrox1
     - castrojo
     - ezzoueidi
+    - idvoretskyi
     - jbeda
     - jdumars
     - jeefy

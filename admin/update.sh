@@ -23,11 +23,11 @@ readonly REPO_ROOT
 
 readonly admins=(
   cblecker
-  idvoretskyi
   MadhavJivrajani
   mrbobbytables
   nikhita
   palnabarun
+  Priyankasaggu11929
 )
 
 cd "${REPO_ROOT}"

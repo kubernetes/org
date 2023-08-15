@@ -2,22 +2,23 @@
 
 reviewers:
   - cblecker
-  - idvoretskyi
   - MadhavJivrajani
   - mrbobbytables
   - nikhita
   - palnabarun
+  - Priyankasaggu11929
 approvers:
   - cblecker
-  - idvoretskyi
   - MadhavJivrajani
   - mrbobbytables
   - nikhita
   - palnabarun
+  - Priyankasaggu11929
 emeritus_approvers:
   - ameukam
   - calebamiles
   - fejta
+  - idvoretskyi
   - spiffxp
 
 labels:

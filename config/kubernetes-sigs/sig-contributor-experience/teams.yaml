@@ -81,11 +81,11 @@ teams:
     description: admin access to the sigs-github-actions repo
     maintainers:
     - cblecker
-    - idvoretskyi
     - MadhavJivrajani
     - mrbobbytables
     - nikhita
     - palnabarun
+    - Priyankasaggu11929
     privacy: closed
     repos:
       sigs-github-actions: admin
@@ -95,7 +95,6 @@ teams:
     - cblecker
     - MadhavJivrajani
     - nikhita
-    members:
     - Priyankasaggu11929
     privacy: closed
     repos:

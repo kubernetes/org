@@ -1908,13 +1908,12 @@ teams:
       dns: write
   examples:
     description: Creation and curation of example applications that run on Kubernetes
-    maintainers:
-    - idvoretskyi
     members:
     - ahmetb
     - chrislovecnm
     - erictune
     - foxish
+    - idvoretskyi
     - janetkuo
     - jaredbhatti
     - jayunit100
@@ -1924,8 +1923,8 @@ teams:
   examples-admins:
     description: Admin access to the examples repo
     maintainers:
-    - idvoretskyi
     members:
+    - idvoretskyi
     - sebgoa
     privacy: closed
     repos:
@@ -1933,9 +1932,9 @@ teams:
   examples-maintainers:
     description: Write access to the examples repo
     maintainers:
-    - idvoretskyi
     members:
     - ahmetb
+    - idvoretskyi
     - sebgoa
     privacy: closed
     repos:
@@ -2177,11 +2176,11 @@ teams:
     description: Kubernetes GitHub Owners
     maintainers:
     - cblecker
-    - idvoretskyi
     - MadhavJivrajani
     - mrbobbytables
     - nikhita
     - palnabarun
+    - Priyankasaggu11929
     privacy: closed
     repos:
       org: admin

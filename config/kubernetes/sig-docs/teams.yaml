@@ -291,10 +291,9 @@ teams:
     privacy: closed
   sig-docs-uk-reviews:
     description: PR reviews for Ukrainian content
-    maintainers:
-    - idvoretskyi
     members:
     - Arhell
+    - idvoretskyi
     - MaxymVlasov
     - Potapy4
     privacy: closed

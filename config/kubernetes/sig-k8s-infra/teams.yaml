@@ -14,7 +14,6 @@ teams:
     description: sig-k8s-infra members
     maintainers:
     - cblecker
-    - idvoretskyi
     - nikhita
     members:
     - ameukam
@@ -25,6 +24,7 @@ teams:
     - cpanato
     - dims
     - hh
+    - idvoretskyi
     - ixdy
     - justinsb
     - listx
@@ -46,9 +46,8 @@ teams:
         privacy: closed
       k8s-infra-aws-admins:
         description: granted access to the k8s-infra AWS account
-        maintainers:
-        - idvoretskyi
         members:
+        - idvoretskyi
         - justinsb
         - thockin
         privacy: closed
@@ -56,10 +55,10 @@ teams:
         description: granted read-only access to the k8s-infra GCP org (excluding secrets)
         maintainers:
         - cblecker
-        - idvoretskyi
         members:
         - BobyMCbobs
         - hh
+        - idvoretskyi
         - justinsb
         - puerco
         - Riaankl

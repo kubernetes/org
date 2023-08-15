@@ -9,7 +9,6 @@ admins:
 - cblecker
 - cpanato
 - dims
-- idvoretskyi
 - jeremyrickard
 - justaugustus
 - k8s-ci-robot
@@ -18,12 +17,14 @@ admins:
 - mrbobbytables
 - nikhita
 - palnabarun
+- Priyankasaggu11929
 - puerco
 - saschagrunert
 - sttts
 - thelinuxfoundation
 members:
 - ameukam
+- idvoretskyi
 - k8s-publishing-bot
 - savitharaghunathan
 - Verolop

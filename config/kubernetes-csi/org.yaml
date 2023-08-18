@@ -98,6 +98,7 @@ members:
 - saikat-royc
 - savitharaghunathan
 - simrangupta234
+- Sneha-at
 - spiffxp
 - sunnylovestiramisu
 - ttakahashi21
@@ -333,6 +334,8 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
+    repo:
+      csi-proxy: admin
   csi-proxy-maintainers:
     description: Write access to csi-proxy repo
     members:
@@ -346,6 +349,8 @@ teams:
     - sunnylovestiramisu
     - xing-yang
     privacy: closed
+    repo:
+      csi-proxy: write
   csi-release-tools-admins:
     description: Admin access to csi-release-tools repo
     members:

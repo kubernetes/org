@@ -57,14 +57,12 @@ teams:
     description: alert members of new issues labeled with contributor comms
     maintainers:
     members:
-    - Atharva-Shinde
     - AvineshTripathi
     - chris-short
-    - Debanitrkl
+    - fsmunoz
     - kaslin
-    - parispittman
-    - PurneswarPrasad
-    - rajula96reddy
+    - sandipanpanda
+    - SD-13
     privacy: closed
   contributor-site-admins:
     description: admin access to contributor-site

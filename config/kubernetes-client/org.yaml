@@ -14,6 +14,7 @@ description: This organization hosts Kubernetes API client libraries.
 has_organization_projects: true
 has_repository_projects: true
 members:
+- adriananeci
 - akshaymankar
 - ambiknai
 - ameukam

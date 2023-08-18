@@ -39,6 +39,7 @@ members:
 - aditya-konarde
 - AdminTurnedDevOps
 - adohe
+- adriananeci
 - adrianchiris
 - adtac
 - AevaOnline
@@ -495,6 +496,7 @@ members:
 - frobware
 - fsmunoz
 - furkatgofurov7
+- fykaa
 - g-gaston
 - G-Harmon
 - gab-satchi
@@ -1418,6 +1420,7 @@ members:
 - smarterclayton
 - smg247
 - smourapina
+- Sneha-at
 - soggiest
 - soltysh
 - SomtochiAma
@@ -1526,6 +1529,7 @@ members:
 - ttakahashi21
 - ttousai
 - twilight0620
+- tzifudzi
 - tzneal
 - uablrek
 - umangachapagain
@@ -1922,7 +1926,6 @@ teams:
     privacy: closed
   examples-admins:
     description: Admin access to the examples repo
-    maintainers:
     members:
     - idvoretskyi
     - sebgoa
@@ -1931,7 +1934,6 @@ teams:
       examples: admin
   examples-maintainers:
     description: Write access to the examples repo
-    maintainers:
     members:
     - ahmetb
     - idvoretskyi

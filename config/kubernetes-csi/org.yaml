@@ -15,6 +15,7 @@ has_organization_projects: true
 has_repository_projects: true
 members:
 - 27149chen
+- adriananeci
 - alexander-ding
 - ameukam
 - amolmote
@@ -332,8 +333,6 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
-    repo:
-      csi-proxy: admin
   csi-proxy-maintainers:
     description: Write access to csi-proxy repo
     members:
@@ -347,8 +346,6 @@ teams:
     - sunnylovestiramisu
     - xing-yang
     privacy: closed
-    repo:
-      csi-proxy: write
   csi-release-tools-admins:
     description: Admin access to csi-release-tools repo
     members:

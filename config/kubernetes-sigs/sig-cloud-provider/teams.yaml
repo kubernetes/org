@@ -61,6 +61,8 @@ teams:
     description: Admin access to the aws-fsx-openzfs-csi-driver repo
     members:
       - dims
+      - gomesjason
+      - hughdanliu
       - jacobwolfaws
       - nckturner
     privacy: closed
@@ -69,6 +71,8 @@ teams:
   aws-fsx-openzfs-csi-driver-maintainers:
     description: Write access to the aws-fsx-openzfs-csi-driver repo
     members:
+      - gomesjason
+      - hughdanliu
       - jacobwolfaws
       - nckturner
     privacy: closed

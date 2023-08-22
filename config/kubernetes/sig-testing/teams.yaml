@@ -62,16 +62,13 @@ teams:
   test-infra-admins:
     description: admin access to test-infra
     members:
+    - alvaroaleman
+    - aojea
     - BenTheElder
-    - chaodaiG
-    - chases2
     - cjwagner
-    - fejta
     - k8s-infra-ci-robot
-    - listx
     - michelle192837
-    - mpherman2
-    - spiffxp
+    - pohly
     - stevekuznetsov
     privacy: closed
     repos:
@@ -80,14 +77,13 @@ teams:
   test-infra-maintainers:
     description: write access to test-infra
     members:
-    - amwat
+    - alvaroaleman
+    - aojea
     - BenTheElder
     - cjwagner
-    - fejta
-    - ixdy
-    - krzyzacy
+    - k8s-infra-ci-robot
     - michelle192837
-    - spiffxp
+    - pohly
     - stevekuznetsov
     privacy: closed
     repos:

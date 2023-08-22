@@ -22,7 +22,7 @@ REPO_ROOT=$(dirname "${BASH_SOURCE[0]}")/..
 cd "${REPO_ROOT}/config"
 
 orgs=()
-for i in $(find -name "org.yaml" -printf '%P\n'); do
+for i in $(find * -name "org.yaml"); do
     key="$(dirname "$i")"
     orgs+=($key=$i)
 done

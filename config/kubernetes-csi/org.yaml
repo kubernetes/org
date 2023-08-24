@@ -334,7 +334,7 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
-    repo:
+    repos:
       csi-proxy: admin
   csi-proxy-maintainers:
     description: Write access to csi-proxy repo
@@ -349,7 +349,7 @@ teams:
     - sunnylovestiramisu
     - xing-yang
     privacy: closed
-    repo:
+    repos:
       csi-proxy: write
   csi-release-tools-admins:
     description: Admin access to csi-release-tools repo

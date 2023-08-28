@@ -233,6 +233,7 @@ teams:
     - davidvossel
     - justinsb
     - neolit123
+    - nunnatsa
     - timothysc
     - vincepri
     privacy: closed
@@ -244,6 +245,7 @@ teams:
     - agradouski
     - cchengleo
     - davidvossel
+    - nunnatsa
     privacy: closed
     repos:
       cluster-api-provider-kubevirt: write

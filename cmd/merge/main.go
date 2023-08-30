@@ -26,8 +26,8 @@ import (
 
 	"k8s.io/test-infra/prow/config/org"
 
-	"github.com/ghodss/yaml"
 	"github.com/sirupsen/logrus"
+	"sigs.k8s.io/yaml"
 )
 
 func parseKeyValue(s string) (string, string) {
@@ -97,13 +97,18 @@ func main() {
 	fmt.Println(string(out))
 }
 
-func unmarshal(path string) (*org.Config, error) {
+func unmarshalFromFile(path string) (*org.Config, error) {
 	buf, err := ioutil.ReadFile(path)
 	if err != nil {
 		return nil, fmt.Errorf("read: %v", err)
 	}
+
+	return unmarshal(buf)
+}
+
+func unmarshal(buf []byte) (*org.Config, error) {
 	var cfg org.Config
-	if err := yaml.Unmarshal(buf, &cfg); err != nil {
+	if err := yaml.Unmarshal(buf, &cfg, yaml.DisallowUnknownFields); err != nil {
 		return nil, fmt.Errorf("unmarshal: %v", err)
 	}
 	return &cfg, nil
@@ -112,7 +117,7 @@ func unmarshal(path string) (*org.Config, error) {
 func loadOrgs(o options) (map[string]org.Config, error) {
 	config := map[string]org.Config{}
 	for name, path := range o.orgs {
-		cfg, err := unmarshal(path)
+		cfg, err := unmarshalFromFile(path)
 		if err != nil {
 			return nil, fmt.Errorf("error in %s: %v", path, err)
 		}
@@ -134,7 +139,7 @@ func loadOrgs(o options) (map[string]org.Config, error) {
 				case !info.IsDir() && filepath.Dir(path) == prefix:
 					return nil // Ignore prefix/foo files
 				case filepath.Base(path) == "teams.yaml":
-					teamCfg, err := unmarshal(path)
+					teamCfg, err := unmarshalFromFile(path)
 					if err != nil {
 						return fmt.Errorf("error in %s: %v", path, err)
 					}

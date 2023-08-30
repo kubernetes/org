@@ -17,7 +17,6 @@ limitations under the License.
 package config
 
 import (
-	"flag"
 	"fmt"
 	"io/ioutil"
 	"os"
@@ -32,25 +31,23 @@ import (
 	"github.com/ghodss/yaml"
 )
 
-var configPath = flag.String("config", "config.yaml", "Path to generated config")
-
 var cfg org.FullConfig
 
 func TestMain(m *testing.M) {
-	flag.Parse()
-	if *configPath == "" {
-		fmt.Println("--config must be set")
+	configPath := os.Getenv("MERGED_CONFIG")
+	if configPath == "" {
+		fmt.Println("MERGED_CONFIG env variable must be set")
 		os.Exit(1)
 	}
 
-	raw, err := ioutil.ReadFile(*configPath)
+	raw, err := ioutil.ReadFile(configPath)
 	if err != nil {
-		fmt.Printf("cannot read generated config.yaml from %s: %v\n", *configPath, err)
+		fmt.Printf("cannot read generated config.yaml from %s: %v\n", configPath, err)
 		os.Exit(1)
 	}
 
 	if err := yaml.Unmarshal(raw, &cfg); err != nil {
-		fmt.Printf("cannot unmarshal generated config.yaml from %s: %v\n", *configPath, err)
+		fmt.Printf("cannot unmarshal generated config.yaml from %s: %v\n", configPath, err)
 		os.Exit(1)
 	}
 

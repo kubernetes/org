@@ -63,13 +63,19 @@ teams:
     description: admin access to test-infra
     members:
     - alvaroaleman
+    - ameukam    # k8s-infra-oncall
     - aojea
     - BenTheElder
+    - chaodaiG   # test-infra-oncall
+    - chases2    # test-infra-oncall
     - cjwagner
+    - dims       # k8s-infra-oncall
     - k8s-infra-ci-robot
     - michelle192837
+    - mpherman2  # test-infra-oncall
     - pohly
     - stevekuznetsov
+    - thockin    # k8s-infra-oncall
     privacy: closed
     repos:
       publishing-bot: admin

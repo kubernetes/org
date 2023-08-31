@@ -173,6 +173,7 @@ teams:
     description: Admin access to the ibm-powervs-block-csi-driver
     members:
     - mkumatag
+    - yussufsh
     privacy: closed
     repos:
       ibm-powervs-block-csi-driver: admin
@@ -180,6 +181,7 @@ teams:
     description: Write access to the ibm-powervs-block-csi-driver
     members:
     - mkumatag
+    - yussufsh
     privacy: closed
     repos:
       ibm-powervs-block-csi-driver: write

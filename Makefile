@@ -52,7 +52,7 @@ peribolos: $(PERIBOLOS_CMD)
 
 .PHONY: test
 test: config
-	go test ./... --config=$(MERGED_CONFIG)
+	MERGED_CONFIG=$(MERGED_CONFIG) go test ./...
 
 .PHONY: verify
 verify:

@@ -18,7 +18,7 @@ package helpers
 
 import (
 	"fmt"
-	"io/ioutil"
+	"os"
 	"strings"
 
 	"k8s.io/test-infra/prow/config/org"
@@ -58,7 +58,7 @@ func (fm FlagMap) Set(s string) error {
 }
 
 func UnmarshalPathToOrgConfig(path string) (*org.Config, error) {
-	buf, err := ioutil.ReadFile(path)
+	buf, err := os.ReadFile(path)
 	if err != nil {
 		return nil, fmt.Errorf("read: %v", err)
 	}

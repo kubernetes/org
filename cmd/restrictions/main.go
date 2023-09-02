@@ -20,7 +20,6 @@ import (
 	"errors"
 	"flag"
 	"fmt"
-	"io/ioutil"
 	"os"
 	"path/filepath"
 	"regexp"
@@ -107,7 +106,7 @@ func main() {
 }
 
 func unmarshalPathToRestrictionsConfig(path string) (*Config, error) {
-	buf, err := ioutil.ReadFile(path)
+	buf, err := os.ReadFile(path)
 	if err != nil {
 		return nil, fmt.Errorf("read restrictions config: %v", err)
 	}

@@ -14,22 +14,6 @@ teams:
     - yastij
     privacy: closed
     teams:
-      cloud-pv-admission-labeler-admins:
-        description: admin access to the cloud-pv-admission-labeler repo
-        members:
-        - andrewsykim
-        - cheftako
-        privacy: closed
-        repos:
-          cloud-pv-admission-labeler: admin
-      cloud-pv-admission-labeler-maintainers:
-        description: write access to the cloud-pv-admission-labeler repo
-        members:
-        - andrewsykim
-        - cheftako
-        privacy: closed
-        repos:
-          cloud-pv-admission-labeler: write
       cloud-provider-sample-admins:
         description: ""
         members:

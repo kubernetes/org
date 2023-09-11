@@ -122,6 +122,22 @@ teams:
    privacy: closed
    repos:
      blob-csi-driver: write
+  cloud-pv-admission-labeler-admins:
+    description: admin access to the cloud-pv-admission-labeler repo
+    members:
+    - andrewsykim
+    - cheftako
+    privacy: closed
+    repos:
+      cloud-pv-admission-labeler: admin
+  cloud-pv-admission-labeler-maintainers:
+    description: write access to the cloud-pv-admission-labeler repo
+    members:
+    - andrewsykim
+    - cheftako
+    privacy: closed
+    repos:
+      cloud-pv-admission-labeler: write       
   cloud-provider-baiducloud-admins:
    description: Admin access to the cloud-provider-baiducloud repo
    members:

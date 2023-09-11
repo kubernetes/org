@@ -181,6 +181,7 @@ restrictions:
     - "^aws-fsx-openzfs-csi-driver"
     - "^aws-iam-authenticator"
     - "^blob-csi-driver"
+    - "^cloud-pv-admission-labeler"
     - "^cloud-provider-baiducloud"
     - "^cloud-provider-equinix-metal"
     - "^cloud-provider-huaweicloud"

@@ -36,6 +36,7 @@ teams:
     - reylejano
     - sftim
     - tengqm
+    - katcosgrove
     privacy: closed
   sig-docs-en-reviews:
     description: PR reviews for English content

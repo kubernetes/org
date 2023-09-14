@@ -339,10 +339,10 @@ teams:
             description: Members of the Docs team for the current release cycle.
             members:
             - katcosgrove # 1.29 Docs Lead
-            - taniaduggal # 1.29 Docs Shadow
-            - drewhagen # 1.29 Docs Shadow
-            - harshitasao # 1.29 Docs Shadow
-            - princesso # 1.29 Docs Shadow
+            #- X # 1.29 Docs Shadow
+            #- X # 1.29 Docs Shadow
+            #- X # 1.29 Docs Shadow
+            #- X # 1.29 Docs Shadow
             privacy: closed
           release-team-bug-triage:
             description: Members of the Bug Triage team for the current release cycle.

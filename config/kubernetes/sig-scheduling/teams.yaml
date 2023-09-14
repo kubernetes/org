@@ -61,6 +61,15 @@ teams:
     - kerthcet
     - sanposhiho
     privacy: closed
+  sig-scheduling-approvers:
+    description: ""
+    members:
+    - ahg-g
+    - alculquicondor
+    - Huang-Wei
+    - kerthcet
+    - sanposhiho
+    privacy: closed
   sig-scheduling-proposals:
     description: ""
     members:

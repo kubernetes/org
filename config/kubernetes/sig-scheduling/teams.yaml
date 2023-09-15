@@ -1,40 +1,4 @@
 teams:
-  sig-scheduling-api-reviews:
-    description: ""
-    members:
-    - ahg-g
-    - alculquicondor
-    - chendave
-    - damemi
-    - denkensk
-    - Huang-Wei
-    - kerthcet
-    - sanposhiho
-    privacy: closed
-  sig-scheduling-bugs:
-    description: ""
-    members:
-    - ahg-g
-    - alculquicondor
-    - chendave
-    - damemi
-    - denkensk
-    - Huang-Wei
-    - kerthcet
-    - sanposhiho
-    privacy: closed
-  sig-scheduling-feature-requests:
-    description: ""
-    members:
-    - ahg-g
-    - alculquicondor
-    - chendave
-    - damemi
-    - denkensk
-    - Huang-Wei
-    - kerthcet
-    - sanposhiho
-    privacy: closed
   sig-scheduling-misc:
     description: Scheduling algorithms, scheduling/scheduler architecture and extensibility,
       rescheduling/continuous re-optimization, cluster-level resource allocation and
@@ -49,38 +13,11 @@ teams:
     - kerthcet
     - sanposhiho
     privacy: closed
-  sig-scheduling-pr-reviews:
+  sig-scheduling-approvers:
     description: ""
     members:
     - ahg-g
     - alculquicondor
-    - chendave
-    - damemi
-    - denkensk
-    - Huang-Wei
-    - kerthcet
-    - sanposhiho
-    privacy: closed
-  sig-scheduling-proposals:
-    description: ""
-    members:
-    - ahg-g
-    - alculquicondor
-    - chendave
-    - damemi
-    - denkensk
-    - Huang-Wei
-    - kerthcet
-    - sanposhiho
-    privacy: closed
-  sig-scheduling-test-failures:
-    description: ""
-    members:
-    - ahg-g
-    - alculquicondor
-    - chendave
-    - damemi
-    - denkensk
     - Huang-Wei
     - kerthcet
     - sanposhiho

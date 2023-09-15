@@ -53,6 +53,7 @@ teams:
     - sftim
     - shannonxtreme
     - tengqm
+    - windsonsea
     privacy: closed
   sig-docs-es-owners:
     description: Approvers for Spanish content

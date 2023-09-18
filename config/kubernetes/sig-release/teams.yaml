@@ -329,59 +329,60 @@ teams:
             description: Members of the CI Signal team for the current release
               cycle.
             members:
+            - mansikulkarni96 # 1.29 CI Signal Shadow
+            - pacoxu # 1.29 CI Signal Shadow
+            - reetasingh # 1.29 CI Signal Shadow
+            - rjsadow # 1.29 CI Signal Shadow
+            - sontek # 1.29 CI Signal Shadow
             - Vyom-Yadav # 1.29 CI Signal Lead
-            #- X # 1.29 CI Signal Shadow
-            #- X # 1.29 CI Signal Shadow
-            #- X # 1.29 CI Signal Shadow
-            #- X # 1.29 CI Signal Shadow
             privacy: closed
           release-team-docs:
             description: Members of the Docs team for the current release cycle.
             members:
+            - drewhagen # 1.29 Docs Shadow
+            - harshitasao # 1.29 Docs Shadow
             - katcosgrove # 1.29 Docs Lead
-            #- X # 1.29 Docs Shadow
-            #- X # 1.29 Docs Shadow
-            #- X # 1.29 Docs Shadow
-            #- X # 1.29 Docs Shadow
+            - Princesso # 1.29 Docs Shadow
+            - taniaduggal # 1.29 Docs Shadow
             privacy: closed
           release-team-bug-triage:
             description: Members of the Bug Triage team for the current release cycle.
             members:
+            - bradmccoydev # 1.29 Bug Triage Shadow
             - hailkomputer # 1.29 Bug Triage Lead
-            #- X # 1.29 Bug Triage Shadow
-            #- X # 1.29 Bug Triage Shadow
-            #- X # 1.29 Bug Triage Shadow
-            #- X # 1.29 Bug Triage Shadow
+            - MaryamTavakkoli # 1.29 Bug Triage Shadow
+            - moficodes # 1.29 Bug Triage Shadow
+            - zelenushechka # 1.29 Bug Triage Shadow
             privacy: closed
           release-team-comms:
             description: Members of the Comms team for the current release cycle.
             members:
+            - a-mccarthy # 1.29 Comms Shadow
+            - hkamel # 1.29 Comms Shadow
+            - James-Quigley # 1.29 Comms Shadow
+            - kcmartin # 1.29 Comms Shadow
             - krol3 # 1.29 Comms Lead
-            #- X # 1.29 Comms Shadow
-            #- X # 1.29 Comms Shadow
-            #- X # 1.29 Comms Shadow
-            #- X # 1.29 Comms Shadow
             privacy: closed
           release-team-enhancements:
             description: Members of the Enhancments team for the current release
               cycle.
             members:
-            - npolshakova # 1.29 Enhancements Shadow
-            #- X # 1.29 Enhancements Shadow
-            #- X # 1.29 Enhancements Shadow
-            #- X # 1.29 Enhancements Shadow
-            #- X # 1.29 Enhancements Shadow
-            #- X # 1.29 Enhancements Shadow
+            - AnaMMedina21 # 1.29 Enhancements Shadow
+            - npolshakova # 1.29 Enhancements Lead
+            - rayandas # 1.29 Enhancements Shadow
+            - salehsedghpour # 1.29 Enhancements Shadow
+            - sanchita-07 # 1.29 Enhancements Shadow
+            - sreeram-venkitesh # 1.29 Enhancements Shadow
             privacy: closed
           release-team-release-notes:
             description: Members of the Release Notes team for the current release
               cycle.
             members:
             - fsmunoz # 1.29 Release Notes Lead
-            #- X # 1.29 Release Notes Shadow
-            #- X # 1.29 Release Notes Shadow
-            #- X # 1.29 Release Notes Shadow
-            #- X # 1.29 Release Notes Shadow
+            - fykaa # 1.29 Release Notes Shadow
+            - mengjiao-liu # 1.29 Release Notes Shadow
+            - Muddapu # 1.29 Release Notes Shadow
+            - rashansmith # 1.29 Release Notes Shadow
             privacy: closed
           release-team-leads:
             description: Release Team Leads for the current Kubernetes release

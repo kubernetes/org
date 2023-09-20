@@ -1179,6 +1179,7 @@ teams:
     - msau42
     - saad-ali
     - saikat-royc
+    - tyuchn
     privacy: closed
     repos:
       gcp-compute-persistent-disk-csi-driver: admin
@@ -1204,6 +1205,7 @@ teams:
     - msau42
     - saad-ali
     - saikat-royc
+    - tyuchn
     privacy: closed
     repos:
       gcp-filestore-csi-driver: admin

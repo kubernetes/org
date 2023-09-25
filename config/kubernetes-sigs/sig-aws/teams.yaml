@@ -1,11 +1,10 @@
 teams:
   aws-ebs-csi-driver-admins:
-    description: ""
+    description: admin access to aws-ebs-csi-driver repo
     members:
+    - AndrewSirenko
     - ConnorJC3
     - dims
-    - gtxu
-    - hanyuel
     - leakingtapan
     - rdpsin
     - torredil
@@ -14,13 +13,13 @@ teams:
     repos:
       aws-ebs-csi-driver: admin
   aws-ebs-csi-driver-maintainers:
-    description: ""
+    description: write access to aws-ebs-csi-driver repo
     members:
+    - AndrewSirenko
     - AndyXiangLi
     - bertinatto
     - ConnorJC3
     - gnufied
-    - gtxu
     - hanyuel
     - jsafrane
     - leakingtapan

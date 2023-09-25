@@ -155,6 +155,7 @@ teams:
     description: ""
     members:
       - annasong20
+      - koba1t
     privacy: closed
     repos:
       kustomize: maintain

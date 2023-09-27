@@ -1,27 +1,4 @@
 teams:
-  contributor-tweets-admins:
-    description: admin access to contributor-tweets
-    maintainers:
-    - cblecker
-    - mrbobbytables
-    - nikhita
-    members:
-    - chris-short
-    - kaslin
-    privacy: closed
-    repos:
-      contributor-tweets: admin
-  contributor-tweets-maintainers:
-    description: write access to contributor-tweets
-    maintainers:
-    - cblecker
-    - mrbobbytables
-    - nikhita
-    members:
-    - castrojo
-    privacy: closed
-    repos:
-      contributor-tweets: write
   discuss-theme-admins:
     description: admin access to the discuss-theme repo
     maintainers:

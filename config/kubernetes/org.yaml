@@ -2303,14 +2303,14 @@ teams:
   steering-committee:
     description: Kubernetes Steering Committee
     maintainers:
-    - cblecker
     - mrbobbytables
     - palnabarun
     members:
     - BenTheElder
-    - cpanato
     - justaugustus
-    - tpepper
+    - pacoxu
+    - pohly
+    - soltysh
     privacy: closed
     repos:
       funding: admin

@@ -7,6 +7,15 @@ teams:
     privacy: closed
     repos:
       about-api: admin
+  cluster-inventory-api-admins:
+    description: Admin access for cluster-inventory-api repo
+    members:
+    - dixudx
+    - mikeshng
+    - RainbowMango
+    privacy: closed
+    repos:
+      cluster-inventory-api: admin
   federation-wg:
     description: Individuals who are part of sig-multicluster and working as federation
       workgroup.

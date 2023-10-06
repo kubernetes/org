@@ -241,6 +241,7 @@ restrictions:
   - path: "kubernetes-sigs/sig-multicluster/teams.yaml"
     allowedRepos:
     - "^about-api"
+    - "^cluster-inventory-api"
     - "^mcs-api"
     - "^sig-multicluster-site"
     - "^work-api"

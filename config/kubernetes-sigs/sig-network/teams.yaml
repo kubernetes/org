@@ -1,4 +1,24 @@
 teams:
+  blixt-admins:
+    description: Admin access to the blixt repo
+    members:
+    - astoycos
+    - mlavacca
+    - robscott
+    - shaneutt
+    privacy: closed
+    repos:
+      blixt: admin
+  blixt-maintainers:
+    description: Write access to the blixt repo
+    members:
+    - astoycos
+    - mlavacca
+    - robscott
+    - shaneutt
+    privacy: closed
+    repos:
+      blixt: write
   cluster-proportional-autoscaler-admins:
     description: Admin access to the cluster-proportional-autoscaler repo
     members:

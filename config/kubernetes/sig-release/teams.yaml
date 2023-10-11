@@ -44,6 +44,7 @@ teams:
     - claudiubelu # Windows
     - cpanato # Release Manager
     - craiglpeters # Azure
+    - danwinship # Network
     - dashpole # Instrumentation
     - dcbw # Network
     - dchen1107 # Node
@@ -99,6 +100,7 @@ teams:
     - michelle192837 # Testing
     - mickeyboxell # 1.29 Lead Shadow
     - mikedanese # Auth
+    - mikezappa87 # Network
     - mm4tt # Scalability
     - mrunalp # Node
     - msau42 # Storage
@@ -127,6 +129,7 @@ teams:
     - SataQiu # Cluster Lifecycle
     - serathius # Instrumentation
     - SergeyKanzhelev # Node
+    - shaneutt # Network
     - shu-mutou # UI
     - shyamjvs # Scalability
     - soltysh # CLI

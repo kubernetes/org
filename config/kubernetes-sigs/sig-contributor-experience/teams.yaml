@@ -21,9 +21,9 @@ teams:
     description: admin access to the lwkd repo
     members:
     - coderanger
+    - fykaa
     - jberkus
     - sreeram-venkitesh
-    - fykaa
     privacy: closed
     repos:
       lwkd: admin

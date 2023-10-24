@@ -134,3 +134,14 @@ teams:
     - sjenning
     - yujuhong
     privacy: closed
+  sig-node-cri-o-test-maintainers:
+    description: Maintainers of CRI-O related tests for the Kubernetes Node Special-Interest-Group
+    members:
+    - haircommander
+    - harche
+    - kannon92
+    - mrunalp
+    - rphillips
+    - sairameshv
+    - saschagrunert
+    privacy: closed

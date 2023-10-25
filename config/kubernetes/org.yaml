@@ -1815,6 +1815,7 @@ teams:
     - jprzychodzen
     - mikedanese
     - mskrocki
+    - sdmodi
     privacy: closed
     repos:
       cloud-provider-gcp: write

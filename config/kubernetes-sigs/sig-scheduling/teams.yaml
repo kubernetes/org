@@ -64,6 +64,7 @@ teams:
     members:
     - ahg-g
     - alculquicondor
+    - tenzen-y
     privacy: closed
     repos:
       kueue: admin
@@ -72,6 +73,7 @@ teams:
     members:
     - ahg-g
     - alculquicondor
+    - tenzen-y
     privacy: closed
     repos:
       kueue: write

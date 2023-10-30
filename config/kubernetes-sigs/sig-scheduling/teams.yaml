@@ -62,16 +62,16 @@ teams:
   kueue-admins:
     description: Admin access to the kueue repo
     members:
-    - ahg-g
     - alculquicondor
+    - tenzen-y
     privacy: closed
     repos:
       kueue: admin
   kueue-maintainers:
     description: Write access to the kueue repo
     members:
-    - ahg-g
     - alculquicondor
+    - tenzen-y
     privacy: closed
     repos:
       kueue: write

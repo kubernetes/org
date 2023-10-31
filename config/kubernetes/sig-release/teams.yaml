@@ -27,11 +27,11 @@ teams:
     - adisky # OpenStack
     - ahg-g # Scheduling
     - alejandrox1 # Testing
-    - ameukam # Release Manager Associate
+    - ameukam # Release Manager Associate / K8s Infra
     - andrewsykim # Cloud Provider
     - aojea # Testing / Network
     - aravindhp # Windows
-    - BenTheElder # Testing
+    - BenTheElder # Testing / K8s Infra
     - bgrant0607 # Architecture
     - bradamant3 # Docs
     - brancz # Instrumentation
@@ -51,7 +51,7 @@ teams:
     - deads2k # API Machinery / Auth
     - derekwaynecarr # Architecture / Node
     - dgrisonnet # Instrumentation
-    - dims # Architecture / Release
+    - dims # Architecture / K8s Infra
     - eddiezane # CLI
     - ehashman # Instrumentation
     - elmiko # Cloud Provider
@@ -138,6 +138,7 @@ teams:
     - tashimi # Usability
     - thockin # Network
     - timothysc # Cluster Lifecycle / Testing
+    - upodroid # K8s Infra
     - Verolop # Release Manager
     - vllry # Usability
     - Vyom-Yadav # 1.29 CI Signal Lead

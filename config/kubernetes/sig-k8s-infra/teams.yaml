@@ -3,10 +3,11 @@ teams:
     description: Admin access to kubernetes/k8s.io
     members:
     - ameukam
+    - BenTheElder
     - dims
     - k8s-infra-ci-robot
-    - spiffxp
     - thockin
+    - upodroid
     privacy: closed
     repos:
       k8s.io: admin
@@ -34,15 +35,16 @@ teams:
     - spiffxp
     - stp-ip
     - thockin
+    - upodroid
     privacy: closed
     teams:
       sig-k8s-infra-leads:
         description: sig-k8s-infra chairs and technical leads
         members:
         - ameukam
+        - BenTheElder
         - dims
-        - spiffxp
-        - thockin
+        - upodroid
         privacy: closed
       k8s-infra-aws-admins:
         description: granted access to the k8s-infra AWS account
@@ -69,9 +71,9 @@ teams:
         description: granted owner access to the k8s-infra GCP org
         members:
         - ameukam
+        - BenTheElder
         - dims
-        - spiffxp
-        - thockin
+        - upodroid
         privacy: closed
       k8s-infra-group-admins:
         description: granted run access to kubernetes.io groups reconciler
@@ -88,8 +90,7 @@ teams:
         - ameukam
         - bentheelder
         - dims
-        - spiffxp
-        - thockin
+        - upodroid
         privacy: closed
         repos:
           registry.k8s.io: admin

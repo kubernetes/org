@@ -3,9 +3,9 @@ teams:
     description: admins access to community-images
     members:
     - ameukam
+    - BenTheElder
     - dims
-    - spiffxp
-    - thockin
+    - upodroid
     privacy: closed
     repos:
       community-images: admin
@@ -38,6 +38,7 @@ teams:
     - justinsb
     - spiffxp
     - thockin
+    - upodroid
     privacy: closed
     repos:
       porche: admin

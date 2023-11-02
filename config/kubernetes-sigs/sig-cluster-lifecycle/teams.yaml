@@ -91,7 +91,7 @@ teams:
     - Ankitasw
     - dlipovetsky
     - richardcase
-    - Skarlso
+    - vincepri
     privacy: closed
     repos:
       cluster-api-provider-aws: write

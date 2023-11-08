@@ -152,6 +152,7 @@ teams:
     description: Admin access to javascript repo
     members:
     - brendandburns
+    - davidgamero
     - mstruebing
     privacy: closed
     repos:

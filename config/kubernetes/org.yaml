@@ -57,6 +57,7 @@ members:
 - aimuz
 - airbornepony
 - aisonaku
+- aj11anuj
 - akankshakumari393
 - akankshapanse
 - akhilerm
@@ -754,6 +755,7 @@ members:
 - JohnTitor
 - johscheuer
 - jonasrosland
+- jonathan-innis
 - joncwong
 - jongwooo
 - jonpulsifer
@@ -1037,6 +1039,7 @@ members:
 - mkorbi
 - mkumatag
 - mlmhl
+- mloiseleur
 - mm4tt
 - mmamczur
 - mmerkes
@@ -1108,6 +1111,7 @@ members:
 - nawazkh
 - NayeonKeum
 - nayihz
+- ncapps
 - ncdc
 - nckturner
 - ndixita
@@ -1133,6 +1137,7 @@ members:
 - niuzhenguo
 - Nivedita-coder
 - nixpanic
+- njtran
 - njuettner
 - njuptlzf
 - nnmin-aws
@@ -1672,6 +1677,7 @@ members:
 - YangLu1031
 - yankay
 - yanrongshi
+- YanzhaoLi
 - yaroslava-serdiuk
 - yashsingh74
 - yastij
@@ -1744,8 +1750,7 @@ members_can_create_repositories: false
 name: Kubernetes
 teams:
   api-approvers:
-    description: Approve changes to stable Kubernetes APIs and addition of new beta/stable
-      APIs
+    description: Approve changes to stable Kubernetes APIs and addition of new beta/stable APIs
     members:
     - deads2k
     - lavalamp
@@ -2142,8 +2147,7 @@ teams:
     repos:
       kubectl: write
   kubernetes-feature-branch-admins:
-    description: Admin access to the kubernetes repo, for maintaining feature branches.
-      Will deprecate when this access is no longer needed.
+    description: Admin access to the kubernetes repo, for maintaining feature branches. Will deprecate when this access is no longer needed.
     members:
     - lavalamp
     privacy: closed
@@ -2184,8 +2188,7 @@ teams:
       sample-apiserver: write
       sample-controller: write
   kubernetes-staging-publish-cops:
-    description: will be notified if the robot fails to publish the staging folder
-      to repos
+    description: will be notified if the robot fails to publish the staging folder to repos
     members:
     - caesarxuchao
     - deads2k
@@ -2279,9 +2282,7 @@ teams:
     repos:
       committee-security-response: admin
   stage-bots:
-    description: Bots that only have admin access to staged repositories. Giving admin
-      access to other repositories may allow the bot to automatically unintentionally
-      close issues in those repositories.
+    description: Bots that only have admin access to staged repositories. Giving admin access to other repositories may allow the bot to automatically unintentionally close issues in those repositories.
     members:
     - k8s-publishing-bot
     privacy: closed

@@ -57,6 +57,7 @@ teams:
         description: "Write access to k8s.io/cloud-provider-aws"
         members:
         - andrewsykim
+        - cartermckinnon
         - justinsb
         - nckturner
         - olemarkus

@@ -157,6 +157,9 @@ restrictions:
     - "^pspmigrator"
     - "^secrets-store-csi-driver"
     - "^sig-auth-tools"
+  - path: "kubernetes-sigs/sig-autoscaling/teams.yaml"
+    allowedRepos:
+    - "^karpenter"
   - path: "kubernetes-sigs/sig-aws/teams.yaml"
     allowedRepos:
     - "^aws-ebs-csi-driver"

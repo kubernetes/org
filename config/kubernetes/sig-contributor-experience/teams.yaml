@@ -2,10 +2,7 @@ teams:
   community-admins:
     description: ""
     maintainers:
-    - cblecker
     - MadhavJivrajani
-    - mrbobbytables
-    - nikhita
     - palnabarun
     - Priyankasaggu11929
     members:
@@ -16,10 +13,7 @@ teams:
   community-maintainers:
     description: ""
     maintainers:
-    - cblecker
     - MadhavJivrajani
-    - mrbobbytables
-    - nikhita
     - Priyankasaggu11929
     members:
     - kaslin
@@ -158,23 +152,17 @@ teams:
       sig-contributor-experience-leads:
         description: Chairs and Technical Leads for SIG Contributor Experience
         maintainers:
-        - cblecker
         - MadhavJivrajani
-        - mrbobbytables
-        - nikhita
         - palnabarun
         - Priyankasaggu11929
         members:
-        - jberkus
         - kaslin
         privacy: closed
       sig-contributor-experience-pr-reviews:
         description: PR reviews for contributor-experience infrastructure, such as the
           PR bot, etc.
         maintainers:
-        - cblecker
         - MadhavJivrajani
-        - nikhita
         - palnabarun
         - Priyankasaggu11929
         members:

@@ -17,9 +17,7 @@ teams:
     description: Contributors who can use `/milestone` or `/status` commands on
       issues/PRs and have triage access to the kubernetes/enhancements repo
     maintainers:
-    - cblecker # ContribEx
-    - mrbobbytables # ContribEx
-    - nikhita # ContribEx
+    - MadhavJivrajani # ContribEx
     - palnabarun # Release Manager
     - Priyankasaggu11929 # ContribEx / 1.29 RT Lead
     members:
@@ -112,8 +110,6 @@ teams:
     - npolshakova # 1.29 Enhancements Lead
     - oxddr # Scalability
     - pacoxu # Cluster Lifecycle
-    - parispittman # ContribEx
-    - phillels # ContribEx
     - pmorie # Multicluster
     - prydonius # Apps
     - puerco # Release Manager

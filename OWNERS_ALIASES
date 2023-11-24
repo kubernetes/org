@@ -40,11 +40,7 @@ aliases:
   sig-contributor-experience-leads:
     - MadhavJivrajani
     - Priyankasaggu11929
-    - cblecker
-    - jberkus
     - kaslin
-    - mrbobbytables
-    - nikhita
     - palnabarun
   sig-docs-leads:
     - divya-mohan0209
@@ -54,16 +50,21 @@ aliases:
     - reylejano
     - sftim
     - tengqm
+  sig-etcd-leads:
+    - ahrtr
+    - jmhbnz
+    - serathius
+    - wenjiaswe
   sig-instrumentation-leads:
     - dashpole
     - dgrisonnet
     - ehashman
     - logicalhan
   sig-k8s-infra-leads:
+    - BenTheElder
     - ameukam
     - dims
     - upodroid
-    - BenTheElder
   sig-multicluster-leads:
     - jeremyot
     - pmorie
@@ -124,8 +125,8 @@ aliases:
     - kwiesmueller
   wg-batch-leads:
     - Huang-Wei
-    - ahg-g
     - endocrimes
+    - mwielgus
     - soltysh
     - swatisehgal
   wg-data-protection-leads:
@@ -135,24 +136,16 @@ aliases:
     - cantbewong
     - cindyxing
     - dejanb
-  wg-multitenancy-leads:
-    - srampal
-    - tashimi
+  wg-lts-leads:
+    - jeremyrickard
+    - liggitt
+    - micahhausler
   wg-policy-leads:
     - JimBugwadia
     - rficcaglia
-  wg-reliability-leads:
-    - deads2k
-    - stevekuznetsov
-    - wojtek-t
   wg-structured-logging-leads:
     - pohly
     - serathius
-  ug-vmware-users-leads:
-    - brysonshepherd
-    - cantbewong
-    - mylesagray
-    - phenixblue
   committee-code-of-conduct:
     - AnaMMedina21
     - endocrimes

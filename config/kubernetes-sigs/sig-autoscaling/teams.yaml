@@ -1,0 +1,45 @@
+teams:
+  karpenter-admins:
+    description: admin access to the karpenter repo
+    members:
+    - bwagner5
+    - ellistarn
+    - gjtempleton
+    - jonathan-innis
+    - MaciekPytel
+    - mwielgus
+    - njtran
+    - tzneal
+    privacy: closed
+    repos:
+      karpenter: admin
+  karpenter-maintainers:
+    description: write access to the karpenter repo
+    members:
+    - bwagner5
+    - ellistarn
+    - gjtempleton
+    - jonathan-innis
+    - MaciekPytel
+    - mwielgus
+    - njtran
+    - tzneal
+    privacy: closed
+    repos:
+      karpenter: write
+  karpenter-reviewers:
+    description: read access to the karpenter repo
+    members:
+    - engedaam
+    - jackfrancis
+    - jmdeal      
+    - tallaxes
+    privacy: closed
+    repos:
+      karpenter: read
+  sig-autoscaling-leads:
+    description: "leads of the SIG Autoscaling"
+    members:
+    - gjtempleton
+    - mwielgus
+    privacy: closed

@@ -3,8 +3,8 @@ teams:
     description: Admin access to windows-gmsa repo
     members:
     - claudiubelu
-    - jayunit100
     - jsturtevant
+    - knabben
     - marosset
     privacy: closed
     repos:
@@ -13,8 +13,8 @@ teams:
     description: Write access to windows-gmsa repo
     members:
     - claudiubelu
-    - jayunit100
     - jsturtevant
+    - knabben
     - marosset
     privacy: closed
     repos:
@@ -23,8 +23,8 @@ teams:
     description: Admin access to sig-windows-samples repo
     members:
     - claudiubelu
-    - jayunit100
     - jsturtevant
+    - knabben
     - marosset
     privacy: closed
     previously:
@@ -35,8 +35,8 @@ teams:
     description: Write access to sig-windows-samples repo
     members:
     - claudiubelu
-    - jayunit100
     - jsturtevant
+    - knabben
     - marosset
     privacy: closed
     previously:
@@ -49,8 +49,8 @@ teams:
     - aroradaman
     - claudiubelu
     - dougsland
-    - jayunit100
     - jsturtevant
+    - knabben
     - marosset
     - sladyn98
     privacy: closed
@@ -62,8 +62,8 @@ teams:
     members:
     - claudiubelu
     - dougsland
-    - jayunit100
     - jsturtevant
+    - knabben
     - marosset
     privacy: closed
     repos:
@@ -73,8 +73,8 @@ teams:
     members:
     - claudiubelu
     - dougsland
-    - jayunit100
     - jsturtevant
+    - knabben
     - marosset
     privacy: closed
     repos:
@@ -83,7 +83,6 @@ teams:
     description: Admin access to the windows-operational-readiness repo
     members:
     - iXinqi
-    - jayunit100
     - knabben
     privacy: closed
     repos:
@@ -92,7 +91,6 @@ teams:
     description: Write access to the windows-operational-readiness repo
     members:
     - iXinqi
-    - jayunit100
     - knabben
     privacy: closed
     repos:
@@ -100,8 +98,8 @@ teams:
   windows-service-proxy-admins:
     description: Admin access to the windows-service-proxy repo
     members:
-    - jayunit100
     - jsturtevant
+    - knabben
     - marosset
     privacy: closed
     repos:
@@ -109,8 +107,8 @@ teams:
   windows-service-proxy-maintainers:
     description: Write access to the windows-service-proxy repo
     members:
-    - jayunit100
     - jsturtevant
+    - knabben
     - marosset
     privacy: closed
     repos:
@@ -120,8 +118,8 @@ teams:
     members:
     - adelina-t
     - claudiubelu
-    - jayunit100
     - jsturtevant
+    - knabben
     - marosset
     privacy: closed
     repos:
@@ -131,8 +129,8 @@ teams:
     members:
     - adelina-t
     - claudiubelu
-    - jayunit100
     - jsturtevant
+    - knabben
     - marosset
     privacy: closed
     repos:

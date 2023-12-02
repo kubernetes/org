@@ -274,6 +274,7 @@ restrictions:
     - "^downloadkubernetes"
     - "^mdtoc"
     - "^promo-tools"
+    - "^release-actions"
     - "^release-notes"
     - "^release-sdk"
     - "^release-team-shadow-stats"

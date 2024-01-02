@@ -80,7 +80,6 @@ teams:
     - justaugustus # Release
     - justinsb # AWS / Cluster Lifecycle
     - k8s-release-robot # Release
-    - katcosgrove # 1.29 RT Docs Lead
     - khenidak # Azure
     - KnVerey # CLI
     - kow3ns # Apps
@@ -307,8 +306,8 @@ teams:
       release-team:
         description: Members of the current Release Team and subproject owners.
         maintainers:
-        - palnabarun # subproject owner (1.21 RT Lead)
         - katcosgrove # 1.30 RT Lead
+        - palnabarun # subproject owner (1.21 RT Lead)
         members:
         - cpanato # subproject owner / Technical Lead
         - gracenng # subproject owner (1.28 RT Lead)
@@ -331,12 +330,11 @@ teams:
             description: Members of the CI Signal team for the current release
               cycle.
             members:
+            - pacoxu # 1.30 CI Signal Lead
             # - X # 1.30 CI Signal Shadow
             # - X # 1.30 CI Signal Shadow
             # - X # 1.30 CI Signal Shadow
             # - X # 1.30 CI Signal Shadow
-            # - X # 1.30 CI Signal Shadow
-            # - X # 1.30 CI Signal Lead
             privacy: closed
           release-team-docs:
             description: Members of the Docs team for the current release cycle.
@@ -350,8 +348,8 @@ teams:
           release-team-bug-triage:
             description: Members of the Bug Triage team for the current release cycle.
             members:
+            - pacoxu # 1.30 Bug Triage Lead
             # - X # 1.30 Bug Triage Shadow
-            # - X # 1.30 Bug Triage Lead
             # - X # 1.30 Bug Triage Shadow
             # - X # 1.30 Bug Triage Shadow
             # - X # 1.30 Bug Triage Shadow
@@ -392,8 +390,8 @@ teams:
               as a notification group. Remove org members who are not current
               Release Team Leads.
             members:
-            - katcosgrove # 1.30 RT Lead
             - gracenng # 1.30 RT EA
+            - katcosgrove # 1.30 RT Lead
             # - X # 1.30 Release Lead Shadow
             # - X # 1.30 Release Lead Shadow
             # - X # 1.30 Release Lead Shadow

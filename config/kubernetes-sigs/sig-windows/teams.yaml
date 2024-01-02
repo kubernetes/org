@@ -2,6 +2,7 @@ teams:
   windows-gmsa-admins:
     description: Admin access to windows-gmsa repo
     members:
+    - aravindhp
     - claudiubelu
     - jsturtevant
     - knabben
@@ -12,6 +13,7 @@ teams:
   windows-gmsa-maintainers:
     description: Write access to windows-gmsa repo
     members:
+    - aravindhp
     - claudiubelu
     - jsturtevant
     - knabben
@@ -22,6 +24,7 @@ teams:
   sig-windows-samples-admins:
     description: Admin access to sig-windows-samples repo
     members:
+    - aravindhp
     - claudiubelu
     - jsturtevant
     - knabben
@@ -34,6 +37,7 @@ teams:
   sig-windows-samples-maintainers:
     description: Write access to sig-windows-samples repo
     members:
+    - aravindhp
     - claudiubelu
     - jsturtevant
     - knabben
@@ -46,9 +50,9 @@ teams:
   sig-windows-dev-tools-admins:
     description: Admin access to sig-windows-dev-tools repo
     members:
+    - aravindhp
     - aroradaman
     - claudiubelu
-    - dougsland
     - jsturtevant
     - knabben
     - marosset
@@ -98,6 +102,7 @@ teams:
   windows-service-proxy-admins:
     description: Admin access to the windows-service-proxy repo
     members:
+    - aravindhp
     - jsturtevant
     - knabben
     - marosset
@@ -116,7 +121,7 @@ teams:
   windows-testing-admins:
     description: Admin access to the windows-testing repo
     members:
-    - adelina-t
+    - aravindhp
     - claudiubelu
     - jsturtevant
     - knabben
@@ -127,7 +132,7 @@ teams:
   windows-testing-maintainers:
     description: Write access to the windows-testing repo
     members:
-    - adelina-t
+    - aravindhp
     - claudiubelu
     - jsturtevant
     - knabben

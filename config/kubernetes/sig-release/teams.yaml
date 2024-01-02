@@ -17,9 +17,10 @@ teams:
     description: Contributors who can use `/milestone` or `/status` commands on
       issues/PRs and have triage access to the kubernetes/enhancements repo
     maintainers:
+    - katcosgrove # v1.30 RT Lead
     - MadhavJivrajani # ContribEx
     - palnabarun # Release Manager
-    - Priyankasaggu11929 # ContribEx / 1.29 RT Lead
+    - Priyankasaggu11929 # ContribEx
     members:
     - abgworrall # GCP
     - adisky # OpenStack
@@ -236,6 +237,7 @@ teams:
     - jeefy
     - jeremyrickard # Technical Lead
     - justaugustus # Chair
+    - katcosgrove
     - leonardpahlke
     - liggitt
     - mariantalla
@@ -306,7 +308,7 @@ teams:
         description: Members of the current Release Team and subproject owners.
         maintainers:
         - palnabarun # subproject owner (1.21 RT Lead)
-        - Priyankasaggu11929 # 1.29 RT Lead
+        - katcosgrove # 1.30 RT Lead
         members:
         - cpanato # subproject owner / Technical Lead
         - gracenng # subproject owner (1.28 RT Lead)
@@ -391,11 +393,8 @@ teams:
               as a notification group. Remove org members who are not current
               Release Team Leads.
             members:
-            - mehabhalodiya # 1.29 RT Lead Shadow
-            - mickeyboxell # 1.29 RT Lead Shadow
-            - neoaggelos # 1.29 RT Lead Shadow
-            - ramrodo # 1.29 RT Lead Shadow
-            - salaxander # 1.29 RT EA
+            - katcosgrove # 1.30 RT Lead
+            - gracenng # 1.30 RT EA
             privacy: closed
             repos:
               kubernetes: write

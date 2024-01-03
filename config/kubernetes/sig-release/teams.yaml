@@ -327,7 +327,7 @@ teams:
         - xmudrii # Release Manager
         privacy: closed
         teams:
-          release-signal:
+          release-team-release-signal:
             description: Members of the Release Signal team for the current release
               cycle.
             members:

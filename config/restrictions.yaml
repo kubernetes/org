@@ -273,6 +273,7 @@ restrictions:
     - "^bom"
     - "^downloadkubernetes"
     - "^mdtoc"
+    - "^obscli"
     - "^promo-tools"
     - "^release-actions"
     - "^release-notes"

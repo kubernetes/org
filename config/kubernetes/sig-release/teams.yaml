@@ -311,11 +311,11 @@ teams:
         members:
         - cpanato # subproject owner / Technical Lead
         - gracenng # subproject owner (1.28 RT Lead)
-        - katcosgrove # 1.30 RT Lead 
         - jameslaverack # subproject owner (1.24 RT Lead)
         - jeremyrickard # subproject owner / Technical Lead
         - jimangel # 1.29 RT Branch Manager
         - justaugustus # subproject owner / Chair
+        - katcosgrove # 1.30 RT Lead 
         - leonardpahlke # subproject owner (1.26 RT Lead)
         - marosset # 1.29 RT Branch Manager Shadow
         - puerco # subproject owner / Technical Lead
@@ -327,8 +327,8 @@ teams:
         - xmudrii # Release Manager
         privacy: closed
         teams:
-          ci-signal:
-            description: Members of the CI Signal team for the current release
+          release-signal:
+            description: Members of the Release Signal team for the current release
               cycle.
             members:
             - pacoxu # 1.30 CI Signal Lead
@@ -345,15 +345,6 @@ teams:
             # - X # 1.30 Docs Shadow
             # - X # 1.30 Docs Shadow
             # - X # 1.30 Docs Shadow
-            privacy: closed
-          release-team-bug-triage:
-            description: Members of the Bug Triage team for the current release cycle.
-            members:
-            - pacoxu # 1.30 Bug Triage Lead
-            # - X # 1.30 Bug Triage Shadow
-            # - X # 1.30 Bug Triage Shadow
-            # - X # 1.30 Bug Triage Shadow
-            # - X # 1.30 Bug Triage Shadow
             privacy: closed
           release-team-comms:
             description: Members of the Comms team for the current release cycle.

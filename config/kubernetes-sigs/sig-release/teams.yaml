@@ -65,6 +65,30 @@ teams:
     privacy: closed
     repos:
       mdtoc: write
+  obscli-admins:
+    description: admin access to obscli
+    members:
+    - cpanato # subproject owner
+    - jeremyrickard # subproject owner
+    - justaugustus # subproject owner
+    - puerco # subproject owner
+    - saschagrunert # subproject owner
+    - Verolop # subproject owner
+    privacy: closed
+    repos:
+      obscli: admin
+  obscli-maintainers:
+    description: write access to obscli
+    members:
+    - cpanato # subproject owner
+    - jeremyrickard # subproject owner
+    - justaugustus # subproject owner
+    - puerco # subproject owner
+    - saschagrunert # subproject owner
+    - Verolop # subproject owner
+    privacy: closed
+    repos:
+      obscli: write
   promo-tools-admins:
     description: admin access to promo-tools
     members:

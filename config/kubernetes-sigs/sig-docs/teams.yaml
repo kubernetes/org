@@ -11,7 +11,6 @@ teams:
   reference-docs-maintainers:
     description: write access to the reference-docs repo
     members:
-    - kbhawkey
     - onlydole
     - sftim
     - tengqm

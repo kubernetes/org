@@ -50,6 +50,7 @@ teams:
     - derekwaynecarr # Architecture / Node
     - dgrisonnet # Instrumentation
     - dims # Architecture / K8s Infra
+    - drewhagen # 1.30 Docs Lead
     - eddiezane # CLI
     - ehashman # Instrumentation
     - elmiko # Cloud Provider
@@ -59,9 +60,8 @@ teams:
     - floreks # UI
     - foxish # Big Data
     - frapposelli # VMware
-    - fsmunoz # 1.29 Release Notes Lead
-    - gracenng # Release Manager Associate
-    - hailkomputer # 1.29 Bug Triage Lead
+    - fsmunoz # 1.30 RT Lead Shadow
+    - gracenng # Release Manager Associate / 1.30 RT EA
     - hpandeycodeit # Usability
     - Huang-Wei # Scheduling
     - janetkuo # Apps
@@ -80,10 +80,10 @@ teams:
     - justinsb # AWS / Cluster Lifecycle
     - k8s-release-robot # Release
     - katcosgrove # v1.30 RT Lead
+    - kcmartin # 1.30 Comms Lead
     - khenidak # Azure
     - KnVerey # CLI
     - kow3ns # Apps
-    - krol3 # 1.29 RT Comms Lead
     - lavalamp # API Machinery
     - liggitt # Auth / Release
     - lingxiankong # OpenStack
@@ -96,7 +96,6 @@ teams:
     - mborsz # Scalability
     - mehabhalodiya # 1.29 Lead Shadow
     - michelle192837 # Testing
-    - mickeyboxell # 1.29 Lead Shadow
     - mikedanese # Auth
     - mikezappa87 # Network
     - mm4tt # Scalability
@@ -105,11 +104,10 @@ teams:
     - mwielgus # Autoscaling
     - natasha41575 # CLI
     - nckturner # AWS
-    - neoaggelos # 1.29 Lead Shadow
+    - neoaggelos # 1.30 RT Lead Shadow
     - neolit123 # Cluster Lifecycle
-    - npolshakova # 1.29 Enhancements Lead
     - oxddr # Scalability
-    - pacoxu # Cluster Lifecycle
+    - pacoxu # Cluster Lifecycle / 1.30 Release Signal Lead
     - pmorie # Multicluster
     - prydonius # Apps
     - puerco # Release Manager
@@ -117,10 +115,12 @@ teams:
     - quinton-hoole # Multicluster
     - RainbowMango # Instrumentation
     - rajakavitha1 # Usability
-    - ramrodo # Release Manager Associate / 1.29 RT Lead Shadow
+    - ramrodo # Release Manager Associate / 1.30 RT Lead Shadow
+    - rashansmith # 1.30 Release Notes Lead
     - ritazh # Auth
     - saad-ali # Storage
     - salaxander # Release Manager Associate / 1.29 RT EA
+    - salehsedghpour # 1.30 Enhancements Lead
     - saschagrunert # Release
     - SataQiu # Cluster Lifecycle
     - serathius # Instrumentation

@@ -54,6 +54,22 @@ teams:
     privacy: closed
     repos:
       e2e-framework: write
+  hydrophone-admins:
+    description: admin access to hydrophone
+    members:
+    - dims
+    - rjsadow
+    privacy: closed
+    repos:
+      hydrophone: admin
+  hydrophone-maintainers:
+    description: write access to hydrophone
+    members:
+    - dims
+    - rjsadow
+    privacy: closed
+    repos:
+      hydrophone: write
   kind-admins:
     description: Admin access to the kind repo
     members:

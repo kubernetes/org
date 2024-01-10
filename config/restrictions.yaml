@@ -310,6 +310,7 @@ restrictions:
     - "^boskos"
     - "^cloud-provider-kind"
     - "^e2e-framework"
+    - "^hydrophone"
     - "^kind"
     - "^kubetest2"
     - "^prow"

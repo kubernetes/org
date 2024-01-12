@@ -261,6 +261,7 @@ restrictions:
     - "^gateway-api"
     - "^kpng"
     - "^network-policy-api"
+    - "^node-ipam-controller"
   - path: "kubernetes-sigs/sig-node/teams.yaml"
     allowedRepos:
     - "^dra-example-driver"

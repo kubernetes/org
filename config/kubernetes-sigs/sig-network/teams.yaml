@@ -213,3 +213,29 @@ teams:
     privacy: closed
     repos:
       network-policy-api: admin
+  node-ipam-controller-admins:
+    description: Admin access to the node-ipam-controller repo
+    members:
+    - ameukam
+    - aojea
+    - danwinship
+    - mneverov
+    - sarveshr7
+    - shaneutt
+    - thockin
+    privacy: closed
+    repos:
+      node-ipam-controller: admin
+  node-ipam-controller-maintainers:
+    description: Write access to the node-ipam-controller repo
+    members:
+    - ameukam
+    - aojea
+    - danwinship
+    - mneverov
+    - sarveshr7
+    - shaneutt
+    - thockin
+    privacy: closed
+    repos:
+      node-ipam-controller: write

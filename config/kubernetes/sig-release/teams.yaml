@@ -331,11 +331,12 @@ teams:
             description: Members of the Release Signal team for the current release
               cycle.
             members:
+            - MaryamTavakkoli # 1.30 CI Signal Shadow
+            - moficodes # 1.30 CI Signal Shadow
+            - Namanl2001 # 1.30 CI Signal Shadow
             - pacoxu # 1.30 CI Signal Lead
-            # - X # 1.30 CI Signal Shadow
-            # - X # 1.30 CI Signal Shadow
-            # - X # 1.30 CI Signal Shadow
-            # - X # 1.30 CI Signal Shadow
+            - SubhasmitaSw # 1.30 CI Signal Shadow
+            - zelenushechka # 1.30 CI Signal Shadow
             privacy: closed
           release-team-docs:
             description: Members of the Docs team for the current release cycle.

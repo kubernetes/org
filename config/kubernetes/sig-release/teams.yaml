@@ -350,7 +350,6 @@ teams:
           release-team-comms:
             description: Members of the Comms team for the current release cycle.
             members:
-            - kcmartin # 1.30 Comms Lead
             - a-mccarthy # 1.30 Comms Shadow
             - checksumz # 1.30 Comms Shadow
             - fkautz # 1.30 Comms Shadow

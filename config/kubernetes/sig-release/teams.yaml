@@ -309,6 +309,7 @@ teams:
         - palnabarun # subproject owner (1.21 RT Lead)
         - Priyankasaggu11929 # subproject owner (1.29 RT Lead)
         members:
+        - AnaMMedina21 # 1.30 Enhancements Shadow
         - cpanato # subproject owner / Technical Lead
         - gracenng # subproject owner (1.28 RT Lead)
         - jameslaverack # subproject owner (1.24 RT Lead)
@@ -318,11 +319,17 @@ teams:
         - katcosgrove # 1.30 RT Lead 
         - leonardpahlke # subproject owner (1.26 RT Lead)
         - marosset # 1.29 RT Branch Manager Shadow
+        - meganwolf0 # 1.30 Enhancements Shadow
+        - mickeyboxell # 1.30 Enhancements Shadow
+        - pnbrown # 1.30 Enhancements Shadow
         - puerco # subproject owner / Technical Lead
         - reylejano # subproject owner (1.23 RT Lead)
         - salaxander # subproject owner (1.27 RT Lead)
+        - salehsedghpour # 1.30 Enhancements Lead
         - saschagrunert # subproject owner / Chair
         - savitharaghunathan # subproject owner (1.22 RT Lead)
+        - sreeram-venkitesh # 1.30 Enhancements Shadow
+        - tjons # 1.30 Enhancements Shadow
         - Verolop # Release Manager
         - xmudrii # Release Manager
         privacy: closed
@@ -360,11 +367,13 @@ teams:
             description: Members of the Enhancments team for the current release
               cycle.
             members:
+            - AnaMMedina21 # 1.30 Enhancements Shadow
+            - meganwolf0 # 1.30 Enhancements Shadow
+            - mickeyboxell # 1.30 Enhancements Shadow
+            - pnbrown # 1.30 Enhancements Shadow
             - salehsedghpour # 1.30 Enhancements Lead
-            # - X # 1.30 Enhancements Shadow
-            # - X # 1.30 Enhancements Shadow
-            # - X # 1.30 Enhancements Shadow
-            # - X # 1.30 Enhancements Shadow
+            - sreeram-venkitesh # 1.30 Enhancements Shadow
+            - tjons # 1.30 Enhancements Shadow
             privacy: closed
           release-team-release-notes:
             description: Members of the Release Notes team for the current release

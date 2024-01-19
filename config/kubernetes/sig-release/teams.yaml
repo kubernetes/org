@@ -340,11 +340,11 @@ teams:
           release-team-docs:
             description: Members of the Docs team for the current release cycle.
             members:
-            - drewhagen # 1.30 Docs Lead
-            - Vyom-Yadav # 1.30 Docs Shadow
-            - Princesso # 1.30 Docs Shadow
             - celestehorgan # 1.30 Docs Shadow
             - chanieljdan # 1.30 Docs Shadow
+            - drewhagen # 1.30 Docs Lead
+            - Princesso # 1.30 Docs Shadow
+            - Vyom-Yadav # 1.30 Docs Shadow
             privacy: closed
           release-team-comms:
             description: Members of the Comms team for the current release cycle.

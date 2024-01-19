@@ -358,12 +358,10 @@ teams:
     - awkif
     - bene2k1
     - bradtopol
-    - divya-mohan0209
-    - drewhagen # 1.30 RT Docs Lead
-    - Vyom-Yadav # 1.30 Docs Shadow
-    - Princesso # 1.30 Docs Shadow
     - celestehorgan # 1.30 Docs Shadow
     - chanieljdan # 1.30 Docs Shadow
+    - divya-mohan0209
+    - drewhagen # 1.30 RT Docs Lead
     - femrtnz
     - girikuncoro
     - gochist
@@ -378,6 +376,7 @@ teams:
     - onlydole
     - perriea
     - potapy4
+    - Princesso # 1.30 Docs Shadow
     - raelga
     - rekcah78
     - remyleone
@@ -391,6 +390,7 @@ teams:
     - tengqm
     - tfogo
     - truongnh1992
+    - Vyom-Yadav # 1.30 Docs Shadow
     - xichengliudui
     - ysyukr
     privacy: closed

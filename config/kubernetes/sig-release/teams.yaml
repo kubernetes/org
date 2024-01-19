@@ -357,11 +357,11 @@ teams:
           release-team-comms:
             description: Members of the Comms team for the current release cycle.
             members:
+            - a-mccarthy # 1.30 Comms Shadow
+            - checksumz # 1.30 Comms Shadow
+            - fkautz # 1.30 Comms Shadow
             - kcmartin # 1.30 Comms Lead
-            # - X # 1.30 Comms Shadow
-            # - X # 1.30 Comms Shadow
-            # - X # 1.30 Comms Shadow
-            # - X # 1.30 Comms Shadow
+            - natalisucks # 1.30 Comms Shadow
             privacy: closed
           release-team-enhancements:
             description: Members of the Enhancments team for the current release

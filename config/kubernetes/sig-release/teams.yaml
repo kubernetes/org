@@ -341,7 +341,7 @@ teams:
             description: Members of the Docs team for the current release cycle.
             members:
             - celestehorgan # 1.30 Docs Shadow
-            - chanieljdan # 1.30 Docs Shadow
+            # - chanieljdan # 1.30 Docs Shadow
             - drewhagen # 1.30 Docs Lead
             - Princesso # 1.30 Docs Shadow
             - Vyom-Yadav # 1.30 Docs Shadow

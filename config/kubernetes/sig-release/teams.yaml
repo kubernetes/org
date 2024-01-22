@@ -380,10 +380,10 @@ teams:
               cycle.
             members:
             - rashansmith # 1.30 Release Notes Lead
-            # - X # 1.30 Release Notes Shadow
-            # - X # 1.30 Release Notes Shadow
-            # - X # 1.30 Release Notes Shadow
-            # - X # 1.30 Release Notes Shadow
+            - fykaa # 1.30 Release Notes Shadow
+            - npolshakova # 1.30 Release Notes Shadow
+            - OrlinVasilev # 1.30 Release Notes Shadow
+            - satyampsoni # 1.30 Release Notes Shadow
             privacy: closed
           release-team-leads:
             description: Release Team Leads for the current Kubernetes release

@@ -196,6 +196,16 @@ teams:
     - keithmattix
     - mikemorris
     privacy: closed
+  knftables-admins:
+    description: Admin access to the knftables repo
+    members:
+    - aojea
+    - danwinship
+    - shaneutt
+    - thockin
+    privacy: closed
+    repos:
+      knftables: admin
   kpng-admins:
     description: Admin access to the kpng repo
     members:

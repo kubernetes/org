@@ -379,10 +379,10 @@ teams:
             description: Members of the Release Notes team for the current release
               cycle.
             members:
-            - rashansmith # 1.30 Release Notes Lead
             - fykaa # 1.30 Release Notes Shadow
             - npolshakova # 1.30 Release Notes Shadow
             - OrlinVasilev # 1.30 Release Notes Shadow
+            - rashansmith # 1.30 Release Notes Lead
             - satyampsoni # 1.30 Release Notes Shadow
             privacy: closed
           release-team-leads:

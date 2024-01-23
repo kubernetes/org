@@ -217,7 +217,7 @@ func ReadExceptions(filepath string) ([]Exception, error) {
 func usernameNotInContributors(contribs map[string]Contribution, username string) bool {
 	_, found := contribs[username]
 
-	return found
+	return !found
 }
 
 func usernameBelowActivityThreshold(contribs map[string]Contribution, username string, activityThreshold int) bool {

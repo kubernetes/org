@@ -45,15 +45,18 @@ Add user to specified orgs:
 
 Note: Adding to teams is currently unsupported.
 	`
+
+	auditHelpText = "Audit GitHub org members"
 )
 
 type Options struct {
 	// global options
 	Confirm  bool
 	RepoRoot string
+	Orgs     []string
 
-	// add options
-	Orgs []string
+	// audit options
+	AuditOptions
 }
 
 func AddMemberToOrgs(username string, options Options) error {
@@ -115,6 +118,7 @@ func main() {
 	o := Options{}
 	rootCmd.PersistentFlags().BoolVar(&o.Confirm, "confirm", false, "confirm the changes")
 	rootCmd.PersistentFlags().StringVar(&o.RepoRoot, "root", ".", "root of the k/org repo")
+	rootCmd.PersistentFlags().StringSliceVar(&o.Orgs, "org", []string{}, "orgs to add the user to")
 
 	addCmd := &cobra.Command{
 		Use:   "add",
@@ -146,9 +150,39 @@ func main() {
 		},
 	}
 
-	addCmd.Flags().StringSliceVar(&o.Orgs, "org", []string{}, "orgs to add the user to")
+	auditCmd := &cobra.Command{
+		Use:   "audit",
+		Short: "Audit GitHub org members",
+		Long:  auditHelpText,
+		PreRunE: func(cmd *cobra.Command, args []string) error {
+			if invalidOrgs := findInvalidOrgs(o.Orgs); len(invalidOrgs) > 0 {
+				return fmt.Errorf("specified invalid orgs: %s", strings.Join(invalidOrgs, ", "))
+			}
+
+			if o.ActivityThreshold < 0 {
+				return fmt.Errorf("activity threshold cannot be negative")
+			}
+
+			// TODO: Check if exceptions file is of the right format, if defined
+
+			return nil
+		},
+		RunE: func(cmd *cobra.Command, args []string) error {
+			return OrgAudit(o)
+		},
+	}
+
+	// korg audit flags
+	auditCmd.Flags().IntVar(&o.ActivityThreshold, "activity-threshold", 0, "minimum activity to be considered active. default: 0")
+	auditCmd.Flags().StringVar(&o.Period, "period", "y", "period to look back for activity. possible values are defined in https://github.com/cncf/devstats/blob/master/docs/periods.md. default: y (Year)")
+	auditCmd.Flags().StringVar(&o.OutputFile, "output-file", "", "parse owners files. default: none")
+	auditCmd.Flags().StringVar(&o.ExceptionsFile, "exceptions-file", "", "exceptions for removal. default: none")
+	auditCmd.Flags().BoolVar(&o.CheckOwners, "check-owners", false, "parse owners files. default: false")
+	auditCmd.Flags().BoolVar(&o.CheckTeams, "check-teams", false, "check which teams the user belongs to. default: false")
+
+	// commands
 	rootCmd.AddCommand(addCmd)
-	// Note: In future, add more korg commands remove/delete
+	rootCmd.AddCommand(auditCmd)
 
 	if err := rootCmd.Execute(); err != nil {
 		os.Exit(1)

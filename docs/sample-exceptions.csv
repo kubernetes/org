@@ -1,0 +1,9 @@
+username,reason
+k8s-publishing-bot,bot account
+k8s-infra-ci-robot,bot account
+k8s-github-robot,bot account
+k8s-ci-robot,bot account
+k8s-publishing-bot,bot account
+k8s-release-robot,bot account
+thelinuxfoundation,bot account
+k8s-infra-cherrypick-robot,bot account

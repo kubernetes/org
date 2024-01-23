@@ -47,6 +47,16 @@ Add user to specified orgs:
 Note: Adding to teams is currently unsupported.
 	`
 
+	removeHelpText = `
+Remove users from GitHub orgs
+
+Remove user to specified orgs:
+
+	korg remove <github username> --org kubernetes --org kubernetes-sigs
+
+Note: Removing from teams is currently unsupported.
+	`
+
 	auditHelpText = "Audit GitHub org members"
 )
 
@@ -55,6 +65,7 @@ type Options struct {
 	Confirm  bool
 	RepoRoot string
 	Orgs     []string
+	Teams    []string
 
 	// audit options
 	AuditOptions
@@ -151,6 +162,31 @@ func main() {
 		},
 	}
 
+	removeCmd := &cobra.Command{
+		Use:   "remove",
+		Short: "Remove members from org",
+		Long:  removeHelpText,
+		Args:  cobra.ExactArgs(1),
+		PreRunE: func(cmd *cobra.Command, args []string) error {
+			if invalidOrgs := findInvalidOrgs(o.Orgs); len(invalidOrgs) > 0 {
+				return fmt.Errorf("specified invalid orgs: %s", strings.Join(invalidOrgs, ", "))
+			}
+
+			return nil
+		},
+		RunE: func(cmd *cobra.Command, args []string) error {
+			user := args[0]
+			if len(o.Orgs) > 0 {
+				return RemoveMemberFromOrgs(o, user)
+			}
+
+			return nil
+		},
+	}
+
+	// korg remove flags
+	removeCmd.Flags().StringSliceVar(&o.Orgs, "org", []string{}, "orgs to remove the user from")
+
 	auditCmd := &cobra.Command{
 		Use:   "audit",
 		Short: "Audit GitHub org members",
@@ -183,6 +219,7 @@ func main() {
 
 	// commands
 	rootCmd.AddCommand(addCmd)
+	rootCmd.AddCommand(removeCmd)
 	rootCmd.AddCommand(auditCmd)
 
 	if err := rootCmd.Execute(); err != nil {

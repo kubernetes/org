@@ -26,6 +26,8 @@ teams:
         - shyamjvs
         - wojtek-t
         privacy: closed
+        repos:
+          perf-tests: admin
       sig-scalability-pr-reviews:
         description: PR reviews for SIG Scalability
         members:

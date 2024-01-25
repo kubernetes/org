@@ -21,19 +21,22 @@ teams:
   sig-instrumentation-members:
     description: ""
     members:
-    - 44past4
-    - andyxning
     - brancz
+    - CatherineF-dev
     - coffeepac
     - dashpole
     - dgrisonnet
     - dims
-    - DirectXMan12
     - ehashman
     - erain
     - lilic
     - logicalhan
+    - mrueg
+    - olivierlemasle
+    - pohly
     - RainbowMango
+    - rexagod
+    - RichaBanker
     - s-urbaniak
     - serathius
     - tariq1890
@@ -44,18 +47,57 @@ teams:
   kube-state-metrics-admins:
     description: Admin access to the kube-state-metrics repo
     members:
-    - brancz
-    - lilic
+    - dashpole
+    - dgrisonnet
+    - ehashman
+    - fpetkovski
+    - logicalhan
     - mrueg
-    - tariq1890
+    - rexagod
     privacy: closed
+    repos:
+      kube-state-metrics: admin
   kube-state-metrics-maintainers:
     description: Write access to the kube-state-metrics repo
     members:
-    - brancz
     - dgrisonnet
     - fpetkovski
-    - lilic
     - mrueg
-    - tariq1890
+    - rexagod
     privacy: closed
+    repos:
+      kube-state-metrics: write
+  klog-admins:
+    description: Admin access to the klog repo
+    members:
+    - dims
+    - serathius
+    - thockin
+    privacy: closed
+    repos:
+      klog: admin
+  klog-maintainers:
+    description: Write access to the klog repo
+    members:
+    - dims
+    - serathius
+    - thockin
+    privacy: closed
+    repos:
+      klog: write
+  metrics-admins:
+    description: Admin access to the metrics repo
+    members:
+    - dgrisonnet
+    - serathius
+    privacy: closed
+    repos:
+      metrics: admin
+  metrics-maintainers:
+    description: Write access to the metrics repo
+    members:
+    - dgrisonnet
+    - serathius
+    privacy: closed
+    repos:
+      metrics: write

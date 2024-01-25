@@ -5,6 +5,8 @@ teams:
     - kow3ns
     - liyinan926
     privacy: closed
+    repos:
+      execution-hook: admin
   execution-hook-maintainers:
     description: Write access to execution-hook repo
     members:
@@ -13,3 +15,20 @@ teams:
     - liyinan926
     - xing-yang
     privacy: closed
+    repos:
+      execution-hook: write
+  jobset-admins:
+    description: Admin access to jobset repo
+    members:
+    - ahg-g
+    - danielvegamyhre
+    privacy: closed
+    repos:
+      jobset: admin
+  jobset-maintainers:
+    description: Write access to jobset repo
+    members:
+    - ahg-g
+    privacy: closed
+    repos:
+      jobset: write

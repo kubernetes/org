@@ -19,7 +19,7 @@ GITHUB_TOKEN_PATH ?=
 TEST_INFRA_PATH ?= $(OUTPUT_DIR)/tmp/test-infra
 
 # intentionally hardcoded list to ensure it's high friction to remove someone
-ADMINS = cblecker fejta idvoretskyi mrbobbytables nikhita spiffxp
+ADMINS = cblecker MadhavJivrajani mrbobbytables nikhita palnabarun Priyankasaggu11929
 ORGS = $(shell find ./config -type d -mindepth 1 -maxdepth 1 | cut -d/ -f3)
 
 # use absolute path to ./_output, which is .gitignored
@@ -52,7 +52,7 @@ peribolos: $(PERIBOLOS_CMD)
 
 .PHONY: test
 test: config
-	go test ./... --config=$(MERGED_CONFIG)
+	MERGED_CONFIG=$(MERGED_CONFIG) go test ./...
 
 .PHONY: verify
 verify:
@@ -63,15 +63,18 @@ update-prep: config test peribolos
 
 .PHONY: deploy # --confirm
 deploy:
-	./admin-update.sh
+	./admin/update.sh
 		$(-*-command-variables-*-) $(filter-out $@,$(MAKECMDGOALS))
+
+add-members:
+	./hack/add-members.sh
 
 # actual targets that only get built if they don't already exist
 $(MERGE_CMD):
 	mkdir -p "$(OUTPUT_BIN_DIR)"
 	go build -v -o "$(OUTPUT_BIN_DIR)" ./cmd/merge
 
-$(MERGED_CONFIG): $(MERGE_CMD) $(CONFIG_FILES)
+$(MERGED_CONFIG): clean $(MERGE_CMD) $(CONFIG_FILES)
 	mkdir -p "$(OUTPUT_DIR)"
 	$(MERGE_CMD) \
 		--merge-teams \

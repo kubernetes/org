@@ -8,6 +8,8 @@ teams:
     - puerco # subproject owner
     - saschagrunert # subproject owner
     privacy: closed
+    repos:
+      bom: admin
   bom-maintainers:
     description: write access to the bom repo
     members:
@@ -17,6 +19,8 @@ teams:
     - puerco # subproject owner
     - saschagrunert # subproject owner
     privacy: closed
+    repos:
+      bom: write
   downloadkubernetes-admins:
     description: admin access to downloadkubernetes
     members:
@@ -26,6 +30,8 @@ teams:
     - puerco # subproject owner
     - saschagrunert # subproject owner
     privacy: closed
+    repos:
+      downloadkubernetes: admin
   downloadkubernetes-maintainers:
     description: write access to downloadkubernetes
     members:
@@ -35,6 +41,8 @@ teams:
     - puerco # subproject owner
     - saschagrunert # subproject owner
     privacy: closed
+    repos:
+      downloadkubernetes: write
   mdtoc-admins:
     description: admin access to mdtoc
     members:
@@ -44,6 +52,8 @@ teams:
     - puerco # subproject owner
     - saschagrunert # subproject owner
     privacy: closed
+    repos:
+      mdtoc: admin
   mdtoc-maintainers:
     description: write access to mdtoc
     members:
@@ -53,6 +63,32 @@ teams:
     - puerco # subproject owner
     - saschagrunert # subproject owner
     privacy: closed
+    repos:
+      mdtoc: write
+  obscli-admins:
+    description: admin access to obscli
+    members:
+    - cpanato # subproject owner
+    - jeremyrickard # subproject owner
+    - justaugustus # subproject owner
+    - puerco # subproject owner
+    - saschagrunert # subproject owner
+    - Verolop # subproject owner
+    privacy: closed
+    repos:
+      obscli: admin
+  obscli-maintainers:
+    description: write access to obscli
+    members:
+    - cpanato # subproject owner
+    - jeremyrickard # subproject owner
+    - justaugustus # subproject owner
+    - puerco # subproject owner
+    - saschagrunert # subproject owner
+    - Verolop # subproject owner
+    privacy: closed
+    repos:
+      obscli: write
   promo-tools-admins:
     description: admin access to promo-tools
     members:
@@ -62,12 +98,17 @@ teams:
     - listx # maintainer
     - puerco # subproject owner
     - saschagrunert # subproject owner
+    - Verolop # subproject owner / Release Manager
     privacy: closed
     previously:
     - image-promoter-admins
     - k8s-container-image-promoter-admins
+    repos:
+      promo-tools: admin
   promo-tools-maintainers:
     description: write access to promo-tools
+    maintainers:
+    - palnabarun # Release Manager
     members:
     - cpanato # subproject owner
     - jeremyrickard # subproject owner
@@ -75,30 +116,56 @@ teams:
     - listx # maintainer
     - puerco # subproject owner
     - saschagrunert # subproject owner
+    - Verolop # subproject owner / Release Manager
+    - xmudrii # Release Manager
     privacy: closed
     previously:
     - image-promoter-maintainers
     - k8s-container-image-promoter-maintainers
+    repos:
+      promo-tools: write
+  release-actions-admins:
+    description: admin access to the release-actions repo
+    members:
+    - cpanato
+    - jeremyrickard
+    - justaugustus
+    - puerco
+    - saschagrunert
+    - Verolop
+    privacy: closed
+    repos:
+      release-actions: admin
+  release-actions-maintainers:
+    description: write access to the release-actions repo
+    members:
+    - cpanato
+    - jeremyrickard
+    - justaugustus
+    - puerco
+    - saschagrunert
+    - Verolop
+    privacy: closed
+    repos:
+      release-actions: write
   release-engineering:
     description: Members of the Release Engineering subproject, including
       Release Managers and Release Manager Associates.
+    maintainers:
+    - palnabarun # Release Manager
     members:
     - ameukam # Release Manager Associate
     - cpanato # subproject owner / Release Manager
     - jeremyrickard # subproject owner
     - jimangel # Release Manager Associate
     - justaugustus # subproject owner / Release Manager
-    - mkorbi # Release Manager Associate
-    - onlydole # Release Manager Associate
-    - palnabarun # Release Manager
     - puerco # subproject owner / Release Manager
     - saschagrunert # subproject owner / Release Manager
-    - sethmccombs # Release Manager Associate
-    - thejoycekung # Release Manager Associate
-    - Verolop # Release Manager Associate
-    - wilsonehusin # Release Manager Associate
+    - Verolop # subproject owner / Release Manager
     - xmudrii # Release Manager
     privacy: closed
+    repos:
+      promo-tools: triage
   release-notes-admins:
     description: admin access to release-notes
     members:
@@ -108,6 +175,8 @@ teams:
     - puerco # subproject owner
     - saschagrunert # subproject owner
     privacy: closed
+    repos:
+      release-notes: admin
   release-notes-maintainers:
     description: write access to release-notes
     members:
@@ -117,6 +186,8 @@ teams:
     - puerco # subproject owner
     - saschagrunert # subproject owner
     privacy: closed
+    repos:
+      release-notes: write
   release-sdk-admins:
     description: admin access to release-sdk
     members:
@@ -126,6 +197,8 @@ teams:
     - puerco # subproject owner
     - saschagrunert # subproject owner
     privacy: closed
+    repos:
+      release-sdk: admin
   release-sdk-maintainers:
     description: write access to release-sdk
     members:
@@ -135,6 +208,19 @@ teams:
     - puerco # subproject owner
     - saschagrunert # subproject owner
     privacy: closed
+    repos:
+      release-sdk: write
+  release-team-shadow-stats-admins:
+    description: admin access to release-team-shadow-stats
+    members:
+    - cpanato
+    - jeremyrickard
+    - justaugustus
+    - puerco
+    - saschagrunert
+    privacy: closed
+    repos:
+      release-team-shadow-stats: admin
   release-utils-admins:
     description: admin access to release-utils
     members:
@@ -144,6 +230,8 @@ teams:
     - puerco # subproject owner
     - saschagrunert # subproject owner
     privacy: closed
+    repos:
+      release-utils: admin
   release-utils-maintainers:
     description: write access to release-utils
     members:
@@ -153,6 +241,52 @@ teams:
     - puerco # subproject owner
     - saschagrunert # subproject owner
     privacy: closed
+    repos:
+      release-utils: write
+  tejolote-admins:
+    description: admin access to tejolote
+    members:
+    - cpanato
+    - jeremyrickard
+    - justaugustus
+    - puerco
+    - saschagrunert
+    privacy: closed
+    repos:
+      tejolote: admin
+  tejolote-maintainers:
+    description: write access to tejolote
+    members:
+    - cpanato
+    - jeremyrickard
+    - justaugustus
+    - puerco
+    - saschagrunert
+    privacy: closed
+    repos:
+      tejolote: write
+  testgrid-json-exporter-admins:
+    description: admin access to testgrid-json-exporter
+    members:
+    - cpanato
+    - jeremyrickard
+    - justaugustus
+    - puerco
+    - saschagrunert
+    privacy: closed
+    repos:
+      testgrid-json-exporter: admin
+  testgrid-json-exporter-maintainers:
+    description: write access to testgrid-json-exporter
+    members:
+    - cpanato
+    - jeremyrickard
+    - justaugustus
+    - puerco
+    - saschagrunert
+    privacy: closed
+    repos:
+      testgrid-json-exporter: write
   zeitgeist-admins:
     description: admin access to zeitgeist
     members:
@@ -162,6 +296,8 @@ teams:
     - puerco # subproject owner
     - saschagrunert # subproject owner
     privacy: closed
+    repos:
+      zeitgeist: admin
   zeitgeist-maintainers:
     description: write access to zeitgeist
     members:
@@ -173,3 +309,5 @@ teams:
     - puerco # subproject owner
     - saschagrunert # subproject owner
     privacy: closed
+    repos:
+      zeitgeist: write

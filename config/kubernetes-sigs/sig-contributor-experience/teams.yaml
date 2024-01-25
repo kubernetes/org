@@ -1,23 +1,4 @@
 teams:
-  contributor-tweets-admins:
-    description: admin access to contributor-tweets
-    maintainers:
-    - cblecker
-    - mrbobbytables
-    - nikhita
-    members:
-    - chris-short
-    - kaslin
-    privacy: closed
-  contributor-tweets-maintainers:
-    description: write access to contributor-tweets
-    maintainers:
-    - cblecker
-    - mrbobbytables
-    - nikhita
-    members:
-    - castrojo
-    privacy: closed
   discuss-theme-admins:
     description: admin access to the discuss-theme repo
     maintainers:
@@ -25,6 +6,8 @@ teams:
     members:
     - castrojo
     privacy: closed
+    repos:
+      discuss-theme: admin
   discuss-theme-maintainers:
     description: write access to the discuss-theme repo
     maintainers:
@@ -32,21 +15,74 @@ teams:
     members:
     - castrojo
     privacy: closed
+    repos:
+      discuss-theme: write
   lwkd-admins:
     description: admin access to the lwkd repo
     members:
     - coderanger
+    - fykaa
     - jberkus
+    - sreeram-venkitesh
     privacy: closed
+    repos:
+      lwkd: admin
   lwkd-maintainers:
     description: write access to the lwkd repo
     members:
     - coderanger
     - jberkus
     privacy: closed
+    repos:
+      lwkd: write
+  maintainers-admins:
+    description: admin access to the maintainers repo
+    maintainers:
+    - nikhita
+    members:
+    - dims
+    privacy: closed
+    repos:
+      maintainers: admin
+  maintainers-maintainers:
+    description: write access to the maintainers repo
+    maintainers:
+    - MadhavJivrajani
+    - mrbobbytables
+    - nikhita
+    - palnabarun
+    members:
+    - dims
+    privacy: closed
+    repos:
+      maintainers: write
+  sigs-github-actions-admins:
+    description: admin access to the sigs-github-actions repo
+    maintainers:
+    - cblecker
+    - MadhavJivrajani
+    - mrbobbytables
+    - nikhita
+    - palnabarun
+    - Priyankasaggu11929
+    privacy: closed
+    repos:
+      sigs-github-actions: admin
+  sigs-github-actions-maintainers:
+    description: write access to the sigs-github-actions repo
+    maintainers:
+    - cblecker
+    - MadhavJivrajani
+    - nikhita
+    - Priyankasaggu11929
+    privacy: closed
+    repos:
+      sigs-github-actions: write
   slack-infra-admins:
     description: admin access to slack-infra
     members:
     - jeefy
     - Katharine
     privacy: closed
+    repos:
+      slack-infra: admin

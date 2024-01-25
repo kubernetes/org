@@ -4,90 +4,88 @@ teams:
       access to publish packages (debs/rpms) on behalf of the Kubernetes
       project. This team is a notification-only group, which includes the SIG
       Release Chairs/TLs for continuity.
-    maintainers:
-    - spiffxp
     members:
-    - BenTheElder
+    - BenjaminKazemi
     - cpanato
-    - juanfescobar
     - justaugustus
     - MushuEE
     - puerco
     - saschagrunert
+    - spiffxp
     privacy: closed
   milestone-maintainers:
     description: Contributors who can use `/milestone` or `/status` commands on
       issues/PRs and have triage access to the kubernetes/enhancements repo
     maintainers:
-    - cblecker # ContribEx
-    - fejta # Testing
-    - mrbobbytables # ContribEx
-    - nikhita # ContribEx
-    - spiffxp # Testing
+    - MadhavJivrajani # ContribEx
+    - palnabarun # Release Manager
+    - Priyankasaggu11929 # ContribEx
     members:
     - abgworrall # GCP
     - adisky # OpenStack
     - ahg-g # Scheduling
     - alejandrox1 # Testing
-    - ameukam # Release Manager Associate
+    - ameukam # Release Manager Associate / K8s Infra
     - andrewsykim # Cloud Provider
-    - BenTheElder # Testing
+    - aojea # Testing / Network
+    - aravindhp # Windows
+    - BenTheElder # Testing / K8s Infra
     - bgrant0607 # Architecture
     - bradamant3 # Docs
     - brancz # Instrumentation
+    - bridgetkromhout # Cloud Provider
     - cantbewong # VMware
     - caseydavenport # Network
     - cheftako # Cloud Provider
     - chrigl # OpenStack
-    - cici37 # 1.24 Release Lead Shadow
+    - cici37 # Release Manager
     - claudiubelu # Windows
     - cpanato # Release Manager
     - craiglpeters # Azure
+    - danwinship # Network
     - dashpole # Instrumentation
     - dcbw # Network
     - dchen1107 # Node
     - deads2k # API Machinery / Auth
     - derekwaynecarr # Architecture / Node
-    - dims # Architecture / Release
-    - DiptoChakrabarty # 1.24 Bug Triage Shadow
-    - doshyt # 1.24 Bug Triage Shadow
+    - dgrisonnet # Instrumentation
+    - dims # Architecture / K8s Infra
+    - drewhagen # 1.30 Docs Lead
     - eddiezane # CLI
     - ehashman # Instrumentation
-    - encodeflush # 1.24 Enhancements Shadow
+    - elmiko # Cloud Provider
     - enj # Auth
     - fabriziopandini # Cluster Lifecycle
     - feiskyer # Azure
     - floreks # UI
     - foxish # Big Data
     - frapposelli # VMware
-    - gracenng # 1.24 Enhancements Lead
-    - helayoty # 1.24 Bug Triage Shadow
+    - fsmunoz # 1.30 RT Lead Shadow
+    - gracenng # Release Manager Associate / 1.30 RT EA
     - hpandeycodeit # Usability
     - Huang-Wei # Scheduling
-    - jameslaverack # 1.24 RT Lead
     - janetkuo # Apps
     - jayunit100 # Windows
     - jberkus # Release
+    - jbpratt # Testing
     - jdumars # Architecture / PM
     - jeremyrickard # Release
     - jhvhs # Service Catalog
-    - jiahuif # 1.24 Enhancements Shadow
     - jimangel # Docs / Release Manager Associate
-    - jlbutler # 1.24 RT Lead Shadow
     - johnbelamaric # Architecture
-    - jrsapi # 1.24 EA
+    - jpbetz # API Machinery
+    - jrsapi # Release Manager Associate
     - jsafrane # Storage
     - jsturtevant # Windows
     - justaugustus # Release
     - justinsb # AWS / Cluster Lifecycle
-    - jyotimahapatra # 1.24 Bug Triage Lead
     - k8s-release-robot # Release
-    - karenhchu # 1.23 Release Comms Lead
+    - katcosgrove # v1.30 RT Lead
+    - kcmartin # 1.30 Comms Lead
     - khenidak # Azure
     - KnVerey # CLI
     - kow3ns # Apps
     - lavalamp # API Machinery
-    - leonardpahlke # 1.24 CI Signal Lead
     - liggitt # Auth / Release
     - lingxiankong # OpenStack
     - liyinan926 # Big Data
@@ -97,57 +95,59 @@ teams:
     - marosset # Windows
     - mattfarina # Apps / Architecture
     - mborsz # Scalability
-    - mickeyboxell # 1.24 Comms Lead
+    - mehabhalodiya # 1.29 Lead Shadow
+    - michelle192837 # Testing
     - mikedanese # Auth
-    - mkorbi # Release Manager Associate / 1.24 RT Lead Shadow
+    - mikezappa87 # Network
     - mm4tt # Scalability
+    - mrunalp # Node
     - msau42 # Storage
     - mwielgus # Autoscaling
-    - nate-double-u # 1.24 Docs Lead
+    - natasha41575 # CLI
     - nckturner # AWS
+    - neoaggelos # 1.30 RT Lead Shadow
     - neolit123 # Cluster Lifecycle
-    - onlydole # Release Manager Associate
     - oxddr # Scalability
-    - palnabarun # Release Manager
-    - parispittman # ContribEx
-    - phillels # ContribEx
+    - pacoxu # Cluster Lifecycle / 1.30 Release Signal Lead
     - pmorie # Multicluster
-    - Priyankasaggu11929 # 1.24 Enhancements Shadow
     - prydonius # Apps
     - puerco # Release Manager
     - pwittrock # CLI
     - quinton-hoole # Multicluster
     - RainbowMango # Instrumentation
     - rajakavitha1 # Usability
-    - rhockenbury # 1.24 Enhancements Shadow
-    - ritpanjw # 1.24 Bug Triage Shadow
+    - ramrodo # Release Manager Associate / 1.30 RT Lead Shadow
+    - rashansmith # 1.30 Release Notes Lead
+    - ritazh # Auth
     - saad-ali # Storage
-    - salaxander # 1.24 RT Lead Shadow
+    - salaxander # Release Manager Associate / 1.29 RT EA
+    - salehsedghpour # 1.30 Enhancements Lead
     - saschagrunert # Release
     - SataQiu # Cluster Lifecycle
-    - seans3 # CLI
     - serathius # Instrumentation
-    - sethmccombs # Release Manager Associate
+    - SergeyKanzhelev # Node
+    - shaneutt # Network
     - shu-mutou # UI
     - shyamjvs # Scalability
     - soltysh # CLI
     - spzala # IBM Cloud
-    - stevekuznetsov # Testing
     - tallclair # Auth
     - tashimi # Usability
-    - thejoycekung # Release Manager Associate
     - thockin # Network
     - timothysc # Cluster Lifecycle / Testing
+    - upodroid # K8s Infra
     - Verolop # Release Manager
     - vllry # Usability
-    - voigt # 1.24 CI Signal Shadow
-    - wilsonehusin # Release Manager Associate
+    - Vyom-Yadav # 1.29 CI Signal Lead
     - wojtek-t # Scalability
     - xing-yang # Storage
+    - xmcqueen # Testing
     - xmudrii # Release Manager
     privacy: closed
     previously:
     - kubernetes-milestone-maintainers
+    repos:
+      enhancements: write
   publishing-bot-admins:
     description: Admin access to the publishing-bot repo
     maintainers:
@@ -163,43 +163,47 @@ teams:
     privacy: closed
     previously:
     - publishing-bot-reviewers
+    repos:
+      publishing-bot: admin
   publishing-bot-maintainers:
     description: Write access to the publishing-bot repo
     maintainers:
     - nikhita
+    - palnabarun
     members:
     - cpanato
     - dims
     - jeremyrickard
     - justaugustus
-    - palnabarun
     - puerco
     - saschagrunert
     - sttts
     - Verolop
     - xmudrii
     privacy: closed
+    repos:
+      publishing-bot: write
   repo-infra-admins:
     description: Admin access to the repo-infra repo
-    maintainers:
-    - fejta
     members:
     - BenTheElder
     - clarketm
     - cpanato
+    - fejta
     - justaugustus
     - mikedanese
     - puerco
     - saschagrunert
     privacy: closed
+    repos:
+      repo-infra: admin
   repo-infra-maintainers:
     description: Write access to the repo-infra repo
-    maintainers:
-    - fejta
     members:
     - BenTheElder
     - clarketm
     - cpanato
+    - fejta
     - justaugustus
     - mikedanese
     - puerco
@@ -207,6 +211,8 @@ teams:
     - Verolop
     - xmudrii
     privacy: closed
+    repos:
+      repo-infra: write
   sig-release:
     description: SIG Release members. Explicitly lists SIG Release Chairs,
       Technical Leads, Program Managers, and any active SIG contributors that
@@ -214,13 +220,16 @@ teams:
     maintainers:
     - mrbobbytables
     - nikhita
-    - spiffxp
+    - palnabarun
+    - Priyankasaggu11929
     members:
     - alenkacz
     - BenTheElder
     - castrojo
+    - cici37
     - cpanato # Technical Lead
     - dims
+    - gracenng
     - ixdy
     - JamesLaverack
     - jberkus
@@ -228,51 +237,62 @@ teams:
     - jeefy
     - jeremyrickard # Technical Lead
     - justaugustus # Chair
-    - LappleApple # Program Manager
+    - katcosgrove
+    - leonardpahlke
     - liggitt
     - mariantalla
     - nikopen
     - onyiny-ang
-    - palnabarun
     - puerco # Technical Lead
     - rawkode
     - reylejano
+    - salaxander
     - saschagrunert # Chair
     - savitharaghunathan
     - soggiest
+    - spiffxp
     - tpepper
     privacy: closed
     teams:
       release-engineering:
         description: Members of the Release Engineering subproject, including
           Release Managers, Release Manager Associates, and Build Admins.
+        maintainers:
+        - palnabarun # Release Manager
         members:
         - ameukam # Release Manager Associate
+        - cici37 # Release Manager
         - cpanato # subproject owner / Release Manager
+        - gracenng # Release Manager Associate
+        - jeremyrickard # subproject owner / Release Manager
         - jimangel # Release Manager Associate
+        - jrsapi # Release Manager Associate
         - justaugustus # subproject owner / Release Manager
-        - mkorbi # Release Manager Associate
-        - onlydole # Release Manager Associate
-        - palnabarun # Release Manager
+        - marosset # Release Manager Associate
         - puerco # subproject owner / Release Manager
+        - ramrodo # Release Manager Associate
+        - salaxander # Release Manager Associate
         - saschagrunert # subproject owner / Release Manager
-        - sethmccombs # Release Manager Associate
-        - thejoycekung # Release Manager Associate
-        - Verolop # Release Manager
-        - wilsonehusin # Release Manager Associate
+        - Verolop # subproject owner / Release Manager
         - xmudrii # Release Manager
         privacy: closed
+        repos:
+          release: triage
+          sig-release: triage
         teams:
           release-managers:
             description: People actively pushing Kubernetes releases. Gives
               admin access to repos where branches must be created and write
               access to ones where label/PR management is needed. Remove users
               who are not actively doing this job.
+            maintainers:
+            - palnabarun
             members:
+            - cici37
             - cpanato
+            - jeremyrickard
             - justaugustus
             - k8s-release-robot
-            - palnabarun
             - puerco
             - saschagrunert
             - Verolop
@@ -280,67 +300,91 @@ teams:
             privacy: closed
             previously:
             - kubernetes-release-managers
+            repos:
+              kubernetes: admin
+              release: write
+              sig-release: write
       release-team:
         description: Members of the current Release Team and subproject owners.
+        maintainers:
+        - palnabarun # subproject owner (1.21 RT Lead)
+        - Priyankasaggu11929 # subproject owner (1.29 RT Lead)
         members:
-        - AuraSinis # 1.24 Release Notes Lead
-        - chrisnegus # 1.24 Docs Shadow
-        - cici37 # 1.24 RT Lead Shadow
+        - AnaMMedina21 # 1.30 Enhancements Shadow
         - cpanato # subproject owner / Technical Lead
-        - csantanapr # 1.24 Release Notes Shadow
-        - Debanitrkl # 1.24 Comms Shadow
-        - didicodes # 1.24 Docs Shadow
-        - DiptoChakrabarty # 1.24 Bug Triage Shadow
-        - doshyt # 1.24 Bug Triage Shadow
-        - encodeflush # 1.24 Enhancements Shadow
-        - gracenng # 1.24 Enhancements Lead
-        - helayoty # 1.24 Bug Triage Shadow
+        - gracenng # subproject owner (1.28 RT Lead)
         - jameslaverack # subproject owner (1.24 RT Lead)
         - jeremyrickard # subproject owner / Technical Lead
-        - jiahuif # 1.24 Enhancements Shadow
-        - jlbutler # 1.24 RT Lead Shadow
-        - jrsapi # 1.24 EA
+        - jimangel # 1.29 RT Branch Manager
         - justaugustus # subproject owner / Chair
-        - jyotimahapatra # 1.24 Bug Triage Lead
-        - katcosgrove # 1.24 Release Comms Shadow
-        - lauralorenz # 1.24 CI Signal Shadow
-        - leonardpahlke # 1.24 CI Signal Lead
-        - Lp-Francois # 1.24 Release Notes Shadow
-        - mehabhalodiya # 1.24 Docs Shadow
-        - mickeyboxell # 1.24 Comms Lead
-        - mkorbi # 1.24 RT Lead Shadow
-        - nate-double-u # 1.24 Docs Lead
-        - Nivedita-coder # 1.24 CI Signal Shadow
-        - onlydole # subproject owner (1.19 RT Lead)
-        - palnabarun # subproject owner (1.21 RT Lead)
-        - parul5sahoo # 1.24 Release Notes Shadow
-        - pi-victor # 1.24 Docs Shadow
-        - Priyankasaggu11929 # 1.24 Enhancements Shadow
+        - katcosgrove # 1.30 RT Lead 
+        - leonardpahlke # subproject owner (1.26 RT Lead)
+        - marosset # 1.29 RT Branch Manager Shadow
+        - meganwolf0 # 1.30 Enhancements Shadow
+        - mickeyboxell # 1.30 Enhancements Shadow
+        - pnbrown # 1.30 Enhancements Shadow
         - puerco # subproject owner / Technical Lead
         - reylejano # subproject owner (1.23 RT Lead)
-        - rhockenbury # 1.24 Enhancements Shadow
-        - RinkiyaKeDad # 1.24 Release Notes Shadow
-        - ritpanjw # 1.24 Bug Triage Shadow
-        - s04 # 1.24 Comms Shadow
-        - salaxander # 1.24 RT Lead Shadow
+        - salaxander # subproject owner (1.27 RT Lead)
+        - salehsedghpour # 1.30 Enhancements Lead
         - saschagrunert # subproject owner / Chair
         - savitharaghunathan # subproject owner (1.22 RT Lead)
-        - shuheiktgw # 1.24 CI Signal Shadow
-        - valaparthvi # 1.24 Comms Shadow
+        - sreeram-venkitesh # 1.30 Enhancements Shadow
+        - tjons # 1.30 Enhancements Shadow
         - Verolop # Release Manager
-        - voigt # 1.24 CI Signal Shadow
         - xmudrii # Release Manager
         privacy: closed
         teams:
-          ci-signal:
-            description: Members of the CI Signal team for the current release
+          release-team-release-signal:
+            description: Members of the Release Signal team for the current release
               cycle.
             members:
-            - lauralorenz # 1.24 CI Signal Shadow
-            - leonardpahlke # 1.24 CI Signal Lead
-            - Nivedita-coder # 1.24 CI Signal Shadow
-            - shuheiktgw # 1.24 CI Signal Shadow
-            - voigt # 1.24 CI Signal Shadow
+            - MaryamTavakkoli # 1.30 CI Signal Shadow
+            - moficodes # 1.30 CI Signal Shadow
+            - Namanl2001 # 1.30 CI Signal Shadow
+            - pacoxu # 1.30 CI Signal Lead
+            - SubhasmitaSw # 1.30 CI Signal Shadow
+            - zelenushechka # 1.30 CI Signal Shadow
+            privacy: closed
+          release-team-docs:
+            description: Members of the Docs team for the current release cycle.
+            members:
+            - celestehorgan # 1.30 Docs Shadow
+            # - chanieljdan # 1.30 Docs Shadow
+            - drewhagen # 1.30 Docs Lead
+            - Princesso # 1.30 Docs Shadow
+            - Vyom-Yadav # 1.30 Docs Shadow
+            privacy: closed
+          release-team-comms:
+            description: Members of the Comms team for the current release cycle.
+            members:
+            - a-mccarthy # 1.30 Comms Shadow
+            - checksumz # 1.30 Comms Shadow
+            - fkautz # 1.30 Comms Shadow
+            - kcmartin # 1.30 Comms Lead
+            - natalisucks # 1.30 Comms Shadow
+            privacy: closed
+          release-team-enhancements:
+            description: Members of the Enhancments team for the current release
+              cycle.
+            members:
+            - AnaMMedina21 # 1.30 Enhancements Shadow
+            - meganwolf0 # 1.30 Enhancements Shadow
+            - mickeyboxell # 1.30 Enhancements Shadow
+            - pnbrown # 1.30 Enhancements Shadow
+            - salehsedghpour # 1.30 Enhancements Lead
+            - sreeram-venkitesh # 1.30 Enhancements Shadow
+            - tjons # 1.30 Enhancements Shadow
+            privacy: closed
+          release-team-release-notes:
+            description: Members of the Release Notes team for the current release
+              cycle.
+            members:
+            - fykaa # 1.30 Release Notes Shadow
+            - npolshakova # 1.30 Release Notes Shadow
+            - OrlinVasilev # 1.30 Release Notes Shadow
+            - rashansmith # 1.30 Release Notes Lead
+            - satyampsoni # 1.30 Release Notes Shadow
             privacy: closed
           release-team-leads:
             description: Release Team Leads for the current Kubernetes release
@@ -349,41 +393,52 @@ teams:
               as a notification group. Remove org members who are not current
               Release Team Leads.
             members:
-            - cici37 # 1.24 RT Lead Shadow
-            - jameslaverack # 1.24 RT Lead
-            - jlbutler # 1.24 RT Lead Shadow
-            - jrsapi # 1.24 EA
-            - mkorbi # 1.24 RT Lead Shadow
-            - salaxander # 1.24 RT Lead Shadow
+            - gracenng # 1.30 RT EA
+            - katcosgrove # 1.30 RT Lead
+            # - X # 1.30 Release Lead Shadow
+            # - X # 1.30 Release Lead Shadow
+            # - X # 1.30 Release Lead Shadow
+            # - X # 1.30 Release Lead Shadow
             privacy: closed
+            repos:
+              kubernetes: write
+              release: triage
+              sig-release: write
       sig-release-admins:
         description: Admins for SIG Release repositories
         members:
         - cpanato # Technical Lead
-        - jeremyrickard # Technical Lead
+        - jeremyrickard # Chair
         - justaugustus # Chair
         - puerco # Technical Lead
         - saschagrunert # Chair
+        - Verolop # Technical Lead
         privacy: closed
+        repos:
+          release: admin
+          sig-release: admin
       sig-release-leads:
         description: |
           Chairs, Technical Leads, and Program Managers for SIG Release
         members:
         - cpanato # Technical Lead
-        - jeremyrickard # Technical Lead
+        - jeremyrickard # Chair
         - justaugustus # Chair
-        - LappleApple # Program Manager
         - puerco # Technical Lead
         - saschagrunert # Chair
+        - Verolop # Technical Lead
         privacy: closed
       sig-release-pms:
         description: |
           Grants access to maintain SIG Release project boards
         members:
         - cpanato # Technical Lead
-        - jeremyrickard # Technical Lead
+        - jeremyrickard # Chair
         - justaugustus # Chair
-        - LappleApple # Program Manager
         - puerco # Technical Lead
         - saschagrunert # Chair
+        - Verolop # Technical Lead
         privacy: closed
+        repos:
+          release: triage
+          sig-release: maintain

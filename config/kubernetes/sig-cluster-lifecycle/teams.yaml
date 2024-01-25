@@ -6,53 +6,60 @@ teams:
     - mikedanese
     - zmerlynn
     privacy: closed
+    repos:
+      kops: admin
   kops-maintainers:
     description: Write access to the kops repo
     members:
-    - geojaz
     - hakman
     - johngmyers
     - justinsb
-    - kashifsaadat
     - mikedanese
-    - mikesplain
     - olemarkus
-    - rdrgmnzs
     - rifelpet
     - zetaab
     privacy: closed
+    repos:
+      kops: write
   kubeadm-admins:
     description: Admin access to the kubeadm repo
     members:
     - fabriziopandini
     - neolit123
+    - pacoxu
     - SataQiu
     privacy: closed
+    repos:
+      kubeadm: admin
   kubeadm-maintainers:
     description: Write access to the kubeadm repo
     members:
     - fabriziopandini
     - neolit123
+    - pacoxu
     - SataQiu
     privacy: closed
+    repos:
+      kubeadm: write
   minikube-admins:
     description: Admin access to the minikube repo
     members:
-    - balopat
-    - dlorenc
-    - tstromberg
-    - vishh
+    - afbjorklund
+    - medyagh
+    - spowelljr
     privacy: closed
+    repos:
+      minikube: admin
   minikube-maintainers:
     description: Write access to the minikube repo
     members:
     - afbjorklund
-    - balopat
-    - ethernetdan
-    - jimmidyson
-    - sharifelgamal
-    - tstromberg
+    - medyagh
+    - prezha
+    - spowelljr
     privacy: closed
+    repos:
+      minikube: write
   sig-cluster-lifecycle:
     description: For discussing SIG Cluster Lifecycle topics
     members:
@@ -76,9 +83,21 @@ teams:
     - neolit123
     - timothysc
     privacy: closed
+    repos:
+      system-validators: admin
   system-validators-maintainers:
     description: Write access to system-validators repo
     members:
     - neolit123
     - timothysc
+    privacy: closed
+    repos:
+      system-validators: write
+  sig-cluster-lifecycle-leads:
+    members:
+    - CecileRobertMichon
+    - fabriziopandini
+    - justinsb
+    - neolit123
+    - vincepri
     privacy: closed

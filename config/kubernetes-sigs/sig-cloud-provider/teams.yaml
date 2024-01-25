@@ -4,47 +4,103 @@ teams:
     members:
     - andrewsykim
     - anfernee
-    - caesarxuchao
     - cheftako
-    - mcrute
+    - jkh52
+    - nckturner
     privacy: closed
+    repos:
+      apiserver-network-proxy: admin
   apiserver-network-proxy-maintainers:
     description: write access to apiserver-network-proxy
     members:
     - andrewsykim
     - anfernee
-    - caesarxuchao
     - cheftako
-    - mcrute
+    - jkh52
     privacy: closed
+    repos:
+      apiserver-network-proxy: write
   alibaba-cloud-csi-driver-admins:
    description: Admin access to alibaba-cloud-csi-driver repo
    members:
-   - fredkan
+   - JiaoDean
+   - mowangdk
    - xianlubird
    privacy: closed
+   repos:
+    alibaba-cloud-csi-driver: admin
   alibaba-cloud-csi-driver-maintainers:
    description: Write access to alibaba-cloud-csi-driver repo
    members:
-   - fredkan
+   - JiaoDean
+   - mowangdk
    - xianlubird
    privacy: closed
+   repos:
+     alibaba-cloud-csi-driver: write
+  aws-file-cache-csi-driver-admins:
+    description: Admin access to the aws-file-cache-csi-driver repo
+    members:
+      - dims
+      - jacobwolfaws
+      - khoang98
+      - nckturner
+    privacy: closed
+    repos:
+      aws-file-cache-csi-driver: admin
+  aws-file-cache-csi-driver-maintainers:
+    description: Write access to the aws-file-cache-csi-driver repo
+    members:
+      - jacobwolfaws
+      - khoang98
+      - nckturner
+    privacy: closed
+    repos:
+      aws-file-cache-csi-driver: write
+  aws-fsx-openzfs-csi-driver-admins:
+    description: Admin access to the aws-fsx-openzfs-csi-driver repo
+    members:
+      - dims
+      - gomesjason
+      - hughdanliu
+      - jacobwolfaws
+      - nckturner
+    privacy: closed
+    repos:
+      aws-fsx-openzfs-csi-driver: admin
+  aws-fsx-openzfs-csi-driver-maintainers:
+    description: Write access to the aws-fsx-openzfs-csi-driver repo
+    members:
+      - gomesjason
+      - hughdanliu
+      - jacobwolfaws
+      - nckturner
+    privacy: closed
+    repos:
+      aws-fsx-openzfs-csi-driver: write
   aws-iam-authenticator-admins:
    description: Admin access to the aws-iam-authenticator repo
    members:
+   - dims
    - m00nf1sh
    - micahhausler
    - nckturner
    - wongma7
    privacy: closed
+   repos:
+     aws-iam-authenticator: admin
   aws-iam-authenticator-maintainers:
    description: Write access to the aws-iam-authenticator repo
    members:
+   - jyotimahapatra
    - m00nf1sh
    - micahhausler
    - nckturner
+   - nnmin-aws
    - wongma7
    privacy: closed
+   repos:
+     aws-iam-authenticator: write
   blobfuse-csi-driver-admins:
    description: Admin access to the blobfuse-csi-driver repo
    members:
@@ -54,6 +110,8 @@ teams:
    - khenidak
    - lachie83
    privacy: closed
+   repos:
+     blob-csi-driver: admin
   blobfuse-csi-driver-maintainers:
    description: Write access to the blobfuse-csi-driver repo
    members:
@@ -63,6 +121,24 @@ teams:
    - khenidak
    - lachie83
    privacy: closed
+   repos:
+     blob-csi-driver: write
+  cloud-pv-admission-labeler-admins:
+    description: admin access to the cloud-pv-admission-labeler repo
+    members:
+    - andrewsykim
+    - cheftako
+    privacy: closed
+    repos:
+      cloud-pv-admission-labeler: admin
+  cloud-pv-admission-labeler-maintainers:
+    description: write access to the cloud-pv-admission-labeler repo
+    members:
+    - andrewsykim
+    - cheftako
+    privacy: closed
+    repos:
+      cloud-pv-admission-labeler: write       
   cloud-provider-baiducloud-admins:
    description: Admin access to the cloud-provider-baiducloud repo
    members:
@@ -70,6 +146,8 @@ teams:
    - tizhou86
    - ZP-AlwaysWin
    privacy: closed
+   repos:
+     cloud-provider-baiducloud: admin
   cloud-provider-baiducloud-maintainers:
    description: Write access to the cloud-provider-baiducloud repo
    members:
@@ -77,31 +155,59 @@ teams:
    - tizhou86
    - ZP-AlwaysWin
    privacy: closed
+   repos:
+     cloud-provider-baiducloud: write
+  cloud-provider-equinix-metal-admins:
+   description: Admin access to the cloud-provider-equinix-metal repo
+   members:
+    - cprivitere
+    - deitch
+    - displague
+   privacy: closed
+   repos:
+    cloud-provider-equinix-metal: admin
   cloud-provider-huaweicloud-admins:
    description: Admin access to the cloud-provider-huaweicloud repo
    members:
+   - chengxiangdong
    - kevin-wangzefeng
+   - niuzhenguo
    - RainbowMango
    privacy: closed
+   repos:
+     cloud-provider-huaweicloud: admin
   cloud-provider-huaweicloud-maintainers:
    description: Write access to the cloud-provider-huaweicloud repo
    members:
+   - chengxiangdong
    - kevin-wangzefeng
+   - niuzhenguo
    - RainbowMango
    privacy: closed
+   repos:
+     cloud-provider-huaweicloud: write
   ibm-powervs-block-csi-driver-admins:
     description: Admin access to the ibm-powervs-block-csi-driver
     members:
     - mkumatag
+    - yussufsh
     privacy: closed
+    repos:
+      ibm-powervs-block-csi-driver: admin
   ibm-powervs-block-csi-driver-maintainers:
     description: Write access to the ibm-powervs-block-csi-driver
     members:
     - mkumatag
+    - yussufsh
     privacy: closed
+    repos:
+      ibm-powervs-block-csi-driver: write
   provider-aws-test-infra-admins:
    description: Admin access to the provider-aws-test-infra repo
    members:
+   - dims
    - nckturner
    - wongma7
    privacy: closed
+   repos:
+     provider-aws-test-infra: admin

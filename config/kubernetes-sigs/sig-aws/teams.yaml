@@ -1,65 +1,107 @@
 teams:
   aws-ebs-csi-driver-admins:
-    description: ""
+    description: admin access to aws-ebs-csi-driver repo
     members:
+    - AndrewSirenko
+    - ConnorJC3
+    - dims
     - leakingtapan
+    - rdpsin
+    - torredil
     - wongma7
     privacy: closed
+    repos:
+      aws-ebs-csi-driver: admin
   aws-ebs-csi-driver-maintainers:
-    description: ""
+    description: write access to aws-ebs-csi-driver repo
     members:
+    - AndrewSirenko
     - AndyXiangLi
     - bertinatto
+    - ConnorJC3
     - gnufied
+    - hanyuel
     - jsafrane
     - leakingtapan
     - nirmalaagash
-    - vdhanan
+    - rdpsin
+    - torredil
     - wongma7
     privacy: closed
+    repos:
+      aws-ebs-csi-driver: write
   aws-encryption-provider-admins:
     description: admin access to aws_encryption-provider repo
     members:
+    - dims
     - justinsb
-    - robinpercy
+    - micahhausler
+    - nckturner
+    - wongma7
     privacy: closed
+    repos:
+      aws-encryption-provider: admin
   aws-encryption-provider-maintainers:
     description: write access to aws_encryption-provider
     members:
     - justinsb
-    - robinpercy
+    - micahhausler
+    - nckturner
+    - wongma7
     privacy: closed
+    repos:
+      aws-encryption-provider: write
   aws-fsx-csi-driver-admins:
     description: admin access to aws-fsx-csi-driver
     members:
+    - dims
+    - jacobwolfaws
     - justinsb
+    - khoang98
     - leakingtapan
+    - torredil
     - wongma7
     privacy: closed
+    repos:
+      aws-fsx-csi-driver: admin
   aws-fsx-csi-driver-maintainers:
     description: write access to aws-fsx-csi-driver
     members:
     - d-nishi
+    - jacobwolfaws
     - jsafrane
     - justinsb
+    - khoang98
     - leakingtapan
+    - torredil
     - wongma7
     privacy: closed
+    repos:
+      aws-fsx-csi-driver: write
   aws-efs-csi-driver-admins:
     description: admin access to aws-efs-csi-driver
     members:
+    - Ashley-wenyizha
+    - dims
     - justinsb
-    - kbasv
     - leakingtapan
+    - mskanth972
+    - torredil
     - wongma7
     privacy: closed
+    repos:
+      aws-efs-csi-driver: admin
   aws-efs-csi-driver-maintainers:
     description: write access to aws-efs-csi-driver
     members:
+    - Ashley-wenyizha
     - d-nishi
     - jsafrane
     - justinsb
-    - kbasv
     - leakingtapan
+    - mskanth972
+    - torredil
     - wongma7
     privacy: closed
+    repos:
+      aws-efs-csi-driver: write

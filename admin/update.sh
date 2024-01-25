@@ -23,11 +23,11 @@ readonly REPO_ROOT
 
 readonly admins=(
   cblecker
-  fejta
-  idvoretskyi
+  MadhavJivrajani
   mrbobbytables
   nikhita
-  spiffxp
+  palnabarun
+  Priyankasaggu11929
 )
 
 cd "${REPO_ROOT}"
@@ -39,6 +39,7 @@ args=(
   --fix-org-members
   --fix-teams
   --fix-team-members
+  --fix-team-repos
   "${admins[@]/#/--required-admins=}"
 )
 

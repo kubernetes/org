@@ -6,6 +6,8 @@ teams:
     - ixdy
     - stevekuznetsov
     privacy: closed
+    repos:
+      boskos: admin
   boskos-maintainers:
     description: write access to kubernetes-sigs/boksos
     members:
@@ -13,25 +15,61 @@ teams:
     - ixdy
     - stevekuznetsov
     privacy: closed
+    repos:
+      boskos: write
+  cloud-provider-kind-admins:
+    description: Admin access to the cloud-provider-kind repo
+    members:
+    - aojea
+    - BenTheElder
+    privacy: closed
+    repos:
+      cloud-provider-kind: admin
+  cloud-provider-kind-maintainers:
+    description: Write access to the cloud-provider-kind repo
+    members:
+    - aojea
+    - BenTheElder
+    privacy: closed
+    repos:
+      cloud-provider-kind: write
   e2e-framework-admins:
     description: admin access to e2e-framework
-    maintainers:
-    - spiffxp
     members:
     - alejandrox1
     - andrewsykim
     - BenTheElder
+    - spiffxp
     - vladimirvivien
     privacy: closed
+    repos:
+      e2e-framework: admin
   e2e-framework-maintainers:
     description: write access to e2e-framework
-    maintainers:
-    - spiffxp
     members:
     - alejandrox1
     - andrewsykim
     - BenTheElder
+    - spiffxp
     privacy: closed
+    repos:
+      e2e-framework: write
+  hydrophone-admins:
+    description: admin access to hydrophone
+    members:
+    - dims
+    - rjsadow
+    privacy: closed
+    repos:
+      hydrophone: admin
+  hydrophone-maintainers:
+    description: write access to hydrophone
+    members:
+    - dims
+    - rjsadow
+    privacy: closed
+    repos:
+      hydrophone: write
   kind-admins:
     description: Admin access to the kind repo
     members:
@@ -40,6 +78,8 @@ teams:
     - BenTheElder
     - munnerz
     privacy: closed
+    repos:
+      kind: admin
   kind-maintainers:
     description: Write access to the kind repo
     members:
@@ -48,59 +88,47 @@ teams:
     - BenTheElder
     - munnerz
     privacy: closed
+    repos:
+      kind: write
   kubetest2-admins:
     description: Admin access to kubetest2
-    maintainers:
-    - spiffxp
     members:
-    - amwat
-    - BenTheElder
+    - MushuEE
+    - spiffxp
     privacy: closed
+    repos:
+      kubetest2: admin
   kubetest2-maintainers:
     description: Write access to kubetest2
-    maintainers:
-    - spiffxp
     members:
-    - amwat
-    - BenTheElder
-    privacy: closed
-  k8s-gsm-tools-admins:
-    description: Admin access to k8s-gsm-tools
-    maintainers:
+    - MushuEE
     - spiffxp
-    members:
-    - BenTheElder
     privacy: closed
-    previously:
-    - secret-sync-rotation-admins
-  k8s-gsm-tools-maintainers:
-    description: Write access to k8s-gsm-tools
-    maintainers:
-    - spiffxp
-    members:
-    - BenTheElder
-    privacy: closed
-    previously:
-    - secret-sync-rotation-maintainers
+    repos:
+      kubetest2: write
   prow-admins:
     description: Admin access to prow
     maintainers:
     - cblecker
-    - fejta
     members:
     - alvaroaleman
     - cjwagner
+    - fejta
     - petr-muller
     - stevekuznetsov
     privacy: closed
+    repos:
+      prow: admin
   prow-maintainers:
     description: Write access to prow
     maintainers:
     - cblecker
-    - fejta
     members:
     - alvaroaleman
     - cjwagner
+    - fejta
     - petr-muller
     - stevekuznetsov
     privacy: closed
+    repos:
+      prow: write

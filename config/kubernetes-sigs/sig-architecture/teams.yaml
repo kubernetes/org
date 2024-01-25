@@ -9,3 +9,5 @@ teams:
     - navidshaikh
     - RinkiyaKeDad
     privacy: closed
+    repos:
+      depstat: admin

@@ -7,6 +7,8 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
+    repos:
+      container-object-storage-interface-api: admin
   container-object-storage-interface-api-maintainers:
     description: Write access to container-object-storage-interface-api
     members:
@@ -18,6 +20,8 @@ teams:
     - wlan0
     - xing-yang
     privacy: closed
+    repos:
+      container-object-storage-interface-api: write
   container-object-storage-interface-controller-admins:
     description: Admin access to container-object-storage-interface-controller
     members:
@@ -26,6 +30,8 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
+    repos:
+      container-object-storage-interface-controller: admin
   container-object-storage-interface-controller-maintainers:
     description: Write access to container-object-storage-interface-controller
     members:
@@ -37,6 +43,8 @@ teams:
     - wlan0
     - xing-yang
     privacy: closed
+    repos:
+      container-object-storage-interface-controller: write
   container-object-storage-interface-csi-adapter-admins:
     description: Admin access to container-object-storage-interface-csi-adapter
     members:
@@ -45,6 +53,8 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
+    repos:
+      container-object-storage-interface-csi-adapter: admin
   container-object-storage-interface-csi-adapter-maintainers:
     description: Write access to container-object-storage-interface-csi-adapter
     members:
@@ -56,6 +66,8 @@ teams:
     - wlan0
     - xing-yang
     privacy: closed
+    repos:
+      container-object-storage-interface-csi-adapter: write
   container-object-storage-interface-provisioner-sidecar-admins:
     description: Admin access to container-object-storage-interface-provisioner-sidecar
     members:
@@ -64,6 +76,8 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
+    repos:
+      container-object-storage-interface-provisioner-sidecar: admin
   container-object-storage-interface-provisioner-sidecar-maintainers:
     description: Write access to container-object-storage-interface-provisioner-sidecar
     members:
@@ -75,6 +89,8 @@ teams:
     - wlan0
     - xing-yang
     privacy: closed
+    repos:
+      container-object-storage-interface-provisioner-sidecar: write
   container-object-storage-interface-spec-admins:
     description: Admin access to container-object-storage-interface-spec
     members:
@@ -83,6 +99,8 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
+    repos:
+      container-object-storage-interface-spec: admin
   container-object-storage-interface-spec-maintainers:
     description: Write access to container-object-storage-interface-spec
     members:
@@ -94,6 +112,8 @@ teams:
     - wlan0
     - xing-yang
     privacy: closed
+    repos:
+      container-object-storage-interface-spec: write
   cosi-driver-sample-admins:
     description: Admin access to cosi-driver-sample
     members:
@@ -102,6 +122,8 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
+    repos:
+      cosi-driver-sample: admin
   cosi-driver-sample-maintainers:
     description: Write access to cosi-driver-sample
     members:
@@ -112,6 +134,8 @@ teams:
     - wlan0
     - xing-yang
     privacy: closed
+    repos:
+      cosi-driver-sample: write
   gluster-block-external-provisioner-admins:
     description: Admin access to gluster-block-external-provisioner
     members:
@@ -120,6 +144,8 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
+    repos:
+      gluster-block-external-provisioner: admin
   gluster-file-external-provisioner-admins:
     description: Admin access to gluster-file-external-provisioner
     members:
@@ -128,6 +154,8 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
+    repos:
+      gluster-file-external-provisioner: admin
   nfs-subdir-external-provisioner-admins:
     description: Admin access to nfs-subdir-external-provisioner
     members:
@@ -137,12 +165,17 @@ teams:
     - saad-ali
     - xing-yang
     privacy: closed
+    repos:
+      nfs-subdir-external-provisioner: admin
   nfs-ganesha-server-and-external-provisioner-admins:
     description: Admin access to nfs-ganesha-server-and-external-provisioner
     members:
     - jsafrane
     - kmova
+    - kvaps
     - msau42
     - saad-ali
     - xing-yang
     privacy: closed
+    repos:
+      nfs-ganesha-server-and-external-provisioner: admin

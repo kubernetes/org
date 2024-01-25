@@ -1,4 +1,19 @@
 teams:
+  dra-example-driver-admins:
+    description: Admin access to dra-example-driver repo
+    members:
+    - klueska
+    - pohly
+    privacy: closed
+    repos:
+      dra-example-driver: admin
+  dra-example-driver-maintainers:
+    description: Write access to dra-example-driver repo
+    members:
+    - bart0sh
+    privacy: closed
+    repos:
+      dra-example-driver: write
   node-feature-discovery-operator-admins:
     description: Admin access to node-feature-discovery-operator repo
     members:
@@ -6,6 +21,8 @@ teams:
     - marquiz
     - zvonkok
     privacy: closed
+    repos:
+      node-feature-discovery-operator: admin
   node-feature-discovery-operator-maintainers:
     description: Write access to node-feature-discovery-operator repo
     members:
@@ -13,19 +30,66 @@ teams:
     - marquiz
     - zvonkok
     privacy: closed
+    repos:
+      node-feature-discovery-operator: write
+  noderesourcetopology-api-admins:
+    description: Admin access to noderesourcetopology-api repo
+    members:
+    - ffromani
+    - swatisehgal
+    privacy: closed
+    repos:
+      noderesourcetopology-api: admin
+  noderesourcetopology-api-maintainers:
+    description: Write access to noderesourcetopology-api repo
+    members:
+    - marquiz
+    privacy: closed
+    repos:
+      noderesourcetopology-api: write
   security-profiles-operator-admins:
     description: Admin access to security-profiles-operator repo
     members:
+    - ccojocar
+    - JAORMX
+    - jhrozek
     - pjbgf
     - saschagrunert
     privacy: closed
     previously:
     - seccomp-operator-admins
+    repos:
+      security-profiles-operator: admin
   security-profiles-operator-maintainers:
     description: Write access to security-profiles-operator repo
     members:
+    - ccojocar
+    - JAORMX
+    - jhrozek
     - pjbgf
     - saschagrunert
     privacy: closed
     previously:
     - seccomp-operator-maintainers
+    repos:
+      security-profiles-operator: write
+  kernel-module-management-admins:
+    description: Admin access to kernel-module-management repo
+    members:
+    - qbarrand
+    - yevgeny-shnaidman
+    privacy: closed
+    previously:
+    - special-resource-operator-admins
+    repos:
+      kernel-module-management: admin
+  kernel-module-management-maintainers:
+    description: Write access to kernel-module-management repo
+    members:
+    - qbarrand
+    - yevgeny-shnaidman
+    privacy: closed
+    previously:
+    - special-resource-operator-maintainers
+    repos:
+      kernel-module-management: write

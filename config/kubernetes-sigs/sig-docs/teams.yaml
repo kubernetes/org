@@ -2,13 +2,18 @@ teams:
   reference-docs-admins:
     description: admin access to the reference-docs repo
     members:
-    - jimangel
+    - divya-mohan0209
+    - natalisucks
+    - reylejano
     privacy: closed
+    repos:
+      reference-docs: admin
   reference-docs-maintainers:
     description: write access to the reference-docs repo
     members:
-    - kbhawkey
     - onlydole
     - sftim
     - tengqm
     privacy: closed
+    repos:
+      reference-docs: write

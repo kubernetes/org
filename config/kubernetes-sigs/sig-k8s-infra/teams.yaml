@@ -1,19 +1,68 @@
 teams:
-  oci-proxy-admins:
-    description: Admin access to kubernetes-sigs/oci-proxy
-    maintainers:
-    - spiffxp
+  community-images-admins:
+    description: admins access to community-images
+    members:
+    - ameukam
+    - BenTheElder
+    - dims
+    - upodroid
+    privacy: closed
+    repos:
+      community-images: admin
+  community-images-writers:
+    description: write access to community-images
+    members:
+      - ameukam
+      - dims
+      - spiffxp
+      - thockin
+    privacy: closed
+    repos:
+      community-images: write
+  community-images-maintainers:
+    description: write access to community-images
     members:
     - ameukam
     - dims
+    - spiffxp
     - thockin
     privacy: closed
-  oci-proxy-maintainers:
-    description: Write access to kubernetes-sigs/oci-proxy
-    maintainers:
-    - spiffxp
+    repos:
+      community-images: write
+  porche-admins:
+    description: admins access to porche
     members:
     - ameukam
+    - bentheelder
     - dims
+    - justinsb
+    - spiffxp
+    - thockin
+    - upodroid
+    privacy: closed
+    repos:
+      porche: admin
+  porche-writers:
+    description: write access to porche
+    members:
+      - ameukam
+      - bentheelder
+      - dims
+      - justinsb
+      - spiffxp
+      - thockin
+    privacy: closed
+    repos:
+      porche: write
+  porche-maintainers:
+    description: write access to porche
+    members:
+    - ameukam
+    - bentheelder
+    - dims
+    - justinsb
+    - spiffxp
     - thockin
     privacy: closed
+    repos:
+      porche: write

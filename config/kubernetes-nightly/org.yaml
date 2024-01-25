@@ -9,23 +9,23 @@ admins:
 - cblecker
 - cpanato
 - dims
-- fejta
-- idvoretskyi
 - jeremyrickard
 - justaugustus
 - k8s-ci-robot
 - k8s-github-robot
+- MadhavJivrajani
 - mrbobbytables
 - nikhita
+- palnabarun
+- Priyankasaggu11929
 - puerco
 - saschagrunert
-- spiffxp
 - sttts
 - thelinuxfoundation
 members:
 - ameukam
+- idvoretskyi
 - k8s-publishing-bot
-- palnabarun
 - savitharaghunathan
 - Verolop
 - xmudrii

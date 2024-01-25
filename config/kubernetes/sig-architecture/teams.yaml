@@ -17,6 +17,8 @@ teams:
         - dims
         - johnbelamaric
         privacy: closed
+        repos:
+          design-proposals-archive: admin
       sig-architecture-pr-reviews:
         description: SIG Architecture PR review notifications
         members:
@@ -38,17 +40,13 @@ teams:
     maintainers:
     - mrbobbytables # subproject owner
     members:
-    - gracenng # 1.22 Enhancements Shadow
-    - jameslaverack # 1.22 Enhancements Lead
+    - Atharva-Shinde # 1.28 RT Enhancements Lead
     - jeremyrickard # subproject owner
     - johnbelamaric # subproject owner
-    - jrsapi # 1.22 Enhancements Shadow
     - justaugustus # subproject owner
     - kikisdeliveryservice # subproject owner
     - LappleApple # subproject owner
-    - reylejano # 1.22 Enhancements Shadow
-    - salaxander # 1.22 Enhancements Shadow
-    - supriya-premkumar # 1.22 Enhancements Shadow
+    - salehsedghpour # 1.30 RT Enhancements Lead
     privacy: closed
     teams:
       enhancements-admins:
@@ -62,6 +60,8 @@ teams:
         - kikisdeliveryservice # subproject owner
         - LappleApple # subproject owner
         privacy: closed
+        repos:
+          enhancements: admin
       enhancements-maintainers:
         description: Contributors with write access to k/enhancements
         maintainers:
@@ -75,20 +75,30 @@ teams:
         previously:
         - features-maintainers
         privacy: closed
+        repos:
+          enhancements: write
   production-readiness:
     description: Production Readiness Review Team
     members:
     - deads2k
-    - ehashman
     - johnbelamaric
+    - jpbetz
     - wojtek-t
     privacy: closed
     teams:
       prod-readiness-reviewers:
         description: Production Readiness Reviewers
         members:
-        - deads2k
-        - ehashman
-        - johnbelamaric
-        - wojtek-t
+        - andrewsykim   # shadow
+        - bentheelder   # shadow
+        - cici37        # shadow
+        - deads2k       # approver
+        - enj           # shadow
+        - jeremyrickard # shadow
+        - johnbelamaric # approver
+        - jpbetz        # shadow
+        - logicalhan    # shadow
+        - spiffxp       # shadow
+        - tallclair     # shadow
+        - wojtek-t      # approver
         privacy: closed

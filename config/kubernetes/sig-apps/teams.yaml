@@ -1,4 +1,30 @@
 teams:
+  kompose-admins:
+    description: Admin access to the kompose repo
+    members:
+    - AhmedGrati
+    - cdrage
+    - hangyan
+    - janetkuo
+    - kadel
+    - ngtuna
+    - sebgoa
+    privacy: closed
+    repos:
+      kompose: admin
+  kompose-maintainers:
+    description: Write access to the kompose repo
+    members:
+    - AhmedGrati
+    - cdrage
+    - hangyan
+    - janetkuo
+    - kadel
+    - ngtuna
+    - sebgoa
+    privacy: closed
+    repos:
+      kompose: write
   sig-apps-api-reviews:
     description: ""
     members:
@@ -13,7 +39,6 @@ teams:
     - mfojtik
     - smarterclayton
     - soltysh
-    - tnozicka
     - zouyee
     privacy: closed
   sig-apps-bugs:
@@ -30,7 +55,6 @@ teams:
     - resouer
     - smarterclayton
     - soltysh
-    - tnozicka
     - wanghaoran1988
     privacy: closed
   sig-apps-feature-requests:
@@ -49,7 +73,6 @@ teams:
     - resouer
     - smarterclayton
     - soltysh
-    - tnozicka
     privacy: closed
   sig-apps-misc:
     description: Use only if you can't figure out a better category
@@ -66,7 +89,6 @@ teams:
     - resouer
     - smarterclayton
     - soltysh
-    - tnozicka
     privacy: closed
   sig-apps-pr-reviews:
     description: ""
@@ -82,7 +104,6 @@ teams:
     - resouer
     - smarterclayton
     - soltysh
-    - tnozicka
     privacy: closed
   sig-apps-proposals:
     description: ""
@@ -98,7 +119,6 @@ teams:
     - prydonius
     - smarterclayton
     - soltysh
-    - tnozicka
     privacy: closed
   sig-apps-test-failures:
     description: ""
@@ -114,5 +134,11 @@ teams:
     - prydonius
     - smarterclayton
     - soltysh
-    - tnozicka
+    privacy: closed
+  sig-apps-leads:
+    description: ""
+    members:
+    - janetkuo
+    - kow3ns
+    - soltysh
     privacy: closed

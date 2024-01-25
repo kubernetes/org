@@ -2,62 +2,118 @@ teams:
   custom-metrics-apiserver-admins:
     description: Admin access to the custom-metrics-apiserver repo
     members:
-    - brancz
-    - piosz
+    - dgrisonnet
     privacy: closed
+    repos:
+      custom-metrics-apiserver: admin
   custom-metrics-apiserver-maintainers:
     description: Write access to the custom-metrics-apiserver repo
     members:
     - dgrisonnet
-    - s-urbaniak
-    - serathius
     privacy: closed
+    repos:
+      custom-metrics-apiserver: write
   instrumentation-admins:
     description: Admin access to the instrumentation repo
     members:
-    - brancz
     - dashpole
+    - dgrisonnet
     - ehashman
     - logicalhan
     privacy: closed
+    repos:
+      instrumentation: admin
   instrumentation-tools-admins:
     description: Admin access to the instrumentation-tools repo
     members:
-    - brancz
     - dashpole
+    - dgrisonnet
     - ehashman
     - logicalhan
     privacy: closed
+    repos:
+      instrumentation-tools: admin
   instrumentation-tools-maintainers:
     description: Write access to the instrumentation-tools repo
     members:
-    - brancz
     - dashpole
+    - dgrisonnet
     - ehashman
     - logicalhan
     privacy: closed
+    repos:
+      instrumentation-tools: write
+  logtools-admins:
+    description: Admin access to the logtools repo
+    members:
+      - ehashman
+      - logicalhan
+      - pohly
+      - serathius
+    privacy: closed
+    repos:
+      logtools: admin
+  logtools-maintainers:
+    description: Write access to the logtools repo
+    members:
+      - ehashman
+      - logicalhan
+      - pohly
+      - serathius
+    privacy: closed
+    repos:
+      logtools: write
   metrics-server-admins:
     description: Admin access to the metrics-server repo
     members:
-    - s-urbaniak
+    - dgrisonnet
     - serathius
     privacy: closed
+    repos:
+      metrics-server: admin
   metrics-server-maintainers:
     description: Write access to the metrics-server repo
     members:
-    - s-urbaniak
+    - dgrisonnet
     - serathius
     privacy: closed
+    repos:
+      metrics-server: write
   prometheus-adapter-admins:
     description: Admin access to the prometheus-adapter repo
     members:
-    - brancz
-    - DirectXMan12
-    - s-urbaniak
+    - dgrisonnet
     privacy: closed
+    repos:
+      prometheus-adapter: admin
   prometheus-adapter-maintainers:
     description: Write access to the prometheus-adapter repo
     members:
     - dgrisonnet
-    - s-urbaniak
     privacy: closed
+    repos:
+      prometheus-adapter: write
+  usage-metrics-collector-admins:
+    description: Admin access to the usage-metrics-collector repo
+    members:
+    - campoy
+    - ehashman
+    - KnVerey
+    - ndipebot
+    - pmorie
+    - pwittrock
+    privacy: closed
+    repos:
+      usage-metrics-collector: admin
+  usage-metrics-collector-maintainers:
+    description: Write access to the usage-metrics-collector repo
+    members:
+    - campoy
+    - ehashman
+    - KnVerey
+    - ndipebot
+    - pmorie
+    - pwittrock
+    privacy: closed
+    repos:
+      usage-metrics-collector: write

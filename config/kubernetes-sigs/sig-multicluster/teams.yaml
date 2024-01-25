@@ -5,29 +5,17 @@ teams:
     - jeremyot
     - pmorie
     privacy: closed
-  kubefed-admins:
-    description: admin access for the kubefed repo
+    repos:
+      about-api: admin
+  cluster-inventory-api-admins:
+    description: Admin access for cluster-inventory-api repo
     members:
-    - font
-    - hectorj2f
-    - irfanurrehman
-    - jimmidyson
-    - pmorie
-    - shashidharatd
+    - dixudx
+    - mikeshng
+    - RainbowMango
     privacy: closed
-    previously:
-    - federation-v2-admins
-  kubefed-maintainers:
-    description: write access to the kubefed repo
-    members:
-    - font
-    - hectorj2f
-    - irfanurrehman
-    - jimmidyson
-    - shashidharatd
-    privacy: closed
-    previously:
-    - federation-v2-maintainers
+    repos:
+      cluster-inventory-api: admin
   federation-wg:
     description: Individuals who are part of sig-multicluster and working as federation
       workgroup.
@@ -48,9 +36,31 @@ teams:
     - JeremyOT
     - pmorie
     privacy: closed
+    repos:
+      mcs-api: admin
+  sig-multicluster-site-admins:
+    description: Admin access to the sig-multicluster-site repo
+    members:
+    - jeremyot
+    - lauralorenz
+    - pmorie
+    privacy: closed
+    repos:
+      sig-multicluster-site: admin
+  sig-multicluster-site-maintainers:
+    description: Write access to the sig-multicluster-site repo
+    members:
+    - jeremyot
+    - lauralorenz
+    - pmorie
+    privacy: closed
+    repos:
+      sig-multicluster-site: write
   work-api-admins:
     description: Admin access for the work-api repo
     members:
     - jeremyot
     - pmorie
     privacy: closed
+    repos:
+      work-api: admin

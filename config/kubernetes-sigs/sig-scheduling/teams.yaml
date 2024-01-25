@@ -4,87 +4,108 @@ teams:
     members:
     - ingvagabund
     privacy: closed
+    repos:
+      cluster-capacity: admin
   cluster-capacity-maintainers:
     description: Write access to the cluster-capacity repo
     members:
     - ingvagabund
     privacy: closed
+    repos:
+      cluster-capacity: write
   descheduler-admins:
     description: Admin access to the descheduler repo
     members:
-    - aveshagarwal
     - damemi
-    - k82cn
-    - ravisantoshgudimetla
+    - ingvagabund
+    # Emeritus:
+    # - aveshagarwal
+    # - k82cn
+    # - ravisantoshgudimetla
     privacy: closed
+    repos:
+      descheduler: admin
   descheduler-maintainers:
     description: Write access to the descheduler repo
     members:
-    - aveshagarwal
+    - a7i
     - damemi
-    - k82cn
-    - ravisantoshgudimetla
+    - ingvagabund
+    - seanmalloy
+    # Emeritus:
+    # - aveshagarwal
+    # - k82cn
+    # - ravisantoshgudimetla
     privacy: closed
     previously:
     - descehduler-maintainers
-  kube-batch-admins:
-    description: Admin access to the kube-batch repo
-    members:
-    - k82cn
-    privacy: closed
-  kube-batch-maintainers:
-    description: Write access to the kube-batch repo
-    members:
-    - k82cn
-    privacy: closed
+    repos:
+      descheduler: write
   kube-scheduler-simulator-admins:
     description: Admin access to the kube-scheduler-simulator
     members:
-    - adtac
     - alculquicondor
     - Huang-Wei
-    privacy: closed
-  kube-scheduler-simulator-maintainers:
-    description: Write access to the kube-scheduler-simulator
-    members:
-    - adtac
     - sanposhiho
     privacy: closed
+    repos:
+      kube-scheduler-simulator: admin
+  kube-scheduler-wasm-extension-admins:
+    description: Admin access to the kube-scheduler-wasm-extension
+    members:
+    - codefromthecrypt
+    - kerthcet
+    - sanposhiho
+    privacy: closed
+    repos:
+      kube-scheduler-wasm-extension: admin
   kueue-admins:
     description: Admin access to the kueue repo
     members:
     - ahg-g
     - alculquicondor
+    - tenzen-y
     privacy: closed
+    repos:
+      kueue: admin
   kueue-maintainers:
     description: Write access to the kueue repo
     members:
     - ahg-g
     - alculquicondor
+    - tenzen-y
     privacy: closed
-  poseidon-admins:
-    description: Admin access to the poseidon repo
+    repos:
+      kueue: write
+  kwok-admins:
+    description: Admin access to the kwok repo
     members:
-    - ahg-g
-    - deepak-vij
-    - k82cn
+    - Huang-Wei
+    - wzshiming
     privacy: closed
-  poseidon-maintainers:
-    description: Write access to the poseidon repo
+    repos:
+      kwok: admin
+  kwok-maintainers:
+    description: Write access to the kwok repo
     members:
-    - ahg-g
-    - deepak-vij
-    - k82cn
+    - Huang-Wei
+    - wzshiming
     privacy: closed
+    repos:
+      kwok: write
   scheduler-plugins-admins:
     description: Admin access to the scheduler-plugins repo
     members:
     - ahg-g
     - Huang-Wei
     privacy: closed
+    repos:
+      scheduler-plugins: admin
   scheduler-plugins-maintainers:
     description: Write access to the scheduler-plugins repo
     members:
     - ahg-g
     - Huang-Wei
     privacy: closed
+    repos:
+      scheduler-plugins: write

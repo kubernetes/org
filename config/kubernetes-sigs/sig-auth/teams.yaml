@@ -7,41 +7,62 @@ teams:
     - srampal
     - tashimi
     privacy: closed
+    repos:
+      hierarchical-namespaces: admin
   hierarchical-namespaces-maintainers:
     description: Write access to hierarchical-namespaces repo
     members:
     - GinnyJI
     - yiqigao217
     privacy: closed
-  multi-tenancy-admins:
-    description: Admin access to multi-tenancy repo
+    repos:
+      hierarchical-namespaces: write
+  pspmigrator-admins:
+    description: Admin access to the pspmigrator repo
     members:
-    - davidopp
-    - easeway
-    - srampal
-    - tashimi
+    - tallclair
     privacy: closed
-  multi-tenancy-maintainers:
-    description: Write access to multi-tenancy repo
+    repos:
+      pspmigrator: admin
+  pspmigrator-maintainers:
+    description: Write access to the pspmigrator repo
     members:
-    - adrianludwin
-    - davidopp
-    - easeway
-    - rjbez17
-    - srampal
-    - tashimi
-    - yiqigao217
+    - tallclair
     privacy: closed
+    repos:
+      pspmigrator: write
   secrets-store-csi-driver-admins:
     description: Admin access to secrets-store-csi-driver repo
     members:
     - aramase
     - ritazh
     privacy: closed
+    repos:
+      secrets-store-csi-driver: admin
   secrets-store-csi-driver-maintainers:
     description: Write access to secrets-store-csi-driver repo
     members:
     - aramase
+    - nilekhc
     - ritazh
+    - salaxander
     - tam7t
     privacy: closed
+    repos:
+      secrets-store-csi-driver: write
+  sig-auth-tools-admins:
+    description: Admin access to sig-auth-tools repo
+    members:
+    - enj
+    - ritazh
+    privacy: closed
+    repos:
+      sig-auth-tools: admin
+  sig-auth-tools-maintainers:
+    description: Write access to sig-auth-tools repo
+    members:
+    - enj
+    - ritazh
+    privacy: closed
+    repos:
+      sig-auth-tools: write

@@ -1,38 +1,47 @@
-name: Kubernetes Clients
-description: This organization hosts Kubernetes API client libraries.
-default_repository_permission: read
-has_organization_projects: true
-has_repository_projects: true
-members_can_create_repositories: false
-billing_email: github@kubernetes.io
 admins:
 - cblecker
-- fejta
-- idvoretskyi
 - k8s-ci-robot
 - k8s-github-robot
+- MadhavJivrajani
 - mrbobbytables
 - nikhita
-- spiffxp
+- palnabarun
+- Priyankasaggu11929
 - thelinuxfoundation
+billing_email: github@kubernetes.io
+default_repository_permission: read
+description: This organization hosts Kubernetes API client libraries.
+has_organization_projects: true
+has_repository_projects: true
 members:
+- adriananeci
 - akshaymankar
 - ambiknai
 - ameukam
+- Ananya2001-an
 - arahamad
 - bgrant0607
 - brendandburns
 - caesarxuchao
 - calebamiles
+- davidgamero
 - dims
 - drubin
+- dulek
+- EmilienM
+- ezzoueidi
 - fabianvf
+- fejta
+- fengshunli
 - grodrigues3
-- HongjiangHuang
+- Hii-Arpit
+- huntergregory
 - iamneha
 - idealhack
+- idvoretskyi
 - irvifa
 - ityuhui
+- jasonbraganza
 - jlsong01
 - jonschoning
 - justaugustus
@@ -42,46 +51,62 @@ members:
 - lavalamp
 - longwuyuan
 - micw523
-- MoShitrit
-- nzoueidi
+- mjudeikis
+- moshevayner
+- mstruebing
+- nnmin-aws
 - oz123
-- palnabarun
+- Pradumnasaraf
+- prateekgogia
 - rlenferink
 - roycaihw
 - savitharaghunathan
 - sebgoa
 - SEJeff
 - simrangupta234
+- spiffxp
 - strigazi
 - tg123
 - tomplus
 - webwurst
+- ydFu
 - yliaog
 - yue9944882
+- zqzten
+members_can_create_repositories: false
+name: Kubernetes Clients
 teams:
   Reviewers:
     description: ""
     members:
     - krabhishek8260
     privacy: closed
+    repos:
+      python: read
   c-admins:
     description: Admin access to the c repo
     members:
     - brendandburns
     - ityuhui
     privacy: closed
+    repos:
+      c: admin
   c-maintainers:
     description: Write access to the c repo
     members:
     - brendandburns
     - ityuhui
     privacy: closed
+    repos:
+      c: write
   csharp-admins:
     description: Admin access to csharp repo
     members:
     - brendandburns
-    - krabhishek8260
+    - tg123
     privacy: closed
+    repos:
+      csharp: admin
   gen-admins:
     description: Admin access to gen repo
     members:
@@ -90,6 +115,8 @@ teams:
     - yliaog
     - yue9944882
     privacy: closed
+    repos:
+      gen: admin
   go-admins:
     description: Admin access to go repo
     members:
@@ -97,6 +124,8 @@ teams:
     - roycaihw
     - yliaog
     privacy: closed
+    repos:
+      go: admin
   go-base-admins:
     description: Admin access to go-base repo
     members:
@@ -104,11 +133,15 @@ teams:
     - roycaihw
     - yliaog
     privacy: closed
+    repos:
+      go-base: admin
   haskell-admins:
     description: Admin access to haskell repo
     members:
     - brendandburns
     privacy: closed
+    repos:
+      haskell: admin
   java-admins:
     description: Admin access to java repo
     members:
@@ -116,23 +149,33 @@ teams:
     - yliaog
     - yue9944882
     privacy: closed
+    repos:
+      java: admin
   javascript-admins:
     description: Admin access to javascript repo
     members:
     - brendandburns
+    - davidgamero
+    - mstruebing
     privacy: closed
+    repos:
+      javascript: admin
   perl-admins:
     description: Admin access to perl repo
     members:
     - brendandburns
     - yue9944882
     privacy: closed
+    repos:
+      perl: admin
   perl-maintainers:
     description: Write access to perl repo
     members:
     - brendandburns
     - yue9944882
     privacy: closed
+    repos:
+      perl: write
   python-admins:
     description: Admin access to python repo
     members:
@@ -140,6 +183,8 @@ teams:
     - roycaihw
     - yliaog
     privacy: closed
+    repos:
+      python: admin
   python-base-admins:
     description: Admin access to python-base repo
     members:
@@ -147,8 +192,12 @@ teams:
     - roycaihw
     - yliaog
     privacy: closed
+    repos:
+      python-base: admin
   ruby-admins:
     description: Admin access to ruby repo
     members:
     - brendandburns
     privacy: closed
+    repos:
+      ruby: admin

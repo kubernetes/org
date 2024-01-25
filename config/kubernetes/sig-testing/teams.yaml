@@ -3,8 +3,6 @@ teams:
     description: sig-testing
     maintainers:
     - cblecker
-    - fejta
-    - spiffxp
     members:
     - akutz
     - BenTheElder
@@ -12,8 +10,10 @@ teams:
     - chases2
     - cjwagner
     - clarketm
+    - fejta
     - ixdy
     - jayunit100
+    - jbpratt
     - jdef
     - justaugustus
     - justinsb
@@ -25,21 +25,24 @@ teams:
     - stevekuznetsov
     - timothysc
     - xiangpengzhao
+    - xmcqueen
     privacy: closed
     teams:
       sig-testing-leads:
         description: sig-testing chairs and technical leads
-        maintainers:
-        - spiffxp
         members:
+        - aojea
         - BenTheElder
-        - stevekuznetsov
+        - cjwagner
+        - jbpratt
+        - michelle192837
+        - pohly
+        - xmcqueen
         privacy: closed
+        repos:
+          sig-testing: admin
       sig-testing-pr-reviews:
         description: sig-testing PR reviews
-        maintainers:
-        - fejta
-        - spiffxp
         members:
         - akutz
         - amwat
@@ -47,43 +50,52 @@ teams:
         - chases2
         - cjwagner
         - clarketm
+        - fejta
         - ixdy
         - Katharine
         - krzyzacy
         - michelle192837
         - mkumatag
         - stevekuznetsov
+        - xmcqueen
         privacy: closed
   test-infra-admins:
     description: admin access to test-infra
-    maintainers:
-    - fejta
-    - spiffxp
     members:
+    - alvaroaleman
+    - ameukam    # k8s-infra-oncall
+    - aojea
     - BenTheElder
-    - chaodaiG
-    - chases2
+    - chaodaiG   # test-infra-oncall
+    - chases2    # test-infra-oncall
     - cjwagner
+    - dims       # k8s-infra-oncall
     - k8s-infra-ci-robot
-    - listx
     - michelle192837
-    - mpherman2
+    - mpherman2  # test-infra-oncall
+    - pohly
     - stevekuznetsov
+    - thockin    # k8s-infra-oncall
+    - upodroid    # k8s-infra-oncall
     privacy: closed
+    repos:
+      publishing-bot: admin
+      test-infra: admin
   test-infra-maintainers:
     description: write access to test-infra
-    maintainers:
-    - fejta
-    - spiffxp
     members:
-    - amwat
+    - alvaroaleman
+    - aojea
     - BenTheElder
     - cjwagner
-    - ixdy
-    - krzyzacy
+    - k8s-infra-ci-robot
     - michelle192837
+    - pohly
     - stevekuznetsov
     privacy: closed
+    repos:
+      publishing-bot: write
+      test-infra: write
   sig-testing-dummy-project-team:
     description: dummy team to test prow project plugin; no acl
     members:

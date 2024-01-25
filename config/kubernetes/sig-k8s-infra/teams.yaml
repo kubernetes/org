@@ -1,21 +1,21 @@
 teams:
   k8s.io-admins:
     description: Admin access to kubernetes/k8s.io
-    maintainers:
-    - spiffxp
     members:
     - ameukam
+    - BenTheElder
     - dims
     - k8s-infra-ci-robot
     - thockin
+    - upodroid
     privacy: closed
+    repos:
+      k8s.io: admin
   sig-k8s-infra:
     description: sig-k8s-infra members
     maintainers:
     - cblecker
-    - idvoretskyi
     - nikhita
-    - spiffxp
     members:
     - ameukam
     - BenTheElder
@@ -25,30 +25,31 @@ teams:
     - cpanato
     - dims
     - hh
+    - idvoretskyi
     - ixdy
     - justinsb
     - listx
     - munnerz
     - Riaankl
     - rikatz
+    - spiffxp
     - stp-ip
     - thockin
+    - upodroid
     privacy: closed
     teams:
       sig-k8s-infra-leads:
         description: sig-k8s-infra chairs and technical leads
-        maintainers:
-        - spiffxp
         members:
         - ameukam
+        - BenTheElder
         - dims
-        - thockin
+        - upodroid
         privacy: closed
       k8s-infra-aws-admins:
         description: granted access to the k8s-infra AWS account
-        maintainers:
-        - idvoretskyi
         members:
+        - idvoretskyi
         - justinsb
         - thockin
         privacy: closed
@@ -56,31 +57,51 @@ teams:
         description: granted read-only access to the k8s-infra GCP org (excluding secrets)
         maintainers:
         - cblecker
-        - idvoretskyi
-        - spiffxp
         members:
         - BobyMCbobs
         - hh
+        - idvoretskyi
         - justinsb
         - puerco
         - Riaankl
+        - spiffxp
         - thockin
         privacy: closed
       k8s-infra-gcp-org-admins:
         description: granted owner access to the k8s-infra GCP org
-        maintainers:
-        - spiffxp
         members:
         - ameukam
+        - BenTheElder
         - dims
-        - thockin
+        - upodroid
         privacy: closed
       k8s-infra-group-admins:
         description: granted run access to kubernetes.io groups reconciler
         maintainers:
         - cblecker
-        - spiffxp
         members:
         - dims
+        - spiffxp
         - thockin
         privacy: closed
+      registry.k8s.io-admins:
+        description: Admin access to kubernetes/registry.k8s.io
+        members:
+        - ameukam
+        - bentheelder
+        - dims
+        - upodroid
+        privacy: closed
+        repos:
+          registry.k8s.io: admin
+      registry.k8s.io-maintainers:
+        description: Write access to kubernetes/registry.k8s.io
+        members:
+        - ameukam
+        - bentheelder
+        - dims
+        - spiffxp
+        - thockin
+        privacy: closed
+        repos:
+          registry.k8s.io: write

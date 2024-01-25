@@ -8,11 +8,9 @@ teams:
   wg-structured-logging-members:
     description: ""
     members:
-      - MadhavJivrajani
       - mengjiao-liu
       - navidshaikh
       - pohly
-      - Priyankasaggu11929
       - serathius
       - shivanshu1333
       - yangjunmyfm192085

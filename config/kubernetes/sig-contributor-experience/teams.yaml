@@ -2,51 +2,61 @@ teams:
   community-admins:
     description: ""
     maintainers:
-    - cblecker
-    - idvoretskyi
-    - mrbobbytables
-    - nikhita
+    - MadhavJivrajani
+    - palnabarun
+    - Priyankasaggu11929
     members:
-    - alisondy
-    - calebamiles
-    - jdumars
-    - parispittman
-    - Phillels
+    - kaslin
     privacy: closed
+    repos:
+      community: admin
   community-maintainers:
     description: ""
     maintainers:
-    - cblecker
-    - mrbobbytables
-    - nikhita
+    - MadhavJivrajani
+    - Priyankasaggu11929
     members:
-    - alisondy
-    - parispittman
+    - kaslin
     privacy: closed
+    repos:
+      community: write
   community-milestone-maintainers:
     description: Contributors who can use `/milestone` in the community repo. Defined by an entry in an OWNERS file for a contribex subproject.
     maintainers:
     - cblecker
-    - fejta
-    - idvoretskyi
+    - MadhavJivrajani
     - mrbobbytables
     - nikhita
-    - spiffxp
+    - palnabarun
+    - Priyankasaggu11929
     members:
-    - alisondy
-    - calebamiles
     - castrojo
     - dims
+    - fejta
     - grodrigues3
     - guineveresaenger
+    - idvoretskyi
     - jberkus
     - jdumars
     - jeefy
     - justaugustus
+    - kaslin
     - lukaszgryglicki
     - parispittman
     - Phillels
+    - spiffxp
     - tpepper
+    privacy: closed
+  contributor-comms:
+    description: alert members of new issues labeled with contributor comms
+    maintainers:
+    members:
+    - AvineshTripathi
+    - chris-short
+    - fsmunoz
+    - kaslin
+    - sandipanpanda
+    - SD-13
     privacy: closed
   contributor-site-admins:
     description: admin access to contributor-site
@@ -55,6 +65,8 @@ teams:
     members:
     - castrojo
     privacy: closed
+    repos:
+      contributor-site: admin
   contributor-site-maintainers:
     description: write access to contributor-site
     maintainers:
@@ -62,28 +74,29 @@ teams:
     members:
     - castrojo
     privacy: closed
+    repos:
+      contributor-site: write
   ghas-subproject-board:
     description: Members who have access to edit the GitHub Administration
       Subproject Board
     maintainers:
     - cblecker
-    - fejta
-    - idvoretskyi
+    - MadhavJivrajani
     - mrbobbytables
     - nikhita
-    - spiffxp
+    - palnabarun
+    - Priyankasaggu11929
     members:
+    - ezzoueidi
     - idealhack
     - justaugustus
-    - nzoueidi
     privacy: closed
   project-board-maintainers:
     description: Contributors with access to groom issues on org-level project boards.
       Groups can opt-in to assistance with grooming by adding this team to their project
       board with admin permissions.
-    maintainers:
-    - idvoretskyi
     members:
+    - idvoretskyi
     - jdumars
     - justaugustus
     - lachie83
@@ -94,9 +107,11 @@ teams:
     description: Improve contributor productivity
     maintainers:
     - cblecker
-    - idvoretskyi
+    - MadhavJivrajani
     - mrbobbytables
     - nikhita
+    - palnabarun
+    - Priyankasaggu11929
     members:
     - alisondy
     - castrojo
@@ -106,8 +121,9 @@ teams:
     - grodrigues3
     - hongchaodeng
     - idealhack
+    - idvoretskyi
     - jessfraz
-    - Kashomon
+    - kaslin
     - lavalamp
     - monopole
     - parispittman
@@ -136,36 +152,36 @@ teams:
       sig-contributor-experience-leads:
         description: Chairs and Technical Leads for SIG Contributor Experience
         maintainers:
-        - cblecker
-        - mrbobbytables
-        - nikhita
+        - MadhavJivrajani
+        - palnabarun
+        - Priyankasaggu11929
         members:
-        - alisondy
+        - kaslin
         privacy: closed
       sig-contributor-experience-pr-reviews:
         description: PR reviews for contributor-experience infrastructure, such as the
           PR bot, etc.
         maintainers:
-        - cblecker
-        - idvoretskyi
-        - nikhita
+        - MadhavJivrajani
+        - palnabarun
+        - Priyankasaggu11929
         members:
         - idealhack
+        - kaslin
         privacy: closed
   youtube-admins:
     description: Members who have admin access to the Kubernetes Community
       YouTube channel.
     maintainers:
-    - idvoretskyi
     - mrbobbytables
     members:
     - alejandrox1
     - castrojo
+    - ezzoueidi
+    - idvoretskyi
     - jbeda
     - jdumars
     - jeefy
-    - markyjackson-taulia
-    - nzoueidi
     - onlydole
     - parispittman
     - sarahnovotny

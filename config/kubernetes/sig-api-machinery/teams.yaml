@@ -1,4 +1,20 @@
 teams:
+  cel-admission-webhook-admins:
+    description: admin access to cel-admission-webhook
+    members:
+    - cici37
+    - jpbetz
+    privacy: closed
+    repos:
+      cel-admission-webhook: admin
+  cel-admission-webhook-maintainers:
+    description: write access to cel-admission-webhook
+    members:
+    - cici37
+    - jpbetz
+    privacy: closed
+    repos:
+      cel-admission-webhook: write
   sig-api-machinery-api-reviews:
     description: ""
     members:
@@ -8,13 +24,53 @@ teams:
   sig-api-machinery-bugs:
     description: ""
     members:
-    - lavalamp
+    - jpbetz
     privacy: closed
   sig-api-machinery-feature-requests:
     description: ""
     members:
+    - jpbetz
+    - liggitt
+    privacy: closed
+  sig-api-machinery-emeritus:
+    description: Emeritus members of sig-api-machinery
+    members:
+    - derekwaynecarr
+    - ironcladlou
+    privacy: closed
+  sig-api-machinery-members:
+    description: Members of sig-api-machinery
+    maintainers:
+    - MadhavJivrajani
+    members:
+    - alexzielenski
+    - andrewsykim
+    - aojea
+    - apelisse
+    - aramase
+    - cici37
+    - DangerOnTheRanger
+    - deads2k
+    - enj
+    - fedebongio
+    - Jefftree
+    - jiahuif
+    - jpbetz
+    - kwiesmueller
     - lavalamp
     - liggitt
+    - logicalhan
+    - munnerz
+    - seans3
+    - smarterclayton
+    - soltysh
+    - sttts
+    - sxllwx
+    - tallclair
+    - thockin
+    - tkashem
+    - yliaog
+    - yue9944882
     privacy: closed
   sig-api-machinery-misc:
     description: Use only if you can't figure out a better category
@@ -23,8 +79,9 @@ teams:
     - derekwaynecarr
     - enj
     - ironcladlou
-    - lavalamp
+    - jpbetz
     - liggitt
+    - logicalhan
     - smarterclayton
     - soltysh
     - sttts
@@ -32,21 +89,31 @@ teams:
     privacy: closed
   sig-api-machinery-pr-reviews:
     description: ""
+    maintainers:
+    - MadhavJivrajani
     members:
     - deads2k
-    - lavalamp
+    - jpbetz
     - liggitt
+    - logicalhan
     - smarterclayton
     - sttts
     privacy: closed
   sig-api-machinery-proposals:
     description: ""
     members:
-    - lavalamp
+    - jpbetz
     - liggitt
     privacy: closed
   sig-api-machinery-test-failures:
     description: ""
     members:
-    - lavalamp
+    - jpbetz
+    privacy: closed
+  sig-api-machinery-leads:
+    description: ""
+    members:
+    - deads2k
+    - fedebongio
+    - jpbetz
     privacy: closed

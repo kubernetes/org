@@ -1,4 +1,24 @@
 teams:
+  blixt-admins:
+    description: Admin access to the blixt repo
+    members:
+    - aryan9600
+    - astoycos
+    - mlavacca
+    - shaneutt
+    privacy: closed
+    repos:
+      blixt: admin
+  blixt-maintainers:
+    description: Write access to the blixt repo
+    members:
+    - astoycos
+    - mlavacca
+    - robscott
+    - shaneutt
+    privacy: closed
+    repos:
+      blixt: write
   cluster-proportional-autoscaler-admins:
     description: Admin access to the cluster-proportional-autoscaler repo
     members:
@@ -6,6 +26,8 @@ teams:
     - MrHohn
     - thockin
     privacy: closed
+    repos:
+      cluster-proportional-autoscaler: admin
   cluster-proportional-autoscaler-maintainers:
     description: Write access to the cluster-proportional-autoscaler repo
     members:
@@ -13,6 +35,8 @@ teams:
     - MrHohn
     - thockin
     privacy: closed
+    repos:
+      cluster-proportional-autoscaler: write
   cluster-proportional-vertical-autoscaler-admins:
     description: Admin access to the cluster-proportional-autoscaler repo
     members:
@@ -20,6 +44,8 @@ teams:
     - MrHohn
     - thockin
     privacy: closed
+    repos:
+      cluster-proportional-vertical-autoscaler: admin
   cluster-proportional-vertical-autoscaler-maintainers:
     description: Admin access to the cluster-proportional-autoscaler repo
     members:
@@ -27,6 +53,8 @@ teams:
     - MrHohn
     - thockin
     privacy: closed
+    repos:
+      cluster-proportional-vertical-autoscaler: write
   ip-masq-agent-admins:
     description: Admin access to the ip-masq-agent repo
     members:
@@ -35,6 +63,8 @@ teams:
     privacy: closed
     previously:
     - admins-ip-masq-agent
+    repos:
+      ip-masq-agent: admin
   ip-masq-agent-maintainers:
     description: Write access to the ip-masq-agent repo
     members:
@@ -43,27 +73,55 @@ teams:
     privacy: closed
     previously:
     - maintainers-ip-masq-agent
+    repos:
+      ip-masq-agent: write
   external-dns-admins:
     description: Admin access to the external-dns repo
     members:
-    - hjacobs
     - linki
     - njuettner
     - Raffo
+    - szuecs
     privacy: closed
     previously:
     - admins-external-dns
+    repos:
+      external-dns: admin
   external-dns-maintainers:
     description: Write access to the external-dns repo
     members:
-    - hjacobs
     - linki
     - njuettner
     - Raffo
     - seanmalloy
+    - szuecs
     privacy: closed
     previously:
     - maintainers-external-dns
+    repos:
+      external-dns: write
+  ingress2gateway-admins:
+    description: Admin access to the ingress2gateway repo
+    members:
+    - bowei
+    - LiorLieberman
+    - robscott
+    - shaneutt
+    - youngnick
+    privacy: closed
+    repos:
+      ingress2gateway: admin
+  ingress2gateway-maintainers:
+    description: Write access to the ingress2gateway repo
+    members:
+    - bowei
+    - LiorLieberman
+    - robscott
+    - shaneutt
+    - youngnick
+    privacy: closed
+    repos:
+      ingress2gateway: write
   ingress-controller-conformance-admins:
     description: Admin access to the ingress-controller-conformance repo
     members:
@@ -73,6 +131,8 @@ teams:
     privacy: closed
     previously:
     - admins-ingress-controller-conformance
+    repos:
+      ingress-controller-conformance: admin
   ingress-controller-conformance-maintainers:
     description: Write access to the ingress-controller-conformance repo
     members:
@@ -82,6 +142,8 @@ teams:
     privacy: closed
     previously:
     - maintainers-ingress-controller-conformance
+    repos:
+      ingress-controller-conformance: write
   iptables-wrappers-admins:
     description: Admin access to the iptables-wrappers repo
     members:
@@ -90,6 +152,8 @@ teams:
     - dcbw
     - thockin
     privacy: closed
+    repos:
+      iptables-wrappers: admin
   iptables-wrappers-maintainers:
     description: Write access to the iptables-wrappers repo
     members:
@@ -98,36 +162,90 @@ teams:
     - dcbw
     - thockin
     privacy: closed
+    repos:
+      iptables-wrappers: write
   gateway-api-admins:
     description: Admin access to the gateway-api repo
     members:
     - bowei
-    - thockin
+    - robscott
+    - shaneutt
+    - youngnick
     privacy: closed
     previously:
     - service-apis-admins
+    repos:
+      gateway-api: admin
   gateway-api-maintainers:
     description: Write access to the gateway-api repo
     members:
     - bowei
-    - hbagdi
-    - jpeach
     - robscott
-    - thockin
+    - shaneutt
     - youngnick
     privacy: closed
     previously:
     - service-apis-maintainers
     - service-apis-amintainers
+    repos:
+      gateway-api: write
+  gateway-api-mesh-leads:
+    description: Write access to the gateway-api repo
+    members:
+    - howardjohn
+    - keithmattix
+    - mikemorris
+    privacy: closed
+  knftables-admins:
+    description: Admin access to the knftables repo
+    members:
+    - aojea
+    - danwinship
+    - shaneutt
+    - thockin
+    privacy: closed
+    repos:
+      knftables: admin
   kpng-admins:
     description: Admin access to the kpng repo
     members:
     - mcluseau
     - thockin
     privacy: closed
+    repos:
+      kpng: admin
   network-policy-api-admins:
     description: Admin access to the network-policy-api repo
     members:
-    - abhiraut
-    - rikatz
+    - astoycos
+    - danwinship
+    - Dyanngg
     privacy: closed
+    repos:
+      network-policy-api: admin
+  node-ipam-controller-admins:
+    description: Admin access to the node-ipam-controller repo
+    members:
+    - ameukam
+    - aojea
+    - danwinship
+    - mneverov
+    - sarveshr7
+    - shaneutt
+    - thockin
+    privacy: closed
+    repos:
+      node-ipam-controller: admin
+  node-ipam-controller-maintainers:
+    description: Write access to the node-ipam-controller repo
+    members:
+    - ameukam
+    - aojea
+    - danwinship
+    - mneverov
+    - sarveshr7
+    - shaneutt
+    - thockin
+    privacy: closed
+    repos:
+      node-ipam-controller: write

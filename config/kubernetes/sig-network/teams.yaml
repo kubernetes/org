@@ -4,6 +4,7 @@ teams:
     members:
     - caseydavenport
     - davidopp
+    - shaneutt
     - thockin
     privacy: closed
   sig-network-bugs:
@@ -11,6 +12,7 @@ teams:
     members:
     - caseydavenport
     - cmluciano
+    - shaneutt
     - thockin
     privacy: closed
   sig-network-feature-requests:
@@ -19,6 +21,7 @@ teams:
     - caseydavenport
     - cmluciano
     - davidopp
+    - shaneutt
     - smarterclayton
     - thockin
     privacy: closed
@@ -36,6 +39,7 @@ teams:
     - freehan
     - jeremyeder
     - MrHohn
+    - shaneutt
     - smarterclayton
     - thockin
     privacy: closed
@@ -47,7 +51,7 @@ teams:
     - cmluciano
     - dcbw
     - feiskyer
-    - m1093782566
+    - shaneutt
     - thockin
     privacy: closed
   sig-network-proposals:
@@ -58,6 +62,7 @@ teams:
     - davidopp
     - dcbw
     - feiskyer
+    - shaneutt
     - smarterclayton
     - thockin
     privacy: closed
@@ -66,5 +71,13 @@ teams:
     members:
     - caseydavenport
     - cmluciano
+    - shaneutt
+    - thockin
+    privacy: closed
+  sig-network-leads:
+    description: ""
+    members:
+    - MikeZappa87
+    - shaneutt
     - thockin
     privacy: closed

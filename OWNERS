@@ -2,20 +2,24 @@
 
 reviewers:
   - cblecker
-  - fejta
-  - idvoretskyi
+  - MadhavJivrajani
   - mrbobbytables
   - nikhita
-  - spiffxp
+  - palnabarun
+  - Priyankasaggu11929
 approvers:
   - cblecker
-  - fejta
-  - idvoretskyi
+  - MadhavJivrajani
   - mrbobbytables
   - nikhita
-  - spiffxp
+  - palnabarun
+  - Priyankasaggu11929
 emeritus_approvers:
+  - ameukam
   - calebamiles
+  - fejta
+  - idvoretskyi
+  - spiffxp
 
 labels:
   - area/github-management

@@ -6,6 +6,8 @@ teams:
     - pwittrock
     - yue9944882
     privacy: closed
+    repos:
+      apiserver-builder-alpha: admin
   apiserver-builder-alpha-maintainers:
     description: write access to apiserver-builder-alpha
     members:
@@ -13,6 +15,8 @@ teams:
     - pwittrock
     - yue9944882
     privacy: closed
+    repos:
+      apiserver-builder-alpha: write
   apiserver-runtime-admins:
     description: admin access to apiserver-runtime
     members:
@@ -21,6 +25,8 @@ teams:
     - pwittrock
     - yue9944882
     privacy: closed
+    repos:
+      apiserver-runtime: admin
   apiserver-runtime-maintainers:
     description: write access to apiserver-runtime
     members:
@@ -29,70 +35,61 @@ teams:
     - pwittrock
     - yue9944882
     privacy: closed
+    repos:
+      apiserver-runtime: write
   clientgofix-admins:
     description: admin access to clientgofix
     members:
     - liggitt
     - mikedanese
     privacy: closed
+    repos:
+      clientgofix: admin
   clientgofix-maintainers:
     description: write access to clientgofix
     members:
     - liggitt
     - mikedanese
     privacy: closed
+    repos:
+      clientgofix: write
   controller-runtime-admins:
     description: admin access to controller-runtime
     members:
-    - DirectXMan12
-    - droot
-    - pwittrock
+    - joelanford
+    - vincepri
     privacy: closed
-  controller-runtime-contributors:
-    description: read access to controller-runtime
-    members:
-    - lichuqiang
-    - pwittrock
-    privacy: closed
+    repos:
+      controller-runtime: admin
   controller-runtime-maintainers:
     description: write access to controller-runtime
     members:
     - alvaroaleman
-    - camilamacedo86
-    - gabbifish
+    - fillzpp
     - joelanford
-    - Liujingfang1
-    - mengqiy
-    - pwittrock
-    - seans3
+    - sbueringer
     - vincepri
     privacy: closed
+    repos:
+      controller-runtime: write
   controller-tools-admins:
     description: admin access to controller-tools
     members:
-    - DirectXMan12
-    - droot
-    - pwittrock
-    - seans3
+    - joelanford
+    - vincepri
     privacy: closed
-  controller-tools-contributors:
-    description: read access to controller-tools
-    members:
-    - Birdrock
-    - pwittrock
-    privacy: closed
+    repos:
+      controller-tools: admin
   controller-tools-maintainers:
     description: write access to controller-tools
     members:
-    - camilamacedo86
-    - droot
-    - gabbifish
+    - alvaroaleman
     - joelanford
-    - mengqiy
-    - pwittrock
-    - seans3
+    - sbueringer
     - vincepri
     privacy: closed
+    repos:
+      controller-tools: write
   json-admins:
     description: Admin access to the json repo
     members:
@@ -100,6 +97,8 @@ teams:
     - lavalamp
     - liggitt
     privacy: closed
+    repos:
+      json: admin
   kubebuilder-admins:
     description: admin access to kubebuilder
     members:
@@ -108,12 +107,17 @@ teams:
     - droot
     - estroz
     - grodrigues3
+    - jmrodri
     - Liujingfang1
     - mengqiy
     - monopole
     - pmorie
     - pwittrock
+    - varshaprasad96
     privacy: closed
+    repos:
+      kubebuilder: admin
+      kubebuilder-declarative-pattern: admin
   kubebuilder-contributors:
     description: read access to kubebuilder
     members:
@@ -121,18 +125,24 @@ teams:
     - lichuqiang
     - pwittrock
     privacy: closed
+    repos:
+      kubebuilder: read
   kubebuilder-declarative-pattern-admins:
     description: admin access to kubebuilder-declarative-pattern
     members:
     - johnsonj
     - justinsb
     privacy: closed
+    repos:
+      kubebuilder-declarative-pattern: admin
   kubebuilder-declarative-pattern-maintainers:
     description: write access to kubebuilder-declarative-pattern
     members:
     - johnsonj
     - justinsb
     privacy: closed
+    repos:
+      kubebuilder-declarative-pattern: write
   kubebuilder-maintainers:
     description: write access to kubebuilder
     members:
@@ -141,13 +151,14 @@ teams:
     - camilamacedo86
     - DirectXMan12
     - droot
-    - gabbifish
     - mengqiy
     - monopole
     - pmorie
     - pwittrock
     - seans3
     privacy: closed
+    repos:
+      kubebuilder: write
   kubebuilder-release-tools-admins:
     description: Admin access to kubebuilder-release-tools
     members:
@@ -157,15 +168,20 @@ teams:
     - mengqiy
     - vincepri
     privacy: closed
+    repos:
+      kubebuilder-release-tools: admin
   kubebuilder-release-tools-maintainers:
     description: Write access to kubebuilder-release-tools
     members:
     - Adirio
+    - camilamacedo86
     - DirectXMan12
     - droot
     - mengqiy
     - vincepri
     privacy: closed
+    repos:
+      kubebuilder-release-tools: write
   kubectl-check-ownerreferences-admins:
     description: Admin access to kubectl-check-ownerreferences
     members:
@@ -173,6 +189,8 @@ teams:
     - deads2k
     - liggitt
     privacy: closed
+    repos:
+      kubectl-check-ownerreferences: admin
   kubernetes/sig-api-machinery:
     description: Parent team for all SIG API Machinery subteams (approvers, reviewers,
       admins)
@@ -187,24 +205,32 @@ teams:
         - deads2k
         - lavalamp
         privacy: closed
+        repos:
+          kube-storage-version-migrator: admin
       kubernetes/sig-api-machinery-approvers:
         description: write access to all SIG API Machinery managed repositories
         members:
         - deads2k
         - lavalamp
         privacy: closed
+        repos:
+          kube-storage-version-migrator: write
       kubernetes/sig-api-machinery-reviewers:
         description: read access to all repositories owned by SIG API Machinery
         members:
         - deads2k
         - lavalamp
         privacy: closed
+        repos:
+          kube-storage-version-migrator: read
   structured-merge-diff-admins:
     description: admin access to structured-merge-diff
     members:
     - apelisse
     - lavalamp
     privacy: closed
+    repos:
+      structured-merge-diff: admin
   structured-merge-diff-maintainers:
     description: write access to structured-merge-diff
     members:
@@ -215,6 +241,8 @@ teams:
     # emeritus
     # - jennybuckley
     privacy: closed
+    repos:
+      structured-merge-diff: write
   yaml-admins:
     description: ""
     members:
@@ -223,6 +251,8 @@ teams:
     - lavalamp
     - liggitt
     privacy: closed
+    repos:
+      yaml: admin
   yaml-maintainers:
     description: ""
     members:
@@ -231,3 +261,5 @@ teams:
     - lavalamp
     - liggitt
     privacy: closed
+    repos:
+      yaml: write

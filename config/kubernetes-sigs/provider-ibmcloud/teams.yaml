@@ -5,6 +5,8 @@ teams:
     - gyliu513
     - mkumatag
     privacy: closed
+    repos:
+      cluster-api-provider-ibmcloud: admin
   cluster-api-provider-ibmcloud-maintainers:
     description: Write access to the cluster-api-provider-ibmcloud repo
     members:
@@ -13,13 +15,21 @@ teams:
     - mkumatag
     - xunpan
     privacy: closed
+    repos:
+      cluster-api-provider-ibmcloud: write
   ibm-vpc-block-csi-driver-admins:
     description: Admin access to the ibm-vpc-block-csi-driver repo
     members:
+    - ambiknai
     - arahamad
     privacy: closed
+    repos:
+      ibm-vpc-block-csi-driver: admin
   ibm-vpc-block-csi-driver-maintainers:
     description: Write access to the ibm-vpc-block-csi-driver repo
     members:
+    - ambiknai
     - arahamad
     privacy: closed
+    repos:
+      ibm-vpc-block-csi-driver: write

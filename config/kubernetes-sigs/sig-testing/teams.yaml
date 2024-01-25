@@ -36,8 +36,8 @@ teams:
   e2e-framework-admins:
     description: admin access to e2e-framework
     members:
-    - andrewsykim
-    - BenTheElder
+    - harshanarayana
+    - ShwethaKumbla
     - spiffxp
     - vladimirvivien
     privacy: closed
@@ -46,9 +46,10 @@ teams:
   e2e-framework-maintainers:
     description: write access to e2e-framework
     members:
-    - andrewsykim
-    - BenTheElder
+    - harshanarayana
+    - ShwethaKumbla
     - spiffxp
+    - vladimirvivien
     privacy: closed
     repos:
       e2e-framework: write

@@ -5,7 +5,6 @@ reviewers:
   - MadhavJivrajani
   - palnabarun
   - Priyankasaggu11929
-  - savitharaghunathan
 approvers:
   - cblecker
   - jasonbraganza
@@ -14,10 +13,10 @@ approvers:
   - nikhita
   - palnabarun
   - Priyankasaggu11929
-  - savitharaghunathan
 emeritus_approvers:
   - ameukam
   - calebamiles
   - fejta
   - idvoretskyi
+  - savitharaghunathan
   - spiffxp

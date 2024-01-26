@@ -1,21 +1,22 @@
 # See the OWNERS docs at https://go.k8s.io/owners
 
 reviewers:
+  - jasonbraganza
   - MadhavJivrajani
   - palnabarun
   - Priyankasaggu11929
-  - savitharaghunathan
 approvers:
   - cblecker
+  - jasonbraganza
   - MadhavJivrajani
   - mrbobbytables
   - nikhita
   - palnabarun
   - Priyankasaggu11929
-  - savitharaghunathan
 emeritus_approvers:
   - ameukam
   - calebamiles
   - fejta
   - idvoretskyi
+  - savitharaghunathan
   - spiffxp

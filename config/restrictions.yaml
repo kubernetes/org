@@ -326,7 +326,7 @@ restrictions:
     - "^sig-windows-dev-tools"
     - "^sig-windows-tools"
     - "^windows-operational-readiness"
-    - "^windows-service-proxy" 
+    - "^windows-service-proxy"
     - "^windows-testing"
   - path: "kubernetes-sigs/wg-component-standard/teams.yaml"
     allowedRepos:
@@ -374,4 +374,18 @@ restrictions:
     - "^python"
     - "^python-base"
     - "^ruby"
+  - path: "etcd-io/org.yaml"
+    allowedRepos:
+    - "^bbolt$"
+    - "^dbtester$"
+    - "^discovery.etcd.io$"
+    - "^discoveryserver$"
+    - "^etcd$"
+    - "^etcdlabs$"
+    - "^gofail$"
+    - "^govanityurls$"
+    - "^jetcd$"
+    - "^protodoc$"
+    - "^raft$"
+    - "^website$"
   - path: "**/*" # prevent any other file from containing anything

@@ -320,6 +320,7 @@ teams:
     description: Admin access to the cluster-api-provider-vsphere repo
     members:
     - chrischdi
+    - fabriziopandini
     - gab-satchi
     - killianmuldoon
     - randomvariable
@@ -333,6 +334,7 @@ teams:
     description: Write access to the cluster-api-provider-vsphere repo
     members:
     - chrischdi
+    - fabriziopandini
     - gab-satchi
     - killianmuldoon
     - randomvariable

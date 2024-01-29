@@ -104,29 +104,24 @@ teams:
   cluster-api-provider-azure-admins:
     description: ""
     members:
-    - CecileRobertMichon
     - jackfrancis
     - mboersma
     - nojnhuh
-    - sonasingh46
     privacy: closed
     repos:
       cluster-api-provider-azure: admin
   cluster-api-provider-azure-maintainers:
     description: ""
     members:
-    - CecileRobertMichon
     - jackfrancis
     - mboersma
     - nojnhuh
-    - sonasingh46
     privacy: closed
     repos:
       cluster-api-provider-azure: write
   cluster-api-provider-azure-pms:
     description: ""
     members:
-    - CecileRobertMichon
     - devigned
     - dtzar
     - jackfrancis
@@ -136,7 +131,6 @@ teams:
     - mboersma
     - nawazkh
     - nojnhuh
-    - sonasingh46
     - willie-yao
     privacy: closed
     repos:
@@ -362,11 +356,11 @@ teams:
     # - ssuriyan7
     - SubhasmitaSw
     # - Sunnatillo
-    - troy0820 
+    - troy0820
     # - typeid
     - VibhorChinda
     - willie-yao
-    - yrs147 
+    - yrs147
     privacy: closed
   etcdadm-admins:
     description: Admin access to the etcdadm repo

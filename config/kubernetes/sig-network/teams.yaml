@@ -77,6 +77,8 @@ teams:
   sig-network-leads:
     description: ""
     members:
+    - aojea
+    - danwinship
     - MikeZappa87
     - shaneutt
     - thockin

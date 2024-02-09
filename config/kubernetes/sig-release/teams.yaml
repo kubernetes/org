@@ -24,6 +24,7 @@ teams:
     - abgworrall # GCP
     - adisky # OpenStack
     - ahg-g # Scheduling
+    - alculquicondor # Scheduling
     - alejandrox1 # Testing
     - ameukam # Release Manager Associate / K8s Infra
     - andrewsykim # Cloud Provider

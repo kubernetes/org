@@ -45,7 +45,6 @@ restrictions:
     - "^kompose"
     - "^kube-openapi"
     - "^kubernetes"
-    - "^funding"
     - "^kubernetes-template-project"
     - "^steering"
     - "^node-problem-detector"
@@ -326,7 +325,7 @@ restrictions:
     - "^sig-windows-dev-tools"
     - "^sig-windows-tools"
     - "^windows-operational-readiness"
-    - "^windows-service-proxy" 
+    - "^windows-service-proxy"
     - "^windows-testing"
   - path: "kubernetes-sigs/wg-component-standard/teams.yaml"
     allowedRepos:

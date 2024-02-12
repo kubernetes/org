@@ -45,7 +45,6 @@ restrictions:
     - "^kompose"
     - "^kube-openapi"
     - "^kubernetes"
-    - "^funding"
     - "^kubernetes-template-project"
     - "^steering"
     - "^node-problem-detector"

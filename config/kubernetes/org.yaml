@@ -2385,7 +2385,6 @@ teams:
     - soltysh
     privacy: closed
     repos:
-      funding: admin
       kubernetes-template-project: admin
       steering: admin
   ubuntu-image:

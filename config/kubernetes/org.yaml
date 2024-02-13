@@ -1146,7 +1146,6 @@ members:
 - nwoods3
 - obitech
 - Octopusjust
-- OddBloke
 - odinuge
 - Okabe-Junya
 - oke-py
@@ -2346,7 +2345,6 @@ teams:
     description: ""
     members:
     - dchen1107
-    - OddBloke
     privacy: closed
   utils-admins:
     description: Admin access to the utils repo

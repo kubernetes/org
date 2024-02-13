@@ -330,7 +330,6 @@ members:
 - Fedosin
 - Fei-Guo
 - feiskyer
-- fejta
 - feloy
 - FeLvi-zzz
 - femrtnz
@@ -1615,7 +1614,6 @@ teams:
     members:
     - BenTheElder
     - cjwagner
-    - fejta
     - ixdy
     - spiffxp
     - stevekuznetsov
@@ -2023,7 +2021,6 @@ teams:
   maintainer-test-exemptions:
     description: Maintainers who for whatever random reason should not own tests.
     members:
-    - fejta
     - kelseyhightower
     privacy: closed
   node-problem-detector-admins:

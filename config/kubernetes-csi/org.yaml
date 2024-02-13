@@ -93,7 +93,6 @@ members:
 - nixpanic
 - nnmin-aws
 - oprinmarius
-- PatrickLang
 - pierreprinetti
 - pohly
 - Pradumnasaraf
@@ -339,7 +338,6 @@ teams:
     - jsafrane
     - mauriciopoppe
     - msau42
-    - PatrickLang
     - saad-ali
     - xing-yang
     privacy: closed
@@ -353,7 +351,6 @@ teams:
     - jsafrane
     - mauriciopoppe
     - msau42
-    - PatrickLang
     - saad-ali
     - sunnylovestiramisu
     - xing-yang

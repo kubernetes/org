@@ -142,7 +142,6 @@ teams:
   cloud-provider-baiducloud-admins:
    description: Admin access to the cloud-provider-baiducloud repo
    members:
-   - hello2mao
    - tizhou86
    privacy: closed
    repos:
@@ -150,7 +149,6 @@ teams:
   cloud-provider-baiducloud-maintainers:
    description: Write access to the cloud-provider-baiducloud repo
    members:
-   - hello2mao
    - tizhou86
    privacy: closed
    repos:

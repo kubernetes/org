@@ -162,7 +162,6 @@ members:
 - Babapool
 - bai
 - balopat
-- BaluDontu
 - bang9211
 - barney-s
 - bart0sh
@@ -1899,7 +1898,6 @@ teams:
     description: Write access to the cloud-provider-vsphere repo
     members:
     - andrewsykim
-    - BaluDontu
     - divyenpatel
     - dougm
     - frapposelli

@@ -298,7 +298,6 @@ teams:
     - Arhell
     - idvoretskyi
     - MaxymVlasov
-    - Potapy4
     privacy: closed
   website-admins:
     description: Admin access to the website repo
@@ -334,7 +333,6 @@ teams:
     - nate-double-u # L10n: English
     - nvtkaszpir # L10n: Polish
     - onlydole # L10n: English
-    - potapy4 # L10n: Russian
     - raelga # L10n: Spanish
     - remyleone # L10n: French
     - reylejano # L10n: English
@@ -375,7 +373,6 @@ teams:
     - nate-double-u
     - onlydole
     - perriea
-    - potapy4
     - Princesso # 1.30 Docs Shadow
     - raelga
     - rekcah78

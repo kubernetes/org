@@ -12,7 +12,6 @@ teams:
   hierarchical-namespaces-maintainers:
     description: Write access to hierarchical-namespaces repo
     members:
-    - GinnyJI
     - yiqigao217
     privacy: closed
     repos:

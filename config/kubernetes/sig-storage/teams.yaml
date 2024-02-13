@@ -15,7 +15,6 @@ teams:
     description: Bugs for Kubernetes Storage Special-Interest-Group
     members:
     - gnufied
-    - jeffvance
     - jingxu97
     - jsafrane
     - msau42
@@ -46,7 +45,6 @@ teams:
     members:
     - davidopp
     - gnufied
-    - jeffvance
     - jingxu97
     - jsafrane
     - msau42
@@ -84,7 +82,6 @@ teams:
   sig-storage-test-failures:
     description: Test Failures for Kubernetes Storage Special-Interest-Group
     members:
-    - jeffvance
     - jingxu97
     - jsafrane
     - msau42

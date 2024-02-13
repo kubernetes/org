@@ -198,7 +198,6 @@ members:
 - chrisdoherty4
 - chrishenzie
 - chriskim06
-- chrislovecnm
 - chrisnegus
 - chrisohaver
 - christopherhein
@@ -1866,7 +1865,6 @@ teams:
     description: Creation and curation of example applications that run on Kubernetes
     members:
     - ahmetb
-    - chrislovecnm
     - erictune
     - foxish
     - idvoretskyi

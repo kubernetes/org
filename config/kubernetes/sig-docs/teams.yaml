@@ -149,7 +149,6 @@ teams:
     description: Approvers for Korean content
     members:
     - gochist
-    - ianychoi
     - jihoon-seo
     - seokho-son
     - yoonian
@@ -159,7 +158,6 @@ teams:
     description: Reviews for Korean docs PRs
     members:
     - gochist
-    - ianychoi
     - jihoon-seo
     - jmyung
     - jongwooo
@@ -314,8 +312,7 @@ teams:
     - femrtnz # L10n: Portuguese
     - girikuncoro # L10n: Indonesian
     - gochist # L10n: Korean
-    - huynguyennovem # L10n: Vietnamese
-    - ianychoi # L10n: Korean
+    - huynguyennovem # L10n: Vietnamese # L10n: Korean
     - inductor # L10n: Japanese
     - jcjesus # L10n: Portuguese
     - jhonmike # L10n: Portuguese

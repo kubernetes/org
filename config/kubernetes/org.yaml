@@ -291,7 +291,6 @@ members:
 - droslean
 - dthorsen
 - dulek
-- dvonthenen
 - Dyanngg
 - DylanGraham
 - e-blackwelder
@@ -1697,7 +1696,6 @@ teams:
     description: Admin access to cloud-provider-vsphere repo
     members:
     - andrewsykim
-    - dvonthenen
     - frapposelli
     - lubronzhan
     - maplain

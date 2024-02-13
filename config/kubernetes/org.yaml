@@ -1619,7 +1619,6 @@ members:
 - wfernandes
 - wgahnagl
 - wgliang
-- WilliamDenniss
 - willie-yao
 - wilsonehusin
 - wilsonwu
@@ -1862,7 +1861,6 @@ teams:
     - smarterclayton
     - spiffxp
     - timothysc
-    - WilliamDenniss
     privacy: closed
   cncf-wg:
     description: The cncf working group

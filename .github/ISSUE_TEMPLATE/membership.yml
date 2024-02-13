@@ -24,6 +24,7 @@ body:
     - kubernetes-client
     - kubernetes-csi
     - kubernetes-sigs
+    - etcd-io
   validations:
     required: true
 - id: requirements

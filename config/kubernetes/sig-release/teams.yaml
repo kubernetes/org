@@ -32,7 +32,6 @@ teams:
     - aravindhp # Windows
     - BenTheElder # Testing / K8s Infra
     - bgrant0607 # Architecture
-    - bradamant3 # Docs
     - brancz # Instrumentation
     - bridgetkromhout # Cloud Provider
     - cantbewong # VMware
@@ -319,7 +318,7 @@ teams:
         - jeremyrickard # subproject owner / Technical Lead
         - jimangel # 1.29 RT Branch Manager
         - justaugustus # subproject owner / Chair
-        - katcosgrove # 1.30 RT Lead 
+        - katcosgrove # 1.30 RT Lead
         - leonardpahlke # subproject owner (1.26 RT Lead)
         - marosset # 1.29 RT Branch Manager Shadow
         - meganwolf0 # 1.30 Enhancements Shadow

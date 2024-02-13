@@ -45,7 +45,6 @@ teams:
         description: sig-testing PR reviews
         members:
         - akutz
-        - amwat
         - BenTheElder
         - chases2
         - cjwagner

@@ -71,7 +71,6 @@ teams:
   kind-admins:
     description: Admin access to the kind repo
     members:
-    - amwat
     - aojea
     - BenTheElder
     - munnerz
@@ -81,7 +80,6 @@ teams:
   kind-maintainers:
     description: Write access to the kind repo
     members:
-    - amwat
     - aojea
     - BenTheElder
     - munnerz

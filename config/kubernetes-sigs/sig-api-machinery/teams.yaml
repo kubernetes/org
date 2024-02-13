@@ -146,7 +146,6 @@ teams:
   kubebuilder-maintainers:
     description: write access to kubebuilder
     members:
-    - Adirio
     - apelisse
     - camilamacedo86
     - DirectXMan12
@@ -162,7 +161,6 @@ teams:
   kubebuilder-release-tools-admins:
     description: Admin access to kubebuilder-release-tools
     members:
-    - Adirio
     - DirectXMan12
     - droot
     - mengqiy
@@ -173,7 +171,6 @@ teams:
   kubebuilder-release-tools-maintainers:
     description: Write access to kubebuilder-release-tools
     members:
-    - Adirio
     - camilamacedo86
     - DirectXMan12
     - droot

@@ -412,7 +412,6 @@ members:
 - ialidzhikov
 - iamNoah1
 - IanColdwater
-- ianlewis
 - ianychoi
 - ibabou
 - ibihim
@@ -1684,7 +1683,6 @@ teams:
     description: Write access to the dashboard repo
     members:
     - floreks
-    - ianlewis
     - jeefy
     - maciaszczykm
     - shu-mutou

@@ -96,7 +96,6 @@ members:
 - Arhell
 - ariscahyadi
 - ArkaSaha30
-- aronchick
 - aroradaman
 - arun-gupta
 - arunmk
@@ -2145,7 +2144,6 @@ teams:
   maintainer-test-exemptions:
     description: Maintainers who for whatever random reason should not own tests.
     members:
-    - aronchick
     - fejta
     - kelseyhightower
     privacy: closed

@@ -312,7 +312,6 @@ members:
 - enisoc
 - enj
 - enxebre
-- eparis
 - epk
 - erain
 - ereslibre
@@ -1733,7 +1732,6 @@ teams:
     description: Admin access to the code-generator repo
     members:
     - deads2k
-    - eparis
     - sttts
     privacy: closed
     repos:
@@ -1742,7 +1740,6 @@ teams:
     description: Write access to the code-generator repo
     members:
     - deads2k
-    - eparis
     - sttts
     privacy: closed
     repos:

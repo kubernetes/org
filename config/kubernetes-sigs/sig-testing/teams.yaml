@@ -36,7 +36,6 @@ teams:
   e2e-framework-admins:
     description: admin access to e2e-framework
     members:
-    - alejandrox1
     - andrewsykim
     - BenTheElder
     - spiffxp
@@ -47,7 +46,6 @@ teams:
   e2e-framework-maintainers:
     description: write access to e2e-framework
     members:
-    - alejandrox1
     - andrewsykim
     - BenTheElder
     - spiffxp

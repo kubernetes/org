@@ -73,7 +73,6 @@ teams:
   sig-docs-fr-owners:
     description: Approvers for French content
     members:
-    - awkif
     - feloy
     - perriea
     - rekcah78
@@ -82,7 +81,6 @@ teams:
   sig-docs-fr-reviews:
     description: PR reviews for French content
     members:
-    - awkif
     - feloy
     - perriea
     - rekcah78
@@ -351,7 +349,6 @@ teams:
     description: Contributors who can use `/milestone` in the website repo
     members:
     - a-mccarthy
-    - awkif
     - bene2k1
     - bradtopol
     - celestehorgan # 1.30 Docs Shadow

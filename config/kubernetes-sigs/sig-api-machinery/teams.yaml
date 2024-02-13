@@ -21,7 +21,6 @@ teams:
     description: admin access to apiserver-runtime
     members:
     - DirectXMan12
-    - gabbifish
     - pwittrock
     - yue9944882
     privacy: closed
@@ -31,7 +30,6 @@ teams:
     description: write access to apiserver-runtime
     members:
     - DirectXMan12
-    - gabbifish
     - pwittrock
     - yue9944882
     privacy: closed

@@ -144,7 +144,6 @@ members:
 - chetak123
 - chethanv28
 - chewong
-- childsb
 - chiukapoor
 - chizhg
 - chrigl
@@ -1295,7 +1294,6 @@ teams:
   sig-storage-lib-external-provisioner-admins:
     description: Admin access to the sig-storage-lib-external-provisioner repo
     members:
-    - childsb
     - jsafrane
     - msau42
     - saad-ali
@@ -1307,7 +1305,6 @@ teams:
   sig-storage-lib-external-provisioner-maintainers:
     description: Write access to the sig-storage-lib-external-provisioner repo
     members:
-    - childsb
     - jsafrane
     - msau42
     - saad-ali

@@ -28,7 +28,6 @@ members:
 - bertinatto
 - bswartz
 - carlory
-- chakri-nelluri
 - chrishenzie
 - codenrhoden
 - cofyc
@@ -316,7 +315,6 @@ teams:
   csi-misc:
     description: Miscellaneous Discussions for Kubernetes CSI Working Group
     members:
-    - chakri-nelluri
     - davidz627
     - gnufied
     - jsafrane
@@ -406,7 +404,6 @@ teams:
   developers:
     description: ""
     members:
-    - chakri-nelluri
     - davidz627
     - humblec
     - jsafrane

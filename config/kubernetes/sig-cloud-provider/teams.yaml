@@ -17,7 +17,6 @@ teams:
         description: ""
         members:
         - andrewsykim
-        - calebamiles
         - cheftako
         - mcrute
         privacy: closed
@@ -27,7 +26,6 @@ teams:
         description: ""
         members:
         - andrewsykim
-        - calebamiles
         - cheftako
         - mcrute
         privacy: closed
@@ -67,35 +65,30 @@ teams:
         description: ""
         members:
         - andrewsykim
-        - calebamiles
         - hogepodge
         privacy: closed
       sig-cloud-provider-bugs:
         description: ""
         members:
         - andrewsykim
-        - calebamiles
         - hogepodge
         privacy: closed
       sig-cloud-provider-feature-requests:
         description: ""
         members:
         - andrewsykim
-        - calebamiles
         - hogepodge
         privacy: closed
       sig-cloud-provider-misc:
         description: ""
         members:
         - andrewsykim
-        - calebamiles
         - hogepodge
         privacy: closed
       sig-cloud-provider-pr-reviews:
         description: ""
         members:
         - andrewsykim
-        - calebamiles
         - hogepodge
         - nckturner
         privacy: closed
@@ -103,21 +96,18 @@ teams:
         description: ""
         members:
         - andrewsykim
-        - calebamiles
         - hogepodge
         privacy: closed
       sig-cloud-provider-test-failures:
         description: ""
         members:
         - andrewsykim
-        - calebamiles
         - hogepodge
         privacy: closed
   sig-cloud-provider-admins:
     description: ""
     members:
     - andrewsykim
-    - calebamiles
     privacy: closed
     repos:
       cloud-provider: admin

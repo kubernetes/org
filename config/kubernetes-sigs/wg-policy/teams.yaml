@@ -2,7 +2,6 @@ teams:
   wg-policy-prototypes-admins:
     description: Admin access to wg-policy-prototypes
     members:
-    - ericavonb
     - hannibalhuang
     privacy: closed
     repos:

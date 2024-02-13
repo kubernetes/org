@@ -86,7 +86,6 @@ teams:
   windows-operational-readiness-admins:
     description: Admin access to the windows-operational-readiness repo
     members:
-    - iXinqi
     - knabben
     privacy: closed
     repos:
@@ -94,7 +93,6 @@ teams:
   windows-operational-readiness-maintainers:
     description: Write access to the windows-operational-readiness repo
     members:
-    - iXinqi
     - knabben
     privacy: closed
     repos:

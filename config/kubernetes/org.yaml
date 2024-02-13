@@ -535,7 +535,6 @@ members:
 - kbhawkey
 - kcmartin
 - keithmattix
-- kelseyhightower
 - kendallnelson
 - kendallroden
 - kensipe
@@ -1870,11 +1869,6 @@ teams:
     - deads2k
     - lavalamp
     - sttts
-    privacy: closed
-  maintainer-test-exemptions:
-    description: Maintainers who for whatever random reason should not own tests.
-    members:
-    - kelseyhightower
     privacy: closed
   node-problem-detector-admins:
     description: Admin access to the node-problem-detector repo

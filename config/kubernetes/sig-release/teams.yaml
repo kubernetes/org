@@ -185,7 +185,6 @@ teams:
     description: Admin access to the repo-infra repo
     members:
     - BenTheElder
-    - clarketm
     - cpanato
     - fejta
     - justaugustus
@@ -199,7 +198,6 @@ teams:
     description: Write access to the repo-infra repo
     members:
     - BenTheElder
-    - clarketm
     - cpanato
     - fejta
     - justaugustus

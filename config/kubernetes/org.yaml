@@ -420,7 +420,6 @@ members:
 - ihcsim
 - iholder101
 - ike-ma
-- imkin
 - immutableT
 - immuzz
 - imnmo
@@ -1615,7 +1614,6 @@ teams:
     - divyenpatel
     - dougm
     - frapposelli
-    - imkin
     - SandeepPissay
     privacy: closed
     repos:

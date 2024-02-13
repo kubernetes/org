@@ -11,7 +11,6 @@ teams:
     description: ""
     members:
     - caseydavenport
-    - cmluciano
     - shaneutt
     - thockin
     privacy: closed
@@ -19,7 +18,6 @@ teams:
     description: ""
     members:
     - caseydavenport
-    - cmluciano
     - davidopp
     - shaneutt
     - smarterclayton
@@ -48,7 +46,6 @@ teams:
     members:
     - bowei
     - caseydavenport
-    - cmluciano
     - dcbw
     - feiskyer
     - shaneutt
@@ -58,7 +55,6 @@ teams:
     description: ""
     members:
     - caseydavenport
-    - cmluciano
     - davidopp
     - dcbw
     - feiskyer
@@ -70,7 +66,6 @@ teams:
     description: ""
     members:
     - caseydavenport
-    - cmluciano
     - shaneutt
     - thockin
     privacy: closed

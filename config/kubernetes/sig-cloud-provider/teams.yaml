@@ -3,7 +3,6 @@ teams:
     description: Parent Team for SIG Cloud Provider
     members:
     - andrewsykim
-    - calebamiles
     - cheftako
     - hogepodge
     - jhorwit2

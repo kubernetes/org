@@ -4,7 +4,6 @@ teams:
     members:
     - andrewsykim
     - cheftako
-    - hogepodge
     - jhorwit2
     - justaugustus
     - mcrute
@@ -64,44 +63,37 @@ teams:
         description: ""
         members:
         - andrewsykim
-        - hogepodge
         privacy: closed
       sig-cloud-provider-bugs:
         description: ""
         members:
         - andrewsykim
-        - hogepodge
         privacy: closed
       sig-cloud-provider-feature-requests:
         description: ""
         members:
         - andrewsykim
-        - hogepodge
         privacy: closed
       sig-cloud-provider-misc:
         description: ""
         members:
         - andrewsykim
-        - hogepodge
         privacy: closed
       sig-cloud-provider-pr-reviews:
         description: ""
         members:
         - andrewsykim
-        - hogepodge
         - nckturner
         privacy: closed
       sig-cloud-provider-proposals:
         description: ""
         members:
         - andrewsykim
-        - hogepodge
         privacy: closed
       sig-cloud-provider-test-failures:
         description: ""
         members:
         - andrewsykim
-        - hogepodge
         privacy: closed
   sig-cloud-provider-admins:
     description: ""

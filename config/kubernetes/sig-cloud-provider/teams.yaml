@@ -10,7 +10,6 @@ teams:
     - justaugustus
     - mcrute
     - nckturner
-    - Rajakavitha1
     - yastij
     privacy: closed
     teams:
@@ -99,7 +98,6 @@ teams:
         - calebamiles
         - hogepodge
         - nckturner
-        - Rajakavitha1
         privacy: closed
       sig-cloud-provider-proposals:
         description: ""

@@ -104,7 +104,6 @@ teams:
     members:
     - camilamacedo86
     - DirectXMan12
-    - droot
     - estroz
     - grodrigues3
     - jmrodri
@@ -148,7 +147,6 @@ teams:
     - apelisse
     - camilamacedo86
     - DirectXMan12
-    - droot
     - mengqiy
     - monopole
     - pmorie
@@ -161,7 +159,6 @@ teams:
     description: Admin access to kubebuilder-release-tools
     members:
     - DirectXMan12
-    - droot
     - mengqiy
     - vincepri
     privacy: closed
@@ -172,7 +169,6 @@ teams:
     members:
     - camilamacedo86
     - DirectXMan12
-    - droot
     - mengqiy
     - vincepri
     privacy: closed

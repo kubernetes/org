@@ -36,7 +36,6 @@ teams:
     description: Emeritus members of sig-api-machinery
     members:
     - derekwaynecarr
-    - ironcladlou
     privacy: closed
   sig-api-machinery-members:
     description: Members of sig-api-machinery
@@ -78,7 +77,6 @@ teams:
     - deads2k
     - derekwaynecarr
     - enj
-    - ironcladlou
     - jpbetz
     - liggitt
     - logicalhan

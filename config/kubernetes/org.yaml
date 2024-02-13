@@ -428,7 +428,6 @@ members:
 - intUnderflow
 - invidian
 - ipochi
-- irfanurrehman
 - ironcladlou
 - irvifa
 - islinwb
@@ -1739,16 +1738,6 @@ teams:
     privacy: closed
     repos:
       examples: write
-  federation-admins:
-    description: Admin access to the federation repo
-    members:
-    - irfanurrehman
-    privacy: closed
-  federation-maintainers:
-    description: Admin access to the federation repo
-    members:
-    - irfanurrehman
-    privacy: closed
   gengo-admins:
     description: Admin access to the gengo repo
     members:

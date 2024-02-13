@@ -10,7 +10,6 @@ teams:
   sig-multicluster-bugs:
     description: ""
     members:
-    - irfanurrehman
     - mwielgus
     - quinton-hoole
     - shashidharatd
@@ -30,7 +29,6 @@ teams:
     members:
     - davidopp
     - derekwaynecarr
-    - irfanurrehman
     - liggitt
     - mwielgus
     - quinton-hoole
@@ -60,7 +58,6 @@ teams:
   sig-multicluster-test-failures:
     description: ""
     members:
-    - irfanurrehman
     - quinton-hoole
     - shashidharatd
     privacy: closed

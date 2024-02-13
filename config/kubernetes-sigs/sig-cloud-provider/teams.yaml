@@ -138,13 +138,12 @@ teams:
     - cheftako
     privacy: closed
     repos:
-      cloud-pv-admission-labeler: write       
+      cloud-pv-admission-labeler: write
   cloud-provider-baiducloud-admins:
    description: Admin access to the cloud-provider-baiducloud repo
    members:
    - hello2mao
    - tizhou86
-   - ZP-AlwaysWin
    privacy: closed
    repos:
      cloud-provider-baiducloud: admin
@@ -153,7 +152,6 @@ teams:
    members:
    - hello2mao
    - tizhou86
-   - ZP-AlwaysWin
    privacy: closed
    repos:
      cloud-provider-baiducloud: write

@@ -12,7 +12,6 @@ teams:
   container-object-storage-interface-api-maintainers:
     description: Write access to container-object-storage-interface-api
     members:
-    - brahmaroutu
     - jsafrane
     - msau42
     - rrati
@@ -35,7 +34,6 @@ teams:
   container-object-storage-interface-controller-maintainers:
     description: Write access to container-object-storage-interface-controller
     members:
-    - brahmaroutu
     - jsafrane
     - msau42
     - rrati
@@ -58,7 +56,6 @@ teams:
   container-object-storage-interface-csi-adapter-maintainers:
     description: Write access to container-object-storage-interface-csi-adapter
     members:
-    - brahmaroutu
     - copejon
     - jsafrane
     - msau42
@@ -81,7 +78,6 @@ teams:
   container-object-storage-interface-provisioner-sidecar-maintainers:
     description: Write access to container-object-storage-interface-provisioner-sidecar
     members:
-    - brahmaroutu
     - jsafrane
     - msau42
     - rrati
@@ -104,7 +100,6 @@ teams:
   container-object-storage-interface-spec-maintainers:
     description: Write access to container-object-storage-interface-spec
     members:
-    - brahmaroutu
     - copejon
     - jsafrane
     - msau42

@@ -56,7 +56,6 @@ teams:
   container-object-storage-interface-csi-adapter-maintainers:
     description: Write access to container-object-storage-interface-csi-adapter
     members:
-    - copejon
     - jsafrane
     - msau42
     - saad-ali
@@ -100,7 +99,6 @@ teams:
   container-object-storage-interface-spec-maintainers:
     description: Write access to container-object-storage-interface-spec
     members:
-    - copejon
     - jsafrane
     - msau42
     - saad-ali

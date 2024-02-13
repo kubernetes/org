@@ -3,7 +3,6 @@ teams:
     description: admin access to cli-experimental
     members:
     - KnVerey
-    - Liujingfang1
     - pwittrock
     - seans3
     - soltysh
@@ -14,7 +13,6 @@ teams:
     description: write access to cli-experimental
     members:
     - liggitt
-    - Liujingfang1
     - monopole
     privacy: closed
     repos:
@@ -34,7 +32,6 @@ teams:
     members:
     - karlkfi
     - liggitt
-    - Liujingfang1
     - mortent
     privacy: closed
     repos:

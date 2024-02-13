@@ -341,7 +341,6 @@ members:
 - fkautz
 - floreks
 - fmuyassarov
-- foxish
 - foxyriver
 - fpetkovski
 - frapposelli
@@ -1701,7 +1700,6 @@ teams:
     - thelinuxfoundation
     members:
     - caniszczyk
-    - foxish
     privacy: closed
   code-generator-admins:
     description: Admin access to the code-generator repo
@@ -1784,7 +1782,6 @@ teams:
     members:
     - ahmetb
     - erictune
-    - foxish
     - idvoretskyi
     - janetkuo
     - jaredbhatti

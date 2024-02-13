@@ -56,7 +56,6 @@ teams:
     - fabriziopandini # Cluster Lifecycle
     - feiskyer # Azure
     - floreks # UI
-    - foxish # Big Data
     - frapposelli # VMware
     - fsmunoz # 1.30 RT Lead Shadow
     - gjtempleton # Autoscaling

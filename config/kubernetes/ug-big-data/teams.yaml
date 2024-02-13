@@ -2,6 +2,5 @@ teams:
   ug-big-data:
     description: "Co-chairs of the Big Data User Group"
     members:
-    - foxish
     - liyinan926
     privacy: closed

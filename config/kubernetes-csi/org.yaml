@@ -35,7 +35,6 @@ members:
 - cvvz
 - cwdsuzhou
 - dannawang0221
-- davidz627
 - ddebroy
 - deepakkinni
 - dobsonj
@@ -314,7 +313,6 @@ teams:
   csi-misc:
     description: Miscellaneous Discussions for Kubernetes CSI Working Group
     members:
-    - davidz627
     - gnufied
     - jsafrane
     - lpabon
@@ -377,7 +375,6 @@ teams:
   csi-test-admins:
     description: Admin access to csi-test repo
     members:
-    - davidz627
     - jsafrane
     - lpabon
     - msau42
@@ -403,7 +400,6 @@ teams:
   developers:
     description: ""
     members:
-    - davidz627
     - humblec
     - jsafrane
     - lpabon
@@ -441,7 +437,6 @@ teams:
   driver-registrar-admins:
     description: Admin access to driver-registrar repo
     members:
-    - davidz627
     - jsafrane
     - lpabon
     - msau42
@@ -509,7 +504,6 @@ teams:
   external-provisioner-admins:
     description: Admin access to external-provisioner repo
     members:
-    - davidz627
     - jsafrane
     - lpabon
     - msau42

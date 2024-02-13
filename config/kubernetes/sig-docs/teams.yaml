@@ -104,7 +104,6 @@ teams:
     description: Approvers for Indonesian content
     members:
     - ariscahyadi
-    - danninov
     - girikuncoro
     - habibrosyad
     privacy: closed
@@ -112,7 +111,6 @@ teams:
     description: PR reviews for Indonesian content
     members:
     - ariscahyadi
-    - danninov
     - girikuncoro
     - habibrosyad
     privacy: closed

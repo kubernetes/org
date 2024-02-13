@@ -25,7 +25,6 @@ teams:
   sig-docs-en-owners:
     description: Approvers for English content
     members:
-    - annajung
     - bradtopol
     - divya-mohan0209
     - katcosgrove
@@ -352,7 +351,6 @@ teams:
     description: Contributors who can use `/milestone` in the website repo
     members:
     - a-mccarthy
-    - annajung
     - awkif
     - bene2k1
     - bradtopol

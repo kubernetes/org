@@ -256,7 +256,6 @@ teams:
     members:
     - christopherhein
     - Fei-Guo
-    - zhuangqh
     privacy: closed
     repos:
       cluster-api-provider-nested: write

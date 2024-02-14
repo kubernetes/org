@@ -972,7 +972,6 @@ members:
 - stealthybox
 - stephenfin
 - stevekuznetsov
-- steveperry-53
 - stevesloka
 - stewart-yu
 - stlaz
@@ -1439,7 +1438,6 @@ teams:
     - janetkuo
     - jayunit100
     - pwittrock
-    - steveperry-53
     privacy: closed
   examples-admins:
     description: Admin access to the examples repo

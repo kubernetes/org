@@ -631,7 +631,6 @@ members:
 - prankulmahajan
 - prateekgogia
 - pravarag
-- prydonius
 - ps882
 - psschwei
 - puerco
@@ -995,7 +994,6 @@ teams:
     - kow3ns
     - mortent
     - nan-yu
-    - prydonius
     privacy: closed
     repos:
       application: admin
@@ -1107,7 +1105,6 @@ teams:
     description: Parent team for all SIG Apps subteams (approvers, reviewers, admins)
     members:
     - kow3ns
-    - prydonius
     privacy: closed
     teams:
       kubernetes/sig-apps-admins:

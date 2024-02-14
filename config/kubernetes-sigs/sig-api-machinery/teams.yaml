@@ -116,7 +116,6 @@ teams:
     description: read access to kubebuilder
     members:
     - DirectXMan12
-    - lichuqiang
     - pwittrock
     privacy: closed
     repos:

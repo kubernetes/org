@@ -84,7 +84,6 @@ teams:
     description: admin access to cluster-api-provider-aws
     members:
     - richardcase
-    - sedefsavas
     privacy: closed
     repos:
       cluster-api-provider-aws: admin
@@ -94,7 +93,6 @@ teams:
     - Ankitasw
     - dlipovetsky
     - richardcase
-    - sedefsavas
     - Skarlso
     privacy: closed
     repos:

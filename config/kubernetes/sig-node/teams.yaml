@@ -7,7 +7,6 @@ teams:
     - smarterclayton
     - tallclair
     - thockin
-    - yujuhong
     privacy: closed
   sig-node-leads:
     description: Chairs and Technical Leads for SIG Node
@@ -40,7 +39,6 @@ teams:
     - SergeyKanzhelev
     - sjenning
     - wzshiming
-    - yujuhong
     privacy: closed
   sig-node-feature-requests:
     description: Feature Requests for Kubernetes Node Special-Interest-Group
@@ -65,7 +63,6 @@ teams:
     - SergeyKanzhelev
     - sjenning
     - wzshiming
-    - yujuhong
     privacy: closed
   sig-node-pr-reviews:
     description: PR Reviews for Kubernetes Node Special-Interest-Group
@@ -90,7 +87,6 @@ teams:
     - SergeyKanzhelev
     - sjenning
     - wzshiming
-    - yujuhong
     privacy: closed
   sig-node-proposals:
     description: Proposals for Kubernetes Node Special-Interest-Group
@@ -115,7 +111,6 @@ teams:
     - SergeyKanzhelev
     - sjenning
     - wzshiming
-    - yujuhong
     privacy: closed
   sig-node-test-failures:
     description: Test Failures for Kubernetes Node Special-Interest-Group
@@ -132,7 +127,6 @@ teams:
     - saschagrunert
     - SergeyKanzhelev
     - sjenning
-    - yujuhong
     privacy: closed
   sig-node-cri-o-test-maintainers:
     description: Maintainers of CRI-O related tests for the Kubernetes Node Special-Interest-Group

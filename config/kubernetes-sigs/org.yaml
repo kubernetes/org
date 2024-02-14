@@ -889,7 +889,6 @@ members:
 - yuanchen8911
 - yue9944882
 - YuikoTakada
-- yujuhong
 - yujunz
 - yulng
 - yussufsh
@@ -943,7 +942,6 @@ teams:
     - mrunalp
     - Random-Liu
     - saschagrunert
-    - yujuhong
     privacy: closed
     repos:
       cri-tools: admin
@@ -955,7 +953,6 @@ teams:
     - mrunalp
     - Random-Liu
     - saschagrunert
-    - yujuhong
     privacy: closed
     repos:
       cri-tools: write

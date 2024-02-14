@@ -121,7 +121,6 @@ teams:
     description: Write access to cosi-driver-sample
     members:
     - jsafrane
-    - krishchow
     - msau42
     - saad-ali
     - wlan0

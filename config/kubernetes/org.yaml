@@ -1078,7 +1078,6 @@ members:
 - wlp1153468871
 - wlq1212
 - wojtek-t
-- wonderfly
 - wongma7
 - woopstar
 - wozniakjan
@@ -1452,7 +1451,6 @@ teams:
     description: ""
     members:
     - dchen1107
-    - wonderfly
     privacy: closed
   ingress-gce-admins:
     description: Admin access to the ingress-gce repo

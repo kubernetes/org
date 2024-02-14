@@ -13,7 +13,6 @@ teams:
     description: write access to cli-experimental
     members:
     - liggitt
-    - monopole
     privacy: closed
     repos:
       cli-experimental: write

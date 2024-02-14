@@ -83,7 +83,6 @@ members:
 - RaunakShah
 - rlenferink
 - RomanBednar
-- rootfs
 - saad-ali
 - saikat-royc
 - savitharaghunathan
@@ -305,7 +304,6 @@ teams:
     - lpabon
     - msau42
     - pohly
-    - rootfs
     - saad-ali
     - vladimirvivien
     - xing-yang
@@ -391,7 +389,6 @@ teams:
     - jsafrane
     - lpabon
     - msau42
-    - rootfs
     - saad-ali
     - vladimirvivien
     - xing-yang

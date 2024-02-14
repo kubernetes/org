@@ -5,7 +5,6 @@ teams:
     - davidopp
     - jsafrane
     - msau42
-    - rootfs
     - saad-ali
     - thockin
     - wattsteve
@@ -18,7 +17,6 @@ teams:
     - jingxu97
     - jsafrane
     - msau42
-    - rootfs
     - saad-ali
     - wattsteve
     - xing-yang
@@ -30,7 +28,6 @@ teams:
     - jingxu97
     - jsafrane
     - msau42
-    - rootfs
     - saad-ali
     - smarterclayton
     - thockin
@@ -48,7 +45,6 @@ teams:
     - jingxu97
     - jsafrane
     - msau42
-    - rootfs
     - saad-ali
     - smarterclayton
     - thockin
@@ -60,7 +56,6 @@ teams:
     members:
     - jsafrane
     - msau42
-    - rootfs
     - saad-ali
     - xing-yang
     privacy: closed
@@ -71,7 +66,6 @@ teams:
     - jingxu97
     - jsafrane
     - msau42
-    - rootfs
     - saad-ali
     - smarterclayton
     - thockin
@@ -85,7 +79,6 @@ teams:
     - jingxu97
     - jsafrane
     - msau42
-    - rootfs
     - saad-ali
     - xing-yang
     privacy: closed

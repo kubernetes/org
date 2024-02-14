@@ -919,7 +919,6 @@ members:
 - seans3
 - seanschneeweiss
 - sebastienvas
-- sebgoa
 - sedefsavas
 - seh
 - sejr
@@ -1478,7 +1477,6 @@ teams:
     description: Admin access to the examples repo
     members:
     - idvoretskyi
-    - sebgoa
     privacy: closed
     repos:
       examples: admin
@@ -1487,7 +1485,6 @@ teams:
     members:
     - ahmetb
     - idvoretskyi
-    - sebgoa
     privacy: closed
     repos:
       examples: write

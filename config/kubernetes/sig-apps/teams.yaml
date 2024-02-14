@@ -6,7 +6,6 @@ teams:
     - cdrage
     - janetkuo
     - kadel
-    - sebgoa
     privacy: closed
     repos:
       kompose: admin
@@ -17,7 +16,6 @@ teams:
     - cdrage
     - janetkuo
     - kadel
-    - sebgoa
     privacy: closed
     repos:
       kompose: write

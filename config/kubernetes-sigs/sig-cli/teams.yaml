@@ -127,7 +127,6 @@ teams:
     description: write access to kui
     members:
     - eddiezane
-    - mark-nc
     - myan9
     - pwittrock
     - seans3

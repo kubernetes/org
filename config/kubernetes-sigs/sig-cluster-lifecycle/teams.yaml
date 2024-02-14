@@ -403,7 +403,6 @@ teams:
     - ant31
     - chadswen
     - floryut
-    - mattymo
     privacy: closed
     repos:
       kubespray: admin
@@ -414,7 +413,6 @@ teams:
     - chadswen
     - cristicalin
     - floryut
-    - mattymo
     - mzaian
     - oomichi
     - yankay

@@ -41,7 +41,6 @@ members:
 - justaugustus
 - k8s-infra-cherrypick-robot
 - k8s-infra-ci-robot
-- krabhishek8260
 - lavalamp
 - longwuyuan
 - micw523
@@ -69,13 +68,6 @@ members:
 members_can_create_repositories: false
 name: Kubernetes Clients
 teams:
-  Reviewers:
-    description: ""
-    members:
-    - krabhishek8260
-    privacy: closed
-    repos:
-      python: read
   c-admins:
     description: Admin access to the c repo
     members:

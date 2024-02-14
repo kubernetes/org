@@ -107,7 +107,7 @@ teams:
     repos:
       raft: maintain
   maintainers-website:
-    description: ""
+    description: Granted write access to website
     members:
     - ahrtr
     - chalin
@@ -121,6 +121,15 @@ teams:
     privacy: closed
     repos:
       website: admin
+  maintainers-auger:
+    description: Granted write access to auger
+    members:
+    - jmhbnz
+    - siyuanfoundation
+    - wenjiaswe
+    privacy: closed
+    repos:
+      auger: maintain
   members:
     description: ""
     members:
@@ -154,3 +163,4 @@ teams:
           gofail: triage
           raft: triage
           website: triage
+          auger: triage

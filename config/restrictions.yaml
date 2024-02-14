@@ -375,6 +375,7 @@ restrictions:
     - "^ruby"
   - path: "etcd-io/org.yaml"
     allowedRepos:
+    - "^auger$"
     - "^bbolt$"
     - "^dbtester$"
     - "^discovery.etcd.io$"

@@ -117,7 +117,6 @@ teams:
   kui-admins:
     description: admin access to kui
     members:
-    - myan9
     - starpit
     privacy: closed
     repos:
@@ -126,7 +125,6 @@ teams:
     description: write access to kui
     members:
     - eddiezane
-    - myan9
     - pwittrock
     - seans3
     - soltysh

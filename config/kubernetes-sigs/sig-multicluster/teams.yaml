@@ -24,7 +24,6 @@ teams:
     - jimmidyson
     - pmorie
     - quinton-hoole
-    - shashidharatd
     privacy: closed
   mcs-api-admins:
     description: Admin access to the mcs-api repo

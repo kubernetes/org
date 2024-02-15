@@ -19,6 +19,7 @@ members:
 - chalin
 - chaochn47
 - eduartua
+- erikgrinaker
 - fanminshi
 - fuweid
 - idvoretskyi
@@ -135,6 +136,7 @@ teams:
     members:
     - cenkalti
     - chaochn47
+    - erikgrinaker
     - fuweid
     - jmhbnz
     - lavacat

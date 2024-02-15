@@ -24,7 +24,6 @@ teams:
   cluster-api-addon-provider-helm-admins:
     description:  Admin access to cluster-api-addon-provider-helm repo
     members:
-    - CecileRobertMichon
     - fabriziopandini
     - jackfrancis
     - Jont828
@@ -34,7 +33,6 @@ teams:
   cluster-api-addon-provider-helm-maintainers:
     description: Write access to cluster-api-addon-provider-helm repo
     members:
-    - CecileRobertMichon
     - fabriziopandini
     - jackfrancis
     - Jont828

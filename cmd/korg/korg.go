@@ -27,6 +27,7 @@ import (
 
 var (
 	validOrgs = []string{
+		"etcd-io",
 		"kubernetes",
 		"kubernetes-client",
 		"kubernetes-csi",

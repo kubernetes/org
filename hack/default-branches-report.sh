@@ -15,6 +15,7 @@
 # limitations under the License.
 
 readonly kubernetes_orgs=(
+    etcd-io
     kubernetes
     kubernetes-sigs
     kubernetes-client

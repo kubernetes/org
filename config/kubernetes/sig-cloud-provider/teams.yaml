@@ -3,14 +3,9 @@ teams:
     description: Parent Team for SIG Cloud Provider
     members:
     - andrewsykim
-    - calebamiles
     - cheftako
-    - hogepodge
-    - jhorwit2
     - justaugustus
-    - mcrute
     - nckturner
-    - Rajakavitha1
     - yastij
     privacy: closed
     teams:
@@ -18,9 +13,7 @@ teams:
         description: ""
         members:
         - andrewsykim
-        - calebamiles
         - cheftako
-        - mcrute
         privacy: closed
         repos:
           cloud-provider-sample: admin
@@ -28,9 +21,7 @@ teams:
         description: ""
         members:
         - andrewsykim
-        - calebamiles
         - cheftako
-        - mcrute
         privacy: closed
         repos:
           cloud-provider-sample: write
@@ -68,58 +59,42 @@ teams:
         description: ""
         members:
         - andrewsykim
-        - calebamiles
-        - hogepodge
         privacy: closed
       sig-cloud-provider-bugs:
         description: ""
         members:
         - andrewsykim
-        - calebamiles
-        - hogepodge
         privacy: closed
       sig-cloud-provider-feature-requests:
         description: ""
         members:
         - andrewsykim
-        - calebamiles
-        - hogepodge
         privacy: closed
       sig-cloud-provider-misc:
         description: ""
         members:
         - andrewsykim
-        - calebamiles
-        - hogepodge
         privacy: closed
       sig-cloud-provider-pr-reviews:
         description: ""
         members:
         - andrewsykim
-        - calebamiles
-        - hogepodge
         - nckturner
-        - Rajakavitha1
         privacy: closed
       sig-cloud-provider-proposals:
         description: ""
         members:
         - andrewsykim
-        - calebamiles
-        - hogepodge
         privacy: closed
       sig-cloud-provider-test-failures:
         description: ""
         members:
         - andrewsykim
-        - calebamiles
-        - hogepodge
         privacy: closed
   sig-cloud-provider-admins:
     description: ""
     members:
     - andrewsykim
-    - calebamiles
     privacy: closed
     repos:
       cloud-provider: admin

@@ -16,14 +16,12 @@ teams:
     description: write access to aws-ebs-csi-driver repo
     members:
     - AndrewSirenko
-    - AndyXiangLi
     - bertinatto
     - ConnorJC3
     - gnufied
     - hanyuel
     - jsafrane
     - leakingtapan
-    - nirmalaagash
     - rdpsin
     - torredil
     - wongma7

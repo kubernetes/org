@@ -4,11 +4,8 @@ teams:
     members:
     - AhmedGrati
     - cdrage
-    - hangyan
     - janetkuo
     - kadel
-    - ngtuna
-    - sebgoa
     privacy: closed
     repos:
       kompose: admin
@@ -17,11 +14,8 @@ teams:
     members:
     - AhmedGrati
     - cdrage
-    - hangyan
     - janetkuo
     - kadel
-    - ngtuna
-    - sebgoa
     privacy: closed
     repos:
       kompose: write
@@ -31,11 +25,8 @@ teams:
     - davidopp
     - dixudx
     - enisoc
-    - foxish
     - janetkuo
     - kow3ns
-    - lukaszo
-    - mattfarina
     - mfojtik
     - smarterclayton
     - soltysh
@@ -46,16 +37,11 @@ teams:
     members:
     - davidopp
     - enisoc
-    - foxish
     - janetkuo
     - kow3ns
-    - lukaszo
-    - mattfarina
     - mfojtik
-    - resouer
     - smarterclayton
     - soltysh
-    - wanghaoran1988
     privacy: closed
   sig-apps-feature-requests:
     description: ""
@@ -63,14 +49,9 @@ teams:
     - ant31
     - davidopp
     - enisoc
-    - foxish
     - janetkuo
     - kow3ns
-    - lukaszo
-    - mattfarina
     - mfojtik
-    - prydonius
-    - resouer
     - smarterclayton
     - soltysh
     privacy: closed
@@ -79,14 +60,9 @@ teams:
     members:
     - davidopp
     - enisoc
-    - foxish
     - janetkuo
     - kow3ns
-    - lukaszo
-    - mattfarina
     - mfojtik
-    - prydonius
-    - resouer
     - smarterclayton
     - soltysh
     privacy: closed
@@ -95,13 +71,9 @@ teams:
     members:
     - davidopp
     - enisoc
-    - foxish
     - janetkuo
     - kow3ns
-    - lukaszo
-    - mattfarina
     - mfojtik
-    - resouer
     - smarterclayton
     - soltysh
     privacy: closed
@@ -110,13 +82,9 @@ teams:
     members:
     - davidopp
     - enisoc
-    - foxish
     - janetkuo
     - kow3ns
-    - lukaszo
-    - mattfarina
     - mfojtik
-    - prydonius
     - smarterclayton
     - soltysh
     privacy: closed
@@ -125,13 +93,9 @@ teams:
     members:
     - davidopp
     - enisoc
-    - foxish
     - janetkuo
     - kow3ns
-    - lukaszo
-    - mattfarina
     - mfojtik
-    - prydonius
     - smarterclayton
     - soltysh
     privacy: closed

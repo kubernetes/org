@@ -36,7 +36,6 @@ teams:
   e2e-framework-admins:
     description: admin access to e2e-framework
     members:
-    - alejandrox1
     - andrewsykim
     - BenTheElder
     - spiffxp
@@ -47,7 +46,6 @@ teams:
   e2e-framework-maintainers:
     description: write access to e2e-framework
     members:
-    - alejandrox1
     - andrewsykim
     - BenTheElder
     - spiffxp
@@ -73,7 +71,6 @@ teams:
   kind-admins:
     description: Admin access to the kind repo
     members:
-    - amwat
     - aojea
     - BenTheElder
     - munnerz
@@ -83,7 +80,6 @@ teams:
   kind-maintainers:
     description: Write access to the kind repo
     members:
-    - amwat
     - aojea
     - BenTheElder
     - munnerz
@@ -113,7 +109,6 @@ teams:
     members:
     - alvaroaleman
     - cjwagner
-    - fejta
     - petr-muller
     - stevekuznetsov
     privacy: closed
@@ -126,7 +121,6 @@ teams:
     members:
     - alvaroaleman
     - cjwagner
-    - fejta
     - petr-muller
     - stevekuznetsov
     privacy: closed

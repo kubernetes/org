@@ -5,17 +5,14 @@ teams:
     - andyzhangx
     - brendandburns
     - craiglpeters
-    - dstrebel
     - feiskyer
     - justaugustus
-    - karataliu
     - khenidak
     - lachie83
     - lzhecheng
     - MartinForReal
     - nilo19
     - ritazh
-    - soggiest
     privacy: closed
     previously:
     - sig-azure

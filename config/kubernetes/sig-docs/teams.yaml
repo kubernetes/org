@@ -12,20 +12,17 @@ teams:
     description: Approvers for German content
     members:
     - bene2k1
-    - mkorbi
     - rlenferink
     privacy: closed
   sig-docs-de-reviews:
     description: PR reviews for German content
     members:
     - bene2k1
-    - mkorbi
     - rlenferink
     privacy: closed
   sig-docs-en-owners:
     description: Approvers for English content
     members:
-    - annajung
     - bradtopol
     - divya-mohan0209
     - katcosgrove
@@ -74,7 +71,6 @@ teams:
   sig-docs-fr-owners:
     description: Approvers for French content
     members:
-    - awkif
     - feloy
     - perriea
     - rekcah78
@@ -83,7 +79,6 @@ teams:
   sig-docs-fr-reviews:
     description: PR reviews for French content
     members:
-    - awkif
     - feloy
     - perriea
     - rekcah78
@@ -107,7 +102,6 @@ teams:
     description: Approvers for Indonesian content
     members:
     - ariscahyadi
-    - danninov
     - girikuncoro
     - habibrosyad
     privacy: closed
@@ -115,7 +109,6 @@ teams:
     description: PR reviews for Indonesian content
     members:
     - ariscahyadi
-    - danninov
     - girikuncoro
     - habibrosyad
     privacy: closed
@@ -147,29 +140,24 @@ teams:
     - inductor
     - kakts
     - nasa9084
-    - ptux
     - t-inu
     privacy: closed
   sig-docs-ko-owners:
     description: Approvers for Korean content
     members:
     - gochist
-    - ianychoi
     - jihoon-seo
     - seokho-son
-    - yoonian
     - ysyukr
     privacy: closed
   sig-docs-ko-reviews:
     description: Reviews for Korean docs PRs
     members:
     - gochist
-    - ianychoi
     - jihoon-seo
     - jmyung
     - jongwooo
     - seokho-son
-    - yoonian
     - ysyukr
     privacy: closed
   sig-docs-leads:
@@ -261,7 +249,6 @@ teams:
     members:
     - asa3311
     - chenrui333
-    - chenxuc
     - howieyuen
     - kinzhi
     - mengjiao-liu
@@ -298,7 +285,6 @@ teams:
     - Arhell
     - idvoretskyi
     - MaxymVlasov
-    - Potapy4
     privacy: closed
   website-admins:
     description: Admin access to the website repo
@@ -321,8 +307,7 @@ teams:
     - femrtnz # L10n: Portuguese
     - girikuncoro # L10n: Indonesian
     - gochist # L10n: Korean
-    - huynguyennovem # L10n: Vietnamese
-    - ianychoi # L10n: Korean
+    - huynguyennovem # L10n: Vietnamese # L10n: Korean
     - inductor # L10n: Japanese
     - jcjesus # L10n: Portuguese
     - jhonmike # L10n: Portuguese
@@ -334,7 +319,6 @@ teams:
     - nate-double-u # L10n: English
     - nvtkaszpir # L10n: Polish
     - onlydole # L10n: English
-    - potapy4 # L10n: Russian
     - raelga # L10n: Spanish
     - remyleone # L10n: French
     - reylejano # L10n: English
@@ -354,8 +338,6 @@ teams:
     description: Contributors who can use `/milestone` in the website repo
     members:
     - a-mccarthy
-    - annajung
-    - awkif
     - bene2k1
     - bradtopol
     - celestehorgan # 1.30 Docs Shadow
@@ -375,7 +357,6 @@ teams:
     - nate-double-u
     - onlydole
     - perriea
-    - potapy4
     - Princesso # 1.30 Docs Shadow
     - raelga
     - rekcah78
@@ -388,7 +369,6 @@ teams:
     - shurup
     - tanjunchen
     - tengqm
-    - tfogo
     - truongnh1992
     - Vyom-Yadav # 1.30 Docs Shadow
     - xichengliudui

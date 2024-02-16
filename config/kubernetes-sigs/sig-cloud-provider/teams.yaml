@@ -25,7 +25,6 @@ teams:
    members:
    - JiaoDean
    - mowangdk
-   - xianlubird
    privacy: closed
    repos:
     alibaba-cloud-csi-driver: admin
@@ -34,7 +33,6 @@ teams:
    members:
    - JiaoDean
    - mowangdk
-   - xianlubird
    privacy: closed
    repos:
      alibaba-cloud-csi-driver: write
@@ -138,22 +136,18 @@ teams:
     - cheftako
     privacy: closed
     repos:
-      cloud-pv-admission-labeler: write       
+      cloud-pv-admission-labeler: write
   cloud-provider-baiducloud-admins:
    description: Admin access to the cloud-provider-baiducloud repo
    members:
-   - hello2mao
    - tizhou86
-   - ZP-AlwaysWin
    privacy: closed
    repos:
      cloud-provider-baiducloud: admin
   cloud-provider-baiducloud-maintainers:
    description: Write access to the cloud-provider-baiducloud repo
    members:
-   - hello2mao
    - tizhou86
-   - ZP-AlwaysWin
    privacy: closed
    repos:
      cloud-provider-baiducloud: write

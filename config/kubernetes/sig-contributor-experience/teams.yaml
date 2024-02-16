@@ -32,8 +32,6 @@ teams:
     members:
     - castrojo
     - dims
-    - fejta
-    - grodrigues3
     - guineveresaenger
     - idvoretskyi
     - jberkus
@@ -43,7 +41,6 @@ teams:
     - kaslin
     - lukaszgryglicki
     - parispittman
-    - Phillels
     - spiffxp
     - tpepper
     privacy: closed
@@ -101,7 +98,6 @@ teams:
     - justaugustus
     - lachie83
     - LappleApple
-    - mattfarina
     privacy: closed
   sig-contributor-experience:
     description: Improve contributor productivity
@@ -113,23 +109,14 @@ teams:
     - palnabarun
     - Priyankasaggu11929
     members:
-    - alisondy
     - castrojo
     - dims
-    - eparis
-    - foxish
-    - grodrigues3
-    - hongchaodeng
     - idealhack
     - idvoretskyi
     - jessfraz
     - kaslin
     - lavalamp
-    - monopole
     - parispittman
-    - philips
-    - Phillels
-    - pigmej
     - pwittrock
     - thockin
     - xiang90
@@ -142,10 +129,7 @@ teams:
         maintainers:
         - nikhita
         members:
-        - alisondy
-        - aravindputrevu
         - idealhack
-        - Pensu
         - saiyam1814
         - tao12345666333
         privacy: closed
@@ -175,7 +159,6 @@ teams:
     maintainers:
     - mrbobbytables
     members:
-    - alejandrox1
     - castrojo
     - ezzoueidi
     - idvoretskyi
@@ -184,5 +167,4 @@ teams:
     - jeefy
     - onlydole
     - parispittman
-    - sarahnovotny
     privacy: closed

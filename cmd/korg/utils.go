@@ -44,6 +44,7 @@ func stringInSlice(slice []string, key string) bool {
 	return false
 }
 
+// Note for the future: once we bump to the latest go version, we can replace this with helpers from stdlib slice package
 func stringInSliceCaseAgnostic(slice []string, key string) bool {
 	for _, e := range slice {
 		if strings.EqualFold(key, e) {

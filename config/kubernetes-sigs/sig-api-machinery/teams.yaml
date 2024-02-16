@@ -21,7 +21,6 @@ teams:
     description: admin access to apiserver-runtime
     members:
     - DirectXMan12
-    - gabbifish
     - pwittrock
     - yue9944882
     privacy: closed
@@ -31,7 +30,6 @@ teams:
     description: write access to apiserver-runtime
     members:
     - DirectXMan12
-    - gabbifish
     - pwittrock
     - yue9944882
     privacy: closed
@@ -104,13 +102,8 @@ teams:
     members:
     - camilamacedo86
     - DirectXMan12
-    - droot
-    - estroz
-    - grodrigues3
     - jmrodri
-    - Liujingfang1
     - mengqiy
-    - monopole
     - pmorie
     - pwittrock
     - varshaprasad96
@@ -122,7 +115,6 @@ teams:
     description: read access to kubebuilder
     members:
     - DirectXMan12
-    - lichuqiang
     - pwittrock
     privacy: closed
     repos:
@@ -130,7 +122,6 @@ teams:
   kubebuilder-declarative-pattern-admins:
     description: admin access to kubebuilder-declarative-pattern
     members:
-    - johnsonj
     - justinsb
     privacy: closed
     repos:
@@ -138,7 +129,6 @@ teams:
   kubebuilder-declarative-pattern-maintainers:
     description: write access to kubebuilder-declarative-pattern
     members:
-    - johnsonj
     - justinsb
     privacy: closed
     repos:
@@ -146,13 +136,10 @@ teams:
   kubebuilder-maintainers:
     description: write access to kubebuilder
     members:
-    - Adirio
     - apelisse
     - camilamacedo86
     - DirectXMan12
-    - droot
     - mengqiy
-    - monopole
     - pmorie
     - pwittrock
     - seans3
@@ -162,9 +149,7 @@ teams:
   kubebuilder-release-tools-admins:
     description: Admin access to kubebuilder-release-tools
     members:
-    - Adirio
     - DirectXMan12
-    - droot
     - mengqiy
     - vincepri
     privacy: closed
@@ -173,10 +158,8 @@ teams:
   kubebuilder-release-tools-maintainers:
     description: Write access to kubebuilder-release-tools
     members:
-    - Adirio
     - camilamacedo86
     - DirectXMan12
-    - droot
     - mengqiy
     - vincepri
     privacy: closed

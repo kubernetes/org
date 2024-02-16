@@ -4,7 +4,6 @@ teams:
     members:
     - justinsb
     - luxas
-    - roberthbailey
     - timothysc
     privacy: closed
     previously:
@@ -85,7 +84,6 @@ teams:
     description: admin access to cluster-api-provider-aws
     members:
     - richardcase
-    - sedefsavas
     privacy: closed
     repos:
       cluster-api-provider-aws: admin
@@ -95,7 +93,6 @@ teams:
     - Ankitasw
     - dlipovetsky
     - richardcase
-    - sedefsavas
     - Skarlso
     privacy: closed
     repos:
@@ -153,7 +150,6 @@ teams:
     - dims
     - g-gaston
     - jweite-amazon
-    - maxdrib
     - rohityadavcloud
     privacy: closed
     previously:
@@ -165,7 +161,6 @@ teams:
     members:
     - cpanato
     - luxas
-    - roberthbailey
     - timoreimann
     - timothysc
     privacy: closed
@@ -176,7 +171,6 @@ teams:
     members:
     - cpanato
     - MorrisLaw
-    - prksu
     - timoreimann
     - timothysc
     privacy: closed
@@ -262,8 +256,6 @@ teams:
     members:
     - christopherhein
     - Fei-Guo
-    - resouer
-    - zhuangqh
     privacy: closed
     repos:
       cluster-api-provider-nested: write
@@ -403,7 +395,6 @@ teams:
     - ant31
     - chadswen
     - floryut
-    - mattymo
     privacy: closed
     repos:
       kubespray: admin
@@ -414,8 +405,6 @@ teams:
     - chadswen
     - cristicalin
     - floryut
-    - mattymo
-    - Miouge1
     - mzaian
     - oomichi
     - yankay

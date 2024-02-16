@@ -5,15 +5,12 @@ teams:
     - davidopp
     - mwielgus
     - quinton-hoole
-    - shashidharatd
     privacy: closed
   sig-multicluster-bugs:
     description: ""
     members:
-    - irfanurrehman
     - mwielgus
     - quinton-hoole
-    - shashidharatd
     privacy: closed
   sig-multicluster-feature-requests:
     description: ""
@@ -22,7 +19,6 @@ teams:
     - derekwaynecarr
     - mwielgus
     - quinton-hoole
-    - shashidharatd
     - smarterclayton
     privacy: closed
   sig-multicluster-misc:
@@ -30,12 +26,9 @@ teams:
     members:
     - davidopp
     - derekwaynecarr
-    - huangyuqi
-    - irfanurrehman
     - liggitt
     - mwielgus
     - quinton-hoole
-    - shashidharatd
     - smarterclayton
     privacy: closed
   sig-multicluster-pr-reviews:
@@ -43,7 +36,6 @@ teams:
     members:
     - mwielgus
     - quinton-hoole
-    - shashidharatd
     privacy: closed
   sig-multicluster-proposals:
     description: ""
@@ -53,7 +45,6 @@ teams:
     - liggitt
     - mwielgus
     - quinton-hoole
-    - shashidharatd
     - smarterclayton
     previously:
     - sig-mutlicluster-proposals
@@ -61,9 +52,7 @@ teams:
   sig-multicluster-test-failures:
     description: ""
     members:
-    - irfanurrehman
     - quinton-hoole
-    - shashidharatd
     privacy: closed
   sig-multicluster-leads:
     description: ""

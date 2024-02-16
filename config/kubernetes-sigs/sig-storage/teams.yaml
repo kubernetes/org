@@ -12,10 +12,8 @@ teams:
   container-object-storage-interface-api-maintainers:
     description: Write access to container-object-storage-interface-api
     members:
-    - brahmaroutu
     - jsafrane
     - msau42
-    - rrati
     - saad-ali
     - wlan0
     - xing-yang
@@ -35,10 +33,8 @@ teams:
   container-object-storage-interface-controller-maintainers:
     description: Write access to container-object-storage-interface-controller
     members:
-    - brahmaroutu
     - jsafrane
     - msau42
-    - rrati
     - saad-ali
     - wlan0
     - xing-yang
@@ -58,8 +54,6 @@ teams:
   container-object-storage-interface-csi-adapter-maintainers:
     description: Write access to container-object-storage-interface-csi-adapter
     members:
-    - brahmaroutu
-    - copejon
     - jsafrane
     - msau42
     - saad-ali
@@ -81,10 +75,8 @@ teams:
   container-object-storage-interface-provisioner-sidecar-maintainers:
     description: Write access to container-object-storage-interface-provisioner-sidecar
     members:
-    - brahmaroutu
     - jsafrane
     - msau42
-    - rrati
     - saad-ali
     - wlan0
     - xing-yang
@@ -104,8 +96,6 @@ teams:
   container-object-storage-interface-spec-maintainers:
     description: Write access to container-object-storage-interface-spec
     members:
-    - brahmaroutu
-    - copejon
     - jsafrane
     - msau42
     - saad-ali
@@ -128,7 +118,6 @@ teams:
     description: Write access to cosi-driver-sample
     members:
     - jsafrane
-    - krishchow
     - msau42
     - saad-ali
     - wlan0

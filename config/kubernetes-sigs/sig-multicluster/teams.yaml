@@ -20,15 +20,10 @@ teams:
     description: Individuals who are part of sig-multicluster and working as federation
       workgroup.
     members:
-    - font
-    - gyliu513
     - hectorj2f
-    - irfanurrehman
     - jimmidyson
-    - onyiny-ang
     - pmorie
     - quinton-hoole
-    - shashidharatd
     privacy: closed
   mcs-api-admins:
     description: Admin access to the mcs-api repo

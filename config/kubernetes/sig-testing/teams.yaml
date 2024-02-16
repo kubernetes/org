@@ -9,8 +9,6 @@ teams:
     - bowei
     - chases2
     - cjwagner
-    - clarketm
-    - fejta
     - ixdy
     - jayunit100
     - jbpratt
@@ -18,13 +16,10 @@ teams:
     - justaugustus
     - justinsb
     - Katharine
-    - marun
     - michelle192837
     - mkumatag
-    - pigmej
     - stevekuznetsov
     - timothysc
-    - xiangpengzhao
     - xmcqueen
     privacy: closed
     teams:
@@ -45,12 +40,9 @@ teams:
         description: sig-testing PR reviews
         members:
         - akutz
-        - amwat
         - BenTheElder
         - chases2
         - cjwagner
-        - clarketm
-        - fejta
         - ixdy
         - Katharine
         - krzyzacy
@@ -96,8 +88,3 @@ teams:
     repos:
       publishing-bot: write
       test-infra: write
-  sig-testing-dummy-project-team:
-    description: dummy team to test prow project plugin; no acl
-    members:
-    - taragu
-    privacy: closed

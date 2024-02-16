@@ -21,24 +21,20 @@ teams:
     - palnabarun # Release Manager
     - Priyankasaggu11929 # ContribEx
     members:
-    - abgworrall # GCP
     - adisky # OpenStack
     - ahg-g # Scheduling
     - alculquicondor # Scheduling
-    - alejandrox1 # Testing
     - ameukam # Release Manager Associate / K8s Infra
     - andrewsykim # Cloud Provider
     - aojea # Testing / Network
     - aravindhp # Windows
     - BenTheElder # Testing / K8s Infra
     - bgrant0607 # Architecture
-    - bradamant3 # Docs
     - brancz # Instrumentation
     - bridgetkromhout # Cloud Provider
     - cantbewong # VMware
     - caseydavenport # Network
     - cheftako # Cloud Provider
-    - chrigl # OpenStack
     - cici37 # Release Manager
     - claudiubelu # Windows
     - cpanato # Release Manager
@@ -59,12 +55,10 @@ teams:
     - fabriziopandini # Cluster Lifecycle
     - feiskyer # Azure
     - floreks # UI
-    - foxish # Big Data
     - frapposelli # VMware
     - fsmunoz # 1.30 RT Lead Shadow
     - gjtempleton # Autoscaling
     - gracenng # Release Manager Associate / 1.30 RT EA
-    - hpandeycodeit # Usability
     - Huang-Wei # Scheduling
     - janetkuo # Apps
     - jayunit100 # Windows
@@ -72,7 +66,6 @@ teams:
     - jbpratt # Testing
     - jdumars # Architecture / PM
     - jeremyrickard # Release
-    - jhvhs # Service Catalog
     - jimangel # Docs / Release Manager Associate
     - johnbelamaric # Architecture
     - jpbetz # API Machinery
@@ -90,12 +83,10 @@ teams:
     - lavalamp # API Machinery
     - liggitt # Auth / Release
     - lingxiankong # OpenStack
-    - liyinan926 # Big Data
     - logicalhan # Instrumentation
     - luxas # Cluster Lifecycle
     - maciaszczykm # UI
     - marosset # Windows
-    - mattfarina # Apps / Architecture
     - mborsz # Scalability
     - mehabhalodiya # 1.29 Lead Shadow
     - michelle192837 # Testing
@@ -109,15 +100,12 @@ teams:
     - nckturner # AWS
     - neoaggelos # 1.30 RT Lead Shadow
     - neolit123 # Cluster Lifecycle
-    - oxddr # Scalability
     - pacoxu # Cluster Lifecycle / 1.30 Release Signal Lead
     - pmorie # Multicluster
-    - prydonius # Apps
     - puerco # Release Manager
     - pwittrock # CLI
     - quinton-hoole # Multicluster
     - RainbowMango # Instrumentation
-    - rajakavitha1 # Usability
     - ramrodo # Release Manager Associate / 1.30 RT Lead Shadow
     - rashansmith # 1.30 Release Notes Lead
     - ritazh # Auth
@@ -139,7 +127,6 @@ teams:
     - timothysc # Cluster Lifecycle / Testing
     - upodroid # K8s Infra
     - Verolop # Release Manager
-    - vllry # Usability
     - Vyom-Yadav # 1.29 CI Signal Lead
     - wojtek-t # Scalability
     - xing-yang # Storage
@@ -189,9 +176,7 @@ teams:
     description: Admin access to the repo-infra repo
     members:
     - BenTheElder
-    - clarketm
     - cpanato
-    - fejta
     - justaugustus
     - mikedanese
     - puerco
@@ -203,9 +188,7 @@ teams:
     description: Write access to the repo-infra repo
     members:
     - BenTheElder
-    - clarketm
     - cpanato
-    - fejta
     - justaugustus
     - mikedanese
     - puerco
@@ -225,7 +208,6 @@ teams:
     - palnabarun
     - Priyankasaggu11929
     members:
-    - alenkacz
     - BenTheElder
     - castrojo
     - cici37
@@ -242,16 +224,11 @@ teams:
     - katcosgrove
     - leonardpahlke
     - liggitt
-    - mariantalla
-    - nikopen
-    - onyiny-ang
     - puerco # Technical Lead
-    - rawkode
     - reylejano
     - salaxander
     - saschagrunert # Chair
     - savitharaghunathan
-    - soggiest
     - spiffxp
     - tpepper
     privacy: closed
@@ -319,7 +296,7 @@ teams:
         - jeremyrickard # subproject owner / Technical Lead
         - jimangel # 1.29 RT Branch Manager
         - justaugustus # subproject owner / Chair
-        - katcosgrove # 1.30 RT Lead 
+        - katcosgrove # 1.30 RT Lead
         - leonardpahlke # subproject owner (1.26 RT Lead)
         - marosset # 1.29 RT Branch Manager Shadow
         - meganwolf0 # 1.30 Enhancements Shadow

@@ -5,24 +5,18 @@ teams:
     - davidopp
     - jsafrane
     - msau42
-    - rootfs
     - saad-ali
     - thockin
-    - wattsteve
     - xing-yang
     privacy: closed
   sig-storage-bugs:
     description: Bugs for Kubernetes Storage Special-Interest-Group
     members:
     - gnufied
-    - jeffvance
     - jingxu97
     - jsafrane
     - msau42
-    - NickrenREN
-    - rootfs
     - saad-ali
-    - wattsteve
     - xing-yang
     privacy: closed
   sig-storage-feature-requests:
@@ -32,12 +26,9 @@ teams:
     - jingxu97
     - jsafrane
     - msau42
-    - NickrenREN
-    - rootfs
     - saad-ali
     - smarterclayton
     - thockin
-    - wattsteve
     - xing-yang
     privacy: closed
   sig-storage-misc:
@@ -48,16 +39,12 @@ teams:
     members:
     - davidopp
     - gnufied
-    - jeffvance
     - jingxu97
     - jsafrane
     - msau42
-    - NickrenREN
-    - rootfs
     - saad-ali
     - smarterclayton
     - thockin
-    - wattsteve
     - xing-yang
     privacy: closed
   sig-storage-pr-reviews:
@@ -65,7 +52,6 @@ teams:
     members:
     - jsafrane
     - msau42
-    - rootfs
     - saad-ali
     - xing-yang
     privacy: closed
@@ -76,22 +62,17 @@ teams:
     - jingxu97
     - jsafrane
     - msau42
-    - rootfs
     - saad-ali
     - smarterclayton
     - thockin
-    - vishh
-    - wattsteve
     - xing-yang
     privacy: closed
   sig-storage-test-failures:
     description: Test Failures for Kubernetes Storage Special-Interest-Group
     members:
-    - jeffvance
     - jingxu97
     - jsafrane
     - msau42
-    - rootfs
     - saad-ali
     - xing-yang
     privacy: closed

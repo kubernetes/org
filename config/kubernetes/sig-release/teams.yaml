@@ -112,6 +112,7 @@ teams:
     - saad-ali # Storage
     - salaxander # Release Manager Associate / 1.29 RT EA
     - salehsedghpour # 1.30 Enhancements Lead
+    - sanchita-07 # 1.30 RT Lead Shadow
     - saschagrunert # Release
     - SataQiu # Cluster Lifecycle
     - serathius # Instrumentation
@@ -372,12 +373,12 @@ teams:
               as a notification group. Remove org members who are not current
               Release Team Leads.
             members:
+            - fsmunoz # 1.30 Release Lead Shadow
             - gracenng # 1.30 RT EA
             - katcosgrove # 1.30 RT Lead
-            # - X # 1.30 Release Lead Shadow
-            # - X # 1.30 Release Lead Shadow
-            # - X # 1.30 Release Lead Shadow
-            # - X # 1.30 Release Lead Shadow
+            - neoaggelos # 1.30 Release Lead Shadow
+            - ramrodo # 1.30 Release Lead Shadow
+            - sanchita-07 # 1.30 Release Lead Shadow
             privacy: closed
             repos:
               kubernetes: write

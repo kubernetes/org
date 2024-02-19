@@ -10,3 +10,23 @@ teams:
     privacy: closed
     repos:
       depstat: admin
+  apisnoop-admins:
+    description: Admin access to apisnoop repo
+    members:
+    - BobyMCbobs
+    - cooldracula
+    - heyste
+    - hh
+    privacy: closed
+    repos:
+      apisnoop: admin
+  apisnoop-maintainers:
+    description: Write access to apisnoop repo
+    members:
+    - BobyMCbobs
+    - cooldracula
+    - heyste
+    - hh
+    privacy: closed
+    repos:
+      apisnoop: write

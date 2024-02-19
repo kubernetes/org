@@ -149,6 +149,7 @@ restrictions:
     - "^jobset"
   - path: "kubernetes-sigs/sig-architecture/teams.yaml"
     allowedRepos:
+    - "^apisnoop"
     - "^depstat"
   - path: "kubernetes-sigs/sig-auth/teams.yaml"
     allowedRepos:

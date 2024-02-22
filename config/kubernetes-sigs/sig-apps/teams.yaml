@@ -30,3 +30,17 @@ teams:
     privacy: closed
     repos:
       jobset: write
+  lws-admins:
+    description: Admin access to lws repo
+    members:
+    - ahg-g
+    privacy: closed
+    repos:
+      lws: admin
+  lws-maintainers:
+    description: Write access to lws repo
+    members:
+    - ahg-g
+    privacy: closed
+    repos:
+      lws: write

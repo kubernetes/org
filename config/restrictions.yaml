@@ -147,6 +147,7 @@ restrictions:
     allowedRepos:
     - "^execution-hook"
     - "^jobset"
+    - "^lws"
   - path: "kubernetes-sigs/sig-architecture/teams.yaml"
     allowedRepos:
     - "^apisnoop"

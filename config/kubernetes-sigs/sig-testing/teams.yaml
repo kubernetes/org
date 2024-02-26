@@ -127,3 +127,19 @@ teams:
     privacy: closed
     repos:
       prow: write
+  testgrid-admins:
+    description: Admin access to testgrid
+    members:
+    - chases2
+    - michelle192837
+    privacy: closed
+    repos:
+      testgrid: admin
+  testgrid-maintainers:
+    description: Write access to testgrid
+    members:
+    - chases2
+    - michelle192837
+    privacy: closed
+    repos:
+      testgrid: write

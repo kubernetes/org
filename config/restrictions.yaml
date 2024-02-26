@@ -156,6 +156,7 @@ restrictions:
     allowedRepos:
     - "^hierarchical-namespaces"
     - "^pspmigrator"
+    - "^referencegrant-poc"
     - "^secrets-store-csi-driver"
     - "^sig-auth-tools"
   - path: "kubernetes-sigs/sig-autoscaling/teams.yaml"

@@ -48,6 +48,24 @@ teams:
     privacy: closed
     repos:
       secrets-store-csi-driver: write
+  referencegrant-poc-admins:
+    description: Admin access to referencegrant-poc repo
+    members:
+    - enj
+    - liggitt
+    - robscott
+    privacy: closed
+    repos:
+      referencegrant-poc: admin
+  referencegrant-poc-maintainers:
+    description: Write access to referencegrant-poc repo
+    members:
+    - LiorLieberman
+    - robscott
+    - stealthybox
+    privacy: closed
+    repos:
+      referencegrant-poc: write
   sig-auth-tools-admins:
     description: Admin access to sig-auth-tools repo
     members:

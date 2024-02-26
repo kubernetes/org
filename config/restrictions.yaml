@@ -317,6 +317,7 @@ restrictions:
     - "^kind"
     - "^kubetest2"
     - "^prow"
+    - "^testgrid"
   - path: "kubernetes-sigs/sig-usability/teams.yaml"
     allowedRepos:
     - "^sig-usability"

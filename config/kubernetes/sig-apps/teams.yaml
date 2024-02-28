@@ -2,20 +2,20 @@ teams:
   kompose-admins:
     description: Admin access to the kompose repo
     members:
-    - AhmedGrati
     - cdrage
     - janetkuo
     - kadel
+    - TessaIO
     privacy: closed
     repos:
       kompose: admin
   kompose-maintainers:
     description: Write access to the kompose repo
     members:
-    - AhmedGrati
     - cdrage
     - janetkuo
     - kadel
+    - TessaIO
     privacy: closed
     repos:
       kompose: write

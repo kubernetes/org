@@ -6,6 +6,7 @@ teams:
     - dgrisonnet
     - ehashman
     - logicalhan
+    - rexagod
     privacy: closed
   sig-instrumentation-approvers:
     description: ""
@@ -16,6 +17,7 @@ teams:
     - ehashman
     - logicalhan
     - RainbowMango
+    - rexagod
     - serathius
     privacy: closed
   sig-instrumentation-members:
@@ -87,6 +89,7 @@ teams:
     description: Admin access to the metrics repo
     members:
     - dgrisonnet
+    - rexagod
     - serathius
     privacy: closed
     repos:
@@ -95,6 +98,7 @@ teams:
     description: Write access to the metrics repo
     members:
     - dgrisonnet
+    - rexagod
     - serathius
     privacy: closed
     repos:

@@ -1006,6 +1006,7 @@ teams:
     - songjiaxun
     - sunnylovestiramisu
     - tyuchn
+    - sneha-at
     privacy: closed
     repos:
       gcp-compute-persistent-disk-csi-driver: write
@@ -1035,6 +1036,7 @@ teams:
     - songjiaxun
     - sunnylovestiramisu
     - tyuchn
+    - sneha-at
     privacy: closed
     repos:
       gcp-filestore-csi-driver: write

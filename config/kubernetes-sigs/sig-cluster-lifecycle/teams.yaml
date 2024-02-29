@@ -374,6 +374,7 @@ teams:
     description: admin access to image-builder
     members:
     - AverageMarcus
+    - drew-viles
     - jsturtevant
     - kkeshavamurthy
     - mboersma
@@ -384,6 +385,7 @@ teams:
     description: write access to image-builder
     members:
     - AverageMarcus
+    - drew-viles
     - jsturtevant
     - kkeshavamurthy
     - mboersma

@@ -324,6 +324,7 @@ teams:
             - Namanl2001 # 1.30 CI Signal Shadow
             - pacoxu # 1.30 CI Signal Lead
             - SubhasmitaSw # 1.30 CI Signal Shadow
+            - Vyom-Yadav # 1.30 CI Signal Co-Lead
             - zelenushechka # 1.30 CI Signal Shadow
             privacy: closed
           release-team-docs:

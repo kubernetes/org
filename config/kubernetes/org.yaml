@@ -1671,6 +1671,7 @@ teams:
       component-helpers: admin
       controller-manager: admin
       cri-api: admin
+      cri-client: admin
       csi-translation-lib: admin
       dynamic-resource-allocation: admin
       endpointslice: admin

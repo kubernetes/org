@@ -1670,6 +1670,7 @@ teams:
       component-base: admin
       component-helpers: admin
       controller-manager: admin
+      cri: admin
       cri-api: admin
       csi-translation-lib: admin
       dynamic-resource-allocation: admin

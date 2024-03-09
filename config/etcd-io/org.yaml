@@ -23,6 +23,7 @@ members:
 - fanminshi
 - fuweid
 - idvoretskyi
+- ivanvc
 - jasonbraganza
 - jberkus
 - jmhbnz
@@ -53,6 +54,15 @@ teams:
     - palnabarun
     - Priyankasaggu11929
     privacy: closed
+  maintainers-auger:
+    description: Granted write access to auger
+    members:
+    - jmhbnz
+    - siyuanfoundation
+    - wenjiaswe
+    privacy: closed
+    repos:
+      auger: admin
   maintainers-bbolt:
     description: Granted write access to bbolt
     members:
@@ -122,15 +132,6 @@ teams:
     privacy: closed
     repos:
       website: admin
-  maintainers-auger:
-    description: Granted write access to auger
-    members:
-    - jmhbnz
-    - siyuanfoundation
-    - wenjiaswe
-    privacy: closed
-    repos:
-      auger: admin
   members:
     description: ""
     members:
@@ -159,10 +160,10 @@ teams:
         - jmhbnz
         privacy: closed
         repos:
+          auger: triage
           bbolt: triage
           dbtester: triage
           etcd: triage
           gofail: triage
           raft: triage
           website: triage
-          auger: triage

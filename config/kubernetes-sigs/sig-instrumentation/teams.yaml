@@ -20,6 +20,7 @@ teams:
     - dgrisonnet
     - ehashman
     - logicalhan
+    - rexagod
     privacy: closed
     repos:
       instrumentation: admin
@@ -30,6 +31,7 @@ teams:
     - dgrisonnet
     - ehashman
     - logicalhan
+    - rexagod
     privacy: closed
     repos:
       instrumentation-tools: admin
@@ -40,6 +42,7 @@ teams:
     - dgrisonnet
     - ehashman
     - logicalhan
+    - rexagod
     privacy: closed
     repos:
       instrumentation-tools: write
@@ -49,6 +52,7 @@ teams:
       - ehashman
       - logicalhan
       - pohly
+      - rexagod
       - serathius
     privacy: closed
     repos:
@@ -59,6 +63,7 @@ teams:
       - ehashman
       - logicalhan
       - pohly
+      - rexagod
       - serathius
     privacy: closed
     repos:

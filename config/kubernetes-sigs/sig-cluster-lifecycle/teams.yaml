@@ -41,7 +41,6 @@ teams:
   cluster-api-admins:
     description: ""
     members:
-    - CecileRobertMichon
     - fabriziopandini
     - sbueringer
     - vincepri
@@ -51,7 +50,6 @@ teams:
   cluster-api-maintainers:
     description: ""
     members:
-    - CecileRobertMichon
     - chrischdi
     - enxebre
     - fabriziopandini
@@ -64,7 +62,6 @@ teams:
   cluster-api-ipam-provider-in-cluster-admins:
     description: "admin access to cluster-api-ipam-provider-in-cluster"
     members:
-    - CecileRobertMichon
     - fabriziopandini
     - schrej
     privacy: closed

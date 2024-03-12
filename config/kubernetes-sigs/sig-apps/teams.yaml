@@ -34,6 +34,7 @@ teams:
     description: Admin access to lws repo
     members:
     - ahg-g
+    - liurupeng
     privacy: closed
     repos:
       lws: admin
@@ -41,6 +42,7 @@ teams:
     description: Write access to lws repo
     members:
     - ahg-g
+    - liurupeng
     privacy: closed
     repos:
       lws: write

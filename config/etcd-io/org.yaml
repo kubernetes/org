@@ -13,6 +13,8 @@ description: etcd Development and Communities
 has_organization_projects: false
 has_repository_projects: true
 members:
+- AlexGluck
+- Kirill-Garbar
 - ahrtr
 - caniszczyk
 - cenkalti
@@ -22,11 +24,14 @@ members:
 - erikgrinaker
 - fanminshi
 - fuweid
+- gecube
+- hiddenmarten
 - idvoretskyi
 - ivanvc
 - jasonbraganza
 - jberkus
 - jmhbnz
+- kvaps
 - lavacat
 - lburgazzoli
 - mitake
@@ -34,10 +39,13 @@ members:
 - pav-kv
 - ptabor
 - serathius
+- sergeyshevch
+- sircthulhu
 - siyuanfoundation
 - spzala
 - tbg
 - tjungblu
+- uburro
 - victortrac
 - vorburger
 - wenjiaswe
@@ -96,6 +104,17 @@ teams:
       dbtester: maintain
       etcd: maintain
       gofail: maintain
+  maintainers-etcd-operator:
+    description: Granted write access to etcd-operator
+    members:
+    - Kirill-Garbar
+    - hiddenmarten
+    - kvaps
+    - sergeyshevch
+    - sircthulhu
+    privacy: closed
+    repos:
+      etcd-operator: maintain
   maintainers-jetcd:
     description: Granted write access to jetcd
     members:

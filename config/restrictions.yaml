@@ -385,6 +385,7 @@ restrictions:
     - "^discovery.etcd.io$"
     - "^discoveryserver$"
     - "^etcd$"
+    - "^etcd-operator$"
     - "^etcdlabs$"
     - "^gofail$"
     - "^govanityurls$"

@@ -86,6 +86,7 @@ teams:
     description: Granted write access to etcd
     members:
     - ahrtr
+    - jmhbnz
     - mitake
     - ptabor
     - serathius

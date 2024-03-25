@@ -322,8 +322,6 @@ teams:
               cycle.
             members:
             - MaryamTavakkoli # 1.30 CI Signal Shadow
-            - moficodes # 1.30 CI Signal Shadow
-            - Namanl2001 # 1.30 CI Signal Shadow
             - neoaggelos # 1.30 Release Lead Shadow
             - pacoxu # 1.30 CI Signal Lead
             - sanchita-07 # 1.30 Release Lead Shadow
@@ -334,7 +332,6 @@ teams:
           release-team-docs:
             description: Members of the Docs team for the current release cycle.
             members:
-            - celestehorgan # 1.30 Docs Shadow
             - chanieljdan # 1.30 Docs Shadow
             - drewhagen # 1.30 Docs Lead
             - Princesso # 1.30 Docs Shadow

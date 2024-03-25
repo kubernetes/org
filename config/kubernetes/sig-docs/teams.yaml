@@ -24,6 +24,7 @@ teams:
     description: Approvers for English content
     members:
     - bradtopol
+    - dipesh-rawat  
     - divya-mohan0209
     - katcosgrove
     - kbhawkey

@@ -13,6 +13,7 @@ restrictions:
     - "^component-base"
     - "^component-helpers"
     - "^controller-manager"
+    - "^cri"
     - "^cri-api"
     - "^csi-translation-lib"
     - "^dynamic-resource-allocation"

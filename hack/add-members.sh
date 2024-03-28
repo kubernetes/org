@@ -18,8 +18,6 @@ set -euo pipefail
 
 SCRIPT_ROOT=$(dirname "${BASH_SOURCE[0]}")/..
 
-go install "$SCRIPT_ROOT"/cmd/korg
-
 DRY_RUN=${DRY_RUN:-false}
 
 if [[ -z ${WHO:-} ]]; then
@@ -36,8 +34,8 @@ do
     echo "Adding $username to $REPOS"
    if [ "$DRY_RUN" = true ]; then
      echo "Running in dry run mode."
-     korg add "$username" --org "$REPOS"
+     go run ./cmd/korg add "$username" --org "$REPOS"
    else
-     korg add "$username" --org "$REPOS" --confirm
+     go run ./cmd/korg add "$username" --org "$REPOS" --confirm
    fi
 done

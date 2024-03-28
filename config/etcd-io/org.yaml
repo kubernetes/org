@@ -88,8 +88,6 @@ teams:
     members:
     - ahrtr
     - jmhbnz
-    - mitake
-    - ptabor
     - serathius
     - spzala
     - wenjiaswe
@@ -111,7 +109,6 @@ teams:
     description: raft maintainers
     members:
     - ahrtr
-    - mitake
     - ptabor
     - serathius
     - spzala
@@ -125,9 +122,8 @@ teams:
     - ahrtr
     - chalin
     - jberkus
-    - mitake
+    - jmhbnz
     - nate-double-u
-    - ptabor
     - serathius
     - spzala
     - wenjiaswe

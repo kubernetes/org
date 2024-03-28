@@ -48,7 +48,11 @@ body:
       required: true
     - label: I have verified that my sponsors are a reviewer or an approver in at least one OWNERS file within one of the Kubernetes GitHub organizations (excluding the contributor-playground)
       required: true
-    - label: "**OPTIONAL:** I have taken the [Inclusive Open Source Community Orientation course](https://training.linuxfoundation.org/training/inclusive-open-source-community-orientation-lfc102/)"
+    - label: "**SUGGESTED:** Ensure your [affiliation in gitdm](https://github.com/cncf/gitdm?tab=readme-ov-file#addingupdating-affiliation) is up to date (gitdm is used by [devstats](https://k8s.devstats.cncf.io/) to track affiliation)"
+      required: false
+    - label: "**SUGGESTED:** Ensure your [affiliation in openprofile.dev](https://openprofile.dev/edit/profile) is up to date (used by [LFX Insights](https://insights.lfx.dev/) to track affiliation, will replace gitdm in the future)"
+      required: false
+    - label: "**SUGGESTED:** I have taken the [Inclusive Open Source Community Orientation course](https://training.linuxfoundation.org/training/inclusive-open-source-community-orientation-lfc102/)"
 - id: sponsor_1
   type: input
   attributes:

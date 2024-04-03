@@ -105,6 +105,7 @@ teams:
     members:
     - bowei
     - LiorLieberman
+    - mlavacca
     - robscott
     - shaneutt
     - youngnick
@@ -114,10 +115,9 @@ teams:
   ingress2gateway-maintainers:
     description: Write access to the ingress2gateway repo
     members:
-    - bowei
     - LiorLieberman
+    - mlavacca
     - robscott
-    - shaneutt
     - youngnick
     privacy: closed
     repos:

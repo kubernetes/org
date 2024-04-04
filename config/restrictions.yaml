@@ -377,7 +377,7 @@ restrictions:
     - "^python"
     - "^python-base"
     - "^ruby"
-  - path: "etcd-io/org.yaml"
+  - path: "etcd-io/sig-etcd/teams.yaml"
     allowedRepos:
     - "^auger$"
     - "^bbolt$"

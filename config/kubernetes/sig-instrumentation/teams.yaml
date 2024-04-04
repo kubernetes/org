@@ -4,7 +4,6 @@ teams:
     members:
     - dashpole
     - dgrisonnet
-    - ehashman
     - logicalhan
     - rexagod
     privacy: closed
@@ -49,7 +48,6 @@ teams:
     members:
     - dashpole
     - dgrisonnet
-    - ehashman
     - fpetkovski
     - logicalhan
     - mrueg

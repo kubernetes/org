@@ -26,6 +26,7 @@ teams:
     - fabriziopandini
     - jackfrancis
     - Jont828
+    - mboersma
     privacy: closed
     repos:
       cluster-api-addon-provider-helm: admin
@@ -35,6 +36,7 @@ teams:
     - fabriziopandini
     - jackfrancis
     - Jont828
+    - mboersma
     privacy: closed
     repos:
       cluster-api-addon-provider-helm: write

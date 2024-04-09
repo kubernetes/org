@@ -16,7 +16,7 @@ SHELL := /usr/bin/env bash
 
 # available for override
 GITHUB_TOKEN_PATH ?=
-TEST_INFRA_PATH ?= $(OUTPUT_DIR)/tmp/test-infra
+PROW_PATH ?= $(OUTPUT_DIR)/tmp/prow
 
 # intentionally hardcoded list to ensure it's high friction to remove someone
 ADMINS = cblecker MadhavJivrajani mrbobbytables nikhita palnabarun Priyankasaggu11929
@@ -72,7 +72,7 @@ add-members:
 # actual targets that only get built if they don't already exist
 $(MERGE_CMD):
 	mkdir -p "$(OUTPUT_BIN_DIR)"
-	go build -v -o "$(OUTPUT_BIN_DIR)" ./cmd/merge
+	go build -o "$(OUTPUT_BIN_DIR)" ./cmd/merge
 
 $(MERGED_CONFIG): clean $(MERGE_CMD) $(CONFIG_FILES)
 	mkdir -p "$(OUTPUT_DIR)"
@@ -81,10 +81,10 @@ $(MERGED_CONFIG): clean $(MERGE_CMD) $(CONFIG_FILES)
 		$(shell for o in $(ORGS); do echo "--org-part=$$o=config/$$o/org.yaml"; done) \
 		> $(MERGED_CONFIG)
 
-$(TEST_INFRA_PATH):
-	mkdir -p $(TEST_INFRA_PATH)
-	git clone --depth=1 https://github.com/kubernetes/test-infra $(TEST_INFRA_PATH)
+$(PROW_PATH):
+	mkdir -p $(PROW_PATH)
+	git clone --depth=1 https://github.com/kubernetes-sigs/prow $(PROW_PATH)
 
-$(PERIBOLOS_CMD): $(TEST_INFRA_PATH)
-	cd $(TEST_INFRA_PATH) && \
-		go build -v -o $(PERIBOLOS_CMD) ./prow/cmd/peribolos
+$(PERIBOLOS_CMD): $(PROW_PATH)
+	cd $(PROW_PATH) && \
+		go build -o $(PERIBOLOS_CMD) ./prow/cmd/peribolos

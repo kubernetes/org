@@ -30,6 +30,11 @@ readonly admins=(
   Priyankasaggu11929
 )
 
+# this is the hourly token limit for the GitHub API
+# if unset, the default is set in the peribolos code: https://github.com/kubernetes-sigs/prow/blob/0bca2f1416a9c15d75b9cee8704b56b38d5895c6/prow/cmd/peribolos/main.go#L41
+# if set to 0, rate limiting is disabled
+readonly HOURLY_TOKENS=3000
+
 cd "${REPO_ROOT}"
 make update-prep
 cmd="${REPO_ROOT}/_output/bin/peribolos"
@@ -40,6 +45,7 @@ args=(
   --fix-teams
   --fix-team-members
   --fix-team-repos
+  --github-hourly-tokens="${HOURLY_TOKENS}"
   "${admins[@]/#/--required-admins=}"
 )
 

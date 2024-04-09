@@ -31,6 +31,7 @@ members:
 - adityabhatia
 - adityasamant25
 - AdminTurnedDevOps
+- adowair
 - adriananeci
 - adrianchiris
 - adtac
@@ -115,6 +116,7 @@ members:
 - aveshagarwal
 - AvineshTripathi
 - AxeZhan
+- azaynul10
 - azylinski
 - Babapool
 - barney-s
@@ -203,6 +205,7 @@ members:
 - chriskim06
 - chrisnegus
 - chrisohaver
+- christianang
 - christopherhein
 - chymy
 - cici37
@@ -380,6 +383,7 @@ members:
 - gujingit
 - gyohuangxin
 - gyuho
+- H13m0n
 - habibrosyad
 - hackeramitkumar
 - hailkomputer
@@ -413,6 +417,7 @@ members:
 - Huang-Wei
 - humblec
 - huntergregory
+- huww98
 - huynguyennovem
 - hwdef
 - hzxuzhonghu
@@ -682,6 +687,7 @@ members:
 - mk46
 - mkimuram
 - mkumatag
+- mlavacca
 - mloiseleur
 - mloskot
 - mm4tt
@@ -699,6 +705,7 @@ members:
 - mortent
 - moshe010
 - moshevayner
+- mowangdk
 - mpatlasov
 - mpherman2
 - mpuckett159
@@ -797,6 +804,7 @@ members:
 - pjbgf
 - pjh
 - pkprzekwas
+- pmalek
 - pmorie
 - pnbrown
 - pohly
@@ -894,6 +902,7 @@ members:
 - saikat-royc
 - sairameshv
 - saiyam1814
+- sajibAdhi
 - salaxander
 - salehsedghpour
 - sallyom
@@ -930,11 +939,13 @@ members:
 - seanschneeweiss
 - sebastienvas
 - seh
+- seifrajhi
 - Seo-yul
 - seokho-son
 - serathius
 - serbrech
 - SergeyKanzhelev
+- sergeyshevch
 - sfotony
 - sftim
 - Sh4d1
@@ -944,6 +955,7 @@ members:
 - sharifelgamal
 - shatoboar
 - shawnhanx
+- shijinye
 - ShivamTyagi12345
 - shivanshu1333
 - shu-mutou
@@ -951,6 +963,7 @@ members:
 - shuheiktgw
 - shurup
 - shyamjvs
+- sivchari
 - siyuanfoundation
 - sjenning
 - Skarlso
@@ -981,6 +994,7 @@ members:
 - SRodi
 - stealthybox
 - stephenfin
+- steve-hardman
 - stevekuznetsov
 - stlaz
 - stmcginnis
@@ -1166,8 +1180,7 @@ members_can_create_repositories: false
 name: Kubernetes
 teams:
   api-approvers:
-    description: Approve changes to stable Kubernetes APIs and addition of new beta/stable
-      APIs
+    description: Approve changes to stable Kubernetes APIs and addition of new beta/stable APIs
     members:
     - deads2k
     - lavalamp
@@ -1529,8 +1542,7 @@ teams:
     repos:
       kubectl: write
   kubernetes-feature-branch-admins:
-    description: Admin access to the kubernetes repo, for maintaining feature branches.
-      Will deprecate when this access is no longer needed.
+    description: Admin access to the kubernetes repo, for maintaining feature branches. Will deprecate when this access is no longer needed.
     members:
     - lavalamp
     privacy: closed
@@ -1571,8 +1583,7 @@ teams:
       sample-apiserver: write
       sample-controller: write
   kubernetes-staging-publish-cops:
-    description: will be notified if the robot fails to publish the staging folder
-      to repos
+    description: will be notified if the robot fails to publish the staging folder to repos
     members:
     - caesarxuchao
     - deads2k
@@ -1659,9 +1670,7 @@ teams:
     repos:
       committee-security-response: admin
   stage-bots:
-    description: Bots that only have admin access to staged repositories. Giving admin
-      access to other repositories may allow the bot to automatically unintentionally
-      close issues in those repositories.
+    description: Bots that only have admin access to staged repositories. Giving admin access to other repositories may allow the bot to automatically unintentionally close issues in those repositories.
     members:
     - k8s-publishing-bot
     privacy: closed

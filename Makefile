@@ -81,4 +81,4 @@ $(MERGED_CONFIG): clean $(MERGE_CMD) $(CONFIG_FILES)
 		> $(MERGED_CONFIG)
 
 $(PERIBOLOS_CMD):
-	GOBIN=$(OUTPUT_BIN_DIR) go install sigs.k8s.io/prow/cmd/peribolos@latest
+	GOBIN=$(OUTPUT_BIN_DIR) go install sigs.k8s.io/prow/cmd/peribolos@main

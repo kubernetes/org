@@ -16,7 +16,6 @@ SHELL := /usr/bin/env bash
 
 # available for override
 GITHUB_TOKEN_PATH ?=
-PROW_PATH ?= $(OUTPUT_DIR)/tmp/prow
 
 # intentionally hardcoded list to ensure it's high friction to remove someone
 ADMINS = cblecker MadhavJivrajani mrbobbytables nikhita palnabarun Priyankasaggu11929
@@ -81,10 +80,5 @@ $(MERGED_CONFIG): clean $(MERGE_CMD) $(CONFIG_FILES)
 		$(shell for o in $(ORGS); do echo "--org-part=$$o=config/$$o/org.yaml"; done) \
 		> $(MERGED_CONFIG)
 
-$(PROW_PATH):
-	mkdir -p $(PROW_PATH)
-	git clone --depth=1 https://github.com/kubernetes-sigs/prow $(PROW_PATH)
-
-$(PERIBOLOS_CMD): $(PROW_PATH)
-	cd $(PROW_PATH) && \
-		go build -o $(PERIBOLOS_CMD) ./prow/cmd/peribolos
+$(PERIBOLOS_CMD):
+	GOBIN=$(OUTPUT_BIN_DIR) go install sigs.k8s.io/prow/cmd/peribolos@latest

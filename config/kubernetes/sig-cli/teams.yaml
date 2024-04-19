@@ -2,18 +2,18 @@ teams:
   sig-cli-leads:
     description: ""
     members:
+    - ardaguclu
     - eddiezane
-    - KnVerey
-    - natasha41575
+    - mpuckett159
     - soltysh
     privacy: closed
   sig-cli-kubectl-maintainers:
     description: ""
     members:
+    - ardaguclu
     - brianpursley
     - eddiezane
-    - KnVerey
-    - seans3
+    - mpuckett159
     - soltysh
     privacy: closed
     repos:

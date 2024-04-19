@@ -2,9 +2,7 @@ teams:
   cli-experimental-admins:
     description: admin access to cli-experimental
     members:
-    - KnVerey
-    - pwittrock
-    - seans3
+    - eddiezane
     - soltysh
     privacy: closed
     repos:
@@ -20,8 +18,6 @@ teams:
     description: admin access to cli-utils
     members:
     - eddiezane
-    - knverey
-    - seans3
     - soltysh
     privacy: closed
     repos:
@@ -40,8 +36,7 @@ teams:
     members:
     - ahmetb
     - chriskim06
-    - pwittrock
-    - seans3
+    - eddiezane
     - soltysh
     privacy: closed
     repos:
@@ -51,8 +46,7 @@ teams:
     members:
     - ahmetb
     - chriskim06
-    - pwittrock
-    - seans3
+    - eddiezane
     - soltysh
     privacy: closed
     repos:
@@ -62,8 +56,7 @@ teams:
     members:
     - ahmetb
     - chriskim06
-    - pwittrock
-    - seans3
+    - eddiezane
     - soltysh
     privacy: closed
     repos:
@@ -73,8 +66,7 @@ teams:
     members:
     - ahmetb
     - chriskim06
-    - pwittrock
-    - seans3
+    - eddiezane
     - soltysh
     privacy: closed
     repos:
@@ -82,19 +74,18 @@ teams:
   krm-functions-registry-admins:
     description: admin access to krm-functions-registry
     members:
+    - eddiezane
     - jeremyrickard
-    - KnVerey
-    - mengqiy
+    - soltysh
     privacy: closed
     repos:
       krm-functions-registry: admin
   krm-functions-registry-maintainers:
     description: write access to krm-functions-registry
     members:
+    - eddiezane
     - jeremyrickard
-    - KnVerey
-    - mengqiy
-    - natasha41575
+    - soltysh
     privacy: closed
     repos:
       krm-functions-registry: write
@@ -125,8 +116,6 @@ teams:
     description: write access to kui
     members:
     - eddiezane
-    - pwittrock
-    - seans3
     - soltysh
     - starpit
     privacy: closed
@@ -135,8 +124,9 @@ teams:
   kustomize-admins:
     description: ""
     members:
-    - knverey
+    - eddiezane
     - koba1t
+    - soltysh
     privacy: closed
     repos:
       kustomize: admin

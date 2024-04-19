@@ -23,7 +23,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"k8s.io/test-infra/prow/config/org"
+	"sigs.k8s.io/prow/pkg/config/org"
 
 	"github.com/sirupsen/logrus"
 	"sigs.k8s.io/yaml"

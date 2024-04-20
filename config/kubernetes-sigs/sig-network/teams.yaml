@@ -212,6 +212,24 @@ teams:
     privacy: closed
     repos:
       kpng: admin
+  kube-network-policies-admins:
+    description: Admin access to the kube-network-policies repo
+    members:
+    - aojea
+    - danwinship
+    - thockin
+    privacy: closed
+    repos:
+      kube-network-policies: admin
+  kube-network-policies-maintainers:
+    description: Write access to the kube-network-policies repo
+    members:
+    - aojea
+    - danwinship
+    - thockin
+    privacy: closed
+    repos:
+      kube-network-policies: write
   network-policy-api-admins:
     description: Admin access to the network-policy-api repo
     members:

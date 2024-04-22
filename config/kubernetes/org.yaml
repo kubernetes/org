@@ -1529,9 +1529,9 @@ teams:
   kubectl-admins:
     description: Admin access to the kubectl repo
     members:
+    - ardaguclu
     - eddiezane
-    - KnVerey
-    - seans3
+    - mpuckett159
     - soltysh
     privacy: closed
     repos:
@@ -1539,9 +1539,9 @@ teams:
   kubectl-maintainers:
     description: Write access to the kubectl repo
     members:
+    - ardaguclu
     - eddiezane
-    - KnVerey
-    - seans3
+    - mpuckett159
     - soltysh
     privacy: closed
     repos:

@@ -28,6 +28,7 @@ teams:
     - andrewsykim # Cloud Provider
     - aojea # Testing / Network
     - aravindhp # Windows
+    - ardaguclu # CLI
     - BenTheElder # Testing / K8s Infra
     - bgrant0607 # Architecture
     - brancz # Instrumentation
@@ -78,7 +79,6 @@ teams:
     - katcosgrove # v1.30 RT Lead
     - kcmartin # 1.30 Comms Lead
     - khenidak # Azure
-    - KnVerey # CLI
     - kow3ns # Apps
     - lavalamp # API Machinery
     - liggitt # Auth / Release
@@ -94,10 +94,10 @@ teams:
     - mikedanese # Auth
     - mikezappa87 # Network
     - mm4tt # Scalability
+    - mpuckett159 # CLI
     - mrunalp # Node
     - msau42 # Storage
     - mwielgus # Autoscaling
-    - natasha41575 # CLI
     - nckturner # AWS
     - neoaggelos # 1.30 RT Lead Shadow
     - neolit123 # Cluster Lifecycle
@@ -105,7 +105,6 @@ teams:
     - pmorie # Multicluster
     - pohly # SIG Testing, Instrumentation, Node
     - puerco # Release Manager
-    - pwittrock # CLI
     - quinton-hoole # Multicluster
     - RainbowMango # Instrumentation
     - ramrodo # Release Manager Associate / 1.30 RT Lead Shadow

@@ -28,7 +28,7 @@ import (
 
 	"github.com/go-git/go-git/v5"
 	"github.com/sirupsen/logrus"
-	"k8s.io/test-infra/prow/config/org"
+	"sigs.k8s.io/prow/pkg/config/org"
 	"sigs.k8s.io/yaml"
 
 	"github.com/hound-search/hound/client"

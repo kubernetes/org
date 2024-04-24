@@ -57,6 +57,46 @@ teams:
     privacy: closed
     repos:
       maintainers: write
+  sig-contributor-experience:
+    description: Improve contributor productivity
+    maintainers:
+    - cblecker
+    - MadhavJivrajani
+    - mrbobbytables
+    - nikhita
+    - palnabarun
+    - Priyankasaggu11929
+    members:
+    - castrojo
+    - dims
+    - idealhack
+    - idvoretskyi
+    - kaslin
+    - lavalamp
+    - parispittman
+    - pwittrock
+    - thockin
+    privacy: closed
+    teams:
+      sig-contributor-experience-leads:
+        description: Chairs and Technical Leads for SIG Contributor Experience
+        maintainers:
+        - MadhavJivrajani
+        - palnabarun
+        - Priyankasaggu11929
+        members:
+        - kaslin
+        privacy: closed
+      sig-contributor-experience-pr-reviews:
+        description: PR reviews for contributor-experience infrastructure, such as the
+          PR bot, etc.
+        maintainers:
+        - MadhavJivrajani
+        - palnabarun
+        - Priyankasaggu11929
+        members:
+        - kaslin
+        privacy: closed
   sigs-github-actions-admins:
     description: admin access to the sigs-github-actions repo
     maintainers:

@@ -137,20 +137,6 @@ teams:
     privacy: closed
     repos:
       cloud-pv-admission-labeler: write
-  cloud-provider-baiducloud-admins:
-   description: Admin access to the cloud-provider-baiducloud repo
-   members:
-   - tizhou86
-   privacy: closed
-   repos:
-     cloud-provider-baiducloud: admin
-  cloud-provider-baiducloud-maintainers:
-   description: Write access to the cloud-provider-baiducloud repo
-   members:
-   - tizhou86
-   privacy: closed
-   repos:
-     cloud-provider-baiducloud: write
   cloud-provider-equinix-metal-admins:
    description: Admin access to the cloud-provider-equinix-metal repo
    members:

@@ -302,7 +302,6 @@ restrictions:
     allowedRepos:
     - "^container-object-storage-interface-api"
     - "^container-object-storage-interface-controller"
-    - "^container-object-storage-interface-csi-adapter"
     - "^container-object-storage-interface-provisioner-sidecar"
     - "^container-object-storage-interface-spec"
     - "^cosi-driver-sample"

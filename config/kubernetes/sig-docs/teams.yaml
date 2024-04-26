@@ -305,7 +305,6 @@ teams:
     - bradtopol # L10n: English
     - devlware # L10: Portuguese
     - divya-mohan0209 # L10n: English
-    - drewhagen # 1.30 RT Docs Lead temporary access for the release
     - femrtnz # L10n: Portuguese
     - girikuncoro # L10n: Indonesian
     - gochist # L10n: Korean
@@ -342,24 +341,20 @@ teams:
     - a-mccarthy
     - bene2k1
     - bradtopol
-    - celestehorgan # 1.30 Docs Shadow
-    - chanieljdan # 1.30 Docs Shadow
     - divya-mohan0209
-    - drewhagen # 1.30 RT Docs Lead
     - femrtnz
     - girikuncoro
     - gochist
     - huynguyennovem
     - inductor
     - jcjesus
-    - katcosgrove # 1.29 RT Docs Lead
     - mickeyboxell
     - nasa9084
     - natalisucks
     - nate-double-u
     - onlydole
     - perriea
-    - Princesso # 1.30 Docs Shadow
+    - Princesso # 1.31 Docs Lead
     - raelga
     - rekcah78
     - remyleone
@@ -372,7 +367,6 @@ teams:
     - tanjunchen
     - tengqm
     - truongnh1992
-    - Vyom-Yadav # 1.30 Docs Shadow
     - xichengliudui
     - ysyukr
     privacy: closed

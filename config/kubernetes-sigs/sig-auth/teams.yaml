@@ -66,6 +66,23 @@ teams:
     privacy: closed
     repos:
       referencegrant-poc: write
+  secrets-store-sync-controller-admins:
+    description: Admin access to secrets-store-sync-controller repo
+    members:
+    - aramase
+    - enj
+    privacy: closed
+    repos:
+      secrets-store-sync-controller: admin
+  secrets-store-sync-controller-maintainers:
+    description: Write access to secrets-store-sync-controller repo
+    members:
+    - aramase
+    - enj
+    - nilekhc
+    privacy: closed
+    repos:
+      secrets-store-sync-controller: write
   sig-auth-tools-admins:
     description: Admin access to sig-auth-tools repo
     members:

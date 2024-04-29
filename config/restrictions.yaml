@@ -158,6 +158,7 @@ restrictions:
     - "^pspmigrator"
     - "^referencegrant-poc"
     - "^secrets-store-csi-driver"
+    - "^secrets-store-sync-controller"
     - "^sig-auth-tools"
   - path: "kubernetes-sigs/sig-autoscaling/teams.yaml"
     allowedRepos:

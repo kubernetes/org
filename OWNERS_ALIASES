@@ -142,6 +142,10 @@ aliases:
   wg-policy-leads:
     - JimBugwadia
     - rficcaglia
+  wg-serving-leads:
+    - SergeyKanzhelev
+    - ArangoGutierrez
+    - terrytangyuan
   wg-structured-logging-leads:
     - pohly
     - serathius

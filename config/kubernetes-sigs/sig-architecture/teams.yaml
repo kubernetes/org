@@ -30,3 +30,21 @@ teams:
     privacy: closed
     repos:
       apisnoop: write
+  wg-device-management-admins:
+    description: Admin access to wg-device-management repo
+    members:
+    - johnbelamaric
+    - klueska
+    - pohly
+    privacy: closed
+    repos:
+      wg-device-management: admin
+  wg-device-management-maintainers:
+    description: Write access to wg-device-management repo
+    members:
+    - johnbelamaric
+    - klueska
+    - pohly
+    privacy: closed
+    repos:
+      wg-device-management: write

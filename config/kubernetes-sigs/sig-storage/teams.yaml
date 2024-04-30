@@ -104,6 +104,74 @@ teams:
     privacy: closed
     repos:
       cosi-driver-sample: write
+  gcp-compute-persistent-disk-csi-driver-admins:
+    description: Admin access to the gcp-compute-persistent-disk-csi-driver repo
+    members:
+    - amacaskill
+    - dannawang0221
+    - leiyiz
+    - mattcary
+    - msau42
+    - pwschuurman
+    - saad-ali
+    - saikat-royc
+    - songjiaxun
+    - tyuchn
+    privacy: closed
+    repos:
+      gcp-compute-persistent-disk-csi-driver: admin
+  gcp-compute-persistent-disk-csi-driver-maintainers:
+    description: Write access to the gcp-compute-persistent-disk-csi-driver repo
+    members:
+    - amacaskill
+    - dannawang0221
+    - hime
+    - leiyiz
+    - mattcary
+    - msau42
+    - saad-ali
+    - saikat-royc
+    - sneha-at
+    - songjiaxun
+    - sunnylovestiramisu
+    - tyuchn
+    privacy: closed
+    repos:
+      gcp-compute-persistent-disk-csi-driver: write
+  gcp-filestore-csi-driver-admins:
+    description: Admin access to the gcp-filestore-csi-driver repo
+    members:
+    - dannawang0221
+    - hime
+    - leiyiz
+    - mattcary
+    - msau42
+    - saad-ali
+    - saikat-royc
+    - songjiaxun
+    - tyuchn
+    privacy: closed
+    repos:
+      gcp-filestore-csi-driver: admin
+  gcp-filestore-csi-driver-maintainers:
+    description: Write access to the gcp-filestore-csi-driver repo
+    members:
+    - amacaskill
+    - dannawang0221
+    - hime
+    - leiyiz
+    - mattcary
+    - msau42
+    - pwschuurman
+    - saad-ali
+    - saikat-royc
+    - sneha-at
+    - songjiaxun
+    - sunnylovestiramisu
+    - tyuchn
+    privacy: closed
+    repos:
+      gcp-filestore-csi-driver: write      
   gluster-block-external-provisioner-admins:
     description: Admin access to gluster-block-external-provisioner
     members:
@@ -147,3 +215,51 @@ teams:
     privacy: closed
     repos:
       nfs-ganesha-server-and-external-provisioner: admin
+  sig-storage-lib-external-provisioner-admins:
+    description: Admin access to the sig-storage-lib-external-provisioner repo
+    members:
+    - jsafrane
+    - msau42
+    - saad-ali
+    - wongma7
+    - xing-yang
+    privacy: closed
+    repos:
+      sig-storage-lib-external-provisioner: admin
+  sig-storage-lib-external-provisioner-maintainers:
+    description: Write access to the sig-storage-lib-external-provisioner repo
+    members:
+    - jsafrane
+    - msau42
+    - saad-ali
+    - wongma7
+    - xing-yang
+    privacy: closed
+    repos:
+      sig-storage-lib-external-provisioner: write
+  sig-storage-local-static-provisioner-admins:
+    description: Admin access to the sig-storage-local-static-provisioner repo
+    members:
+    - andyzhangx
+    - cofyc
+    - jsafrane
+    - mauriciopoppe
+    - msau42
+    - saad-ali
+    - xing-yang
+    privacy: closed
+    repos:
+      sig-storage-local-static-provisioner: admin
+  sig-storage-local-static-provisioner-maintainers:
+    description: Write access to the sig-storage-local-static-provisioner repo
+    members:
+    - andyzhangx
+    - cofyc
+    - jsafrane
+    - mauriciopoppe
+    - msau42
+    - saad-ali
+    - xing-yang
+    privacy: closed
+    repos:
+      sig-storage-local-static-provisioner: write

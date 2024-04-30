@@ -4,8 +4,7 @@ teams:
     members:
     - bigdarkclown
     - gjtempleton
-    - MaciekPytel
-    - mwielgus
+    - maciekpytel
     - towca
     - x13n
     privacy: closed
@@ -16,8 +15,7 @@ teams:
     members:
     - bigdarkclown
     - gjtempleton
-    - MaciekPytel
-    - mwielgus
+    - maciekpytel
     - towca
     - x13n
     privacy: closed
@@ -29,8 +27,7 @@ teams:
     - bigdarkclown
     - feiskyer
     - gjtempleton
-    - MaciekPytel
-    - mwielgus
+    - maciekpytel
     - x13n
     privacy: closed
     repos:
@@ -39,30 +36,27 @@ teams:
     description: ""
     members:
     - gjtempleton
-    - MaciekPytel
+    - maciekpytel
     - mwielgus
     privacy: closed
   sig-autoscaling-bugs:
     description: ""
     members:
     - gjtempleton
-    - MaciekPytel
-    - mwielgus
+    - maciekpytel
     privacy: closed
   sig-autoscaling-feature-requests:
     description: ""
     members:
     - gjtempleton
-    - MaciekPytel
-    - mwielgus
+    - maciekpytel
     privacy: closed
   sig-autoscaling-misc:
     description: ""
     members:
     - bigdarkclown
     - gjtempleton
-    - MaciekPytel
-    - mwielgus
+    - maciekpytel
     - towca
     - x13n
     privacy: closed
@@ -70,26 +64,23 @@ teams:
     description: ""
     members:
     - gjtempleton
-    - MaciekPytel
-    - mwielgus
+    - maciekpytel
     privacy: closed
   sig-autoscaling-proposals:
     description: ""
     members:
     - gjtempleton
-    - MaciekPytel
-    - mwielgus
+    - maciekpytel
     privacy: closed
   sig-autoscaling-test-failures:
     description: ""
     members:
     - gjtempleton
-    - MaciekPytel
-    - mwielgus
+    - maciekpytel
     privacy: closed
   sig-autoscaling-leads:
     description: ""
     members:
     - gjtempleton
-    - mwielgus
+    - maciekpytel
     privacy: closed

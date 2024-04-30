@@ -86,6 +86,7 @@ teams:
     - logicalhan # Instrumentation
     - luxas # Cluster Lifecycle
     - maciaszczykm # UI
+    - maciekpytel # Autoscaling
     - marosset # Windows
     - MaryamTavakkoli # 1.30 Release Signal Shadow
     - mborsz # Scalability
@@ -97,7 +98,6 @@ teams:
     - mpuckett159 # CLI
     - mrunalp # Node
     - msau42 # Storage
-    - mwielgus # Autoscaling
     - nckturner # AWS
     - neoaggelos # 1.30 RT Lead Shadow
     - neolit123 # Cluster Lifecycle

@@ -6,8 +6,7 @@ teams:
     - ellistarn
     - gjtempleton
     - jonathan-innis
-    - MaciekPytel
-    - mwielgus
+    - maciekpytel
     - njtran
     - tzneal
     privacy: closed
@@ -20,8 +19,7 @@ teams:
     - ellistarn
     - gjtempleton
     - jonathan-innis
-    - MaciekPytel
-    - mwielgus
+    - maciekpytel
     - njtran
     - tzneal
     privacy: closed
@@ -41,5 +39,5 @@ teams:
     description: "leads of the SIG Autoscaling"
     members:
     - gjtempleton
-    - mwielgus
+    - maciekpytel
     privacy: closed

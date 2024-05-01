@@ -360,6 +360,7 @@ restrictions:
     - "^external-health-monitor"
     - "^external-provisioner"
     - "^external-resizer"
+    - "^external-snapshot-metadata"
     - "^external-snapshotter"
     - "^kubernetes-csi.github.io"
     - "^lib-volume-populator"

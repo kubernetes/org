@@ -533,6 +533,28 @@ teams:
     privacy: closed
     repos:
       external-resizer: write
+  external-snapshot-metadata-admins:
+    description: Admin access to external-snapshot-metadata repo
+    members:
+    - ihcsim
+    - jsafrane
+    - msau42
+    - saad-ali
+    - xing-yang
+    privacy: closed
+    repos:
+      external-snapshot-metadata: admin
+  external-snapshot-metadata-maintainers:
+    description: Write access to external-snapshot-metadata repo
+    members:
+    - ihcsim
+    - jsafrane
+    - msau42
+    - saad-ali
+    - xing-yang
+    privacy: closed
+    repos:
+      external-snapshot-metadata: write
   external-snapshotter-admins:
     description: Admin access to external-snapshotter repo
     members:

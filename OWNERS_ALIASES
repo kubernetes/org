@@ -143,8 +143,9 @@ aliases:
     - JimBugwadia
     - rficcaglia
   wg-serving-leads:
-    - SergeyKanzhelev
     - ArangoGutierrez
+    - Jeffwan
+    - SergeyKanzhelev
     - terrytangyuan
   wg-structured-logging-leads:
     - pohly

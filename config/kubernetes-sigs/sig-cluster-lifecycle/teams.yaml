@@ -109,8 +109,10 @@ teams:
     description: ""
     members:
     - jackfrancis
+    - Jont828
     - mboersma
     - nojnhuh
+    - willie-yao
     privacy: closed
     repos:
       cluster-api-provider-azure: admin
@@ -118,8 +120,10 @@ teams:
     description: ""
     members:
     - jackfrancis
+    - Jont828
     - mboersma
     - nojnhuh
+    - willie-yao
     privacy: closed
     repos:
       cluster-api-provider-azure: write

@@ -47,7 +47,7 @@ members_can_create_repositories: false
 name: etcd-io
 teams:
   kubernetes-admins:
-    description: Kubernetes Github Admins
+    description: Kubernetes GitHub Admins
     maintainers:
     - cblecker
     - MadhavJivrajani

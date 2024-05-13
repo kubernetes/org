@@ -36,9 +36,9 @@ teams:
   e2e-framework-admins:
     description: admin access to e2e-framework
     members:
+    - cpanato
     - harshanarayana
     - ShwethaKumbla
-    - spiffxp
     - vladimirvivien
     privacy: closed
     repos:
@@ -46,9 +46,9 @@ teams:
   e2e-framework-maintainers:
     description: write access to e2e-framework
     members:
+    - cpanato
     - harshanarayana
     - ShwethaKumbla
-    - spiffxp
     - vladimirvivien
     privacy: closed
     repos:

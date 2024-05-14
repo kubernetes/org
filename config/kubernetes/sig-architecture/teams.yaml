@@ -83,6 +83,7 @@ teams:
     - deads2k
     - johnbelamaric
     - jpbetz
+    - soltysh
     - wojtek-t
     privacy: closed
     teams:
@@ -96,8 +97,9 @@ teams:
         - enj           # shadow
         - jeremyrickard # shadow
         - johnbelamaric # approver
-        - jpbetz        # shadow
+        - jpbetz        # approver
         - logicalhan    # shadow
+        - soltysh       # approver
         - spiffxp       # shadow
         - tallclair     # shadow
         - wojtek-t      # approver

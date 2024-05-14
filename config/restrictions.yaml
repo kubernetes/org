@@ -228,6 +228,9 @@ restrictions:
   - path: "kubernetes-sigs/sig-docs/teams.yaml"
     allowedRepos:
     - "^reference-docs"
+  - path: "kubernetes-sigs/sig-etcd/teams.yaml"
+    allowedRepos:
+    - "^etcd-manager"
   - path: "kubernetes/sig-release/teams.yaml"
     allowedRepos:
     - "^publishing-bot"

@@ -1,0 +1,13 @@
+teams:
+  etcd-manager-admins:
+    description: "Admin access to the etcd-manager repo"
+    members:
+    - ahrtr
+    - hakman
+    - justinsb
+    - neolit123
+    - wenjiaswe
+    privacy: closed
+    repos:
+      etcd-manager: admin
+

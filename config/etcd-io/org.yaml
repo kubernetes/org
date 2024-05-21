@@ -7,6 +7,7 @@ admins:
 - nikhita
 - palnabarun
 - Priyankasaggu11929
+- thelinuxfoundation
 billing_email: github@kubernetes.io
 default_repository_permission: read
 description: etcd Development and Communities

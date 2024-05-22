@@ -25,7 +25,6 @@ teams:
     - ahg-g # Scheduling
     - alculquicondor # Scheduling
     - ameukam # Release Manager Associate / K8s Infra
-    - andrewsykim # Cloud Provider
     - aojea # Testing / Network
     - aravindhp # Windows
     - ardaguclu # CLI
@@ -98,7 +97,6 @@ teams:
     - mpuckett159 # CLI
     - mrunalp # Node
     - msau42 # Storage
-    - nckturner # AWS
     - neoaggelos # 1.30 RT Lead Shadow
     - neolit123 # Cluster Lifecycle
     - pacoxu # Cluster Lifecycle / 1.30 Release Signal Lead

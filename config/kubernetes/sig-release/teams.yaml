@@ -88,7 +88,6 @@ teams:
     - maciaszczykm # UI
     - maciekpytel # Autoscaling
     - marosset # Windows
-    - MaryamTavakkoli # 1.30 Release Signal Shadow
     - mborsz # Scalability
     - mehabhalodiya # 1.29 Lead Shadow
     - michelle192837 # Testing
@@ -124,13 +123,14 @@ teams:
     - soltysh # CLI
     - spzala # IBM Cloud
     - sttts # API Machinery
+    - SubhasmitaSw # 1.31 Release Signal Shadow
     - tallclair # Auth
     - tashimi # Usability
     - thockin # Network
     - timothysc # Cluster Lifecycle / Testing
     - upodroid # K8s Infra
     - Verolop # Release Manager
-    - Vyom-Yadav # 1.29 CI Signal Lead
+    - Vyom-Yadav # 1.31 Release Signal Lead
     - wojtek-t # Scalability
     - xing-yang # Storage
     - xmcqueen # Testing
@@ -321,13 +321,11 @@ teams:
             description: Members of the Release Signal team for the current release
               cycle.
             members:
-            - MaryamTavakkoli # 1.30 CI Signal Shadow
-            - neoaggelos # 1.30 Release Lead Shadow
-            - pacoxu # 1.30 CI Signal Lead
-            - sanchita-07 # 1.30 Release Lead Shadow
-            - SubhasmitaSw # 1.30 CI Signal Shadow
-            - Vyom-Yadav # 1.30 CI Signal Co-Lead
-            - zelenushechka # 1.30 CI Signal Shadow
+            - AdminTurnedDevOps # 1.31 Release Signal Shadow
+            - Atharva-Shinde # 1.31 Release Signal Shadow
+            - SubhasmitaSw # 1.31 Release Signal Shadow
+            - Vyom-Yadav # 1.31 Release Signal Lead
+            - wendy-ha18 # 1.31 Release Signal Shadow
             privacy: closed
           release-team-docs:
             description: Members of the Docs team for the current release cycle.

@@ -78,7 +78,6 @@ teams:
     - justinsb # AWS / Cluster Lifecycle
     - k8s-release-robot # Release
     - katcosgrove # v1.30 RT Lead
-    - kcmartin # 1.30 Comms Lead
     - khenidak # Azure
     - kow3ns # Apps
     - lavalamp # API Machinery
@@ -90,7 +89,6 @@ teams:
     - maciekpytel # Autoscaling
     - marosset # Windows
     - mborsz # Scalability
-    - mehabhalodiya # 1.29 Lead Shadow
     - michelle192837 # Testing
     - mikedanese # Auth
     - mikezappa87 # Network
@@ -294,6 +292,8 @@ teams:
         - Priyankasaggu11929 # subproject owner (1.29 RT Lead)
         members:
         - cpanato # subproject owner / Technical Lead
+        - drewhagen # 1.31 Release Lead Shadow
+        - fsmunoz # 1.31 Release Lead Shadow
         - gracenng # subproject owner (1.28 RT Lead)
         - jameslaverack # subproject owner (1.24 RT Lead)
         - jeremyrickard # subproject owner / Technical Lead
@@ -303,13 +303,18 @@ teams:
         - leonardpahlke # subproject owner (1.26 RT Lead)
         - marosset # 1.29 RT Branch Manager Shadow
         - neoaggelos # 1.31 Release Lead
+        - npolshakova # 1.31 Release Notes Lead
+        - Princesso # 1.31 Docs Lead
         - puerco # subproject owner / Technical Lead
         - reylejano # subproject owner (1.23 RT Lead)
         - salaxander # subproject owner (1.27 RT Lead)
-        - sreeram-venkitesh # 1.31 Enhancements Lead
+        - salehsedghpour # 1.31 Release Lead Shadow
+        - sanchita-07 # 1.31 Release Lead Shadow
         - saschagrunert # subproject owner / Chair
         - savitharaghunathan # subproject owner (1.22 RT Lead)
+        - sreeram-venkitesh # 1.31 Enhancements Lead
         - Verolop # Release Manager
+        - Vyom-Yadav # 1.31 Release Signal Lead
         - xmudrii # Release Manager
         privacy: closed
         teams:
@@ -317,29 +322,52 @@ teams:
             description: Members of the Release Signal team for the current release
               cycle.
             members:
+            - AdminTurnedDevOps # 1.31 Release Signal Shadow
+            - Atharva-Shinde # 1.31 Release Signal Shadow
+            - SubhasmitaSw # 1.31 Release Signal Shadow
             - Vyom-Yadav # 1.31 Release Signal Lead
+            - wendy-ha18 # 1.31 Release Signal Shadow
             privacy: closed
           release-team-docs:
             description: Members of the Docs team for the current release cycle.
             members:
+            - chanieljdan # 1.31 Docs Shadow
+            - hacktivist123 # 1.31 Docs Shadow
+            - LaurentGoderre # 1.31 Docs Shadow
+            - MaryamTavakkoli # 1.31 Docs Shadow
             - Princesso # 1.31 Docs Lead
+            - salaxander # 1.31 Docs Shadow
             privacy: closed
           release-team-comms:
             description: Members of the Comms team for the current release cycle.
             members:
             - a-mccarthy # 1.31 Comms Lead
+            - edithturn # 1.31 Comms Shadow
+            - hailkomputer # 1.31 Comms Shadow
+            - mbianchidev # 1.31 Comms Shadow
+            - rashansmith # 1.31 Comms Shadow
             privacy: closed
           release-team-enhancements:
             description: Members of the Enhancments team for the current release
               cycle.
             members:
+            - ArkaSaha30 # 1.31 Enhancements Shadow
+            - dipesh-rawat # 1.31 Enhancements Shadow
+            - mickeyboxell # 1.31 Enhancements Shadow
+            - prianna # 1.31 Enhancements Shadow
             - sreeram-venkitesh # 1.31 Enhancements Lead
+            - tjons # 1.31 Enhancements Shadow
             privacy: closed
           release-team-release-notes:
             description: Members of the Release Notes team for the current release
               cycle.
             members:
+            - checksumz # 1.31 Release Notes Shadow
+            - cloudmelon # 1.31 Release Notes Shadow
             - npolshakova # 1.31 Release Notes Lead
+            - rayandas # 1.31 Release Notes Shadow
+            - satyampsoni # 1.31 Release Notes Shadow
+            - shecodesmagic # 1.31 Release Notes Shadow
             privacy: closed
           release-team-leads:
             description: Release Team Leads for the current Kubernetes release
@@ -347,10 +375,11 @@ teams:
               kubernetes/release, and kubernetes/sig-release, and can be used
               as a notification group. Remove org members who are not current
               Release Team Leads.
+            maintainers:
+            - Priyankasaggu11929 # 1.31 Release EA
             members:
             - drewhagen # 1.31 Release Lead Shadow
             - fsmunoz # 1.31 Release Lead Shadow
-            - Priyankasaggu11929 # 1.31 Release EA
             - neoaggelos # 1.31 Release Lead
             - salehsedghpour # 1.31 Release Lead Shadow
             - sanchita-07 # 1.31 Release Lead Shadow

@@ -1042,6 +1042,7 @@ teams:
     - saikat-royc
     - songjiaxun
     - tyuchn
+    - uriel-guzman
     privacy: closed
     repos:
       gcp-compute-persistent-disk-csi-driver: admin
@@ -1091,6 +1092,7 @@ teams:
     - songjiaxun
     - sunnylovestiramisu
     - tyuchn
+    - uriel-guzman
     privacy: closed
     repos:
       gcp-filestore-csi-driver: write

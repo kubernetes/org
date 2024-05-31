@@ -1572,6 +1572,13 @@ teams:
     privacy: closed
     repos:
       kubectl: write
+  kubernetes-admins:
+    description: Admin access to the kubernetes repo for moderation/spam
+    members:
+    - dims
+    privacy: closed
+    repos:
+      kubernetes: admin
   kubernetes-maintainers:
     description: Write access to the kubernetes repo. Follow the process in https://github.com/kubernetes/community/blob/master/community-membership.md
     maintainers:

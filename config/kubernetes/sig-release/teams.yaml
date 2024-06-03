@@ -89,6 +89,7 @@ teams:
     - maciekpytel # Autoscaling
     - marosset # Windows
     - mborsz # Scalability
+    - mehabhalodiya # 1.31 Release Branch Manager
     - michelle192837 # Testing
     - mikedanese # Auth
     - mikezappa87 # Network
@@ -250,6 +251,7 @@ teams:
         - jrsapi # Release Manager Associate
         - justaugustus # subproject owner / Release Manager
         - marosset # Release Manager Associate
+        - mehabhalodiya # Release Manager Associate
         - puerco # subproject owner / Release Manager
         - ramrodo # Release Manager Associate
         - salaxander # Release Manager Associate
@@ -302,6 +304,7 @@ teams:
         - katcosgrove # 1.30 RT Lead
         - leonardpahlke # subproject owner (1.26 RT Lead)
         - marosset # 1.29 RT Branch Manager Shadow
+        - mehabhalodiya # 1.31 Release Branch Manager
         - neoaggelos # 1.31 Release Lead
         - npolshakova # 1.31 Release Notes Lead
         - Princesso # 1.31 Docs Lead
@@ -380,6 +383,7 @@ teams:
             members:
             - drewhagen # 1.31 Release Lead Shadow
             - fsmunoz # 1.31 Release Lead Shadow
+            - mehabhalodiya # 1.31 Release Branch Manager
             - neoaggelos # 1.31 Release Lead
             - salehsedghpour # 1.31 Release Lead Shadow
             - sanchita-07 # 1.31 Release Lead Shadow

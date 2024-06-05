@@ -14,7 +14,6 @@ teams:
     members:
       - ameukam
       - dims
-      - spiffxp
       - thockin
     privacy: closed
     repos:
@@ -24,7 +23,6 @@ teams:
     members:
     - ameukam
     - dims
-    - spiffxp
     - thockin
     privacy: closed
     repos:
@@ -36,7 +34,6 @@ teams:
     - bentheelder
     - dims
     - justinsb
-    - spiffxp
     - thockin
     - upodroid
     privacy: closed
@@ -49,7 +46,6 @@ teams:
       - bentheelder
       - dims
       - justinsb
-      - spiffxp
       - thockin
     privacy: closed
     repos:
@@ -61,7 +57,6 @@ teams:
     - bentheelder
     - dims
     - justinsb
-    - spiffxp
     - thockin
     privacy: closed
     repos:

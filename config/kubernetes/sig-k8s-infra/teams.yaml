@@ -81,7 +81,6 @@ teams:
         - cblecker
         members:
         - dims
-        - spiffxp
         - thockin
         privacy: closed
       registry.k8s.io-admins:
@@ -100,7 +99,6 @@ teams:
         - ameukam
         - bentheelder
         - dims
-        - spiffxp
         - thockin
         privacy: closed
         repos:

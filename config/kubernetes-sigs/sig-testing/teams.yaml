@@ -90,7 +90,6 @@ teams:
   kubetest2-admins:
     description: Admin access to kubetest2
     members:
-    - MushuEE
     - upodroid
     privacy: closed
     repos:
@@ -98,7 +97,6 @@ teams:
   kubetest2-maintainers:
     description: Write access to kubetest2
     members:
-    - MushuEE
     - upodroid
     privacy: closed
     repos:

@@ -191,12 +191,14 @@ teams:
     description: Approvers for Russian content
     members:
     - Arhell
+    - kirkonru
     - shurup
     privacy: closed
   sig-docs-ru-reviews:
     description: Reviews for Russian docs PRs
     members:
     - Arhell
+    - kirkonru
     - shurup
     privacy: closed
   sig-docs-pr-reviews:

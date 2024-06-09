@@ -130,6 +130,7 @@ teams:
   sig-docs-ja-owners:
     description: Approvers for Japanese content
     members:
+    - bells17
     - inductor
     - nasa9084
     privacy: closed

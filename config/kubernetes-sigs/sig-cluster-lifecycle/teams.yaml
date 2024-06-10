@@ -274,6 +274,7 @@ teams:
   cluster-api-provider-openstack-admins:
     description: admin access to cluster-api-provider-openstack
     members:
+    - EmilienM
     - jichenjc
     - lentzi90
     - mdbooth
@@ -285,6 +286,7 @@ teams:
   cluster-api-provider-openstack-maintainers:
     description: write access to cluster-api-provider-openstack
     members:
+    - EmilienM
     - jichenjc
     - lentzi90
     - mdbooth

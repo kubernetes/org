@@ -153,6 +153,7 @@ restrictions:
     allowedRepos:
     - "^apisnoop"
     - "^depstat"
+    - "^verify-conformance"
     - "^wg-device-management"
   - path: "kubernetes-sigs/sig-auth/teams.yaml"
     allowedRepos:

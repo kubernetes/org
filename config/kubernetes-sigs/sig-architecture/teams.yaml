@@ -30,6 +30,15 @@ teams:
     privacy: closed
     repos:
       apisnoop: write
+  verify-conformance-admins:
+    description: admin access to the verify-conformance repo
+    members:
+    - BobyMCbobs
+    - heyste
+    - hh
+    privacy: closed
+    repos:
+      verify-conformance: admin
   wg-device-management-admins:
     description: Admin access to wg-device-management repo
     members:

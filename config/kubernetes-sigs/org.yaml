@@ -329,6 +329,7 @@ members:
 - heyste
 - hh
 - Hii-Arpit
+- hime
 - HirazawaUi
 - howardjohn
 - hrak
@@ -1053,6 +1054,7 @@ teams:
     members:
     - amacaskill
     - dannawang0221
+    - hime
     - leiyiz
     - mattcary
     - msau42
@@ -1069,6 +1071,7 @@ teams:
     description: Admin access to the gcp-filestore-csi-driver repo
     members:
     - dannawang0221
+    - hime
     - leiyiz
     - mattcary
     - msau42
@@ -1084,6 +1087,7 @@ teams:
     members:
     - amacaskill
     - dannawang0221
+    - hime
     - leiyiz
     - mattcary
     - msau42

@@ -1514,8 +1514,7 @@ teams:
   ingress-nginx-admins:
     description: Admin access to the ingress-nginx repo
     members:
-    - aledbf
-    - bowei
+    - Gacko
     - rikatz
     - strongjz
     privacy: closed
@@ -1524,8 +1523,9 @@ teams:
   ingress-nginx-maintainers:
     description: Write access to the ingress-nginx repo
     members:
-    - aledbf
     - cpanato
+    - Gacko
+    - puerco
     - rikatz
     - strongjz
     - tao12345666333

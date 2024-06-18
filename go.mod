@@ -1,6 +1,6 @@
 module k8s.io/org
 
-go 1.22
+go 1.22.4
 
 require (
 	github.com/bmatcuk/doublestar v1.3.4

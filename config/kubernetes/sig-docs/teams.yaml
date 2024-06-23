@@ -88,15 +88,15 @@ teams:
   sig-docs-hi-owners:
     description: Approvers for Hindi content
     members:
-    - anubha-v-ardhan
+    - dipesh-rawat
     - divya-mohan0209
     privacy: closed
   sig-docs-hi-reviews:
     description: PR reviews for Hindi content
     members:
-    - anubha-v-ardhan
     - Babapool
     - bishal7679
+    - dipesh-rawat    
     - divya-mohan0209
     privacy: closed
   sig-docs-id-owners:

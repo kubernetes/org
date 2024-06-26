@@ -101,7 +101,6 @@ teams:
         - logicalhan    # shadow
         - richabanker   # shadow
         - soltysh       # approver
-        - spiffxp       # shadow
         - tallclair     # shadow
         - wojtek-t      # approver
         privacy: closed

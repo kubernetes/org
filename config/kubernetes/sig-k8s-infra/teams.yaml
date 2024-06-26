@@ -81,7 +81,6 @@ teams:
         - cblecker
         members:
         - dims
-        - spiffxp
         - thockin
         privacy: closed
       registry.k8s.io-admins:
@@ -100,8 +99,8 @@ teams:
         - ameukam
         - bentheelder
         - dims
-        - spiffxp
         - thockin
+        - upodroid
         privacy: closed
         repos:
           registry.k8s.io: write

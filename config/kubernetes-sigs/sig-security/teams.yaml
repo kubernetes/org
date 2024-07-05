@@ -6,6 +6,25 @@ teams:
     - tabbysable
     privacy: closed
     teams:
+      cve-feed-osv-admins:
+        description: admin access to the cve-feed-osv repo
+        members:
+        - chen-keinan
+        - iancoldwater
+        - knqyf263
+        - pushkarj
+        - tabbysable
+        privacy: closed
+        repos:
+          cve-feed-osv-admins: admin
+      cve-feed-osv-maintainers:
+        description: write access to the cve-feed-osv repo
+        members:
+        - ericsmalling
+        - pushkarj
+        privacy: closed
+        repos:
+          cve-feed-osv-admins: write
       sig-security-leads:
         description: SIG Security Leads
         members:

@@ -16,7 +16,7 @@ teams:
         - tabbysable
         privacy: closed
         repos:
-          cve-feed-osv-admins: admin
+          cve-feed-osv: admin
       cve-feed-osv-maintainers:
         description: write access to the cve-feed-osv repo
         members:
@@ -24,7 +24,7 @@ teams:
         - pushkarj
         privacy: closed
         repos:
-          cve-feed-osv-admins: write
+          cve-feed-osv: write
       sig-security-leads:
         description: SIG Security Leads
         members:

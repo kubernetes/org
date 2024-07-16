@@ -3,7 +3,7 @@ teams:
     description: admin access for the about-api repo
     members:
     - jeremyot
-    - pmorie
+    - skitt
     privacy: closed
     repos:
       about-api: admin
@@ -29,7 +29,7 @@ teams:
     description: Admin access to the mcs-api repo
     members:
     - JeremyOT
-    - pmorie
+    - skitt
     privacy: closed
     repos:
       mcs-api: admin
@@ -38,7 +38,7 @@ teams:
     members:
     - jeremyot
     - lauralorenz
-    - pmorie
+    - skitt
     privacy: closed
     repos:
       sig-multicluster-site: admin
@@ -47,7 +47,7 @@ teams:
     members:
     - jeremyot
     - lauralorenz
-    - pmorie
+    - skitt
     privacy: closed
     repos:
       sig-multicluster-site: write
@@ -55,7 +55,7 @@ teams:
     description: Admin access for the work-api repo
     members:
     - jeremyot
-    - pmorie
+    - skitt
     privacy: closed
     repos:
       work-api: admin

@@ -264,7 +264,6 @@ restrictions:
     - "^iptables-wrappers"
     - "^gateway-api"
     - "^knftables"
-    - "^kpng"
     - "^kube-network-policies"
     - "^network-policy-api"
     - "^node-ipam-controller"

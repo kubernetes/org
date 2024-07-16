@@ -204,14 +204,6 @@ teams:
     privacy: closed
     repos:
       knftables: admin
-  kpng-admins:
-    description: Admin access to the kpng repo
-    members:
-    - mcluseau
-    - thockin
-    privacy: closed
-    repos:
-      kpng: admin
   kube-network-policies-admins:
     description: Admin access to the kube-network-policies repo
     members:

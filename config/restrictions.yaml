@@ -209,7 +209,6 @@ restrictions:
     - "^cluster-api-provider-openstack"
     - "^cluster-api-provider-packet"
     - "^cluster-api-provider-vsphere"
-    - "^etcdadm"
     - "^image-builder"
     - "^kubespray"
     - "^logical-cluster"

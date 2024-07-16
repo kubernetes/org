@@ -366,22 +366,6 @@ teams:
     - vishalanarase
     - willie-yao
     privacy: closed
-  etcdadm-admins:
-    description: Admin access to the etcdadm repo
-    members:
-    - dlipovetsky
-    - justinsb
-    privacy: closed
-    repos:
-      etcdadm: admin
-  etcdadm-maintainers:
-    description: Write access to the etcdadm repo
-    members:
-    - dlipovetsky
-    - justinsb
-    privacy: closed
-    repos:
-      etcdadm: write
   image-builder-admins:
     description: admin access to image-builder
     members:

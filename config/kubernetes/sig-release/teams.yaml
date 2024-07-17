@@ -312,8 +312,8 @@ teams:
               cycle.
             members:
             - AdminTurnedDevOps # 1.31 Release Signal Shadow
-            - Atharva-Shinde # 1.31 Release Signal Shadow
-            - SubhasmitaSw # 1.31 Release Signal Shadow
+            - drewhagen #1.31 Release Lead Shadow
+            - sanchita-07 #1.31 Release Lead Shadow
             - Vyom-Yadav # 1.31 Release Signal Lead
             - wendy-ha18 # 1.31 Release Signal Shadow
             privacy: closed

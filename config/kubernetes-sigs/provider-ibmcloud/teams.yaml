@@ -19,6 +19,7 @@ teams:
     members:
     - ambiknai
     - arahamad
+    - sameshai
     privacy: closed
     repos:
       ibm-vpc-block-csi-driver: admin
@@ -27,6 +28,7 @@ teams:
     members:
     - ambiknai
     - arahamad
+    - sameshai
     privacy: closed
     repos:
       ibm-vpc-block-csi-driver: write

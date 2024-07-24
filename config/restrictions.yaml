@@ -151,6 +151,7 @@ restrictions:
     - "^depstat"
     - "^verify-conformance"
     - "^wg-device-management"
+    - "^wg-serving"
   - path: "kubernetes-sigs/sig-auth/teams.yaml"
     allowedRepos:
     - "^hierarchical-namespaces"

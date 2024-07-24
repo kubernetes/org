@@ -57,3 +57,13 @@ teams:
     privacy: closed
     repos:
       wg-device-management: write
+  wg-serving-admins:
+    description: Admin access to the wg-serving repo
+    members:
+    - ArangoGutierrez
+    - Jeffwan
+    - SergeyKanzhelev
+    - terrytangyuan
+    privacy: closed
+    repos:
+      wg-serving: admin

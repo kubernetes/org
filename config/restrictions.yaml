@@ -151,6 +151,7 @@ restrictions:
     - "^depstat"
     - "^verify-conformance"
     - "^wg-device-management"
+    - "^wg-serving"
   - path: "kubernetes-sigs/sig-auth/teams.yaml"
     allowedRepos:
     - "^hierarchical-namespaces"
@@ -265,6 +266,8 @@ restrictions:
     - "^gateway-api"
     - "^knftables"
     - "^kube-network-policies"
+    - "^multi-network"
+    - "^multi-network-api"
     - "^network-policy-api"
     - "^node-ipam-controller"
   - path: "kubernetes-sigs/sig-node/teams.yaml"

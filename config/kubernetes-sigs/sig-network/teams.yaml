@@ -222,6 +222,20 @@ teams:
     privacy: closed
     repos:
       kube-network-policies: write
+  multi-network:
+    description: admin access to multi-network repo
+    members:
+    - aojea
+    privacy: closed
+    repos:
+      multi-network: admin
+  multi-network-api:
+    description: admin access to multi-network-api repo
+    members:
+    - aojea
+    privacy: closed
+    repos:
+      multi-network-api: admin
   network-policy-api-admins:
     description: Admin access to the network-policy-api repo
     members:

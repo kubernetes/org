@@ -133,6 +133,7 @@ teams:
     - bells17
     - inductor
     - nasa9084
+    - Okabe-Junya
     privacy: closed
   sig-docs-ja-reviews:
     description: PR reviews for Japanese content
@@ -324,6 +325,7 @@ teams:
     - natalisucks # L10n: English
     - nate-double-u # L10n: English
     - nvtkaszpir # L10n: Polish
+    - Okabe-Junya #L10n: Japanese
     - onlydole # L10n: English
     - raelga # L10n: Spanish
     - remyleone # L10n: French

@@ -165,7 +165,7 @@ teams:
   gateway-api-admins:
     description: Admin access to the gateway-api repo
     members:
-    - bowei
+    - mlavacca
     - robscott
     - shaneutt
     - youngnick
@@ -177,7 +177,7 @@ teams:
   gateway-api-maintainers:
     description: Write access to the gateway-api repo
     members:
-    - bowei
+    - mlavacca
     - robscott
     - shaneutt
     - youngnick

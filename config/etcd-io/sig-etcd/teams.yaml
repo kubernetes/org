@@ -38,7 +38,7 @@ teams:
     privacy: closed
     repos:
       dbtester: maintain
-      etcd: admin
+      etcd: maintain
       gofail: maintain
   maintainers-jetcd:
     description: Granted write access to jetcd

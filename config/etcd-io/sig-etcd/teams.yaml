@@ -1,4 +1,26 @@
 teams:
+  etcd-operator-admins:
+    description: Admin access to etcd-operator repo
+    members:
+    - ahrtr
+    - hakman
+    - jberkus
+    - jmhbnz
+    - justinsb
+    privacy: closed
+    repos:
+      etcd-operator: admin
+  etcd-operator-maintainers:
+    description: Write access to etcd-operator repo
+    members:
+    - ahrtr
+    - hakman
+    - jberkus
+    - jmhbnz
+    - justinsb
+    privacy: closed
+    repos:
+      etcd-operator: write  
   maintainers-auger:
     description: Granted write access to auger
     members:

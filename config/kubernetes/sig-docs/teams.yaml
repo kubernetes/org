@@ -7,6 +7,7 @@ teams:
     - nate-double-u
     - onlydole
     - sftim
+    - jefftrojan
     privacy: closed
   sig-docs-de-owners:
     description: Approvers for German content

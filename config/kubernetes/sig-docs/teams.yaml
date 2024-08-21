@@ -33,6 +33,7 @@ teams:
     - nate-double-u
     - onlydole
     - reylejano
+    - salaxander
     - sftim
     - tengqm
     privacy: closed
@@ -49,6 +50,7 @@ teams:
     - nate-double-u
     - onlydole
     - reylejano
+    - salaxander
     - sftim
     - shannonxtreme
     - tengqm
@@ -172,6 +174,7 @@ teams:
     - natalisucks
     - onlydole
     - reylejano
+    - salaxander
     - sftim
     - tengqm
     privacy: closed
@@ -211,6 +214,7 @@ teams:
     - kbhawkey
     - natalisucks
     - reylejano
+    - salaxander
     - tengqm
     privacy: closed
   sig-docs-pt-owners:
@@ -332,6 +336,7 @@ teams:
     - remyleone # L10n: French
     - reylejano # L10n: English
     - rlenferink # L10n: German
+    - salaxander # L10n: English
     - SataQiu # L10n: Chinese
     - seokho-son # L10n: Korean
     - sftim # L10n: English
@@ -369,6 +374,7 @@ teams:
     - remyleone
     - reylejano
     - rlenferink
+    - salaxander
     - SataQiu
     - seokho-son
     - sftim

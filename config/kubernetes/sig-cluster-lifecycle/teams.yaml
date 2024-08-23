@@ -2,9 +2,9 @@ teams:
   kops-admins:
     description: Admin access to the kops repo
     members:
+    - hakman
     - justinsb
-    - mikedanese
-    - zmerlynn
+    - rifelpet
     privacy: closed
     repos:
       kops: admin

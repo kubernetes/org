@@ -10,7 +10,7 @@ admins:
 - thelinuxfoundation
 billing_email: github@kubernetes.io
 default_repository_permission: read
-description: Kubernetes
+description: Production-Grade Container Scheduling and Management
 has_organization_projects: true
 has_repository_projects: true
 members:

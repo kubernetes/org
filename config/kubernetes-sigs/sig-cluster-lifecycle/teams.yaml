@@ -350,22 +350,19 @@ teams:
     # members added in commented lines have a pending membership
     # and will be added back once it is acquired.
     - adilGhaffarDev
+    - cahillsf
     # - chandankumar4
-    - chiukapoor
-    # - dhij
-    - hackeramitkumar
     - jayesh-srivastava
-    # - kperath
-    # - meatballhat
-    # - Nivedita-coder
     - pravarag
     # - rajankumary2k
-    # - shipra101
-    # - smoshiur1237
-    # - Sunnatillo
-    - troy0820
+    - SD-13
+    # - serngawy
+    - sivchari
+    - Sunnatillo
+    # - tasdikrahman
+    - tormath1
+    # - varshasuryawanshi
     - vishalanarase
-    - willie-yao
     privacy: closed
   image-builder-admins:
     description: admin access to image-builder

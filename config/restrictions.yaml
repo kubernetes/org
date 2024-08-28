@@ -144,6 +144,7 @@ restrictions:
     allowedRepos:
     - "^execution-hook"
     - "^jobset"
+    - "^llm-instance-gateway$"
     - "^lws"
   - path: "kubernetes-sigs/sig-architecture/teams.yaml"
     allowedRepos:

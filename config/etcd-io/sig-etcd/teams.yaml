@@ -3,8 +3,10 @@ teams:
     description: Admin access to etcd-operator repo
     members:
     - ahrtr
+    - hakman
     - jberkus
     - jmhbnz
+    - justinsb
     privacy: closed
     repos:
       etcd-operator: admin
@@ -12,8 +14,10 @@ teams:
     description: Write access to etcd-operator repo
     members:
     - ahrtr
+    - hakman
     - jberkus
     - jmhbnz
+    - justinsb
     privacy: closed
     repos:
       etcd-operator: write

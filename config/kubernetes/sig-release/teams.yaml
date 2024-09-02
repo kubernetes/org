@@ -333,10 +333,11 @@ teams:
               as a notification group. Remove org members who are not current
               Release Team Leads.
             maintainers:
-            - katcosgrove  # 1.32 Release EA
+            - Priyankasaggu11929 # 1.31 Release EA
             members:
             - fsmunoz # 1.32 Release Lead
             - jimangel # 1.32 Release Branch Manager
+            - katcosgrove  # 1.32 Release EA
             - npolshakova # 1.32 Release Lead shadow
             - salehsedghpour # 1.32 Release Lead Shadow
             - sreeram-venkitesh # 1.32 Release Lead Shadow

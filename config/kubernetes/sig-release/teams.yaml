@@ -78,6 +78,7 @@ teams:
     - mbianchidev # 1.32 Comms Lead
     - mborsz # Scalability
     - michelle192837 # Testing
+    - mickeyboxell # 1.32 Release Manager Shadow
     - mikedanese # Auth
     - mikezappa87 # Network
     - mm4tt # Scalability
@@ -233,10 +234,11 @@ teams:
         - cpanato # subproject owner / Release Manager
         - gracenng # Release Manager Associate
         - jeremyrickard # subproject owner / Release Manager
-        - jimangel # Release Manager Associate
+        - jimangel # Release Manager Associate / 1.32 Release Manager
         - jrsapi # Release Manager Associate
         - justaugustus # subproject owner / Release Manager
         - marosset # Release Manager Associate
+        - mickeyboxell # 1.32 Release Manager Shadow
         - mehabhalodiya # Release Manager Associate
         - puerco # subproject owner / Release Manager
         - ramrodo # Release Manager Associate
@@ -288,6 +290,7 @@ teams:
         - justaugustus # subproject owner / Chair
         - katcosgrove # 1.30 Lead / 1.32 EA
         - leonardpahlke # subproject owner (1.26 RT Lead)
+        - mickeyboxell # 1.32 Release Manager Shadow
         - puerco # subproject owner / Technical Lead
         - reylejano # subproject owner (1.23 RT Lead)
         - salaxander # subproject owner (1.27 RT Lead)

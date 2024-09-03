@@ -62,8 +62,8 @@ teams:
   kueue-admins:
     description: Admin access to the kueue repo
     members:
-    - ahg-g
     - alculquicondor
+    - mimowo
     - tenzen-y
     privacy: closed
     repos:
@@ -71,8 +71,8 @@ teams:
   kueue-maintainers:
     description: Write access to the kueue repo
     members:
-    - ahg-g
     - alculquicondor
+    - mimowo
     - tenzen-y
     privacy: closed
     repos:

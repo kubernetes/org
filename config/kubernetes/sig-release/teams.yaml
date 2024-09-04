@@ -7,7 +7,6 @@ teams:
     - palnabarun # Release Manager
     - Priyankasaggu11929 # ContribEx
     members:
-    - a-mccarthy # 1.31 Communications Lead
     - adisky # OpenStack
     - ahg-g # Scheduling
     - alculquicondor # Scheduling
@@ -22,6 +21,7 @@ teams:
     - bridgetkromhout # Cloud Provider
     - cantbewong # VMware
     - caseydavenport # Network
+    - chanieljdan # 1.32 Docs Lead
     - cheftako # Cloud Provider
     - cici37 # Release Manager
     - claudiubelu # Windows
@@ -35,7 +35,7 @@ teams:
     - derekwaynecarr # Architecture / Node
     - dgrisonnet # Instrumentation
     - dims # Architecture / K8s Infra
-    - drewhagen # 1.31 Release Lead Shadow
+    - drewhagen # 1.32 Release Signal Lead
     - eddiezane # CLI
     - ehashman # Instrumentation
     - elmiko # Cloud Provider
@@ -44,7 +44,7 @@ teams:
     - feiskyer # Azure
     - floreks # UI
     - frapposelli # VMware
-    - fsmunoz # 1.31 Release Lead Shadow
+    - fsmunoz # 1.32 Release Lead
     - gjtempleton # Autoscaling
     - gracenng # Release Manager Associate / 1.30 RT EA
     - haircommander # Node
@@ -55,7 +55,7 @@ teams:
     - jbpratt # Testing
     - jdumars # Architecture / PM
     - jeremyrickard # Release
-    - jimangel # Docs / Release Manager Associate
+    - jimangel # Docs / Release Manager Associate / 1.32 Release Branch Manager
     - johnbelamaric # Architecture
     - jpbetz # API Machinery
     - jrsapi # Release Manager Associate
@@ -64,7 +64,7 @@ teams:
     - justaugustus # Release
     - justinsb # AWS / Cluster Lifecycle
     - k8s-release-robot # Release
-    - katcosgrove # v1.30 RT Lead
+    - katcosgrove # v1.32 EA
     - khenidak # Azure
     - kow3ns # Apps
     - lavalamp # API Machinery
@@ -75,9 +75,10 @@ teams:
     - maciaszczykm # UI
     - maciekpytel # Autoscaling
     - marosset # Windows
+    - mbianchidev # 1.32 Comms Lead
     - mborsz # Scalability
-    - mehabhalodiya # 1.31 Release Branch Manager
     - michelle192837 # Testing
+    - mickeyboxell # 1.32 Release Manager Shadow
     - mikedanese # Auth
     - mikezappa87 # Network
     - mm4tt # Scalability
@@ -85,23 +86,21 @@ teams:
     - mrunalp # Node
     - msau42 # Storage
     - nckturner # AWS
-    - neoaggelos # 1.31 Release Lead
     - neolit123 # Cluster Lifecycle
-    - npolshakova # 1.31 Release Notes Lead
+    - npolshakova # 1.32 Release Lead Shadow
     - pacoxu # Cluster Lifecycle
     - pmorie # Multicluster
     - pohly # SIG Testing, Instrumentation, Node
-    - Princesso # 1.31 Docs Lead
     - puerco # Release Manager
     - quinton-hoole # Multicluster
     - RainbowMango # Instrumentation
     - ritazh # Auth
     - saad-ali # Storage
     - salaxander # Release Manager Associate / 1.29 RT EA
-    - salehsedghpour # 1.31 Release Lead Shadow
-    - sanchita-07 # 1.31 Release Lead Shadow
+    - salehsedghpour # 1.32 Release Lead Shadow
     - saschagrunert # Release
     - SataQiu # Cluster Lifecycle
+    - satyampsoni # 1.32 Release Notes Lead
     - serathius # Instrumentation
     - SergeyKanzhelev # Node
     - shaneutt # Network
@@ -109,15 +108,16 @@ teams:
     - shyamjvs # Scalability
     - soltysh # CLI
     - spzala # IBM Cloud
-    - sreeram-venkitesh # 1.31 Enhancements Lead
+    - sreeram-venkitesh # 1.32 Release Lead Shadow
     - sttts # API Machinery
     - tallclair # Auth
     - tashimi # Usability
     - thockin # Network
     - timothysc # Cluster Lifecycle / Testing
+    - tjons # 1.32 Enhancements Lead
     - upodroid # K8s Infra
     - Verolop # Release Manager
-    - Vyom-Yadav # 1.31 Release Signal Lead
+    - Vyom-Yadav # 1.32 Release Lead Shadow
     - wojtek-t # Scalability
     - xing-yang # Storage
     - xmcqueen # Testing
@@ -234,11 +234,12 @@ teams:
         - cpanato # subproject owner / Release Manager
         - gracenng # Release Manager Associate
         - jeremyrickard # subproject owner / Release Manager
-        - jimangel # Release Manager Associate
+        - jimangel # Release Manager Associate / 1.32 Release Manager
         - jrsapi # Release Manager Associate
         - justaugustus # subproject owner / Release Manager
         - marosset # Release Manager Associate
         - mehabhalodiya # Release Manager Associate
+        - mickeyboxell # 1.32 Release Manager Shadow
         - puerco # subproject owner / Release Manager
         - ramrodo # Release Manager Associate
         - salaxander # Release Manager Associate
@@ -281,30 +282,22 @@ teams:
         - Priyankasaggu11929 # subproject owner (1.29 RT Lead)
         members:
         - cpanato # subproject owner / Technical Lead
-        - drewhagen # 1.31 Release Lead Shadow
-        - fsmunoz # 1.31 Release Lead Shadow
+        - fsmunoz # 1.32 Release Lead
         - gracenng # subproject owner (1.28 RT Lead)
         - jameslaverack # subproject owner (1.24 RT Lead)
         - jeremyrickard # subproject owner / Technical Lead
-        - jimangel # 1.29 RT Branch Manager
+        - jimangel # 1.32 RT Branch Manager
         - justaugustus # subproject owner / Chair
-        - katcosgrove # 1.30 RT Lead
+        - katcosgrove # 1.30 Lead / 1.32 EA
         - leonardpahlke # subproject owner (1.26 RT Lead)
-        - marosset # 1.29 RT Branch Manager Shadow
-        - mehabhalodiya # 1.31 Release Branch Manager
-        - neoaggelos # 1.31 Release Lead
-        - npolshakova # 1.31 Release Notes Lead
-        - Princesso # 1.31 Docs Lead
+        - mickeyboxell # 1.32 Release Manager Shadow
         - puerco # subproject owner / Technical Lead
         - reylejano # subproject owner (1.23 RT Lead)
         - salaxander # subproject owner (1.27 RT Lead)
-        - salehsedghpour # 1.31 Release Lead Shadow
-        - sanchita-07 # 1.31 Release Lead Shadow
         - saschagrunert # subproject owner / Chair
         - savitharaghunathan # subproject owner (1.22 RT Lead)
-        - sreeram-venkitesh # 1.31 Enhancements Lead
+        - tjons # 1.32 Enhancements Lead
         - Verolop # Release Manager
-        - Vyom-Yadav # 1.31 Release Signal Lead
         - xmudrii # Release Manager
         privacy: closed
         teams:
@@ -312,52 +305,29 @@ teams:
             description: Members of the Release Signal team for the current release
               cycle.
             members:
-            - AdminTurnedDevOps # 1.31 Release Signal Shadow
-            - drewhagen #1.31 Release Lead Shadow
-            - sanchita-07 #1.31 Release Lead Shadow
-            - Vyom-Yadav # 1.31 Release Signal Lead
-            - wendy-ha18 # 1.31 Release Signal Shadow
+            - drewhagen # 1.32 Release Signal Lead
             privacy: closed
           release-team-docs:
             description: Members of the Docs team for the current release cycle.
             members:
-            - chanieljdan # 1.31 Docs Shadow
-            - hacktivist123 # 1.31 Docs Shadow
-            - LaurentGoderre # 1.31 Docs Shadow
-            - MaryamTavakkoli # 1.31 Docs Shadow
-            - Princesso # 1.31 Docs Lead
-            - salaxander # 1.31 Docs Shadow
+            - chanieljdan # 1.32 Docs Lead
             privacy: closed
           release-team-comms:
             description: Members of the Comms team for the current release cycle.
             members:
-            - a-mccarthy # 1.31 Comms Lead
-            - edithturn # 1.31 Comms Shadow
-            - hailkomputer # 1.31 Comms Shadow
-            - mbianchidev # 1.31 Comms Shadow
-            - rashansmith # 1.31 Comms Shadow
+            - mbianchidev # 1.32 Comms Lead
             privacy: closed
           release-team-enhancements:
             description: Members of the Enhancments team for the current release
               cycle.
             members:
-            - ArkaSaha30 # 1.31 Enhancements Shadow
-            - dipesh-rawat # 1.31 Enhancements Shadow
-            - mickeyboxell # 1.31 Enhancements Shadow
-            - prianna # 1.31 Enhancements Shadow
-            - sreeram-venkitesh # 1.31 Enhancements Lead
-            - tjons # 1.31 Enhancements Shadow
+            - tjons # 1.32 Enhancements Lead
             privacy: closed
           release-team-release-notes:
             description: Members of the Release Notes team for the current release
               cycle.
             members:
-            - checksumz # 1.31 Release Notes Shadow
-            - cloudmelon # 1.31 Release Notes Shadow
-            - npolshakova # 1.31 Release Notes Lead
-            - rayandas # 1.31 Release Notes Shadow
-            - satyampsoni # 1.31 Release Notes Shadow
-            - shecodesmagic # 1.31 Release Notes Shadow
+            - satyampsoni # 1.32 Release Notes Lead
             privacy: closed
           release-team-leads:
             description: Release Team Leads for the current Kubernetes release
@@ -368,12 +338,13 @@ teams:
             maintainers:
             - Priyankasaggu11929 # 1.31 Release EA
             members:
-            - drewhagen # 1.31 Release Lead Shadow
-            - fsmunoz # 1.31 Release Lead Shadow
-            - mehabhalodiya # 1.31 Release Branch Manager
-            - neoaggelos # 1.31 Release Lead
-            - salehsedghpour # 1.31 Release Lead Shadow
-            - sanchita-07 # 1.31 Release Lead Shadow
+            - fsmunoz # 1.32 Release Lead
+            - jimangel # 1.32 Release Branch Manager
+            - katcosgrove  # 1.32 Release EA
+            - npolshakova # 1.32 Release Lead shadow
+            - salehsedghpour # 1.32 Release Lead Shadow
+            - sreeram-venkitesh # 1.32 Release Lead Shadow
+            - Vyom-Yadav # 1.32 Release Lead Shadow
             privacy: closed
             repos:
               kubernetes: write

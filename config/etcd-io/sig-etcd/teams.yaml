@@ -60,7 +60,7 @@ teams:
     privacy: closed
     repos:
       dbtester: maintain
-      etcd: maintain
+      etcd: admin
       gofail: maintain
   maintainers-jetcd:
     description: Granted write access to jetcd
@@ -151,4 +151,4 @@ teams:
     repos:
       # Permission set to triage during bau activities
       # During release windows this will be bumped to `maintain`
-      etcd: triage
+      etcd: maintain

@@ -69,6 +69,13 @@ teams:
     privacy: closed
     repos:
       cluster-api-ipam-provider-in-cluster: admin
+  cluster-api-ipam-provider-in-cluster-maintainers:
+    description: "write access to cluster-api-ipam-provider-in-cluster"
+    members:
+    - mcbenjemaa
+    privacy: closed
+    repos:
+      cluster-api-ipam-provider-in-cluster: write
   cluster-api-operator-admins:
     description: "admin access to cluster-api-operator"
     members:

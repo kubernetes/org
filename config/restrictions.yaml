@@ -259,6 +259,7 @@ restrictions:
     - "^blixt"
     - "^cluster-proportional-autoscaler"
     - "^cluster-proportional-vertical-autoscaler"
+    - "^gwctl"
     - "^ip-masq-agent"
     - "^external-dns"
     - "^ingress2gateway"

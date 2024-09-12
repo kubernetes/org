@@ -317,6 +317,10 @@ teams:
             description: Members of the Comms team for the current release cycle.
             members:
             - mbianchidev # 1.32 Comms Lead
+            - edithturn # 1.32 Comms Shadow
+            - rashansmith # 1.32 Comms Shadow
+            - rytswd # 1.32 Comms Shadow
+            - wrkode # 1.32 Comms Shadow
             privacy: closed
           release-team-enhancements:
             description: Members of the Enhancments team for the current release

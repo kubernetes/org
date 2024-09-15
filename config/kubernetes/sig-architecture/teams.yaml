@@ -41,12 +41,17 @@ teams:
     - mrbobbytables # subproject owner
     members:
     - Atharva-Shinde # 1.28 RT Enhancements Lead
+    - dipesh-rawat # 1.32 Enhancements Shadow
+    - impact-maker # 1.32 Enhancements Shadow
+    - jenshu # 1.32 Enhancements Shadow
     - jeremyrickard # subproject owner
     - johnbelamaric # subproject owner
     - justaugustus # subproject owner
     - kikisdeliveryservice # subproject owner
     - LappleApple # subproject owner
     - salehsedghpour # 1.30 RT Enhancements Lead
+    - shecodesmagic # 1.32 Enhancements Shadow
+    - tjons # 1.32 Enhancements Lead
     privacy: closed
     teams:
       enhancements-admins:

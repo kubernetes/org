@@ -33,8 +33,8 @@ teams:
     - dchen1107 # Node
     - deads2k # API Machinery / Auth
     - derekwaynecarr # Architecture / Node
-    - dipesh-rawat # 1.32 Enhancements Shadow
     - dgrisonnet # Instrumentation
+    - dipesh-rawat # 1.32 Enhancements Shadow
     - dims # Architecture / K8s Infra
     - drewhagen # 1.32 Release Signal Lead
     - eddiezane # CLI

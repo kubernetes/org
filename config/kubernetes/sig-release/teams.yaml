@@ -124,7 +124,7 @@ teams:
     - upodroid # K8s Infra
     - Verolop # Release Manager
     - Vyom-Yadav # 1.32 Release Lead Shadow
-    - wendy-ha # 1.32 Release Signal Shadow
+    - wendy-ha18 # 1.32 Release Signal Shadow
     - wojtek-t # Scalability
     - xing-yang # Storage
     - xmcqueen # Testing
@@ -317,7 +317,7 @@ teams:
               cycle.
             members:
             - drewhagen # 1.32 Release Signal Lead
-            - wendy-ha # 1.32 Release Signal Shadow
+            - wendy-ha18 # 1.32 Release Signal Shadow
             - michaelfromyeg # 1.32 Release Signal Shadow
             - Princesso # 1.32 Release Signal Shadow
             - knabben # 1.32 Release Signal Shadow

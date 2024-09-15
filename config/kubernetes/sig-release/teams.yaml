@@ -34,8 +34,8 @@ teams:
     - deads2k # API Machinery / Auth
     - derekwaynecarr # Architecture / Node
     - dgrisonnet # Instrumentation
-    - dipesh-rawat # 1.32 Enhancements Shadow
     - dims # Architecture / K8s Infra
+    - dipesh-rawat # 1.32 Enhancements Shadow
     - drewhagen # 1.32 Release Signal Lead
     - eddiezane # CLI
     - ehashman # Instrumentation

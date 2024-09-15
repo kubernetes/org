@@ -94,6 +94,7 @@ teams:
     - pacoxu # Cluster Lifecycle
     - pmorie # Multicluster
     - pohly # SIG Testing, Instrumentation, Node
+    - Princesso # 1.32 Release Signal Shadow
     - puerco # Release Manager
     - quinton-hoole # Multicluster
     - RainbowMango # Instrumentation
@@ -123,6 +124,7 @@ teams:
     - upodroid # K8s Infra
     - Verolop # Release Manager
     - Vyom-Yadav # 1.32 Release Lead Shadow
+    - wendy-ha # 1.32 Release Signal Shadow
     - wojtek-t # Scalability
     - xing-yang # Storage
     - xmcqueen # Testing
@@ -315,6 +317,11 @@ teams:
               cycle.
             members:
             - drewhagen # 1.32 Release Signal Lead
+            - wendy-ha # 1.32 Release Signal Shadow
+            - michaelfromyeg # 1.32 Release Signal Shadow
+            - Princesso # 1.32 Release Signal Shadow
+            - knabben # 1.32 Release Signal Shadow
+            - tico88612 # 1.32 Release Signal Shadow
             privacy: closed
           release-team-docs:
             description: Members of the Docs team for the current release cycle.

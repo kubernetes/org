@@ -317,11 +317,11 @@ teams:
               cycle.
             members:
             - drewhagen # 1.32 Release Signal Lead
-            - wendy-ha18 # 1.32 Release Signal Shadow
+            - knabben # 1.32 Release Signal Shadow
             - michaelfromyeg # 1.32 Release Signal Shadow
             - Princesso # 1.32 Release Signal Shadow
-            - knabben # 1.32 Release Signal Shadow
             - tico88612 # 1.32 Release Signal Shadow
+            - wendy-ha18 # 1.32 Release Signal Shadow
             privacy: closed
           release-team-docs:
             description: Members of the Docs team for the current release cycle.

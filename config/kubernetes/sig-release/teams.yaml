@@ -326,7 +326,12 @@ teams:
           release-team-docs:
             description: Members of the Docs team for the current release cycle.
             members:
+            - AnshumanTripathi # 1.32 Docs Shadow
             - chanieljdan # 1.32 Docs Lead
+            - hacktivist123 # 1.32 Docs Shadow
+            - michellengnx # 1.32 Docs Shadow
+            - rdalbuquerque # 1.32 Docs Shadow
+            - spurin # 1.32 Docs Shadow
             privacy: closed
           release-team-comms:
             description: Members of the Comms team for the current release cycle.

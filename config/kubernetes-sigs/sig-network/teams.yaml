@@ -55,6 +55,28 @@ teams:
     privacy: closed
     repos:
       cluster-proportional-vertical-autoscaler: write
+  gwctl-admins:
+    description: Admin access to the gwctl repo
+    members:
+    - gauravkghildiyal
+    - mlavacca
+    - robscott
+    - shaneutt
+    - youngnick
+    privacy: closed
+    repos:
+      gwctl: admin
+  gwctl-maintainers:
+    description: Write access to the gwctl repo
+    members:
+    - gauravkghildiyal
+    - mlavacca
+    - robscott
+    - shaneutt
+    - youngnick
+    privacy: closed
+    repos:
+      gwctl: write
   ip-masq-agent-admins:
     description: Admin access to the ip-masq-agent repo
     members:

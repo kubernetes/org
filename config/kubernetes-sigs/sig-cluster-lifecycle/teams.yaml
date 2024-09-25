@@ -393,6 +393,32 @@ teams:
     privacy: closed
     repos:
       image-builder: write
+  karpenter-provider-cluster-api-admins:
+    description: Admin access to the karpenter-provider-cluster-api repo
+    members:
+    - elmiko
+    - fabriziopandini
+    - sbueringer
+    - vincepri
+    privacy: closed
+    repos:
+      karpenter-provider-cluster-api: admin
+  karpenter-provider-cluster-api-maintainers:
+    description: Write access to the karpenter-provider-cluster-api repo
+    members:
+    - chrischdi
+    - elmiko
+    - enxebre
+    - fabriziopandini
+    - killianmuldoon
+    - mtougeron
+    - mtulio
+    - sbueringer
+    - vincepri
+    - vrabbi
+    privacy: closed
+    repos:
+      karpenter-provider-cluster-api: write
   kubespray-admins:
     description: Admin access to the kubespray repo
     members:

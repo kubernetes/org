@@ -212,6 +212,7 @@ restrictions:
     - "^cluster-api-provider-packet"
     - "^cluster-api-provider-vsphere"
     - "^image-builder"
+    - "^karpenter-provider-cluster-api"
     - "^kubespray"
     - "^logical-cluster"
     - "^minikube-gui"

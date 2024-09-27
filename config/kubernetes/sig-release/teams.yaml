@@ -328,13 +328,13 @@ teams:
             description: Members of the Release Notes team for the current release
               cycle.
             members:
-            - satyampsoni # 1.32 Release Notes Lead
             - augustintsang # 1.32 Release Notes Shadow
             - cloudmelon # 1.32 Release Notes Shadow
             - jefftrojan # 1.32 Release Notes Shadow
-            - sn3hay # 1.32 Release Notes Shadow
             - lavishpal # 1.32 Release Notes Shadow
             - rayandas # 1.32 Release Notes Shadow
+            - satyampsoni # 1.32 Release Notes Lead
+            - sn3hay # 1.32 Release Notes Shado
             privacy: closed
           release-team-leads:
             description: Release Team Leads for the current Kubernetes release

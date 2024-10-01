@@ -328,7 +328,6 @@ teams:
             description: Members of the Release Notes team for the current release
               cycle.
             members:
-            - augustintsang # 1.32 Release Notes Shadow
             - cloudmelon # 1.32 Release Notes Shadow
             - jefftrojan # 1.32 Release Notes Shadow
             - lavishpal # 1.32 Release Notes Shadow

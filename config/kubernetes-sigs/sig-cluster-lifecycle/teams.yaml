@@ -98,10 +98,11 @@ teams:
   cluster-api-provider-aws-maintainers:
     description: maintain access to cluster-api-provider-aws
     members:
+    - AndiDog 
     - Ankitasw
     - dlipovetsky
+    - nrb
     - richardcase
-    - vincepri
     privacy: closed
     repos:
       cluster-api-provider-aws: maintain
@@ -109,7 +110,6 @@ teams:
     description: write access to cluster-api-provider-aws. maintainers are implied members of release team.
     members:
     - damdo
-    - nrb
     privacy: closed
     repos:
       cluster-api-provider-aws: write

@@ -169,12 +169,12 @@ aliases:
     - ritazh
     - tabbysable
   committee-steering:
+    - aojea
     - BenTheElder
     - justaugustus
-    - mrbobbytables
     - pacoxu
-    - palnabarun
     - pohly
+    - saschagrunert
     - soltysh
 ## BEGIN CUSTOM CONTENT
   provider-aws:

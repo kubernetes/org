@@ -48,7 +48,6 @@ teams:
     members:
     - dashpole
     - dgrisonnet
-    - fpetkovski
     - logicalhan
     - mrueg
     - rexagod
@@ -59,7 +58,6 @@ teams:
     description: Write access to the kube-state-metrics repo
     members:
     - dgrisonnet
-    - fpetkovski
     - mrueg
     - rexagod
     privacy: closed

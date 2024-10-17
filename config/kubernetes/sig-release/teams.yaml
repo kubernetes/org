@@ -67,6 +67,7 @@ teams:
     - justaugustus # Release
     - justinsb # AWS / Cluster Lifecycle
     - k8s-release-robot # Release
+    - kannon92 # wg-batch organizer
     - katcosgrove # v1.32 EA
     - khenidak # Azure
     - kow3ns # Apps

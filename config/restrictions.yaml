@@ -207,7 +207,6 @@ restrictions:
     - "^cluster-api-provider-gcp"
     - "^cluster-api-provider-kubemark"
     - "^cluster-api-provider-kubevirt"
-    - "^cluster-api-provider-nested"
     - "^cluster-api-provider-openstack"
     - "^cluster-api-provider-packet"
     - "^cluster-api-provider-vsphere"

@@ -60,6 +60,7 @@ teams:
     members:
     - aojea
     - LionelJouin
+    - MikeZappa87
     privacy: closed
     repos:
       cni-dra-driver: admin
@@ -68,6 +69,7 @@ teams:
     members:
     - aojea
     - LionelJouin
+    - MikeZappa87
     privacy: closed
     repos:
       cni-dra-driver: write

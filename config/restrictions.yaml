@@ -260,6 +260,7 @@ restrictions:
     - "^blixt"
     - "^cluster-proportional-autoscaler"
     - "^cluster-proportional-vertical-autoscaler"
+    - "^cni-dra-driver"
     - "^gwctl"
     - "^ip-masq-agent"
     - "^external-dns"

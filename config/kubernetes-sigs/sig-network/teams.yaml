@@ -55,6 +55,22 @@ teams:
     privacy: closed
     repos:
       cluster-proportional-vertical-autoscaler: write
+  cni-dra-driver-admins:
+    description: Admin access to the cni-dra-driver repo
+    members:
+    - aojea
+    - LionelJouin
+    privacy: closed
+    repos:
+      cni-dra-driver: admin
+  cni-dra-driver-maintainers:
+    description: Admin access to the cni-dra-driver epo
+    members:
+    - aojea
+    - LionelJouin
+    privacy: closed
+    repos:
+      cni-dra-driver: write
   gwctl-admins:
     description: Admin access to the gwctl repo
     members:

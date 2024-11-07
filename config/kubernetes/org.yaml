@@ -1763,6 +1763,7 @@ teams:
       csi-translation-lib: admin
       dynamic-resource-allocation: admin
       endpointslice: admin
+      externaljwt: admin
       kms: admin
       kube-aggregator: admin
       kube-controller-manager: admin

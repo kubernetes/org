@@ -18,6 +18,7 @@ restrictions:
     - "^csi-translation-lib"
     - "^dynamic-resource-allocation"
     - "^endpointslice"
+    - "^externaljwt"
     - "^kms"
     - "^kube-aggregator"
     - "^kube-controller-manager"

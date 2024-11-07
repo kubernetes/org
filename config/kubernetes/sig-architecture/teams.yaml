@@ -48,7 +48,6 @@ teams:
     - johnbelamaric # subproject owner
     - justaugustus # subproject owner
     - kikisdeliveryservice # subproject owner
-    - LappleApple # subproject owner
     - salehsedghpour # 1.30 RT Enhancements Lead
     - shecodesmagic # 1.32 Enhancements Shadow
     - tjons # 1.32 Enhancements Lead
@@ -63,7 +62,6 @@ teams:
         - johnbelamaric # subproject owner
         - justaugustus # subproject owner
         - kikisdeliveryservice # subproject owner
-        - LappleApple # subproject owner
         privacy: closed
         repos:
           enhancements: admin
@@ -76,7 +74,6 @@ teams:
         - johnbelamaric # subproject owner
         - justaugustus # subproject owner
         - kikisdeliveryservice # subproject owner
-        - LappleApple # subproject owner
         previously:
         - features-maintainers
         privacy: closed

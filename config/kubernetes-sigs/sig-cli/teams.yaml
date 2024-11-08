@@ -94,6 +94,7 @@ teams:
     members:
     - alexzielenski
     - apelisse
+    - cici37
     privacy: closed
     repos:
       kubectl-validate: admin
@@ -102,6 +103,7 @@ teams:
     members:
     - alexzielenski
     - apelisse
+    - cici37
     privacy: closed
     repos:
       kubectl-validate: write

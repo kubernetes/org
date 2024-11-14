@@ -20,6 +20,7 @@ teams:
     - dgrisonnet
     - logicalhan
     - rexagod
+    - richabanker
     privacy: closed
     repos:
       instrumentation: admin
@@ -30,6 +31,7 @@ teams:
     - dgrisonnet
     - logicalhan
     - rexagod
+    - richabanker
     privacy: closed
     repos:
       instrumentation-tools: admin
@@ -40,6 +42,7 @@ teams:
     - dgrisonnet
     - logicalhan
     - rexagod
+    - richabanker
     privacy: closed
     repos:
       instrumentation-tools: write

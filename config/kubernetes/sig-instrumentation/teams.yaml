@@ -6,6 +6,7 @@ teams:
     - dgrisonnet
     - logicalhan
     - rexagod
+    - richabanker
     privacy: closed
   sig-instrumentation-approvers:
     description: ""
@@ -17,6 +18,7 @@ teams:
     - logicalhan
     - RainbowMango
     - rexagod
+    - richabanker
     - serathius
     privacy: closed
   sig-instrumentation-members:
@@ -35,7 +37,7 @@ teams:
     - pohly
     - RainbowMango
     - rexagod
-    - RichaBanker
+    - richabanker
     - s-urbaniak
     - serathius
     - tariq1890
@@ -51,6 +53,7 @@ teams:
     - logicalhan
     - mrueg
     - rexagod
+    - richabanker
     privacy: closed
     repos:
       kube-state-metrics: admin

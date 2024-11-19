@@ -50,7 +50,6 @@ teams:
     - gracenng # Release Manager Associate / 1.30 RT EA
     - haircommander # Node
     - Huang-Wei # Scheduling
-    - impact-maker # 1.32 Enhancements Shadow
     - janetkuo # Apps
     - jayunit100 # Windows
     - jberkus # Release
@@ -292,7 +291,6 @@ teams:
         - dipesh-rawat # 1.32 Enhancements Shadow
         - fsmunoz # 1.32 Release Lead
         - gracenng # subproject owner (1.28 RT Lead)
-        - impact-maker # 1.32 Enhancements Shadow
         - jameslaverack # subproject owner (1.24 RT Lead)
         - jenshu # 1.32 Enhancements Shadow
         - jeremyrickard # subproject owner / Technical Lead
@@ -347,7 +345,6 @@ teams:
               cycle.
             members:
             - dipesh-rawat # 1.32 Enhancements Shadow
-            - impact-maker # 1.32 Enhancements Shadow
             - jenshu # 1.32 Enhancements Shadow
             - shecodesmagic # 1.32 Enhancements Shadow
             - tjons # 1.32 Enhancements Lead

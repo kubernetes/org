@@ -85,7 +85,9 @@ body:
   type: input
   attributes:
     label: What SIG and subproject does this fall under?
-    description: See [sigs.yaml](https://git.k8s.io/community/sigs.yaml) if you need a reference.
+    description: |
+      See [sigs.yaml](https://git.k8s.io/community/sigs.yaml) if you need a reference.
+      Note that working groups cannot own repositories, and any code artifacts of a working group should be owned by a single one of the sponsoring SIGs.
     placeholder: e.g. this is a new subproject for sig-foo called bar-baz
   validations:
     required: true

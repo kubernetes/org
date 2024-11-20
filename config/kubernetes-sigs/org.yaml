@@ -14,6 +14,7 @@ description: Org for Kubernetes SIG-related work
 has_organization_projects: true
 has_repository_projects: true
 members:
+- 0ekk
 - 196Ikuchil
 - "249043822"
 - 92nqb
@@ -914,7 +915,6 @@ members:
 - troy0820
 - truongnh1992
 - tssurya
-- tu1h
 - tukwila
 - tuminoid
 - tuxtof

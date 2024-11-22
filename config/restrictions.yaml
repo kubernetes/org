@@ -308,6 +308,7 @@ restrictions:
     - "^scheduler-plugins"
   - path: "kubernetes-sigs/sig-storage/teams.yaml"
     allowedRepos:
+    - "^container-object-storage-interface"
     - "^container-object-storage-interface-api"
     - "^container-object-storage-interface-controller"
     - "^container-object-storage-interface-provisioner-sidecar"

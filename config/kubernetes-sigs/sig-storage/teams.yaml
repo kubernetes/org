@@ -42,69 +42,6 @@ teams:
     privacy: closed
     repos:
       container-object-storage-interface-api: write
-  container-object-storage-interface-controller-admins:
-    description: Admin access to container-object-storage-interface-controller
-    members:
-    - jsafrane
-    - msau42
-    - saad-ali
-    - xing-yang
-    privacy: closed
-    repos:
-      container-object-storage-interface-controller: admin
-  container-object-storage-interface-controller-maintainers:
-    description: Write access to container-object-storage-interface-controller
-    members:
-    - jsafrane
-    - msau42
-    - saad-ali
-    - wlan0
-    - xing-yang
-    privacy: closed
-    repos:
-      container-object-storage-interface-controller: write
-  container-object-storage-interface-provisioner-sidecar-admins:
-    description: Admin access to container-object-storage-interface-provisioner-sidecar
-    members:
-    - jsafrane
-    - msau42
-    - saad-ali
-    - xing-yang
-    privacy: closed
-    repos:
-      container-object-storage-interface-provisioner-sidecar: admin
-  container-object-storage-interface-provisioner-sidecar-maintainers:
-    description: Write access to container-object-storage-interface-provisioner-sidecar
-    members:
-    - jsafrane
-    - msau42
-    - saad-ali
-    - wlan0
-    - xing-yang
-    privacy: closed
-    repos:
-      container-object-storage-interface-provisioner-sidecar: write
-  container-object-storage-interface-spec-admins:
-    description: Admin access to container-object-storage-interface-spec
-    members:
-    - jsafrane
-    - msau42
-    - saad-ali
-    - xing-yang
-    privacy: closed
-    repos:
-      container-object-storage-interface-spec: admin
-  container-object-storage-interface-spec-maintainers:
-    description: Write access to container-object-storage-interface-spec
-    members:
-    - jsafrane
-    - msau42
-    - saad-ali
-    - wlan0
-    - xing-yang
-    privacy: closed
-    repos:
-      container-object-storage-interface-spec: write
   cosi-driver-sample-admins:
     description: Admin access to cosi-driver-sample
     members:

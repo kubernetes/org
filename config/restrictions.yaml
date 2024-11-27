@@ -310,9 +310,6 @@ restrictions:
     allowedRepos:
     - "^container-object-storage-interface"
     - "^container-object-storage-interface-api"
-    - "^container-object-storage-interface-controller"
-    - "^container-object-storage-interface-provisioner-sidecar"
-    - "^container-object-storage-interface-spec"
     - "^cosi-driver-sample"
     - "^gcp-compute-persistent-disk-csi-driver"
     - "^gcp-filestore-csi-driver"

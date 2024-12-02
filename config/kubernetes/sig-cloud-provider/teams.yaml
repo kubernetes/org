@@ -2,11 +2,9 @@ teams:
   sig-cloud-provider:
     description: Parent Team for SIG Cloud Provider
     members:
-    - andrewsykim
+    - bridgetkromhout
     - cheftako
-    - justaugustus
-    - nckturner
-    - yastij
+    - elmiko
     privacy: closed
     teams:
       cloud-provider-sample-admins:
@@ -59,43 +57,58 @@ teams:
       sig-cloud-provider-api-reviews:
         description: ""
         members:
-        - andrewsykim
+        - bridgetkromhout
+        - cheftako
+        - elmiko
         privacy: closed
       sig-cloud-provider-bugs:
         description: ""
         members:
-        - andrewsykim
+        - bridgetkromhout
+        - cheftako
+        - elmiko
         privacy: closed
       sig-cloud-provider-feature-requests:
         description: ""
         members:
-        - andrewsykim
+        - bridgetkromhout
+        - cheftako
+        - elmiko
         privacy: closed
       sig-cloud-provider-misc:
         description: ""
         members:
-        - andrewsykim
+        - bridgetkromhout
+        - cheftako
+        - elmiko
         privacy: closed
       sig-cloud-provider-pr-reviews:
         description: ""
         members:
-        - andrewsykim
-        - nckturner
+        - bridgetkromhout
+        - cheftako
+        - elmiko
         privacy: closed
       sig-cloud-provider-proposals:
         description: ""
         members:
-        - andrewsykim
+        - bridgetkromhout
+        - cheftako
+        - elmiko
         privacy: closed
       sig-cloud-provider-test-failures:
         description: ""
         members:
-        - andrewsykim
+        - bridgetkromhout
+        - cheftako
+        - elmiko
         privacy: closed
   sig-cloud-provider-admins:
     description: ""
     members:
-    - andrewsykim
+    - bridgetkromhout
+    - cheftako
+    - elmiko
     privacy: closed
     repos:
       cloud-provider: admin
@@ -103,7 +116,7 @@ teams:
   sig-cloud-provider-leads:
     description: ""
     members:
-    - andrewsykim
+    - bridgetkromhout
     - cheftako
-    - nckturner
+    - elmiko
     privacy: closed

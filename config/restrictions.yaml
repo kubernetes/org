@@ -264,6 +264,7 @@ restrictions:
     - "^gwctl"
     - "^ip-masq-agent"
     - "^external-dns"
+    - "^ingate"
     - "^ingress2gateway"
     - "^ingress-controller-conformance"
     - "^iptables-wrappers"

@@ -140,6 +140,25 @@ teams:
     - maintainers-external-dns
     repos:
       external-dns: write
+  ingate-admins:
+    description: Admin access to the ingate repo
+    members:
+    - gacko
+    - rikatz
+    - strongjz
+    privacy: closed
+    repos:
+      ingate: admin
+  ingate-maintainers:
+    description: Write access to the ingate repo
+    members:
+    - gacko
+    - rikatz
+    - strongjz
+    - tao12345666333
+    privacy: closed
+    repos:
+      ingate: write
   ingress2gateway-admins:
     description: Admin access to the ingress2gateway repo
     members:

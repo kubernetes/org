@@ -58,6 +58,22 @@ teams:
     privacy: closed
     repos:
       kube-scheduler-wasm-extension: admin
+  kjob-admins:
+    description: Admin access to the kjob repo
+    members:
+    - mimowo
+    - mwielgus
+    privacy: closed
+    repos:
+      kjob: admin
+  kjob-maintainers:
+    description: Write access to the kjob repo
+    members:
+    - mimowo
+    - mwielgus
+    privacy: closed
+    repos:
+      kjob: write
   kueue-admins:
     description: Admin access to the kueue repo
     members:

@@ -304,6 +304,7 @@ restrictions:
     - "^kube-batch"
     - "^kube-scheduler-simulator"
     - "^kube-scheduler-wasm-extension"
+    - "^kjob"
     - "^kueue"
     - "^kwok"
     - "^scheduler-plugins"

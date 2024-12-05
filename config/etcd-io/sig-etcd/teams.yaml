@@ -96,6 +96,17 @@ teams:
     privacy: closed
     repos:
       website: admin
+  maintainers-labs:
+    description: Granted write access to etcdlabs
+    members:
+    - ahrtr
+    - jmhbnz
+    - serathius
+    - spzala
+    - wenjiaswe
+    privacy: closed
+    repos:
+      etcdlabs: admin
   members:
     description: ""
     members:

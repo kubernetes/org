@@ -30,6 +30,22 @@ teams:
     privacy: closed
     repos:
       jobset: write
+  kjob-admins:
+    description: Admin access to kjob repo
+    members:
+    - mimowo
+    - mwielgus
+    privacy: closed
+    repos:
+      kjob: admin
+  kjob-maintainers:
+    description: Write access to kjob repo
+    members:
+    - mimowo
+    - mwielgus
+    privacy: closed
+    repos:
+      kjob: write
   llm-instance-gateway-admins:
     description: Admin access to llm-instance-gateway repo
     members:

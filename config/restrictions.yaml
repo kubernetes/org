@@ -311,7 +311,6 @@ restrictions:
   - path: "kubernetes-sigs/sig-storage/teams.yaml"
     allowedRepos:
     - "^container-object-storage-interface"
-    - "^container-object-storage-interface-api"
     - "^cosi-driver-sample"
     - "^gcp-compute-persistent-disk-csi-driver"
     - "^gcp-filestore-csi-driver"

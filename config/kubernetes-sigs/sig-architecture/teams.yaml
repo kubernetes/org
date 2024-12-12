@@ -17,6 +17,9 @@ teams:
     - cooldracula
     - heyste
     - hh
+    - koksay
+    - mfahlandt
+    - xmudrii
     privacy: closed
     repos:
       apisnoop: admin
@@ -27,6 +30,9 @@ teams:
     - cooldracula
     - heyste
     - hh
+    - koksay
+    - mfahlandt
+    - xmudrii
     privacy: closed
     repos:
       apisnoop: write
@@ -36,6 +42,9 @@ teams:
     - BobyMCbobs
     - heyste
     - hh
+    - koksay
+    - mfahlandt
+    - xmudrii
     privacy: closed
     repos:
       verify-conformance: admin

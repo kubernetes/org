@@ -8,6 +8,7 @@ teams:
     - k8s-infra-ci-robot
     - thockin
     - upodroid
+    - xmudrii
     privacy: closed
     repos:
       k8s.io: admin
@@ -36,6 +37,7 @@ teams:
     - stp-ip
     - thockin
     - upodroid
+    - xmudrii
     privacy: closed
     teams:
       sig-k8s-infra-leads:
@@ -45,6 +47,7 @@ teams:
         - BenTheElder
         - dims
         - upodroid
+        - xmudrii
         privacy: closed
       k8s-infra-aws-admins:
         description: granted access to the k8s-infra AWS account
@@ -74,6 +77,7 @@ teams:
         - BenTheElder
         - dims
         - upodroid
+        - xmudrii
         privacy: closed
       k8s-infra-group-admins:
         description: granted run access to kubernetes.io groups reconciler
@@ -90,6 +94,7 @@ teams:
         - bentheelder
         - dims
         - upodroid
+        - xmudrii
         privacy: closed
         repos:
           registry.k8s.io: admin
@@ -101,6 +106,7 @@ teams:
         - dims
         - thockin
         - upodroid
+        - xmudrii
         privacy: closed
         repos:
           registry.k8s.io: write

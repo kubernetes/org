@@ -69,6 +69,7 @@ teams:
     - stevekuznetsov
     - thockin    # k8s-infra-oncall
     - upodroid    # k8s-infra-oncall
+    - xmudrii     # k8s-infra-oncall
     privacy: closed
     repos:
       publishing-bot: admin

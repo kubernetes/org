@@ -125,7 +125,7 @@ teams:
     - wojtek-t # Scalability
     - xing-yang # Storage
     - xmcqueen # Testing
-    - xmudrii # Release Manager
+    - xmudrii # Release Manager / K8s Infra
     privacy: closed
     previously:
     - kubernetes-milestone-maintainers

@@ -6,6 +6,7 @@ teams:
     - BenTheElder
     - dims
     - upodroid
+    - xmudrii
     privacy: closed
     repos:
       community-images: admin
@@ -36,6 +37,7 @@ teams:
     - justinsb
     - thockin
     - upodroid
+    - xmudrii
     privacy: closed
     repos:
       porche: admin

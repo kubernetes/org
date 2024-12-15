@@ -1563,7 +1563,6 @@ teams:
     description: Admin access to the ingress-nginx repo
     members:
     - Gacko
-    - rikatz
     - strongjz
     privacy: closed
     repos:
@@ -1574,7 +1573,6 @@ teams:
     - cpanato
     - Gacko
     - puerco
-    - rikatz
     - strongjz
     - tao12345666333
     privacy: closed

@@ -221,6 +221,16 @@ teams:
     privacy: closed
     repos:
       iptables-wrappers: write
+  gateway-api-inference-extension-admins:
+    description: Admin access to gateway-api-inference-extension
+    members:
+    - ArangoGutierrez
+    - Jeffwan
+    - SergeyKanzhelev
+    - terrytangyuan
+    privacy: closed
+    repos:
+      gateway-api-inference-extension: admin
   gateway-api-admins:
     description: Admin access to the gateway-api repo
     members:

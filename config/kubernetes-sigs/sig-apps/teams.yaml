@@ -46,16 +46,6 @@ teams:
     privacy: closed
     repos:
       kjob: write
-  llm-instance-gateway-admins:
-    description: Admin access to llm-instance-gateway repo
-    members:
-    - ArangoGutierrez
-    - Jeffwan
-    - SergeyKanzhelev
-    - terrytangyuan
-    privacy: closed
-    repos:
-      llm-instance-gateway: admin
   lws-admins:
     description: Admin access to lws repo
     members:

@@ -144,7 +144,6 @@ teams:
     description: Admin access to the ingate repo
     members:
     - Gacko
-    - rikatz
     - strongjz
     privacy: closed
     repos:
@@ -153,7 +152,6 @@ teams:
     description: Write access to the ingate repo
     members:
     - Gacko
-    - rikatz
     - strongjz
     - tao12345666333
     privacy: closed

@@ -24,6 +24,7 @@ teams:
   kubeadm-admins:
     description: Admin access to the kubeadm repo
     members:
+    - carlory
     - fabriziopandini
     - neolit123
     - pacoxu
@@ -34,6 +35,7 @@ teams:
   kubeadm-maintainers:
     description: Write access to the kubeadm repo
     members:
+    - carlory
     - fabriziopandini
     - neolit123
     - pacoxu

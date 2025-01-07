@@ -84,3 +84,12 @@ teams:
     - gjtempleton
     - maciekpytel
     privacy: closed
+  sig-autoscaling-milestone-maintainers:
+    description: Contributors who can use `/milestone` in the autoscaling repo
+    members:
+    - adrianmoisey
+    - kwiesmueller
+    - omerap12
+    - raywainman
+    - voelzmo
+    privacy: closed

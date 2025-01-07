@@ -50,7 +50,7 @@ teams:
     description: Admin access to lws repo
     members:
     - ahg-g
-    - liurupeng
+    - edwinhr716
     privacy: closed
     repos:
       lws: admin

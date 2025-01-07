@@ -1,0 +1,24 @@
+teams:
+  cloud-provider-gcp-admins:
+    description: Admin access to cloud-provider-gcp repo
+    members:
+    - aojea
+    - bowei
+    - thockin
+    - wojtek-t
+    privacy: closed
+    repos:
+      cloud-provider-gcp: admin
+  cloud-provider-gcp-maintainers:
+    description: Write access to cloud-provider-gcp repo
+    members:
+    - aojea
+    - cheftako
+    - cici37
+    - jpbetz
+    - jprzychodzen
+    - mmamczur
+    - mskrocki
+    privacy: closed
+    repos:
+      cloud-provider-gcp: write

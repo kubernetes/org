@@ -186,7 +186,10 @@ aliases:
     - feiskyer
     - khenidak
   provider-gcp:
-    - abgworrall
+    - aojea
+    - bowei
+    - thockin
+    - wojtek-t
   provider-ibmcloud:
     - spzala
   provider-openstack:

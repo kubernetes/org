@@ -97,7 +97,7 @@ teams:
   cluster-api-provider-aws-maintainers:
     description: maintain access to cluster-api-provider-aws
     members:
-    - AndiDog 
+    - AndiDog
     - Ankitasw
     - dlipovetsky
     - nrb
@@ -334,20 +334,22 @@ teams:
     members:
     # members added in commented lines have a pending membership
     # and will be added back once it is acquired.
-    - adilGhaffarDev
+    # - AttyXY
+    # - blind3dd
     - cahillsf
-    # - chandankumar4
-    - jayesh-srivastava
-    - pravarag
-    # - rajankumary2k
-    - SD-13
-    # - serngawy
-    - sivchari
+    - chandankumar4
+    - cprivitere
+    - hackeramitkumar
+    - mboersma
+    # - mbrow137
+    # - pratik-mahalle
+    # - ramessesii2
+    # - RansherSingh
+    - serngawy
+    - shecodesmagic
+    - sreeram-venkitesh
     - Sunnatillo
-    # - tasdikrahman
-    - tormath1
-    # - varshasuryawanshi
-    - vishalanarase
+    - wendy-ha18
     privacy: closed
   image-builder-admins:
     description: admin access to image-builder

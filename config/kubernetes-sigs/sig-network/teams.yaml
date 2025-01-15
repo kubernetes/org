@@ -221,11 +221,15 @@ teams:
       iptables-wrappers: write
   gateway-api-inference-extension-admins:
     description: Admin access to gateway-api-inference-extension
+    # keeping in sync with approvers from https://github.com/kubernetes-sigs/gateway-api-inference-extension/blob/main/OWNERS
     members:
     - ArangoGutierrez
     - Jeffwan
     - SergeyKanzhelev
     - terrytangyuan
+    - smarterclayton
+    - ahg-g
+    - kfswain    
     privacy: closed
     repos:
       gateway-api-inference-extension: admin

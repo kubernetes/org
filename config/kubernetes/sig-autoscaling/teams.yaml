@@ -16,9 +16,9 @@ teams:
     - bigdarkclown
     - gjtempleton
     - maciekpytel
+    - raywainman
     - towca
     - x13n
-    - raywainman
     privacy: closed
     repos:
       autoscaler: write
@@ -29,8 +29,8 @@ teams:
     - feiskyer
     - gjtempleton
     - maciekpytel
-    - x13n
     - raywainman
+    - x13n
     privacy: closed
     repos:
       autoscaler: read

@@ -131,6 +131,7 @@ teams:
       bbolt: triage
       dbtester: triage
       etcd: triage
+      etcd-operator: triage
       gofail: triage
       raft: triage
       website: triage

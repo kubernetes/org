@@ -14,8 +14,10 @@ teams:
     - aojea # Testing / Network
     - aravindhp # Windows
     - ardaguclu # CLI
+    - ArkaSaha30 # 1.33 Enhancements Shadow
     - BenTheElder # Testing / K8s Infra
     - bgrant0607 # Architecture
+    - bianbbc87 # 1.33 Enhancements Shadow
     - brancz # Instrumentation
     - bridgetkromhout # Cloud Provider
     - cantbewong # VMware
@@ -44,6 +46,7 @@ teams:
     - floreks # UI
     - frapposelli # VMware
     - fsmunoz # 1.32 Release Lead
+    - fykaa # 1.33 Enhancements Shadow
     - gjtempleton # Autoscaling
     - gracenng # Release Manager Associate / 1.30 RT EA
     - haircommander # Node
@@ -53,7 +56,7 @@ teams:
     - jberkus # Release
     - jbpratt # Testing
     - jdumars # Architecture / PM
-    - jenshu # 1.32 Enhancements Shadow
+    - jenshu # 1.33 Enhancements Shadow
     - jeremyrickard # Release
     - jimangel # Docs / Release Manager Associate / 1.32 Release Branch Manager
     - johnbelamaric # Architecture
@@ -73,6 +76,7 @@ teams:
     - lingxiankong # OpenStack
     - logicalhan # Instrumentation
     - luxas # Cluster Lifecycle
+    - lzung # 1.33 Enhancements Shadow
     - maciaszczykm # UI
     - maciekpytel # Autoscaling
     - marosset # Windows
@@ -334,7 +338,12 @@ teams:
             description: Members of the Enhancements team for the current release
               cycle.
             members:
+            - ArkaSaha30 # 1.33 Enhancements Shadow
+            - bianbbc87 # 1.33 Enhancements Shadow
             - dipesh-rawat # 1.33 Enhancements Lead
+            - fykaa # 1.33 Enhancements Shadow
+            - jenshu # 1.33 Enhancements Shadow
+            - lzung # 1.33 Enhancements Shadow
             privacy: closed
           release-team-leads:
             description: Release Team Leads for the current Kubernetes release

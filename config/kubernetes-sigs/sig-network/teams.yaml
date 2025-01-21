@@ -303,6 +303,24 @@ teams:
     privacy: closed
     repos:
       multi-network-api: admin
+  nat64-admins:
+    description: Admin access to the nat64 repo
+    members:
+    - aojea
+    - danwinship
+    - thockin
+    privacy: closed
+    repos:
+      nat64: admin
+  nat64-maintainers:
+    description: Write access to the nat64 repo
+    members:
+    - aojea
+    - danwinship
+    - thockin
+    privacy: closed
+    repos:
+      nat64: write
   network-policy-api-admins:
     description: Admin access to the network-policy-api repo
     members:

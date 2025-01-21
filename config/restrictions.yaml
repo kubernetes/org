@@ -274,6 +274,7 @@ restrictions:
     - "^kube-network-policies"
     - "^multi-network"
     - "^multi-network-api"
+    - "^nat64"
     - "^network-policy-api"
     - "^node-ipam-controller"
   - path: "kubernetes-sigs/sig-node/teams.yaml"

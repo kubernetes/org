@@ -222,10 +222,10 @@ teams:
   gateway-api-inference-extension-admins:
     description: Admin access to gateway-api-inference-extension
     members:
-    - ArangoGutierrez
-    - Jeffwan
-    - SergeyKanzhelev
-    - terrytangyuan
+    - ahg-g
+    - danehans
+    - jeffwan
+    - kfswain
     privacy: closed
     repos:
       gateway-api-inference-extension: admin

@@ -312,6 +312,11 @@ teams:
             description: Members of the Release Signal team for the current release
               cycle.
             members:
+            - elieser1101 # 1.33 Release Signal Shadow
+            - nitishfy # 1.33 Release Signal Shadow
+            - Rajalakshmi-Girish # 1.33 Release Signal Shadow
+            - stmcginnis # 1.33 Release Signal Shadow
+            - tico88612 # 1.33 Release Signal Shadow
             - Vyom-Yadav # 1.33 Release Lead Shadow
             - wendy-ha18 # 1.33 Release Signal Lead
             privacy: closed

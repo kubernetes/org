@@ -1342,29 +1342,6 @@ teams:
     privacy: closed
     repos:
       client-go: write
-  cloud-provider-gcp-admins:
-    description: Admin access to cloud-provider-gcp repo
-    members:
-    - aojea
-    - bowei
-    - thockin
-    - wojtek-t
-    privacy: closed
-    repos:
-      cloud-provider-gcp: admin
-  cloud-provider-gcp-maintainers:
-    description: Write access to cloud-provider-gcp repo
-    members:
-    - aojea
-    - cheftako
-    - cici37
-    - jpbetz
-    - jprzychodzen
-    - mskrocki
-    - sdmodi
-    privacy: closed
-    repos:
-      cloud-provider-gcp: write
   cloud-provider-vsphere-admins:
     description: Admin access to cloud-provider-vsphere repo
     members:

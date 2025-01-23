@@ -54,6 +54,9 @@ restrictions:
     - "^perf-tests"
     - "^steering"
     - "^utils"
+  - path: "kubernetes/provider-gcp/teams.yaml"
+    allowedRepos:
+    - "^cloud-provider-gcp"
   - path: "kubernetes/provider-openstack/teams.yaml"
     allowedRepos:
     - "^cloud-provider-openstack"

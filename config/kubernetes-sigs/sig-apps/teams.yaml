@@ -20,6 +20,7 @@ teams:
     members:
     - ahg-g
     - danielvegamyhre
+    - kannon92
     privacy: closed
     repos:
       jobset: admin
@@ -27,6 +28,7 @@ teams:
     description: Write access to jobset repo
     members:
     - ahg-g
+    - kannon92
     privacy: closed
     repos:
       jobset: write

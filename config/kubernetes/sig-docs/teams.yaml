@@ -154,6 +154,7 @@ teams:
     description: Approvers for Korean content
     members:
     - gochist
+    - ianychoi
     - jihoon-seo
     - seokho-son
     - ysyukr
@@ -162,6 +163,7 @@ teams:
     description: Reviews for Korean docs PRs
     members:
     - gochist
+    - ianychoi
     - jihoon-seo
     - jmyung
     - jongwooo

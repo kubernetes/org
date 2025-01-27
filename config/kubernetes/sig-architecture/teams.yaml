@@ -106,4 +106,5 @@ teams:
         - soltysh       # approver
         - tallclair     # shadow
         - wojtek-t      # approver
+        - zmerlynn      # shadow
         privacy: closed

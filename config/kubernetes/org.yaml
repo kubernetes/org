@@ -1281,7 +1281,6 @@ teams:
       APIs
     members:
     - deads2k
-    - lavalamp
     - liggitt
     - msau42
     - smarterclayton
@@ -1292,15 +1291,15 @@ teams:
   api-reviewers:
     description: See also api-approvers.
     members:
-    - deads2k
-    - derekwaynecarr
-    - lavalamp
-    - liggitt
-    - mikedanese
-    - msau42
-    - pwittrock
-    - smarterclayton
-    - thockin
+    - deads2k   # approver
+    - enj       # shadow
+    - jpbetz    # shadow
+    - liggitt   # approver
+    - msau42    # approver
+    - smarterclayton  # approver
+    - soltysh   # shadow
+    - tallclair # shadow
+    - thockin   # approver
     privacy: closed
     repos:
       api: read

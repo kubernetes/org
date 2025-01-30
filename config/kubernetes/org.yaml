@@ -22,6 +22,7 @@ members:
 - a-hilaly
 - a-mccarthy
 - a7i
+- aakankshabhende
 - aanm
 - aaron-prindle
 - aauren
@@ -49,6 +50,7 @@ members:
 - ahmedtd
 - ahmetb
 - ahrtr
+- aibarbetta
 - aimuz
 - airbornepony
 - aj11anuj
@@ -1154,6 +1156,7 @@ members:
 - tzneal
 - uablrek
 - ubergesundheit
+- Udi-Hofesh
 - umangachapagain
 - upodroid
 - Urvashi0109
@@ -1291,15 +1294,15 @@ teams:
   api-reviewers:
     description: See also api-approvers.
     members:
-    - deads2k   # approver
-    - enj       # shadow
-    - jpbetz    # shadow
-    - liggitt   # approver
-    - msau42    # approver
-    - smarterclayton  # approver
-    - soltysh   # shadow
-    - tallclair # shadow
-    - thockin   # approver
+    - deads2k
+    - enj
+    - jpbetz
+    - liggitt
+    - msau42
+    - smarterclayton
+    - soltysh
+    - tallclair
+    - thockin
     privacy: closed
     repos:
       api: read

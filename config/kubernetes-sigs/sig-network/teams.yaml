@@ -293,6 +293,8 @@ teams:
     description: admin access to multi-network repo
     members:
     - aojea
+    - LionelJouin
+    - mskrocki
     privacy: closed
     repos:
       multi-network: admin
@@ -300,6 +302,8 @@ teams:
     description: admin access to multi-network-api repo
     members:
     - aojea
+    - LionelJouin
+    - mskrocki
     privacy: closed
     repos:
       multi-network-api: admin

@@ -7,8 +7,10 @@ teams:
     - palnabarun # Release Manager
     - Priyankasaggu11929 # ContribEx
     members:
+    - aakankshabhende # 1.33 Comms Shadow
     - adisky # OpenStack
     - ahg-g # Scheduling
+    - aibarbetta # 1.33 Comms Shadow
     - alculquicondor # Scheduling
     - ameukam # Release Manager Associate / K8s Infra
     - aojea # Testing / Network
@@ -101,6 +103,7 @@ teams:
     - rexagod # Instrumentation
     - richabanker # Instrumentation
     - ritazh # Auth
+    - rytswd # 1.33 Comms Lead
     - saad-ali # Storage
     - salaxander # Release Manager Associate / 1.29 RT EA
     - salehsedghpour # 1.32 Release Lead Shadow
@@ -113,6 +116,7 @@ teams:
     - shecodesmagic # 1.32 Enhancements Shadow
     - shu-mutou # UI
     - shyamjvs # Scalability
+    - sn3hay # 1.33 Comms Shadow
     - soltysh # CLI
     - spzala # IBM Cloud
     - sreeram-venkitesh # 1.32 Release Lead Shadow
@@ -122,6 +126,7 @@ teams:
     - thockin # Network
     - timothysc # Cluster Lifecycle / Testing
     - tjons # 1.32 Enhancements Lead
+    - udi-hofesh # 1.33 Comms Shadow
     - upodroid # K8s Infra
     - Verolop # Release Manager
     - Vyom-Yadav # 1.33 Release Lead Shadow
@@ -338,7 +343,11 @@ teams:
           release-team-comms:
             description: Members of the Comms team for the current release cycle.
             members:
+            - aakankshabhende # 1.33 Comms Shadow
+            - aibarbetta # 1.33 Comms Shadow
             - rytswd # 1.33 Comms Lead
+            - sn3hay # 1.33 Comms Shadow
+            - udi-hofesh # 1.33 Comms Shadow
             privacy: closed
           release-team-enhancements:
             description: Members of the Enhancements team for the current release

@@ -41,7 +41,9 @@ teams:
     maintainers:
     - nikhita
     members:
+    - ameukam
     - dims
+    - justinsb
     privacy: closed
     repos:
       maintainers: admin
@@ -53,7 +55,9 @@ teams:
     - nikhita
     - palnabarun
     members:
+    - ameukam
     - dims
+    - justinsb
     privacy: closed
     repos:
       maintainers: write

@@ -546,7 +546,7 @@ teams:
   external-snapshot-metadata-admins:
     description: Admin access to external-snapshot-metadata repo
     members:
-    - ihcsim
+    - carlbraganza
     - jsafrane
     - msau42
     - saad-ali
@@ -557,9 +557,13 @@ teams:
   external-snapshot-metadata-maintainers:
     description: Write access to external-snapshot-metadata repo
     members:
+    - carlbraganza
+    - hairyhum
     - ihcsim
     - jsafrane
     - msau42
+    - PrasadG193
+    - rakshith-r
     - saad-ali
     - xing-yang
     privacy: closed

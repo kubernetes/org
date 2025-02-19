@@ -60,7 +60,7 @@ teams:
     privacy: closed
     repos:
       dbtester: maintain
-      etcd: admin
+      etcd: maintain
       gofail: maintain
   maintainers-jetcd:
     description: Granted write access to jetcd
@@ -154,17 +154,9 @@ teams:
           website: triage
   release-etcd:
     description: Granted permission to release etcd-io/etcd
-    members:
-      - ahrtr
-      - fuweid
-      - ivanvc
-      - jmhbnz
-      - serathius
-      - siyuanfoundation
-      - spzala
-      - wenjiaswe
+    # The member list is intentionally empty. It should only include the release
+    # lead during release windows.
+    members: []
     privacy: closed
     repos:
-      # Permission set to triage during bau activities
-      # During release windows this will be bumped to `maintain`
       etcd: maintain

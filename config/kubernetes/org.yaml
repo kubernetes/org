@@ -1406,11 +1406,11 @@ teams:
   code-of-conduct-committee:
     description: Kubernetes Code of Conduct Committee
     members:
-    - detiber
+    - AnaMMedina21
+    - divya-mohan0209
     - endocrimes
-    - hlipsig
     - jeremyrickard
-    - salaxander
+    - stmcginnis
     privacy: closed
   dashboard-admins:
     description: Admins of the dashboard repo

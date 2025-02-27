@@ -5,10 +5,6 @@ teams:
     - andyzhangx
     - feiskyer
     - justaugustus
-    - jwtty
-    - lzhecheng
-    - MartinForReal
-    - nilo19
     privacy: closed
     repos:
       cloud-provider-azure: admin
@@ -18,8 +14,7 @@ teams:
     - andyzhangx
     - feiskyer
     - justaugustus
-    - jwtty
-    - lzhecheng
+    - mainred
     - MartinForReal
     - nilo19
     - ritazh

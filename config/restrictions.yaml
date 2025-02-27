@@ -199,6 +199,7 @@ restrictions:
     - "^cloud-provider-huaweicloud"
     - "^ibm-powervs-block-csi-driver"
     - "^provider-aws-test-infra"
+    - "^provider-ibmcloud-test-infra"
   - path: "kubernetes-sigs/sig-cluster-lifecycle/teams.yaml"
     allowedRepos:
     - "^cluster-addons"

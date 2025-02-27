@@ -191,3 +191,20 @@ teams:
    privacy: closed
    repos:
      provider-aws-test-infra: admin
+  provider-ibmcloud-test-infra-admin:
+    description: Admin access to the provider-ibmcloud-test-infra repo
+    members:
+    - mkumatag
+    privacy: closed
+    repos:
+      provider-ibmcloud-test-infra: admin
+  provider-ibmcloud-test-infra-maintainers:
+    description: Write access to provider-ibmcloud-test-infra
+    members:
+    - mkumatag
+    - Prajyot-Parab
+    - Rajalakshmi-Girish
+    privacy: closed
+    repos:
+      provider-ibmcloud-test-infra: write
+

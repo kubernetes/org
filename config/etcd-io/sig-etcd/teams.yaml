@@ -97,6 +97,7 @@ teams:
     privacy: closed
     repos:
       website: admin
+      protodoc: admin
   maintainers-labs:
     description: Granted write access to etcdlabs
     members:

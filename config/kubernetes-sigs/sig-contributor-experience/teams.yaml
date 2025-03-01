@@ -97,28 +97,6 @@ teams:
         members:
         - kaslin
         privacy: closed
-  sigs-github-actions-admins:
-    description: admin access to the sigs-github-actions repo
-    maintainers:
-    - cblecker
-    - MadhavJivrajani
-    - mrbobbytables
-    - nikhita
-    - palnabarun
-    - Priyankasaggu11929
-    privacy: closed
-    repos:
-      sigs-github-actions: admin
-  sigs-github-actions-maintainers:
-    description: write access to the sigs-github-actions repo
-    maintainers:
-    - cblecker
-    - MadhavJivrajani
-    - nikhita
-    - Priyankasaggu11929
-    privacy: closed
-    repos:
-      sigs-github-actions: write
   slack-infra-admins:
     description: admin access to slack-infra
     members:

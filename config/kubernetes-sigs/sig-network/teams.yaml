@@ -334,6 +334,24 @@ teams:
     privacy: closed
     repos:
       network-policy-api: admin
+  network-policy-finalizer-admins:
+    description: Admin access to the network-policy-finalizer repo
+    members:
+    - aojea
+    - danwinship
+    - thockin
+    privacy: closed
+    repos:
+      network-policy-finalizer: admin
+  network-policy-finalizer-maintainers:
+    description: Write access to the network-policy-finalizer repo
+    members:
+    - aojea
+    - danwinship
+    - thockin
+    privacy: closed
+    repos:
+      network-policy-finalizer: write
   node-ipam-controller-admins:
     description: Admin access to the node-ipam-controller repo
     members:

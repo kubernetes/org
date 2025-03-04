@@ -125,6 +125,32 @@ teams:
     privacy: closed
     repos:
       prow: write
+  randfill-admins:
+    description: Admin access to randfill repo
+    members:
+    - aojea
+    - BenTheElder
+    - jbpratt
+    - michelle192837
+    - pohly
+    - thockin
+    - xmcqueen
+    privacy: closed
+    repos:
+      randfill: admin
+  randfill-maintainers:
+    description: Write access to randfill repo
+    members:
+    - aojea
+    - BenTheElder
+    - jbpratt
+    - michelle192837
+    - pohly
+    - thockin
+    - xmcqueen
+    privacy: closed
+    repos:
+      randfill: write
   testgrid-admins:
     description: Admin access to testgrid
     members:

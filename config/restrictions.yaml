@@ -337,6 +337,7 @@ restrictions:
     - "^kind"
     - "^kubetest2"
     - "^prow"
+    - "^randfill"
     - "^testgrid"
   - path: "kubernetes-sigs/sig-usability/teams.yaml"
     allowedRepos:

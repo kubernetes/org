@@ -227,7 +227,6 @@ restrictions:
     - "^discuss-theme"
     - "^lwkd"
     - "^maintainers"
-    - "^sigs-github-actions"
     - "^slack-infra"
   - path: "kubernetes-sigs/sig-docs/teams.yaml"
     allowedRepos:

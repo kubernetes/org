@@ -84,6 +84,7 @@ teams:
    - micahhausler
    - nckturner
    - wongma7
+   - yue9944882
    privacy: closed
    repos:
      aws-iam-authenticator: admin
@@ -96,6 +97,7 @@ teams:
    - nckturner
    - nnmin-aws
    - wongma7
+   - yue9944882
    privacy: closed
    repos:
      aws-iam-authenticator: write

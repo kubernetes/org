@@ -4,7 +4,6 @@ go 1.22.4
 
 require (
 	github.com/bmatcuk/doublestar v1.3.4
-	github.com/ghodss/yaml v1.0.0
 	github.com/go-git/go-git/v5 v5.6.1
 	github.com/hound-search/hound v0.7.1
 	github.com/olekukonko/tablewriter v0.0.0-20170122224234-a0225b3f23b5

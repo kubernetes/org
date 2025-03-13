@@ -23,7 +23,7 @@ import (
 
 	"sigs.k8s.io/prow/pkg/config/org"
 
-	"github.com/ghodss/yaml"
+	"sigs.k8s.io/yaml"
 )
 
 func ParseKeyValue(s string) (string, string) {

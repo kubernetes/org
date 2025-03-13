@@ -27,7 +27,7 @@ import (
 	"sigs.k8s.io/prow/pkg/config/org"
 	"sigs.k8s.io/prow/pkg/github"
 
-	"github.com/ghodss/yaml"
+	"sigs.k8s.io/yaml"
 )
 
 var cfg org.FullConfig

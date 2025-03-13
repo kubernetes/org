@@ -27,8 +27,8 @@ import (
 	"k8s.io/org/cmd/helpers"
 
 	"github.com/bmatcuk/doublestar"
-	"github.com/ghodss/yaml"
 	"github.com/sirupsen/logrus"
+	"sigs.k8s.io/yaml"
 )
 
 var (

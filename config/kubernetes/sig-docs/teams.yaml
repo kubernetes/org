@@ -137,6 +137,7 @@ teams:
     - inductor
     - nasa9084
     - Okabe-Junya
+    - t-inu
     privacy: closed
   sig-docs-ja-reviews:
     description: PR reviews for Japanese content

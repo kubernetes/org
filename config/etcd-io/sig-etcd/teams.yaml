@@ -53,6 +53,7 @@ teams:
     description: Granted write access to etcd
     members:
     - ahrtr
+    - fuweid
     - jmhbnz
     - serathius
     - spzala

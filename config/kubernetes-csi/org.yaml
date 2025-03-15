@@ -114,29 +114,6 @@ members:
 members_can_create_repositories: false
 name: Kubernetes CSI
 teams:
-  cluster-driver-registrar-admins:
-    description: Admin access to cluster-driver-registrar repo
-    members:
-    - jsafrane
-    - lpabon
-    - msau42
-    - saad-ali
-    - xing-yang
-    privacy: closed
-    repos:
-      cluster-driver-registrar: admin
-  cluster-driver-registrar-maintainers:
-    description: Write access to cluster-driver-registrar repo
-    members:
-    - jsafrane
-    - lpabon
-    - msau42
-    - saad-ali
-    - sunnylovestiramisu
-    - xing-yang
-    privacy: closed
-    repos:
-      cluster-driver-registrar: write
   csi-driver-host-path-admins:
     description: Admin access to csi-driver-host-path repo
     members:

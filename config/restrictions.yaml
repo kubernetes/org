@@ -359,7 +359,6 @@ restrictions:
     - "^wg-policy-prototypes"
   - path: "kubernetes-csi/org.yaml"
     allowedRepos:
-    - "^cluster-driver-registrar"
     - "^csi-driver-host-path"
     - "^csi-driver-iscsi"
     - "^csi-driver-nfs"

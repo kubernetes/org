@@ -403,28 +403,6 @@ teams:
     privacy: closed
     repos:
       docs: write
-  driver-registrar-admins:
-    description: Admin access to driver-registrar repo
-    members:
-    - jsafrane
-    - lpabon
-    - msau42
-    - saad-ali
-    - xing-yang
-    privacy: closed
-    repos:
-      driver-registrar: admin
-  driver-registrar-maintainers:
-    description: Write access to driver-registrar repo
-    members:
-    - jsafrane
-    - msau42
-    - saad-ali
-    - sunnylovestiramisu
-    - xing-yang
-    privacy: closed
-    repos:
-      driver-registrar: write
   external-attacher-admins:
     description: Admin access to external-attacher repo
     members:

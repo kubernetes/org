@@ -371,7 +371,6 @@ restrictions:
     - "^csi-release-tools"
     - "^csi-test"
     - "^docs"
-    - "^driver-registrar"
     - "^external-attacher"
     - "^external-health-monitor"
     - "^external-provisioner"

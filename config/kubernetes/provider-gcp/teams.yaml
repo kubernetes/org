@@ -19,6 +19,7 @@ teams:
     - jprzychodzen
     - mmamczur
     - mskrocki
+    - YifeiZhuang
     privacy: closed
     repos:
       cloud-provider-gcp: write

@@ -59,3 +59,21 @@ teams:
     privacy: closed
     repos:
       work-api: admin
+  multicluster-runtime-admins:
+    description: Admin access for the multicluster-runtime repo
+    members:
+    - jeremyot
+    - skitt
+    - sttts
+    privacy: closed
+    repos:
+      multicluster-runtime: admin
+  multicluster-runtime-maintainers:
+    description: Write access for the multicluster-runtime repo
+    members:
+    - jeremyot
+    - skitt
+    - sttts
+    privacy: closed
+    repos:
+      multicluster-runtime: write

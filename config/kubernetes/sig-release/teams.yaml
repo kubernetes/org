@@ -14,6 +14,7 @@ teams:
     - alculquicondor # Scheduling
     - ameukam # Release Manager Associate / K8s Infra
     - aojea # Testing / Network
+    - aramase # Auth
     - aravindhp # Windows
     - ardaguclu # CLI
     - ArkaSaha30 # 1.33 Enhancements Shadow
@@ -84,9 +85,9 @@ teams:
     - marosset # Windows
     - mbianchidev # 1.33 Release Lead Shadow
     - mborsz # Scalability
+    - micahhausler # Auth
     - michelle192837 # Testing
     - mickeyboxell # 1.32 Release Manager Shadow
-    - mikedanese # Auth
     - mikezappa87 # Network
     - mm4tt # Scalability
     - mpuckett159 # CLI
@@ -181,7 +182,6 @@ teams:
     - BenTheElder
     - cpanato
     - justaugustus
-    - mikedanese
     - puerco
     - saschagrunert
     privacy: closed
@@ -193,7 +193,6 @@ teams:
     - BenTheElder
     - cpanato
     - justaugustus
-    - mikedanese
     - puerco
     - saschagrunert
     - Verolop

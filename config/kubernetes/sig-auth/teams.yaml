@@ -2,88 +2,69 @@ teams:
   sig-auth-api-reviews:
     description: ""
     members:
-    - davidopp
     - deads2k
     - enj
     - liggitt
-    - mikedanese
-    - tallclair
     privacy: closed
   sig-auth-bugs:
     description: ""
     members:
-    - davidopp
+    - aramase
     - deads2k
     - enj
     - liggitt
-    - mikedanese
-    - tallclair
+    - micahhausler
+    - ritazh
     privacy: closed
   sig-auth-feature-requests:
     description: ""
     members:
-    - davidopp
     - deads2k
-    - destijl
     - enj
     - liggitt
-    - mikedanese
-    - smarterclayton
-    - tallclair
     privacy: closed
   sig-auth-misc:
     description: ""
     members:
+    - aramase
     - cjcullen
-    - davidopp
     - deads2k
-    - destijl
     - enj
-    - erictune
     - liggitt
-    - mikedanese
-    - pmorie
-    - smarterclayton
-    - tallclair
+    - micahhausler
+    - ritazh
     privacy: closed
   sig-auth-pr-reviews:
     description: ""
     members:
-    - davidopp
     - deads2k
     - enj
     - liggitt
-    - mikedanese
-    - tallclair
     privacy: closed
   sig-auth-proposals:
     description: ""
     members:
-    - davidopp
     - deads2k
-    - destijl
     - enj
     - liggitt
-    - mikedanese
-    - smarterclayton
-    - tallclair
     privacy: closed
   sig-auth-test-failures:
     description: ""
     members:
-    - davidopp
+    - aramase
     - deads2k
     - enj
     - liggitt
-    - mikedanese
-    - tallclair
+    - micahhausler
+    - ritazh
     privacy: closed
   sig-auth-leads:
     description: ""
     members:
+    - aramase
     - deads2k
     - enj
     - liggitt
-    - mikedanese
+    - micahhausler
     - ritazh
     privacy: closed

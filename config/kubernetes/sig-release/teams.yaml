@@ -53,6 +53,7 @@ teams:
     - gracenng # Release Manager Associate / 1.30 RT EA
     - haircommander # Node
     - Huang-Wei # Scheduling
+    - jackfrancis # Autoscaling
     - janetkuo # Apps
     - jayunit100 # Windows
     - jberkus # Release
@@ -80,7 +81,6 @@ teams:
     - luxas # Cluster Lifecycle
     - lzung # 1.33 Enhancements Shadow
     - maciaszczykm # UI
-    - maciekpytel # Autoscaling
     - marosset # Windows
     - mbianchidev # 1.33 Release Lead Shadow
     - mborsz # Scalability
@@ -100,6 +100,7 @@ teams:
     - puerco # Release Manager
     - quinton-hoole # Multicluster
     - RainbowMango # Instrumentation
+    - raywainman # Autoscaling
     - rexagod # Instrumentation
     - richabanker # Instrumentation
     - ritazh # Auth
@@ -126,6 +127,7 @@ teams:
     - thockin # Network
     - timothysc # Cluster Lifecycle / Testing
     - tjons # 1.32 Enhancements Lead
+    - towca # Autoscaling
     - udi-hofesh # 1.33 Comms Shadow
     - upodroid # K8s Infra
     - Verolop # Release Manager

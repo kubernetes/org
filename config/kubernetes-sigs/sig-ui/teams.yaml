@@ -1,0 +1,16 @@
+teams:
+  headlamp-admins:
+    description: Admin access to the headlamp repo
+    members:
+    - joaquimrocha
+    privacy: closed
+    repos:
+      headlamp: admin
+  headlamp-maintainers:
+    description: Write access to the headlamp repo
+    members:
+    - joaquimrocha
+    privacy: closed
+    repos:
+      headlamp: write
+  

@@ -340,6 +340,9 @@ restrictions:
     - "^prow"
     - "^randfill"
     - "^testgrid"
+  - path: "kubernetes-sigs/sig-ui/teams.yaml"
+    allowedRepos:
+    - "^headlamp"
   - path: "kubernetes-sigs/sig-usability/teams.yaml"
     allowedRepos:
     - "^sig-usability"

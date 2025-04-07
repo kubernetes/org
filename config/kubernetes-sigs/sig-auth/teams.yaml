@@ -33,6 +33,7 @@ teams:
     description: Admin access to secrets-store-csi-driver repo
     members:
     - aramase
+    - enj
     - ritazh
     privacy: closed
     repos:
@@ -41,10 +42,9 @@ teams:
     description: Write access to secrets-store-csi-driver repo
     members:
     - aramase
+    - enj
     - nilekhc
     - ritazh
-    - salaxander
-    - tam7t
     privacy: closed
     repos:
       secrets-store-csi-driver: write
@@ -86,6 +86,7 @@ teams:
   sig-auth-tools-admins:
     description: Admin access to sig-auth-tools repo
     members:
+    - aramase
     - enj
     - ritazh
     privacy: closed
@@ -94,6 +95,7 @@ teams:
   sig-auth-tools-maintainers:
     description: Write access to sig-auth-tools repo
     members:
+    - aramase
     - enj
     - ritazh
     privacy: closed

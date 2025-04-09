@@ -97,6 +97,14 @@ teams:
     privacy: closed
     repos:
       json: admin
+  kube-api-linter-admins:
+    description: admin access to the kube-api-linter repo
+    members:
+    - JoelSpeed
+    - jpbetz
+    privacy: closed
+    repos:
+      kube-api-linter: admin
   kubebuilder-admins:
     description: admin access to kubebuilder
     members:

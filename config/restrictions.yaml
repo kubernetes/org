@@ -155,6 +155,7 @@ restrictions:
     allowedRepos:
     - "^apisnoop"
     - "^depstat"
+    - "^maintainer-tools"
     - "^verify-conformance"
     - "^wg-device-management"
     - "^wg-serving"

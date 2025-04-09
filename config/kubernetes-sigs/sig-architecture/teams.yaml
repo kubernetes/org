@@ -36,6 +36,17 @@ teams:
     privacy: closed
     repos:
       apisnoop: write
+  maintainer-tools-admins:
+    description: admin access to the maintainer-tools repo
+    members:
+    - ameukam
+    - dims
+    - johnbelamaric
+    - justinsb
+    - thockin
+    privacy: closed
+    repos:
+      maintainer-tools: admin
   verify-conformance-admins:
     description: admin access to the verify-conformance repo
     members:

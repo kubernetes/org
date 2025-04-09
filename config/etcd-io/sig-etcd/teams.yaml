@@ -1,4 +1,16 @@
 teams:
+  etcd-admins:
+    description: Admin access to etcd repo
+    members:
+    - ahrtr
+    - fuweid
+    - jmhbnz
+    - serathius
+    - spzala
+    - wenjiaswe
+    privacy: closed
+    repos:
+      etcd: admin
   etcd-operator-admins:
     description: Admin access to etcd-operator repo
     members:

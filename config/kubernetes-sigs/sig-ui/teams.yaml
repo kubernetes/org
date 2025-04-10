@@ -15,3 +15,14 @@ teams:
     privacy: closed
     repos:
       headlamp: maintain
+  headlamp-reviewers:
+    description: Triage access to the headlamp repo
+    members:
+    - ashu8912
+    - knrt10
+    - skoeva
+    - vyncent-t
+    - yolossn
+    privacy: closed
+    repos:
+      headlamp: write

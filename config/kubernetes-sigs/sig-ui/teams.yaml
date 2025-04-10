@@ -10,7 +10,8 @@ teams:
     description: Write access to the headlamp repo
     members:
     - joaquimrocha
+    - sniok
+    - illume
     privacy: closed
     repos:
-      headlamp: write
-  
+      headlamp: maintain

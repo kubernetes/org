@@ -12,7 +12,6 @@ teams:
     description: write access to the reference-docs repo
     members:
     - onlydole
-    - sftim
     - tengqm
     privacy: closed
     repos:

@@ -1711,6 +1711,7 @@ teams:
     description: Write access to the perf-tests repo
     members:
     - bowei
+    - mengqiy
     - shyamjvs
     - timothysc
     - wojtek-t

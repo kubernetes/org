@@ -137,6 +137,7 @@ restrictions:
     - "^controller-runtime"
     - "^controller-tools"
     - "^json"
+    - "^kube-api-linter"
     - "^kubebuilder"
     - "^kubebuilder-declarative-pattern"
     - "^kubebuilder-release-tools"

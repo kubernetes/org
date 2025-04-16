@@ -118,8 +118,7 @@ teams:
   external-dns-admins:
     description: Admin access to the external-dns repo
     members:
-    - linki
-    - njuettner
+    - mloiseleur
     - Raffo
     - szuecs
     privacy: closed
@@ -130,10 +129,8 @@ teams:
   external-dns-maintainers:
     description: Write access to the external-dns repo
     members:
-    - linki
-    - njuettner
+    - mloiseleur
     - Raffo
-    - seanmalloy
     - szuecs
     privacy: closed
     previously:

@@ -73,6 +73,7 @@ teams:
     - idvoretskyi
     - kaslin
     - lavalamp
+    - mfahlandt
     - parispittman
     - pwittrock
     - thockin
@@ -86,6 +87,7 @@ teams:
         - Priyankasaggu11929
         members:
         - kaslin
+        - mfahlandt
         privacy: closed
       sig-contributor-experience-pr-reviews:
         description: PR reviews for contributor-experience infrastructure, such as the
@@ -96,6 +98,7 @@ teams:
         - Priyankasaggu11929
         members:
         - kaslin
+        - mfahlandt
         privacy: closed
   slack-infra-admins:
     description: admin access to slack-infra

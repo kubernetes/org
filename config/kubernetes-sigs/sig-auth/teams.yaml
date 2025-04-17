@@ -15,20 +15,6 @@ teams:
     privacy: closed
     repos:
       hierarchical-namespaces: write
-  pspmigrator-admins:
-    description: Admin access to the pspmigrator repo
-    members:
-    - tallclair
-    privacy: closed
-    repos:
-      pspmigrator: admin
-  pspmigrator-maintainers:
-    description: Write access to the pspmigrator repo
-    members:
-    - tallclair
-    privacy: closed
-    repos:
-      pspmigrator: write
   secrets-store-csi-driver-admins:
     description: Admin access to secrets-store-csi-driver repo
     members:

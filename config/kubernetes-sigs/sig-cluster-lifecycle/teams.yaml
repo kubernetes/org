@@ -210,8 +210,10 @@ teams:
     description: write access to cluster-api-provider-gcp-maintainers
     members:
     - cpanato
+    - damdo
     - dims
     - richardcase
+    - salasberryfin
     privacy: closed
     repos:
       cluster-api-provider-gcp: write

@@ -82,6 +82,7 @@ teams:
     description: admin access to aws-efs-csi-driver
     members:
     - Ashley-wenyizha
+    - dankova22
     - dims
     - justinsb
     - leakingtapan
@@ -97,6 +98,7 @@ teams:
     members:
     - Ashley-wenyizha
     - d-nishi
+    - dankova22
     - jsafrane
     - justinsb
     - leakingtapan

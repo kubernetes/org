@@ -1,20 +1,4 @@
 teams:
-  hierarchical-namespaces-admins:
-    description: Admin access to hierarchical-namespaces repo
-    members:
-    - adrianludwin
-    - rjbez17
-    - tashimi
-    privacy: closed
-    repos:
-      hierarchical-namespaces: admin
-  hierarchical-namespaces-maintainers:
-    description: Write access to hierarchical-namespaces repo
-    members:
-    - yiqigao217
-    privacy: closed
-    repos:
-      hierarchical-namespaces: write
   secrets-store-csi-driver-admins:
     description: Admin access to secrets-store-csi-driver repo
     members:

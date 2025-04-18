@@ -107,6 +107,7 @@ teams:
     - ariscahyadi
     - girikuncoro
     - habibrosyad
+    - za
     privacy: closed
   sig-docs-id-reviews:
     description: PR reviews for Indonesian content
@@ -114,6 +115,7 @@ teams:
     - ariscahyadi
     - girikuncoro
     - habibrosyad
+    - za
     privacy: closed
   sig-docs-it-owners:
     description: Approvers for Italian content

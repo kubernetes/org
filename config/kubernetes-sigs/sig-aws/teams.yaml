@@ -55,26 +55,17 @@ teams:
     description: admin access to aws-fsx-csi-driver
     members:
     - dims
-    - jacobwolfaws
-    - justinsb
     - khoang98
-    - leakingtapan
     - torredil
-    - wongma7
     privacy: closed
     repos:
       aws-fsx-csi-driver: admin
   aws-fsx-csi-driver-maintainers:
     description: write access to aws-fsx-csi-driver
     members:
-    - d-nishi
-    - jacobwolfaws
-    - jsafrane
-    - justinsb
+    - dims
     - khoang98
-    - leakingtapan
     - torredil
-    - wongma7
     privacy: closed
     repos:
       aws-fsx-csi-driver: write

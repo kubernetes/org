@@ -40,7 +40,6 @@ teams:
     description: Admin access to the aws-file-cache-csi-driver repo
     members:
       - dims
-      - jacobwolfaws
       - khoang98
       - nckturner
     privacy: closed
@@ -49,7 +48,6 @@ teams:
   aws-file-cache-csi-driver-maintainers:
     description: Write access to the aws-file-cache-csi-driver repo
     members:
-      - jacobwolfaws
       - khoang98
       - nckturner
     privacy: closed
@@ -61,7 +59,6 @@ teams:
       - dims
       - gomesjason
       - hughdanliu
-      - jacobwolfaws
       - nckturner
     privacy: closed
     repos:
@@ -71,7 +68,6 @@ teams:
     members:
       - gomesjason
       - hughdanliu
-      - jacobwolfaws
       - nckturner
     privacy: closed
     repos:

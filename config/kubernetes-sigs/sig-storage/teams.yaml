@@ -34,9 +34,11 @@ teams:
   cosi-driver-sample-maintainers:
     description: Write access to cosi-driver-sample
     members:
+    - BlaineEXE
     - jsafrane
     - msau42
     - saad-ali
+    - shanduur
     - wlan0
     - xing-yang
     privacy: closed

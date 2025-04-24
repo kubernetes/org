@@ -2,14 +2,22 @@ teams:
   custom-metrics-apiserver-admins:
     description: Admin access to the custom-metrics-apiserver repo
     members:
+    - dashpole
     - dgrisonnet
+    - RainbowMango
+    - rexagod
+    - richabanker
     privacy: closed
     repos:
       custom-metrics-apiserver: admin
   custom-metrics-apiserver-maintainers:
     description: Write access to the custom-metrics-apiserver repo
     members:
+    - dashpole
     - dgrisonnet
+    - RainbowMango
+    - rexagod
+    - richabanker
     privacy: closed
     repos:
       custom-metrics-apiserver: write

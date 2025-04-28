@@ -4,7 +4,8 @@ teams:
     members:
     - bigdarkclown
     - gjtempleton
-    - maciekpytel
+    - jackfrancis
+    - raywainman
     - towca
     - x13n
     privacy: closed
@@ -15,7 +16,7 @@ teams:
     members:
     - bigdarkclown
     - gjtempleton
-    - maciekpytel
+    - jackfrancis
     - raywainman
     - towca
     - x13n
@@ -28,8 +29,9 @@ teams:
     - bigdarkclown
     - feiskyer
     - gjtempleton
-    - maciekpytel
+    - jackfrancis
     - raywainman
+    - towca
     - x13n
     privacy: closed
     repos:
@@ -38,27 +40,31 @@ teams:
     description: ""
     members:
     - gjtempleton
-    - maciekpytel
-    - mwielgus
+    - jackfrancis
+    - raywainman
+    - towca
     privacy: closed
   sig-autoscaling-bugs:
     description: ""
     members:
     - gjtempleton
-    - maciekpytel
+    - jackfrancis
+    - raywainman
+    - towca
     privacy: closed
   sig-autoscaling-feature-requests:
     description: ""
     members:
     - gjtempleton
-    - maciekpytel
+    - jackfrancis
+    - raywainman
+    - towca
     privacy: closed
   sig-autoscaling-misc:
     description: ""
     members:
     - bigdarkclown
     - gjtempleton
-    - maciekpytel
     - towca
     - x13n
     privacy: closed
@@ -66,25 +72,33 @@ teams:
     description: ""
     members:
     - gjtempleton
-    - maciekpytel
+    - jackfrancis
+    - raywainman
+    - towca
     privacy: closed
   sig-autoscaling-proposals:
     description: ""
     members:
     - gjtempleton
-    - maciekpytel
+    - jackfrancis
+    - raywainman
+    - towca
     privacy: closed
   sig-autoscaling-test-failures:
     description: ""
     members:
     - gjtempleton
-    - maciekpytel
+    - jackfrancis
+    - raywainman
+    - towca
     privacy: closed
   sig-autoscaling-leads:
     description: ""
     members:
     - gjtempleton
-    - maciekpytel
+    - jackfrancis
+    - raywainman
+    - towca
     privacy: closed
   sig-autoscaling-milestone-maintainers:
     description: Contributors who can use `/milestone` in the autoscaling repo

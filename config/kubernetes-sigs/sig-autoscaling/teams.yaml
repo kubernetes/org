@@ -5,9 +5,11 @@ teams:
     - bwagner5
     - ellistarn
     - gjtempleton
+    - jackfrancis
     - jonathan-innis
-    - maciekpytel
     - njtran
+    - raywainman
+    - towca
     - tzneal
     privacy: closed
     repos:
@@ -18,9 +20,11 @@ teams:
     - bwagner5
     - ellistarn
     - gjtempleton
+    - jackfrancis
     - jonathan-innis
-    - maciekpytel
     - njtran
+    - raywainman
+    - towca
     - tzneal
     privacy: closed
     repos:
@@ -39,5 +43,7 @@ teams:
     description: "leads of the SIG Autoscaling"
     members:
     - gjtempleton
-    - maciekpytel
+    - jackfrancis
+    - raywainman
+    - towca
     privacy: closed

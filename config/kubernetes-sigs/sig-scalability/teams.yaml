@@ -2,20 +2,20 @@ teams:
   inference-perf-admins:
     description: Admin access to the inference-perf repo
     members:
-    - ArangoGutierrez
-    - Jeffwan
-    - SergeyKanzhelev
     - terrytangyuan
+    - achandrasekar
+    - wangchen615
+    - SachinVarghese
     privacy: closed
     repos:
       inference-perf: admin
   inference-perf-maintainers:
     description: Write access to the inference-perf repo
     members:
-    - ArangoGutierrez
-    - Jeffwan
-    - SergeyKanzhelev
     - terrytangyuan
+    - achandrasekar
+    - wangchen615
+    - SachinVarghese
     privacy: closed
     repos:
       inference-perf: write

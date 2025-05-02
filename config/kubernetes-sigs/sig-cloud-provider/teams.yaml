@@ -2,18 +2,18 @@ teams:
   apiserver-network-proxy-admins:
     description: admin access to apiserver-network-proxy
     members:
-    - andrewsykim
-    - anfernee
+    - bridgetkromhout
     - cheftako
+    - elmiko
     - jkh52
-    - nckturner
     privacy: closed
   apiserver-network-proxy-maintainers:
     description: write access to apiserver-network-proxy
     members:
-    - andrewsykim
-    - anfernee
+    - bridgetkromhout
     - cheftako
+    - elmiko
+    - ipochi
     - jkh52
     privacy: closed
   alibaba-cloud-csi-driver-admins:

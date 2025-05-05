@@ -29,7 +29,7 @@ teams:
   sig-scheduling-leads:
     description: ""
     members:
-    - ahg-g
-    - alculquicondor
-    - Huang-Wei
+    - dom4ha
+    - macsko
+    - sanposhiho
     privacy: closed

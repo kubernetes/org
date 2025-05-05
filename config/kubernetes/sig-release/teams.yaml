@@ -9,9 +9,7 @@ teams:
     members:
     - aakankshabhende # 1.33 Comms Shadow
     - adisky # OpenStack
-    - ahg-g # Scheduling
     - aibarbetta # 1.33 Comms Shadow
-    - alculquicondor # Scheduling
     - ameukam # Release Manager Associate / K8s Infra
     - aojea # Testing / Network
     - aramase # Auth
@@ -40,6 +38,7 @@ teams:
     - dgrisonnet # Instrumentation
     - dims # Architecture / K8s Infra
     - dipesh-rawat # 1.33 Enhancements Lead
+    - dom4ha # Scheduling
     - eddiezane # CLI
     - ehashman # Instrumentation
     - elmiko # Cloud Provider
@@ -53,7 +52,6 @@ teams:
     - gjtempleton # Autoscaling
     - gracenng # Release Manager Associate / 1.30 RT EA
     - haircommander # Node
-    - Huang-Wei # Scheduling
     - jackfrancis # Autoscaling
     - janetkuo # Apps
     - jayunit100 # Windows
@@ -82,6 +80,7 @@ teams:
     - luxas # Cluster Lifecycle
     - lzung # 1.33 Enhancements Shadow
     - maciaszczykm # UI
+    - macsko # Scheduling
     - marosset # Windows
     - mbianchidev # 1.33 Release Lead Shadow
     - mborsz # Scalability
@@ -109,6 +108,7 @@ teams:
     - saad-ali # Storage
     - salaxander # Release Manager Associate / 1.29 RT EA
     - salehsedghpour # 1.32 Release Lead Shadow
+    - sanposhiho # Scheduling
     - saschagrunert # Release
     - SataQiu # Cluster Lifecycle
     - satyampsoni # 1.32 Release Notes Lead

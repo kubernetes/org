@@ -325,9 +325,11 @@ teams:
   network-policy-api-admins:
     description: Admin access to the network-policy-api repo
     members:
-    - astoycos
+    - aojea
     - danwinship
     - Dyanngg
+    - npinaeva
+    - tssurya
     privacy: closed
     repos:
       network-policy-api: admin

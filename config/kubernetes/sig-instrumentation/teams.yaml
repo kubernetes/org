@@ -1,6 +1,6 @@
 teams:
   sig-instrumentation-leads:
-    description: ""
+    description: "SIG Instrumentation Leads"
     members:
     - dashpole
     - dgrisonnet
@@ -9,7 +9,7 @@ teams:
     - richabanker
     privacy: closed
   sig-instrumentation-approvers:
-    description: ""
+    description: "SIG Instrumentation Approvers"
     members:
     - brancz
     - dashpole
@@ -22,7 +22,7 @@ teams:
     - serathius
     privacy: closed
   sig-instrumentation-members:
-    description: ""
+    description: "SIG Instrumentation Members"
     members:
     - brancz
     - CatherineF-dev
@@ -40,6 +40,7 @@ teams:
     - richabanker
     - s-urbaniak
     - serathius
+    - slashpai
     - tariq1890
     - yangjunmyfm192085
     - YoyinZyc

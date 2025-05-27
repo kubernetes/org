@@ -4,8 +4,6 @@ teams:
     members:
     - aravindhp
     - claudiubelu
-    - jsturtevant
-    - knabben
     - marosset
     - zylxjtu
     privacy: closed
@@ -16,8 +14,6 @@ teams:
     members:
     - aravindhp
     - claudiubelu
-    - jsturtevant
-    - knabben
     - marosset
     - zylxjtu
     privacy: closed
@@ -28,9 +24,8 @@ teams:
     members:
     - aravindhp
     - claudiubelu
-    - jsturtevant
-    - knabben
     - marosset
+    - zylxjtu
     privacy: closed
     previously:
     - sig-windows-examples-admins
@@ -41,9 +36,8 @@ teams:
     members:
     - aravindhp
     - claudiubelu
-    - jsturtevant
-    - knabben
     - marosset
+    - zylxjtu
     privacy: closed
     previously:
     - sig-windows-examples-maintainers
@@ -53,12 +47,9 @@ teams:
     description: Admin access to sig-windows-dev-tools repo
     members:
     - aravindhp
-    - aroradaman
     - claudiubelu
-    - jsturtevant
-    - knabben
     - marosset
-    - sladyn98
+    - zylxjtu
     privacy: closed
     repos:
       sig-windows-dev-tools: admin
@@ -68,9 +59,8 @@ teams:
     members:
     - aravindhp
     - claudiubelu
-    - jsturtevant
-    - knabben
     - marosset
+    - zylxjtu
     privacy: closed
     repos:
       sig-windows-tools: admin
@@ -79,23 +69,28 @@ teams:
     members:
     - aravindhp
     - claudiubelu
-    - jsturtevant
-    - knabben
     - marosset
+    - zylxjtu
     privacy: closed
     repos:
       sig-windows-tools: write
   windows-operational-readiness-admins:
     description: Admin access to the windows-operational-readiness repo
     members:
-    - knabben
+    - aravindhp
+    - claudiubelu
+    - marosset
+    - zylxjtu
     privacy: closed
     repos:
       windows-operational-readiness: admin
   windows-operational-readiness-maintainers:
     description: Write access to the windows-operational-readiness repo
     members:
-    - knabben
+    - aravindhp
+    - claudiubelu
+    - marosset
+    - zylxjtu
     privacy: closed
     repos:
       windows-operational-readiness: write
@@ -103,18 +98,18 @@ teams:
     description: Admin access to the windows-service-proxy repo
     members:
     - aravindhp
-    - jsturtevant
-    - knabben
     - marosset
+    - zylxjtu
     privacy: closed
     repos:
       windows-service-proxy: admin
   windows-service-proxy-maintainers:
     description: Write access to the windows-service-proxy repo
     members:
-    - jsturtevant
-    - knabben
+    - aravindhp
+    - claudiubelu
     - marosset
+    - zylxjtu
     privacy: closed
     repos:
       windows-service-proxy: write
@@ -123,9 +118,8 @@ teams:
     members:
     - aravindhp
     - claudiubelu
-    - jsturtevant
-    - knabben
     - marosset
+    - zylxjtu
     privacy: closed
     repos:
       windows-testing: admin
@@ -134,9 +128,8 @@ teams:
     members:
     - aravindhp
     - claudiubelu
-    - jsturtevant
-    - knabben
     - marosset
+    - zylxjtu
     privacy: closed
     repos:
       windows-testing: write

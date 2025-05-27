@@ -4,34 +4,30 @@ teams:
     members:
     - aravindhp
     - claudiubelu
-    - jayunit100
-    - jsturtevant
     - marosset
+    - zylxjtu
     privacy: closed
   sig-windows-feature-requests:
     description: Feature requests for sig-windows
     members:
     - aravindhp
     - claudiubelu
-    - jayunit100
-    - jsturtevant
     - marosset
+    - zylxjtu
     privacy: closed
   sig-windows-leads:
     description: Special Interest Group Windows Leads
     members:
     - aravindhp
     - claudiubelu
-    - jayunit100
-    - jsturtevant
     - marosset
+    - zylxjtu
     privacy: closed
   sig-windows-misc:
     description: Special Interest Group Windows
     members:
     - aravindhp
     - claudiubelu
-    - jayunit100
-    - jsturtevant
     - marosset
+    - zylxjtu
     privacy: closed

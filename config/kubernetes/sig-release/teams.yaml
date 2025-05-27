@@ -61,7 +61,6 @@ teams:
     - jpbetz # API Machinery
     - jrsapi # Release Manager Associate
     - jsafrane # Storage
-    - jsturtevant # Windows
     - justaugustus # Release
     - justinsb # AWS / Cluster Lifecycle
     - k8s-release-robot # Release

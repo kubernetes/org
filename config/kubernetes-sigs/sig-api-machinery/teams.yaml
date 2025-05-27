@@ -88,6 +88,24 @@ teams:
     privacy: closed
     repos:
       controller-tools: write
+  crdify-admins:
+    description: admin access to crdify
+    members:
+    - everettraven
+    - JoelSpeed
+    - jpbetz
+    privacy: closed
+    repos:
+      crdify: admin
+  crdify-maintainers:
+    description: write access to crdify
+    members:
+    - everettraven
+    - JoelSpeed
+    - jpbetz
+    privacy: closed
+    repos:
+      crdify: write
   json-admins:
     description: Admin access to the json repo
     members:

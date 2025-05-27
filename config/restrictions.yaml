@@ -134,6 +134,7 @@ restrictions:
     - "^apiserver-builder-alpha"
     - "^apiserver-runtime"
     - "^clientgofix"
+    - "^crdify"
     - "^controller-runtime"
     - "^controller-tools"
     - "^json"

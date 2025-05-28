@@ -35,6 +35,7 @@ teams:
     - dgrisonnet # Instrumentation
     - dims # Architecture / K8s Infra
     - dom4ha # Scheduling
+    - drewhagen # 1.34 Enhancements Shadow
     - eddiezane # CLI
     - ehashman # Instrumentation
     - elmiko # Cloud Provider
@@ -44,6 +45,7 @@ teams:
     - floreks # UI
     - frapposelli # VMware
     - fsmunoz # 1.34 EA
+    - fykaa # 1.34 Enhancements Shadow
     - gjtempleton # Autoscaling
     - gracenng # Release Manager Associate / 1.30 RT EA
     - haircommander # Node
@@ -56,6 +58,7 @@ teams:
     - jenshu # 1.34 Enhancements Lead
     - jeremyrickard # Release
     - jimangel # Docs / Release Manager Associate / 1.32 Release Branch Manager
+    - jmickey # 1.34 Enhancements Shadow
     - joelspeed # Cloud Provider
     - johnbelamaric # Architecture
     - jpbetz # API Machinery
@@ -96,6 +99,7 @@ teams:
     - quinton-hoole # Multicluster
     - RainbowMango # Instrumentation
     - Rajalakshmi-Girish # 1.34 Release Signal Lead
+    - rayandas # 1.34 Enhancements Shadow
     - raywainman # Autoscaling
     - rexagod # Instrumentation
     - richabanker # Instrumentation
@@ -115,6 +119,7 @@ teams:
     - soltysh # CLI
     - spzala # IBM Cloud
     - sreeram-venkitesh # 1.34 Release Lead Shadow
+    - stmcginnis # 1.34 Enhancements Shadow
     - sttts # API Machinery
     - tallclair # Auth
     - tashimi # Usability
@@ -287,20 +292,25 @@ teams:
         - Priyankasaggu11929 # subproject owner (1.29 RT Lead)
         members:
         - cpanato # subproject owner / Technical Lead
+        - drewhagen # 1.34 Enhancements Shadow
+        - fykaa # 1.34 Enhancements Shadow
         - gracenng # subproject owner (1.28 RT Lead)
         - jameslaverack # subproject owner (1.24 RT Lead)
         - jenshu # 1.34 Enhancements Lead
         - jeremyrickard # subproject owner / Technical Lead
         - jimangel # 1.32 RT Branch Manager
+        - jmickey # 1.34 Enhancements Shadow
         - justaugustus # subproject owner / Chair
         - katcosgrove # 1.30 Lead / 1.32 EA
         - leonardpahlke # subproject owner (1.26 RT Lead)
         - mickeyboxell # 1.32 Release Manager Shadow
         - puerco # subproject owner / Technical Lead
+        - rayandas # 1.34 Enhancements Shadow
         - reylejano # subproject owner (1.23 RT Lead)
         - salaxander # subproject owner (1.27 RT Lead)
         - saschagrunert # subproject owner / Chair
         - savitharaghunathan # subproject owner (1.22 RT Lead)
+        - stmcginnis # 1.34 Enhancements Shadow
         - Verolop # Release Manager
         - Vyom-Yadav # 1.34 Release Lead
         - xmudrii # Release Manager
@@ -327,7 +337,12 @@ teams:
             description: Members of the Enhancements team for the current release
               cycle.
             members:
+            - drewhagen # 1.34 Enhancements Shadow
+            - fykaa # 1.34 Enhancements Shadow
             - jenshu # 1.34 Enhancements Lead
+            - jmickey # 1.34 Enhancements Shadow
+            - rayandas # 1.34 Enhancements Shadow
+            - stmcginnis # 1.34 Enhancements Shadow
             privacy: closed
           release-team-leads:
             description: Release Team Leads for the current Kubernetes release

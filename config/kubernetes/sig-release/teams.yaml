@@ -335,7 +335,12 @@ teams:
           release-team-docs:
             description: Members of the Docs team for the current release cycle.
             members:
+            - ArvindParekh # 1.34 Docs Shadow
             - michellengnx # 1.34 Docs Lead
+            - rashansmith # 1.34 Docs Shadow
+            - ryan-su-12 # 1.34 Docs Shadow
+            - Urvashi0109 # 1.34 Docs Shadow
+            - yujen77300 # 1.34 Docs Shadow
             privacy: closed
           release-team-comms:
             description: Members of the Comms team for the current release cycle.

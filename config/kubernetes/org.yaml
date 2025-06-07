@@ -1692,24 +1692,6 @@ teams:
     - lavalamp
     - sttts
     privacy: closed
-  node-problem-detector-admins:
-    description: Admin access to the node-problem-detector repo
-    members:
-    - dchen1107
-    - Random-Liu
-    privacy: closed
-    repos:
-      node-problem-detector: admin
-  node-problem-detector-maintainers:
-    description: Write access to the node-problem-detector repo
-    members:
-    - andyxning
-    - dchen1107
-    - Random-Liu
-    - wangzhen127
-    privacy: closed
-    repos:
-      node-problem-detector: write
   owners:
     description: Kubernetes GitHub Owners
     maintainers:

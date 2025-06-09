@@ -49,7 +49,6 @@ restrictions:
     - "^kubernetes"
     - "^kubernetes-template-project"
     - "^steering"
-    - "^node-problem-detector"
     - "^org"
     - "^perf-tests"
     - "^steering"
@@ -103,6 +102,9 @@ restrictions:
     allowedRepos:
     - "^k8s.io"
     - "^registry.k8s.io"
+  - path: "kubernetes/sig-node/teams.yaml"
+    allowedRepos:
+    - "^node-problem-detector"
   - path: "kubernetes/sig-security/teams.yaml"
     allowedRepos:
     - "^sig-security"
@@ -289,7 +291,6 @@ restrictions:
     - "^kernel-module-management"
     - "^noderesourcetopology-api"
     - "^node-feature-discovery-operator"
-    - "^node-problem-detector"
     - "^security-profiles-operator"
   - path: "kubernetes-sigs/sig-release/teams.yaml"
     allowedRepos:

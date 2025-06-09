@@ -1,4 +1,24 @@
 teams:
+  node-problem-detector-admins:
+    description: Admin access to the node-problem-detector repo
+    members:
+    - dchen1107
+    - Random-Liu
+    - wangzhen127
+    privacy: closed
+    repos:
+      node-problem-detector: admin
+  node-problem-detector-maintainers:
+    description: Write access to the node-problem-detector repo. This group manages releases.
+    members:
+    - andyxning
+    - dchen1107
+    - hakman
+    - Random-Liu
+    - wangzhen127
+    privacy: closed
+    repos:
+      node-problem-detector: write
   sig-node-api-reviews:
     description: API Reviews for Kubernetes Node Special-Interest-Group
     members:

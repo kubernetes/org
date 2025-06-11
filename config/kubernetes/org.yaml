@@ -1470,13 +1470,11 @@ teams:
       dashboard: write
   dep-approvers:
     description: People who can approve dependency changes in kubernetes/kubernetes
-    maintainers:
-    - cblecker
     members:
     - BenTheElder
     - dims
+    - liggitt
     - soltysh
-    - sttts
     - thockin
     privacy: closed
     repos:

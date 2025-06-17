@@ -82,6 +82,7 @@ teams:
     - maciaszczykm # UI
     - macsko # Scheduling
     - marosset # Windows
+    - mbianchidev # v1.34 Branch Manager
     - mborsz # Scalability
     - micahhausler # Auth
     - michelle192837 # Testing
@@ -92,6 +93,7 @@ teams:
     - mpuckett159 # CLI
     - mrunalp # Node
     - msau42 # Storage
+    - neoaggelos # v1.34 Branch Management Shadow
     - neolit123 # Cluster Lifecycle
     - npolshakova # 1.33 Release Lead
     - pacoxu # Cluster Lifecycle
@@ -113,6 +115,7 @@ teams:
     - sanposhiho # Scheduling
     - saschagrunert # Release
     - SataQiu # Cluster Lifecycle
+    - satyampsoni # v1.34 Branch Management Shadow
     - serathius # Instrumentation
     - SergeyKanzhelev # Node
     - shaneutt # Network

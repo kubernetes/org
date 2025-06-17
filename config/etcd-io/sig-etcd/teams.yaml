@@ -6,8 +6,8 @@ teams:
     - fuweid
     - jmhbnz
     - serathius
+    - siyuanfoundation
     - spzala
-    - wenjiaswe
     privacy: closed
     repos:
       etcd: admin
@@ -69,8 +69,8 @@ teams:
     - fuweid
     - jmhbnz
     - serathius
+    - siyuanfoundation
     - spzala
-    - wenjiaswe
     privacy: closed
     repos:
       dbtester: maintain
@@ -106,8 +106,8 @@ teams:
     - jmhbnz
     - nate-double-u
     - serathius
+    - siyuanfoundation
     - spzala
-    - wenjiaswe
     privacy: closed
     repos:
       website: admin
@@ -118,8 +118,8 @@ teams:
     - ahrtr
     - jmhbnz
     - serathius
+    - siyuanfoundation
     - spzala
-    - wenjiaswe
     privacy: closed
     repos:
       etcdlabs: admin

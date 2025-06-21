@@ -287,6 +287,7 @@ restrictions:
     - "^node-ipam-controller"
   - path: "kubernetes-sigs/sig-node/teams.yaml"
     allowedRepos:
+    - "^dra-driver-cpu"
     - "^dra-example-driver"
     - "^kernel-module-management"
     - "^noderesourcetopology-api"

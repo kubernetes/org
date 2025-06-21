@@ -1,4 +1,22 @@
 teams:
+  dra-driver-cpu-admins:
+    description: Admin access to dra-driver-cpu repo
+    members:
+    - johnbelamaric
+    - klueska
+    - pohly
+    privacy: closed
+    repos:
+      dra-driver-cpu: admin
+  dra-driver-cpu-maintainers:
+    description: Write access to dra-driver-cpu repo
+    members:
+    - johnbelamaric
+    - klueska
+    - pohly
+    privacy: closed
+    repos:
+      dra-driver-cpu: write
   dra-example-driver-admins:
     description: Admin access to dra-example-driver repo
     members:

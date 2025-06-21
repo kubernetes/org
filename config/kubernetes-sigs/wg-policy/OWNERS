@@ -1,8 +1,0 @@
-# See the OWNERS docs at https://go.k8s.io/owners
-
-reviewers:
-  - wg-policy-leads
-approvers:
-  - wg-policy-leads
-labels:
-  - wg/policy

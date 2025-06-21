@@ -361,9 +361,6 @@ restrictions:
   - path: "kubernetes-sigs/wg-component-standard/teams.yaml"
     allowedRepos:
     - "^legacyflag"
-  - path: "kubernetes-sigs/wg-policy/teams.yaml"
-    allowedRepos:
-    - "^wg-policy-prototypes"
   - path: "kubernetes-csi/org.yaml"
     allowedRepos:
     - "^csi-driver-host-path"

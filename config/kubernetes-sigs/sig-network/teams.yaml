@@ -221,8 +221,8 @@ teams:
     members:
     - ahg-g
     - danehans
-    - jeffwan
     - kfswain
+    - nirrozenbaum
     privacy: closed
     repos:
       gateway-api-inference-extension: admin

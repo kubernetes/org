@@ -1,73 +1,74 @@
 admins:
-- cblecker
-- k8s-ci-robot
-- k8s-github-robot
-- MadhavJivrajani
-- mrbobbytables
-- nikhita
-- palnabarun
-- Priyankasaggu11929
-- thelinuxfoundation
+  - cblecker
+  - k8s-ci-robot
+  - k8s-github-robot
+  - MadhavJivrajani
+  - mrbobbytables
+  - nikhita
+  - palnabarun
+  - Priyankasaggu11929
+  - thelinuxfoundation
 billing_email: github@kubernetes.io
 default_repository_permission: read
 description: etcd Development and Communities
 has_organization_projects: false
 has_repository_projects: true
 members:
-- abdurrehman107
-- ahrtr
-- ArkaSaha30
-- caniszczyk
-- cenkalti
-- chalin
-- chaochn47
-- dims
-- eduartua
-- elbehery
-- erikgrinaker
-- fanminshi
-- fuweid
-- gdasson
-- ghouscht
-- gryf
-- hakman
-- henrybear327
-- idvoretskyi
-- ivanvc
-- jasonbraganza
-- jberkus
-- jmhbnz
-- joshjms
-- justinsb
-- lavacat
-- lburgazzoli
-- mmorel-35
-- moficodes
-- moshevayner
-- nate-double-u
-- nwnt
-- pav-kv
-- ptabor
-- serathius
-- siyuanfoundation
-- spzala
-- tbg
-- thedtripp
-- tjungblu
-- victortrac
-- vorburger
-- wenjiaswe
-- wzshiming
+  - abdurrehman107
+  - ahrtr
+  - ArkaSaha30
+  - caniszczyk
+  - cenkalti
+  - chalin
+  - chaochn47
+  - dims
+  - eduartua
+  - elbehery
+  - erikgrinaker
+  - fanminshi
+  - fuweid
+  - gdasson
+  - ghouscht
+  - gryf
+  - hakman
+  - henrybear327
+  - idvoretskyi
+  - ivanvc
+  - jasonbraganza
+  - jberkus
+  - jmhbnz
+  - joshjms
+  - justinsb
+  - lavacat
+  - lburgazzoli
+  - mmorel-35
+  - moficodes
+  - moshevayner
+  - nate-double-u
+  - nwnt
+  - pav-kv
+  - ptabor
+  - serathius
+  - siyuanfoundation
+  - spzala
+  - tbg
+  - thedtripp
+  - tjungblu
+  - victortrac
+  - vorburger
+  - wendy-ha18
+  - wenjiaswe
+  - wzshiming
 members_can_create_repositories: false
 name: etcd-io
 teams:
   kubernetes-admins:
     description: Kubernetes GitHub Admins
     maintainers:
-    - cblecker
-    - MadhavJivrajani
-    - mrbobbytables
-    - nikhita
-    - palnabarun
-    - Priyankasaggu11929
+      - cblecker
+      - MadhavJivrajani
+      - mrbobbytables
+      - nikhita
+      - palnabarun
+      - Priyankasaggu11929
     privacy: closed

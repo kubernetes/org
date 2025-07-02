@@ -125,6 +125,45 @@ func GetAllUsersInOrgs(o Options, orgs []string) (map[string]UserInfo, error) {
 }
 
 func GetContributions(period string) (map[string]Contribution, error) {
+	sources := []string{
+		"https://k8s.devstats.cncf.io/api/ds/query",
+		"https://etcd.devstats.cncf.io/api/ds/query",
+	}
+
+	combined := make(map[string]Contribution)
+
+	for _, url := range sources {
+		contribs, err := fetchContributionsFromDevStats(period, url)
+		if err != nil {
+			return nil, err
+		}
+
+		sourceName := "unknown"
+		if strings.Contains(url, "k8s.devstats") {
+			sourceName = "Kubernetes"
+		} else if strings.Contains(url, "etcd.devstats") {
+			sourceName = "etcd"
+		}
+
+		for username, contrib := range contribs {
+			if existing, found := combined[username]; found {
+				existing.ContribCount += contrib.ContribCount
+				combined[username] = existing
+				fmt.Printf("Merged user %s from %s: new total = %d\n", username, sourceName, existing.ContribCount)
+			} else {
+				combined[username] = contrib
+				fmt.Printf("Added user %s from %s with %d contributions\n", username, sourceName, contrib.ContribCount)
+			}
+		}
+	}
+
+	fmt.Printf("Total combined unique contributors: %d\n", len(combined))
+	return combined, nil
+}
+
+func fetchContributionsFromDevStats(period string, url string) (map[string]Contribution, error) {
+	fmt.Printf("Fetching contributions from %s\n", url)
+
 	postBody := DevStatsRequest{
 		Queries: []Query{
 			{
@@ -156,7 +195,7 @@ from (
 		return nil, err
 	}
 
-	resp, err := http.Post("https://k8s.devstats.cncf.io/api/ds/query", "application/json", bytes.NewBuffer(requestBody))
+	resp, err := http.Post(url, "application/json", bytes.NewBuffer(requestBody))
 	if err != nil {
 		return nil, err
 	}
@@ -184,10 +223,10 @@ from (
 	for i := 0; i < len(ranks); i++ {
 		username := usernames[i].(string)
 		contribs[username] = Contribution{
-			int(ranks[i].(float64)),
-			username,
-			int(contribCounts[i].(float64)),
-			[]string{},
+			Rank:         int(ranks[i].(float64)),
+			Username:     username,
+			ContribCount: int(contribCounts[i].(float64)),
+			Orgs:         []string{},
 		}
 	}
 	return contribs, nil

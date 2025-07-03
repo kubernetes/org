@@ -293,12 +293,14 @@ teams:
   sig-docs-uk-owners:
     description: Approvers for Ukrainian content
     members:
+    - Andygol
     - Arhell
     - MaxymVlasov
     privacy: closed
   sig-docs-uk-reviews:
     description: PR reviews for Ukrainian content
     members:
+    - Andygol
     - Arhell
     - idvoretskyi
     - MaxymVlasov

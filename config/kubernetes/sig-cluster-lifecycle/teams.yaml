@@ -64,21 +64,6 @@ teams:
     privacy: closed
     repos:
       minikube: write
-  sig-cluster-lifecycle:
-    description: For discussing SIG Cluster Lifecycle topics
-    members:
-    - cpanato
-    - detiber
-    - dixudx
-    - fabriziopandini
-    - kad
-    - luxas
-    - neolit123
-    - SataQiu
-    - stealthybox
-    - timothysc
-    - yagonobre
-    privacy: closed
   system-validators-admins:
     description: Admin access to system-validators repo
     members:

@@ -54,7 +54,9 @@ teams:
   controller-runtime-admins:
     description: admin access to controller-runtime
     members:
+    - alvaroaleman
     - joelanford
+    - sbueringer
     - vincepri
     privacy: closed
     repos:
@@ -63,7 +65,6 @@ teams:
     description: write access to controller-runtime
     members:
     - alvaroaleman
-    - fillzpp
     - joelanford
     - sbueringer
     - vincepri
@@ -73,7 +74,9 @@ teams:
   controller-tools-admins:
     description: admin access to controller-tools
     members:
+    - alvaroaleman
     - joelanford
+    - sbueringer
     - vincepri
     privacy: closed
     repos:

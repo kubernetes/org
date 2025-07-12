@@ -76,7 +76,7 @@ teams:
    description: Admin access to the aws-iam-authenticator repo
    members:
    - dims
-   - m00nf1sh
+   - M00nF1sh
    - micahhausler
    - nckturner
    - wongma7
@@ -88,7 +88,7 @@ teams:
    description: Write access to the aws-iam-authenticator repo
    members:
    - jyotimahapatra
-   - m00nf1sh
+   - M00nF1sh
    - micahhausler
    - nckturner
    - nnmin-aws

@@ -51,13 +51,10 @@ teams:
     description: alert members of new issues labeled with contributor comms
     maintainers:
     members:
-    - AvineshTripathi
     - chris-short
     - fsmunoz
     - kaslin
     - mfahlandt
-    - sandipanpanda
-    - SD-13
     privacy: closed
   contributor-site-admins:
     description: admin access to contributor-site

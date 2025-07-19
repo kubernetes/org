@@ -181,6 +181,7 @@ teams:
     description: Admin access to the cluster-api-provider-digitalocean repo
     members:
     - cpanato
+    - gottwald
     - luxas
     - timoreimann
     - timothysc
@@ -191,6 +192,7 @@ teams:
     description: Write access to the cluster-api-provider-digitalocean repo
     members:
     - cpanato
+    - gottwald
     - MorrisLaw
     - timoreimann
     - timothysc

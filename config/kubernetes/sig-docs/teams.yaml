@@ -6,6 +6,7 @@ teams:
     members:
     - nate-double-u
     - onlydole
+    - graz-dev
     privacy: closed
   sig-docs-de-owners:
     description: Approvers for German content

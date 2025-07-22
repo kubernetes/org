@@ -22,18 +22,18 @@
 # The script expects a file containing a list of GitHub handles, one per line.
 #
 # The environment variable `DRYRUN` controls whether the changes are simulated
-# or live. The default, `false` will print the user, files modified, lines
+# or live. The default, `true` will print the user, files modified, lines
 # changed, and git commit command.
 #
 # ENV:
-#   DRYRUN: {true,false} - default: false
+#   DRYRUN: {true,false} - default: true
 # ARGS:
 #   $1: path to a file containing a list of members to be removed
 # USAGE:
 #   DRYRUN={true,false} ./remove-members.sh <file>
 # EXAMPLES:
-#   DRYRUN=false ./remove-members.sh inactive-members.txt # Prints changes
-#   DRYRUN=true ./remove-members.sh inactive-members.txt  # Removes members
+#   DRYRUN=false ./remove-members.sh inactive-members.txt # Removes members
+#   DRYRUN=true ./remove-members.sh inactive-members.txt  # Prints changes
 
 
 set -o errexit

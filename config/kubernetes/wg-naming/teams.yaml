@@ -2,7 +2,6 @@ teams:
   wg-naming:
     description: WG Naming
     members:
-    - celestehorgan
     - jdumars
     - justaugustus
     privacy: closed
@@ -10,7 +9,6 @@ teams:
       wg-naming-leads:
         description: WG Naming Leads
         members:
-        - celestehorgan
         - jdumars
         - justaugustus
         privacy: closed

@@ -655,7 +655,6 @@ members:
 - neoaggelos
 - neolit123
 - network-charles
-- nicolehanjing
 - nilekhc
 - nilo19
 - nimbinatus
@@ -1198,7 +1197,6 @@ teams:
     members:
     - andrewsykim
     - lubronzhan
-    - nicolehanjing
     privacy: closed
     repos:
       cloud-provider-vsphere: admin

@@ -241,7 +241,6 @@ teams:
     description: admin access to cluster-api-provider-kubevirt
     members:
     - agradouski
-    - cchengleo
     - davidvossel
     - justinsb
     - neolit123
@@ -255,7 +254,6 @@ teams:
     description: write access to cluster-api-provider-kubevirt
     members:
     - agradouski
-    - cchengleo
     - davidvossel
     - nunnatsa
     privacy: closed

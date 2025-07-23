@@ -31,7 +31,6 @@ teams:
     - munnerz
     - riaankleinhans
     - rikatz
-    - spiffxp
     - stp-ip
     - thockin
     - upodroid
@@ -64,7 +63,6 @@ teams:
         - justinsb
         - puerco
         - riaankleinhans
-        - spiffxp
         - thockin
         privacy: closed
       k8s-infra-gcp-org-admins:

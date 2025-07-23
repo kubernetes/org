@@ -861,7 +861,6 @@ members:
 - soltysh
 - songxiao-wang87
 - spencerhance
-- spiffxp
 - spowelljr
 - spurin
 - spzala
@@ -1112,7 +1111,6 @@ teams:
     members:
     - BenTheElder
     - cjwagner
-    - spiffxp
     - stevekuznetsov
     - sttts
     privacy: closed
@@ -1169,7 +1167,6 @@ teams:
     - johnbelamaric
     - rjbez17
     - smarterclayton
-    - spiffxp
     - timothysc
     privacy: closed
   cncf-wg:

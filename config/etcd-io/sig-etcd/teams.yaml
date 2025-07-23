@@ -79,7 +79,6 @@ teams:
   maintainers-jetcd:
     description: Granted write access to jetcd
     members:
-    - fanminshi
     - lburgazzoli
     - vorburger
     privacy: closed

@@ -47,7 +47,6 @@ teams:
     description: Granted write access to bbolt
     members:
     - ahrtr
-    - ptabor
     - serathius
     privacy: closed
     repos:
@@ -88,7 +87,6 @@ teams:
     description: raft maintainers
     members:
     - ahrtr
-    - ptabor
     - serathius
     - spzala
     - tbg

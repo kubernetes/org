@@ -89,7 +89,6 @@ teams:
     - ahrtr
     - serathius
     - spzala
-    - tbg
     privacy: closed
     repos:
       raft: maintain

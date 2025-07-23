@@ -88,7 +88,6 @@ teams:
     - neolit123 # Cluster Lifecycle
     - npolshakova # 1.33 Release Lead
     - pacoxu # Cluster Lifecycle
-    - pmorie # Multicluster
     - pohly # SIG Testing, Instrumentation, Node
     - puerco # Release Manager
     - quinton-hoole # Multicluster

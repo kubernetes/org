@@ -23,7 +23,6 @@ teams:
     description: ""
     members:
     - dixudx
-    - enisoc
     - janetkuo
     - kow3ns
     - mfojtik
@@ -35,7 +34,6 @@ teams:
   sig-apps-bugs:
     description: ""
     members:
-    - enisoc
     - janetkuo
     - kow3ns
     - mfojtik
@@ -47,7 +45,6 @@ teams:
     description: ""
     members:
     - ant31
-    - enisoc
     - janetkuo
     - kow3ns
     - mfojtik
@@ -58,7 +55,6 @@ teams:
   sig-apps-misc:
     description: Use only if you can't figure out a better category
     members:
-    - enisoc
     - janetkuo
     - kow3ns
     - mfojtik
@@ -68,7 +64,6 @@ teams:
   sig-apps-pr-reviews:
     description: ""
     members:
-    - enisoc
     - janetkuo
     - kow3ns
     - mfojtik
@@ -79,7 +74,6 @@ teams:
   sig-apps-proposals:
     description: ""
     members:
-    - enisoc
     - janetkuo
     - kow3ns
     - mfojtik
@@ -90,7 +84,6 @@ teams:
   sig-apps-test-failures:
     description: ""
     members:
-    - enisoc
     - janetkuo
     - kow3ns
     - mfojtik

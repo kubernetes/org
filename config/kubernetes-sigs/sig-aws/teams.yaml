@@ -74,7 +74,6 @@ teams:
   aws-efs-csi-driver-admins:
     description: admin access to aws-efs-csi-driver
     members:
-    - Ashley-wenyizha
     - dankova22
     - dims
     - justinsb
@@ -89,7 +88,6 @@ teams:
   aws-efs-csi-driver-maintainers:
     description: write access to aws-efs-csi-driver
     members:
-    - Ashley-wenyizha
     - d-nishi
     - dankova22
     - jsafrane

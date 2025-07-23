@@ -101,7 +101,6 @@ teams:
    - andyzhangx
    - feiskyer
    - justaugustus
-   - lachie83
    privacy: closed
    repos:
      blob-csi-driver: admin
@@ -111,7 +110,6 @@ teams:
    - andyzhangx
    - feiskyer
    - justaugustus
-   - lachie83
    privacy: closed
    repos:
      blob-csi-driver: write

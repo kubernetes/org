@@ -95,7 +95,6 @@ teams:
     members:
     - idvoretskyi
     - justaugustus
-    - lachie83
     privacy: closed
   sig-contributor-experience:
     description: Improve contributor productivity

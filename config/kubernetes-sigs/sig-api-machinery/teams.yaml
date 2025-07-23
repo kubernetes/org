@@ -2,7 +2,6 @@ teams:
   apiserver-builder-alpha-admins:
     description: admin access to apiserver-builder-alpha
     members:
-    - DirectXMan12
     - pwittrock
     - yue9944882
     privacy: closed
@@ -11,7 +10,6 @@ teams:
   apiserver-builder-alpha-maintainers:
     description: write access to apiserver-builder-alpha
     members:
-    - DirectXMan12
     - pwittrock
     - yue9944882
     privacy: closed
@@ -20,7 +18,6 @@ teams:
   apiserver-runtime-admins:
     description: admin access to apiserver-runtime
     members:
-    - DirectXMan12
     - pwittrock
     - yue9944882
     privacy: closed
@@ -29,7 +26,6 @@ teams:
   apiserver-runtime-maintainers:
     description: write access to apiserver-runtime
     members:
-    - DirectXMan12
     - pwittrock
     - yue9944882
     privacy: closed
@@ -130,7 +126,6 @@ teams:
     description: admin access to kubebuilder
     members:
     - camilamacedo86
-    - DirectXMan12
     - jmrodri
     - mengqiy
     - pmorie
@@ -143,7 +138,6 @@ teams:
   kubebuilder-contributors:
     description: read access to kubebuilder
     members:
-    - DirectXMan12
     - pwittrock
     privacy: closed
     repos:
@@ -167,7 +161,6 @@ teams:
     members:
     - apelisse
     - camilamacedo86
-    - DirectXMan12
     - mengqiy
     - pmorie
     - pwittrock
@@ -178,7 +171,6 @@ teams:
   kubebuilder-release-tools-admins:
     description: Admin access to kubebuilder-release-tools
     members:
-    - DirectXMan12
     - mengqiy
     - vincepri
     privacy: closed
@@ -188,7 +180,6 @@ teams:
     description: Write access to kubebuilder-release-tools
     members:
     - camilamacedo86
-    - DirectXMan12
     - mengqiy
     - vincepri
     privacy: closed

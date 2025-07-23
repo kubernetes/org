@@ -222,7 +222,6 @@ teams:
   sig-docs-pt-owners:
     description: Approvers for Portuguese content
     members:
-    - devlware
     - edsoncelio
     - femrtnz
     - jcjesus
@@ -233,7 +232,6 @@ teams:
   sig-docs-pt-reviews:
     description: PR reviews for Portuguese content
     members:
-    - devlware
     - edsoncelio
     - femrtnz
     - jcjesus
@@ -316,7 +314,6 @@ teams:
     members:
     - a-mccarthy # Localization subproject owner
     - bells17 # L10n: Japanese
-    - devlware # L10: Portuguese
     - divya-mohan0209 # L10n: English
     - femrtnz # L10n: Portuguese
     - girikuncoro # L10n: Indonesian

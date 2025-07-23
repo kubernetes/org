@@ -1390,7 +1390,11 @@ teams:
     description: Admin access to the client-go repo
     members:
     - caesarxuchao
+    - deads2k
+    - fedebongio
+    - jpbetz
     - lavalamp
+    - sttts
     privacy: closed
     repos:
       client-go: admin

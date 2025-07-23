@@ -109,7 +109,6 @@ teams:
     description: Admin access to the json repo
     members:
     - deads2k
-    - lavalamp
     - liggitt
     privacy: closed
     repos:
@@ -197,14 +196,12 @@ teams:
       admins)
     members:
     - deads2k
-    - lavalamp
     privacy: closed
     teams:
       kubernetes/sig-api-machinery-admins:
         description: Admin rights over all SIG API Machinery managed repositories
         members:
         - deads2k
-        - lavalamp
         privacy: closed
         repos:
           kube-storage-version-migrator: admin
@@ -212,7 +209,6 @@ teams:
         description: write access to all SIG API Machinery managed repositories
         members:
         - deads2k
-        - lavalamp
         privacy: closed
         repos:
           kube-storage-version-migrator: write
@@ -220,7 +216,6 @@ teams:
         description: read access to all repositories owned by SIG API Machinery
         members:
         - deads2k
-        - lavalamp
         privacy: closed
         repos:
           kube-storage-version-migrator: read
@@ -228,7 +223,6 @@ teams:
     description: admin access to structured-merge-diff
     members:
     - apelisse
-    - lavalamp
     privacy: closed
     repos:
       structured-merge-diff: admin
@@ -237,7 +231,6 @@ teams:
     members:
     - apelisse
     - jpbetz
-    - lavalamp
     # emeritus
     # - jennybuckley
     privacy: closed
@@ -248,7 +241,6 @@ teams:
     members:
     - deads2k
     - dims
-    - lavalamp
     - liggitt
     privacy: closed
     repos:
@@ -258,7 +250,6 @@ teams:
     members:
     - deads2k
     - dims
-    - lavalamp
     - liggitt
     privacy: closed
     repos:

@@ -513,7 +513,6 @@ members:
 - laoj2
 - lauralorenz
 - LaurentGoderre
-- lavalamp
 - lavishpal
 - laxmikantbpandhare
 - leakingtapan
@@ -1212,7 +1211,6 @@ teams:
     - deads2k
     - fedebongio
     - jpbetz
-    - lavalamp
     - sttts
     privacy: closed
     repos:
@@ -1220,7 +1218,6 @@ teams:
   client-go-maintainers:
     description: ""
     members:
-    - lavalamp
     - sttts
     privacy: closed
     repos:
@@ -1361,7 +1358,6 @@ teams:
   gengo-admins:
     description: Admin access to the gengo repo
     members:
-    - lavalamp
     - smarterclayton
     - thockin
     - wojtek-t
@@ -1453,7 +1449,6 @@ teams:
     members:
     - apelisse
     - deads2k
-    - lavalamp
     privacy: closed
     repos:
       kube-openapi: admin
@@ -1462,7 +1457,6 @@ teams:
     members:
     - apelisse
     - Jefftree
-    - lavalamp
     - roycaihw
     privacy: closed
     repos:
@@ -1519,7 +1513,6 @@ teams:
       to repos
     members:
     - deads2k
-    - lavalamp
     - sttts
     privacy: closed
   owners:

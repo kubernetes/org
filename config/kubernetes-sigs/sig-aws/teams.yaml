@@ -88,7 +88,6 @@ teams:
   aws-efs-csi-driver-maintainers:
     description: write access to aws-efs-csi-driver
     members:
-    - d-nishi
     - dankova22
     - jsafrane
     - justinsb

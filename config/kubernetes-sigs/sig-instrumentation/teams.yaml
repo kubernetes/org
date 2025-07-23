@@ -107,7 +107,6 @@ teams:
   usage-metrics-collector-admins:
     description: Admin access to the usage-metrics-collector repo
     members:
-    - campoy
     - ehashman
     - ndipebot
     - pmorie
@@ -118,7 +117,6 @@ teams:
   usage-metrics-collector-maintainers:
     description: Write access to the usage-metrics-collector repo
     members:
-    - campoy
     - ehashman
     - ndipebot
     - pmorie

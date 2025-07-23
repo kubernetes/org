@@ -2,7 +2,6 @@ teams:
   sig-multicluster-api-reviews:
     description: ""
     members:
-    - davidopp
     - mwielgus
     - quinton-hoole
     privacy: closed
@@ -15,7 +14,6 @@ teams:
   sig-multicluster-feature-requests:
     description: ""
     members:
-    - davidopp
     - derekwaynecarr
     - mwielgus
     - quinton-hoole
@@ -24,7 +22,6 @@ teams:
   sig-multicluster-misc:
     description: 'SIG for multi cluster: https://groups.google.com/forum/#!forum/kubernetes-sig-multicluster'
     members:
-    - davidopp
     - derekwaynecarr
     - liggitt
     - mwielgus
@@ -40,7 +37,6 @@ teams:
   sig-multicluster-proposals:
     description: ""
     members:
-    - davidopp
     - derekwaynecarr
     - liggitt
     - mwielgus

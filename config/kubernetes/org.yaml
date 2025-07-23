@@ -228,7 +228,6 @@ members:
 - davidgamero
 - davidjumani
 - davidkarlsen
-- davidopp
 - dbonfigli
 - dcantah
 - dcbw
@@ -1539,7 +1538,6 @@ teams:
     description: ""
     members:
     - bart0sh
-    - davidopp
     - kad
     privacy: closed
   kube-openapi-admins:

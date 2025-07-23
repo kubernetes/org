@@ -2,7 +2,6 @@ teams:
   sig-storage-api-reviews:
     description: API Reviews for Kubernetes Storage Special-Interest-Group
     members:
-    - davidopp
     - jsafrane
     - msau42
     - saad-ali
@@ -22,7 +21,6 @@ teams:
   sig-storage-feature-requests:
     description: Feature Requests for Kubernetes Storage Special-Interest-Group
     members:
-    - davidopp
     - jingxu97
     - jsafrane
     - msau42
@@ -37,7 +35,6 @@ teams:
       appropriate channels (sig-storage-bugs, sig-storage-proposals, sig-storage-pr-reviews,
       etc.)
     members:
-    - davidopp
     - gnufied
     - jingxu97
     - jsafrane
@@ -58,7 +55,6 @@ teams:
   sig-storage-proposals:
     description: Proposals for Kubernetes Storage Special-Interest-Group
     members:
-    - davidopp
     - jingxu97
     - jsafrane
     - msau42

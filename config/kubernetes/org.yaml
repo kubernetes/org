@@ -313,7 +313,6 @@ members:
 - floreks
 - fmuyassarov
 - fpetkovski
-- frapposelli
 - freddie400
 - fredkan
 - fsmunoz
@@ -1294,7 +1293,6 @@ teams:
     description: Admin access to cloud-provider-vsphere repo
     members:
     - andrewsykim
-    - frapposelli
     - lubronzhan
     - nicolehanjing
     privacy: closed
@@ -1306,7 +1304,6 @@ teams:
     - andrewsykim
     - divyenpatel
     - dougm
-    - frapposelli
     - SandeepPissay
     privacy: closed
     repos:

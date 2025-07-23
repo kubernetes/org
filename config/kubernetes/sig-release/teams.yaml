@@ -42,7 +42,6 @@ teams:
     - fabriziopandini # Cluster Lifecycle
     - feiskyer # Azure
     - floreks # UI
-    - frapposelli # VMware
     - fsmunoz # 1.34 EA
     - fykaa # 1.34 Enhancements Shadow
     - gjtempleton # Autoscaling

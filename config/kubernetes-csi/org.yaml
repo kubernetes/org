@@ -55,7 +55,6 @@ members:
 - ihcsim
 - irvifa
 - jasonbraganza
-- Jiawei0227
 - jingxu97
 - jlsong01
 - jsafrane
@@ -272,7 +271,6 @@ teams:
     description: Write access to csi-lib-utils repo
     members:
     - chrishenzie
-    - Jiawei0227
     - jsafrane
     - msau42
     - pohly
@@ -418,7 +416,6 @@ teams:
     description: Write access to external-attacher repo
     members:
     - chrishenzie
-    - Jiawei0227
     - jsafrane
     - msau42
     - saad-ali
@@ -465,7 +462,6 @@ teams:
     description: Write access to external-provisioner repo
     members:
     - chrishenzie
-    - Jiawei0227
     - jsafrane
     - msau42
     - pohly
@@ -490,7 +486,6 @@ teams:
     members:
     - chrishenzie
     - gnufied
-    - Jiawei0227
     - jsafrane
     - msau42
     - saad-ali
@@ -540,7 +535,6 @@ teams:
     description: Write access to external-snapshotter repo
     members:
     - chrishenzie
-    - Jiawei0227
     - jsafrane
     - msau42
     - saad-ali
@@ -584,7 +578,6 @@ teams:
     description: Write access to livenessprobe repo
     members:
     - chrishenzie
-    - Jiawei0227
     - jsafrane
     - mauriciopoppe
     - msau42
@@ -609,7 +602,6 @@ teams:
     description: Write access to node-driver-registrar repo
     members:
     - chrishenzie
-    - Jiawei0227
     - jsafrane
     - lpabon
     - mauriciopoppe

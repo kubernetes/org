@@ -90,7 +90,6 @@ teams:
     - pacoxu # Cluster Lifecycle
     - pohly # SIG Testing, Instrumentation, Node
     - puerco # Release Manager
-    - quinton-hoole # Multicluster
     - RainbowMango # Instrumentation
     - Rajalakshmi-Girish # 1.34 Release Signal Lead
     - rayandas # 1.34 Enhancements Shadow

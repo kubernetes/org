@@ -22,7 +22,6 @@ teams:
     members:
     - hectorj2f
     - jimmidyson
-    - quinton-hoole
     privacy: closed
   mcs-api-admins:
     description: Admin access to the mcs-api repo

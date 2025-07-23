@@ -22,7 +22,6 @@ teams:
   sig-docs-en-owners:
     description: Approvers for English content
     members:
-    - bradtopol
     - dipesh-rawat  
     - divya-mohan0209
     - katcosgrove
@@ -39,7 +38,6 @@ teams:
   sig-docs-en-reviews:
     description: PR reviews for English content
     members:
-    - bradtopol
     - dipesh-rawat
     - divya-mohan0209
     - kbhawkey
@@ -213,7 +211,6 @@ teams:
   sig-docs-pr-reviews:
     description: PR reviews for docs-related issues
     members:
-    - bradtopol
     - divya-mohan0209
     - gochist
     - kbhawkey
@@ -319,7 +316,6 @@ teams:
     members:
     - a-mccarthy # Localization subproject owner
     - bells17 # L10n: Japanese
-    - bradtopol # L10n: English
     - devlware # L10: Portuguese
     - divya-mohan0209 # L10n: English
     - femrtnz # L10n: Portuguese
@@ -361,7 +357,6 @@ teams:
     - a-mccarthy
     - ArvindParekh
     - bene2k1
-    - bradtopol
     - divya-mohan0209
     - femrtnz
     - girikuncoro

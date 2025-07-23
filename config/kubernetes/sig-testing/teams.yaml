@@ -58,7 +58,6 @@ teams:
     - ameukam    # k8s-infra-oncall
     - aojea
     - BenTheElder
-    - chaodaiG   # test-infra-oncall
     - chases2    # test-infra-oncall
     - cjwagner
     - dims       # k8s-infra-oncall

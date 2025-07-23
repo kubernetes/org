@@ -14,7 +14,6 @@ description: Kubernetes specific Container-Storage-Interface (CSI) components
 has_organization_projects: true
 has_repository_projects: true
 members:
-- 27149chen
 - adriananeci
 - alexander-ding
 - ameukam

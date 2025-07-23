@@ -91,7 +91,6 @@ members:
 - wackxu
 - xing-yang
 - ydFu
-- yuxiangqian
 - zhucan
 members_can_create_repositories: false
 name: Kubernetes CSI

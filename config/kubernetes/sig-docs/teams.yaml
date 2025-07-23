@@ -25,7 +25,6 @@ teams:
     - dipesh-rawat  
     - divya-mohan0209
     - katcosgrove
-    - kbhawkey
     - lmktfy
     - mickeyboxell
     - natalisucks
@@ -40,7 +39,6 @@ teams:
     members:
     - dipesh-rawat
     - divya-mohan0209
-    - kbhawkey
     - lmktfy
     - mehabhalodiya
     - mengjiao-liu
@@ -171,7 +169,6 @@ teams:
     description: Chairs and tech leads for SIG Docs
     members:
     - divya-mohan0209
-    - kbhawkey
     - natalisucks
     - onlydole
     - reylejano
@@ -209,7 +206,6 @@ teams:
     description: PR reviews for docs-related issues
     members:
     - divya-mohan0209
-    - kbhawkey
     - natalisucks
     - reylejano
     - salaxander

@@ -126,7 +126,6 @@ teams:
     description: admin access to kubebuilder
     members:
     - camilamacedo86
-    - jmrodri
     - mengqiy
     - pmorie
     - pwittrock

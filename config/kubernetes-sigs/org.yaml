@@ -1195,6 +1195,8 @@ teams:
   kubernetes/sig-scheduling:
     description: Team responsible for sig-scheduling related projects
     members:
+    - macsko
+    - sanposhiho
     - timothysc
     privacy: closed
   node-feature-discovery-admins:

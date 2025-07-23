@@ -108,7 +108,6 @@ members:
 - yatti1998
 - ydFu
 - yuxiangqian
-- ZeroMagic
 - zhucan
 members_can_create_repositories: false
 name: Kubernetes CSI

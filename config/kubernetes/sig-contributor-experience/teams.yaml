@@ -36,7 +36,6 @@ teams:
     - dims
     - idvoretskyi
     - jberkus
-    - jdumars
     - jeefy
     - justaugustus
     - kaslin
@@ -95,7 +94,6 @@ teams:
       board with admin permissions.
     members:
     - idvoretskyi
-    - jdumars
     - justaugustus
     - lachie83
     privacy: closed
@@ -161,7 +159,6 @@ teams:
     members:
     - castrojo
     - idvoretskyi
-    - jdumars
     - jeefy
     - onlydole
     - parispittman

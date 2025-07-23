@@ -223,7 +223,6 @@ teams:
     description: Approvers for Portuguese content
     members:
     - edsoncelio
-    - femrtnz
     - jcjesus
     - jhonmike
     - stormqueen1990
@@ -233,7 +232,6 @@ teams:
     description: PR reviews for Portuguese content
     members:
     - edsoncelio
-    - femrtnz
     - jcjesus
     - jhonmike
     - stormqueen1990
@@ -315,7 +313,6 @@ teams:
     - a-mccarthy # Localization subproject owner
     - bells17 # L10n: Japanese
     - divya-mohan0209 # L10n: English
-    - femrtnz # L10n: Portuguese
     - girikuncoro # L10n: Indonesian
     - gochist # L10n: Korean
     - huynguyennovem # L10n: Vietnamese # L10n: Korean
@@ -355,7 +352,6 @@ teams:
     - ArvindParekh
     - bene2k1
     - divya-mohan0209
-    - femrtnz
     - girikuncoro
     - gochist
     - huynguyennovem

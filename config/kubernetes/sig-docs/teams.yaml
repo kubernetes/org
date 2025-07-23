@@ -94,7 +94,6 @@ teams:
   sig-docs-hi-reviews:
     description: PR reviews for Hindi content
     members:
-    - Babapool
     - bishal7679
     - dipesh-rawat    
     - divya-mohan0209

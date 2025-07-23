@@ -17,7 +17,6 @@ teams:
     - michelle192837
     - mkumatag
     - stevekuznetsov
-    - xmcqueen
     privacy: closed
     teams:
       sig-testing-leads:
@@ -29,7 +28,6 @@ teams:
         - jbpratt
         - michelle192837
         - pohly
-        - xmcqueen
         privacy: closed
         repos:
           sig-testing: admin
@@ -45,7 +43,6 @@ teams:
         - michelle192837
         - mkumatag
         - stevekuznetsov
-        - xmcqueen
         privacy: closed
   test-infra-admins:
     description: admin access to test-infra

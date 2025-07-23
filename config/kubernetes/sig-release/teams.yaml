@@ -125,7 +125,6 @@ teams:
     - wendy-ha18 # 1.34 Release Lead Shadow
     - wojtek-t # Scalability
     - xing-yang # Storage
-    - xmcqueen # Testing
     - xmudrii # Release Manager / K8s Infra
     - zylxjtu # Windows
     privacy: closed

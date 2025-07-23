@@ -288,7 +288,6 @@ members:
 - enj
 - enxebre
 - ericsmalling
-- erictune
 - erikgb
 - ErikJiang
 - errordeveloper
@@ -1412,7 +1411,6 @@ teams:
     description: Creation and curation of example applications that run on Kubernetes
     members:
     - ahmetb
-    - erictune
     - idvoretskyi
     - janetkuo
     - jayunit100

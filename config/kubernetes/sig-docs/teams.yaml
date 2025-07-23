@@ -154,7 +154,6 @@ teams:
     - jihoon-seo
     - jongwooo
     - seokho-son
-    - ysyukr
     privacy: closed
   sig-docs-ko-reviews:
     description: Reviews for Korean docs PRs
@@ -163,7 +162,6 @@ teams:
     - jihoon-seo
     - jongwooo
     - seokho-son
-    - ysyukr
     privacy: closed
   sig-docs-leads:
     description: Chairs and tech leads for SIG Docs
@@ -365,6 +363,5 @@ teams:
     - truongnh1992
     - Urvashi0109
     - xichengliudui
-    - ysyukr
     - yujen77300
     privacy: closed

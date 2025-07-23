@@ -23,7 +23,6 @@ teams:
   alibaba-cloud-csi-driver-admins:
    description: Admin access to alibaba-cloud-csi-driver repo
    members:
-   - JiaoDean
    - mowangdk
    privacy: closed
    repos:
@@ -31,7 +30,6 @@ teams:
   alibaba-cloud-csi-driver-maintainers:
    description: Write access to alibaba-cloud-csi-driver repo
    members:
-   - JiaoDean
    - mowangdk
    privacy: closed
    repos:

@@ -41,7 +41,6 @@ teams:
     - kaslin
     - mfahlandt
     - parispittman
-    - tpepper
     privacy: closed
   contributor-comms:
     description: alert members of new issues labeled with contributor comms

@@ -34,7 +34,6 @@ members:
 - cvvz
 - cwdsuzhou
 - dannawang0221
-- ddebroy
 - deepakkinni
 - dobsonj
 - dulek
@@ -292,7 +291,6 @@ teams:
     description: Admin access to csi-proxy repo
     members:
     - andyzhangx
-    - ddebroy
     - jsafrane
     - mauriciopoppe
     - msau42
@@ -305,7 +303,6 @@ teams:
     description: Write access to csi-proxy repo
     members:
     - andyzhangx
-    - ddebroy
     - jsafrane
     - mauriciopoppe
     - msau42

@@ -155,7 +155,6 @@ members:
 - byako
 - bzsuni
 - cadmuxe
-- caesarxuchao
 - cahillsf
 - cailyn-codes
 - calvin0327
@@ -1312,7 +1311,6 @@ teams:
   client-go-admins:
     description: Admin access to the client-go repo
     members:
-    - caesarxuchao
     - deads2k
     - fedebongio
     - jpbetz
@@ -1324,7 +1322,6 @@ teams:
   client-go-maintainers:
     description: ""
     members:
-    - caesarxuchao
     - lavalamp
     - sttts
     privacy: closed
@@ -1629,7 +1626,6 @@ teams:
     description: will be notified if the robot fails to publish the staging folder
       to repos
     members:
-    - caesarxuchao
     - deads2k
     - lavalamp
     - sttts

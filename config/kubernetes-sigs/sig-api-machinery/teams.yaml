@@ -188,7 +188,6 @@ teams:
   kubectl-check-ownerreferences-admins:
     description: Admin access to kubectl-check-ownerreferences
     members:
-    - caesarxuchao
     - deads2k
     - liggitt
     privacy: closed

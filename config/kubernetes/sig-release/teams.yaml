@@ -27,7 +27,6 @@ teams:
     - cpanato # Release Manager
     - danwinship # Network
     - dashpole # Instrumentation
-    - dcbw # Network
     - dchen1107 # Node
     - deads2k # API Machinery / Auth
     - derekwaynecarr # Architecture / Node

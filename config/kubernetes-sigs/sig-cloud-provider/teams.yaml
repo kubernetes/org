@@ -146,7 +146,6 @@ teams:
    description: Admin access to the cloud-provider-huaweicloud repo
    members:
    - chengxiangdong
-   - kevin-wangzefeng
    - niuzhenguo
    - RainbowMango
    privacy: closed
@@ -156,7 +155,6 @@ teams:
    description: Write access to the cloud-provider-huaweicloud repo
    members:
    - chengxiangdong
-   - kevin-wangzefeng
    - niuzhenguo
    - RainbowMango
    privacy: closed

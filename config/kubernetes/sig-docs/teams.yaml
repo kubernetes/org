@@ -152,7 +152,6 @@ teams:
   sig-docs-ko-owners:
     description: Approvers for Korean content
     members:
-    - gochist
     - ianychoi
     - jihoon-seo
     - jongwooo
@@ -162,7 +161,6 @@ teams:
   sig-docs-ko-reviews:
     description: Reviews for Korean docs PRs
     members:
-    - gochist
     - ianychoi
     - jihoon-seo
     - jmyung
@@ -212,7 +210,6 @@ teams:
     description: PR reviews for docs-related issues
     members:
     - divya-mohan0209
-    - gochist
     - kbhawkey
     - natalisucks
     - reylejano
@@ -314,7 +311,6 @@ teams:
     - bells17 # L10n: Japanese
     - divya-mohan0209 # L10n: English
     - girikuncoro # L10n: Indonesian
-    - gochist # L10n: Korean
     - huynguyennovem # L10n: Vietnamese # L10n: Korean
     - inductor # L10n: Japanese
     - jcjesus # L10n: Portuguese
@@ -353,7 +349,6 @@ teams:
     - bene2k1
     - divya-mohan0209
     - girikuncoro
-    - gochist
     - huynguyennovem
     - inductor
     - jcjesus

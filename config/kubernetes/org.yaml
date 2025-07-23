@@ -911,7 +911,6 @@ members:
 - thockin
 - tico88612
 - timoreimann
-- timothysc
 - timstoop
 - timwangmusic
 - tizhou86
@@ -1158,7 +1157,6 @@ teams:
     - johnbelamaric
     - rjbez17
     - smarterclayton
-    - timothysc
     privacy: closed
   cncf-wg:
     description: The cncf working group
@@ -1449,7 +1447,6 @@ teams:
     - bowei
     - mengqiy
     - shyamjvs
-    - timothysc
     - wojtek-t
     privacy: closed
     repos:

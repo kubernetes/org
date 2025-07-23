@@ -4,7 +4,6 @@ teams:
     members:
     - justinsb
     - luxas
-    - timothysc
     privacy: closed
     previously:
     - addon-operators-admins
@@ -182,7 +181,6 @@ teams:
     - cpanato
     - luxas
     - timoreimann
-    - timothysc
     privacy: closed
     repos:
       cluster-api-provider-digitalocean: admin
@@ -192,7 +190,6 @@ teams:
     - cpanato
     - MorrisLaw
     - timoreimann
-    - timothysc
     privacy: closed
     repos:
       cluster-api-provider-digitalocean: write
@@ -223,7 +220,6 @@ teams:
     - elmiko
     - justinsb
     - neolit123
-    - timothysc
     - vincepri
     privacy: closed
     repos:
@@ -244,7 +240,6 @@ teams:
     - justinsb
     - neolit123
     - nunnatsa
-    - timothysc
     - vincepri
     privacy: closed
     repos:

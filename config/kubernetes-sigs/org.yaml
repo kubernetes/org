@@ -782,7 +782,6 @@ members:
 - thockin
 - tico88612
 - timoreimann
-- timothysc
 - timwangmusic
 - tizhou86
 - tkashem
@@ -997,7 +996,6 @@ teams:
     members:
     - macsko
     - sanposhiho
-    - timothysc
     privacy: closed
   node-feature-discovery-admins:
     description: Admin access to the node-feature-discovery repo

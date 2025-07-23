@@ -68,7 +68,6 @@ teams:
     description: Admin access to system-validators repo
     members:
     - neolit123
-    - timothysc
     privacy: closed
     repos:
       system-validators: admin
@@ -76,7 +75,6 @@ teams:
     description: Write access to system-validators repo
     members:
     - neolit123
-    - timothysc
     privacy: closed
     repos:
       system-validators: write

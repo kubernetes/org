@@ -14,11 +14,8 @@ description: Kubernetes specific Container-Storage-Interface (CSI) components
 has_organization_projects: true
 has_repository_projects: true
 members:
-- 27149chen
 - adriananeci
-- alexander-ding
 - ameukam
-- amolmote
 - AndrewSirenko
 - andrewsykim
 - andyzhangx
@@ -37,38 +34,27 @@ members:
 - cvvz
 - cwdsuzhou
 - dannawang0221
-- ddebroy
 - deepakkinni
 - dobsonj
 - dulek
 - ElijahQuinones
 - EmilienM
-- ezzoueidi
-- ggriffiths
 - gnufied
-- gryf
 - hairyhum
 - hime
 - humblec
 - huntergregory
-- idealhack
 - idvoretskyi
-- ihcsim
 - irvifa
 - jasonbraganza
-- Jiawei0227
 - jingxu97
-- jlsong01
 - jsafrane
 - justaugustus
 - k8s-infra-cherrypick-robot
 - k8s-infra-ci-robot
-- Kartik494
 - kfox1111
-- leakingtapan
 - leiyiz
 - leonardoce
-- lizhuqi
 - lpabon
 - Madhu-1
 - MartinForReal
@@ -83,12 +69,10 @@ members:
 - nearora-msft
 - nixpanic
 - nnmin-aws
-- oprinmarius
 - pierreprinetti
 - pohly
 - Pradumnasaraf
 - PrasadG193
-- prateekpandey14
 - pwschuurman
 - Rakshith-R
 - RaunakShah
@@ -99,19 +83,14 @@ members:
 - savitharaghunathan
 - smileusd
 - Sneha-at
-- spiffxp
 - sunnylovestiramisu
 - torredil
 - ttakahashi21
 - tyuchn
 - vladimirvivien
 - wackxu
-- wozniakjan
 - xing-yang
-- yatti1998
 - ydFu
-- yuxiangqian
-- ZeroMagic
 - zhucan
 members_can_create_repositories: false
 name: Kubernetes CSI
@@ -273,7 +252,6 @@ teams:
     description: Write access to csi-lib-utils repo
     members:
     - chrishenzie
-    - Jiawei0227
     - jsafrane
     - msau42
     - pohly
@@ -299,7 +277,6 @@ teams:
     description: Admin access to csi-proxy repo
     members:
     - andyzhangx
-    - ddebroy
     - jsafrane
     - mauriciopoppe
     - msau42
@@ -312,7 +289,6 @@ teams:
     description: Write access to csi-proxy repo
     members:
     - andyzhangx
-    - ddebroy
     - jsafrane
     - mauriciopoppe
     - msau42
@@ -419,7 +395,6 @@ teams:
     description: Write access to external-attacher repo
     members:
     - chrishenzie
-    - Jiawei0227
     - jsafrane
     - msau42
     - saad-ali
@@ -466,7 +441,6 @@ teams:
     description: Write access to external-provisioner repo
     members:
     - chrishenzie
-    - Jiawei0227
     - jsafrane
     - msau42
     - pohly
@@ -491,7 +465,6 @@ teams:
     members:
     - chrishenzie
     - gnufied
-    - Jiawei0227
     - jsafrane
     - msau42
     - saad-ali
@@ -516,7 +489,6 @@ teams:
     members:
     - carlbraganza
     - hairyhum
-    - ihcsim
     - jsafrane
     - msau42
     - PrasadG193
@@ -541,7 +513,6 @@ teams:
     description: Write access to external-snapshotter repo
     members:
     - chrishenzie
-    - Jiawei0227
     - jsafrane
     - msau42
     - saad-ali
@@ -585,7 +556,6 @@ teams:
     description: Write access to livenessprobe repo
     members:
     - chrishenzie
-    - Jiawei0227
     - jsafrane
     - mauriciopoppe
     - msau42
@@ -610,7 +580,6 @@ teams:
     description: Write access to node-driver-registrar repo
     members:
     - chrishenzie
-    - Jiawei0227
     - jsafrane
     - lpabon
     - mauriciopoppe

@@ -47,7 +47,6 @@ teams:
     description: Granted write access to bbolt
     members:
     - ahrtr
-    - ptabor
     - serathius
     privacy: closed
     repos:
@@ -79,7 +78,6 @@ teams:
   maintainers-jetcd:
     description: Granted write access to jetcd
     members:
-    - fanminshi
     - lburgazzoli
     - vorburger
     privacy: closed
@@ -89,10 +87,8 @@ teams:
     description: raft maintainers
     members:
     - ahrtr
-    - ptabor
     - serathius
     - spzala
-    - tbg
     privacy: closed
     repos:
       raft: maintain
@@ -127,10 +123,8 @@ teams:
     description: ""
     members:
     - ArkaSaha30
-    - cenkalti
     - chaochn47
     - elbehery
-    - erikgrinaker
     - fuweid
     - ghouscht
     - henrybear327

@@ -107,11 +107,8 @@ teams:
   usage-metrics-collector-admins:
     description: Admin access to the usage-metrics-collector repo
     members:
-    - campoy
     - ehashman
-    - KnVerey
     - ndipebot
-    - pmorie
     - pwittrock
     privacy: closed
     repos:
@@ -119,11 +116,8 @@ teams:
   usage-metrics-collector-maintainers:
     description: Write access to the usage-metrics-collector repo
     members:
-    - campoy
     - ehashman
-    - KnVerey
     - ndipebot
-    - pmorie
     - pwittrock
     privacy: closed
     repos:

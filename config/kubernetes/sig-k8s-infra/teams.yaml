@@ -25,15 +25,12 @@ teams:
     - claudiubelu
     - cpanato
     - dims
-    - hh
     - idvoretskyi
-    - ixdy
     - justinsb
     - listx
     - munnerz
     - riaankleinhans
     - rikatz
-    - spiffxp
     - stp-ip
     - thockin
     - upodroid
@@ -62,12 +59,10 @@ teams:
         - cblecker
         members:
         - BobyMCbobs
-        - hh
         - idvoretskyi
         - justinsb
         - puerco
         - riaankleinhans
-        - spiffxp
         - thockin
         privacy: closed
       k8s-infra-gcp-org-admins:

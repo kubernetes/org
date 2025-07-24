@@ -33,7 +33,6 @@ teams:
     - lilic
     - logicalhan
     - mrueg
-    - olivierlemasle
     - pohly
     - RainbowMango
     - rexagod
@@ -43,7 +42,6 @@ teams:
     - slashpai
     - tariq1890
     - yangjunmyfm192085
-    - YoyinZyc
     - yuzhiquan
     privacy: closed
   kube-state-metrics-admins:

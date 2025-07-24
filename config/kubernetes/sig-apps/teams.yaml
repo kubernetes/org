@@ -4,7 +4,6 @@ teams:
     members:
     - cdrage
     - janetkuo
-    - kadel
     - TessaIO
     privacy: closed
     repos:
@@ -14,7 +13,6 @@ teams:
     members:
     - cdrage
     - janetkuo
-    - kadel
     - TessaIO
     privacy: closed
     repos:
@@ -22,12 +20,9 @@ teams:
   sig-apps-api-reviews:
     description: ""
     members:
-    - davidopp
     - dixudx
-    - enisoc
     - janetkuo
     - kow3ns
-    - mfojtik
     - mimowo
     - smarterclayton
     - soltysh
@@ -36,11 +31,8 @@ teams:
   sig-apps-bugs:
     description: ""
     members:
-    - davidopp
-    - enisoc
     - janetkuo
     - kow3ns
-    - mfojtik
     - mimowo
     - smarterclayton
     - soltysh
@@ -49,11 +41,8 @@ teams:
     description: ""
     members:
     - ant31
-    - davidopp
-    - enisoc
     - janetkuo
     - kow3ns
-    - mfojtik
     - mimowo
     - smarterclayton
     - soltysh
@@ -61,22 +50,16 @@ teams:
   sig-apps-misc:
     description: Use only if you can't figure out a better category
     members:
-    - davidopp
-    - enisoc
     - janetkuo
     - kow3ns
-    - mfojtik
     - smarterclayton
     - soltysh
     privacy: closed
   sig-apps-pr-reviews:
     description: ""
     members:
-    - davidopp
-    - enisoc
     - janetkuo
     - kow3ns
-    - mfojtik
     - mimowo
     - smarterclayton
     - soltysh
@@ -84,11 +67,8 @@ teams:
   sig-apps-proposals:
     description: ""
     members:
-    - davidopp
-    - enisoc
     - janetkuo
     - kow3ns
-    - mfojtik
     - mimowo
     - smarterclayton
     - soltysh
@@ -96,11 +76,8 @@ teams:
   sig-apps-test-failures:
     description: ""
     members:
-    - davidopp
-    - enisoc
     - janetkuo
     - kow3ns
-    - mfojtik
     - mimowo
     - smarterclayton
     - soltysh

@@ -8,7 +8,6 @@ teams:
     - Priyankasaggu11929 # ContribEx
     members:
     - 88abb # 1.34 Comms Shadow
-    - adisky # OpenStack
     - aibarbetta # 1.34 Comms Lead
     - ameukam # Release Manager Associate / K8s Infra
     - aojea # Testing / Network
@@ -19,7 +18,6 @@ teams:
     - bgrant0607 # Architecture
     - brancz # Instrumentation
     - bridgetkromhout # Cloud Provider
-    - cantbewong # VMware
     - caseydavenport # Network
     - chanieljdan # 1.34 Release Lead Shadow
     - cheftako # Cloud Provider
@@ -27,10 +25,8 @@ teams:
     - claudiubelu # Windows
     - cloudmelon # 1.34 Comms Shadow
     - cpanato # Release Manager
-    - craiglpeters # Azure
     - danwinship # Network
     - dashpole # Instrumentation
-    - dcbw # Network
     - dchen1107 # Node
     - deads2k # API Machinery / Auth
     - derekwaynecarr # Architecture / Node
@@ -46,7 +42,6 @@ teams:
     - fabriziopandini # Cluster Lifecycle
     - feiskyer # Azure
     - floreks # UI
-    - frapposelli # VMware
     - fsmunoz # 1.34 EA
     - fykaa # 1.34 Enhancements Shadow
     - gjtempleton # Autoscaling
@@ -57,7 +52,6 @@ teams:
     - janetkuo # Apps
     - jberkus # Release
     - jbpratt # Testing
-    - jdumars # Architecture / PM
     - jenshu # 1.34 Enhancements Lead
     - jeremyrickard # Release
     - jimangel # Docs / Release Manager Associate / 1.32 Release Branch Manager
@@ -72,11 +66,8 @@ teams:
     - k8s-release-robot # Release
     - kannon92 # wg-batch organizer
     - katcosgrove # v1.32 EA
-    - khenidak # Azure
     - kow3ns # Apps
-    - lavalamp # API Machinery
     - liggitt # Auth / Release
-    - lingxiankong # OpenStack
     - logicalhan # Instrumentation
     - luxas # Cluster Lifecycle
     - maciaszczykm # UI
@@ -97,10 +88,8 @@ teams:
     - neolit123 # Cluster Lifecycle
     - npolshakova # 1.33 Release Lead
     - pacoxu # Cluster Lifecycle
-    - pmorie # Multicluster
     - pohly # SIG Testing, Instrumentation, Node
     - puerco # Release Manager
-    - quinton-hoole # Multicluster
     - RainbowMango # Instrumentation
     - Rajalakshmi-Girish # 1.34 Release Signal Lead
     - rayandas # 1.34 Enhancements Shadow
@@ -127,10 +116,8 @@ teams:
     - stmcginnis # 1.34 Enhancements Shadow
     - sttts # API Machinery
     - tallclair # Auth
-    - tashimi # Usability
     - thockin # Network
     - tico88612 # 1.32 ~ 1.34 Release Signal Shadow
-    - timothysc # Cluster Lifecycle / Testing
     - towca # Autoscaling
     - upodroid # K8s Infra
     - Verolop # Release Manager
@@ -138,7 +125,6 @@ teams:
     - wendy-ha18 # 1.34 Release Lead Shadow
     - wojtek-t # Scalability
     - xing-yang # Storage
-    - xmcqueen # Testing
     - xmudrii # Release Manager / K8s Infra
     - zylxjtu # Windows
     privacy: closed
@@ -221,23 +207,18 @@ teams:
     - cpanato # Technical Lead
     - dims
     - gracenng
-    - ixdy
     - JamesLaverack
     - jberkus
-    - jdumars
     - jeefy
     - jeremyrickard # Technical Lead
     - justaugustus # Chair
     - katcosgrove
-    - leonardpahlke
     - liggitt
     - puerco # Technical Lead
     - reylejano
     - salaxander
     - saschagrunert # Chair
     - savitharaghunathan
-    - spiffxp
-    - tpepper
     privacy: closed
     teams:
       release-engineering:
@@ -309,7 +290,6 @@ teams:
         - jmickey # 1.34 Enhancements Shadow
         - justaugustus # subproject owner / Chair
         - katcosgrove # 1.30 Lead / 1.32 EA
-        - leonardpahlke # subproject owner (1.26 RT Lead)
         - mickeyboxell # 1.32 Release Manager Shadow
         - puerco # subproject owner / Technical Lead
         - rayandas # 1.34 Enhancements Shadow

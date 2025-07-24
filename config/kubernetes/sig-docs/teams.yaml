@@ -22,11 +22,9 @@ teams:
   sig-docs-en-owners:
     description: Approvers for English content
     members:
-    - bradtopol
     - dipesh-rawat  
     - divya-mohan0209
     - katcosgrove
-    - kbhawkey
     - lmktfy
     - mickeyboxell
     - natalisucks
@@ -39,10 +37,8 @@ teams:
   sig-docs-en-reviews:
     description: PR reviews for English content
     members:
-    - bradtopol
     - dipesh-rawat
     - divya-mohan0209
-    - kbhawkey
     - lmktfy
     - mehabhalodiya
     - mengjiao-liu
@@ -64,7 +60,6 @@ teams:
   sig-docs-es-reviews:
     description: PR reviews for Spanish content
     members:
-    - 92nqb
     - electrocucaracha
     - krol3
     - raelga
@@ -95,7 +90,6 @@ teams:
   sig-docs-hi-reviews:
     description: PR reviews for Hindi content
     members:
-    - Babapool
     - bishal7679
     - dipesh-rawat    
     - divya-mohan0209
@@ -156,29 +150,23 @@ teams:
   sig-docs-ko-owners:
     description: Approvers for Korean content
     members:
-    - gochist
     - ianychoi
     - jihoon-seo
     - jongwooo
     - seokho-son
-    - ysyukr
     privacy: closed
   sig-docs-ko-reviews:
     description: Reviews for Korean docs PRs
     members:
-    - gochist
     - ianychoi
     - jihoon-seo
-    - jmyung
     - jongwooo
     - seokho-son
-    - ysyukr
     privacy: closed
   sig-docs-leads:
     description: Chairs and tech leads for SIG Docs
     members:
     - divya-mohan0209
-    - kbhawkey
     - natalisucks
     - onlydole
     - reylejano
@@ -215,10 +203,7 @@ teams:
   sig-docs-pr-reviews:
     description: PR reviews for docs-related issues
     members:
-    - bradtopol
     - divya-mohan0209
-    - gochist
-    - kbhawkey
     - natalisucks
     - reylejano
     - salaxander
@@ -227,22 +212,16 @@ teams:
   sig-docs-pt-owners:
     description: Approvers for Portuguese content
     members:
-    - devlware
     - edsoncelio
-    - femrtnz
     - jcjesus
-    - jhonmike
     - stormqueen1990
     - yagonobre
     privacy: closed
   sig-docs-pt-reviews:
     description: PR reviews for Portuguese content
     members:
-    - devlware
     - edsoncelio
-    - femrtnz
     - jcjesus
-    - jhonmike
     - stormqueen1990
     - yagonobre
     privacy: closed
@@ -255,7 +234,6 @@ teams:
     - my-git9
     - SataQiu
     - Sea-n
-    - tanjunchen
     - tengqm
     - windsonsea
     - xichengliudui
@@ -272,7 +250,6 @@ teams:
     - my-git9
     - SataQiu
     - Sea-n
-    - tanjunchen
     - tengqm
     - windsonsea
     - xichengliudui
@@ -321,16 +298,11 @@ teams:
     members:
     - a-mccarthy # Localization subproject owner
     - bells17 # L10n: Japanese
-    - bradtopol # L10n: English
-    - devlware # L10: Portuguese
     - divya-mohan0209 # L10n: English
-    - femrtnz # L10n: Portuguese
     - girikuncoro # L10n: Indonesian
-    - gochist # L10n: Korean
     - huynguyennovem # L10n: Vietnamese # L10n: Korean
     - inductor # L10n: Japanese
     - jcjesus # L10n: Portuguese
-    - jhonmike # L10n: Portuguese
     - katcosgrove # 1.29 RT Docs Lead
     - lmktfy # Emeritus tech lead
     - mfilocha # L10n: Polish
@@ -363,11 +335,8 @@ teams:
     - a-mccarthy
     - ArvindParekh
     - bene2k1
-    - bradtopol
     - divya-mohan0209
-    - femrtnz
     - girikuncoro
-    - gochist
     - huynguyennovem
     - inductor
     - jcjesus
@@ -390,11 +359,9 @@ teams:
     - SataQiu
     - seokho-son
     - shurup
-    - tanjunchen
     - tengqm
     - truongnh1992
     - Urvashi0109
     - xichengliudui
-    - ysyukr
     - yujen77300
     privacy: closed

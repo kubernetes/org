@@ -4,7 +4,6 @@ teams:
     members:
     - justinsb
     - luxas
-    - timothysc
     privacy: closed
     previously:
     - addon-operators-admins
@@ -170,7 +169,6 @@ teams:
     - davidjumani
     - dims
     - g-gaston
-    - jweite-amazon
     - rohityadavcloud
     privacy: closed
     previously:
@@ -183,7 +181,6 @@ teams:
     - cpanato
     - luxas
     - timoreimann
-    - timothysc
     privacy: closed
     repos:
       cluster-api-provider-digitalocean: admin
@@ -193,7 +190,6 @@ teams:
     - cpanato
     - MorrisLaw
     - timoreimann
-    - timothysc
     privacy: closed
     repos:
       cluster-api-provider-digitalocean: write
@@ -224,7 +220,6 @@ teams:
     - elmiko
     - justinsb
     - neolit123
-    - timothysc
     - vincepri
     privacy: closed
     repos:
@@ -241,12 +236,10 @@ teams:
     description: admin access to cluster-api-provider-kubevirt
     members:
     - agradouski
-    - cchengleo
     - davidvossel
     - justinsb
     - neolit123
     - nunnatsa
-    - timothysc
     - vincepri
     privacy: closed
     repos:
@@ -255,7 +248,6 @@ teams:
     description: write access to cluster-api-provider-kubevirt
     members:
     - agradouski
-    - cchengleo
     - davidvossel
     - nunnatsa
     privacy: closed
@@ -290,7 +282,6 @@ teams:
     members:
     - cprivitere
     - deitch
-    - detiber
     - displague
     privacy: closed
     repos:
@@ -300,7 +291,6 @@ teams:
     members:
     - cprivitere
     - deitch
-    - detiber
     - displague
     privacy: closed
     repos:
@@ -382,7 +372,6 @@ teams:
     - elmiko
     - enxebre
     - fabriziopandini
-    - mtougeron
     - mtulio
     - sbueringer
     - vincepri
@@ -404,7 +393,6 @@ teams:
     members:
     - ant31
     - chadswen
-    - cristicalin
     - floryut
     - mzaian
     - oomichi

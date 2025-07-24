@@ -39,7 +39,6 @@ teams:
     - msau42
     - saad-ali
     - shanduur
-    - wlan0
     - xing-yang
     privacy: closed
     repos:
@@ -141,7 +140,6 @@ teams:
     description: Admin access to nfs-subdir-external-provisioner
     members:
     - jsafrane
-    - kmova
     - msau42
     - saad-ali
     - xing-yang
@@ -152,7 +150,6 @@ teams:
     description: Admin access to nfs-ganesha-server-and-external-provisioner
     members:
     - jsafrane
-    - kmova
     - kvaps
     - msau42
     - saad-ali

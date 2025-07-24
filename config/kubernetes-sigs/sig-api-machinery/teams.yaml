@@ -2,7 +2,6 @@ teams:
   apiserver-builder-alpha-admins:
     description: admin access to apiserver-builder-alpha
     members:
-    - DirectXMan12
     - pwittrock
     - yue9944882
     privacy: closed
@@ -11,7 +10,6 @@ teams:
   apiserver-builder-alpha-maintainers:
     description: write access to apiserver-builder-alpha
     members:
-    - DirectXMan12
     - pwittrock
     - yue9944882
     privacy: closed
@@ -20,7 +18,6 @@ teams:
   apiserver-runtime-admins:
     description: admin access to apiserver-runtime
     members:
-    - DirectXMan12
     - pwittrock
     - yue9944882
     privacy: closed
@@ -29,7 +26,6 @@ teams:
   apiserver-runtime-maintainers:
     description: write access to apiserver-runtime
     members:
-    - DirectXMan12
     - pwittrock
     - yue9944882
     privacy: closed
@@ -113,7 +109,6 @@ teams:
     description: Admin access to the json repo
     members:
     - deads2k
-    - lavalamp
     - liggitt
     privacy: closed
     repos:
@@ -130,10 +125,7 @@ teams:
     description: admin access to kubebuilder
     members:
     - camilamacedo86
-    - DirectXMan12
-    - jmrodri
     - mengqiy
-    - pmorie
     - pwittrock
     - varshaprasad96
     privacy: closed
@@ -143,7 +135,6 @@ teams:
   kubebuilder-contributors:
     description: read access to kubebuilder
     members:
-    - DirectXMan12
     - pwittrock
     privacy: closed
     repos:
@@ -167,9 +158,7 @@ teams:
     members:
     - apelisse
     - camilamacedo86
-    - DirectXMan12
     - mengqiy
-    - pmorie
     - pwittrock
     - seans3
     privacy: closed
@@ -178,7 +167,6 @@ teams:
   kubebuilder-release-tools-admins:
     description: Admin access to kubebuilder-release-tools
     members:
-    - DirectXMan12
     - mengqiy
     - vincepri
     privacy: closed
@@ -188,7 +176,6 @@ teams:
     description: Write access to kubebuilder-release-tools
     members:
     - camilamacedo86
-    - DirectXMan12
     - mengqiy
     - vincepri
     privacy: closed
@@ -197,7 +184,6 @@ teams:
   kubectl-check-ownerreferences-admins:
     description: Admin access to kubectl-check-ownerreferences
     members:
-    - caesarxuchao
     - deads2k
     - liggitt
     privacy: closed
@@ -208,14 +194,12 @@ teams:
       admins)
     members:
     - deads2k
-    - lavalamp
     privacy: closed
     teams:
       kubernetes/sig-api-machinery-admins:
         description: Admin rights over all SIG API Machinery managed repositories
         members:
         - deads2k
-        - lavalamp
         privacy: closed
         repos:
           kube-storage-version-migrator: admin
@@ -223,7 +207,6 @@ teams:
         description: write access to all SIG API Machinery managed repositories
         members:
         - deads2k
-        - lavalamp
         privacy: closed
         repos:
           kube-storage-version-migrator: write
@@ -231,7 +214,6 @@ teams:
         description: read access to all repositories owned by SIG API Machinery
         members:
         - deads2k
-        - lavalamp
         privacy: closed
         repos:
           kube-storage-version-migrator: read
@@ -239,7 +221,6 @@ teams:
     description: admin access to structured-merge-diff
     members:
     - apelisse
-    - lavalamp
     privacy: closed
     repos:
       structured-merge-diff: admin
@@ -247,9 +228,7 @@ teams:
     description: write access to structured-merge-diff
     members:
     - apelisse
-    - jiahuif
     - jpbetz
-    - lavalamp
     # emeritus
     # - jennybuckley
     privacy: closed
@@ -260,7 +239,6 @@ teams:
     members:
     - deads2k
     - dims
-    - lavalamp
     - liggitt
     privacy: closed
     repos:
@@ -270,7 +248,6 @@ teams:
     members:
     - deads2k
     - dims
-    - lavalamp
     - liggitt
     privacy: closed
     repos:

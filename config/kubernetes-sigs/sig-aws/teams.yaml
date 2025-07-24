@@ -6,7 +6,6 @@ teams:
     - ConnorJC3
     - dims
     - ElijahQuinones
-    - leakingtapan
     - mdzraf
     - rdpsin
     - torredil
@@ -22,9 +21,7 @@ teams:
     - ConnorJC3
     - ElijahQuinones
     - gnufied
-    - hanyuel
     - jsafrane
-    - leakingtapan
     - mdzraf
     - rdpsin
     - torredil
@@ -74,11 +71,9 @@ teams:
   aws-efs-csi-driver-admins:
     description: admin access to aws-efs-csi-driver
     members:
-    - Ashley-wenyizha
     - dankova22
     - dims
     - justinsb
-    - leakingtapan
     - mskanth972
     - seanzatzdev-amazon
     - torredil
@@ -89,12 +84,9 @@ teams:
   aws-efs-csi-driver-maintainers:
     description: write access to aws-efs-csi-driver
     members:
-    - Ashley-wenyizha
-    - d-nishi
     - dankova22
     - jsafrane
     - justinsb
-    - leakingtapan
     - mskanth972
     - seanzatzdev-amazon
     - torredil

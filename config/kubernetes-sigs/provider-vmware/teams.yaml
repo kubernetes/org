@@ -3,7 +3,6 @@ teams:
     description: admin access to vsphere-csi-driver
     members:
     - divyenpatel
-    - frapposelli
     privacy: closed
     repos:
       vsphere-csi-driver: admin
@@ -11,7 +10,6 @@ teams:
     description: write access to vsphere-csi-driver
     members:
     - divyenpatel
-    - frapposelli
     - SandeepPissay
     - xing-yang
     privacy: closed

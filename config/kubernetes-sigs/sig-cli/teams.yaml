@@ -107,22 +107,6 @@ teams:
     privacy: closed
     repos:
       kubectl-validate: write
-  kui-admins:
-    description: admin access to kui
-    members:
-    - starpit
-    privacy: closed
-    repos:
-      kui: admin
-  kui-maintainers:
-    description: write access to kui
-    members:
-    - eddiezane
-    - soltysh
-    - starpit
-    privacy: closed
-    repos:
-      kui: write
   kustomize-admins:
     description: ""
     members:

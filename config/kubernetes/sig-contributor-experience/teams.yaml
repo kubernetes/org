@@ -34,18 +34,13 @@ teams:
     members:
     - castrojo
     - dims
-    - guineveresaenger
     - idvoretskyi
     - jberkus
-    - jdumars
     - jeefy
     - justaugustus
     - kaslin
-    - lukaszgryglicki
     - mfahlandt
     - parispittman
-    - spiffxp
-    - tpepper
     privacy: closed
   contributor-comms:
     description: alert members of new issues labeled with contributor comms
@@ -87,8 +82,6 @@ teams:
     - palnabarun
     - Priyankasaggu11929
     members:
-    - ezzoueidi
-    - idealhack
     - justaugustus
     - mfahlandt
     privacy: closed
@@ -98,9 +91,7 @@ teams:
       board with admin permissions.
     members:
     - idvoretskyi
-    - jdumars
     - justaugustus
-    - lachie83
     privacy: closed
   sig-contributor-experience:
     description: Improve contributor productivity
@@ -114,16 +105,12 @@ teams:
     members:
     - castrojo
     - dims
-    - idealhack
     - idvoretskyi
-    - jessfraz
     - kaslin
-    - lavalamp
     - mfahlandt
     - parispittman
     - pwittrock
     - thockin
-    - xiang90
     privacy: closed
     previously:
       - sig-contributor-experience-misc-use-only-as-a-last-resort
@@ -133,8 +120,6 @@ teams:
         maintainers:
         - nikhita
         members:
-        - idealhack
-        - saiyam1814
         - tao12345666333
         privacy: closed
       sig-contributor-experience-leads:
@@ -155,7 +140,6 @@ teams:
         - palnabarun
         - Priyankasaggu11929
         members:
-        - idealhack
         - kaslin
         - mfahlandt
         privacy: closed
@@ -166,10 +150,7 @@ teams:
     - mrbobbytables
     members:
     - castrojo
-    - ezzoueidi
     - idvoretskyi
-    - jbeda
-    - jdumars
     - jeefy
     - onlydole
     - parispittman

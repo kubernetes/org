@@ -23,7 +23,6 @@ teams:
   alibaba-cloud-csi-driver-admins:
    description: Admin access to alibaba-cloud-csi-driver repo
    members:
-   - JiaoDean
    - mowangdk
    privacy: closed
    repos:
@@ -31,7 +30,6 @@ teams:
   alibaba-cloud-csi-driver-maintainers:
    description: Write access to alibaba-cloud-csi-driver repo
    members:
-   - JiaoDean
    - mowangdk
    privacy: closed
    repos:
@@ -103,8 +101,6 @@ teams:
    - andyzhangx
    - feiskyer
    - justaugustus
-   - khenidak
-   - lachie83
    privacy: closed
    repos:
      blob-csi-driver: admin
@@ -114,8 +110,6 @@ teams:
    - andyzhangx
    - feiskyer
    - justaugustus
-   - khenidak
-   - lachie83
    privacy: closed
    repos:
      blob-csi-driver: write
@@ -148,7 +142,6 @@ teams:
    description: Admin access to the cloud-provider-huaweicloud repo
    members:
    - chengxiangdong
-   - kevin-wangzefeng
    - niuzhenguo
    - RainbowMango
    privacy: closed
@@ -158,7 +151,6 @@ teams:
    description: Write access to the cloud-provider-huaweicloud repo
    members:
    - chengxiangdong
-   - kevin-wangzefeng
    - niuzhenguo
    - RainbowMango
    privacy: closed

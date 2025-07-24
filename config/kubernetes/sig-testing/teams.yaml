@@ -9,18 +9,14 @@ teams:
     - bowei
     - chases2
     - cjwagner
-    - ixdy
     - jayunit100
     - jbpratt
-    - jdef
     - justaugustus
     - justinsb
     - Katharine
     - michelle192837
     - mkumatag
     - stevekuznetsov
-    - timothysc
-    - xmcqueen
     privacy: closed
     teams:
       sig-testing-leads:
@@ -32,7 +28,6 @@ teams:
         - jbpratt
         - michelle192837
         - pohly
-        - xmcqueen
         privacy: closed
         repos:
           sig-testing: admin
@@ -43,13 +38,11 @@ teams:
         - BenTheElder
         - chases2
         - cjwagner
-        - ixdy
         - Katharine
         - krzyzacy
         - michelle192837
         - mkumatag
         - stevekuznetsov
-        - xmcqueen
         privacy: closed
   test-infra-admins:
     description: admin access to test-infra
@@ -58,13 +51,11 @@ teams:
     - ameukam    # k8s-infra-oncall
     - aojea
     - BenTheElder
-    - chaodaiG   # test-infra-oncall
     - chases2    # test-infra-oncall
     - cjwagner
     - dims       # k8s-infra-oncall
     - k8s-infra-ci-robot
     - michelle192837
-    - mpherman2  # test-infra-oncall
     - pohly
     - stevekuznetsov
     - thockin    # k8s-infra-oncall

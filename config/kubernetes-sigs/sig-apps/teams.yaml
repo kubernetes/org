@@ -21,6 +21,7 @@ teams:
     - ahg-g
     - danielvegamyhre
     - kannon92
+    - andreyvelich
     privacy: closed
     repos:
       jobset: admin
@@ -29,6 +30,7 @@ teams:
     members:
     - ahg-g
     - kannon92
+    - andreyvelich
     privacy: closed
     repos:
       jobset: write

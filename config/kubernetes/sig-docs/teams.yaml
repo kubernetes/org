@@ -282,6 +282,22 @@ teams:
     - idvoretskyi
     - MaxymVlasov
     privacy: closed
+  sig-docs-fa-owners:
+    description: Approvers for Persian content
+    members:
+    - behiuu
+    - mamrezb
+    - moh0ps
+    - xirehat
+    privacy: closed
+  sig-docs-fa-reviews:
+    description: PR reviews for Persian content
+    members:
+    - behiuu
+    - mamrezb
+    - moh0ps
+    - xirehat
+    privacy: closed
   website-admins:
     description: Admin access to the website repo
     previously:
@@ -297,6 +313,7 @@ teams:
     description: Write access to the website repo
     members:
     - a-mccarthy # Localization subproject owner
+    - behiuu # L10n: Persian
     - bells17 # L10n: Japanese
     - divya-mohan0209 # L10n: English
     - girikuncoro # L10n: Indonesian
@@ -305,8 +322,10 @@ teams:
     - jcjesus # L10n: Portuguese
     - katcosgrove # 1.29 RT Docs Lead
     - lmktfy # Emeritus tech lead
+    - mamrezb # L10n: Persian
     - mfilocha # L10n: Polish
     - mickeyboxell # 1.27 RT Docs lead
+    - moh0ps # L10n: Persian
     - nasa9084 # L10n: Japanese
     - natalisucks # L10n: English
     - nate-double-u # L10n: English
@@ -325,6 +344,7 @@ teams:
     - tengqm # L10n: Chinese
     - truongnh1992 # L10n: Vietnamese
     - xichengliudui # L10n: Chinese
+    - xirehat # L10n: Persian
     - yagonobre # L10n: Portuguese
     privacy: closed
     repos:

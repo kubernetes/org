@@ -11,7 +11,7 @@ require (
 	github.com/spf13/cobra v1.7.0
 	k8s.io/apimachinery v0.27.4
 	sigs.k8s.io/prow v0.0.0-20240418142548-4c9d8ca1213d
-	sigs.k8s.io/yaml v1.3.0
+	sigs.k8s.io/yaml v1.5.0
 )
 
 // Pin all k8s.io staging repositories to kubernetes v1.27.4
@@ -68,6 +68,7 @@ require (
 	github.com/skeema/knownhosts v1.1.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/xanzy/ssh-agent v0.3.3 // indirect
+	go.yaml.in/yaml/v2 v2.4.2 // indirect
 	golang.org/x/crypto v0.9.0 // indirect
 	golang.org/x/mod v0.10.0 // indirect
 	golang.org/x/net v0.10.0 // indirect

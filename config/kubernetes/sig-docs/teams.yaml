@@ -4,9 +4,9 @@ teams:
     maintainers:
     - mrbobbytables
     members:
+    - graz-dev
     - nate-double-u
     - onlydole
-    - graz-dev
     privacy: closed
   sig-docs-de-owners:
     description: Approvers for German content

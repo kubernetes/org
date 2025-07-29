@@ -7,6 +7,7 @@ body:
   attributes:
     value: |
       Thank you for filling out this membership request! Please note, if you are already part of any Kubernetes GitHub organization like kubernetes-sigs and you are filing this request to be added to kubernetes, you do not need to open this request and can add yourself directly! The org memberships are now equivalent and sponsorship is not needed to join additional Kubernetes GitHub orgs. This includes the etcd-io organization as well.
+      Please refer to the [Kubernetes Github Admin Team SLOs](https://github.com/kubernetes/community/blob/master/github-management/org-owners-guide.md#slos) for membership request time frames
 - id: github
   type: input
   attributes:

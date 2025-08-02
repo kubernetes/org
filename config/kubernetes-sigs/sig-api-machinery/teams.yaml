@@ -150,6 +150,7 @@ teams:
     description: write access to kubebuilder-declarative-pattern
     members:
     - justinsb
+    - tomasaschan
     privacy: closed
     repos:
       kubebuilder-declarative-pattern: write

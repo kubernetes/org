@@ -25,7 +25,6 @@ teams:
     description: Admin access to the kubeadm repo
     members:
     - carlory
-    - fabriziopandini
     - HirazawaUi
     - neolit123
     - pacoxu
@@ -37,7 +36,6 @@ teams:
     description: Write access to the kubeadm repo
     members:
     - carlory
-    - fabriziopandini
     - HirazawaUi
     - neolit123
     - pacoxu
@@ -67,14 +65,22 @@ teams:
   system-validators-admins:
     description: Admin access to system-validators repo
     members:
+    - carlory
+    - HirazawaUi
     - neolit123
+    - pacoxu
+    - SataQiu
     privacy: closed
     repos:
       system-validators: admin
   system-validators-maintainers:
     description: Write access to system-validators repo
     members:
+    - carlory
+    - HirazawaUi
     - neolit123
+    - pacoxu
+    - SataQiu
     privacy: closed
     repos:
       system-validators: write

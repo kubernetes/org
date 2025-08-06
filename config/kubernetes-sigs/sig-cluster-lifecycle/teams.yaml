@@ -277,24 +277,6 @@ teams:
     privacy: closed
     repos:
       cluster-api-provider-openstack: write
-  cluster-api-provider-packet-admins:
-    description: Admin access to cluster-api-provider-packet repo
-    members:
-    - cprivitere
-    - deitch
-    - displague
-    privacy: closed
-    repos:
-      cluster-api-provider-packet: admin
-  cluster-api-provider-packet-maintainers:
-    description: Write access to the cluster-api-provider-packet repo
-    members:
-    - cprivitere
-    - deitch
-    - displague
-    privacy: closed
-    repos:
-      cluster-api-provider-packet: write
   cluster-api-provider-vsphere-admins:
     description: Admin access to the cluster-api-provider-vsphere repo
     members:

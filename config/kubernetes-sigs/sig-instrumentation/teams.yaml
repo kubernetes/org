@@ -104,6 +104,24 @@ teams:
     privacy: closed
     repos:
       prometheus-adapter: write
+  resource-state-metrics-admins:
+    description: Admin access to the resource-state-metrics repo
+    members:
+    - dgrisonnet
+    - mrueg
+    - rexagod
+    privacy: closed
+    repos:
+      resource-state-metrics: admin
+  resource-state-metrics-maintainers:
+    description: Write access to the resource-state-metrics repo
+    members:
+    - dgrisonnet
+    - mrueg
+    - rexagod
+    privacy: closed
+    repos:
+      resource-state-metrics: write
   usage-metrics-collector-admins:
     description: Admin access to the usage-metrics-collector repo
     members:

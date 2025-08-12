@@ -1,4 +1,22 @@
 teams:
+  agent-sandbox-admins:
+    description: Admin access to agent-sandbox repo
+    members:
+    - janetkuo
+    - justinsb
+    - soltysh
+    privacy: closed
+    repos:
+      agent-sandbox: admin
+  agent-sandbox-maintainers:
+    description: Write access to agent-sandbox repo
+    members:
+    - janetkuo
+    - justinsb
+    - soltysh
+    privacy: closed
+    repos:
+      agent-sandbox: write
   execution-hook-admins:
     description: Admin access to execution-hook repo
     members:

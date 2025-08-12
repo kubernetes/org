@@ -65,6 +65,7 @@ teams:
   kueue-maintainers:
     description: Write access to the kueue repo
     members:
+    - gabesaba
     - mimowo
     - tenzen-y
     privacy: closed

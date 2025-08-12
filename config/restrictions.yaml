@@ -216,7 +216,6 @@ restrictions:
     - "^cluster-api-provider-kubemark"
     - "^cluster-api-provider-kubevirt"
     - "^cluster-api-provider-openstack"
-    - "^cluster-api-provider-packet"
     - "^cluster-api-provider-vsphere"
     - "^image-builder"
     - "^karpenter-provider-cluster-api"

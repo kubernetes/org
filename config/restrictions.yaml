@@ -250,6 +250,7 @@ restrictions:
     - "^logtools"
     - "^metrics-server"
     - "^prometheus-adapter"
+    - "^resource-state-metrics"
     - "^usage-metrics-collector"
   - path: "kubernetes-sigs/sig-k8s-infra/teams.yaml"
     allowedRepos:

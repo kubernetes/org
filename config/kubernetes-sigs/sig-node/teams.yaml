@@ -81,7 +81,9 @@ teams:
     members:
     - ccojocar
     - JAORMX
+    - ngopalak-redhat
     - saschagrunert
+    - Vincent056
     privacy: closed
     previously:
     - seccomp-operator-maintainers

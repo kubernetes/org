@@ -159,6 +159,7 @@ restrictions:
   - path: "kubernetes-sigs/sig-architecture/teams.yaml"
     allowedRepos:
     - "^apisnoop"
+    - "^admission-policies"
     - "^depstat"
     - "^maintainer-tools"
     - "^verify-conformance"

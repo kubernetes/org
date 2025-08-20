@@ -9,6 +9,22 @@ teams:
     privacy: closed
     repos:
       depstat: admin
+  admission-policies-admins:
+    description: Admin access to admission-policies repo
+    members:
+    - BenTheElder
+    - vinayakankugoyal
+    privacy: closed
+    repos:
+      admission-policies: admin
+  admission-policies-maintainers:
+    description: Write access to admission-policies repo
+    members:
+    - BenTheElder
+    - vinayakankugoyal
+    privacy: closed
+    repos:
+      admission-policies: write
   apisnoop-admins:
     description: Admin access to apisnoop repo
     members:

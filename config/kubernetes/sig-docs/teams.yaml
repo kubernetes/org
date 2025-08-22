@@ -4,21 +4,21 @@ teams:
     maintainers:
     - mrbobbytables
     members:
+    - Gauravpadam
     - graz-dev
+    - lmktfy
+    - natalisucks
     - nate-double-u
-    - onlydole
     privacy: closed
   sig-docs-de-owners:
     description: Approvers for German content
     members:
     - bene2k1
-    - rlenferink
     privacy: closed
   sig-docs-de-reviews:
     description: PR reviews for German content
     members:
     - bene2k1
-    - rlenferink
     privacy: closed
   sig-docs-en-owners:
     description: Approvers for English content
@@ -27,7 +27,6 @@ teams:
     - divya-mohan0209
     - katcosgrove
     - lmktfy
-    - mickeyboxell
     - natalisucks
     - nate-double-u
     - onlydole
@@ -42,11 +41,9 @@ teams:
     - dipesh-rawat
     - divya-mohan0209
     - lmktfy
-    - mehabhalodiya
     - mengjiao-liu
     - natalisucks
     - nate-double-u
-    - onlydole
     - reylejano
     - salaxander
     - SayakMukhopadhyay
@@ -71,7 +68,6 @@ teams:
   sig-docs-fr-owners:
     description: Approvers for French content
     members:
-    - feloy
     - perriea
     - rekcah78
     - remyleone
@@ -79,7 +75,6 @@ teams:
   sig-docs-fr-reviews:
     description: PR reviews for French content
     members:
-    - feloy
     - perriea
     - rekcah78
     - remyleone
@@ -170,8 +165,8 @@ teams:
     description: Chairs and tech leads for SIG Docs
     members:
     - divya-mohan0209
+    - katcosgrove
     - natalisucks
-    - onlydole
     - reylejano
     - salaxander
     - tengqm
@@ -207,6 +202,7 @@ teams:
     description: PR reviews for docs-related issues
     members:
     - divya-mohan0209
+    - katcosgrove
     - natalisucks
     - reylejano
     - salaxander
@@ -218,15 +214,14 @@ teams:
     - edsoncelio
     - jcjesus
     - stormqueen1990
-    - yagonobre
     privacy: closed
   sig-docs-pt-reviews:
     description: PR reviews for Portuguese content
     members:
     - edsoncelio
     - jcjesus
+    - mrerlison
     - stormqueen1990
-    - yagonobre
     privacy: closed
   sig-docs-zh-owners:
     description: Approvers for Chinese content
@@ -236,7 +231,6 @@ teams:
     - mengjiao-liu
     - my-git9
     - SataQiu
-    - Sea-n
     - tengqm
     - windsonsea
     - xichengliudui
@@ -248,7 +242,6 @@ teams:
     - asa3311
     - chenrui333
     - howieyuen
-    - kinzhi
     - mengjiao-liu
     - my-git9
     - SataQiu
@@ -261,13 +254,11 @@ teams:
   sig-docs-vi-owners:
     description: Admins for Vietnamese content
     members:
-    - huynguyennovem
     - truongnh1992
     privacy: closed
   sig-docs-vi-reviews:
     description: PR reviews for Vietnamese content
     members:
-    - huynguyennovem
     - truongnh1992
     privacy: closed
   sig-docs-uk-owners:
@@ -306,20 +297,17 @@ teams:
     - huynguyennovem # L10n: Vietnamese # L10n: Korean
     - inductor # L10n: Japanese
     - jcjesus # L10n: Portuguese
-    - katcosgrove # 1.29 RT Docs Lead
+    - katcosgrove # L10n: English
     - lmktfy # Emeritus tech lead
     - mfilocha # L10n: Polish
-    - mickeyboxell # 1.27 RT Docs lead
     - nasa9084 # L10n: Japanese
     - natalisucks # L10n: English
     - nate-double-u # L10n: English
     - nvtkaszpir # L10n: Polish
     - Okabe-Junya #L10n: Japanese
-    - onlydole # L10n: English
     - raelga # L10n: Spanish
     - remyleone # L10n: French
     - reylejano # L10n: English
-    - rlenferink # L10n: German
     - salaxander # L10n: English
     - SataQiu # L10n: Chinese
     - seokho-son # L10n: Korean
@@ -345,7 +333,6 @@ teams:
     - jcjesus
     - lmktfy
     - michellengnx
-    - mickeyboxell
     - nasa9084
     - natalisucks
     - nate-double-u
@@ -356,7 +343,6 @@ teams:
     - rekcah78
     - remyleone
     - reylejano
-    - rlenferink
     - ryan-su-12
     - salaxander
     - SataQiu

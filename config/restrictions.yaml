@@ -163,6 +163,7 @@ restrictions:
     - "^depstat"
     - "^maintainer-tools"
     - "^verify-conformance"
+    - "^wg-ai-conformance"
     - "^wg-device-management"
     - "^wg-serving"
   - path: "kubernetes-sigs/sig-auth/teams.yaml"

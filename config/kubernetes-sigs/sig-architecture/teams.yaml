@@ -71,6 +71,26 @@ teams:
     privacy: closed
     repos:
       verify-conformance: admin
+  wg-ai-conformance-admins:
+    description: Admin access to wg-ai-conformance repo
+    members:
+    - janetkuo
+    - mfahlandt
+    - ritazh
+    - terrytangyuan
+    privacy: closed
+    repos:
+      wg-ai-conformance: admin
+  wg-ai-conformance-maintainers:
+    description: Write access to wg-ai-conformance repo
+    members:
+    - janetkuo
+    - mfahlandt
+    - ritazh
+    - terrytangyuan
+    privacy: closed
+    repos:
+      wg-ai-conformance: write
   wg-device-management-admins:
     description: Admin access to wg-device-management repo
     members:

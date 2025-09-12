@@ -172,6 +172,17 @@ teams:
     privacy: closed
     repos:
       ibm-powervs-block-csi-driver: write
+  kro-admins:
+    description: Admin access to the kro repo
+    members:
+    - a-hilaly
+    - barney-s
+    - bridgetkromhout
+    - cheftako
+    - justinsb
+    privacy: closed
+    repos:
+      kro: admin
   provider-aws-test-infra-admins:
    description: Admin access to the provider-aws-test-infra repo
    members:

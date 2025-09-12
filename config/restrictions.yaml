@@ -203,6 +203,7 @@ restrictions:
     - "^cloud-provider-equinix-metal"
     - "^cloud-provider-huaweicloud"
     - "^ibm-powervs-block-csi-driver"
+    - "^kro"
     - "^provider-aws-test-infra"
     - "^provider-ibmcloud-test-infra"
   - path: "kubernetes-sigs/sig-cluster-lifecycle/teams.yaml"

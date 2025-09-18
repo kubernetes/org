@@ -227,6 +227,8 @@ restrictions:
     - "^kubespray"
     - "^logical-cluster"
     - "^minikube-gui"
+    - "^minikube-os"
+    - "^minikube-preloads"
   - path: "kubernetes-sigs/sig-contributor-experience/teams.yaml"
     allowedRepos:
     - "^contributor-tweets"

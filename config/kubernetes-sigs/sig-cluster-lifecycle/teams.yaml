@@ -416,3 +416,31 @@ teams:
     privacy: closed
     repos:
       minikube-gui: write
+  minikube-os-admins:
+    description: Admin access to the minikube-os repo
+    members:
+    - medyagh
+    privacy: closed
+    repos:
+      minikube-os: admin
+  minikube-os-maintainers:
+    description: Write access to the minikube-os repo
+    members:
+    - medyagh
+    privacy: closed
+    repos:
+      minikube-os: write
+  minikube-preloads-admins:
+    description: Admin access to the minikube-preloads repo
+    members:
+    - medyagh
+    privacy: closed
+    repos:
+      minikube-preloads: admin
+  minikube-preloads-maintainers:
+    description: Write access to the minikube-preloads repo
+    members:
+    - medyagh
+    privacy: closed
+    repos:
+      minikube-preloads: write

@@ -19,7 +19,6 @@ teams:
     - brancz # Instrumentation
     - bridgetkromhout # Cloud Provider
     - caseydavenport # Network
-    - chanieljdan # 1.34 Release Lead Shadow
     - cheftako # Cloud Provider
     - cici37 # Release Manager
     - claudiubelu # Windows
@@ -32,9 +31,9 @@ teams:
     - derekwaynecarr # Architecture / Node
     - dgrisonnet # Instrumentation
     - dims # Architecture / K8s Infra
-    - dipesh-rawat # 1.34 Comms Shadow
+    - dipesh-rawat # 1.35 Release Lead Shadow
     - dom4ha # Scheduling
-    - drewhagen # 1.34 Enhancements Shadow
+    - drewhagen # 1.35 Release Lead
     - eddiezane # CLI
     - ehashman # Instrumentation
     - elmiko # Cloud Provider
@@ -52,7 +51,7 @@ teams:
     - janetkuo # Apps
     - jberkus # Release
     - jbpratt # Testing
-    - jenshu # 1.34 Enhancements Lead
+    - jenshu # 1.35 Release Lead Shadow
     - jeremyrickard # Release
     - jimangel # Docs / Release Manager Associate / 1.32 Release Branch Manager
     - jmickey # 1.34 Enhancements Shadow
@@ -92,13 +91,13 @@ teams:
     - pohly # SIG Testing, Instrumentation, Node
     - puerco # Release Manager
     - RainbowMango # Instrumentation
-    - Rajalakshmi-Girish # 1.34 Release Signal Lead
+    - Rajalakshmi-Girish # v1.35 Release Lead Shadow
     - rayandas # 1.34 Enhancements Shadow
     - raywainman # Autoscaling
     - rexagod # Instrumentation
     - richabanker # Instrumentation
     - ritazh # Auth
-    - rytswd # 1.34 Release Lead Shadow
+    - rytswd # 1.35 Release Lead Shadow
     - saad-ali # Storage
     - salaxander # Release Manager Associate / 1.29 RT EA
     - salehsedghpour # 1.32 Release Lead Shadow
@@ -122,8 +121,6 @@ teams:
     - towca # Autoscaling
     - upodroid # K8s Infra
     - Verolop # Release Manager
-    - Vyom-Yadav # 1.34 Release Lead
-    - wendy-ha18 # 1.34 Release Lead Shadow
     - wojtek-t # Scalability
     - xing-yang # Storage
     - xmudrii # Release Manager / K8s Infra
@@ -281,7 +278,7 @@ teams:
         - Priyankasaggu11929 # subproject owner (1.29 RT Lead)
         members:
         - cpanato # subproject owner / Technical Lead
-        - drewhagen # 1.34 Enhancements Shadow
+        - drewhagen # 1.35 Release Lead
         - fykaa # 1.34 Enhancements Shadow
         - gracenng # subproject owner (1.28 RT Lead)
         - jameslaverack # subproject owner (1.24 RT Lead)
@@ -300,7 +297,6 @@ teams:
         - savitharaghunathan # subproject owner (1.22 RT Lead)
         - stmcginnis # 1.34 Enhancements Shadow
         - Verolop # Release Manager
-        - Vyom-Yadav # 1.34 Release Lead
         - xmudrii # Release Manager
         privacy: closed
         teams:
@@ -311,10 +307,9 @@ teams:
             - adilGhaffarDev # 1.34 Release Signal Shadow
             - elieser1101 # 1.34 Release Signal Shadow
             - Prajyot-Parab # 1.34 Release Signal Shadow
-            - Rajalakshmi-Girish # 1.34 Release Signal Lead
+            - Rajalakshmi-Girish # v1.35 Release Lead Shadow
             - sarthaksarthak9 # 1.34 Release Signal Shadow
             - tico88612 # 1.34 Release Signal Shadow
-            - wendy-ha18 # 1.34 Release Lead Shadow
             privacy: closed
           release-team-docs:
             description: Members of the Docs team for the current release cycle.
@@ -355,14 +350,13 @@ teams:
             maintainers:
             - Priyankasaggu11929 # 1.31 Release EA
             members:
-            - chanieljdan # 1.34 Release Lead Shadow
-            - fsmunoz # 1.34 EA
+            - dipesh-rawat # 1.35 Release Lead Shadow
+            - drewhagen # 1.35 Release Lead
+            - jenshu # 1.35 Release Lead Shadow
             - jimangel # 1.32 Release Branch Manager
             - katcosgrove # subproject owner / 1.32 Release EA
-            - rytswd # 1.34 Release Lead Shadow
-            - sreeram-venkitesh # 1.34 Release Lead Shadow
-            - Vyom-Yadav # 1.34 Release Lead
-            - wendy-ha18 # 1.34 Release Lead Shadow
+            - Rajalakshmi-Girish # v1.35 Release Lead Shadow
+            - rytswd # 1.35 Release Lead Shadow
             privacy: closed
             repos:
               kubernetes: write

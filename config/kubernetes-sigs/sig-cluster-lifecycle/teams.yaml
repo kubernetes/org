@@ -257,11 +257,7 @@ teams:
     description: admin access to cluster-api-provider-openstack
     members:
     - EmilienM
-    - jichenjc
     - lentzi90
-    - mdbooth
-    - seanschneeweiss
-    - tobiasgiese
     privacy: closed
     repos:
       cluster-api-provider-openstack: admin
@@ -269,11 +265,7 @@ teams:
     description: write access to cluster-api-provider-openstack
     members:
     - EmilienM
-    - jichenjc
     - lentzi90
-    - mdbooth
-    - seanschneeweiss
-    - tobiasgiese
     privacy: closed
     repos:
       cluster-api-provider-openstack: write

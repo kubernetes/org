@@ -42,7 +42,6 @@ restrictions:
     - "^examples"
     - "^gengo"
     - "^git-sync"
-    - "^ingress-gce"
     - "^ingress-nginx"
     - "^kompose"
     - "^kube-openapi"
@@ -53,6 +52,9 @@ restrictions:
     - "^perf-tests"
     - "^steering"
     - "^utils"
+  - path: "kubernetes/sig-network/ingress-gce/teams.yaml"
+    allowedRepos:
+    - "^ingress-gce"
   - path: "kubernetes/provider-gcp/teams.yaml"
     allowedRepos:
     - "^cloud-provider-gcp"

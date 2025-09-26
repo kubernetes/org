@@ -3,7 +3,6 @@ teams:
     description: Admin access to cloud-provider-openstack repo
     members:
     - dulek
-    - jichenjc
     - kayrus
     - zetaab
     privacy: closed
@@ -13,7 +12,6 @@ teams:
     description: Write access to the cloud-provider-openstack repo
     members:
     - dulek
-    - jichenjc
     - kayrus
     - zetaab
     privacy: closed
@@ -23,7 +21,6 @@ teams:
     description: ""
     members:
     - dulek
-    - jichenjc
     - kayrus
     - mdbooth
     - zetaab
@@ -37,7 +34,6 @@ teams:
     description: ""
     members:
     - dulek
-    - jichenjc
     - kayrus
     - zetaab
     privacy: closed
@@ -47,7 +43,6 @@ teams:
     description: ""
     members:
     - dulek
-    - jichenjc
     - kayrus
     - zetaab
     privacy: closed
@@ -57,7 +52,6 @@ teams:
     description: ""
     members:
     - dulek
-    - jichenjc
     - kayrus
     - zetaab
     privacy: closed
@@ -70,7 +64,6 @@ teams:
     - dims
     - dulek
     - feiskyer
-    - jichenjc
     - kayrus
     - kragniz
     - zetaab
@@ -81,7 +74,6 @@ teams:
     description: ""
     members:
     - dulek
-    - jichenjc
     - kayrus
     - zetaab
     privacy: closed
@@ -91,7 +83,6 @@ teams:
     description: ""
     members:
     - dulek
-    - jichenjc
     - kayrus
     - zetaab
     privacy: closed
@@ -101,7 +92,6 @@ teams:
     description: ""
     members:
     - dulek
-    - jichenjc
     - kayrus
     - zetaab
     privacy: closed

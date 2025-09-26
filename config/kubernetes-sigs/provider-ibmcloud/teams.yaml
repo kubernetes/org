@@ -10,7 +10,6 @@ teams:
   cluster-api-provider-ibmcloud-maintainers:
     description: Write access to the cluster-api-provider-ibmcloud repo
     members:
-    - jichenjc
     - mkumatag
     privacy: closed
     repos:

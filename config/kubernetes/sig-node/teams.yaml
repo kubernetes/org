@@ -3,6 +3,7 @@ teams:
     description: Admin access to the node-problem-detector repo
     members:
     - dchen1107
+    - hakman
     - Random-Liu
     - wangzhen127
     privacy: closed

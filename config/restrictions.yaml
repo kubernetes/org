@@ -290,6 +290,7 @@ restrictions:
     - "^network-policy-api"
     - "^network-policy-finalizer"
     - "^node-ipam-controller"
+    - "^wg-ai-gateway"
   - path: "kubernetes-sigs/sig-node/teams.yaml"
     allowedRepos:
     - "^dra-driver-cpu"

@@ -355,3 +355,27 @@ teams:
     privacy: closed
     repos:
       node-ipam-controller: write
+  wg-ai-gateway-admins:
+    description: Admin access to the wg-ai-gateway repo
+    members:
+    - keithmattix
+    - kflynn
+    - kfswain
+    - nirrozenbaum
+    - shaneutt
+    - xunzhuo
+    privacy: closed
+    repos:
+      wg-ai-gateway: admin
+  wg-ai-gateway-maintainers:
+    description: Write access to the wg-ai-gateway repo
+    members:
+    - keithmattix
+    - kflynn
+    - kfswain
+    - nirrozenbaum
+    - shaneutt
+    - xunzhuo
+    privacy: closed
+    repos:
+      wg-ai-gateway: write

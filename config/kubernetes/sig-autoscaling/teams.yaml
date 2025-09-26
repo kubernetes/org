@@ -2,10 +2,10 @@ teams:
   autoscaler-admins:
     description: Admin access to the autoscaler repo
     members:
+    - adrianmoisey
     - bigdarkclown
     - gjtempleton
     - jackfrancis
-    - raywainman
     - towca
     - x13n
     privacy: closed
@@ -14,10 +14,10 @@ teams:
   autoscaler-maintainers:
     description: "Maintainers of sub-projects in the autoscaler repo"
     members:
+    - adrianmoisey
     - bigdarkclown
     - gjtempleton
     - jackfrancis
-    - raywainman
     - towca
     - x13n
     privacy: closed
@@ -26,11 +26,11 @@ teams:
   autoscaler-reviewers:
     description: "Reviewers of PRs in the autoscaler repo"
     members:
+    - adrianmoisey
     - bigdarkclown
     - feiskyer
     - gjtempleton
     - jackfrancis
-    - raywainman
     - towca
     - x13n
     privacy: closed
@@ -39,25 +39,25 @@ teams:
   sig-autoscaling-api-reviews:
     description: ""
     members:
+    - adrianmoisey
     - gjtempleton
     - jackfrancis
-    - raywainman
     - towca
     privacy: closed
   sig-autoscaling-bugs:
     description: ""
     members:
+    - adrianmoisey
     - gjtempleton
     - jackfrancis
-    - raywainman
     - towca
     privacy: closed
   sig-autoscaling-feature-requests:
     description: ""
     members:
+    - adrianmoisey
     - gjtempleton
     - jackfrancis
-    - raywainman
     - towca
     privacy: closed
   sig-autoscaling-misc:
@@ -71,33 +71,33 @@ teams:
   sig-autoscaling-pr-reviews:
     description: ""
     members:
+    - adrianmoisey
     - gjtempleton
     - jackfrancis
-    - raywainman
     - towca
     privacy: closed
   sig-autoscaling-proposals:
     description: ""
     members:
+    - adrianmoisey
     - gjtempleton
     - jackfrancis
-    - raywainman
     - towca
     privacy: closed
   sig-autoscaling-test-failures:
     description: ""
     members:
+    - adrianmoisey
     - gjtempleton
     - jackfrancis
-    - raywainman
     - towca
     privacy: closed
   sig-autoscaling-leads:
     description: ""
     members:
+    - adrianmoisey
     - gjtempleton
     - jackfrancis
-    - raywainman
     - towca
     privacy: closed
   sig-autoscaling-milestone-maintainers:
@@ -106,6 +106,5 @@ teams:
     - adrianmoisey
     - kwiesmueller
     - omerap12
-    - raywainman
     - voelzmo
     privacy: closed

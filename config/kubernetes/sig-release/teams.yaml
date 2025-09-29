@@ -8,6 +8,7 @@ teams:
     - Priyankasaggu11929 # ContribEx
     members:
     - 88abb # 1.34 Comms Shadow
+    - adrianmoisey # Autoscaling
     - aibarbetta # 1.34 Comms Lead
     - ameukam # Release Manager Associate / K8s Infra
     - aojea # Testing / Network
@@ -93,7 +94,6 @@ teams:
     - RainbowMango # Instrumentation
     - Rajalakshmi-Girish # v1.35 Release Lead Shadow
     - rayandas # 1.34 Enhancements Shadow
-    - raywainman # Autoscaling
     - rexagod # Instrumentation
     - richabanker # Instrumentation
     - ritazh # Auth

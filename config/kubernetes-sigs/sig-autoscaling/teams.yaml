@@ -2,13 +2,13 @@ teams:
   karpenter-admins:
     description: admin access to the karpenter repo
     members:
+    - adrianmoisey
     - bwagner5
     - ellistarn
     - gjtempleton
     - jackfrancis
     - jonathan-innis
     - njtran
-    - raywainman
     - towca
     - tzneal
     privacy: closed
@@ -17,13 +17,13 @@ teams:
   karpenter-maintainers:
     description: write access to the karpenter repo
     members:
+    - adrianmoisey
     - bwagner5
     - ellistarn
     - gjtempleton
     - jackfrancis
     - jonathan-innis
     - njtran
-    - raywainman
     - towca
     - tzneal
     privacy: closed
@@ -42,8 +42,8 @@ teams:
   sig-autoscaling-leads:
     description: "leads of the SIG Autoscaling"
     members:
+    - adrianmoisey
     - gjtempleton
     - jackfrancis
-    - raywainman
     - towca
     privacy: closed

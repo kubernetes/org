@@ -95,6 +95,7 @@ teams:
         description: Production Readiness Reviewers
         members:
         - andrewsykim   # shadow
+        - aramase       # shadow
         - bentheelder   # shadow
         - bridgetkromhout   # shadow
         - cici37        # shadow
@@ -107,6 +108,7 @@ teams:
         - logicalhan    # shadow
         - richabanker   # shadow
         - soltysh       # approver
+        - stlaz         # shadow
         - tallclair     # shadow
         - wojtek-t      # approver
         - zmerlynn      # shadow

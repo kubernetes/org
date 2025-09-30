@@ -1,5 +1,6 @@
 admins:
 - cblecker
+- jasonbraganza
 - k8s-ci-robot
 - k8s-github-robot
 - MadhavJivrajani
@@ -33,7 +34,6 @@ members:
 - idvoretskyi
 - irvifa
 - ityuhui
-- jasonbraganza
 - jonschoning
 - justaugustus
 - k8s-infra-cherrypick-robot

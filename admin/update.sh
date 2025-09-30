@@ -23,6 +23,7 @@ readonly REPO_ROOT
 
 readonly admins=(
   cblecker
+  jasonbraganza
   MadhavJivrajani
   mrbobbytables
   nikhita

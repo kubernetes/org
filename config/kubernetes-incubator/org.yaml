@@ -7,6 +7,7 @@ members_can_create_repositories: false
 billing_email: github@kubernetes.io
 admins:
 - cblecker
+- jasonbraganza
 - k8s-ci-robot
 - k8s-github-robot
 - MadhavJivrajani

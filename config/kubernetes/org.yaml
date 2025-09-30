@@ -1,5 +1,6 @@
 admins:
 - cblecker
+- jasonbraganza
 - k8s-ci-robot
 - k8s-github-robot
 - MadhavJivrajani
@@ -416,7 +417,6 @@ members:
 - JamesLaverack
 - janetkuo
 - JAORMX
-- jasonbraganza
 - javadoors
 - jayesh-srivastava
 - jayeshmahajan

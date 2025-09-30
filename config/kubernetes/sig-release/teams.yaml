@@ -9,7 +9,7 @@ teams:
     members:
     - 88abb # 1.34 Comms Shadow
     - adrianmoisey # Autoscaling
-    - aibarbetta # 1.34 Comms Lead
+    - aibarbetta # 1.35 Enhancements Shadow
     - ameukam # Release Manager Associate / K8s Infra
     - aojea # Testing / Network
     - aramase # Auth
@@ -20,6 +20,7 @@ teams:
     - brancz # Instrumentation
     - bridgetkromhout # Cloud Provider
     - caseydavenport # Network
+    - chanieljdan # 1.35 Enhancements Shadow
     - cheftako # Cloud Provider
     - cici37 # Release Manager
     - claudiubelu # Windows
@@ -43,7 +44,7 @@ teams:
     - feiskyer # Azure
     - floreks # UI
     - fsmunoz # 1.34 EA
-    - fykaa # 1.34 Enhancements Shadow
+    - fykaa # 1.35 Enhancements Shadow
     - gjtempleton # Autoscaling
     - gracenng # Release Manager Associate / 1.30 RT EA
     - graz-dev # 1.34 Comms Shadow
@@ -55,7 +56,7 @@ teams:
     - jenshu # 1.35 Release Lead Shadow
     - jeremyrickard # Release
     - jimangel # Docs / Release Manager Associate / 1.32 Release Branch Manager
-    - jmickey # 1.34 Enhancements Shadow
+    - jmickey # 1.35 Enhancements Shadow
     - joelspeed # Cloud Provider
     - johnbelamaric # Architecture
     - jpbetz # API Machinery
@@ -93,7 +94,7 @@ teams:
     - puerco # Release Manager
     - RainbowMango # Instrumentation
     - Rajalakshmi-Girish # v1.35 Release Lead Shadow
-    - rayandas # 1.34 Enhancements Shadow
+    - rayandas # 1.35 Enhancements Lead
     - rexagod # Instrumentation
     - richabanker # Instrumentation
     - ritazh # Auth
@@ -115,6 +116,7 @@ teams:
     - sreeram-venkitesh # 1.34 Release Lead Shadow
     - stmcginnis # 1.34 Enhancements Shadow
     - sttts # API Machinery
+    - SubhasmitaSw # 1.35 Enhancements Shadow
     - tallclair # Auth
     - thockin # Network
     - tico88612 # 1.32 ~ 1.34 Release Signal Shadow
@@ -277,15 +279,17 @@ teams:
         - palnabarun # subproject owner (1.21 RT Lead)
         - Priyankasaggu11929 # subproject owner (1.29 RT Lead)
         members:
+        - aibarbetta # 1.35 Enhancements Shadow
+        - chanieljdan # 1.35 Enhancements Shadow
         - cpanato # subproject owner / Technical Lead
         - drewhagen # 1.35 Release Lead
-        - fykaa # 1.34 Enhancements Shadow
+        - fykaa # 1.35 Enhancements Shadow
         - gracenng # subproject owner (1.28 RT Lead)
         - jameslaverack # subproject owner (1.24 RT Lead)
         - jenshu # 1.34 Enhancements Lead
         - jeremyrickard # subproject owner / Technical Lead
         - jimangel # 1.32 RT Branch Manager
-        - jmickey # 1.34 Enhancements Shadow
+        - jmickey # 1.35 Enhancements Shadow
         - justaugustus # subproject owner / Chair
         - katcosgrove # 1.30 Lead / 1.32 EA
         - mickeyboxell # 1.32 Release Manager Shadow
@@ -296,6 +300,7 @@ teams:
         - saschagrunert # subproject owner / Chair
         - savitharaghunathan # subproject owner (1.22 RT Lead)
         - stmcginnis # 1.34 Enhancements Shadow
+        - SubhasmitaSw # 1.35 Enhancements Shadow
         - Verolop # Release Manager
         - xmudrii # Release Manager
         privacy: closed
@@ -333,12 +338,12 @@ teams:
             description: Members of the Enhancements team for the current release
               cycle.
             members:
-            - drewhagen # 1.34 Enhancements Shadow
-            - fykaa # 1.34 Enhancements Shadow
-            - jenshu # 1.34 Enhancements Lead
-            - jmickey # 1.34 Enhancements Shadow
-            - rayandas # 1.34 Enhancements Shadow
-            - stmcginnis # 1.34 Enhancements Shadow
+            - aibarbetta # 1.35 Enhancements Shadow
+            - chanieljdan # 1.35 Enhancements Shadow
+            - fykaa # 1.35 Enhancements Shadow
+            - jmickey # 1.35 Enhancements Shadow
+            - rayandas # 1.35 Enhancements Lead
+            - SubhasmitaSw # 1.35 Enhancements Shadow
             privacy: closed
           release-team-leads:
             description: Release Team Leads for the current Kubernetes release

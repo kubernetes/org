@@ -107,6 +107,7 @@ teams:
     - mattcary
     - msau42
     - pwschuurman
+    - riteshghorse
     - saad-ali
     - saikat-royc
     - sneha-at
@@ -115,7 +116,7 @@ teams:
     - tyuchn
     privacy: closed
     repos:
-      gcp-filestore-csi-driver: write      
+      gcp-filestore-csi-driver: write
   gluster-block-external-provisioner-admins:
     description: Admin access to gluster-block-external-provisioner
     members:

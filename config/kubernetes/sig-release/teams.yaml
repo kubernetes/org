@@ -45,10 +45,12 @@ teams:
     - floreks # UI
     - fsmunoz # 1.34 EA
     - fykaa # 1.35 Enhancements Shadow
+    - GenPage # K8s Infra
     - gjtempleton # Autoscaling
     - gracenng # Release Manager Associate / 1.30 RT EA
     - graz-dev # 1.34 Comms Shadow
     - haircommander # Node
+    - hakman # K8s Infra
     - jackfrancis # Autoscaling
     - janetkuo # Apps
     - jberkus # Release

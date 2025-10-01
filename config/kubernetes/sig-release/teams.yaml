@@ -119,7 +119,7 @@ teams:
     - SubhasmitaSw # 1.35 Enhancements Shadow
     - tallclair # Auth
     - thockin # Network
-    - tico88612 # 1.32 ~ 1.34 Release Signal Shadow
+    - tico88612 # 1.35 Release Signal Lead
     - towca # Autoscaling
     - upodroid # K8s Infra
     - Verolop # Release Manager
@@ -309,11 +309,13 @@ teams:
             description: Members of the Release Signal team for the current release
               cycle.
             members:
-            - adilGhaffarDev # 1.34 Release Signal Shadow
-            - Prajyot-Parab # 1.34 Release Signal Shadow
-            - Rajalakshmi-Girish # v1.35 Release Lead Shadow
-            - sarthaksarthak9 # 1.34 Release Signal Shadow
-            - tico88612 # 1.34 Release Signal Shadow
+            - adilGhaffarDev # 1.35 Release Signal Shadow
+            - benjaminapetersen # 1.35 Release Signal Shadow
+            - kei01234kei # 1.35 Release Signal Shadow
+            - knabben # 1.35 Release Signal Shadow
+            - Prajyot-Parab # 1.35 Release Signal Shadow
+            - tico88612 # 1.35 Release Signal Lead
+            - yunchi0921 # v1.35 Release Signal Shadow
             privacy: closed
           release-team-docs:
             description: Members of the Docs team for the current release cycle.

@@ -2,11 +2,12 @@ teams:
   community-images-admins:
     description: admins access to community-images
     members:
-    - ameukam
-    - BenTheElder
-    - dims
-    - upodroid
-    - xmudrii
+      - ameukam
+      - dims
+      - GenPage
+      - hakman
+      - upodroid
+      - xmudrii
     privacy: closed
     repos:
       community-images: admin
@@ -15,29 +16,34 @@ teams:
     members:
       - ameukam
       - dims
-      - thockin
+      - GenPage
+      - hakman
+      - upodroid
+      - xmudrii
     privacy: closed
     repos:
       community-images: write
   community-images-maintainers:
     description: write access to community-images
     members:
-    - ameukam
-    - dims
-    - thockin
+      - ameukam
+      - dims
+      - GenPage
+      - hakman
+      - upodroid
+      - xmudrii
     privacy: closed
     repos:
       community-images: write
   porche-admins:
     description: admins access to porche
     members:
-    - ameukam
-    - bentheelder
-    - dims
-    - justinsb
-    - thockin
-    - upodroid
-    - xmudrii
+      - ameukam
+      - GenPage
+      - hakman
+      - justinsb
+      - upodroid
+      - xmudrii
     privacy: closed
     repos:
       porche: admin
@@ -45,21 +51,23 @@ teams:
     description: write access to porche
     members:
       - ameukam
-      - bentheelder
-      - dims
+      - GenPage
+      - hakman
       - justinsb
-      - thockin
+      - upodroid
+      - xmudrii
     privacy: closed
     repos:
       porche: write
   porche-maintainers:
     description: write access to porche
     members:
-    - ameukam
-    - bentheelder
-    - dims
-    - justinsb
-    - thockin
+      - ameukam
+      - GenPage
+      - hakman
+      - justinsb
+      - upodroid
+      - xmudrii
     privacy: closed
     repos:
       porche: write

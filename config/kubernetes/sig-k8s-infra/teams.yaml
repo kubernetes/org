@@ -2,106 +2,76 @@ teams:
   k8s.io-admins:
     description: Admin access to kubernetes/k8s.io
     members:
-    - ameukam
-    - BenTheElder
-    - dims
-    - k8s-infra-ci-robot
-    - thockin
-    - upodroid
-    - xmudrii
+      - ameukam
+      - GenPage
+      - hakman
+      - k8s-infra-ci-robot
+      - upodroid
+      - xmudrii
     privacy: closed
     repos:
       k8s.io: admin
   sig-k8s-infra:
     description: sig-k8s-infra members
     maintainers:
-    - cblecker
-    - nikhita
+      - cblecker
+      - nikhita
     members:
-    - ameukam
-    - BenTheElder
-    - BobyMCbobs
-    - chewong
-    - claudiubelu
-    - cpanato
-    - dims
-    - idvoretskyi
-    - justinsb
-    - listx
-    - munnerz
-    - riaankleinhans
-    - rikatz
-    - stp-ip
-    - thockin
-    - upodroid
-    - xmudrii
+      - ameukam
+      - GenPage
+      - hakman
+      - upodroid
+      - xmudrii
     privacy: closed
     teams:
       sig-k8s-infra-leads:
         description: sig-k8s-infra chairs and technical leads
         members:
-        - ameukam
-        - BenTheElder
-        - dims
-        - upodroid
-        - xmudrii
-        privacy: closed
-      k8s-infra-aws-admins:
-        description: granted access to the k8s-infra AWS account
-        members:
-        - idvoretskyi
-        - justinsb
-        - thockin
-        privacy: closed
-      k8s-infra-gcp-auditors:
-        description: granted read-only access to the k8s-infra GCP org (excluding secrets)
-        maintainers:
-        - cblecker
-        members:
-        - BobyMCbobs
-        - idvoretskyi
-        - justinsb
-        - puerco
-        - riaankleinhans
-        - thockin
+          - ameukam
+          - GenPage
+          - hakman
+          - upodroid
+          - xmudrii
         privacy: closed
       k8s-infra-gcp-org-admins:
         description: granted owner access to the k8s-infra GCP org
         members:
-        - ameukam
-        - BenTheElder
-        - dims
-        - upodroid
-        - xmudrii
+          - ameukam
+          - GenPage
+          - hakman
+          - upodroid
+          - xmudrii
         privacy: closed
       k8s-infra-group-admins:
         description: granted run access to kubernetes.io groups reconciler
         maintainers:
-        - cblecker
+          - cblecker
         members:
-        - dims
-        - thockin
+          - ameukam
+          - GenPage
+          - hakman
+          - upodroid
+          - xmudrii
         privacy: closed
       registry.k8s.io-admins:
         description: Admin access to kubernetes/registry.k8s.io
         members:
-        - ameukam
-        - bentheelder
-        - dims
-        - upodroid
-        - xmudrii
+          - ameukam
+          - GenPage
+          - hakman
+          - upodroid
+          - xmudrii
         privacy: closed
         repos:
           registry.k8s.io: admin
       registry.k8s.io-maintainers:
         description: Write access to kubernetes/registry.k8s.io
         members:
-        - ameukam
-        - bentheelder
-        - dims
-        - thockin
-        - upodroid
-        - xmudrii
+          - ameukam
+          - GenPage
+          - hakman
+          - upodroid
+          - xmudrii
         privacy: closed
         repos:
           registry.k8s.io: write

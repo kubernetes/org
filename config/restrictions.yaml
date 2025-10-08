@@ -175,6 +175,7 @@ restrictions:
   - path: "kubernetes-sigs/sig-autoscaling/teams.yaml"
     allowedRepos:
     - "^karpenter"
+    - "^karpenter-provider-ibm-cloud"
   - path: "kubernetes-sigs/sig-aws/teams.yaml"
     allowedRepos:
     - "^aws-ebs-csi-driver"

@@ -39,6 +39,20 @@ teams:
     privacy: closed
     repos:
       karpenter: read
+  karpenter-provider-ibm-cloud-admins:
+    description: admin access to the karpenter-provider-ibm-cloud repo
+    members:
+    - pfeifferj
+    privacy: closed
+    repos:
+      karpenter-provider-ibm-cloud: admin
+  karpenter-provider-ibm-cloud-maintainers:
+    description: write access to the karpenter-provider-ibm-cloud repo
+    members:
+    - pfeifferj
+    privacy: closed
+    repos:
+      karpenter-provider-ibm-cloud: write
   sig-autoscaling-leads:
     description: "leads of the SIG Autoscaling"
     members:

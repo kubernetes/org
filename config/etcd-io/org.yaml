@@ -57,6 +57,7 @@ members:
 - wendy-ha18
 - wenjiaswe
 - wzshiming
+- yagikota
 members_can_create_repositories: false
 name: etcd-io
 teams:

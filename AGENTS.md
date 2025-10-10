@@ -6,7 +6,7 @@ This file contains specific instructions for AI agents and automated tools worki
 
 ### Required Format
 
-All commits that add members MUST follow this exact format, unless explicitly explictly stated otherwise:
+All commits that add members MUST follow this exact format, unless explictly stated otherwise:
 
 ```
 Add <USERNAME> to <organization> org

@@ -78,6 +78,7 @@ teams:
     - seanzatzdev-amazon
     - torredil
     - wongma7
+    - DavidXU12345
     privacy: closed
     repos:
       aws-efs-csi-driver: admin
@@ -91,6 +92,7 @@ teams:
     - seanzatzdev-amazon
     - torredil
     - wongma7
+    - DavidXU12345
     privacy: closed
     repos:
       aws-efs-csi-driver: write

@@ -124,6 +124,7 @@ teams:
     - towca # Autoscaling
     - upodroid # K8s Infra
     - Verolop # Release Manager
+    - whtssub # 1.35 Enhancements Shadow
     - wojtek-t # Scalability
     - xing-yang # Storage
     - xmudrii # Release Manager / K8s Infra
@@ -302,6 +303,7 @@ teams:
         - savitharaghunathan # subproject owner (1.22 RT Lead)
         - stmcginnis # 1.34 Enhancements Shadow
         - Verolop # Release Manager
+        - whtssub # 1.35 Enhancements Shadow
         - xmudrii # Release Manager
         privacy: closed
         teams:
@@ -345,6 +347,7 @@ teams:
             - fykaa # 1.35 Enhancements Shadow
             - jmickey # 1.35 Enhancements Shadow
             - rayandas # 1.35 Enhancements Lead
+            - whtssub # 1.35 Enhancements Shadow
             privacy: closed
           release-team-leads:
             description: Release Team Leads for the current Kubernetes release

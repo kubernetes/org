@@ -7,7 +7,7 @@ teams:
     - palnabarun # Release Manager
     - Priyankasaggu11929 # ContribEx
     members:
-    - 88abb # 1.34 Comms Shadow
+    - aakankshabhende # 1.35 Comms Shadow
     - adrianmoisey # Autoscaling
     - aibarbetta # 1.35 Enhancements Shadow
     - ameukam # Release Manager Associate / K8s Infra
@@ -15,16 +15,17 @@ teams:
     - aramase # Auth
     - aravindhp # Windows
     - ardaguclu # CLI
+    - arujjval # 1.35 Comms Shadow
     - BenTheElder # Testing / K8s Infra
     - bgrant0607 # Architecture
     - brancz # Instrumentation
     - bridgetkromhout # Cloud Provider
     - caseydavenport # Network
+    - chadmcrowell # 1.35 Comms Shadow
     - chanieljdan # 1.35 Enhancements Shadow
     - cheftako # Cloud Provider
     - cici37 # Release Manager
     - claudiubelu # Windows
-    - cloudmelon # 1.34 Comms Shadow
     - cpanato # Release Manager
     - danwinship # Network
     - dashpole # Instrumentation
@@ -48,7 +49,7 @@ teams:
     - GenPage # K8s Infra
     - gjtempleton # Autoscaling
     - gracenng # Release Manager Associate / 1.30 RT EA
-    - graz-dev # 1.34 Comms Shadow
+    - graz-dev # 1.35 Comms Lead
     - haircommander # Node
     - hakman # K8s Infra
     - jackfrancis # Autoscaling
@@ -118,6 +119,7 @@ teams:
     - sreeram-venkitesh # 1.34 Release Lead Shadow
     - stmcginnis # 1.34 Enhancements Shadow
     - sttts # API Machinery
+    - SwathiR03 # 1.35 Comms Shadow
     - tallclair # Auth
     - thockin # Network
     - tico88612 # 1.35 Release Signal Lead
@@ -332,11 +334,11 @@ teams:
           release-team-comms:
             description: Members of the Comms team for the current release cycle.
             members:
-            - 88abb # 1.34 Comms Shadow
-            - aibarbetta # 1.34 Comms Lead
-            - cloudmelon # 1.34 Comms Shadow
-            - dipesh-rawat # 1.34 Comms Shadow
-            - graz-dev # 1.34 Comms Shadow
+            - aakankshabhende # 1.35 Comms Shadow
+            - arujjval # 1.35 Comms Shadow
+            - chadmcrowell # 1.35 Comms Shadow
+            - graz-dev # 1.35 Comms Lead
+            - SwathiR03 # 1.35 Comms Shadow
             privacy: closed
           release-team-enhancements:
             description: Members of the Enhancements team for the current release

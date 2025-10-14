@@ -236,6 +236,26 @@ teams:
     - keithmattix
     - mikemorris
     privacy: closed
+  kindnet-admins:
+    description: Admin access to the kindnet repo
+    members:
+    - aojea
+    - bentheelder
+    - danwinship
+    - thockin
+    privacy: closed
+    repos:
+      kindnet: admin
+  kindnet-maintainers:
+    description: Write access to the kindnet repo
+    members:
+    - aojea
+    - bentheelder
+    - danwinship
+    - thockin
+    privacy: closed
+    repos:
+      kindnet: write
   knftables-admins:
     description: Admin access to the knftables repo
     members:

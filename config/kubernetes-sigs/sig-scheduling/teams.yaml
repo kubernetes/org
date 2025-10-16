@@ -37,6 +37,29 @@ teams:
     - descehduler-maintainers
     repos:
       descheduler: write
+  dra-driver-topology-admins:
+    description: Admin access to the dra-driver-topology repo
+    members:
+    - dom4ha
+    - johnbelamaric
+    - klueska
+    - lauralorenz
+    - macsko
+    - pohly
+    - sanposhiho
+    privacy: closed
+    repos:
+      dra-driver-topology: admin
+  dra-driver-topology-maintainers:
+    description: Write access to the dra-driver-topology repo
+    members:
+    - johnbelamaric
+    - klueska
+    - lauralorenz
+    - pohly
+    privacy: closed
+    repos:
+      dra-driver-topology: write
   kube-scheduler-simulator-admins:
     description: Admin access to the kube-scheduler-simulator
     members:

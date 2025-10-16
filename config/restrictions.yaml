@@ -323,6 +323,7 @@ restrictions:
     allowedRepos:
     - "^cluster-capacity"
     - "^descheduler"
+    - "^dra-driver-topology"
     - "^kube-batch"
     - "^kube-scheduler-simulator"
     - "^kube-scheduler-wasm-extension"

@@ -254,6 +254,7 @@ teams:
   sig-docs-vi-owners:
     description: Admins for Vietnamese content
     members:
+    - thaomike
     - khanhtc1202
     - ntheanh201
     - truongnh1992
@@ -261,6 +262,7 @@ teams:
   sig-docs-vi-reviews:
     description: PR reviews for Vietnamese content
     members:
+    - thaomike
     - khanhtc1202
     - ntheanh201
     - truongnh1992

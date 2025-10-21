@@ -72,6 +72,7 @@ teams:
     description: admin access to aws-efs-csi-driver
     members:
     - dankova22
+    - DavidXU12345
     - dims
     - justinsb
     - mskanth972
@@ -85,6 +86,7 @@ teams:
     description: write access to aws-efs-csi-driver
     members:
     - dankova22
+    - DavidXU12345
     - jsafrane
     - justinsb
     - mskanth972

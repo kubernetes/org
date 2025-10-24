@@ -189,6 +189,10 @@ aliases:
     - saschagrunert
     - soltysh
 ## BEGIN CUSTOM CONTENT
+  ingress-gce:
+    - aojea
+    - bowei
+    - thockin
   provider-aws:
     - justinsb
     - nckturner

@@ -29,6 +29,7 @@ teams:
     description: Write access to dra-example-driver repo
     members:
     - bart0sh
+    - nojnhuh
     privacy: closed
     repos:
       dra-example-driver: write

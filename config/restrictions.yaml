@@ -285,6 +285,7 @@ restrictions:
     - "^gateway-api"
     - "^kindnet"
     - "^knftables"
+    - "^kube-agentic-networking"
     - "^kube-network-policies"
     - "^multi-network"
     - "^multi-network-api"

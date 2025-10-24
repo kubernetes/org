@@ -266,6 +266,22 @@ teams:
     privacy: closed
     repos:
       knftables: admin
+  kube-agentic-networking-admins:
+    description: Admin access to the kube-agentic-networking repo
+    members:
+    - guicassolato
+    - LiorLieberman
+    privacy: closed
+    repos:
+      kube-agentic-networking: admin
+  kube-agentic-networking-maintainers:
+    description: Write access to the kube-agentic-networking repo
+    members:
+    - guicassolato
+    - LiorLieberman
+    privacy: closed
+    repos:
+      kube-agentic-networking: write
   kube-network-policies-admins:
     description: Admin access to the kube-network-policies repo
     members:

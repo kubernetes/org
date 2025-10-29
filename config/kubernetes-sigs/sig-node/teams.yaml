@@ -50,6 +50,29 @@ teams:
     privacy: closed
     repos:
       node-feature-discovery-operator: write
+  node-readiness-controller-admins:
+    description: Admin access to node-readiness-controller repo
+    members:
+    - ajaysundark
+    - dchen1107
+    - haircommander
+    - mrunalp
+    - SergeyKanzhelev
+    privacy: closed
+    repos:
+      node-readiness-controller: admin
+  node-readiness-controller-maintainers:
+    description: Write access to node-readiness-controller repo
+    members:
+    - ajaysundark
+    - dchen1107
+    - haircommander
+    - mrunalp
+    - SergeyKanzhelev
+    - tallclair
+    privacy: closed
+    repos:
+      node-readiness-controller: write
   noderesourcetopology-api-admins:
     description: Admin access to noderesourcetopology-api repo
     members:

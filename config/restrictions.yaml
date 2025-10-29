@@ -188,7 +188,6 @@ restrictions:
     - "^cli-utils"
     - "^krew"
     - "^krew-index"
-    - "^krm-functions-registry"
     - "^kubectl-validate"
     - "^kustomize"
   - path: "kubernetes-sigs/sig-cloud-provider/teams.yaml"

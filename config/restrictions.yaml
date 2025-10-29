@@ -300,6 +300,7 @@ restrictions:
     - "^kernel-module-management"
     - "^noderesourcetopology-api"
     - "^node-feature-discovery-operator"
+    - "^node-readiness-controller"
     - "^security-profiles-operator"
   - path: "kubernetes-sigs/sig-release/teams.yaml"
     allowedRepos:

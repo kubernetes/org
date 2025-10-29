@@ -71,24 +71,6 @@ teams:
     privacy: closed
     repos:
       krew-index: write
-  krm-functions-registry-admins:
-    description: admin access to krm-functions-registry
-    members:
-    - eddiezane
-    - jeremyrickard
-    - soltysh
-    privacy: closed
-    repos:
-      krm-functions-registry: admin
-  krm-functions-registry-maintainers:
-    description: write access to krm-functions-registry
-    members:
-    - eddiezane
-    - jeremyrickard
-    - soltysh
-    privacy: closed
-    repos:
-      krm-functions-registry: write
   kubectl-validate-admins:
     description: admin access to kubectl-validate
     members:

@@ -1340,28 +1340,6 @@ teams:
     members:
     - dchen1107
     privacy: closed
-  ingress-gce-admins:
-    description: Admin access to the ingress-gce repo
-    members:
-    - aojea
-    - bowei
-    - thockin
-    privacy: closed
-    repos:
-      ingress-gce: admin
-  ingress-gce-maintainers:
-    description: Write access to the ingress-gce repo
-    members:
-    - aojea
-    - bowei
-    - mmamczur
-    - MrHohn
-    - swetharepakula
-    - thockin
-    - TortillaZHawaii
-    privacy: closed
-    repos:
-      ingress-gce: write
   ingress-nginx-admins:
     description: Admin access to the ingress-nginx repo
     members:

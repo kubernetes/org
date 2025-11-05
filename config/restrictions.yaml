@@ -316,6 +316,7 @@ restrictions:
     - "^release-sdk"
     - "^release-team-shadow-stats"
     - "^release-utils"
+    - "^signalhound"
     - "^tejolote"
     - "^testgrid-json-exporter"
     - "^zeitgeist"

@@ -243,6 +243,30 @@ teams:
     privacy: closed
     repos:
       release-utils: write
+  signalhound-admins:
+    description: admin access to the signalhound repo
+    members:
+    - cpanato
+    - drewhagen
+    - jeremyrickard
+    - justaugustus
+    - knabben
+    - puerco
+    - saschagrunert
+    - tico88612
+    - Verolop
+    privacy: closed
+    repos:
+      signalhound: admin
+  signalhound-maintainers:
+    description: write access to the signalhound repo
+    members:
+    - drewhagen
+    - knabben
+    - tico88612
+    privacy: closed
+    repos:
+      signalhound: write      
   tejolote-admins:
     description: admin access to tejolote
     members:

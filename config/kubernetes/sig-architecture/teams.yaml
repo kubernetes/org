@@ -89,6 +89,7 @@ teams:
     - jpbetz
     - soltysh
     - wojtek-t
+    - kannon92
     privacy: closed
     teams:
       prod-readiness-reviewers:

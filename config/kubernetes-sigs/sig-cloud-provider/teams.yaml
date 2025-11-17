@@ -100,7 +100,6 @@ teams:
    members:
    - andyzhangx
    - feiskyer
-   - justaugustus
    privacy: closed
    repos:
      blob-csi-driver: admin
@@ -109,7 +108,7 @@ teams:
    members:
    - andyzhangx
    - feiskyer
-   - justaugustus
+   - landreasyan
    privacy: closed
    repos:
      blob-csi-driver: write

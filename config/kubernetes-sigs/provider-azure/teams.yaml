@@ -33,6 +33,7 @@ teams:
     - andyzhangx
     - feiskyer
     - nearora-msft
+    - landreasyan
     privacy: closed
     repos:
       azuredisk-csi-driver: write
@@ -49,6 +50,7 @@ teams:
     - andyzhangx
     - feiskyer
     - nearora-msft
+    - landreasyan
     privacy: closed
     repos:
       azurefile-csi-driver: write

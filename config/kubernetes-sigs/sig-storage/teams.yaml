@@ -66,8 +66,8 @@ teams:
     description: Write access to the gcp-compute-persistent-disk-csi-driver repo
     members:
     - amacaskill
-    - dannawang0221
     - cemakd
+    - dannawang0221    
     - hime
     - juliankatz
     - leiyiz

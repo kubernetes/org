@@ -57,9 +57,9 @@ teams:
     description: Admin access to the gwctl repo
     members:
     - gauravkghildiyal
-    - mlavacca
     - robscott
     - shaneutt
+    - snorwin
     - youngnick
     privacy: closed
     repos:
@@ -68,9 +68,9 @@ teams:
     description: Write access to the gwctl repo
     members:
     - gauravkghildiyal
-    - mlavacca
     - robscott
     - shaneutt
+    - snorwin
     - youngnick
     privacy: closed
     repos:
@@ -137,7 +137,6 @@ teams:
   ingress2gateway-admins:
     description: Admin access to the ingress2gateway repo
     members:
-    - bowei
     - LiorLieberman
     - robscott
     - shaneutt
@@ -205,7 +204,6 @@ teams:
   gateway-api-admins:
     description: Admin access to the gateway-api repo
     members:
-    - mlavacca
     - robscott
     - shaneutt
     - youngnick
@@ -215,9 +213,8 @@ teams:
     repos:
       gateway-api: admin
   gateway-api-maintainers:
-    description: Write access to the gateway-api repo
+    description: Gateway API Maintainers
     members:
-    - mlavacca
     - robscott
     - shaneutt
     - youngnick
@@ -227,11 +224,20 @@ teams:
     - service-apis-amintainers
     repos:
       gateway-api: write
+  gateway-api-release-team:
+    description: Gateway API Release Team
+    members:
+    - bexxmodd
+    - kflynn
+    privacy: closed
+    repos:
+      gateway-api: write
   gateway-api-mesh-leads:
-    description: Write access to the gateway-api repo
+    description: Gateway API Mesh Leads
     members:
     - howardjohn
     - keithmattix
+    - LiorLieberman
     - mikemorris
     privacy: closed
   kindnet-admins:

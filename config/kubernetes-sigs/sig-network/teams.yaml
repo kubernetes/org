@@ -201,6 +201,13 @@ teams:
     privacy: closed
     repos:
       gateway-api-inference-extension: admin
+  gateway-api-inference-extension-milestone-maintainers:
+    description: Milestone maintainers for gateway-api-inference-extension
+    members:
+    - elevran
+    - kaushikmitr
+    - rahulgurnani
+    privacy: closed
   gateway-api-admins:
     description: Admin access to the gateway-api repo
     members:

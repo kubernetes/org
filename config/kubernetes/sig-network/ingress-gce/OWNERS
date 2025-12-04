@@ -1,9 +1,0 @@
-# See the OWNERS docs at https://go.k8s.io/owners
-
-reviewers:
-  - ingress-gce
-approvers:
-  - ingress-gce
-labels:
-  - sig/network 
-  - area/provider/gcp

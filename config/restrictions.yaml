@@ -52,9 +52,6 @@ restrictions:
     - "^perf-tests"
     - "^steering"
     - "^utils"
-  - path: "kubernetes/sig-network/ingress-gce/teams.yaml"
-    allowedRepos:
-    - "^ingress-gce"
   - path: "kubernetes/provider-gcp/teams.yaml"
     allowedRepos:
     - "^cloud-provider-gcp"
@@ -104,6 +101,9 @@ restrictions:
     allowedRepos:
     - "^k8s.io"
     - "^registry.k8s.io"
+  - path: "kubernetes/sig-network/teams.yaml"
+    allowedRepos:
+    - "^ingress-gce"
   - path: "kubernetes/sig-node/teams.yaml"
     allowedRepos:
     - "^node-problem-detector"

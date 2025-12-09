@@ -247,6 +247,26 @@ teams:
     - LiorLieberman
     - mikemorris
     privacy: closed
+  kubernetes-network-drivers-admins:
+    description: Admin access to the kubernetes-network-drivers repo
+    members:
+    - aojea
+    - bowei
+    - danwinship
+    - thockin
+    privacy: closed
+    repos:
+      kubernetes-network-drivers: admin
+  kubernetes-network-drivers-maintainers:
+    description: Write access to the kubernetes-network-drivers repo
+    members:
+    - aojea
+    - bentheelder
+    - danwinship
+    - thockin
+    privacy: closed
+    repos:
+      kubernetes-network-drivers: write
   kindnet-admins:
     description: Admin access to the kindnet repo
     members:

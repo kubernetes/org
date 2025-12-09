@@ -284,6 +284,7 @@ restrictions:
     - "^ingress-controller-conformance"
     - "^iptables-wrappers"
     - "^gateway-api"
+    - "^kubernetes-network-drivers"
     - "^kindnet"
     - "^knftables"
     - "^kube-agentic-networking"

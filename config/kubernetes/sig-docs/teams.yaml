@@ -144,6 +144,7 @@ teams:
     - nasa9084
     - Okabe-Junya
     - t-inu
+    - kfess
     privacy: closed
   sig-docs-ko-owners:
     description: Approvers for Korean content

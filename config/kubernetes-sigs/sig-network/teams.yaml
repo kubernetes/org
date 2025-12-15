@@ -53,6 +53,28 @@ teams:
     privacy: closed
     repos:
       cni-dra-driver: write
+  dranet-admins:
+    description: Admin access to the dranet repo
+    members:
+    - aojea
+    - danwinship
+    - gauravkghildiyal
+    - michaelasp
+    - thockin
+    privacy: closed
+    repos:
+      dranet: admin
+  dranet-maintainers:
+    description: Admin access to the dranet epo
+    members:
+    - aojea
+    - danwinship
+    - gauravkghildiyal
+    - michaelasp
+    - thockin
+    privacy: closed
+    repos:
+      dranet: write
   gwctl-admins:
     description: Admin access to the gwctl repo
     members:

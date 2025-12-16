@@ -20,7 +20,7 @@ teams:
     repos:
       cluster-addons: write
   cluster-api-addon-provider-helm-admins:
-    description:  Admin access to cluster-api-addon-provider-helm repo
+    description: Admin access to cluster-api-addon-provider-helm repo
     members:
     - fabriziopandini
     - jackfrancis
@@ -258,16 +258,20 @@ teams:
   cluster-api-provider-openstack-admins:
     description: admin access to cluster-api-provider-openstack
     members:
-    - EmilienM
+    - emilienm
     - lentzi90
+    - mandre
+    - stephenfin
     privacy: closed
     repos:
       cluster-api-provider-openstack: admin
   cluster-api-provider-openstack-maintainers:
     description: write access to cluster-api-provider-openstack
     members:
-    - EmilienM
+    - emilienm
     - lentzi90
+    - mandre
+    - stephenfin
     privacy: closed
     repos:
       cluster-api-provider-openstack: write

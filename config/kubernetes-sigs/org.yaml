@@ -1069,3 +1069,14 @@ teams:
     privacy: closed
     repos:
       node-feature-discovery: write
+  owners:
+    description: Kubernetes GitHub Owners
+    maintainers:
+    - cblecker
+    - jasonbraganza
+    - MadhavJivrajani
+    - mrbobbytables
+    - nikhita
+    - palnabarun
+    - Priyankasaggu11929
+    privacy: closed

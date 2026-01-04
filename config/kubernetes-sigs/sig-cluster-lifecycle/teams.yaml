@@ -157,7 +157,6 @@ teams:
     - davidjumani
     - dims
     - g-gaston
-    - rohityadavcloud
     privacy: closed
     previously:
     - cluster-api-cloudstack-admins
@@ -169,7 +168,6 @@ teams:
     - davidjumani
     - dims
     - g-gaston
-    - rohityadavcloud
     privacy: closed
     previously:
     - cluster-api-cloudstack-maintainers

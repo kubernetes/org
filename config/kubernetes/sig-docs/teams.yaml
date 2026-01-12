@@ -320,7 +320,6 @@ teams:
     - t-inu # L10n: Japanese
     - tengqm # L10n: Chinese
     - truongnh1992 # L10n: Vietnamese
-    - Urvashi0109 # Release Doc Lead 1.35
     - xichengliudui # L10n: Chinese
     - yagonobre # L10n: Portuguese
     privacy: closed
@@ -330,7 +329,6 @@ teams:
     description: Contributors who can use `/milestone` in the website repo
     members:
     - a-mccarthy
-    - AnshumanTripathi
     - ArvindParekh
     - bene2k1
     - divya-mohan0209
@@ -338,15 +336,12 @@ teams:
     - huynguyennovem
     - inductor
     - jcjesus
-    - Jimmykhangnguyen
-    - kernel-kun
     - lmktfy
     - michellengnx
     - nasa9084
     - natalisucks
     - nate-double-u
     - onlydole
-    - OrlinVasilev
     - perriea
     - raelga
     - rashansmith
@@ -361,7 +356,6 @@ teams:
     - shurup
     - tengqm
     - truongnh1992
-    - Urvashi0109
     - xichengliudui
     - yujen77300
     privacy: closed

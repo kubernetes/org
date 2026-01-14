@@ -9,7 +9,7 @@ teams:
     members:
     - aakankshabhende # 1.35 Comms Shadow
     - adrianmoisey # Autoscaling
-    - aibarbetta # 1.35 Enhancements Shadow
+    - aibarbetta # 1.36 Release Lead Shadow
     - ameukam # Release Manager Associate / K8s Infra
     - aojea # Testing / Network
     - aramase # Auth
@@ -22,7 +22,7 @@ teams:
     - brancz # Instrumentation
     - bridgetkromhout # Cloud Provider
     - caseydavenport # Network
-    - chadmcrowell # 1.35 Comms Shadow
+    - chadmcrowell # 1.36 Comms Lead
     - chanieljdan # 1.35 Enhancements Shadow
     - cheftako # Cloud Provider
     - cici37 # Release Manager
@@ -35,7 +35,7 @@ teams:
     - derekwaynecarr # Architecture / Node
     - dgrisonnet # Instrumentation
     - dims # Architecture / K8s Infra
-    - dipesh-rawat # 1.35 Release Lead Shadow
+    - dipesh-rawat # 1.36 Release Lead Shadow
     - dom4ha # Scheduling
     - drewhagen # 1.35 Release Lead
     - eddiezane # CLI
@@ -57,10 +57,10 @@ teams:
     - janetkuo # Apps
     - jberkus # Release
     - jbpratt # Testing
-    - jenshu # 1.35 Release Lead Shadow
+    - jenshu # 1.36 Release Lead Shadow
     - jeremyrickard # Release
     - jimangel # Docs / Release Manager Associate / 1.32 Release Branch Manager
-    - jmickey # 1.35 Enhancements Shadow
+    - jmickey # 1.36 Enhancements Lead
     - joaquimrocha # UI
     - joelspeed # Cloud Provider
     - johnbelamaric # Architecture
@@ -99,11 +99,11 @@ teams:
     - puerco # Release Manager
     - RainbowMango # Instrumentation
     - Rajalakshmi-Girish # v1.35 Release Lead Shadow
-    - rayandas # 1.35 Enhancements Lead
+    - rayandas # 1.36 Release Lead Shadow
     - rexagod # Instrumentation
     - richabanker # Instrumentation
     - ritazh # Auth
-    - rytswd # 1.35 Release Lead Shadow
+    - rytswd # 1.36 Release Lead
     - saad-ali # Storage
     - salaxander # Release Manager Associate / 1.29 RT EA
     - salehsedghpour # 1.32 Release Lead Shadow
@@ -362,13 +362,13 @@ teams:
             maintainers:
             - Priyankasaggu11929 # 1.31 Release EA
             members:
-            - dipesh-rawat # 1.35 Release Lead Shadow
-            - drewhagen # 1.35 Release Lead
-            - jenshu # 1.35 Release Lead Shadow
+            - aibarbetta # 1.36 Release Lead
+            - dipesh-rawat # 1.36 Release Lead Shadow
+            - jenshu # 1.36 Release Lead Shadow
             - jimangel # 1.32 Release Branch Manager
             - katcosgrove # subproject owner / 1.32 Release EA
-            - Rajalakshmi-Girish # v1.35 Release Lead Shadow
-            - rytswd # 1.35 Release Lead Shadow
+            - rayandas # v1.36 Release Lead Shadow
+            - rytswd # 1.36 Release Lead
             privacy: closed
             repos:
               kubernetes: write

@@ -315,43 +315,23 @@ teams:
             description: Members of the Release Signal team for the current release
               cycle.
             members:
-            - adilGhaffarDev # 1.35 Release Signal Shadow
-            - benjaminapetersen # 1.35 Release Signal Shadow
-            - kei01234kei # 1.35 Release Signal Shadow
-            - knabben # 1.35 Release Signal Shadow
-            - Prajyot-Parab # 1.35 Release Signal Shadow
-            - tico88612 # 1.35 Release Signal Lead
-            - yunchi0921 # v1.35 Release Signal Shadow
+            - Prajyot-Parab # 1.36 Release Signal Lead
             privacy: closed
           release-team-docs:
             description: Members of the Docs team for the current release cycle.
             members:
-            - AnshumanTripathi # 1.35 Docs Shadow
-            - Jimmykhangnguyen # 1.35 Docs Shadow
-            - kernel-kun # 1.35 Docs Shadow
-            - OrlinVasilev # 1.35 Docs Lead
-            - sayanchowdhury # 1.35 Docs Shadow
-            - Urvashi0109 # 1.35 Docs Lead
+            - sayanchowdhury # 1.65 Docs Lead
             privacy: closed
           release-team-comms:
             description: Members of the Comms team for the current release cycle.
             members:
-            - aakankshabhende # 1.35 Comms Shadow
-            - arujjval # 1.35 Comms Shadow
-            - chadmcrowell # 1.35 Comms Shadow
-            - graz-dev # 1.35 Comms Lead
-            - SwathiR03 # 1.35 Comms Shadow
+            - chadmcrowell # 1.36 Comms Lead
             privacy: closed
           release-team-enhancements:
             description: Members of the Enhancements team for the current release
               cycle.
             members:
-            - aibarbetta # 1.35 Enhancements Shadow
-            - chanieljdan # 1.35 Enhancements Shadow
-            - fykaa # 1.35 Enhancements Shadow
-            - jmickey # 1.35 Enhancements Shadow
-            - rayandas # 1.35 Enhancements Lead
-            - whtssub # 1.35 Enhancements Shadow
+            - jmickey # 1.36 Enhancements Lead
             privacy: closed
           release-team-leads:
             description: Release Team Leads for the current Kubernetes release

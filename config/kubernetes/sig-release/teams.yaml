@@ -320,7 +320,7 @@ teams:
           release-team-docs:
             description: Members of the Docs team for the current release cycle.
             members:
-            - sayanchowdhury # 1.65 Docs Lead
+            - sayanchowdhury # 1.36 Docs Lead
             privacy: closed
           release-team-comms:
             description: Members of the Comms team for the current release cycle.

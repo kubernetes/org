@@ -235,6 +235,7 @@ teams:
   gateway-api-admins:
     description: Admin access to the gateway-api repo
     members:
+    - rikatz
     - robscott
     - shaneutt
     - youngnick
@@ -246,6 +247,7 @@ teams:
   gateway-api-maintainers:
     description: Gateway API Maintainers
     members:
+    - rikatz
     - robscott
     - shaneutt
     - youngnick

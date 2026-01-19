@@ -1,8 +1,6 @@
 teams:
   sig-docs-blog-owners:
     description: Approvers for blog content
-    maintainers:
-    - mrbobbytables
     members:
     - Gauravpadam
     - graz-dev

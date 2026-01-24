@@ -23,7 +23,7 @@ teams:
     - bridgetkromhout # Cloud Provider
     - caseydavenport # Network
     - chadmcrowell # 1.36 Comms Lead
-    - chanieljdan # 1.35 Enhancements Shadow
+    - chanieljdan # 1.36 Comms Shadow
     - cheftako # Cloud Provider
     - cici37 # Release Manager
     - claudiubelu # Windows
@@ -73,6 +73,7 @@ teams:
     - kannon92 # wg-batch organizer
     - katcosgrove # v1.32 EA
     - kow3ns # Apps
+    - kirti763 # 1.36 Comms Shadow
     - liggitt # Auth / Release
     - luxas # Cluster Lifecycle
     - maciaszczykm # UI
@@ -116,15 +117,17 @@ teams:
     - shu-mutou # UI
     - shyamjvs # Scalability
     - soltysh # CLI
+    - sophiaugo # 1.36 Comms Shadow 
     - spzala # IBM Cloud
     - sreeram-venkitesh # 1.34 Release Lead Shadow
     - stmcginnis # 1.34 Enhancements Shadow
     - sttts # API Machinery
-    - SwathiR03 # 1.35 Comms Shadow
+    - SwathiR03 # 1.36 Comms Shadow
     - tallclair # Auth
     - thockin # Network
     - tico88612 # 1.35 Release Signal Lead
     - towca # Autoscaling
+    - utkarshumre # 1.36 Comms Shadow
     - upodroid # K8s Infra
     - Verolop # Release Manager
     - whtssub # 1.35 Enhancements Shadow

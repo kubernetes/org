@@ -72,8 +72,8 @@ teams:
     - k8s-release-robot # Release
     - kannon92 # wg-batch organizer
     - katcosgrove # v1.32 EA
-    - kow3ns # Apps
     - kirti763 # 1.36 Comms Shadow
+    - kow3ns # Apps
     - liggitt # Auth / Release
     - luxas # Cluster Lifecycle
     - maciaszczykm # UI
@@ -127,8 +127,8 @@ teams:
     - thockin # Network
     - tico88612 # 1.35 Release Signal Lead
     - towca # Autoscaling
-    - utkarshumre # 1.36 Comms Shadow
     - upodroid # K8s Infra
+    - utkarshumre # 1.36 Comms Shadow
     - Verolop # Release Manager
     - whtssub # 1.35 Enhancements Shadow
     - wojtek-t # Scalability

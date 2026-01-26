@@ -74,7 +74,7 @@ teams:
     - katcosgrove # v1.32 EA
     - kirti763 # 1.36 Comms Shadow
     - kow3ns # Apps
-    - kirti763 # 1.36 Comms Shadow
+    - lasomethingsomething # 1.36 Enhancements Shadow
     - liggitt # Auth / Release
     - luxas # Cluster Lifecycle
     - maciaszczykm # UI
@@ -96,10 +96,11 @@ teams:
     - neolit123 # Cluster Lifecycle
     - npolshakova # 1.33 Release Lead
     - pacoxu # Cluster Lifecycle
+    - pmengelbert # 1.36 Enhancements Shadow
     - pohly # SIG Testing, Instrumentation, Node
     - puerco # Release Manager
     - RainbowMango # Instrumentation
-    - Rajalakshmi-Girish # v1.35 Release Lead Shadow
+    - Rajalakshmi-Girish # v1.36 Enhancements Shadow
     - rayandas # 1.36 Release Lead Shadow
     - rexagod # Instrumentation
     - richabanker # Instrumentation
@@ -118,11 +119,7 @@ teams:
     - shu-mutou # UI
     - shyamjvs # Scalability
     - soltysh # CLI
-<<<<<<< HEAD
-    - SophiaUgo # 1.36 Comms Shadow 
-=======
     - SophiaUgo # 1.36 Comms Shadow
->>>>>>> c0e0d74c (add v1.36 release comms team)
     - spzala # IBM Cloud
     - sreeram-venkitesh # 1.34 Release Lead Shadow
     - stmcginnis # 1.34 Enhancements Shadow
@@ -130,12 +127,12 @@ teams:
     - SwathiR03 # 1.36 Comms Shadow
     - tallclair # Auth
     - thockin # Network
-    - tico88612 # 1.35 Release Signal Lead
+    - tico88612 # 1.36 Enhancements Shadow
     - towca # Autoscaling
     - upodroid # K8s Infra
     - UtkarshUmre # 1.36 Comms Shadow
     - Verolop # Release Manager
-    - whtssub # 1.35 Enhancements Shadow
+    - whtssub # 1.36 Enhancements Shadow
     - wojtek-t # Scalability
     - xing-yang # Storage
     - xmudrii # Release Manager / K8s Infra
@@ -302,19 +299,23 @@ teams:
         - jenshu # 1.34 Enhancements Lead
         - jeremyrickard # subproject owner / Technical Lead
         - jimangel # 1.32 RT Branch Manager
-        - jmickey # 1.35 Enhancements Shadow
+        - jmickey # 1.36 Enhancements Lead
         - justaugustus # subproject owner / Chair
         - katcosgrove # 1.30 Lead / 1.32 EA
+        - lasomethingsomething # 1.36 Enhancements Shadow
         - mickeyboxell # 1.32 Release Manager Shadow
+        - pmengelbert # 1.36 Enhancements Shadow
         - puerco # subproject owner / Technical Lead
+        - Rajalakshmi-Girish # 1.36 Enhancements Shadow
         - rayandas # 1.34 Enhancements Shadow
         - reylejano # subproject owner (1.23 RT Lead)
         - salaxander # subproject owner (1.27 RT Lead)
         - saschagrunert # subproject owner / Chair
         - savitharaghunathan # subproject owner (1.22 RT Lead)
         - stmcginnis # 1.34 Enhancements Shadow
+        - tico88612 # 1.36 Enhancements Shadow
         - Verolop # Release Manager
-        - whtssub # 1.35 Enhancements Shadow
+        - whtssub # 1.36 Enhancements Shadow
         - xmudrii # Release Manager
         privacy: closed
         teams:
@@ -339,6 +340,11 @@ teams:
               cycle.
             members:
             - jmickey # 1.36 Enhancements Lead
+            - lasomethingsomething # 1.36 Enhancements Shadow
+            - pmengelbert # 1.36 Enhancements Shadow
+            - Rajalakshmi-Girish # 1.36 Enhancements Shadow
+            - tico88612 # 1.36 Enhancements Shadow
+            - whtssub # 1.36 Enhancements Shadow
             privacy: closed
           release-team-leads:
             description: Release Team Leads for the current Kubernetes release

@@ -41,7 +41,6 @@ teams:
     - mrbobbytables # subproject owner
     members:
     - Atharva-Shinde # 1.28 RT Enhancements Lead
-    - Rajalakshmi-Girish # 1.36 Enhancements Shadow
     - jeremyrickard # subproject owner
     - jmickey # 1.36 Enhancements Lead
     - johnbelamaric # subproject owner
@@ -49,6 +48,7 @@ teams:
     - kikisdeliveryservice # subproject owner
     - lasomethingsomething # 1.36 Enhancements Shadow
     - pmengelbert # 1.36 Enhancements Shadow
+    - Rajalakshmi-Girish # 1.36 Enhancements Shadow
     - salehsedghpour # 1.30 RT Enhancements Lead
     - tico88612 # 1.36 Enhancements Shadow
     - whtssub # 1.36 Enhancements Shadow

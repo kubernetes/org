@@ -297,6 +297,7 @@ teams:
     members:
     - a-mccarthy # Localization subproject owner
     - bells17 # L10n: Japanese
+    - dipesh-rawat # L10n: English    
     - divya-mohan0209 # L10n: English
     - girikuncoro # L10n: Indonesian
     - huynguyennovem # L10n: Vietnamese # L10n: Korean
@@ -331,6 +332,7 @@ teams:
     - a-mccarthy
     - ArvindParekh
     - bene2k1
+    - dipesh-rawat    
     - divya-mohan0209
     - girikuncoro
     - huynguyennovem

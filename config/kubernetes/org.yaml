@@ -1267,24 +1267,6 @@ teams:
     - jeremyrickard
     - stmcginnis
     privacy: closed
-  dashboard-admins:
-    description: Admins of the dashboard repo
-    members:
-    - floreks
-    - maciaszczykm
-    privacy: closed
-    repos:
-      dashboard: admin
-  dashboard-maintainers:
-    description: Write access to the dashboard repo
-    members:
-    - floreks
-    - jeefy
-    - maciaszczykm
-    - shu-mutou
-    privacy: closed
-    repos:
-      dashboard: write
   dep-approvers:
     description: People who can approve dependency changes in kubernetes/kubernetes
     members:

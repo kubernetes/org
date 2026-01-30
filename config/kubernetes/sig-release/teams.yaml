@@ -97,6 +97,7 @@ teams:
     - npolshakova # 1.33 Release Lead
     - pacoxu # Cluster Lifecycle
     - pohly # SIG Testing, Instrumentation, Node
+    - Prajyot-Parab # 1.36 Release Signal Lead
     - puerco # Release Manager
     - RainbowMango # Instrumentation
     - Rajalakshmi-Girish # v1.35 Release Lead Shadow
@@ -318,7 +319,13 @@ teams:
             description: Members of the Release Signal team for the current release
               cycle.
             members:
+            - adilGhaffarDev # 1.36 Release Signal Shadow
+            - aman4433 # 1.36 Release Signal Shadow
+            - dhanishaphadate # 1.36 Release Signal Shadow
+            - graz-dev # 1.36 Release Signal Shadow
+            - kei01234kei # 1.36 Release Signal Shadow
             - Prajyot-Parab # 1.36 Release Signal Lead
+            - TatianaSelezneva # 1.36 Release Signal Shadow
             privacy: closed
           release-team-docs:
             description: Members of the Docs team for the current release cycle.

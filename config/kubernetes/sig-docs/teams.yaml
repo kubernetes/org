@@ -155,6 +155,8 @@ teams:
   sig-docs-ko-reviews:
     description: Reviews for Korean docs PRs
     members:
+    - developowl
+    - Eundms
     - ianychoi
     - jihoon-seo
     - jongwooo

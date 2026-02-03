@@ -166,6 +166,7 @@ teams:
   sig-docs-leads:
     description: Chairs and tech leads for SIG Docs
     members:
+    - dipesh-rawat
     - divya-mohan0209
     - katcosgrove
     - natalisucks

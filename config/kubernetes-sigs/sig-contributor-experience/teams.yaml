@@ -21,10 +21,10 @@ teams:
     description: admin access to the lwkd repo
     members:
     - coderanger
+    - Hii-Arpit
     - jberkus
     - mfahlandt
     - sreeram-venkitesh
-    - Hii-Arpit
     privacy: closed
     repos:
       lwkd: admin

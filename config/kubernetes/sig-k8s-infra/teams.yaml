@@ -53,6 +53,13 @@ teams:
           - upodroid
           - xmudrii
         privacy: closed
+      sig-k8s-infra-dns-admins:
+        description: sig-k8s-infra dns admins
+        maintainers:
+          - cblecker
+        members:
+          - BenTheElder
+        privacy: closed
       registry.k8s.io-admins:
         description: Admin access to kubernetes/registry.k8s.io
         members:

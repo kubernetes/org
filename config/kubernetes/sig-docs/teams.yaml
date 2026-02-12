@@ -332,14 +332,17 @@ teams:
     description: Contributors who can use `/milestone` in the website repo
     members:
     - a-mccarthy
+    - AnshumanTripathi
     - ArvindParekh
     - bene2k1
     - dipesh-rawat    
     - divya-mohan0209
+    - em-sav
     - girikuncoro
     - huynguyennovem
     - inductor
     - jcjesus
+    - kernel-kun
     - lmktfy
     - michellengnx
     - nasa9084
@@ -358,6 +361,7 @@ teams:
     - sayanchowdhury
     - seokho-son
     - shurup
+    - singh1203
     - tengqm
     - truongnh1992
     - xichengliudui

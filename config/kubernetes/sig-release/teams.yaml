@@ -332,7 +332,11 @@ teams:
           release-team-docs:
             description: Members of the Docs team for the current release cycle.
             members:
+            - AnshumanTripathi # 1.36 Docs Shadow
+            - em-sav # 1.36 Docs Shadow
+            - kernel-kun # 1.36 Docs Shadow
             - sayanchowdhury # 1.36 Docs Lead
+            - singh1203 # 1.36 Docs Shadow
             privacy: closed
           release-team-comms:
             description: Members of the Comms team for the current release cycle.

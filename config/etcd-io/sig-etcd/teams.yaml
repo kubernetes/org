@@ -168,7 +168,7 @@ teams:
     description: Granted permission to release etcd-io/etcd
     # The member list is intentionally empty. It should only include the release
     # lead during release windows.
-    members: [ivanvc, joshjms]
+    members: []
     privacy: closed
     repos:
       etcd: maintain

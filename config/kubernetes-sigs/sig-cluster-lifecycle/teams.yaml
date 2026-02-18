@@ -97,7 +97,7 @@ teams:
     description: maintain access to cluster-api-provider-aws
     members:
     - AndiDog
-    - damdo
+    - Ankitasw
     - dlipovetsky
     - nrb
     - richardcase

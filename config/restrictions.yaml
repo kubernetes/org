@@ -37,6 +37,7 @@ restrictions:
     - "^committee-security-response"
     - "^cloud-provider-gcp"
     - "^cloud-provider-vsphere"
+    - "^dashboard"
     - "^dns"
     - "^examples"
     - "^gengo"

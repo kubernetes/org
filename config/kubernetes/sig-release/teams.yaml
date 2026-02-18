@@ -74,7 +74,6 @@ teams:
     - katcosgrove # v1.32 EA
     - kirti763 # 1.36 Comms Shadow
     - kow3ns # Apps
-    - kirti763 # 1.36 Comms Shadow
     - lasomethingsomething # 1.36 Enhancements Shadow
     - liggitt # Auth / Release
     - luxas # Cluster Lifecycle
@@ -346,6 +345,11 @@ teams:
             description: Members of the Comms team for the current release cycle.
             members:
             - chadmcrowell # 1.36 Comms Lead
+            - chanieljdan # 1.36 Comms Shadow
+            - kirti763 # 1.36 Comms Shadow
+            - SophiaUgo # 1.36 Comms Shadow
+            - SwathiR03 # 1.36 Comms Shadow
+            - UtkarshUmre # 1.36 Comms Shadow
             privacy: closed
           release-team-enhancements:
             description: Members of the Enhancements team for the current release

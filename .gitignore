@@ -5,3 +5,4 @@
 .DS_Store
 .idea/
 _output/
+.vscode/settings.json

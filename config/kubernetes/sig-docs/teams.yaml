@@ -161,6 +161,7 @@ teams:
     - jihoon-seo
     - jongwooo
     - seokho-son
+    - wonyongg
     privacy: closed
   sig-docs-leads:
     description: Chairs and tech leads for SIG Docs
@@ -298,6 +299,7 @@ teams:
     members:
     - a-mccarthy # Localization subproject owner
     - bells17 # L10n: Japanese
+    - dipesh-rawat # L10n: English    
     - divya-mohan0209 # L10n: English
     - girikuncoro # L10n: Indonesian
     - huynguyennovem # L10n: Vietnamese # L10n: Korean
@@ -333,6 +335,7 @@ teams:
     - AnshumanTripathi
     - ArvindParekh
     - bene2k1
+    - dipesh-rawat    
     - divya-mohan0209
     - em-sav
     - girikuncoro

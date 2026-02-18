@@ -267,6 +267,7 @@ members:
 - devikrishnamk0123
 - dewble
 - dgrisonnet
+- dhanishaphadate
 - dharaneeshvrd
 - didiViking
 - dims
@@ -537,6 +538,7 @@ members:
 - killianmuldoon
 - kinzhi
 - kirkonru
+- kirti763
 - kishen-v
 - kkeshavamurthy
 - kkk777-7
@@ -575,6 +577,7 @@ members:
 - LaurentGoderre
 - lavishpal
 - learner0810
+- lechiennn
 - leiyiz
 - lengrongfu
 - lentzi90
@@ -999,6 +1002,7 @@ members:
 - tao12345666333
 - tariq1890
 - tasdikrahman
+- TatianaSelezneva
 - taylorwaggoner
 - tchap
 - tedyu
@@ -1050,6 +1054,7 @@ members:
 - upodroid
 - Urvashi0109
 - utam0k
+- UtkarshUmre
 - vadasambar
 - vaibhav2107
 - VannTen
@@ -1274,24 +1279,6 @@ teams:
     - jeremyrickard
     - stmcginnis
     privacy: closed
-  dashboard-admins:
-    description: Admins of the dashboard repo
-    members:
-    - floreks
-    - maciaszczykm
-    privacy: closed
-    repos:
-      dashboard: admin
-  dashboard-maintainers:
-    description: Write access to the dashboard repo
-    members:
-    - floreks
-    - jeefy
-    - maciaszczykm
-    - shu-mutou
-    privacy: closed
-    repos:
-      dashboard: write
   dep-approvers:
     description: People who can approve dependency changes in kubernetes/kubernetes
     members:
@@ -1541,8 +1528,8 @@ teams:
     - natherz97
     - puerco
     - ritazh
-    - SaranBalaji90
     - tabbysable
+    - vinayakankugoyal
     - Vyom-Yadav
     previously:
     - product-security-team

@@ -324,7 +324,7 @@ teams:
   kube-agentic-networking-admins:
     description: Admin access to the kube-agentic-networking repo
     members:
-    - guicassolato
+    - david-martin
     - LiorLieberman
     privacy: closed
     repos:
@@ -332,7 +332,7 @@ teams:
   kube-agentic-networking-maintainers:
     description: Write access to the kube-agentic-networking repo
     members:
-    - guicassolato
+    - david-martin
     - LiorLieberman
     privacy: closed
     repos:

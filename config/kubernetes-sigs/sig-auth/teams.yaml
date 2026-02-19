@@ -13,7 +13,6 @@ teams:
     members:
     - aramase
     - enj
-    - nilekhc
     - ritazh
     privacy: closed
     repos:
@@ -49,7 +48,6 @@ teams:
     members:
     - aramase
     - enj
-    - nilekhc
     privacy: closed
     repos:
       secrets-store-sync-controller: write

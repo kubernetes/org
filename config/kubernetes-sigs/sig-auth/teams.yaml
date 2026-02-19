@@ -48,6 +48,7 @@ teams:
     members:
     - aramase
     - enj
+    - stlaz
     privacy: closed
     repos:
       secrets-store-sync-controller: write

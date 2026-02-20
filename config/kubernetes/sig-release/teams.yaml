@@ -23,7 +23,7 @@ teams:
     - bridgetkromhout # Cloud Provider
     - caseydavenport # Network
     - chadmcrowell # 1.36 Comms Lead
-    - chanieljdan # 1.35 Enhancements Shadow
+    - chanieljdan # 1.36 Comms Shadow
     - cheftako # Cloud Provider
     - cici37 # Release Manager
     - claudiubelu # Windows
@@ -72,6 +72,7 @@ teams:
     - k8s-release-robot # Release
     - kannon92 # wg-batch organizer
     - katcosgrove # v1.32 EA
+    - kirti763 # 1.36 Comms Shadow
     - kow3ns # Apps
     - lasomethingsomething # 1.36 Enhancements Shadow
     - liggitt # Auth / Release
@@ -119,16 +120,18 @@ teams:
     - shu-mutou # UI
     - shyamjvs # Scalability
     - soltysh # CLI
+    - SophiaUgo # 1.36 Comms Shadow
     - spzala # IBM Cloud
     - sreeram-venkitesh # 1.34 Release Lead Shadow
     - stmcginnis # 1.34 Enhancements Shadow
     - sttts # API Machinery
-    - SwathiR03 # 1.35 Comms Shadow
+    - SwathiR03 # 1.36 Comms Shadow
     - tallclair # Auth
     - thockin # Network
     - tico88612 # 1.36 Enhancements Shadow
     - towca # Autoscaling
     - upodroid # K8s Infra
+    - UtkarshUmre # 1.36 Comms Shadow
     - Verolop # Release Manager
     - whtssub # 1.36 Enhancements Shadow
     - wojtek-t # Scalability
@@ -342,6 +345,11 @@ teams:
             description: Members of the Comms team for the current release cycle.
             members:
             - chadmcrowell # 1.36 Comms Lead
+            - chanieljdan # 1.36 Comms Shadow
+            - kirti763 # 1.36 Comms Shadow
+            - SophiaUgo # 1.36 Comms Shadow
+            - SwathiR03 # 1.36 Comms Shadow
+            - UtkarshUmre # 1.36 Comms Shadow
             privacy: closed
           release-team-enhancements:
             description: Members of the Enhancements team for the current release

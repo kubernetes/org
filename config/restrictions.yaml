@@ -157,6 +157,7 @@ restrictions:
     - "^kjob"
     - "^llm-instance-gateway$"
     - "^lws"
+    - "^mcp-lifecycle-operator"
   - path: "kubernetes-sigs/sig-architecture/teams.yaml"
     allowedRepos:
     - "^apisnoop"

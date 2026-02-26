@@ -87,3 +87,23 @@ teams:
     privacy: closed
     repos:
       lws: write
+  mcp-lifecycle-operator-admins:
+    description: Admin access to mcp-lifecycle-operator repo
+    members:
+    - ArangoGutierrez
+    - mikebrow
+    - mrunalp
+    - soltysh
+    privacy: closed
+    repos:
+      mcp-lifecycle-operator: admin
+  mcp-lifecycle-operator-maintainers:
+    description: Write access to mcp-lifecycle-operator repo
+    members:
+    - ArangoGutierrez
+    - mikebrow
+    - mrunalp
+    - soltysh
+    privacy: closed
+    repos:
+      mcp-lifecycle-operator: write

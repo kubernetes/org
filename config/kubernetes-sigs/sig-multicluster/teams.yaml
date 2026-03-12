@@ -53,6 +53,8 @@ teams:
     description: Admin access for the work-api repo
     members:
     - jeremyot
+    - qiujian16
+    - RainbowMango
     - skitt
     privacy: closed
     repos:

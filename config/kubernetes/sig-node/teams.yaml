@@ -170,3 +170,25 @@ teams:
     - saschagrunert
     - sohankunkerkar
     privacy: closed
+  sig-node-cri-staging-repo-maintainers:
+    description: Maintainers of staging repos owned by SIG Node - cri-api, cri-client, cri-streaming, streaming
+    members:
+    - dims
+    - mikebrow
+    privacy: closed
+    repos:
+      cri-api: write
+      cri-client: write
+      cri-streaming: write
+      streaming: write
+  sig-node-cri-staging-repo-admins:
+    description: Admins of staging repos owned by SIG Node - cri-api, cri-client, cri-streaming, streaming
+    members:
+    - dims
+    - mikebrow
+    privacy: closed
+    repos:
+      cri-api: admin
+      cri-client: admin
+      cri-streaming: admin
+      streaming: admin

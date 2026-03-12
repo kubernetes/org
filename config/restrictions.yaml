@@ -108,6 +108,10 @@ restrictions:
   - path: "kubernetes/sig-node/teams.yaml"
     allowedRepos:
     - "^node-problem-detector"
+    - "^cri-api"
+    - "^cri-client"
+    - "^cri-streaming"
+    - "^streaming"
   - path: "kubernetes/sig-security/teams.yaml"
     allowedRepos:
     - "^sig-security"

@@ -150,6 +150,7 @@ members:
 - bertinatto
 - bg-chun
 - bgrant0607
+- bhope
 - bianbbc87
 - BigDarkClown
 - binacs
@@ -1583,7 +1584,6 @@ teams:
       cri-api: admin
       cri-client: admin
       cri-streaming: admin
-      streaming: admin
       csi-translation-lib: admin
       dynamic-resource-allocation: admin
       endpointslice: admin
@@ -1603,6 +1603,7 @@ teams:
       sample-apiserver: admin
       sample-cli-plugin: admin
       sample-controller: admin
+      streaming: admin
   steering-committee:
     description: Kubernetes Steering Committee
     members:

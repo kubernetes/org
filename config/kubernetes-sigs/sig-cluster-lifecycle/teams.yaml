@@ -361,6 +361,7 @@ teams:
     - ant31
     - chadswen
     - floryut
+    - yankay
     privacy: closed
     repos:
       kubespray: admin

@@ -93,6 +93,22 @@ teams:
     privacy: closed
     repos:
       noderesourcetopology-api: write
+  nvidia-dra-driver-gpu-admins:
+    description: Admin access to nvidia-dra-driver-gpu repo
+    members:
+    - dims
+    - klueska
+    privacy: closed
+    repos:
+      nvidia-dra-driver-gpu: admin
+  nvidia-dra-driver-gpu-maintainers:
+    description: Write access to nvidia-dra-driver-gpu repo
+    members:
+    - dims
+    - klueska
+    privacy: closed
+    repos:
+      nvidia-dra-driver-gpu: write
   security-profiles-operator-admins:
     description: Admin access to security-profiles-operator repo
     members:

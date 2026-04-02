@@ -311,6 +311,7 @@ restrictions:
     - "^noderesourcetopology-api"
     - "^node-feature-discovery-operator"
     - "^node-readiness-controller"
+    - "^nvidia-dra-driver-gpu"
     - "^security-profiles-operator"
   - path: "kubernetes-sigs/sig-release/teams.yaml"
     allowedRepos:

@@ -98,14 +98,18 @@ teams:
     members:
     - dims
     - klueska
+    - shivamerla
     privacy: closed
     repos:
       nvidia-dra-driver-gpu: admin
   nvidia-dra-driver-gpu-maintainers:
     description: Write access to nvidia-dra-driver-gpu repo
     members:
+    - cdesiniotis
     - dims
+    - guptaNswati
     - klueska
+    - shivamerla
     privacy: closed
     repos:
       nvidia-dra-driver-gpu: write

@@ -182,6 +182,7 @@ restrictions:
     - "^sig-auth-tools"
   - path: "kubernetes-sigs/sig-autoscaling/teams.yaml"
     allowedRepos:
+    - "^cluster-autoscaler"
     - "^karpenter"
     - "^karpenter-provider-ibm-cloud"
   - path: "kubernetes-sigs/sig-aws/teams.yaml"

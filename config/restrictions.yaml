@@ -342,6 +342,7 @@ restrictions:
     - "^kube-scheduler-wasm-extension"
     - "^kueue"
     - "^kwok"
+    - "^scheduler-library"
     - "^scheduler-plugins"
   - path: "kubernetes-sigs/sig-storage/teams.yaml"
     allowedRepos:

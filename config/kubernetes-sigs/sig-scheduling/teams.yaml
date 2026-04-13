@@ -110,6 +110,24 @@ teams:
     privacy: closed
     repos:
       kwok: write
+  scheduler-library-admins:
+    description: Admin access to the scheduler-library repo
+    members:
+    - dom4ha
+    - macsko
+    - sanposhiho
+    privacy: closed
+    repos:
+      scheduler-library: admin
+  scheduler-library-maintainers:
+    description: Write access to the scheduler-library repo
+    members:
+    - dom4ha
+    - macsko
+    - sanposhiho
+    privacy: closed
+    repos:
+      scheduler-library: write
   scheduler-plugins-admins:
     description: Admin access to the scheduler-plugins repo
     members:

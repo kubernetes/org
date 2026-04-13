@@ -1,4 +1,28 @@
 teams:
+  cluster-autoscaler-admins:
+    description: admin access to the cluster-autoscaler repo
+    members:
+    - adrianmoisey
+    - BigDarkClown
+    - gjtempleton
+    - jackfrancis
+    - towca
+    - x13n
+    privacy: closed
+    repos:
+      cluster-autoscaler: admin
+  cluster-autoscaler-maintainers:
+    description: write access to the cluster-autoscaler repo
+    members:
+    - adrianmoisey
+    - BigDarkClown
+    - gjtempleton
+    - jackfrancis
+    - towca
+    - x13n
+    privacy: closed
+    repos:
+      cluster-autoscaler: write
   karpenter-admins:
     description: admin access to the karpenter repo
     members:

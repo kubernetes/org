@@ -301,6 +301,7 @@ restrictions:
     - "^nat64"
     - "^network-policy-api"
     - "^network-policy-finalizer"
+    - "^node-local-dns"
     - "^node-ipam-controller"
     - "^wg-ai-gateway"
   - path: "kubernetes-sigs/sig-node/teams.yaml"

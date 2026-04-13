@@ -420,6 +420,26 @@ teams:
     privacy: closed
     repos:
       network-policy-finalizer: write
+  node-local-dns-admins:
+    description: Admin access to the node-local-dns repo
+    members:
+    - aojea
+    - bowei
+    - danwinship
+    - thockin
+    privacy: closed
+    repos:
+      node-local-dns: admin
+  node-local-dns-maintainers:
+    description: Write access to the node-local-dns repo
+    members:
+    - aojea
+    - bowei
+    - danwinship
+    - thockin
+    privacy: closed
+    repos:
+      node-local-dns: write
   node-ipam-controller-admins:
     description: Admin access to the node-ipam-controller repo
     members:

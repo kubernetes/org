@@ -221,16 +221,20 @@ teams:
   structured-merge-diff-admins:
     description: admin access to structured-merge-diff
     members:
-    - apelisse
+    - jpbetz
+    - liggitt
+    # emeritus
+    # - apelisse
     privacy: closed
     repos:
       structured-merge-diff: admin
   structured-merge-diff-maintainers:
     description: write access to structured-merge-diff
     members:
-    - apelisse
     - jpbetz
+    - liggitt
     # emeritus
+    # - apelisse
     # - jennybuckley
     privacy: closed
     repos:

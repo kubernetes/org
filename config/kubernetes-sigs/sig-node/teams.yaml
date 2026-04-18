@@ -93,6 +93,24 @@ teams:
     privacy: closed
     repos:
       noderesourcetopology-api: write
+  dra-driver-google-tpu-admins:
+    description: Admin access to dra-driver-google-tpu repo
+    members:
+    - johnbelamaric
+    - mortent
+    - troychiu
+    privacy: closed
+    repos:
+      dra-driver-google-tpu: admin
+  dra-driver-google-tpu-maintainers:
+    description: Write access to dra-driver-google-tpu repo
+    members:
+    - johnbelamaric
+    - mortent
+    - troychiu
+    privacy: closed
+    repos:
+      dra-driver-google-tpu: write
   dra-driver-nvidia-gpu-admins:
     description: Admin access to dra-driver-nvidia-gpu repo
     members:

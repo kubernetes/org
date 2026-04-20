@@ -90,7 +90,9 @@ teams:
   mcp-lifecycle-operator-admins:
     description: Admin access to mcp-lifecycle-operator repo
     members:
+    - aliok
     - ArangoGutierrez
+    - matzew
     - mikebrow
     - mrunalp
     - soltysh
@@ -100,7 +102,9 @@ teams:
   mcp-lifecycle-operator-maintainers:
     description: Write access to mcp-lifecycle-operator repo
     members:
+    - aliok
     - ArangoGutierrez
+    - matzew
     - mikebrow
     - mrunalp
     - soltysh

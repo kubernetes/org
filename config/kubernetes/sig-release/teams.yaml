@@ -51,6 +51,7 @@ teams:
     - gjtempleton # Autoscaling
     - gracenng # Release Manager Associate / 1.30 RT EA
     - graz-dev # 1.35 Comms Lead
+    - guicassolato # Network
     - haircommander # Node
     - hakman # K8s Infra
     - jackfrancis # Autoscaling
@@ -116,7 +117,6 @@ teams:
     - satyampsoni # v1.34 Branch Management Shadow
     - serathius # Instrumentation
     - SergeyKanzhelev # Node
-    - shaneutt # Network
     - shu-mutou # UI
     - shyamjvs # Scalability
     - soltysh # CLI

@@ -36,6 +36,7 @@ teams:
   sig-docs-en-reviews:
     description: PR reviews for English content
     members:
+    - Caesarsage
     - dipesh-rawat
     - divya-mohan0209
     - lmktfy

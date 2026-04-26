@@ -148,6 +148,7 @@ teams:
   sig-docs-ko-owners:
     description: Approvers for Korean content
     members:
+    - developowl
     - ianychoi
     - jihoon-seo
     - jongwooo

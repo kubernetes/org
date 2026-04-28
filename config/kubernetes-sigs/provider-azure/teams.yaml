@@ -5,6 +5,7 @@ teams:
     - andyzhangx
     - feiskyer
     - justaugustus
+    - nilo19
     privacy: closed
     repos:
       cloud-provider-azure: admin

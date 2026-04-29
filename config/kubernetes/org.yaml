@@ -1444,7 +1444,6 @@ teams:
   ingress-nginx-admins:
     description: Admin access to the ingress-nginx repo
     members:
-    - Gacko
     - strongjz
     privacy: closed
     repos:
@@ -1453,7 +1452,6 @@ teams:
     description: Write access to the ingress-nginx repo
     members:
     - cpanato
-    - Gacko
     - strongjz
     - tao12345666333
     privacy: closed

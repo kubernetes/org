@@ -68,3 +68,12 @@ teams:
     - micahhausler
     - ritazh
     privacy: closed
+  sig-auth-triage:
+    description: ""
+    members:
+    - benjaminapetersen
+    - pmengelbert
+    - stlaz
+    privacy: closed
+    repos:
+      enhancements: triage

@@ -132,8 +132,8 @@ teams:
     members:
     - brendandburns
     - cjihrig
-    - mstruebing
     - davidgamero
+    - mstruebing
     privacy: closed
     repos:
       javascript: admin

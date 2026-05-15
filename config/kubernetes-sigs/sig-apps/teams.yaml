@@ -17,6 +17,24 @@ teams:
     privacy: closed
     repos:
       agent-sandbox: write
+  devops-bench-admins:
+    description: Admin access to devops-bench repo
+    members:
+    - janetkuo
+    - kow3ns
+    - soltysh
+    privacy: closed
+    repos:
+      devops-bench: admin
+  devops-bench-maintainers:
+    description: Write access to devops-bench repo
+    members:
+    - janetkuo
+    - kow3ns
+    - soltysh
+    privacy: closed
+    repos:
+      devops-bench: write
   execution-hook-admins:
     description: Admin access to execution-hook repo
     members:

@@ -158,6 +158,7 @@ restrictions:
   - path: "kubernetes-sigs/sig-apps/teams.yaml"
     allowedRepos:
     - "^agent-sandbox"
+    - "^devops-bench"
     - "^execution-hook"
     - "^jobset"
     - "^kjob"

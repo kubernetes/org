@@ -161,6 +161,7 @@ restrictions:
     - "^execution-hook"
     - "^jobset"
     - "^kjob"
+    - "^kube-agents"
     - "^llm-instance-gateway$"
     - "^lws"
     - "^mcp-lifecycle-operator"

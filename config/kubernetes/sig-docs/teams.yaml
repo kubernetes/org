@@ -321,7 +321,6 @@ teams:
     - reylejano # L10n: English
     - salaxander # L10n: English
     - SataQiu # L10n: Chinese
-    - sayanchowdhury # v1.36 Release Docs Lead
     - seokho-son # L10n: Korean
     - shurup # L10n: Russian
     - t-inu # L10n: Japanese
@@ -336,12 +335,10 @@ teams:
     description: Contributors who can use `/milestone` in the website repo
     members:
     - a-mccarthy
-    - AnshumanTripathi
     - ArvindParekh
     - bene2k1
     - dipesh-rawat    
     - divya-mohan0209
-    - em-sav
     - girikuncoro
     - huynguyennovem
     - inductor
@@ -365,7 +362,6 @@ teams:
     - sayanchowdhury
     - seokho-son
     - shurup
-    - singh1203
     - tengqm
     - truongnh1992
     - xichengliudui

@@ -138,6 +138,10 @@ restrictions:
   - path: "kubernetes-sigs/provider-vmware/teams.yaml"
     allowedRepos:
     - "^vsphere-csi-driver"
+  - path: "kubernetes-sigs/provider-gcp/teams.yaml"
+    allowedRepos:
+    - "^gcp-compute-persistent-disk-csi-driver"
+    - "^gcp-filestore-csi-driver"
   - path: "kubernetes-sigs/sig-api-machinery/teams.yaml"
     allowedRepos:
     - "^apiserver-builder-alpha"

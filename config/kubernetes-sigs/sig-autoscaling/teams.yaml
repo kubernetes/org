@@ -73,6 +73,7 @@ teams:
   karpenter-provider-ibm-cloud-maintainers:
     description: write access to the karpenter-provider-ibm-cloud repo
     members:
+    - meomnzak
     - pfeifferj
     privacy: closed
     repos:

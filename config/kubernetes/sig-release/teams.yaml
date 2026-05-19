@@ -56,7 +56,7 @@ teams:
     - hakman # K8s Infra
     - jackfrancis # Autoscaling
     - janetkuo # Apps
-    - jberkus # Release
+    - jberkus # Etcd
     - jbpratt # Testing
     - jenshu # 1.36 Release Lead Shadow
     - jeremyrickard # Release

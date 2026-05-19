@@ -57,7 +57,7 @@ aliases:
   sig-etcd-leads:
     - ahrtr
     - ivanvc
-    - jmhbnz
+    - jberkus
     - serathius
     - siyuanfoundation
   sig-instrumentation-leads:

@@ -257,6 +257,7 @@ teams:
     description: Gateway API Release Team
     members:
     - bexxmodd
+    - davidjumani
     - kflynn
     privacy: closed
     repos:

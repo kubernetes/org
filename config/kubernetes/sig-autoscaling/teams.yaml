@@ -4,8 +4,8 @@ teams:
     members:
     - adrianmoisey
     - bigdarkclown
-    - gjtempleton
     - jackfrancis
+    - omerap12
     - towca
     - x13n
     privacy: closed
@@ -16,8 +16,8 @@ teams:
     members:
     - adrianmoisey
     - bigdarkclown
-    - gjtempleton
     - jackfrancis
+    - omerap12
     - towca
     - x13n
     privacy: closed
@@ -29,8 +29,8 @@ teams:
     - adrianmoisey
     - bigdarkclown
     - feiskyer
-    - gjtempleton
     - jackfrancis
+    - omerap12
     - towca
     - x13n
     privacy: closed
@@ -40,31 +40,31 @@ teams:
     description: ""
     members:
     - adrianmoisey
-    - gjtempleton
     - jackfrancis
+    - omerap12
     - towca
     privacy: closed
   sig-autoscaling-bugs:
     description: ""
     members:
     - adrianmoisey
-    - gjtempleton
     - jackfrancis
+    - omerap12
     - towca
     privacy: closed
   sig-autoscaling-feature-requests:
     description: ""
     members:
     - adrianmoisey
-    - gjtempleton
     - jackfrancis
+    - omerap12
     - towca
     privacy: closed
   sig-autoscaling-misc:
     description: ""
     members:
     - bigdarkclown
-    - gjtempleton
+    - omerap12
     - towca
     - x13n
     privacy: closed
@@ -72,32 +72,32 @@ teams:
     description: ""
     members:
     - adrianmoisey
-    - gjtempleton
     - jackfrancis
+    - omerap12
     - towca
     privacy: closed
   sig-autoscaling-proposals:
     description: ""
     members:
     - adrianmoisey
-    - gjtempleton
     - jackfrancis
+    - omerap12
     - towca
     privacy: closed
   sig-autoscaling-test-failures:
     description: ""
     members:
     - adrianmoisey
-    - gjtempleton
     - jackfrancis
+    - omerap12
     - towca
     privacy: closed
   sig-autoscaling-leads:
     description: ""
     members:
     - adrianmoisey
-    - gjtempleton
     - jackfrancis
+    - omerap12
     - towca
     privacy: closed
   sig-autoscaling-milestone-maintainers:

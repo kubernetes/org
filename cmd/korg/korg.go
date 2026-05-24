@@ -17,10 +17,13 @@ limitations under the License.
 package main
 
 import (
+	"context"
 	"fmt"
 	"os"
+	"os/signal"
 	"path/filepath"
 	"strings"
+	"syscall"
 
 	"github.com/spf13/cobra"
 )
@@ -58,6 +61,16 @@ Note: Removing from teams is currently unsupported.
 	`
 
 	auditHelpText = "Audit GitHub org members"
+
+	userinfoHelpText = `
+Gets k8s org membership, GitHub profile, and OWNERS file references for user(s).
+
+Honors GITHUB_TOKEN / GH_TOKEN for authenticated GitHub API access.
+
+	korg userinfo <github username>
+	korg userinfo <github username1> <github username2> <github username3> ...
+	korg userinfo --output json <github username>
+	`
 )
 
 type Options struct {
@@ -222,7 +235,29 @@ func main() {
 	rootCmd.AddCommand(removeCmd)
 	rootCmd.AddCommand(auditCmd)
 
-	if err := rootCmd.Execute(); err != nil {
+	var outputFormat string
+	userInfoCmd := &cobra.Command{
+		Use:   "userinfo",
+		Short: "Get information about user(s)",
+		Long:  userinfoHelpText,
+		Args:  cobra.MinimumNArgs(1),
+		RunE: func(cmd *cobra.Command, args []string) error {
+			switch outputFormat {
+			case "text", "json":
+			default:
+				return fmt.Errorf("invalid --output %q (want: text, json)", outputFormat)
+			}
+			return runUserinfo(cmd.Context(), o.RepoRoot, args, outputFormat == "json", cmd.OutOrStdout())
+		},
+	}
+	userInfoCmd.Flags().StringVarP(&outputFormat, "output", "o", "text", "output format: text|json")
+	rootCmd.AddCommand(userInfoCmd)
+
+	ctx, stop := signal.NotifyContext(context.Background(), os.Interrupt, syscall.SIGTERM)
+	defer stop()
+
+	if err := rootCmd.ExecuteContext(ctx); err != nil {
+		fmt.Fprintln(os.Stderr, "error:", err)
 		os.Exit(1)
 	}
 }

@@ -1,14 +1,16 @@
 module k8s.io/org
 
-go 1.22.4
+go 1.25.0
 
 require (
 	github.com/bmatcuk/doublestar v1.3.4
 	github.com/go-git/go-git/v5 v5.6.1
+	github.com/google/go-github/v88 v88.0.0
 	github.com/hound-search/hound v0.7.1
 	github.com/olekukonko/tablewriter v0.0.0-20170122224234-a0225b3f23b5
 	github.com/sirupsen/logrus v1.9.0
 	github.com/spf13/cobra v1.7.0
+	golang.org/x/sync v0.8.0
 	k8s.io/apimachinery v0.27.4
 	sigs.k8s.io/prow v0.0.0-20240418142548-4c9d8ca1213d
 	sigs.k8s.io/yaml v1.5.0
@@ -44,6 +46,7 @@ require (
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/gomodule/redigo v1.8.5 // indirect
 	github.com/google/btree v1.0.1 // indirect
+	github.com/google/go-querystring v1.2.0 // indirect
 	github.com/google/gofuzz v1.2.1-0.20210504230335-f78f29fc09ea // indirect
 	github.com/imdario/mergo v0.3.13 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
@@ -73,7 +76,6 @@ require (
 	golang.org/x/mod v0.10.0 // indirect
 	golang.org/x/net v0.10.0 // indirect
 	golang.org/x/oauth2 v0.8.0 // indirect
-	golang.org/x/sync v0.2.0 // indirect
 	golang.org/x/sys v0.8.0 // indirect
 	golang.org/x/text v0.9.0 // indirect
 	golang.org/x/tools v0.8.0 // indirect

@@ -269,11 +269,12 @@ teams:
         - Priyankasaggu11929 # subproject owner (1.29 RT Lead)
         members:
         - adilGhaffarDev # v1.37 Release Signal Lead
-        - aibarbetta # v1.37 Release Lead Shadow
+        - aibarbetta # v1.37 Release Lead Shadow / v1.37 Release Branch Manager
         - cpanato # subproject owner / Technical Lead
         - dipesh-rawat # v1.37 Release Lead        
         - gracenng # subproject owner (1.28 RT Lead)
         - jameslaverack # subproject owner (1.24 RT Lead)
+        - jenshu # v1.37 Release Branch Management Shadow
         - jeremyrickard # subproject owner / Technical Lead
         - jimangel # 1.32 RT Branch Manager
         - justaugustus # subproject owner / Chair
@@ -284,6 +285,7 @@ teams:
         - puerco # subproject owner / Technical Lead
         - rayandas # v1.37 Release Lead Shadow
         - reylejano # subproject owner (1.23 RT Lead)
+        - rytswd # v1.37 Release Branch Management Shadow
         - salaxander # subproject owner (1.27 RT Lead)
         - saschagrunert # subproject owner / Chair
         - savitharaghunathan # subproject owner (1.22 RT Lead)

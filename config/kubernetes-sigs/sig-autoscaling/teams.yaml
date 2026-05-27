@@ -4,8 +4,8 @@ teams:
     members:
     - adrianmoisey
     - BigDarkClown
-    - gjtempleton
     - jackfrancis
+    - omerap12
     - towca
     - x13n
     privacy: closed
@@ -16,8 +16,8 @@ teams:
     members:
     - adrianmoisey
     - BigDarkClown
-    - gjtempleton
     - jackfrancis
+    - omerap12
     - towca
     - x13n
     privacy: closed
@@ -29,10 +29,10 @@ teams:
     - adrianmoisey
     - bwagner5
     - ellistarn
-    - gjtempleton
     - jackfrancis
     - jonathan-innis
     - njtran
+    - omerap12
     - towca
     - tzneal
     privacy: closed
@@ -44,10 +44,10 @@ teams:
     - adrianmoisey
     - bwagner5
     - ellistarn
-    - gjtempleton
     - jackfrancis
     - jonathan-innis
     - njtran
+    - omerap12
     - towca
     - tzneal
     privacy: closed
@@ -82,7 +82,7 @@ teams:
     description: "leads of the SIG Autoscaling"
     members:
     - adrianmoisey
-    - gjtempleton
     - jackfrancis
+    - omerap12
     - towca
     privacy: closed

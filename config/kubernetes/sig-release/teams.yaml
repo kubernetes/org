@@ -110,8 +110,8 @@ teams:
     - sttts # API Machinery
     - SwathiR03 # v1.37 Comms Lead
     - tallclair # Auth
-    - TineoC #v1.37 Release Comms Shadow
     - thockin # Network
+    - TineoC #v1.37 Release Comms Shadow
     - towca # Autoscaling
     - troy0820 #v1.37 Release Comms Shadow
     - upodroid # K8s Infra
@@ -320,10 +320,10 @@ teams:
           release-team-comms:
             description: Members of the Comms team for the current release cycle.
             members:
-            - SwathiR03 # v1.37 Comms Lead
             - kirti763 #v1.37 Release Comms Shadow
             - RinkiyaKeDad # v1.37 Release Comms Shadow
             - SophiaUgo #v1.37 Release Comms Shadow
+            - SwathiR03 # v1.37 Comms Lead
             - TineoC #v1.37 Release Comms Shadow
             - troy0820 #v1.37 Release Comms Shadow
             privacy: closed

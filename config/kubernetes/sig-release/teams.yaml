@@ -64,7 +64,7 @@ teams:
     - k8s-release-robot # Release
     - kannon92 # wg-batch organizer
     - katcosgrove # v1.32 EA
-    - kirti763 #v1.37 Release Comms Shadow
+    - kirti763 # v1.37 Release Comms Shadow
     - kow3ns # Apps
     - liggitt # Auth / Release
     - luxas # Cluster Lifecycle

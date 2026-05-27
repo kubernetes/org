@@ -120,7 +120,7 @@ teams:
     - wojtek-t # Scalability
     - xing-yang # Storage
     - xmudrii # Release Manager / K8s Infra
-    - zylxjtu # Windows       
+    - zylxjtu # Windows
     privacy: closed
     previously:
     - kubernetes-milestone-maintainers

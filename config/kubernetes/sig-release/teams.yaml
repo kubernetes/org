@@ -324,8 +324,8 @@ teams:
             - RinkiyaKeDad # v1.37 Release Comms Shadow
             - SophiaUgo #v1.37 Release Comms Shadow
             - SwathiR03 # v1.37 Comms Lead
-            - TineoC #v1.37 Release Comms Shadow
-            - troy0820 #v1.37 Release Comms Shadow
+            - TineoC # v1.37 Release Comms Shadow
+            - troy0820 # v1.37 Release Comms Shadow
             privacy: closed
           release-team-enhancements:
             description: Members of the Enhancements team for the current release

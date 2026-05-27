@@ -320,7 +320,7 @@ teams:
           release-team-comms:
             description: Members of the Comms team for the current release cycle.
             members:
-            - kirti763 #v1.37 Release Comms Shadow
+            - kirti763 # v1.37 Release Comms Shadow
             - RinkiyaKeDad # v1.37 Release Comms Shadow
             - SophiaUgo #v1.37 Release Comms Shadow
             - SwathiR03 # v1.37 Comms Lead

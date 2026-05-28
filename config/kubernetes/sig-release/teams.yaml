@@ -31,6 +31,7 @@ teams:
     - deads2k # API Machinery / Auth
     - derekwaynecarr # Architecture / Node
     - dgrisonnet # Instrumentation
+    - dhanishaphadate # v1.37 Enhancements Shadow
     - dims # Architecture / K8s Infra
     - dipesh-rawat # v1.37 Release Lead
     - dom4ha # Scheduling
@@ -64,9 +65,11 @@ teams:
     - justinsb # AWS / Cluster Lifecycle
     - k8s-release-robot # Release
     - kannon92 # wg-batch organizer
+    - karimzakzouk # v1.37 Enhancements Shadow
     - katcosgrove # v1.32 EA
     - kirti763 # v1.37 Release Comms Shadow
     - kow3ns # Apps
+    - lasomethingsomething # v1.37 Enhancements Shadow
     - liggitt # Auth / Release
     - luxas # Cluster Lifecycle
     - maciaszczykm # UI
@@ -85,6 +88,7 @@ teams:
     - neoaggelos # v1.34 Branch Management Shadow
     - neolit123 # Cluster Lifecycle
     - npolshakova # 1.33 Release Lead
+    - ofirc # v1.37 Enhancements Shadow
     - omerap12 # Autoscaling
     - pacoxu # Cluster Lifecycle
     - pohly # SIG Testing, Instrumentation, Node
@@ -113,6 +117,7 @@ teams:
     - SwathiR03 # v1.37 Comms Lead
     - tallclair # Auth
     - thockin # Network
+    - tico88612 # v1.37 Enhancements Shadow
     - TineoC # v1.37 Release Comms Shadow
     - towca # Autoscaling
     - troy0820 # v1.37 Release Comms Shadow
@@ -278,6 +283,7 @@ teams:
         - adilGhaffarDev # v1.37 Release Signal Lead
         - aibarbetta # v1.37 Release Lead Shadow / v1.37 Release Branch Manager
         - cpanato # subproject owner / Technical Lead
+        - dhanishaphadate # v1.37 Enhancements Shadow
         - dipesh-rawat # v1.37 Release Lead        
         - gracenng # subproject owner (1.28 RT Lead)
         - jameslaverack # subproject owner (1.24 RT Lead)
@@ -285,10 +291,13 @@ teams:
         - jeremyrickard # subproject owner / Technical Lead
         - jimangel # 1.32 RT Branch Manager
         - justaugustus # subproject owner / Chair
+        - karimzakzouk # v1.37 Enhancements Shadow
         - katcosgrove # 1.30 Lead / 1.32 EA
         - kernel-kun # v1.37 Docs Lead
         - kirti763 # v1.37 Release Comms Shadow
+        - lasomethingsomething # v1.37 Enhancements Shadow
         - mickeyboxell # 1.32 Release Manager Shadow
+        - ofirc # v1.37 Enhancements Shadow
         - Prajyot-Parab  # v1.37 Release Lead Shadow
         - puerco # subproject owner / Technical Lead
         - rayandas # v1.37 Release Lead Shadow
@@ -301,6 +310,7 @@ teams:
         - sayanchowdhury # v1.37 Release Lead Shadow
         - SophiaUgo # v1.37 Release Comms Shadow
         - SwathiR03 # v1.37 Comms Lead
+        - tico88612 # v1.37 Enhancements Shadow
         - TineoC # v1.37 Release Comms Shadow
         - troy0820 # v1.37 Release Comms Shadow
         - Verolop # Release Manager
@@ -344,6 +354,11 @@ teams:
             description: Members of the Enhancements team for the current release
               cycle.
             members:
+            - dhanishaphadate # v1.37 Enhancements Shadow
+            - karimzakzouk # v1.37 Enhancements Shadow
+            - lasomethingsomething # v1.37 Enhancements Shadow
+            - ofirc # v1.37 Enhancements Shadow
+            - tico88612 # v1.37 Enhancements Shadow
             - whtssub # v1.37 Enhancements Lead
             privacy: closed
           release-team-leads:

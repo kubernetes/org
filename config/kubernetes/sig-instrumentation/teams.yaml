@@ -24,6 +24,7 @@ teams:
   sig-instrumentation-members:
     description: "SIG Instrumentation Members"
     members:
+    - bhope
     - brancz
     - CatherineF-dev
     - dashpole

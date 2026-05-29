@@ -65,6 +65,7 @@ teams:
     - k8s-release-robot # Release
     - kannon92 # wg-batch organizer
     - katcosgrove # v1.32 EA
+    - kirti763 # v1.37 Release Comms Shadow
     - kow3ns # Apps
     - liggitt # Auth / Release
     - luxas # Cluster Lifecycle
@@ -92,6 +93,7 @@ teams:
     - rayandas # v1.37 Release Lead Shadow
     - rexagod # Instrumentation
     - richabanker # Instrumentation
+    - RinkiyaKeDad # v1.37 Release Comms Shadow
     - ritazh # Auth
     - saad-ali # Storage
     - salaxander # Release Manager Associate / 1.29 RT EA
@@ -104,12 +106,15 @@ teams:
     - shu-mutou # UI
     - shyamjvs # Scalability
     - soltysh # CLI
+    - SophiaUgo # v1.37 Release Comms Shadow
     - spzala # IBM Cloud
     - sttts # API Machinery
     - SwathiR03 # v1.37 Comms Lead
     - tallclair # Auth
     - thockin # Network
+    - TineoC # v1.37 Release Comms Shadow
     - towca # Autoscaling
+    - troy0820 # v1.37 Release Comms Shadow
     - upodroid # K8s Infra
     - Verolop # Release Manager
     - whtssub # v1.37 Enhancements Lead
@@ -281,17 +286,22 @@ teams:
         - justaugustus # subproject owner / Chair
         - katcosgrove # 1.30 Lead / 1.32 EA
         - kernel-kun # v1.37 Docs Lead
+        - kirti763 # v1.37 Release Comms Shadow
         - mickeyboxell # 1.32 Release Manager Shadow
         - Prajyot-Parab  # v1.37 Release Lead Shadow
         - puerco # subproject owner / Technical Lead
         - rayandas # v1.37 Release Lead Shadow
         - reylejano # subproject owner (1.23 RT Lead)
+        - RinkiyaKeDad # v1.37 Release Comms Shadow
         - rytswd # v1.37 Release Branch Management Shadow
         - salaxander # subproject owner (1.27 RT Lead)
         - saschagrunert # subproject owner / Chair
         - savitharaghunathan # subproject owner (1.22 RT Lead)
         - sayanchowdhury # v1.37 Release Lead Shadow
+        - SophiaUgo # v1.37 Release Comms Shadow
         - SwathiR03 # v1.37 Comms Lead
+        - TineoC # v1.37 Release Comms Shadow
+        - troy0820 # v1.37 Release Comms Shadow
         - Verolop # Release Manager
         - whtssub # v1.37 Enhancements Lead
         - xmudrii # Release Manager
@@ -322,7 +332,12 @@ teams:
           release-team-comms:
             description: Members of the Comms team for the current release cycle.
             members:
+            - kirti763 # v1.37 Release Comms Shadow
+            - RinkiyaKeDad # v1.37 Release Comms Shadow
+            - SophiaUgo # v1.37 Release Comms Shadow
             - SwathiR03 # v1.37 Comms Lead
+            - TineoC # v1.37 Release Comms Shadow
+            - troy0820 # v1.37 Release Comms Shadow
             privacy: closed
           release-team-enhancements:
             description: Members of the Enhancements team for the current release

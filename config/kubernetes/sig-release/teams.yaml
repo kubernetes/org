@@ -7,6 +7,7 @@ teams:
     - palnabarun # Release Manager
     - Priyankasaggu11929 # ContribEx
     members:
+    - adilGhaffarDev # v1.37 Release Signal Lead
     - adrianmoisey # Autoscaling
     - aibarbetta # v1.37 Release Lead Shadow
     - ameukam # Release Manager Associate / K8s Infra
@@ -301,6 +302,12 @@ teams:
               cycle.
             members:
             - adilGhaffarDev # v1.37 Release Signal Lead
+            - aman4433 # v1.37 Release Signal Shadow
+            - junaiddshaukat # v1.37 Release Signal Shadow
+            - kei01234kei # v1.37 Release Signal Shadow
+            - peppi-lotta # v1.37 Release Signal Shadow
+            - TatianaSelezneva # v1.37 Release Signal Shadow
+            - x0rw # v1.37 Release Signal Shadow
             privacy: closed
           release-team-docs:
             description: Members of the Docs team for the current release cycle.

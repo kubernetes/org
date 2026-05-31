@@ -43,7 +43,6 @@ teams:
     - floreks # UI
     - fsmunoz # 1.34 EA
     - GenPage # K8s Infra
-    - gjtempleton # Autoscaling
     - gracenng # Release Manager Associate / 1.30 RT EA
     - guicassolato # Network
     - haircommander # Node
@@ -85,6 +84,7 @@ teams:
     - neoaggelos # v1.34 Branch Management Shadow
     - neolit123 # Cluster Lifecycle
     - npolshakova # 1.33 Release Lead
+    - omerap12 # Autoscaling
     - pacoxu # Cluster Lifecycle
     - pohly # SIG Testing, Instrumentation, Node
     - Prajyot-Parab # v1.37 Release Lead Shadow

@@ -47,6 +47,7 @@ teams:
     - guicassolato # Network
     - haircommander # Node
     - hakman # K8s Infra
+    - helayoty # WG WAS
     - jackfrancis # Autoscaling
     - janetkuo # Apps
     - jberkus # Etcd

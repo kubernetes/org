@@ -94,13 +94,20 @@ teams:
       prod-readiness-reviewers:
         description: Production Readiness Reviewers
         members:
-        - aramase       # shadow
-        - deads2k       # approver
-        - johnbelamaric # approver
-        - jpbetz        # approver
-        - kannon92      # approver
-        - sohankunkerkar # shadow
-        - soltysh       # approver
-        - stlaz         # shadow
-        - wojtek-t      # approver
+        - ameukam            # shadow
+        - champbreed         # shadow
+        - deads2k            # approver
+        - jefftree           # shadow
+        - johnbelamaric      # approver
+        - jpbetz             # approver
+        - jyotimahapatra     # shadow
+        - kannon92           # approver
+        - kfess              # shadow
+        - omerap12           # shadow
+        - ShaanveerS         # shadow
+        - sohankunkerkar     # shadow
+        - soltysh            # approver
+        - stlaz              # shadow
+        - wojtek-t           # approver
+        - x0rw               # shadow
         privacy: closed

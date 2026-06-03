@@ -171,7 +171,6 @@ teams:
   repo-infra-admins:
     description: Admin access to the repo-infra repo
     members:
-    - BenTheElder
     - cpanato
     - justaugustus
     - puerco
@@ -181,11 +180,18 @@ teams:
       repo-infra: admin
   repo-infra-maintainers:
     description: Write access to the repo-infra repo
+    maintainers:
+    - palnabarun
     members:
-    - BenTheElder
+    - ameukam
+    - cici37
     - cpanato
+    - jeremyrickard
+    - jimangel
+    - jrsapi
     - justaugustus
     - puerco
+    - salaxander
     - saschagrunert
     - Verolop
     - xmudrii

@@ -167,6 +167,11 @@ aliases:
   wg-structured-logging-leads:
     - pohly
     - serathius
+  wg-workload-aware-scheduling-leads:
+    - andreyvelich
+    - helayoty
+    - kannon92
+    - mm4tt
   committee-code-of-conduct:
     - AnaMMedina21
     - endocrimes

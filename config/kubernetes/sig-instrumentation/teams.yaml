@@ -48,6 +48,7 @@ teams:
   kube-state-metrics-admins:
     description: Admin access to the kube-state-metrics repo
     members:
+    - bhope
     - CatherineF-dev
     - dashpole
     - dgrisonnet
@@ -60,6 +61,7 @@ teams:
   kube-state-metrics-maintainers:
     description: Write access to the kube-state-metrics repo
     members:
+    - bhope
     - CatherineF-dev
     - dgrisonnet
     - mrueg

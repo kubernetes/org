@@ -1,0 +1,75 @@
+teams:
+  gcp-compute-persistent-disk-csi-driver-admins:
+    description: Admin access to the gcp-compute-persistent-disk-csi-driver repo
+    members:
+    - amacaskill
+    - dannawang0221
+    - hajiler 
+    - hime
+    - leiyiz
+    - mattcary
+    - msau42
+    - pwschuurman
+    - saad-ali
+    - saikat-royc
+    - songjiaxun
+    - tyuchn
+    privacy: closed
+    repos:
+      gcp-compute-persistent-disk-csi-driver: admin
+  gcp-compute-persistent-disk-csi-driver-maintainers:
+    description: Write access to the gcp-compute-persistent-disk-csi-driver repo
+    members:
+    - amacaskill
+    - cemakd
+    - dannawang0221
+    - hajiler    
+    - hime
+    - leiyiz
+    - mattcary
+    - msau42
+    - saad-ali
+    - saikat-royc
+    - sneha-at
+    - songjiaxun
+    - sunnylovestiramisu
+    - tyuchn
+    privacy: closed
+    repos:
+      gcp-compute-persistent-disk-csi-driver: write
+  gcp-filestore-csi-driver-admins:
+    description: Admin access to the gcp-filestore-csi-driver repo
+    members:
+    - dannawang0221
+    - hime
+    - leiyiz
+    - mattcary
+    - msau42
+    - saad-ali
+    - saikat-royc
+    - songjiaxun
+    - tyuchn
+    privacy: closed
+    repos:
+      gcp-filestore-csi-driver: admin
+  gcp-filestore-csi-driver-maintainers:
+    description: Write access to the gcp-filestore-csi-driver repo
+    members:
+    - amacaskill
+    - dannawang0221
+    - hime
+    - leiyiz
+    - mattcary
+    - msau42
+    - pwschuurman
+    - riteshghorse
+    - saad-ali
+    - saikat-royc
+    - savirg
+    - sneha-at
+    - songjiaxun
+    - sunnylovestiramisu
+    - tyuchn
+    privacy: closed
+    repos:
+      gcp-filestore-csi-driver: write

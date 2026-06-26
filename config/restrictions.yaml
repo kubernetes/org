@@ -413,6 +413,7 @@ restrictions:
     - "^external-resizer"
     - "^external-snapshot-metadata"
     - "^external-snapshotter"
+    - "^kubernetes-csi"
     - "^kubernetes-csi.github.io"
     - "^lib-volume-populator"
     - "^livenessprobe"

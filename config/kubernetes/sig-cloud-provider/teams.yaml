@@ -7,22 +7,6 @@ teams:
     - elmiko
     privacy: closed
     teams:
-      cloud-provider-sample-admins:
-        description: ""
-        members:
-        - andrewsykim
-        - cheftako
-        privacy: closed
-        repos:
-          cloud-provider-sample: admin
-      cloud-provider-sample-maintainers:
-        description: ""
-        members:
-        - andrewsykim
-        - cheftako
-        privacy: closed
-        repos:
-          cloud-provider-sample: write
       sig-cloud-provider-alibaba-admins:
         description: ""
         members:

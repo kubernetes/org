@@ -78,7 +78,6 @@ restrictions:
   - path: "kubernetes/sig-cloud-provider/teams.yaml"
     allowedRepos:
     - "^cloud-provider"
-    - "^cloud-provider-sample"
     - "^cloud-provider-alibaba-cloud"
   - path: "kubernetes/sig-cluster-lifecycle/teams.yaml"
     allowedRepos:

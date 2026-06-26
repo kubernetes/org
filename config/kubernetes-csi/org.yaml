@@ -527,6 +527,29 @@ teams:
     privacy: closed
     repos:
       external-snapshotter: write
+  kubernetes-csi-admins:
+    description: Admin access to kubernetes-csi repo
+    members:
+    - jsafrane
+    - msau42
+    - saad-ali
+    - xing-yang
+    privacy: closed
+    repos:
+      kubernetes-csi: admin
+  kubernetes-csi-maintainers:
+    description: Write access to kubernetes-csi repo
+    members:
+    - gnufied
+    - jsafrane
+    - mauriciopoppe
+    - mowangdk
+    - msau42
+    - saad-ali
+    - xing-yang
+    privacy: closed
+    repos:
+      kubernetes-csi: write
   kubernetes-csi-github-io-admins:
     description: Admin access to kubernetes-csi.github.io repo
     members:

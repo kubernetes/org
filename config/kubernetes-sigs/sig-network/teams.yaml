@@ -238,6 +238,27 @@ teams:
     - service-apis-amintainers
     repos:
       gateway-api: write
+  gateway-api-conformance-images-admins:
+    description: Admin access to the gateway-api-conformance-images repo
+    members:
+    - rikatz
+    - robscott
+    - youngnick
+    privacy: closed
+    repos:
+      gateway-api-conformance-images: admin
+  gateway-api-conformance-images-maintainers:
+    description: Write access to the gateway-api-conformance-images repo
+    members:
+    - bexxmodd
+    - davidjumani
+    - kflynn
+    - rikatz
+    - robscott
+    - youngnick
+    privacy: closed
+    repos:
+      gateway-api-conformance-images: write
   gateway-api-release-team:
     description: Gateway API Release Team
     members:

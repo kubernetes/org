@@ -135,15 +135,10 @@ def file_passes(filename, refs, regexs):  # pylint: disable=too-many-locals
     # trim our file to the same number of lines as the reference file
     data = data[:len(ref)]
 
-    year = regexs["year"]
-    for datum in data:
-        if year.search(datum):
-            return False
-
-    # Replace all occurrences of the regex "2017|2016|2015|2014" with "YEAR"
+    # Remove all occurrences of the year (regex "Copyright (2014|2015|2016|2017|2018) ")
     when = regexs["date"]
     for idx, datum in enumerate(data):
-        (data[idx], found) = when.subn('YEAR', datum)
+        (data[idx], found) = when.subn('Copyright ', datum)
         if found != 0:
             break
 
@@ -218,16 +213,18 @@ def get_files(extensions):
 
 
 def get_dates():
-    years = datetime.datetime.now().year
-    return '(%s)' % '|'.join((str(year) for year in range(2014, years + 1)))
+    # After 2025, we no longer allow new files to include the year in the copyright header.
+    final_year = 2025
+    return ' (%s) ' % '|'.join((str(year) for year in range(2014, final_year + 1)))
 
 
 def get_regexs():
     regexs = {}
     # Search for "YEAR" which exists in the boilerplate, but shouldn't in the real thing
     regexs["year"] = re.compile('YEAR')
-    # dates can be any year between 2014 and the current year, company holder names can be anything
-    regexs["date"] = re.compile(get_dates())
+    # get_dates return 2014, 2015, 2016, 2017, ..., 2025
+    # as a regex like: "(2014|2015|2016|2017|2018|...|2025)";
+    regexs["date"] = re.compile('Copyright' + get_dates())
     # strip // +build \n\n build constraints
     regexs["go_build_constraints"] = re.compile(
         r"^(// \+build.*\n)+\n", re.MULTILINE)

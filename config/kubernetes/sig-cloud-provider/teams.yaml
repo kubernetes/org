@@ -5,6 +5,7 @@ teams:
     - bridgetkromhout
     - cheftako
     - elmiko
+    - joelspeed
     privacy: closed
     teams:
       sig-cloud-provider-alibaba-admins:
@@ -44,6 +45,7 @@ teams:
         - bridgetkromhout
         - cheftako
         - elmiko
+        - joelspeed
         privacy: closed
       sig-cloud-provider-bugs:
         description: ""
@@ -51,6 +53,7 @@ teams:
         - bridgetkromhout
         - cheftako
         - elmiko
+        - joelspeed
         privacy: closed
       sig-cloud-provider-feature-requests:
         description: ""
@@ -58,6 +61,7 @@ teams:
         - bridgetkromhout
         - cheftako
         - elmiko
+        - joelspeed
         privacy: closed
       sig-cloud-provider-misc:
         description: ""
@@ -65,6 +69,7 @@ teams:
         - bridgetkromhout
         - cheftako
         - elmiko
+        - joelspeed
         privacy: closed
       sig-cloud-provider-pr-reviews:
         description: ""
@@ -72,6 +77,7 @@ teams:
         - bridgetkromhout
         - cheftako
         - elmiko
+        - joelspeed
         privacy: closed
       sig-cloud-provider-proposals:
         description: ""
@@ -79,6 +85,7 @@ teams:
         - bridgetkromhout
         - cheftako
         - elmiko
+        - joelspeed
         privacy: closed
       sig-cloud-provider-test-failures:
         description: ""
@@ -86,6 +93,7 @@ teams:
         - bridgetkromhout
         - cheftako
         - elmiko
+        - joelspeed
         privacy: closed
   sig-cloud-provider-admins:
     description: ""
@@ -93,6 +101,7 @@ teams:
     - bridgetkromhout
     - cheftako
     - elmiko
+    - joelspeed
     privacy: closed
     repos:
       cloud-provider: admin
@@ -103,4 +112,5 @@ teams:
     - bridgetkromhout
     - cheftako
     - elmiko
+    - joelspeed
     privacy: closed

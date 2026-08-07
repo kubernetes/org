@@ -88,8 +88,8 @@ teams:
   kueue-maintainers:
     description: Write access to the kueue repo
     members:
-    - gabesaba
     - mimowo
+    - sohankunkerkar
     - tenzen-y
     privacy: closed
     repos:

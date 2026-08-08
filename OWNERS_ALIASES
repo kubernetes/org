@@ -198,8 +198,9 @@ aliases:
 ## BEGIN CUSTOM CONTENT
   provider-aws:
     - justinsb
-    - nckturner
-    - wongma7
+    - DavidXU12345
+    - YangjinanHu
+    - samuhale
   provider-azure:
     - craiglpeters
     - feiskyer

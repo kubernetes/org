@@ -48,6 +48,7 @@ members:
 - huntergregory
 - huww98
 - idvoretskyi
+- iPraveenParihar
 - irvifa
 - jingxu97
 - jsafrane
@@ -537,6 +538,16 @@ teams:
     privacy: closed
     repos:
       kubernetes-csi: admin
+  kubernetes-csi-github-io-admins:
+    description: Admin access to kubernetes-csi.github.io repo
+    members:
+    - jsafrane
+    - msau42
+    - saad-ali
+    - xing-yang
+    privacy: closed
+    repos:
+      kubernetes-csi.github.io: admin
   kubernetes-csi-maintainers:
     description: Write access to kubernetes-csi repo
     members:
@@ -550,16 +561,6 @@ teams:
     privacy: closed
     repos:
       kubernetes-csi: write
-  kubernetes-csi-github-io-admins:
-    description: Admin access to kubernetes-csi.github.io repo
-    members:
-    - jsafrane
-    - msau42
-    - saad-ali
-    - xing-yang
-    privacy: closed
-    repos:
-      kubernetes-csi.github.io: admin
   lib-volume-populator-admins:
     description: Admin access to lib-volume-populator repo
     members:

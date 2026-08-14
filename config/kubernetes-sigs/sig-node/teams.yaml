@@ -96,6 +96,7 @@ teams:
   dra-driver-google-tpu-admins:
     description: Admin access to dra-driver-google-tpu repo
     members:
+    - aojea
     - johnbelamaric
     - mortent
     - troychiu
@@ -105,6 +106,7 @@ teams:
   dra-driver-google-tpu-maintainers:
     description: Write access to dra-driver-google-tpu repo
     members:
+    - aojea
     - johnbelamaric
     - mortent
     - troychiu

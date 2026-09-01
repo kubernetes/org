@@ -116,6 +116,7 @@ teams:
   resource-state-metrics-maintainers:
     description: Write access to the resource-state-metrics repo
     members:
+    - bavarianbidi
     - dgrisonnet
     - mrueg
     - rexagod

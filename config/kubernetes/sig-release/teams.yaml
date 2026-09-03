@@ -65,6 +65,7 @@ teams:
     - k8s-release-robot # Release
     - kannon92 # wg-workload-aware-scheduling organizer
     - katcosgrove # v1.32 EA
+    - kei01234kei # v1.38 Release Signal Lead
     - kow3ns # Apps
     - liggitt # Auth / Release
     - luxas # Cluster Lifecycle

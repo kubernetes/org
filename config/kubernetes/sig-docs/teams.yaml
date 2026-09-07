@@ -310,7 +310,6 @@ teams:
     - inductor # L10n: Japanese
     - jcjesus # L10n: Portuguese
     - katcosgrove # L10n: English
-    - kernel-kun # v1.37 Release Docs Lead
     - kfess # L10n: Japanese
     - lmktfy # Emeritus tech lead
     - mfilocha # L10n: Polish
@@ -341,14 +340,12 @@ teams:
     - ArvindParekh
     - bene2k1
     - Caesarsage
-    - chadmcrowell
     - dipesh-rawat
     - divya-mohan0209
     - girikuncoro
     - huynguyennovem
     - inductor
     - jcjesus
-    - jmickey
     - katcosgrove
     - kernel-kun
     - lmktfy
@@ -369,10 +366,8 @@ teams:
     - sayanchowdhury
     - seokho-son
     - shurup
-    - singh1203
     - tengqm
     - truongnh1992
     - xichengliudui
-    - yashasvimisra2798
     - yujen77300
     privacy: closed

@@ -56,6 +56,29 @@ teams:
     privacy: closed
     repos:
       instrumentation-tools: write
+  kubernetes-mixin-admins:
+    description: Admin access to the kubernetes-mixin repo
+    members:
+    - dashpole
+    - dgrisonnet
+    - pohly
+    - rexagod
+    - richabanker
+    privacy: closed
+    repos:
+      kubernetes-mixin: admin
+  kubernetes-mixin-maintainers:
+    description: Write access to the kubernetes-mixin repo
+    members:
+    - dashpole
+    - dgrisonnet
+    - pohly
+    - rexagod
+    - richabanker
+    - skl
+    privacy: closed
+    repos:
+      kubernetes-mixin: write
   logtools-admins:
     description: Admin access to the logtools repo
     members:

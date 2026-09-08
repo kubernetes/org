@@ -315,7 +315,12 @@ teams:
           release-team-docs:
             description: Members of the Docs team for the current release cycle.
             members:
+            - abalso0 # v1.38 Release Docs Shadow
+            - AnshumanTripathi # v1.38 Release Docs Shadow
             - Caesarsage # v1.38 Docs Lead
+            - ChieloChi # v1.38 Release Docs Shadow
+            - whtssub # v1.38 Release Docs Shadow
+            - yashasvimisra2798 # v1.38 Release Docs Shadow
             privacy: closed
           release-team-comms:
             description: Members of the Comms team for the current release cycle.

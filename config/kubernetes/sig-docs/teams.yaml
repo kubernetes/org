@@ -21,7 +21,7 @@ teams:
   sig-docs-en-owners:
     description: Approvers for English content
     members:
-    - dipesh-rawat  
+    - dipesh-rawat
     - divya-mohan0209
     - katcosgrove
     - lmktfy
@@ -87,7 +87,7 @@ teams:
     description: PR reviews for Hindi content
     members:
     - bishal7679
-    - dipesh-rawat    
+    - dipesh-rawat
     - divya-mohan0209
     - jayeshmahajan
     - niranjandarshann
@@ -304,7 +304,8 @@ teams:
     members:
     - a-mccarthy # Localization subproject owner
     - bells17 # L10n: Japanese
-    - dipesh-rawat # L10n: English    
+    - Caesarsage # v1.38 Release Docs Lead
+    - dipesh-rawat # L10n: English
     - divya-mohan0209 # L10n: English
     - girikuncoro # L10n: Indonesian
     - huynguyennovem # L10n: Vietnamese # L10n: Korean
@@ -338,9 +339,12 @@ teams:
     description: Contributors who can use `/milestone` in the website repo
     members:
     - a-mccarthy
+    - abalso0 # v1.38 Release Docs Shadow
+    - AnshumanTripathi # v1.38 Release Docs Shadow
     - ArvindParekh
     - bene2k1
-    - Caesarsage
+    - Caesarsage # v1.38 Release Docs Lead
+    - ChieloChi # v1.38 Release Docs Shadow
     - dipesh-rawat
     - divya-mohan0209
     - girikuncoro
@@ -368,6 +372,8 @@ teams:
     - shurup
     - tengqm
     - truongnh1992
+    - whtssub # v1.38 Release Docs Shadow
     - xichengliudui
+    - yashasvimisra2798 # v1.38 Release Docs Shadow
     - yujen77300
     privacy: closed

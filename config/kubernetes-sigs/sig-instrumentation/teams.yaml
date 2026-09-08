@@ -64,6 +64,7 @@ teams:
     - pohly
     - rexagod
     - richabanker
+    - skl
     privacy: closed
     repos:
       kubernetes-mixin: admin

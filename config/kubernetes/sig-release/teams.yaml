@@ -52,6 +52,7 @@ teams:
     - janetkuo # Apps
     - jberkus # Etcd
     - jbpratt # Testing
+    - jenshu # v1.38 Release Branch Management Shadow
     - jeremyrickard # Release
     - jimangel # Docs / Release Manager Associate / 1.32 Release Branch Manager
     - joaquimrocha # UI
@@ -96,6 +97,7 @@ teams:
     - richabanker # Instrumentation
     - RinkiyaKeDad # v1.38 Release Comms Lead
     - ritazh # Auth
+    - rytswd # v1.38 Release Branch Management Shadow
     - saad-ali # Storage
     - salaxander # Release Manager Associate / 1.29 RT EA
     - sanposhiho # Scheduling

@@ -4,7 +4,6 @@ teams:
     members:
     - aramase
     - enj
-    - ritazh
     privacy: closed
     repos:
       secrets-store-csi-driver: admin
@@ -13,7 +12,6 @@ teams:
     members:
     - aramase
     - enj
-    - ritazh
     privacy: closed
     repos:
       secrets-store-csi-driver: write

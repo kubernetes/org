@@ -311,6 +311,12 @@ teams:
               cycle.
             members:
             - kei01234kei # v1.38 Release Signal Lead
+            - aman4433 # v1.38 Release Signal Shadow
+            - TatianaSelezneva # v1.38 Release Signal Shadow
+            - SwathiR03 # v1.38 Release Signal Shadow
+            - sudharshanibm # v1.38 Release Signal Shadow
+            - jubittajohn # v1.38 Release Signal Shadow
+            - thc1006 # v1.38 Release Signal Shadow
             privacy: closed
           release-team-docs:
             description: Members of the Docs team for the current release cycle.

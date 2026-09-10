@@ -433,6 +433,7 @@ teams:
     description: Admin access to the minikube-preloads repo
     members:
     - medyagh
+    - spowelljr
     privacy: closed
     repos:
       minikube-preloads: admin
@@ -440,6 +441,7 @@ teams:
     description: Write access to the minikube-preloads repo
     members:
     - medyagh
+    - spowelljr
     privacy: closed
     repos:
       minikube-preloads: write

@@ -133,6 +133,13 @@ teams:
     privacy: closed
     repos:
       dra-driver-nvidia-gpu: write
+  security-profiles-merger-admins:
+    description: Admin access to security-profiles-merger repo
+    members:
+    - saschagrunert
+    privacy: closed
+    repos:
+      security-profiles-merger: admin
   security-profiles-operator-admins:
     description: Admin access to security-profiles-operator repo
     members:

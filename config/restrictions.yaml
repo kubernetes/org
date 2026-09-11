@@ -322,6 +322,7 @@ restrictions:
     - "^node-readiness-controller"
     - "^dra-driver-google-tpu"
     - "^dra-driver-nvidia-gpu"
+    - "^security-profiles-merger"
     - "^security-profiles-operator"
   - path: "kubernetes-sigs/sig-release/teams.yaml"
     allowedRepos:

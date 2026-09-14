@@ -41,17 +41,17 @@ teams:
     - mrbobbytables # subproject owner
     members:
     - Atharva-Shinde # 1.28 RT Enhancements Lead
-    - dhanishaphadate # v1.37 Enhancements Shadow
+    - dhanishaphadate # v1.38 Enhancements Shadow
     - jeremyrickard # subproject owner
     - johnbelamaric # subproject owner
     - justaugustus # subproject owner
-    - karimzakzouk # v1.37 Enhancements Shadow
+    - karimzakzouk # v1.38 Enhancements Shadow
     - kikisdeliveryservice # subproject owner
-    - lasomethingsomething # v1.37 Enhancements Shadow
-    - ofirc # v1.37 Enhancements Shadow
+    - lasomethingsomething # v1.38 Enhancements Shadow
+    - Rajalakshmi-Girish # v1.38 Enhancements Shadow
     - salehsedghpour # 1.30 RT Enhancements Lead
-    - tico88612 # v1.37 Enhancements Shadow
-    - whtssub # v1.37 Enhancements Lead
+    - tico88612 # v1.38 Enhancements Lead
+    - wendy-ha18 # v1.38 Enhancements Shadow
     privacy: closed
     teams:
       enhancements-admins:

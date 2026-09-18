@@ -111,6 +111,7 @@ teams:
     members:
     - dgrisonnet
     - serathius
+    - slashpai
     privacy: closed
     repos:
       metrics-server: write

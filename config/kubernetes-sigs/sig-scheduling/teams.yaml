@@ -122,8 +122,10 @@ teams:
   scheduler-library-maintainers:
     description: Write access to the scheduler-library repo
     members:
+    - ania-borowiec
     - dom4ha
     - macsko
+    - mm4tt
     - sanposhiho
     privacy: closed
     repos:

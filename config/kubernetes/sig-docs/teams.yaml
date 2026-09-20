@@ -263,12 +263,14 @@ teams:
     description: Admins for Vietnamese content
     members:
     - khanhtc1202
+    - ntheanh201
     - truongnh1992
     privacy: closed
   sig-docs-vi-reviews:
     description: PR reviews for Vietnamese content
     members:
     - khanhtc1202
+    - ntheanh201
     - truongnh1992
     privacy: closed
   sig-docs-uk-owners:

@@ -65,6 +65,7 @@ teams:
     - justaugustus # Release
     - justinsb # AWS / Cluster Lifecycle
     - k8s-release-robot # Release
+    - kahirokunn # UI
     - kannon92 # wg-workload-aware-scheduling organizer
     - karimzakzouk # v1.38 Enhancements Shadow
     - katcosgrove # v1.32 EA

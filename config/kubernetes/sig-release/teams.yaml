@@ -20,6 +20,7 @@ teams:
     - bgrant0607 # Architecture
     - bowei # Network
     - brancz # Instrumentation
+    - Braundo # v1.38 Release Comms Shadow
     - bridgetkromhout # Cloud Provider
     - caseydavenport # Network
     - cheftako # Cloud Provider
@@ -69,6 +70,7 @@ teams:
     - karimzakzouk # v1.38 Enhancements Shadow
     - katcosgrove # v1.32 EA
     - kei01234kei # v1.38 Release Signal Lead
+    - kirti763 # v1.38 Release Comms Shadow
     - kow3ns # Apps
     - lasomethingsomething # v1.38 Enhancements Shadow
     - liggitt # Auth / Release
@@ -86,6 +88,7 @@ teams:
     - mpuckett159 # CLI
     - mrunalp # Node
     - msau42 # Storage
+    - naseyro # v1.38 Release Comms Shadow
     - neoaggelos # v1.34 Branch Management Shadow
     - neolit123 # Cluster Lifecycle
     - npolshakova # 1.33 Release Lead
@@ -107,6 +110,7 @@ teams:
     - sanposhiho # Scheduling
     - saschagrunert # Release
     - SataQiu # Cluster Lifecycle
+    - sayanchowdhury # v1.38 Release Comms Shadow
     - serathius # Instrumentation
     - SergeyKanzhelev # Node
     - shu-mutou # UI
@@ -120,6 +124,7 @@ teams:
     - tico88612 # v1.38 Enhancements Lead
     - towca # Autoscaling
     - upodroid # K8s Infra
+    - Urvashi0109 # v1.38 Release Comms Shadow
     - Verolop # Release Manager
     - wendy-ha18 # v1.38 Enhancements Shadow
     - wojtek-t # Scalability
@@ -286,6 +291,7 @@ teams:
         members:
         - adilGhaffarDev # v1.38 Release Lead Shadow
         - aibarbetta # v1.38 Release Lead Shadow
+        - Braundo # v1.38 Release Comms Shadow
         - Caesarsage # v1.38 Docs Lead
         - cpanato # subproject owner / Technical Lead
         - dhanishaphadate # v1.38 Enhancements Shadow
@@ -298,7 +304,9 @@ teams:
         - karimzakzouk # v1.38 Enhancements Shadow
         - katcosgrove # 1.30 Lead / 1.32 EA
         - kei01234kei # v1.38 Release Signal Lead
+        - kirti763 # v1.38 Release Comms Shadow
         - lasomethingsomething # v1.38 Enhancements Shadow
+        - naseyro # v1.38 Release Comms Shadow
         - Prajyot-Parab  # v1.38 Release Lead Shadow
         - puerco # subproject owner / Technical Lead
         - Rajalakshmi-Girish # v1.38 Enhancements Shadow
@@ -309,8 +317,10 @@ teams:
         - salaxander # subproject owner (1.27 RT Lead)
         - saschagrunert # subproject owner / Chair
         - savitharaghunathan # subproject owner (1.22 RT Lead)
+        - sayanchowdhury # v1.38 Release Comms Shadow
         - sreeram-venkitesh # v1.38 Release Team Lead
         - tico88612 # v1.38 Enhancements Lead
+        - Urvashi0109 # v1.38 Release Comms Shadow
         - Verolop # Release Manager
         - wendy-ha18 # v1.38 Enhancements Shadow
         - xmudrii # Release Manager
@@ -341,7 +351,12 @@ teams:
           release-team-comms:
             description: Members of the Comms team for the current release cycle.
             members:
+            - Braundo # v1.38 Release Comms Shadow
+            - kirti763 # v1.38 Release Comms Shadow
+            - naseyro # v1.38 Release Comms Shadow
             - RinkiyaKeDad # v1.38 Release Comms Lead
+            - sayanchowdhury # v1.38 Release Comms Shadow
+            - Urvashi0109 # v1.38 Release Comms Shadow
             privacy: closed
           release-team-enhancements:
             description: Members of the Enhancements team for the current release

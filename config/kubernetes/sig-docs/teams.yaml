@@ -63,6 +63,22 @@ teams:
     - raelga
     - ramrodo
     privacy: closed
+  sig-docs-fa-owners:
+    description: Approvers for Persian content
+    members:
+    - behiuu
+    - mamrezb
+    - moh0ps
+    - xirehat
+    privacy: closed
+  sig-docs-fa-reviews:
+    description: PR reviews for Persian content
+    members:
+    - behiuu
+    - mamrezb
+    - moh0ps
+    - xirehat
+    privacy: closed
   sig-docs-fr-owners:
     description: Approvers for French content
     members:

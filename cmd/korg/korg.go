@@ -17,10 +17,13 @@ limitations under the License.
 package main
 
 import (
+	"context"
 	"fmt"
 	"os"
+	"os/signal"
 	"path/filepath"
 	"strings"
+	"syscall"
 
 	"github.com/spf13/cobra"
 )
@@ -58,6 +61,27 @@ Note: Removing from teams is currently unsupported.
 	`
 
 	auditHelpText = "Audit GitHub org members"
+
+	userinfoHelpText = `
+Gets k8s org membership, GitHub profile, and OWNERS file references for user(s).
+
+Honors GITHUB_TOKEN / GH_TOKEN for authenticated GitHub API access.
+
+A failed per-user lookup does not omit that user from the output: in text mode
+it renders an ERROR block, and in JSON mode it appears with only "username"
+and "error" populated. Check the exit code to detect any failures.
+
+By default, each OWNERS/OWNERS_ALIASES hit is confirmed against the file's
+actual content (via the gh CLI) to exclude emeritus-only entries; this costs
+one "gh api" call per hit and requires the gh CLI to be installed and
+authenticated. Pass --verify-owners=false to skip this and use hound's raw
+search hits as-is.
+
+	korg userinfo <github username>
+	korg userinfo <github username1> <github username2> <github username3> ...
+	korg userinfo --output json <github username>
+	korg userinfo --verify-owners=false <github username>
+	`
 )
 
 type Options struct {
@@ -222,7 +246,32 @@ func main() {
 	rootCmd.AddCommand(removeCmd)
 	rootCmd.AddCommand(auditCmd)
 
-	if err := rootCmd.Execute(); err != nil {
+	var (
+		outputFormat string
+		verifyOwners bool
+	)
+	userInfoCmd := &cobra.Command{
+		Use:   "userinfo",
+		Short: "Get information about user(s)",
+		Long:  userinfoHelpText,
+		Args:  cobra.MinimumNArgs(1),
+		RunE: func(cmd *cobra.Command, args []string) error {
+			switch outputFormat {
+			case "text", "json":
+			default:
+				return fmt.Errorf("invalid --output %q (want: text, json)", outputFormat)
+			}
+			return runUserinfo(cmd.Context(), o.RepoRoot, args, outputFormat == "json", verifyOwners, cmd.OutOrStdout())
+		},
+	}
+	userInfoCmd.Flags().StringVarP(&outputFormat, "output", "o", "text", "output format: text|json")
+	userInfoCmd.Flags().BoolVar(&verifyOwners, "verify-owners", true, "confirm each OWNERS/OWNERS_ALIASES hit via the gh CLI and exclude emeritus-only entries; requires gh to be installed and authenticated")
+	rootCmd.AddCommand(userInfoCmd)
+
+	ctx, stop := signal.NotifyContext(context.Background(), os.Interrupt, syscall.SIGTERM)
+	defer stop()
+
+	if err := rootCmd.ExecuteContext(ctx); err != nil {
 		os.Exit(1)
 	}
 }

@@ -1719,6 +1719,7 @@ teams:
       endpointslice: admin
       externaljwt: admin
       kms: admin
+      ktesting: admin
       kube-aggregator: admin
       kube-controller-manager: admin
       kube-proxy: admin

@@ -22,6 +22,7 @@ restrictions:
     - "^endpointslice"
     - "^externaljwt"
     - "^kms"
+    - "^ktesting"
     - "^kube-aggregator"
     - "^kube-controller-manager"
     - "^kube-proxy"

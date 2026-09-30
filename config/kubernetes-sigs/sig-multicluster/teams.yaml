@@ -16,13 +16,6 @@ teams:
     privacy: closed
     repos:
       cluster-inventory-api: admin
-  federation-wg:
-    description: Individuals who are part of sig-multicluster and working as federation
-      workgroup.
-    members:
-    - hectorj2f
-    - jimmidyson
-    privacy: closed
   mcs-api-admins:
     description: Admin access to the mcs-api repo
     members:

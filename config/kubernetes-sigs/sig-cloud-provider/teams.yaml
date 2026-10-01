@@ -57,6 +57,7 @@ teams:
       - dims
       - gomesjason
       - hughdanliu
+      - MichaelKwok1998
       - nckturner
     privacy: closed
     repos:
@@ -66,6 +67,7 @@ teams:
     members:
       - gomesjason
       - hughdanliu
+      - MichaelKwok1998
       - nckturner
     privacy: closed
     repos:

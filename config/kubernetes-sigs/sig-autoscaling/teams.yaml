@@ -78,6 +78,24 @@ teams:
     privacy: closed
     repos:
       karpenter-provider-ibm-cloud: write
+  model-serving-signals-admins:
+    description: admin access to the model-serving-signals repo
+    members:
+    - jackfrancis
+    - nirrozenbaum
+    - omerap12
+    privacy: closed
+    repos:
+      model-serving-signals: admin
+  model-serving-signals-maintainers:
+    description: write access to the model-serving-signals repo
+    members:
+    - jackfrancis
+    - nirrozenbaum
+    - omerap12
+    privacy: closed
+    repos:
+      model-serving-signals: write
   sig-autoscaling-leads:
     description: "leads of the SIG Autoscaling"
     members:

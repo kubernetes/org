@@ -155,3 +155,21 @@ teams:
     privacy: closed
     repos:
       mcp-lifecycle-operator: write
+  workload-class-admins:
+    description: Admin access to workload-class repo
+    members:
+    - janetkuo
+    - kow3ns
+    - soltysh
+    privacy: closed
+    repos:
+      workload-class: admin
+  workload-class-maintainers:
+    description: Write access to workload-class repo
+    members:
+    - janetkuo
+    - kow3ns
+    - soltysh
+    privacy: closed
+    repos:
+      workload-class: write

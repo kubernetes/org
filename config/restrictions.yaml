@@ -194,6 +194,7 @@ restrictions:
     - "^cluster-autoscaler"
     - "^karpenter"
     - "^karpenter-provider-ibm-cloud"
+    - "^model-serving-signals"
   - path: "kubernetes-sigs/sig-aws/teams.yaml"
     allowedRepos:
     - "^aws-ebs-csi-driver"

@@ -14,6 +14,7 @@ teams:
         - chen-keinan
         - iancoldwater
         - knqyf263
+        - mtardy
         - pushkarj
         - tabbysable
         privacy: closed
@@ -23,6 +24,7 @@ teams:
         description: write access to the cve-feed-osv repo
         members:
         - ericsmalling
+        - mtardy
         - pushkarj
         privacy: closed
         repos:

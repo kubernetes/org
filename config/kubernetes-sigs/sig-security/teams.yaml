@@ -2,6 +2,7 @@ teams:
   sig-security:
     description: SIG Security
     members:
+    - cailyn-codes
     - IanColdwater
     - tabbysable
     privacy: closed
@@ -9,6 +10,7 @@ teams:
       cve-feed-osv-admins:
         description: admin access to the cve-feed-osv repo
         members:
+        - cailyn-codes
         - chen-keinan
         - iancoldwater
         - knqyf263
@@ -28,12 +30,14 @@ teams:
       sig-security-leads:
         description: SIG Security Leads
         members:
+        - cailyn-codes
         - IanColdwater
         - tabbysable
         privacy: closed
       sig-security-pr-reviews:
         description: SIG Security PR review notifications
         members:
+        - cailyn-codes
         - IanColdwater
         - tabbysable
         privacy: closed

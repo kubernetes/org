@@ -2,6 +2,7 @@ teams:
   sig-security:
     description: SIG Security
     members:
+    - cailyn-codes
     - IanColdwater
     - tabbysable
     privacy: closed
@@ -9,18 +10,21 @@ teams:
       sig-security-leads:
         description: SIG Security Leads
         members:
+        - cailyn-codes
         - IanColdwater
         - tabbysable
         privacy: closed
       sig-security-pr-reviews:
         description: SIG Security PR review notifications
         members:
+        - cailyn-codes
         - IanColdwater
         - tabbysable
         privacy: closed
   sig-security-admins:
     description: Admin access to sig-security repo
     members:
+    - cailyn-codes
     - IanColdwater
     - tabbysable
     privacy: closed
@@ -29,6 +33,7 @@ teams:
   sig-security-maintainers:
     description: Write access to sig-security repo
     members:
+    - cailyn-codes
     - IanColdwater
     - tabbysable
     privacy: closed

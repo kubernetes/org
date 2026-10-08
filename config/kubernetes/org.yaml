@@ -1743,13 +1743,14 @@ teams:
       streaming: admin
   steering-committee:
     description: Kubernetes Steering Committee
+    maintainers:
+    - Priyankasaggu11929
     members:
-    - aojea
-    - BenTheElder
+    - elmiko
+    - janetkuo
     - katcosgrove
     - pacoxu
     - ritazh
-    - saschagrunert
     - soltysh
     privacy: closed
     repos:

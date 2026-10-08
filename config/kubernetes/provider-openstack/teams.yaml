@@ -2,9 +2,9 @@ teams:
   cloud-provider-openstack-admins:
     description: Admin access to cloud-provider-openstack repo
     members:
-    - dulek
-    - jichenjc
     - kayrus
+    - mandre
+    - stephenfin
     - zetaab
     privacy: closed
     repos:
@@ -12,9 +12,9 @@ teams:
   cloud-provider-openstack-maintainers:
     description: Write access to the cloud-provider-openstack repo
     members:
-    - dulek
-    - jichenjc
     - kayrus
+    - mandre
+    - stephenfin
     - zetaab
     privacy: closed
     repos:
@@ -22,10 +22,10 @@ teams:
   cloud-provider-openstack-members:
     description: ""
     members:
-    - dulek
-    - jichenjc
+    - gouthampacha
     - kayrus
-    - mdbooth
+    - mandre
+    - stephenfin
     - zetaab
     privacy: closed
     repos:

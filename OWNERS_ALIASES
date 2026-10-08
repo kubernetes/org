@@ -212,9 +212,9 @@ aliases:
   provider-ibmcloud:
     - spzala
   provider-openstack:
-    - dulek
-    - jichenjc
     - kayrus
+    - mandre
+    - stephenfin
     - zetaab
   provider-vmware:
     - cantbewong

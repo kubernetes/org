@@ -19,14 +19,3 @@ teams:
     privacy: closed
     repos:
       cloud-provider-openstack: write
-  cloud-provider-openstack-members:
-    description: ""
-    members:
-    - gouthampacha
-    - kayrus
-    - mandre
-    - stephenfin
-    - zetaab
-    privacy: closed
-    repos:
-      cloud-provider-openstack: read

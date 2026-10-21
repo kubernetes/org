@@ -1716,6 +1716,7 @@ teams:
     privacy: closed
     repos:
       api: admin
+      apiextensions-api: admin
       apiextensions-apiserver: admin
       apimachinery: admin
       apiserver: admin

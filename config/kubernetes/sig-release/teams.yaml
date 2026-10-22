@@ -11,7 +11,6 @@ teams:
     - adrianmoisey # Autoscaling
     - aibarbetta # v1.38 Release Lead Shadow
     - ameukam # Release Manager Associate / K8s Infra
-    - amy # wg-batch organizer
     - aojea # Testing / Network
     - aramase # Auth
     - aravindhp # Windows
@@ -48,7 +47,7 @@ teams:
     - guicassolato # Network
     - haircommander # Node
     - hakman # K8s Infra / Cluster Lifecycle
-    - helayoty # WG WAS
+    - helayoty # Scheduling
     - jackfrancis # Autoscaling
     - janetkuo # Apps
     - jberkus # Etcd
@@ -67,7 +66,6 @@ teams:
     - justinsb # AWS / Cluster Lifecycle
     - k8s-release-robot # Release
     - kahirokunn # UI
-    - kannon92 # wg-workload-aware-scheduling organizer
     - karimzakzouk # v1.38 Enhancements Shadow
     - katcosgrove # v1.32 EA
     - kei01234kei # v1.38 Release Signal Lead
@@ -84,7 +82,7 @@ teams:
     - micahhausler # Auth
     - michelle192837 # Testing
     - mikezappa87 # Network
-    - mm4tt # Scalability
+    - mm4tt # Scalability & Scheduling
     - mpuckett159 # CLI
     - mrunalp # Node
     - msau42 # Storage

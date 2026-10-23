@@ -87,6 +87,8 @@ teams:
   sig-cluster-lifecycle-leads:
     members:
     - fabriziopandini
+    - hakman
     - justinsb
     - neolit123
+    - sbueringer
     privacy: closed

@@ -47,7 +47,7 @@ teams:
     - gracenng # Release Manager Associate / 1.30 RT EA
     - guicassolato # Network
     - haircommander # Node
-    - hakman # K8s Infra
+    - hakman # K8s Infra / Cluster Lifecycle
     - helayoty # WG WAS
     - jackfrancis # Autoscaling
     - janetkuo # Apps
@@ -111,6 +111,7 @@ teams:
     - saschagrunert # Release
     - SataQiu # Cluster Lifecycle
     - sayanchowdhury # v1.38 Release Comms Shadow
+    - sbueringer # Cluster Lifecycle
     - serathius # Instrumentation
     - SergeyKanzhelev # Node
     - shyamjvs # Scalability

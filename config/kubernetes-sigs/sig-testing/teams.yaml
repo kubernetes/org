@@ -98,6 +98,7 @@ teams:
     - alvaroaleman
     - cjwagner
     - fejta
+    - k8s-infra-ci-robot
     - petr-muller
     - stevekuznetsov
     privacy: closed
@@ -111,6 +112,7 @@ teams:
     - alvaroaleman
     - cjwagner
     - fejta
+    - k8s-infra-ci-robot
     - petr-muller
     - stevekuznetsov
     privacy: closed

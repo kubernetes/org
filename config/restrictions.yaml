@@ -2,6 +2,7 @@ restrictions:
   - path: "kubernetes/org.yaml"
     allowedRepos:
     - "^api"
+    - "^apiextensions-api"
     - "^apiextensions-apiserver"
     - "^apimachinery"
     - "^apiserver"

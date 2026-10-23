@@ -112,6 +112,7 @@ teams:
     - cjwagner
     - petr-muller
     - stevekuznetsov
+    - k8s-infra-ci-robot
     privacy: closed
     repos:
       prow: admin
@@ -124,6 +125,7 @@ teams:
     - cjwagner
     - petr-muller
     - stevekuznetsov
+    - k8s-infra-ci-robot
     privacy: closed
     repos:
       prow: write

@@ -56,6 +56,7 @@ teams:
     description: Write access to the gcp-filestore-csi-driver repo
     members:
     - amacaskill
+    - arokade-dev
     - dannawang0221
     - hime
     - leiyiz

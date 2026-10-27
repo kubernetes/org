@@ -315,7 +315,7 @@ restrictions:
     - "^network-policy-finalizer"
     - "^node-local-dns"
     - "^node-ipam-controller"
-    - "^wg-ai-gateway"
+    - "^ai-gateway"
   - path: "kubernetes-sigs/sig-node/teams.yaml"
     allowedRepos:
     - "^dra-driver-cpu"

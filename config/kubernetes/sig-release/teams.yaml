@@ -43,6 +43,7 @@ teams:
     - feiskyer # Azure
     - fsmunoz # 1.34 EA
     - GenPage # K8s Infra
+    - gnufied # Storage
     - gracenng # Release Manager Associate / 1.30 RT EA
     - guicassolato # Network
     - haircommander # Node
@@ -103,7 +104,6 @@ teams:
     - RinkiyaKeDad # v1.38 Release Comms Lead
     - ritazh # Auth
     - rytswd # v1.38 Release Branch Management Shadow
-    - saad-ali # Storage
     - salaxander # Release Manager Associate / 1.29 RT EA
     - sanposhiho # Scheduling
     - saschagrunert # Release

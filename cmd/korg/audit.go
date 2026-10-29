@@ -29,6 +29,8 @@ import (
 	"strings"
 
 	"github.com/olekukonko/tablewriter"
+	"github.com/olekukonko/tablewriter/renderer"
+	"github.com/olekukonko/tablewriter/tw"
 )
 
 type Contribution struct {
@@ -299,12 +301,18 @@ func OrgAudit(o Options) error {
 
 		// Print exceptions to stdout
 		fmt.Println("Total Exceptions:", len(exceptions))
-		table := tablewriter.NewWriter(os.Stdout)
-		table.SetHeader([]string{"Username", "Reason"})
+		table := tablewriter.NewTable(os.Stdout,
+			tablewriter.WithRenderer(renderer.NewBlueprint(tw.Rendition{Symbols: tw.NewSymbols(tw.StyleASCII)})),
+		)
+		table.Header("Username", "Reason")
 		for _, exception := range exceptions {
-			table.Append([]string{exception.Username, exception.Reason})
+			if err := table.Append([]string{exception.Username, exception.Reason}); err != nil {
+				return err
+			}
 		}
-		table.Render()
+		if err := table.Render(); err != nil {
+			return err
+		}
 	}
 
 	fmt.Println("fetching data from devstats")
@@ -365,8 +373,10 @@ func OrgAudit(o Options) error {
 	}
 
 	w := bufio.NewWriter(f)
-	table := tablewriter.NewWriter(w)
-	table.SetAutoWrapText(false)
+	table := tablewriter.NewTable(w,
+		tablewriter.WithRenderer(renderer.NewMarkdown()),
+		tablewriter.WithRowAutoWrap(tw.WrapNone),
+	)
 
 	headers := []string{"Username", "Orgs"}
 	if o.CheckTeams {
@@ -375,10 +385,7 @@ func OrgAudit(o Options) error {
 	if o.CheckOwners {
 		headers = append(headers, "Owner", "Owners Link")
 	}
-	table.SetHeader(headers)
-
-	table.SetBorders(tablewriter.Border{Left: true, Top: false, Right: true, Bottom: false})
-	table.SetCenterSeparator("|")
+	table.Header(headers)
 
 	for _, v := range orgMembersBelowThresholdAfterException {
 		row := []string{
@@ -402,9 +409,13 @@ func OrgAudit(o Options) error {
 			}
 		}
 
-		table.Append(row)
+		if err := table.Append(row); err != nil {
+			return err
+		}
 	}
-	table.Render()
+	if err := table.Render(); err != nil {
+		return err
+	}
 
 	w.Flush()
 

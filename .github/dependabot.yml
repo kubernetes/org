@@ -1,0 +1,19 @@
+version: 2
+updates:
+  - package-ecosystem: gomod
+    directory: "/"
+    schedule:
+      interval: weekly
+    labels:
+      - "area/dependency"
+      - "ok-to-test"
+    groups:
+      # k8s.io modules are released in lockstep and must move together.
+      kubernetes:
+        patterns:
+          - "k8s.io/*"
+          - "sigs.k8s.io/*"
+      all:
+        update-types:
+          - "minor"
+          - "patch"

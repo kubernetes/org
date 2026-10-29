@@ -46,6 +46,7 @@ args=(
   --fix-teams
   --fix-team-members
   --fix-team-repos
+  --fix-org-roles
   --github-hourly-tokens="${HOURLY_TOKENS}"
   "${admins[@]/#/--required-admins=}"
 )

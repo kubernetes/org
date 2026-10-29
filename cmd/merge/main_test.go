@@ -19,6 +19,8 @@ package main
 import (
 	"bytes"
 	"fmt"
+	"os"
+	"path/filepath"
 	"testing"
 )
 
@@ -73,5 +75,63 @@ func TestStrictUnmarshalling(t *testing.T) {
 		if c.expectError && err == nil {
 			t.Errorf("expected error for %s", c.desc)
 		}
+	}
+}
+
+func TestLoadOrgsRoles(t *testing.T) {
+	const rolesYAML = `roles:
+  security_manager:
+    teams:
+    - team-abc
+`
+	const orgYAML = "name: Org\n" + rolesYAML
+	const teamsYAML = `teams:
+  team-abc:
+    privacy: closed
+`
+	cases := []struct {
+		desc        string
+		teamsYAML   string
+		expectError bool
+	}{
+		{
+			desc:      "roles in org.yaml",
+			teamsYAML: teamsYAML,
+		},
+		{
+			desc:        "roles in teams.yaml",
+			teamsYAML:   teamsYAML + rolesYAML,
+			expectError: true,
+		},
+	}
+
+	for _, c := range cases {
+		t.Run(c.desc, func(t *testing.T) {
+			dir := t.TempDir()
+			orgPath := filepath.Join(dir, "org.yaml")
+			if err := os.WriteFile(orgPath, []byte(orgYAML), 0644); err != nil {
+				t.Fatal(err)
+			}
+			if err := os.Mkdir(filepath.Join(dir, "sig-foo"), 0755); err != nil {
+				t.Fatal(err)
+			}
+			if err := os.WriteFile(filepath.Join(dir, "sig-foo", "teams.yaml"), []byte(c.teamsYAML), 0644); err != nil {
+				t.Fatal(err)
+			}
+
+			cfg, err := loadOrgs(options{orgs: flagMap{"org": orgPath}, mergeTeams: true})
+			if c.expectError {
+				if err == nil {
+					t.Fatal("expected error")
+				}
+				return
+			}
+			if err != nil {
+				t.Fatalf("unexpected error: %v", err)
+			}
+			if got := cfg["org"].Roles["security_manager"].Teams; len(got) != 1 || got[0] != "team-abc" {
+				t.Errorf("expected security_manager role for team-abc, got %v", got)
+			}
+		})
 	}
 }

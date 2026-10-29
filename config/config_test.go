@@ -177,6 +177,42 @@ func testTeamMembers(teams map[string]org.Team, admins sets.String, orgMembers s
 	return errs
 }
 
+// teamNames returns the lowercased names of all teams, including nested children.
+func teamNames(teams map[string]org.Team) sets.String {
+	names := sets.String{}
+	for name, team := range teams {
+		names.Insert(strings.ToLower(name))
+		names = names.Union(teamNames(team.Children))
+	}
+	return names
+}
+
+// testRoles ensures that role assignments reference existing teams and org members,
+// with sorted lists.
+func testRoles(roles map[string]org.Role, teams sets.String, orgMembers sets.String, orgName string) []error {
+	var errs []error
+	for roleName, role := range roles {
+		for _, team := range role.Teams {
+			if !teams.Has(strings.ToLower(team)) {
+				errs = append(errs, fmt.Errorf("The role %s in org %s references undefined team %s", roleName, orgName, team))
+			}
+		}
+
+		roleUsers := normalize(sets.NewString(role.Users...))
+		if missing := roleUsers.Difference(orgMembers); len(missing) > 0 {
+			errs = append(errs, fmt.Errorf("The following users with role %s are not %s org members: %s", roleName, orgName, strings.Join(missing.List(), ", ")))
+		}
+
+		if !isSorted(role.Teams) {
+			errs = append(errs, fmt.Errorf("The role %s in org %s has an unsorted list of teams", roleName, orgName))
+		}
+		if !isSorted(role.Users) {
+			errs = append(errs, fmt.Errorf("The role %s in org %s has an unsorted list of users", roleName, orgName))
+		}
+	}
+	return errs
+}
+
 func testOrg(targetDir string, t *testing.T) {
 	cfg, err := loadOrg(targetDir)
 	if err != nil {
@@ -267,6 +303,10 @@ func TestAllOrgs(t *testing.T) {
 			for _, err := range errs {
 				t.Error(err)
 			}
+		}
+
+		for _, err := range testRoles(org.Roles, teamNames(org.Teams), allOrgMembers, *org.Name) {
+			t.Error(err)
 		}
 
 	}

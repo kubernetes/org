@@ -11,6 +11,19 @@ It will apply the change if you send it the `--confirm` flag.
 
 It also runs `make test` to validate the config.
 
+## Organization roles
+
+Assign existing GitHub organization roles to teams or org members with a `roles` block in `config/<org>/org.yaml`. `teams.yaml` files cannot declare roles.
+
+```yaml
+roles:
+  security_manager:
+    teams:
+    - security-response-committee
+```
+
+The role must already exist in GitHub. Declaring a role makes peribolos remove any direct assignment of it that isn't in the config, so run `peribolos --dump <org>` first and copy existing assignments.
+
 Assuming everything works the tool should output something like the following:
 ```console
 {"client":"github","component":"peribolos","level":"info","msg":"Throttle(300, 100)","time":"2018-08-10T17:42:15-07:00"}

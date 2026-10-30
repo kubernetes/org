@@ -142,6 +142,11 @@ func loadOrgs(o options) (map[string]org.Config, error) {
 					if err != nil {
 						return fmt.Errorf("error in %s: %v", path, err)
 					}
+					// Roles grant org-wide privileges, so they belong in the
+					// admin-owned org.yaml rather than per-SIG teams.yaml files.
+					if len(teamCfg.Roles) > 0 {
+						return fmt.Errorf("error in %s: roles may only be declared in %s", path, filepath.Join(prefix, "org.yaml"))
+					}
 
 					for name, team := range teamCfg.Teams {
 						cfg.Teams[name] = team

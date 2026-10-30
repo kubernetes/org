@@ -80,3 +80,7 @@ teams:
     - palnabarun
     - Priyankasaggu11929
     privacy: closed
+roles:
+  security_manager:
+    teams:
+      - etcd-security-managers

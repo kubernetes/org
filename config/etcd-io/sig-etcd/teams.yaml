@@ -175,3 +175,15 @@ teams:
     privacy: closed
     repos:
       etcd: maintain
+  etcd-security-managers:
+    description: Security Manager role access to etcd-io org
+    members:
+    - ahrtr
+    - fuweid
+    - ivanvc
+    - jberkus
+    - lavacat
+    - serathius
+    - siyuanfoundation
+    - vivekpatani
+    privacy: closed

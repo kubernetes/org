@@ -5,6 +5,7 @@ teams:
     - adrianmoisey
     - bigdarkclown
     - jackfrancis
+    - jmdeal
     - omerap12
     - towca
     - x13n
@@ -17,6 +18,7 @@ teams:
     - adrianmoisey
     - bigdarkclown
     - jackfrancis
+    - jmdeal
     - omerap12
     - towca
     - x13n
@@ -30,6 +32,7 @@ teams:
     - bigdarkclown
     - feiskyer
     - jackfrancis
+    - jmdeal
     - omerap12
     - towca
     - x13n
@@ -41,6 +44,7 @@ teams:
     members:
     - adrianmoisey
     - jackfrancis
+    - jmdeal
     - omerap12
     - towca
     privacy: closed
@@ -49,6 +53,7 @@ teams:
     members:
     - adrianmoisey
     - jackfrancis
+    - jmdeal
     - omerap12
     - towca
     privacy: closed
@@ -57,6 +62,7 @@ teams:
     members:
     - adrianmoisey
     - jackfrancis
+    - jmdeal
     - omerap12
     - towca
     privacy: closed
@@ -64,6 +70,7 @@ teams:
     description: ""
     members:
     - bigdarkclown
+    - jmdeal
     - omerap12
     - towca
     - x13n
@@ -73,6 +80,7 @@ teams:
     members:
     - adrianmoisey
     - jackfrancis
+    - jmdeal
     - omerap12
     - towca
     privacy: closed
@@ -81,6 +89,7 @@ teams:
     members:
     - adrianmoisey
     - jackfrancis
+    - jmdeal
     - omerap12
     - towca
     privacy: closed
@@ -89,6 +98,7 @@ teams:
     members:
     - adrianmoisey
     - jackfrancis
+    - jmdeal
     - omerap12
     - towca
     privacy: closed
@@ -97,6 +107,7 @@ teams:
     members:
     - adrianmoisey
     - jackfrancis
+    - jmdeal
     - omerap12
     - towca
     privacy: closed
@@ -104,6 +115,7 @@ teams:
     description: Contributors who can use `/milestone` in the autoscaling repo
     members:
     - adrianmoisey
+    - jmdeal
     - kwiesmueller
     - omerap12
     - voelzmo

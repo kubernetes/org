@@ -5,6 +5,7 @@ teams:
     - adrianmoisey
     - BigDarkClown
     - jackfrancis
+    - jmdeal
     - omerap12
     - towca
     - x13n
@@ -17,6 +18,7 @@ teams:
     - adrianmoisey
     - BigDarkClown
     - jackfrancis
+    - jmdeal
     - omerap12
     - towca
     - x13n
@@ -30,6 +32,7 @@ teams:
     - bwagner5
     - ellistarn
     - jackfrancis
+    - jmdeal
     - jonathan-innis
     - njtran
     - omerap12
@@ -45,6 +48,7 @@ teams:
     - bwagner5
     - ellistarn
     - jackfrancis
+    - jmdeal
     - jonathan-innis
     - njtran
     - omerap12
@@ -101,6 +105,7 @@ teams:
     members:
     - adrianmoisey
     - jackfrancis
+    - jmdeal
     - omerap12
     - towca
     privacy: closed

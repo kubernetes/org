@@ -30,6 +30,7 @@ members:
 - eduartua
 - elbehery
 - fuweid
+- gauravpande28
 - gdasson
 - ghouscht
 - hakman
@@ -69,6 +70,10 @@ members:
 - yagikota
 members_can_create_repositories: false
 name: etcd-io
+roles:
+  security_manager:
+    teams:
+    - etcd-security-managers
 teams:
   kubernetes-admins:
     description: Kubernetes GitHub Admins
@@ -80,7 +85,3 @@ teams:
     - palnabarun
     - Priyankasaggu11929
     privacy: closed
-roles:
-  security_manager:
-    teams:
-      - etcd-security-managers

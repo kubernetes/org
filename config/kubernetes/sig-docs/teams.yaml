@@ -355,7 +355,6 @@ teams:
     description: Contributors who can use `/milestone` in the website repo
     members:
     - a-mccarthy
-    - abalso0 # v1.38 Release Docs Shadow
     - AnshumanTripathi # v1.38 Release Docs Shadow
     - ArvindParekh
     - bene2k1

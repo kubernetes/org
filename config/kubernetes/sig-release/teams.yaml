@@ -205,19 +205,20 @@ teams:
     - dims
     - jberkus
     - jeefy
-    - jeremyrickard # Technical Lead
+    - jeremyrickard # Chair
     - justaugustus # Chair
     - katcosgrove
     - liggitt
     - puerco # Technical Lead
     - saschagrunert # Chair
+    - Verolop # Technical Lead
     privacy: closed
     teams:
       release-engineering:
         description: Members of the Release Engineering subproject, including
           Release Managers, Release Manager Associates, and Build Admins.
         maintainers:
-        - palnabarun # Release Manager
+        - xmudrii # Subproject Lead
         members:
         - ameukam # Release Manager Associate
         - cpanato # subproject owner / Release Manager
@@ -239,7 +240,7 @@ teams:
               access to ones where label/PR management is needed. Remove users
               who are not actively doing this job.
             maintainers:
-            - palnabarun
+            - xmudrii # Subproject Lead
             members:
             - cpanato
             - jeremyrickard
@@ -259,8 +260,8 @@ teams:
       release-team:
         description: Members of the current Release Team and subproject owners.
         maintainers:
-        - palnabarun # subproject owner (1.21 RT Lead)
-        - Priyankasaggu11929 # subproject owner (1.29 RT Lead)
+        - fsmunoz # Subproject Lead
+        - katcosgrove # Subproject Lead
         members:
         - adilGhaffarDev # v1.38 Release Lead Shadow
         - aibarbetta # v1.38 Release Lead Shadow

@@ -23,7 +23,6 @@ teams:
     - bridgetkromhout # Cloud Provider
     - caseydavenport # Network
     - cheftako # Cloud Provider
-    - cici37 # Release Manager
     - claudiubelu # Windows
     - cpanato # Release Manager
     - danwinship # Network
@@ -41,10 +40,9 @@ teams:
     - enj # Auth
     - fabriziopandini # Cluster Lifecycle
     - feiskyer # Azure
-    - fsmunoz # 1.34 EA
+    - fsmunoz # Subproject Lead
     - GenPage # K8s Infra
     - gnufied # Storage
-    - gracenng # Release Manager Associate / 1.30 RT EA
     - guicassolato # Network
     - haircommander # Node
     - hakman # K8s Infra / Cluster Lifecycle
@@ -60,7 +58,6 @@ teams:
     - joelspeed # Cloud Provider
     - johnbelamaric # Architecture
     - jpbetz # API Machinery
-    - jrsapi # Release Manager Associate
     - jrvaldes # Windows
     - jsafrane # Storage
     - justaugustus # Release
@@ -68,7 +65,7 @@ teams:
     - k8s-release-robot # Release
     - kahirokunn # UI
     - karimzakzouk # v1.38 Enhancements Shadow
-    - katcosgrove # v1.32 EA
+    - katcosgrove # Subproject Lead
     - kei01234kei # v1.38 Release Signal Lead
     - kirti763 # v1.38 Release Comms Shadow
     - kow3ns # Apps
@@ -77,7 +74,6 @@ teams:
     - luxas # Cluster Lifecycle
     - macsko # Scheduling
     - marosset # Windows
-    - mbianchidev # v1.34 Branch Manager
     - mborsz # Scalability
     - mengqiy # Scalability
     - micahhausler # Auth
@@ -88,9 +84,7 @@ teams:
     - mrunalp # Node
     - msau42 # Storage
     - naseyro # v1.38 Release Comms Shadow
-    - neoaggelos # v1.34 Branch Management Shadow
     - neolit123 # Cluster Lifecycle
-    - npolshakova # 1.33 Release Lead
     - omerap12 # Autoscaling
     - pacoxu # Cluster Lifecycle
     - pohly # SIG Testing, Instrumentation, Node
@@ -104,7 +98,6 @@ teams:
     - RinkiyaKeDad # v1.38 Release Comms Lead
     - ritazh # Auth
     - rytswd # v1.38 Release Branch Management Shadow
-    - salaxander # Release Manager Associate / 1.29 RT EA
     - sanposhiho # Scheduling
     - saschagrunert # Release
     - SataQiu # Cluster Lifecycle
@@ -185,14 +178,11 @@ teams:
     - palnabarun
     members:
     - ameukam
-    - cici37
     - cpanato
     - jeremyrickard
     - jimangel
-    - jrsapi
     - justaugustus
     - puerco
-    - salaxander
     - saschagrunert
     - Verolop
     - xmudrii
@@ -211,11 +201,8 @@ teams:
     members:
     - BenTheElder
     - castrojo
-    - cici37
     - cpanato # Technical Lead
     - dims
-    - gracenng
-    - JamesLaverack
     - jberkus
     - jeefy
     - jeremyrickard # Technical Lead
@@ -223,10 +210,7 @@ teams:
     - katcosgrove
     - liggitt
     - puerco # Technical Lead
-    - reylejano
-    - salaxander
     - saschagrunert # Chair
-    - savitharaghunathan
     privacy: closed
     teams:
       release-engineering:
@@ -236,19 +220,11 @@ teams:
         - palnabarun # Release Manager
         members:
         - ameukam # Release Manager Associate
-        - cici37 # Release Manager
         - cpanato # subproject owner / Release Manager
-        - gracenng # Release Manager Associate
         - jeremyrickard # subproject owner / Release Manager
         - jimangel # Release Manager Associate / 1.32 Release Manager
-        - jrsapi # Release Manager Associate
         - justaugustus # subproject owner / Release Manager
-        - marosset # Release Manager Associate
-        - mehabhalodiya # Release Manager Associate
-        - mickeyboxell # 1.32 Release Manager Shadow
         - puerco # subproject owner / Release Manager
-        - ramrodo # Release Manager Associate
-        - salaxander # Release Manager Associate
         - saschagrunert # subproject owner / Release Manager
         - Verolop # subproject owner / Release Manager
         - xmudrii # Release Manager
@@ -265,7 +241,6 @@ teams:
             maintainers:
             - palnabarun
             members:
-            - cici37
             - cpanato
             - jeremyrickard
             - justaugustus
@@ -293,14 +268,12 @@ teams:
         - Caesarsage # v1.38 Docs Lead
         - cpanato # subproject owner / Technical Lead
         - dhanishaphadate # v1.38 Enhancements Shadow
-        - gracenng # subproject owner (1.28 RT Lead)
-        - jameslaverack # subproject owner (1.24 RT Lead)
         - jenshu # v1.38 Release Branch Management Shadow
         - jeremyrickard # subproject owner / Technical Lead
-        - jimangel # 1.32 RT Branch Manager
+        - jimangel # Release Manager
         - justaugustus # subproject owner / Chair
         - karimzakzouk # v1.38 Enhancements Shadow
-        - katcosgrove # 1.30 Lead / 1.32 EA
+        - katcosgrove # Subproject Lead
         - kei01234kei # v1.38 Release Signal Lead
         - kirti763 # v1.38 Release Comms Shadow
         - lasomethingsomething # v1.38 Enhancements Shadow
@@ -309,12 +282,9 @@ teams:
         - puerco # subproject owner / Technical Lead
         - Rajalakshmi-Girish # v1.38 Enhancements Shadow
         - rayandas # v1.38 Release Lead Shadow
-        - reylejano # subproject owner (1.23 RT Lead)
         - RinkiyaKeDad # v1.38 Release Comms Lead
         - rytswd # v1.38 Release Branch Management Shadow
-        - salaxander # subproject owner (1.27 RT Lead)
         - saschagrunert # subproject owner / Chair
-        - savitharaghunathan # subproject owner (1.22 RT Lead)
         - sayanchowdhury # v1.38 Release Comms Shadow
         - sreeram-venkitesh # v1.38 Release Team Lead
         - tico88612 # v1.38 Enhancements Lead

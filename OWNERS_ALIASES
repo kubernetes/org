@@ -75,6 +75,7 @@ aliases:
   sig-multicluster-leads:
     - jeremyot
     - skitt
+    - lauralorenz
   sig-network-leads:
     - aojea
     - bowei

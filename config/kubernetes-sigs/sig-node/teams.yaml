@@ -130,6 +130,7 @@ teams:
     - guptaNswati
     - klueska
     - shivamerla
+    - varunrsekar
     privacy: closed
     repos:
       dra-driver-nvidia-gpu: write

@@ -3,6 +3,7 @@ teams:
     description: admin access for the about-api repo
     members:
     - jeremyot
+    - lauralorenz
     - skitt
     privacy: closed
     repos:
@@ -20,6 +21,7 @@ teams:
     description: Admin access to the mcs-api repo
     members:
     - JeremyOT
+    - lauralorenz
     - skitt
     privacy: closed
     repos:
@@ -46,6 +48,7 @@ teams:
     description: Admin access for the work-api repo
     members:
     - jeremyot
+    - lauralorenz
     - qiujian16
     - RainbowMango
     - skitt
@@ -56,6 +59,7 @@ teams:
     description: Admin access for the multicluster-runtime repo
     members:
     - jeremyot
+    - lauralorenz
     - skitt
     - sttts
     privacy: closed
@@ -65,6 +69,7 @@ teams:
     description: Write access for the multicluster-runtime repo
     members:
     - jeremyot
+    - lauralorenz
     - skitt
     - sttts
     privacy: closed

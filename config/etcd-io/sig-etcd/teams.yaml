@@ -30,8 +30,8 @@ teams:
     - hakman
     - ivanvc
     - jberkus
-    - jmhbnz
     - justinsb
+    - silentred
     privacy: closed
     repos:
       etcd-operator: write

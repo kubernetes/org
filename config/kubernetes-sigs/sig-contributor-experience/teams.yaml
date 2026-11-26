@@ -103,8 +103,9 @@ teams:
   slack-infra-admins:
     description: admin access to slack-infra
     members:
+    - Champbreed
     - jeefy
-    - Katharine
+    - stmcginnis
     privacy: closed
     repos:
       slack-infra: admin

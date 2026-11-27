@@ -143,6 +143,24 @@ teams:
         - kaslin
         - mfahlandt
         privacy: closed
+  slack-admins:
+    description: Admins and moderators for the Kubernetes Slack workspace
+    maintainers:
+    - mrbobbytables
+    members:
+    - anguslees
+    - caniszczyk
+    - Champbreed
+    - coderanger
+    - DylanGraham
+    - idvoretskyi
+    - jberkus
+    - jeefy
+    - JoelSpeed
+    - mkumatag
+    - munnerz
+    - stmcginnis
+    privacy: closed
   youtube-admins:
     description: Members who have admin access to the Kubernetes Community
       YouTube channel.
